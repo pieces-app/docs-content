@@ -31,7 +31,7 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
 </CardGroup>
 
 <Card title="Learn More with Quick Guides" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1747065928779/0f8466fc-9daf-4c91-87ba-f596cd1cd6d3.png">
-  Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
+  Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
 </Card>
 
 This software is designed to provide **two main features**: AI Assistance with the Pieces Copilot and developer material management within the Pieces Drive.
