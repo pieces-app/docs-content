@@ -46,13 +46,31 @@ Follow the instructions below to install the Pieces CLI and any required depende
   </Step>
 
   <Step title="Install Pieces CLI">
-    Once Python is installed, its dependency `pip` is automatically installed. We will use this to install Pieces CLI.
+    Once Python is installed, its dependency `pip` is automatically installed. Choose your OS:
 
-    Open a terminal on your device and type `pip install pieces-cli`, or if you prefer to use Conda, type `conda install pieces-cli`. As long as Python is set up correctly, Pieces CLI will install.
+    <Tabs>
+      <Tab label="Windows">
+        Install the Pieces CLI on Windows using Python’s launcher:
 
-    If you’re on macOS, you can optionally install Pieces CLI via **Homebrew**:
+        ```bash
+        py -m pip install pieces-cli
+        ```
+      </Tab>
+      <Tab label="macOS">
+        Install with Homebrew on macOS:
 
-    * `homebrew install pieces-cli`
+        ```bash
+        brew install pieces-cli
+        ```
+      </Tab>
+      <Tab label="Linux">
+        Install with pip3 on Linux:
+
+        ```bash
+        pip3 install pieces-cli
+        ```
+      </Tab>
+    </Tabs>
   </Step>
 
   <Step title="Verify Installation">
@@ -90,11 +108,31 @@ Follow the steps below to update the Pieces CLI.
   </Step>
 
   <Step title="Update Pieces CLI">
-    In the open terminal, type `pip install pieces-cli -U`. This will update Pieces CLI with no other interaction needed. If you’re using Conda, type `conda update pieces-cli` to update Pieces CLI.
+    Choose your OS:
 
-    <Callout type="alert">
-      On Linux or macOS, running the command with sudo permissions may be required. To do this, run `sudo pip install pieces-cli -U`.
-    </Callout>
+    <Tabs>
+      <Tab label="Windows">
+        Update to the latest Pieces CLI on Windows:
+
+        ```bash
+        py -m pip install pieces-cli -U
+        ```
+      </Tab>
+      <Tab label="macOS">
+        Upgrade with Homebrew on macOS:
+
+        ```bash
+        brew upgrade pieces-cli
+        ```
+      </Tab>
+      <Tab label="Linux">
+        Update with pip3 on Linux:
+
+        ```bash
+        pip3 install pieces-cli -U
+        ```
+      </Tab>
+    </Tabs>
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/update_pieces_cli.png" alt="" align="center" fullwidth="true" />
   </Step>
@@ -172,7 +210,31 @@ If you also want to uninstall PiecesOS, [follow these steps](/products/core-depe
   </Step>
 
   <Step title="Run Uninstall Command">
-    If you installed Pieces CLI using PIP, you can type `pip uninstall pieces-cli` to remove the CLI. If you used Conda, you can type `conda remove pieces-cli`.
+    Choose your OS:
+
+    <Tabs>
+      <Tab label="Windows">
+        Uninstall on Windows:
+
+        ```bash
+        py -m pip uninstall pieces-cli
+        ```
+      </Tab>
+      <Tab label="macOS">
+        Uninstall with Homebrew on macOS:
+
+        ```bash
+        brew uninstall pieces-cli
+        ```
+      </Tab>
+      <Tab label="Linux">
+        Uninstall with pip3 on Linux:
+
+        ```bash
+        pip3 uninstall pieces-cli
+        ```
+      </Tab>
+    </Tabs>
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/pip_uninstall.png" alt="" align="center" fullwidth="true" />
   </Step>
