@@ -16,9 +16,9 @@ metaDescription: Learn how to use Pieces CLI for seamless command-line integrati
 
 The Pieces CLI offers users a straightforward way to manage and utilize saved code snippets through the Pieces Drive. It uses the AI-powered features of the [Pieces Copilot](/products/cli/copilot), all directly within your terminal.
 
-* [Pieces Copilot](/products/cli/copilot): Utilize AI-driven conversations to enhance productivity by offering contextual assistance for your projects. It facilitates understanding of code, writing of comments, troubleshooting, and more by incorporating files and folders as context, with or without the powerful Long-Term Memory Engine (LTM-2.5).
+* [Pieces Copilot](/products/cli/copilot): Utilize AI-driven conversations to enhance productivity by offering contextual assistance for your projects. It helps you understand code, write code comments, perform troubleshooting, and more by incorporating files and folders as context, with or without the powerful Long-Term Memory Engine (LTM-2.5).
 
-* [Pieces Drive](/products/cli/drive): Effortlessly save, find, and share your frequently used code snippets in your Pieces Drive. This makes organizing your work easy, allows for quick access to the code you need, and facilitates effective collaboration with others.
+* [Pieces Drive](/products/cli/drive): Easily save, find, and share your frequently used code snippets in your Pieces Drive. This makes organizing your work easy, allows for quick access to the code you need, and facilitates effective collaboration with others.
 
 <CardGroup cols={2}>
   <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1745331342247/687c66b0-ac65-412f-a9e0-39e6ac00c93b.png">
@@ -31,10 +31,10 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
 </CardGroup>
 
 <Card title="Learn More with Quick Guides" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1747065928779/0f8466fc-9daf-4c91-87ba-f596cd1cd6d3.png">
-  Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
+  Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
 </Card>
 
-This software is designed to provide **two main features**: AI Assistance with the Pieces Copilot and developer material management within the Pieces Drive.
+This software is designed to offer **two main features**: AI Assistance with the Pieces Copilot and developer material management within the Pieces Drive.
 
 ### Enhanced AI Assistance
 
