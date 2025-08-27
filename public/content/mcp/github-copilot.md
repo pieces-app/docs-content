@@ -17,11 +17,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Connecting [Pieces MCP](/products/mcp/get-started) to **GitHub Copilot** enhances context-aware coding by linking your current task with past work.
 
-This integration allows Copilot to provide insights like past implementations and peer-reviewed solutions.
+This integration allows GitHub Copilot to provide insights like past implementations and peer-reviewed solutions.
 
 You can ask context-rich questions, and Copilot can find answers from your local development history without searching through commits or messages.
 
-Follow the steps below to enable the Pieces MCP integration with GitHub Copilot for smarter, personalized AI assistance.
+Follow the steps below to integrate the Pieces MCP with GitHub Copilot for smarter, personalized AI assistance.
 
 ## Prerequisites
 
