@@ -1,0 +1,92 @@
+name: Auto Approve and Merge Bot PRs
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'piecesdocumentationbot'
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Generate GitHub App Token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+      
+      - name: Auto-approve PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.generate_token.outputs.token }}
+          script: |
+            const { owner, repo } = context.repo
+            const pull_number = context.issue.number
+            
+            // Approve the PR
+            await github.rest.pulls.createReview({
+              owner,
+              repo,
+              pull_number,
+              event: 'APPROVE',
+              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot'
+            })
+            
+            console.log(`Auto-approved PR #${pull_number}`)
+      
+      - name: Enable auto-merge
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.generate_token.outputs.token }}
+          script: |
+            const { owner, repo } = context.repo
+            const pull_number = context.issue.number
+            
+            // Enable auto-merge with squash strategy
+            await github.rest.pulls.enableAutoMerge({
+              owner,
+              repo,
+              pull_number,
+              merge_method: 'squash'
+            })
+            
+            console.log(`Enabled auto-merge for PR #${pull_number}`)
+      
+      - name: Add labels and comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.generate_token.outputs.token }}
+          script: |
+            const { owner, repo } = context.repo
+            const pull_number = context.issue.number
+            
+            // Add labels
+            await github.rest.issues.addLabels({
+              issue_number: pull_number,
+              owner,
+              repo,
+              labels: ['documentation', 'bot-generated', 'auto-approved']
+            })
+            
+            // Add comment
+            await github.rest.issues.createComment({
+              issue_number: pull_number,
+              owner,
+              repo,
+              body: `✅ **Auto-approved and ready to merge**
+              
+              This documentation update from @piecesdocumentationbot has been:
+              - ✅ Automatically approved
+              - ✅ Auto-merge enabled (squash)
+              - 🏷️ Labeled appropriately
+              
+              The PR will merge automatically once all status checks pass.`
+            })
+            
+            console.log(`Added labels and comment to PR #${pull_number}`)
