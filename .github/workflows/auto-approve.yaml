@@ -55,6 +55,7 @@ jobs:
               pull_number
             })
             
+            const botApproval = reviews.data.find(review => 
               review.user.login === 'piecesdocumentationapprovebot' && 
               review.state === 'APPROVED'
             )
@@ -71,7 +72,7 @@ jobs:
         if: steps.check_approval.outputs.already_approved == 'false'
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GH_APP_TOKEN }}  # Use GitHub App token with approval permissions
+          github-token: ${{ secrets.GH_APP_TOKEN }}
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
@@ -90,7 +91,7 @@ jobs:
       - name: Enable auto-merge
         uses: actions/github-script@v7
         with:
-          github-token: ${{ steps.generate_token.outputs.token }}
+          github-token: ${{ secrets.GH_APP_TOKEN }}
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
@@ -127,7 +128,7 @@ jobs:
       - name: Add labels and comment
         uses: actions/github-script@v7
         with:
-          github-token: ${{ steps.generate_token.outputs.token }}
+          github-token: ${{ secrets.GH_APP_TOKEN }}
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
