@@ -119,7 +119,7 @@ jobs:
               
               console.log(`Enabled auto-merge for PR #${pull_number}`)
             } catch (error) {
-              console.log(`Auto-merge may already be enabled: ${error.message}`)
+              console.log(`Could not enable auto-merge: ${error.message}`)
             }
       
       - name: Add labels and comment
