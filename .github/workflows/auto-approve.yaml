@@ -83,7 +83,7 @@ jobs:
               repo,
               pull_number,
               event: 'APPROVE',
-              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot'
+              body: 'Auto-approved: Documentation update from piecesdocumentationbot'
             })
             
             console.log(`Auto-approved PR #${pull_number}`)
@@ -114,7 +114,7 @@ jobs:
                 issue_number: pull_number,
                 owner,
                 repo,
-                body: `⚠️ **Auto-merge could not be enabled**
+                body: `**Auto-merge could not be enabled**
                 
                 The PR has been approved but auto-merge failed. This might be due to:
                 - Branch protection rules not being fully satisfied
@@ -146,13 +146,13 @@ jobs:
               issue_number: pull_number,
               owner,
               repo,
-              body: `✅ **Auto-approved and ready to merge**
+              body: `**Auto-approved and ready to merge**
               
               This documentation update from @piecesdocumentationbot has been:
-              - ✅ Automatically approved by GitHub App (satisfies "different approver" requirement)
-              - ⚠️  Commits are unsigned (may require manual merge)
-              - 🤖 Auto-merge enabled (squash)
-              - 🏷️ Labeled appropriately
+              - Automatically approved by GitHub App (satisfies "different approver" requirement)
+              - Commits are unsigned (may require manual merge)
+              - Auto-merge enabled (squash)
+              - Labeled appropriately
               
               Note: If branch protection requires signed commits, manual merge may be needed.`
             })
