@@ -2,7 +2,8 @@ name: Auto Approve and Merge Bot PRs
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, labeled]
+    types: [opened, synchronize, reopened]
+    # Removed 'labeled' to prevent infinite loops
 
 jobs:
   debug:
@@ -55,6 +56,8 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
+            console.log('Checking processing status for PR #' + pull_number)
+            
             // Check if PR is already approved AND commented by this bot
             const [reviews, comments] = await Promise.all([
               github.rest.pulls.listReviews({ owner, repo, pull_number }),
@@ -66,10 +69,15 @@ jobs:
               review.state === 'APPROVED'
             )
             
+            // More specific comment check to avoid false positives
             const botComment = comments.data.find(comment =>
               comment.user.login === 'piecesdocumentationapprovebot' &&
-              comment.body.includes('Auto-approved and ready to merge')
+              comment.body.includes('Auto-approved and ready to merge') &&
+              comment.body.includes('This documentation update from @piecesdocumentationbot')
             )
+            
+            console.log('Bot approval found:', !!botApproval)
+            console.log('Bot comment found:', !!botComment)
             
             if (botApproval && botComment) {
               console.log('PR already fully processed by bot, skipping all steps...')
@@ -89,6 +97,8 @@ jobs:
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
+            
+            console.log('Auto-approving PR #' + pull_number)
             
             await github.rest.pulls.createReview({
               owner,
@@ -110,6 +120,8 @@ jobs:
             const pull_number = context.issue.number
             
             try {
+              console.log('Enabling auto-merge for PR #' + pull_number)
+              
               await github.rest.pulls.enableAutoMerge({
                 owner,
                 repo,
@@ -131,27 +143,52 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
-            // Add labels (this is idempotent - won't duplicate)
-            await github.rest.issues.addLabels({
-              issue_number: pull_number,
-              owner,
-              repo,
-              labels: ['documentation', 'bot-generated', 'auto-approved', 'verified-commits']
+            console.log('Adding labels and comment to PR #' + pull_number)
+            
+            // First check one more time for existing comment (race condition protection)
+            const comments = await github.rest.issues.listComments({ 
+              owner, 
+              repo, 
+              issue_number: pull_number 
             })
             
-            // Add comment only if not already present
-            await github.rest.issues.createComment({
-              issue_number: pull_number,
-              owner,
-              repo,
-              body: `**Auto-approved and ready to merge**
-              
-              This documentation update from @piecesdocumentationbot has been:
-              - Automatically approved by GitHub App (satisfies "different approver" requirement)
-              - Auto-merge enabled (squash)
-              - Labeled appropriately
-              
-              Note: If branch protection requires signed commits, manual merge may be needed.`
-            })
+            const existingBotComment = comments.data.find(comment =>
+              comment.user.login === 'piecesdocumentationapprovebot' &&
+              comment.body.includes('Auto-approved and ready to merge') &&
+              comment.body.includes('This documentation update from @piecesdocumentationbot')
+            )
             
-            console.log(`Added labels and comment to PR #${pull_number}`)
+            if (existingBotComment) {
+              console.log('Comment already exists, skipping comment creation')
+            } else {
+              // Add comment first
+              await github.rest.issues.createComment({
+                issue_number: pull_number,
+                owner,
+                repo,
+                body: `**Auto-approved and ready to merge**
+                
+This documentation update from @piecesdocumentationbot has been:
+- Automatically approved by GitHub App (satisfies "different approver" requirement)
+- Auto-merge enabled (squash)
+- Will be labeled appropriately
+
+Note: If branch protection requires signed commits, manual merge may be needed.`
+              })
+              
+              console.log(`Added comment to PR #${pull_number}`)
+            }
+            
+            // Add labels (this is idempotent - won't duplicate existing labels)
+            try {
+              await github.rest.issues.addLabels({
+                issue_number: pull_number,
+                owner,
+                repo,
+                labels: ['documentation', 'bot-generated', 'auto-approved', 'verified-commits']
+              })
+              
+              console.log(`Added labels to PR #${pull_number}`)
+            } catch (error) {
+              console.log(`Failed to add labels: ${error.message}`)
+            }
