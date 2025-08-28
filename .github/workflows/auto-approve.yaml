@@ -39,17 +39,40 @@ jobs:
           echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
           echo "Either condition met - proceeding with approval"
       
-      - name: Generate GitHub App Token
-        id: generate_token
-        uses: actions/create-github-app-token@v1
-        with:
-          app-id: ${{ secrets.APP_ID }}
-          private-key: ${{ secrets.PRIVATE_KEY }}
-      
-      - name: Auto-approve PR
+      - name: Check if already approved
+        id: check_approval
         uses: actions/github-script@v7
         with:
-          github-token: ${{ steps.generate_token.outputs.token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo
+            const pull_number = context.issue.number
+            
+            // Check if PR is already approved by this bot
+            const reviews = await github.rest.pulls.listReviews({
+              owner,
+              repo,
+              pull_number
+            })
+            
+            const botApproval = reviews.data.find(review => 
+              review.user.login.includes('piecesdocumentationapprovebot') && 
+              review.state === 'APPROVED'
+            )
+            
+            if (botApproval) {
+              console.log('PR already approved by bot, skipping...')
+              core.setOutput('already_approved', 'true')
+              return
+            }
+            
+            core.setOutput('already_approved', 'false')
+      
+      - name: Auto-approve PR
+        if: steps.check_approval.outputs.already_approved == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}  # Use default token instead
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
@@ -60,7 +83,7 @@ jobs:
               repo,
               pull_number,
               event: 'APPROVE',
-              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot\n\n✅ All commits have verified signatures\n✅ Changes approved by GitHub App'
+              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot'
             })
             
             console.log(`Auto-approved PR #${pull_number}`)
@@ -127,11 +150,11 @@ jobs:
               
               This documentation update from @piecesdocumentationbot has been:
               - ✅ Automatically approved by GitHub App (satisfies "different approver" requirement)
-              - ✅ All commits have verified signatures
-              - ✅ Auto-merge enabled (squash)
+              - ⚠️  Commits are unsigned (may require manual merge)
+              - 🤖 Auto-merge enabled (squash)
               - 🏷️ Labeled appropriately
               
-              The PR will merge automatically once all other status checks pass.`
+              Note: If branch protection requires signed commits, manual merge may be needed.`
             })
             
             console.log(`Added labels and comment to PR #${pull_number}`)
