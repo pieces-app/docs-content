@@ -32,16 +32,16 @@ Pieces Web Extension supports most Chromium and Gecko-based browsers.
 
 Find their respective install pages below:
 
-<Card title="Chrome" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744643425227/3b4ac061-8750-4d02-af09-11e78ce583a8.png" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
+<Card title="Chrome" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/web-extension/chrome.webp" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
 
 <CardGroup cols={2}>
-  <Card title="Edge" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744643434444/0ec94446-6ad9-4597-af66-09ea59543d41.png" href="https://microsoftedge.microsoft.com/addons/detail/pieces-save-code-snippet/hglfimcdgonaeeobjckfdabcldfidmim" />
+  <Card title="Edge" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/web-extension/edsge.webp" href="https://microsoftedge.microsoft.com/addons/detail/pieces-save-code-snippet/hglfimcdgonaeeobjckfdabcldfidmim" />
 
-  <Card title="Firefox" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744643450048/bed96cff-6292-44f8-be5f-363be8cd1494.webp" href="https://addons.mozilla.org/en-US/firefox/addon/pieces-save-code-from-the-web/" />
+  <Card title="Firefox" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/web-extension/firefox.webp" href="https://addons.mozilla.org/en-US/firefox/addon/pieces-save-code-from-the-web/" />
 
-  <Card title="Brave" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744643519812/51ad4cae-9e83-4df5-8060-dd53fbd0b175.png" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
+  <Card title="Brave" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/web-extension/brave.webp" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
 
-  <Card title="Opera" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744643531058/0d5fcc6c-143c-4531-8694-071a82501642.png" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
+  <Card title="Opera" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/web-extension/opera.webp" href="https://chrome.google.com/webstore/detail/pieces-save-code-snippets/igbgibhbfonhmjlechmeefimncpekepm" />
 </CardGroup>
 
 ## Installing the Pieces Web Extension

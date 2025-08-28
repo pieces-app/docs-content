@@ -24,7 +24,7 @@ Click one of the links below to get started troubleshooting on your device—or 
 
 This guide covers troubleshooting for the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, checking hardware specifications, and fixing crashes, and more.
 
-<Card title="macOS + Windows + Linux" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743185867468/77f2c73e-fe75-4c7e-9bc4-ee69598df7fb.png">
+<Card title="macOS + Windows + Linux" image="/assets/icons/platform_logos/pieces_logo.png">
   Use the Cross-Platform page if you’re not sure where to begin or if your issue isn’t clearly related to your operating system.
 
   On the [Cross-Platform troubleshooting guide](/products/desktop/troubleshooting/cross-platform), you’ll find:
@@ -42,7 +42,7 @@ This guide shows how to fix installation and update problems with the Pieces Des
 
 It includes steps for manual installation using DMG or Homebrew, checking for updates, and confirming your macOS version and CPU type. It also gives steps to solve common system compatibility and installation errors.
 
-<Card title="macOS" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743185988569/d00ea8b3-2dcd-4da1-a2c3-47a12b6c42ae.png">
+<Card title="macOS" image="/assets/icons/platform_logos/macos_logo.png">
   The [macOS troubleshooting guide](/products/desktop/troubleshooting/macos) provides information and guides on:
 
   * [Alternative Installation Methods](/products/desktop/troubleshooting/macos#alternative-installation-methods)
@@ -60,7 +60,7 @@ This includes steps for manual installation using .exe or WinGet, how to update 
 
 It also covers how to ensure a clean restart after making fixes.
 
-<Card title="Windows" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743186019019/1e8789da-4614-46e3-bea7-8fc8f50ceea1.png">
+<Card title="Windows" image="/assets/icons/platform_logos/windows_logo.png">
   The [Windows troubleshooting guide](/products/desktop/troubleshooting/windows) provides information and guides on:
 
   * [Alternative installation methods for non-Suite installs](/products/desktop/troubleshooting/windows#alternative-installation-methods)
@@ -76,7 +76,7 @@ It also covers how to ensure a clean restart after making fixes.
 
 This guide explains how to troubleshoot the Pieces Desktop App on Linux, including updating via Snap, checking distribution compatibility, and fixing installation or display issues, and more.
 
-<Card title="Linux" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743186291298/debc8d14-c762-488e-99f5-042e4244591f.png">
+<Card title="Linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
   The [Linux troubleshooting guide](/products/desktop/troubleshooting/linux) provides information and guides on:
 
   * [Confirming compatibility with your Linux distribution](/products/desktop/troubleshooting/linux#checking-distribution-compatibility)

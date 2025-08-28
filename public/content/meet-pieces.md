@@ -9,7 +9,7 @@ metaDescription: Get started on Windows, macOS, Linux. Troubleshoot, configure, 
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734014941536/9c298363-d6b4-4e4a-9965-72db0fa59bc6.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png" alt="" align="center" fullwidth="true" />
 
 ***
 

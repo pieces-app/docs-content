@@ -59,7 +59,7 @@ When you save a snippet to the Pieces Cloud, the code is [enriched with valuable
 
 This information appears to the right of the code block when the shared snippet is open in your browser:
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731623145740/ec60e89f-ac2f-4396-b6a8-ad94f57d9745.png?auto=compress,format&format=webp&q=75" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_1.png" alt="" align="center" fullwidth="true" />
 
 ### Sensitive Information Watchdog
 
@@ -67,6 +67,6 @@ The share command does more than enable you to share snippets with your entire t
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731514684555/707b0769-5b68-448c-811b-a44d2414a10d.png?auto=compress,format&format=webp&q=75" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_2.png" alt="" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, such as API keys or passwords, and alerts you so you can make an informed decision before sharing the snippet.

@@ -23,11 +23,11 @@ It offers developers powerful tools for **managing code snippets, debugging, and
 - [Pieces Drive:](/products/extensions-plugins/web-extension/drive) Easily save, locate, and share frequently used code snippets, making it easier to organize your work, quickly access important pieces for code or websites, and collaborate effectively with others.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744645742426/b759dab7-243e-4cb7-b926-3a6643e43d07.webp">
+  <Card title="Getting Started" image="/assets/icons/browser_extension.png">
     Follow [these instructions](/products/extensions-plugins/web-extension/get-started) to download and install the [Pieces Web Extension](/products/web-extension/get-started#supported-browsers).
   </Card>
 
-  <Card title="Support" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744645758570/a0088c44-3f84-4a1f-bc99-6b1665802750.webp">
+  <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore [troubleshooting options](/products/extensions-plugins/web-extension/troubleshooting), navigate to our [support](/products/support) page, or directly [book a call with our engineers.](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr)
   </Card>
 </CardGroup>
