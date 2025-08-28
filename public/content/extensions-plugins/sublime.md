@@ -21,11 +21,11 @@ The <a target="_blank" href="https://packagecontrol.io/packages/Pieces">Pieces f
 * [Pieces Drive](/products/extensions-plugins/sublime/drive): Effortlessly save, locate, and share frequently used code snippets to the Pieces Drive—making it easier to organize your work, quickly access important pieces of code, and collaborate effectively with others.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743515885562/36f40b96-ec11-4a3b-8542-4ce11bc6ff4a.webp">
+  <Card title="Getting Started" image="/assets/icons/sublime.png">
     [Follow these instructions](/products/extensions-plugins/sublime/get-started) to download and install the Pieces for Sublime Text Plugin.
   </Card>
 
-  <Card title="Troubleshooting" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743515892062/d99ff323-61f6-40b8-b761-08accc1484f2.webp">
+  <Card title="Troubleshooting" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore [troubleshooting options,](/products/extensions-plugins/sublime/troubleshooting) navigate to our [support page,](/products/support) or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>

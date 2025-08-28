@@ -8,7 +8,7 @@ metaTitle: Using Pieces for Raycast | Pieces Docs
 metaDescription: Understand the benefits and importance of using the Pieces for Developers Raycast Extension, and get started with Quickstart and Commands.
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1729000712202/830de9f7-cebb-4661-b893-d1816cf2fc13.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/raycast/raycast.png" alt="" align="center" fullwidth="true" />
 
 ***
 

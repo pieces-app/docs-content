@@ -21,11 +21,11 @@ It gives users a simple way to manage and use saved code snippets through the Pi
 * [Pieces Drive](/products/obsidian/drive): Effortlessly save, find, and share your frequently used code snippets to your Pieces Drive. This makes organizing your work easy, quickly accessing important code, and collaborating effectively with others.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1735324600755/1532f4ad-d0db-46c7-9086-7bf1e026e71b.png">
+  <Card title="Getting Started" image="/assets/icons/obsidian.png">
     Follow [these instructions](/products/obsidian/get-started) to download and install the Pieces for Obsidian.
   </Card>
 
-  <Card title="Support & Troubleshooting" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1735324568468/7aabc7b5-90af-483e-9829-66c3c76c5961.webp">
+  <Card title="Support & Troubleshooting" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore [troubleshooting options](/products/obsidian/troubleshooting), navigate to our <a target="_blank" href="/products/support">support page</a>, or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>

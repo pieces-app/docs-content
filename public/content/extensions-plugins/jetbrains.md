@@ -25,11 +25,11 @@ It provides developers with powerful tools for **managing code snippets, debuggi
 - [AI Quick Actions:](/products/extensions-plugins/jetbrains/copilot/chat#ai-quick-actions) Fully integrated and Pieces-powered AI Quick Actions tools are built right into your code, making it even easier to access Pieces Copilot explanation and documentation features.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1731096255269/3c7ccc7f-599c-4f37-b15d-cc23d2e0be60.png">
+  <Card title="Getting Started" image="/assets/icons/jetbrains.png">
     Follow [these instructions](/products/extensions-plugins/jetbrains/get-started) to download and install the <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces">Pieces for JetBrains plugin.</a>
   </Card>
 
-  <Card title="Support" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1731096296705/4c1f6917-8818-4340-b604-836bb5b5b214.png">
+  <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore [troubleshooting options](/products/extensions-plugins/jetbrains/troubleshooting), navigate to our [support page](/products/support), or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>

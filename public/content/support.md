@@ -9,7 +9,7 @@ metaTitle: Pieces Support
 metaDescription: Reach out to our engineers, open support tickets, and read discussions on our GitHub page for support with Pieces software.
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734383533120/db6a6ede-80b3-43f2-95de-2f705b926c42.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/support/support_banner.png" alt="" align="center" fullwidth="true" />
 
 ***
 

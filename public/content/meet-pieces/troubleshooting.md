@@ -25,7 +25,7 @@ Click one of the links below to get started troubleshooting on your device—or 
 
 This cross-platform troubleshooting documentation covers the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, best practices for running local LLMs with Ollama, model selection for your hardware, and solutions for crashes due to limited resources or GPU compatibility.
 
-<Card title="macOS + Windows + Linux" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743183951564/da11bcc8-4fdf-49a6-b4a9-079186686ece.png">
+<Card title="macOS + Windows + Linux" image="/assets/icons/platform_logos/pieces_logo.png">
   Use the Cross-Platform page if you’re not sure where to begin or if your issue isn’t clearly related to your operating system.
 
   On the [Cross-Platform troubleshooting guide](/products/meet-pieces/troubleshooting/cross-platform), you’ll find:
@@ -41,7 +41,7 @@ This cross-platform troubleshooting documentation covers the Pieces Desktop App 
 
 This macOS guide helps troubleshoot installation and update issues for PiecesOS and the Pieces Desktop App on macOS, covering manual installs (`PKG`, `DMG`, Homebrew), checking macOS version and CPU type, and fixing compatibility or outdated software problems.
 
-<Card title="macOS" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743183846135/c03b138c-4fb6-4202-afe4-4f3503393ff4.png">
+<Card title="macOS" image="/assets/icons/platform_logos/macos_logo.png">
   The [macOS troubleshooting guide](/products/meet-pieces/troubleshooting/macos) provides information and guides on:
 
   * [How to verify your macOS software version](/products/meet-pieces/troubleshooting/macos#checking-os-version)
@@ -55,7 +55,7 @@ This macOS guide helps troubleshoot installation and update issues for PiecesOS 
 
 Windows users can find troubleshooting steps for installing, updating, or running PiecesOS and the Pieces Desktop App on Windows. It includes manual installation, update instructions, system checks, and solutions for issues with outdated Windows versions, dependencies, or hardware compatibility.
 
-<Card title="Windows" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743183998547/ab81fe73-85c3-4739-bb63-ac85824413c8.png">
+<Card title="Windows" image="/assets/icons/platform_logos/windows_logo.png">
   The [Windows troubleshooting guide](/products/meet-pieces/troubleshooting/windows) provides information and guides on:
 
   * [Checking for Windows installation updates](/products/meet-pieces/troubleshooting/windows#checking-for-windows-updates)
@@ -71,7 +71,7 @@ Windows users can find troubleshooting steps for installing, updating, or runnin
 
 Ubuntu 22+ Linux users can use this guide to troubleshoot PiecesOS and the Pieces Desktop App. It covers updating via Snap, checking system compatibility, and fixing common installation or display issues. It also offers tips for adjusting GPU settings and verifying hardware and Ubuntu version compatibility.
 
-<Card title="Linux" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743184029199/1e8e5852-ca00-4843-91ca-20d8508c414b.png">
+<Card title="Linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
   The [Linux troubleshooting guide](/products/meet-pieces/troubleshooting/linux) provides information and guides on:
 
   * [Confirming compatibility with your Linux distribution](/products/meet-pieces/troubleshooting/linux#checking-distribution-compatibility)

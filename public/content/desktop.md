@@ -21,11 +21,11 @@ Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and sou
 Let’s dive in!
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1732224138565/e3e45754-544d-4cf1-8ca0-a07c8b7c12b7.png">
+  <Card title="Getting Started" image="/assets/icons/pieces_desktop.png">
     Follow these instructions to download and install the Pieces for Developers Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
   </Card>
 
-  <Card title="Support" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1732224146114/4484e983-32a4-4526-9fa6-ecb4f418d45d.png">
+  <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore troubleshooting options, visit our [support page](/products/support), or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">book a call</a> directly with our engineers.
   </Card>
 </CardGroup>

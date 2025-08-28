@@ -23,11 +23,11 @@ It provides users with a streamlined solution for managing and interacting with 
 * [Pieces Drive](/products/extensions-plugins/visual-studio/drive): Effortlessly save, locate, and share frequently used code snippets to your Pieces Drive—Making it easier to organize your work, quickly access essential pieces of code, and collaborate effectively with others.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1738594724152/53e7f635-9e95-4d4b-8a8a-21f2b5a69f6b.png">
+  <Card title="Getting Started" image="/assets/icons/visual_studio.png">
     Follow [these instructions](/products/extensions-plugins/visual-studio/get-started) to download and install the Pieces for Visual Studio IDE Extension.
   </Card>
 
-  <Card title="Support & Troubleshooting" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1738291474469/028feb3e-99e7-433b-8ff8-300d49b22d14.webp">
+  <Card title="Support & Troubleshooting" image="/assets/icons/platform_logos/pieces_logo.png">
     Explore [troubleshooting options](/products/extensions-plugins/visual-studio/troubleshooting), navigate to our [support page](/products/support), or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>
