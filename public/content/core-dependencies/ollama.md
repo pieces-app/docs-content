@@ -15,7 +15,7 @@ Ollama is an *optional* but powerful dependency that allows PiecesOS to run Larg
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="" align="center" fullwidth="true" />
 
-Unlike PiecesOS—which is required for all Pieces functionality—Ollama is only needed if you want to use local AI models with Pieces Copilot. 
+Unlike PiecesOS—which is required for all Pieces functionality—Ollama is only needed if you want to use local AI models with Pieces Copilot.
 
 <Callout type="tip">
   Using Ollama for local generative AI is *a separate process* from how PiecesOS uses local, in-house LoRA models for processing data with the LTM-2.5 Engine.
