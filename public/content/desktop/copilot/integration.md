@@ -38,7 +38,7 @@ The Workstream Activity cards will display under the response with several cards
 
 ### LTM Context Toggle
 
-Below the *Set Context* section of the main Pieces Copilot view, you have the option to enable LTM Context.
+Below the *Set Context* section of the main Pieces Copilot view, you have the option to enable LTM Context. 
 
 When turned on, your long-term memory data—captured by PiecesOS from your previous workflow—is automatically injected into every new chat.
 
