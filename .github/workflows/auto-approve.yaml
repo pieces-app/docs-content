@@ -136,7 +136,7 @@ jobs:
               issue_number: pull_number,
               owner,
               repo,
-              labels: ['documentation', 'bot-generated', 'auto-approved']
+              labels: ['documentation', 'bot-generated', 'auto-approved', 'verified-commits']
             })
             
             // Add comment only if not already present
