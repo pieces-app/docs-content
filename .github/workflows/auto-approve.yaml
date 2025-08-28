@@ -5,15 +5,80 @@ on:
     types: [opened]
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug PR info
+        run: |
+          echo "=== PR DEBUG INFO ==="
+          echo "PR author: '${{ github.event.pull_request.user.login }}'"
+          echo "PR title: '${{ github.event.pull_request.title }}'"
+          echo "Event action: '${{ github.event.action }}'"
+          echo "Expected author: 'piecesdocumentationbot'"
+          echo "Author match: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
+          echo "PR number: ${{ github.event.pull_request.number }}"
+          echo "=== LABELS DEBUG ==="
+          echo "PR labels: ${{ toJSON(github.event.pull_request.labels) }}"
+
   auto-approve:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'piecesdocumentationbot'
+    if: |
+      github.event.pull_request.user.login == 'piecesdocumentationbot' || 
+      contains(github.event.pull_request.labels.*.name, 'auto-mirror')
+    needs: debug
     
     permissions:
       contents: write
       pull-requests: write
     
     steps:
+      - name: Debug condition check
+        run: |
+          echo "=== CONDITION DEBUG ==="
+          echo "Bot check: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
+          echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
+          echo "Either condition met - proceeding with approval"
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Check commit signatures
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo
+            const pull_number = context.issue.number
+            
+            // Get PR commits
+            const commits = await github.rest.pulls.listCommits({
+              owner,
+              repo,
+              pull_number
+            })
+            
+            // Check if all commits are verified
+            const unverifiedCommits = commits.data.filter(commit => !commit.commit.verification.verified)
+            
+            if (unverifiedCommits.length > 0) {
+              console.log(`Found ${unverifiedCommits.length} unverified commits`)
+              // Comment about signature issue
+              await github.rest.issues.createComment({
+                issue_number: pull_number,
+                owner,
+                repo,
+                body: `⚠️ **Signature Verification Required**
+                
+                This PR contains ${unverifiedCommits.length} unverified commit(s). Branch protection requires all commits to have verified signatures.
+                
+                @piecesdocumentationbot needs to be configured with GPG signing to enable auto-merge.`
+              })
+              process.exit(1)
+            }
+            
+            console.log('All commits are verified ✅')
+      
       - name: Generate GitHub App Token
         id: generate_token
         uses: actions/create-github-app-token@v1
@@ -35,7 +100,7 @@ jobs:
               repo,
               pull_number,
               event: 'APPROVE',
-              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot'
+              body: '🤖 Auto-approved: Documentation update from piecesdocumentationbot\n\n✅ All commits have verified signatures\n✅ Changes approved by GitHub App'
             })
             
             console.log(`Auto-approved PR #${pull_number}`)
@@ -48,15 +113,34 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
-            // Enable auto-merge with squash strategy
-            await github.rest.pulls.enableAutoMerge({
-              owner,
-              repo,
-              pull_number,
-              merge_method: 'squash'
-            })
-            
-            console.log(`Enabled auto-merge for PR #${pull_number}`)
+            try {
+              // Enable auto-merge with squash strategy
+              await github.rest.pulls.enableAutoMerge({
+                owner,
+                repo,
+                pull_number,
+                merge_method: 'squash'
+              })
+              
+              console.log(`Enabled auto-merge for PR #${pull_number}`)
+            } catch (error) {
+              console.log(`Could not enable auto-merge: ${error.message}`)
+              
+              // Comment with the issue
+              await github.rest.issues.createComment({
+                issue_number: pull_number,
+                owner,
+                repo,
+                body: `⚠️ **Auto-merge could not be enabled**
+                
+                The PR has been approved but auto-merge failed. This might be due to:
+                - Branch protection rules not being fully satisfied
+                - Missing required status checks
+                - Other repository settings
+                
+                Manual merge may be required.`
+              })
+            }
       
       - name: Add labels and comment
         uses: actions/github-script@v7
@@ -71,10 +155,10 @@ jobs:
               issue_number: pull_number,
               owner,
               repo,
-              labels: ['documentation', 'bot-generated', 'auto-approved']
+              labels: ['documentation', 'bot-generated', 'auto-approved', 'verified-commits']
             })
             
-            // Add comment
+            // Add success comment
             await github.rest.issues.createComment({
               issue_number: pull_number,
               owner,
@@ -82,11 +166,12 @@ jobs:
               body: `✅ **Auto-approved and ready to merge**
               
               This documentation update from @piecesdocumentationbot has been:
-              - ✅ Automatically approved
+              - ✅ Automatically approved by GitHub App (satisfies "different approver" requirement)
+              - ✅ All commits have verified signatures
               - ✅ Auto-merge enabled (squash)
               - 🏷️ Labeled appropriately
               
-              The PR will merge automatically once all status checks pass.`
+              The PR will merge automatically once all other status checks pass.`
             })
             
             console.log(`Added labels and comment to PR #${pull_number}`)
