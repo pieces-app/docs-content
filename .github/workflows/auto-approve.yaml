@@ -2,7 +2,7 @@ name: Auto Approve and Merge Bot PRs
 
 on:
   pull_request:
-    types: [opened, synchronize]  # Trigger on PR creation and when new commits are pushed
+    types: [opened]  # Only trigger once when PR is created
 
 jobs:
   auto-approve:
@@ -30,7 +30,6 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
-            // Check if PR is already approved by this bot
             const reviews = await github.rest.pulls.listReviews({ owner, repo, pull_number })
             
             const botApproval = reviews.data.find(review => 
@@ -38,16 +37,10 @@ jobs:
               review.state === 'APPROVED'
             )
             
-            if (botApproval) {
-              console.log('PR already processed by bot, exiting...')
-              core.setOutput('skip_all', 'true')
-              return
-            }
-            
-            core.setOutput('skip_all', 'false')
+            core.setOutput('already_approved', botApproval ? 'true' : 'false')
       
-      - name: Auto-approve PR
-        if: steps.check_processed.outputs.skip_all == 'false'
+      - name: Auto-approve and enable auto-merge
+        if: steps.check_processed.outputs.already_approved == 'false'
         uses: actions/github-script@v7
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
@@ -55,6 +48,7 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
+            // Approve the PR
             await github.rest.pulls.createReview({
               owner,
               repo,
@@ -63,17 +57,7 @@ jobs:
               body: 'Auto-approved: Documentation update from piecesdocumentationbot'
             })
             
-            console.log(`Auto-approved PR #${pull_number}`)
-      
-      - name: Enable auto-merge
-        if: steps.check_processed.outputs.skip_all == 'false'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ steps.generate_token.outputs.token }}
-          script: |
-            const { owner, repo } = context.repo
-            const pull_number = context.issue.number
-            
+            // Enable auto-merge
             try {
               await github.rest.pulls.enableAutoMerge({
                 owner,
@@ -81,8 +65,7 @@ jobs:
                 pull_number,
                 merge_method: 'squash'
               })
-              
-              console.log(`Enabled auto-merge for PR #${pull_number}`)
+              console.log(`Approved and enabled auto-merge for PR #${pull_number}`)
             } catch (error) {
               console.log(`Auto-merge may already be enabled: ${error.message}`)
             }
