@@ -3,7 +3,6 @@ name: Auto Approve and Merge Bot PRs
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    # Removed 'labeled' to prevent infinite loops
 
 jobs:
   debug:
