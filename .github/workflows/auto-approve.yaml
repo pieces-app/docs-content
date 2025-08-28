@@ -38,12 +38,7 @@ jobs:
           echo "Bot check: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
           echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
           echo "Either condition met - proceeding with approval"
-    
-    permissions:
-      contents: write
-      pull-requests: write
-    
-    steps:
+      
       - name: Check commit signatures
         uses: actions/github-script@v7
         with:
