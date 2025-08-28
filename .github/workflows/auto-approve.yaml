@@ -29,6 +29,7 @@ jobs:
   auto-approve:
     runs-on: ubuntu-latest
     if: |
+      github.event_name == 'workflow_dispatch' ||
       github.event.pull_request.user.login == 'piecesdocumentationbot' || 
       contains(github.event.pull_request.labels.*.name, 'auto-mirror')
     needs: debug
@@ -59,7 +60,14 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
-            const pull_number = context.issue.number
+            let pull_number
+            
+            // Handle both PR events and manual dispatch
+            if (context.eventName === 'workflow_dispatch') {
+              pull_number = ${{ github.event.inputs.pr_number }}
+            } else {
+              pull_number = context.issue.number
+            }
             
             console.log('Checking processing status for PR #' + pull_number)
             
@@ -91,6 +99,7 @@ jobs:
             core.setOutput('skip_all', 'false')
             core.setOutput('already_approved', botApproval ? 'true' : 'false')
             core.setOutput('already_commented', botComment ? 'true' : 'false')
+            core.setOutput('pull_number', pull_number)
       
       - name: Auto-approve PR
         if: steps.check_processed.outputs.skip_all == 'false' && steps.check_processed.outputs.already_approved == 'false'
@@ -99,7 +108,7 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
-            const pull_number = context.issue.number
+            const pull_number = ${{ steps.check_processed.outputs.pull_number }}
             
             console.log('Auto-approving PR #' + pull_number)
             
@@ -120,7 +129,7 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
-            const pull_number = context.issue.number
+            const pull_number = ${{ steps.check_processed.outputs.pull_number }}
             
             try {
               console.log('Enabling auto-merge for PR #' + pull_number)
@@ -144,7 +153,7 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
-            const pull_number = context.issue.number
+            const pull_number = ${{ steps.check_processed.outputs.pull_number }}
             
             console.log('Adding labels and comment to PR #' + pull_number)
             
