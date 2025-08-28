@@ -59,7 +59,7 @@ Here’s how Ollama works alongside PiecesOS:
 
 PiecesOS primarily uses cloud-based AI models for Pieces Copilot.
 
-However, users who prefer on-device AI for speed, privacy, or offline access can install Ollama to enable local models.
+However, users who prefer on-device AI for speed, privacy, or offline access can install Ollama to enable local models. 
 
 [You can read about the system requirements for Ollama here.](/products/core-dependencies/ollama/troubleshooting#using-local-models)
 
