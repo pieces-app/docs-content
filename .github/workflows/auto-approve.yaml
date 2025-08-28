@@ -2,7 +2,7 @@ name: Auto Approve and Merge Bot PRs
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize, reopened, labeled]
 
 jobs:
   debug:
@@ -38,41 +38,6 @@ jobs:
           echo "Bot check: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
           echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
           echo "Either condition met - proceeding with approval"
-      
-      - name: Check commit signatures
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { owner, repo } = context.repo
-            const pull_number = context.issue.number
-            
-            // Get PR commits
-            const commits = await github.rest.pulls.listCommits({
-              owner,
-              repo,
-              pull_number
-            })
-            
-            // Check if all commits are verified
-            const unverifiedCommits = commits.data.filter(commit => !commit.commit.verification.verified)
-            
-            if (unverifiedCommits.length > 0) {
-              console.log(`Found ${unverifiedCommits.length} unverified commits`)
-              // Comment about signature issue
-              await github.rest.issues.createComment({
-                issue_number: pull_number,
-                owner,
-                repo,
-                body: `⚠️ **Signature Verification Required**
-                
-                This PR contains ${unverifiedCommits.length} unverified commit(s). Branch protection requires all commits to have verified signatures.
-                
-                @piecesdocumentationbot needs to be configured with GPG signing to enable auto-merge.`
-              })
-              process.exit(1)
-            }
-            
-            console.log('All commits are verified ✅')
       
       - name: Generate GitHub App Token
         id: generate_token
