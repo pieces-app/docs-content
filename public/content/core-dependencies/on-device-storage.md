@@ -28,7 +28,7 @@ We never use your data to train third-party models. You can delete your entire d
 
 ## Where your Database Lives
 
-Pieces stores all snippet metadata, embeddings, tags, and workflow context captured by LTM-2.5 in a single folder inside the `com.pieces` directory on your machine.
+Pieces stores all snippet metadata, embeddings, tags, and workflow context captured by LTM-2.5 in a single folder inside the `com.pieces` directory on your machine. 
 
 | **Platform** | **Default path\***                             |
 | ------------ | ---------------------------------------------- |
