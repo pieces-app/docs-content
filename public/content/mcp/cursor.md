@@ -125,7 +125,7 @@ Once integrated, you can utilize [Pieces LTM](/products/core-dependencies/pieces
   </Step>
 
   <Step title="Select ‘Cursor Agent’">
-    Make sure that you are using the *Cursor Agent* mode, not *Ask* or *Manual.* This is required to use the `ask_pieces_ltm` tool to access context from LTM.
+    Make sure that you're using the *Cursor Agent* mode, not *Ask* or *Manual.* This is required to use the `ask_pieces_ltm` tool to access context from LTM.
   </Step>
 
   <Step title="Begin Prompting">

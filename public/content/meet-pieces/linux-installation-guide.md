@@ -79,15 +79,15 @@ You can uninstall PiecesOS and the Pieces Desktop App using `snap` commands dire
 
 <Steps>
   <Step title="Removing the Pieces Desktop Application">
-    Type `sudo apt remove pieces-for-developers` and press `enter`.
+    `sudo apt remove pieces-for-developers`
   </Step>
 
   <Step title="Removing PiecesOS">
-    Type `sudo apt remove pieces-os` and press `enter`.
+    `sudo apt remove pieces-os`
   </Step>
 
   <Step title="Removing Unused Dependencies (Optional)">
-    Type `sudo apt autoremove` and press `enter`.
+    `sudo apt autoremove`
   </Step>
 </Steps>
 
