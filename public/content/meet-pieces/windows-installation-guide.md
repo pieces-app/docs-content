@@ -20,7 +20,7 @@ The recommended installation method on Windows is using the `.appinstaller` file
 Download the Pieces Desktop app—after installing Pieces Desktop, PiecesOS will be automatically installed, as it is a necessary dependency.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744838536184/842e4eed-5111-45d2-8157-23bb8fa64049.webp" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller">
+  <Card title="Download — Pieces Desktop App" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744838536184/842e4eed-5111-45d2-8157-23bb8fa64049.webp" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller" gaEvent="doc_download_click" gaPlatform="windows">
     *Recommended Method*
 
     Windows 10 (1809) or higher required.
@@ -75,7 +75,7 @@ If you prefer an alternative installation method aside from the `.appinstaller` 
 If you cannot use the `.appinstaller` method for any reason, you can also install Pieces via `.exe`.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (EXE)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744838637934/aeebf045-f502-4896-8d99-104607d9ede1.webp" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE&_gl=1*1a9yqbf*_gcl_au*OTQ5NDE1NTA4LjE3Mzk0NjU4MzM.*_ga*MTI0OTgzMTMuMTcyNDA5ODQwNg..*_ga_BVYEFRWCYX*MTc0MDc4MjM4Mi44LjAuMTc0MDc4MjM4Mi42MC4wLjA.">
+  <Card title="Download — Pieces Desktop App (EXE)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744838637934/aeebf045-f502-4896-8d99-104607d9ede1.webp" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE&_gl=1*1a9yqbf*_gcl_au*OTQ5NDE1NTA4LjE3Mzk0NjU4MzM.*_ga*MTI0OTgzMTMuMTcyNDA5ODQwNg..*_ga_BVYEFRWCYX*MTc0MDc4MjM4Mi44LjAuMTc0MDc4MjM4Mi42MC4wLjA." gaEvent="doc_download_click" gaPlatform="windows">
     *Alternative Method*
 
     Windows 10 (20H0) or higher required.
