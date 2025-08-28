@@ -21,7 +21,7 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
 * [Pieces Drive](/products/cli/drive): Easily save, find, and share your frequently used code snippets in your Pieces Drive. This makes organizing your work easy, allows for quick access to the code you need, and facilitates effective collaboration with others.
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="/assets/icons/terminal.png">
+  <Card title="Getting Started" image="/assets/icons/command_prompt.png">
     Follow [these instructions](/products/cli/get-started) on how to download and install the Pieces CLI.
   </Card>
 
@@ -30,7 +30,7 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
   </Card>
 </CardGroup>
 
-<Card title="Learn More with Quick Guides" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1747065928779/0f8466fc-9daf-4c91-87ba-f596cd1cd6d3.png">
+<Card title="Learn More with Quick Guides" image="/assets/icons/platform_logos/pieces_logo.png">
   Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
 </Card>
 

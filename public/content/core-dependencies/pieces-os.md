@@ -43,8 +43,8 @@ Using the Pieces Desktop App or a Pieces plugin or extension for your favorite I
 
 The **Long-Term Memory (LTM-2.5) Engine** is a powerful evolution of the original LTM system, designed to store and surface workflow context from up to **nine months** in the past.
 
-<Card title="Want a Sneak Peak?" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1745425239243/516a20d3-2664-4f22-9b32-f0f14924a87a.webp">
-  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.5 and the coming *LTM-2.5.5*
+<Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
+  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.5 and the coming *LTM-2.5*
 </Card>
 
 By combining automatic “roll-ups” with flexible “memories” browsing, LTM-2.5 ensures you don’t lose track of code, discussions, or references—even if you return to a project weeks or months later.
@@ -115,7 +115,7 @@ Learn [how to use Pieces Long-Term Memory](/products/quick-guides/ltm-context) t
 
 5. **Bridge Gaps Between Tools:** Pull in information from any browser-based tool or document viewer, and make it accessible directly inside Pieces Copilot chats.
 
-<Card title="Pieces + MCP" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744828766164/e0d722d2-f173-48e4-8de1-ec13d00769a3.png">
+<Card title="Pieces + MCP" image="/assets/icons/platform_logos/pieces_logo.png">
   Here’s another use case for you—try combining the power of Pieces Long-Term Memory with Model Context Protocol (MCP) servers with the brand new [Pieces MCP.](/products/mcp/get-started)
 </Card>
 
