@@ -2,7 +2,7 @@ name: Auto Approve and Merge Bot PRs
 
 on:
   pull_request:
-    types: [opened]  # Only trigger on PR creation, not label changes
+    types: [opened, synchronize]  # Trigger on PR creation and when new commits are pushed
 
 jobs:
   auto-approve:
