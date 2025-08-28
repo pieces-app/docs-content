@@ -2,43 +2,18 @@ name: Auto Approve and Merge Bot PRs
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, labeled]
+    types: [opened]  # Only trigger on PR creation, not label changes
 
 jobs:
-  debug:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Debug PR info
-        run: |
-          echo "=== PR DEBUG INFO ==="
-          echo "PR author: '${{ github.event.pull_request.user.login }}'"
-          echo "PR title: '${{ github.event.pull_request.title }}'"
-          echo "Event action: '${{ github.event.action }}'"
-          echo "Expected author: 'piecesdocumentationbot'"
-          echo "Author match: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
-          echo "PR number: ${{ github.event.pull_request.number }}"
-          echo "=== LABELS DEBUG ==="
-          echo "PR labels: ${{ toJSON(github.event.pull_request.labels) }}"
-
   auto-approve:
     runs-on: ubuntu-latest
-    if: |
-      github.event.pull_request.user.login == 'piecesdocumentationbot' || 
-      contains(github.event.pull_request.labels.*.name, 'auto-mirror')
-    needs: debug
+    if: github.event.pull_request.user.login == 'piecesdocumentationbot'
     
     permissions:
       contents: write
       pull-requests: write
     
     steps:
-      - name: Debug condition check
-        run: |
-          echo "=== CONDITION DEBUG ==="
-          echo "Bot check: ${{ github.event.pull_request.user.login == 'piecesdocumentationbot' }}"
-          echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
-          echo "Either condition met - proceeding with approval"
-      
       - name: Generate GitHub App Token
         id: generate_token
         uses: actions/create-github-app-token@v1
@@ -55,34 +30,24 @@ jobs:
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
             
-            // Check if PR is already approved AND commented by this bot
-            const [reviews, comments] = await Promise.all([
-              github.rest.pulls.listReviews({ owner, repo, pull_number }),
-              github.rest.issues.listComments({ owner, repo, issue_number: pull_number })
-            ])
+            // Check if PR is already approved by this bot
+            const reviews = await github.rest.pulls.listReviews({ owner, repo, pull_number })
             
             const botApproval = reviews.data.find(review => 
               review.user.login === 'piecesdocumentationapprovebot' && 
               review.state === 'APPROVED'
             )
             
-            const botComment = comments.data.find(comment =>
-              comment.user.login === 'piecesdocumentationapprovebot' &&
-              comment.body.includes('Auto-approved and ready to merge')
-            )
-            
-            if (botApproval && botComment) {
-              console.log('PR already fully processed by bot, skipping all steps...')
+            if (botApproval) {
+              console.log('PR already processed by bot, exiting...')
               core.setOutput('skip_all', 'true')
               return
             }
             
             core.setOutput('skip_all', 'false')
-            core.setOutput('already_approved', botApproval ? 'true' : 'false')
-            core.setOutput('already_commented', botComment ? 'true' : 'false')
       
       - name: Auto-approve PR
-        if: steps.check_processed.outputs.skip_all == 'false' && steps.check_processed.outputs.already_approved == 'false'
+        if: steps.check_processed.outputs.skip_all == 'false'
         uses: actions/github-script@v7
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
@@ -119,39 +84,5 @@ jobs:
               
               console.log(`Enabled auto-merge for PR #${pull_number}`)
             } catch (error) {
-              console.log(`Could not enable auto-merge: ${error.message}`)
+              console.log(`Auto-merge may already be enabled: ${error.message}`)
             }
-      
-      - name: Add labels and comment
-        if: steps.check_processed.outputs.skip_all == 'false' && steps.check_processed.outputs.already_commented == 'false'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ steps.generate_token.outputs.token }}
-          script: |
-            const { owner, repo } = context.repo
-            const pull_number = context.issue.number
-            
-            // Add labels (this is idempotent - won't duplicate)
-            await github.rest.issues.addLabels({
-              issue_number: pull_number,
-              owner,
-              repo,
-              labels: ['documentation', 'bot-generated', 'auto-approved', 'verified-commits']
-            })
-            
-            // Add comment only if not already present
-            await github.rest.issues.createComment({
-              issue_number: pull_number,
-              owner,
-              repo,
-              body: `**Auto-approved and ready to merge**
-              
-              This documentation update from @piecesdocumentationbot has been:
-              - Automatically approved by GitHub App (satisfies "different approver" requirement)
-              - Auto-merge enabled (squash)
-              - Labeled appropriately
-              
-              Note: If branch protection requires signed commits, manual merge may be needed.`
-            })
-            
-            console.log(`Added labels and comment to PR #${pull_number}`)
