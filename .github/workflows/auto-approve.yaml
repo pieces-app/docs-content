@@ -55,8 +55,7 @@ jobs:
               pull_number
             })
             
-            const botApproval = reviews.data.find(review => 
-              review.user.login.includes('piecesdocumentationapprovebot') && 
+              review.user.login === 'piecesdocumentationapprovebot' && 
               review.state === 'APPROVED'
             )
             
