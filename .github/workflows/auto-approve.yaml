@@ -39,11 +39,18 @@ jobs:
           echo "Label check: ${{ contains(github.event.pull_request.labels.*.name, 'auto-mirror') }}"
           echo "Either condition met - proceeding with approval"
       
+      - name: Generate GitHub App Token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+      
       - name: Check if already approved
         id: check_approval
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
@@ -68,11 +75,18 @@ jobs:
             
             core.setOutput('already_approved', 'false')
       
+      - name: Generate GitHub App Token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+      
       - name: Auto-approve PR
         if: steps.check_approval.outputs.already_approved == 'false'
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GH_APP_TOKEN }}
+          github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const { owner, repo } = context.repo
             const pull_number = context.issue.number
