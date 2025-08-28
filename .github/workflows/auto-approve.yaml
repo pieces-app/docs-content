@@ -64,7 +64,7 @@ jobs:
             
             // Handle both PR events and manual dispatch
             if (context.eventName === 'workflow_dispatch') {
-              pull_number = ${{ github.event.inputs.pr_number }}
+              pull_number = parseInt('${{ github.event.inputs.pr_number }}')
             } else {
               pull_number = context.issue.number
             }
