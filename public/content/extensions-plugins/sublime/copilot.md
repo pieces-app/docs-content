@@ -14,7 +14,7 @@ If you're unsure how to implement a specific feature or stuck on a bug, you can 
 
 The Pieces for Sublime Text plugin provides various conversation features, all fully integrated with Pieces. You can activate the **Long Term Memory Engine (LTM-2.5)** for detailed, seamless context across your entire workflow, or start a limited context conversation in the text editor's side view.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733963468023/508efe59-fa48-4b81-b2e5-b252ae9f0703.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/generative_ai_conversations.png" alt="" align="center" fullwidth="true" />
 
 ## Adding Conversation Context
 
@@ -76,7 +76,7 @@ Options include lightweight models for simple queries, advanced models for in-de
 
 This flexibility lets you customize the Pieces Copilot experience to suit your specific development needs, whether prioritizing speed or accuracy.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733964812742/8adf13f1-2f19-4399-9999-864ae36d5d99.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/selecting_runtime.png" alt="" align="center" fullwidth="true" />
 
 ## Pieces Copilot As a Daily Driver
 

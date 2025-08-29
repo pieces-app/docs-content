@@ -62,7 +62,7 @@ Saving a snippet via keyboard shortcut will trigger the same success modal in th
 
 When you start a conversation about a piece of code in your active file or have any code block in your Copilot Chat, you can save it to Pieces using the `Save to Pieces` button in the Copilot Chat view.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734039141656/abf74d05-29e7-4769-995c-2157939ff930.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/via_copilot_chat.png" alt="" align="center" fullwidth="true" />
 
 ## What’s Stored When You Save a Snippet
 

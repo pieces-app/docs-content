@@ -8,7 +8,7 @@ metaTitle: Using Pieces for JetBrains Plugin | Pieces Docs
 metaDescription: The Pieces for JetBrains Plugin enhances your development experience by seamlessly integrating the best features from the Pieces suite directly into JetBrains IDEs.
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732290822484/1ff85201-d524-4996-8e8d-9070db6ea380.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/jetbrains.png" alt="" align="center" fullwidth="true" />
 
 ***
 

@@ -12,7 +12,7 @@ metaDescription: Use quick actions or Pieces Drive to generate shareable snippet
 
 When a snippet is saved to the Pieces Cloud, the code is [enriched with valuable information](/products/web-extension/drive/save-snippets#whats-stored-when-you-save-a-snippet) such as related people, links, annotations, tags, and an automatically-generated description.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970040011/f627038f-b8f3-46f8-8235-600d1a8a8efd.png?auto=compress,format&format=webp?auto=compress,format&format=webp&q=75" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/PWE/what_gets_shared.png" alt="" align="center" fullwidth="true" />
 
 ## How to Generate Shareable Links
 
@@ -74,7 +74,7 @@ When you `Share` a snippet, it’s not just the code that’s included. The snip
 
 * `Author Information`: A record of who created the snippet.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970528143/f4acf9e2-0d73-4634-8695-a6cdcfbd3814.png?auto=compress,format&format=webp?auto=compress,format&format=webp&q=75" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/PWE/enriched_sharing_experience.png" alt="" align="center" fullwidth="true" />
 
 ## Sensitive Information Watchdog
 
@@ -82,7 +82,7 @@ The `Share` feature does more than just allow you to effectively share snippets 
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970500459/864946d3-8d27-435c-beb4-01f5d37e5fdc.png?auto=compress,format&format=webp?auto=compress,format&format=webp&q=75" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/PWE/sensitive_information.png" alt="" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, like API keys or passwords, and alerts you so that you can make an informed decision before sharing the snippet.  
 

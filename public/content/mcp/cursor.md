@@ -135,7 +135,7 @@ Once integrated, you can utilize [Pieces LTM](/products/core-dependencies/pieces
   </Step>
 </Steps>
 
-<Card title="Hey!" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744223623563/b3f5f845-6e45-47be-8473-3f1173e1c415.png">
+<Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
   Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.5) with your new Pieces MCP server.
 </Card>
 

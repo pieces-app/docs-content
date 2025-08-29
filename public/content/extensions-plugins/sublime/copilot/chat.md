@@ -36,7 +36,7 @@ Open the command palette with `⌘+shift+p` (macOS) or `ctrl+shift+p` (Windows/L
 
 - `Pieces: Ask About The Current Project`: Offers context-aware assistance across your entire project.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733965846464/9d871fcd-c401-4235-bdb2-e971e0809335.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/via_command_pallete.png" alt="" align="center" fullwidth="true" />
 
 Read more about [what commands are available in the Pieces for Sublime Text Plugin.](/products/extensions-plugins/sublime/commands)
 
@@ -86,7 +86,7 @@ To use this feature:
   <Step title="Execute Command and Enter Query">
     Enter `Pieces: Ask About The Current File`, then enter your question into the input field.
 
-    <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733965582024/558aef1b-5c14-4613-a7b2-76686c5fa823.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/ask_about_current_file.png" alt="" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -110,7 +110,7 @@ To ask about the current project:
   <Step title="Execute Command and Enter Query">
     Enter `Pieces: Ask About The Current Project`, then type in your question.
 
-    <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733965827869/24c0facf-d574-4b57-99e6-c5a48f2eb8ab.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/ask_about_current_project.png" alt="" align="center" fullwidth="true" />
   </Step>
 </Steps>
 

@@ -58,7 +58,7 @@ If you want to change the shortcuts for any Pieces functionality within your Jet
 
 You can easily check the version of your JetBrains IDE by opening up the **Settings** page using `⌘+,` (macOS) or `ctrl+,` (Windows/Linux) and searching for **Updates** under **System Settings.**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731946003216/1e87da6c-ba14-4256-866e-d0be2002aae3.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/jetbrains_ide_version_check.png" alt="" align="center" fullwidth="true" />
 
 ## Settings Overview
 

@@ -34,7 +34,7 @@ Press `⌘+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux) to open the comman
 
 Once the input modal is visible at the top of your IDE, enter in your prompt—i.e, whatever changes you’d like made to the code—then press `return` (macOS) or `enter` (Windows/Linux).
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732739726856/596f060f-437e-4d6f-bdeb-132ab57ff444.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/refactoring.gif" alt="" align="center" fullwidth="true" />
 
 This method offers a fast, efficient way to refactor and improve your code without interrupting your workflow.
 

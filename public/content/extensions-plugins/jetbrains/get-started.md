@@ -28,7 +28,7 @@ Pieces requires all users to sign in before using any plugins or extensions. You
 
 You can install the Pieces for JetBrains plugin through the <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets">JetBrains Marketplace</a> or by searching for Pieces in the plugins search of your IDE.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731511626110/c73ee89d-099b-4dd4-b438-263777362657.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/jetbrains_marketplace.png" alt="" align="center" fullwidth="true" />
 
 Once you've installed the plugin, you can use Pieces without restarting your IDE.
 

@@ -30,7 +30,7 @@ Start by installing Package Control, a required dependency for installing plugin
 
 Visit the <a target="_blank" href="https://packagecontrol.io/installation">Package Control installation page</a> and follow the instructions to install Package Control in Sublime Text.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733962285453/d3ca8a87-0089-47ba-98eb-6de28622b43e.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/marketplace_page_sublime.png" alt="" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Open Command Palette">

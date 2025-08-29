@@ -189,7 +189,7 @@ Once integrated, you can utilize Pieces LTM directly in Visual Studio Code.
   </Step>
 </Steps>
 
-<Card title="Hey!" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744223593411/98b96d7f-4ba7-456f-a8a5-b9c2bfffd92a.png">
+<Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
   Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.5) with your new Pieces MCP server.
 </Card>
 

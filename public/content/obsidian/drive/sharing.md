@@ -74,13 +74,13 @@ When you `Share` a snippet, it’s not just the code that’s included. The snip
 
 * `Author Information`: A record of who created the snippet.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970528143/f4acf9e2-0d73-4634-8695-a6cdcfbd3814.png?auto=compress,format&format=webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/enriched_sharing_experience.png" alt="" align="center" fullwidth="true" />
 
 ## What Information Gets Shared
 
 When a snippet is saved to the Pieces Cloud, the code is [enriched with valuable](/products/obsidian/drive/save-snippets#whats-stored-when-you-save-a-snippet) information such as related people, links, annotations, tags, and an automatically-generated description.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970040011/f627038f-b8f3-46f8-8235-600d1a8a8efd.png?auto=compress,format&format=webp" alt="" align="middle" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/what_info_gets_saved.png" alt="" align="middle" fullwidth="true" />
 
 ### Sensitive Information Watchdog
 
@@ -88,7 +88,7 @@ The `Share` feature does more than allow you to effectively share snippets acros
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970500459/864946d3-8d27-435c-beb4-01f5d37e5fdc.png?auto=compress,format&format=webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/sensitive_info.png" alt="" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, like API keys or passwords, and alerts you so that you can make an informed decision before sharing the snippet.  
 

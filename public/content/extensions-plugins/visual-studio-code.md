@@ -6,9 +6,10 @@ status: PUBLISHED
 description: Learn more about the Pieces for Visual Studio Code (VSC) Extension.
 metaTitle: Using the Pieces for Visual Studio Code Extension | Pieces Docs
 metaDescription: Enhance VS Code with the Pieces Extension – manage code snippets and use AI-powered Copilot for seamless coding and workflow optimization.
+ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/vsc.png"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732641483589/fe76a57c-5b66-48c4-8f1e-375f03883073.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/vsc.png" alt="" align="center" fullwidth="true" />
 
 ***
 

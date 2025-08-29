@@ -20,7 +20,7 @@ Fuzzy Search helps find relevant matches even with typos, misspellings, or varia
 
 It’s great for locating partially-remembered function names, error messages, log entries, or comments, saving time with flexible, quick searches.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733969222267/21d999af-9f4e-458c-a1e3-c08ce01c16bb.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/fuzzy_search.png" alt="" align="center" fullwidth="true" />
 
 ### via Full Text Search
 
@@ -28,7 +28,7 @@ Full Text Search finds documents or records with an exact word match.
 
 It indexes all words for fast searching, ideal for specific queries like function declarations, pulling up matching snippets and related classes efficiently.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733969192967/9c752edc-10d2-4be7-bcff-d3ce9dd6481a.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/full_text_search.png" alt="" align="center" fullwidth="true" />
 
 ### via Neural Code Search
 
