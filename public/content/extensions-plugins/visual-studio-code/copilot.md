@@ -20,7 +20,7 @@ Facing an issue or not sure how to tackle a coding challenge? You can [ask the P
 
 You can ask any question that doesn’t require context, such as *“What is the basic format for a JSON object?”,* or more in-depth questions where the Pieces Copilot needs context from your active code.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732736633318/f96645a1-a52f-455e-b128-84cf9d2f2c80.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/generative_ai_conversations.png" alt="" align="center" fullwidth="true" />
 
 ## Adding Conversation Context
 
@@ -30,7 +30,7 @@ To use this feature, include details like error messages or [file context](/prod
 
 You can also [add multiple files and other items as context](/products/extensions-plugins/visual-studio-code/copilot/chat#adding-items-to-copilot-chats) to your question, giving the Pieces Copilot comprehensive information to help you troubleshoot.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732736690908/a20309cb-50cc-44ab-9866-e5ab301bb4c8.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/adding_conversation_context.png" alt="" align="center" fullwidth="true" />
 
 Start by right-clicking some code and selecting one of the following options from the tool menu:
 
@@ -80,7 +80,7 @@ With the Pieces for VS Code extension, you can enhance your workflow with two po
 
 * `Explain Selection with Copilot`: [Get a clear explanation of what the selected code does](/products/extensions-plugins/visual-studio-code/copilot/chat#accessing-pieces-copilot-in-vs-code), making it easier to understand and document.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731382876801/88c397c2-519e-45a6-b15d-53afc59fba02.png?auto=compress,format&format=webp" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/generate_update_code.gif" alt="" align="left" fullwidth="true" />
 
 ## Selecting Your Pieces Copilot Runtime
 
@@ -90,7 +90,7 @@ Options range from lightweight models for simple queries to advanced models for 
 
 This flexibility allows you to tailor Pieces Copilot to your specific development needs, whether it’s speed or accuracy.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732737435734/dce7140b-934e-42ef-bb82-9cff7bd5b620.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/selecting_runtime.png" alt="" align="center" fullwidth="true" />
 
 Read more about [what LLMs are available for use](/products/extensions-plugins/visual-studio-code/configuration#supported-llms) with the Pieces for VS Code Extension.
 

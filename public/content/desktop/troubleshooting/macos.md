@@ -30,16 +30,16 @@ If you're having trouble installing PiecesOS or the Pieces Desktop App, you can 
 </Callout>
 
 <CardGroup cols={2}>
-  <Card title="Pieces Desktop App — ARM .DMG" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740693233214/29654e9b-14b6-44e5-a9e1-cdadb65ddb47.webp" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Pieces Desktop App — ARM .DMG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *macOS 13.0 (Ventura) or higher*
   </Card>
 
-  <Card title="Pieces Desktop App — Intel .DMG" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740693234272/7a5de5db-9b57-4cd9-9300-14544075e954.webp" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Pieces Desktop App — Intel .DMG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *macOS 13.0 (Ventura) or higher*
   </Card>
 </CardGroup>
 
-<Card title="Installing via Homebrew" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740695766570/dc1efa5e-6e16-47f6-a417-94e1356e2d88.webp">
+<Card title="Installing via Homebrew" image="/assets/icons/platform_logos/macos_logo.png">
   You can also install PiecesOS manually using Homebrew from your device’s terminal.
 
   To do so:

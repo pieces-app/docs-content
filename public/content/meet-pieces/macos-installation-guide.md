@@ -9,7 +9,7 @@ metaDescription: Get started with Pieces on macOS – install, configure, troubl
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_macos_install.webp"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1740163265159/1c6da573-32cf-4256-8c67-921cd431a1c2.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_macos_install.webp" alt="" align="center" fullwidth="true" />
 
 ***
 
@@ -18,11 +18,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 Click the **buttons below** to download Pieces for your macOS device.
 
 <CardGroup cols={2}>
-  <Card title="Download — Pieces Desktop App (ARM)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1747074321429/80687359-563d-425d-a6c5-37b7b81a6dc5.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 
-  <Card title="Download — Pieces Desktop App (Intel)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1747074283357/7fb8bef5-ce0d-4412-876e-88a8d4afabd8.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 </CardGroup>
@@ -75,7 +75,7 @@ If you cannot use the `.pkg` installer for any reason, you can install PiecesOS 
 Install the Pieces Desktop App **in order** by clicking the download card below for your **ARM** device. PiecesOS will be installed as a core dependency with Pieces Desktop.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741277928929/0bcc9837-5849-411e-98ef-6ad9e118c36f.webp" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="doc_download_click" gaPlatform="macos">
     *Recommended Method*
 
     macOS 13.0 (Ventura) or higher required.
@@ -87,7 +87,7 @@ Install the Pieces Desktop App **in order** by clicking the download card below 
 Install the Pieces Desktop App **in order** by clicking the download card below for your **Intel** device. PiecesOS will be installed as a core dependency with Pieces Desktop.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (DMG / Intel)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1742414060905/c16603bc-e289-45f8-b027-61d035a1e09e.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (DMG / Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download" gaEvent="doc_download_click" gaPlatform="macos">
     *Recommended Method*
 
     macOS 13.0 (Ventura) or higher required.
@@ -120,7 +120,7 @@ After downloading the correct `.dmg` file, it’s time to install the Pieces Des
 
 Alternatively, you may opt to install Pieces via Homebrew in your terminal.
 
-<Card title="Installing via Homebrew" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278053952/7feb3fa1-4a4b-47ff-86c2-326cf634f593.png">
+<Card title="Installing via Homebrew" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/homebrew.png">
   You can install the Pieces Desktop App manually using Homebrew from your device’s terminal.
 
   To do so:

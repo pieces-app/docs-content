@@ -74,7 +74,7 @@ You can take any code block existing in your Copilot Chat and click `Save to Pie
 
 To do so, click the `Save to Pieces` button on any code block within the Copilot Chat view.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734128918736/49e96fb8-7d25-4f16-96ce-16ed9e3fd6b9.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/ss_via_copilot_chat.png" alt="" align="center" fullwidth="true" />
 
 ## Saving Active Files to Pieces
 
@@ -126,7 +126,7 @@ The Pieces Copilot captures:
 
 * `Related People`: Associated collaborators or contributors.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732741621504/140ab238-3a62-45cd-b454-a56e2dca5d0c.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/ss_what_gets_stored.png" alt="" align="center" fullwidth="true" />
 
 Additionally, the Pieces Copilot **scans saved snippets for sensitive information**, such as API keys, passwords, or authentication tokens, to ensure no confidential data is accidentally stored.
 

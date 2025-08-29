@@ -12,7 +12,7 @@ metaDescription: Learn how to use Pieces Copilot within the Pieces Desktop App, 
 
 Adding context to Pieces Copilot chats makes responses significantly more relevant and useful—especially when that context is pulled directly from your workflow.
 
-<Card title="Want to learn more about using LTM Context?" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743103872340/1b9ffce3-f465-4c7e-afd8-5e98d2a8fba5.png">
+<Card title="Want to learn more about using LTM Context?" image="/assets/icons/platform_logos/pieces_logo.png">
   Read this [LLM Prompting Guide](/products/quick-guides/ltm-prompting/tips) or learn how to use [Pieces Copilot with LTM Context](/products/quick-guides/copilot-with-context) via these helpful Quick Guides.
 </Card>
 

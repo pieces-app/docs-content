@@ -24,7 +24,7 @@ Then, enter `Pieces: Open Pieces Settings`.
 
 Use the `Pieces: Login` or `Pieces: Logout` command in your command palette to log in and out of your Pieces account.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970751972/4255a16f-7b9e-44fb-b912-810fbfc80d51.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime_login_logout.png" alt="" align="center" fullwidth="true" />
 
 ***
 

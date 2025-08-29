@@ -47,7 +47,7 @@ Easily [save a function, script, or piece of boilerplate](/products/extensions-p
 
 Not only are these snippets saved to your personal Pieces Drive, but they’re enriched with context, metadata, and tags for easy retrieval.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732740557545/d30c5f19-ca19-454a-8e1c-d0e9db4b95f5.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/save_organize.png" alt="" align="center" fullwidth="true" />
 
 To do this save a code snippet, right-click, and then hover on `Pieces` and choose `Save Current Selection to Pieces`—or you can use the keyboard shortcut by using `⌘+shift+’` (macOS) or `ctrl+shift+v` (Windows/Linux).
 
@@ -93,7 +93,7 @@ To share a snippet in VS Code, you can either highlight some lines of code, righ
 
 This creates a link you can share with teammates, ensuring easy access to your reusable code.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732741148257/c227792e-1abb-432e-9b46-15a486403994.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/sharing.png" alt="" align="center" fullwidth="true" />
 
 ## Use Cases
 

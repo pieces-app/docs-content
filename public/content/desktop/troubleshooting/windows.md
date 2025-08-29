@@ -24,16 +24,16 @@ PiecesOS and the Pieces Desktop App can be downloaded in several ways, and the u
 If you’re experiencing difficulties installing the Pieces Desktop App, you can install the software manually by downloading the Windows installer or using WinGet.
 
 <CardGroup cols={2}>
-  <Card title="Download — Windows" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740690831330/c1714b05-fc9a-4396-828b-16cba1efd4f6.webp" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Download — Windows" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *.EXE*
   </Card>
 
-  <Card title="Download — Windows" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740690833475/31e9fe57-e429-4b33-bb38-a2478762d3e9.webp" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Download — Windows" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *.appinstaller*
   </Card>
 </CardGroup>
 
-<Card title="Installing Via WinGet" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740694843457/7c1bcb6c-53c9-46e7-bea5-26508547f893.png">
+<Card title="Installing Via WinGet" image="/assets/icons/platform_logos/windows_logo.png">
   You can also install Pieces for Developers manually using **WinGet** from your device’s terminal.
 
   To do so:

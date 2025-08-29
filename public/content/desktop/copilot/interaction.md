@@ -38,7 +38,7 @@ Directly above the chat input field, a *Set Context* area provides four buttons:
 
 These buttons help you easily inject context into your chat so Pieces Copilot can deliver more accurate and relevant responses.
 
-<Card title="Hey!" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743104963167/e79b8868-71ad-4763-9d32-dec2f99236df.png">
+<Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
   Do you know how to find specific LTM-sourced information, get deeplinks, and generate summaries of projects you’ve been working on with Pieces Copilot? If you don’t, [check out this Quick Guide.](/products/quick-guides/ltm-prompting/examples)
 </Card>
 

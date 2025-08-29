@@ -32,7 +32,7 @@ If you want to access your saved snippets directly within the JetBrains IDE, you
 
 Whether you’re on macOS, Windows or Linux, you must double-press the `Shift` key twice to open up the Search Everywhere menu.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731514495750/53039e6c-1199-4879-8b92-40cc02a20a71.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/via_search_everywhere.png" alt="" align="center" fullwidth="true" />
 
 Once the menu is open, switch to the `Pieces` tab, then enter a search query to search your entire Pieces repository for any snippet you’ve saved.
 
@@ -84,7 +84,7 @@ When you’ve finished entering your filters, the Pieces Explorer will only disp
 
 This opens up the **snippet in markdown preview mode** in a separate window.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731947059537/0d388dec-e373-4bf4-9ec8-4a8b9dcc9246.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/viewing_and_reusing.png" alt="" align="center" fullwidth="true" />
 
 From the opened markdown preview, you can then select `Copy to Clipboard` in the top-left corner of the snippet’s embedded code box or use the `⌘+c` (macOS) or `ctrl+c` (Windows/Linux) shortcut after selecting the section.
 

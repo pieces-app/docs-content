@@ -79,7 +79,7 @@ To share a snippet in Obsidian, highlight the text you’d like to share, right-
 
 This generates a link you can share with teammates, ensuring easy access to your reusable code.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732741148257/c227792e-1abb-432e-9b46-15a486403994.png?auto=compress,format&format=webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/sharing.png" alt="" align="center" fullwidth="true" />
 
 ## Use Cases
 

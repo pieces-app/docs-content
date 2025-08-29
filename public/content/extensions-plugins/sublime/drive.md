@@ -49,7 +49,7 @@ This will open a new Sublime Text tab with your new snippet. Additionally, [each
 
 This ensures that important pieces of code, like code fragments, functions, configuration files, and command-line instructions, are always available when you need them.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734102266231/9340d7d0-7f15-4559-99ec-b892af68dcc9.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/save_and_organize.png" alt="" align="center" fullwidth="true" />
 
 ### Search & Reuse
 

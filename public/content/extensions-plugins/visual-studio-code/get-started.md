@@ -38,7 +38,7 @@ Follow the specific setup steps below:
 
 1. Open VS Code and navigate to the **Extensions** view, then search for **Pieces for VS Code** and click `Install`
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732735809045/38bfb971-66e8-4789-8a9d-7dd153d98a30.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/vsc_marketplace.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="info">
   Alternatively, download the .VSIX installer from the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">VS Code Marketplace</a> and install it manually.
@@ -126,4 +126,4 @@ To uninstall the Pieces for VS Code Extension, press `⌘+shift+x` (macOS) or `c
   Restart your VS Code IDE after removing the extension to complete the uninstallation process.
 </Callout>
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732735910690/24eb8b81-05cd-4737-8789-10312688d8db.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/vsc_marketplace_uninstall.png" />

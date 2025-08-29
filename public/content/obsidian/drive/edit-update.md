@@ -68,7 +68,7 @@ These actions can be accessed from the toolbar or the **Captured Context** secti
 
 You can share, edit, copy, and manage auto-generated metadata for each snippet by using the `See Pieces Actions` or `Hide Pieces Actions` button, which is represented as the `Pieces` logo.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1735852860603/96dd81de-04ac-4e0f-8f91-20423d362a62.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/toolbar_actions.png" alt="" align="center" fullwidth="true" />
 
 ***
 
@@ -85,7 +85,7 @@ You can share, edit, copy, and manage auto-generated metadata for each snippet b
 
 The Pieces for Obsidian Plugin allows you to quickly manage your snippets by clicking the **three dots** inside of the Pieces Drive Sidebar—from there, you can select from a range of options outlined in the table below.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1735853054529/bd3f4259-a427-425d-83fb-780e62ffa82d.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/obsidian/toolbar_actions.png" alt="" align="center" fullwidth="true" />
 
 ***
 

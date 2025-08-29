@@ -118,7 +118,7 @@ This will use *Rollups* relevant to your question and what you're currently work
 
 Workstream Activity turns your daily work into a rich, queryable memory—so you never have to waste time re-explaining, re-documenting, or retracing your steps.
 
-<Card title="Why use the Workstream Activities feature?" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1743105695482/2e6005ea-3c80-4105-a983-7680b3dd380d.png">
+<Card title="Why use the Workstream Activities feature?" image="/assets/icons/platform_logos/pieces_logo.png">
   The Workstream Activity feature centralizes your workflow context, tackling a major productivity blocker in AI-assisted development—*short-term memory.*
 
   It eliminates the need to repeat information to an AI assistant, ensures project continuity, provides a powerful search for past discussions or documents, and allows for flexible exports to share or store roll-ups.

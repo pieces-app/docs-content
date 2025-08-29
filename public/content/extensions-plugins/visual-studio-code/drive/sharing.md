@@ -74,13 +74,13 @@ When you `Share` a snippet, it’s not just the code that’s included. The snip
 
 * `Author Information`: A record of who created the snippet.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731514684555/707b0769-5b68-448c-811b-a44d2414a10d.png?auto=compress,format&format=webp" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/sharing_enriched_experience.png" alt="" align="left" fullwidth="true" />
 
 ## What Information Gets Shared
 
 When a snippet is saved to the Pieces Cloud, the code is [enriched with valuable information](/products/extensions-plugins/visual-studio-code/drive/save-snippets#whats-stored-when-you-save-a-snippet) such as related people, links, annotations, tags, and an automatically-generated description.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731623145740/ec60e89f-ac2f-4396-b6a8-ad94f57d9745.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/sharing_what_gets_shared.png" alt="" align="center" fullwidth="true" />
 
 ### Sensitive Information Watchdog
 
@@ -88,7 +88,7 @@ The `Share` feature does more than just allow you to effectively share snippets 
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732743695009/a44bf8b1-67b7-4db0-a6af-87798c8df9ed.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/sharing_watchdog.png" alt="" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, like API keys or passwords, and alerts you so that you can make an informed decision before sharing the snippet.  
 

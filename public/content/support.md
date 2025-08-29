@@ -13,7 +13,7 @@ metaDescription: Reach out to our engineers, open support tickets, and read disc
 
 ***
 
-<Card title="We’ve been given an award!" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1740434022759/22bf29e6-55dd-4480-9f04-832989db50e2.png">
+<Card title="We’ve been given an award!" image="/assets/icons/platform_logos/pieces_logo.png">
   Pieces for Developers was recently awarded the ‘Best Support’ badge for Fall of 2024 by G2. <a target="_blank" href="https://www.g2.com/products/pieces-for-developers/reviews?utm_source=rewards-badge">Read more here.</a>
 </Card>
 

@@ -9,7 +9,7 @@ metaDescription: Learn how to integrate and use Pieces for JupyterLab to save, m
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/jupyterlabs.png"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1729000547466/593f4e3f-ff9c-452e-b212-69be1e676f76.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/jupyterlabs.png" alt="" align="center" fullwidth="true" />
 
 ***
 

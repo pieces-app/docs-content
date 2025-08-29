@@ -6,9 +6,10 @@ status: PUBLISHED
 description: Discover the Pieces for Sublime Text Plugin and bring the power of Pieces to your favorite 
 metaTitle: Using the Pieces for Sublime Text Plugin | Pieces Docs
 metaDescription: Enhance Pieces with the Sublime Text Plugin. Save, manage, and reuse code snippets seamlessly for faster development.
+ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/sublime.png"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732292374232/664cf675-ce10-4145-a5f7-e3ddf3996008.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/sublime.png" alt="" align="center" fullwidth="true" />
 
 ***
 
@@ -66,7 +67,7 @@ Common materials types include utility functions, API requests, and reusable cod
 
 When a snippet is saved, the plugin also automatically generates and associates meta data, like **tags, commit messages, code types, smart descriptions,** as well as **code authors and related resources.**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733962137844/78f6c994-d7c7-4a50-b63d-88c83e7c8a2a.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime_associated_context.webp" alt="" align="center" fullwidth="true" />
 
 ### Referencing & Reusing
 
@@ -82,7 +83,7 @@ These options allow you to search with vague queries or get specific when you kn
 
 Once you’ve located a snippet using one of the search methods, you can then refactor the code to your needs, share the code with other developers, or paste it directly into your code.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733962194701/f9aff393-efd8-43be-addf-b3ac37c118c8.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/reference_and_reuse.webp" alt="" align="center" fullwidth="true" />
 
 ***
 

@@ -9,7 +9,7 @@ metaDescription: Get started with Pieces on Linux – install, configure, troubl
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png"
 ---
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1740162782513/1fdc656d-398c-4e69-ba4a-381c880fffe0.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png" alt="" align="center" fullwidth="true" />
 
 ***
 

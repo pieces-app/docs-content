@@ -34,19 +34,19 @@ There are three ways to primary ways to access generative AI chats with the Piec
 
 You can also open up a dialogue with the Pieces Copilot—specifically the `Ask Copilot About Selection` option—by using the shortcut `⌘+shift+a` (macOS) or `ctrl+shift+a` (Windows/Linux).
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732737809517/52d91b01-2106-4c4d-9e39-607943fcdc33.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/via_keyboard_shortcuts.png" alt="" align="center" fullwidth="true" />
 
 ### via Command Palette
 
 Open the command palette with `⌘+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux), and enter commands such as:
 
-* `Pieces: Ask Copilot About Active File`: This function provides insights into the current file open in your VS Code editor.
+- `Pieces: Ask Copilot About Active File`: This function provides insights into the current file open in your VS Code editor.
 
-* `Pieces: Ask Copilot About Selection`: Generates suggestions or improvements for the selected code snippet.
+- `Pieces: Ask Copilot About Selection`: Generates suggestions or improvements for the selected code snippet.
 
-* `Pieces: Ask Copilot About Workspace`: Offers context-aware assistance across your entire workspace.
+- `Pieces: Ask Copilot About Workspace`: Offers context-aware assistance across your entire workspace.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732737874527/2573ead1-b1fc-4a41-838d-c3509d54d2e6.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/via_command_palette.png" alt="" align="center" fullwidth="true" />
 
 Read more about [what commands are available in the Pieces for VS Code Extension.](/products/extensions-plugins/visual-studio-code/commands)
 
@@ -84,7 +84,7 @@ To use this feature:
   <Step title="Enter Your Prompt">
     Type your prompt in the text input field and press `return` (macOS) or `enter` (Windows/Linux)
 
-    <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732738498253/f36bb3c0-3fae-4570-a5a1-b5baa8231d12.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/contextualized_chats.png" alt="" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -128,7 +128,7 @@ To use this command:
 
 This is ideal for large projects where a project-wide perspective is needed, specifically for identifying inconsistencies in naming conventions across multiple files, in error handling, or resolving global code redundancies.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732738797364/b0e79b08-11d3-473a-a10a-daedb1667862.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/adding_context_to_copilot_chats.gif" alt="" align="center" fullwidth="true" />
 
 ## Adding Context to Copilot Chats
 
@@ -148,7 +148,7 @@ You can paste snippets of code as a code block inside any Copilot Chat by clicki
 
 This is useful for bringing in code that isn’t present immediately in the active file as context, or for comparisons and suggestions.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734126869579/98158d85-2072-4479-8290-069fda210cff.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/adding_code_snippets.png" alt="" align="center" fullwidth="true" />
 
 ### Extracting Code from Screenshots
 
@@ -162,7 +162,7 @@ Pieces Copilot will then scan the screenshot and generate the code captured from
 
 Suppose you right-click on a folder or file in your file explorer in VS Code. In that case, you’ll see three options: `Pieces: Add to Copilot Context`, `Pieces: Ask Copilot` and `Pieces: Save File to Pieces`, so you can take any folder in the project you’re working in and immediately have the Pieces Copilot interact with it.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734128702503/4b2c56b7-8d51-42be-8d3c-f4b13b9f7701.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/from_file_explorer.png" alt="" align="center" fullwidth="true" />
 
 ## Adding Pieces MCP
 

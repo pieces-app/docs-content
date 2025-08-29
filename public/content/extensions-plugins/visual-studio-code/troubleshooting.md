@@ -42,4 +42,4 @@ These scenarios can occasionally cause the LLM to ‘hang’—to appear as if g
 
 To do this, click the **three vertical dots** in the top-right corner of your Copilot Chat window, and click `Refresh`.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1732750665281/0ed8f785-aa34-4285-8b68-022aff96dda9.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/refreshing_copilot_chats.png" alt="" align="center" fullwidth="true" />

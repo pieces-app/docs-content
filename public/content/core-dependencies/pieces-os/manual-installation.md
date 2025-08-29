@@ -69,11 +69,11 @@ To install, download the appropriate link for your device’s OS and architectur
 Click the download buttons below to install PiecesOS via `.exe` or `.appinstaller`.
 
 <CardGroup cols={2}>
-  <Card title="Download — Windows (.exe)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278772635/8eb6e27d-92f4-4f0a-9108-54f78d55869c.webp" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
+  <Card title="Download — Windows (.exe)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
     *Windows 10 (1809) or higher*
   </Card>
 
-  <Card title="Download — Windows (.appinstaller)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278775019/5698a601-e779-4e66-86e2-78600fd02341.webp" href="https://builds.pieces.app/stages/production/appinstaller/os_server.appinstaller?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
+  <Card title="Download — Windows (.appinstaller)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/os_server.appinstaller?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
     *Windows 10 (1809) or higher*
   </Card>
 </CardGroup>
@@ -89,16 +89,16 @@ If this fails, make sure that the Pieces Desktop App is fully quit, as well as P
 Click the download buttons below to install PiecesOS for your ARM or Intel-based macOS device, or use the Homebrew instructions below.
 
 <CardGroup cols={2}>
-  <Card title="Download — ARM (.DMG)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278778335/5e8536c4-ec50-4050-9b95-314d7eb52a2c.webp" href="https://builds.pieces.app/stages/production/os_server/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
+  <Card title="Download — ARM (.DMG)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/os_server/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
     *macOS 12.0 (Monterey) or higher*
   </Card>
 
-  <Card title="Download — Intel (.DMG)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278781040/5556905b-856d-4ccd-b429-06c8b628e3bf.webp" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
+  <Card title="Download — Intel (.DMG)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222">
     *macOS 12.0 (Monterey) or higher*
   </Card>
 </CardGroup>
 
-<Card title="Installing via Homebrew" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278788730/10f164ce-cf9a-4260-9dd0-f92e23458ef9.png">
+<Card title="Installing via Homebrew" image="/assets/icons/platform_logos/macos_logo.png">
   You can also install PiecesOS manually using Homebrew from your device’s terminal.
 
   To do so:
@@ -116,7 +116,7 @@ There are (2) requirements that must be met to download and install PiecesOS on 
 
 2. **Administrator Access:** You’ll need `sudo` privileges to install `snap` packages.
 
-<Card title="Download — Linux" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1741278623090/598e61f4-9d33-4ce0-919d-781762b3b0f9.webp">
+<Card title="Download — Linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
   *Ubuntu 22+ required.*
 
   ***

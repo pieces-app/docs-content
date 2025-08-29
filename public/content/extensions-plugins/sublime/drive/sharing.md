@@ -48,7 +48,7 @@ When you `Share` a snippet, it’s not just the code that’s included. The snip
 
 * `Author Information`: A record of who created the snippet.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970528143/f4acf9e2-0d73-4634-8695-a6cdcfbd3814.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/enriched_sharing_experience.png" alt="" align="center" fullwidth="true" />
 
 ## What Information Gets Shared
 
@@ -56,7 +56,7 @@ When a snippet is saved to the Pieces Cloud, the code is [enriched with valuable
 
 This information is visible to the right of the code block when the shared snippet is open in your browser:
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970040011/f627038f-b8f3-46f8-8235-600d1a8a8efd.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/what_information_gets_shared_2.png" alt="" align="center" fullwidth="true" />
 
 ### Sensitive Information Watchdog
 
@@ -64,8 +64,7 @@ The `Generate Shareable Link` feature does more than just allow you to effective
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733970500459/864946d3-8d27-435c-beb4-01f5d37e5fdc.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/sensitive_Info_watchdog_2.png" alt="" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, like API keys or passwords, and alerts you so that you can make an informed decision before sharing the snippet.  
-
 The scan happens locally using on-device machine learning models **before the snippet is uploaded to the cloud** for sharing—that way, you can make an informed decision about sharing your code.

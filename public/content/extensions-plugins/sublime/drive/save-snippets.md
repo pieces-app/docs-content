@@ -66,7 +66,7 @@ The Pieces Copilot captures:
 
 * `Related People`: Associated collaborators or contributors.
 
-<Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733969003991/b9f128cb-abed-4994-a43a-c6a2fdcde437.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/save_snippets.png" alt="" align="center" fullwidth="true" />
 
 Additionally, the Pieces Copilot **scans saved snippets for sensitive information**, such as API keys, passwords, or authentication tokens, to ensure no confidential data is accidentally stored.
 
