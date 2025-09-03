@@ -9,25 +9,44 @@ status: PUBLISHED
 
 If the Pieces CLI isn't working as expected, follow these steps:
 
+### First: Try Updating Pieces CLI
+
+If you're experiencing issues launching the Pieces CLI or using certain commands, the first step is to ensure you have the latest version installed. Outdated versions can cause compatibility issues and unexpected behavior.
+
+**Update your Pieces CLI using your preferred package manager:**
+
 ### Update the Package Version(s)
 
-Confirm you’re using the latest version of the Pieces CLI using the **PIP** or **Conda** package manager:
+Confirm you're using the latest version of the Pieces CLI using your preferred package manager:
+
+<Callout type="alert">
+  **Before updating:** 
+  
+  - **Windows users:** You may need to run your terminal as administrator for the update to work properly. Right-click on Command Prompt or PowerShell and select "Run as administrator."
+  - **All platforms:** Make sure to close any running instances of the Pieces Desktop App and PiecesOS. This prevents conflicts during the update process.
+</Callout>
 
 <Tabs>
   <TabItem title="PIP">
-    1. Opening a terminal on your device depends on your platform: Open your OS's search bar and enter `terminal` for macOS/Linux or `CMD` for Windows. Open the recommendation.
+    1. To open a terminal on your device, search for `terminal` on macOS/Linux/Windows or `CMD` on Windows, then select the suggested option.
 
-    2. In the new terminal, type: `pip install pieces-cli -U` to update the Pieces CLI with Python’s PIP package manager.
+    2. In the newly opened terminal, enter: `pip install pieces-cli -U` to update the Pieces CLI using PIP.
   </TabItem>
 
   <TabItem title="Conda">
-    1. To open a terminal on your device, search for a terminal on macOS/Linux or CMD on Windows, then select the suggested option.
+    1. To open a terminal on your device, search for `terminal` on macOS/Linux/Windows or `CMD` on Windows, then select the suggested option.
 
-    2. In the newly opened terminal, enter: `conda update pieces-cli`. Conda will install the newest version of Pieces CLI.
+    2. In the newly opened terminal, enter: `conda update pieces-cli` to update the Pieces CLI using Conda.
+  </TabItem>
+
+  <TabItem title="Homebrew">
+    1. To open a terminal on your device, search for `terminal` on macOS/Linux/Windows or `CMD` on Windows, then select the suggested option.
+
+    2. In the newly opened terminal, enter: `brew upgrade pieces-cli` to update the Pieces CLI using Homebrew.
   </TabItem>
 </Tabs>
 
-An outdated version of PiecesOS might be causing the problems. Be sure to update it, too. When you start PiecesOS, it will prompt you to update.
+An outdated version of PiecesOS might be causing the problems. Be sure to update it, too. 
 
 If not, you can [reinstall it to fix any remaining issues](/products/core-dependencies/pieces-os/manual-installation#manual-download--installation).
 
