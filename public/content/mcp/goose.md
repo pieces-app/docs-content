@@ -133,7 +133,7 @@ Setting up the Pieces MCP through the Goose Command Line Interface is straightfo
   </Step>
 </Steps>
 
-<Card title="For macOS Users:" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744391821350/61ecf9a4-51ca-4351-a63b-30184f0085ca.png">
+<Card title="For macOS Users:" image="/assets/icons/platform_logos/macos_logo.png">
   You may see an error message when configuring Goose, like:
 
   > <mark>Warning: Goose installed, but /Users/you/.local/bin is not in your PATH…</mark>
@@ -181,7 +181,7 @@ Once the integration is set up, you can start using Pieces Long-Term Memory thro
   </Step>
 </Steps>
 
-<Card title="Hey!" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744404097876/f72dc24c-467c-44d8-8585-2dfe53b40a9d.png">
+<Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
   Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.5) with your new Pieces MCP server.
 </Card>
 
