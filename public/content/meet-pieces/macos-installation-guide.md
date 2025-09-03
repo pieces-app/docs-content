@@ -18,11 +18,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 Click the **buttons below** to download Pieces for your macOS device.
 
 <CardGroup cols={2}>
-  <Card title="Download — Pieces Desktop App (ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_arm" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 
-  <Card title="Download — Pieces Desktop App (Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_intel" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 </CardGroup>
@@ -75,7 +75,7 @@ If you cannot use the `.pkg` installer for any reason, you can install PiecesOS 
 Install the Pieces Desktop App **in order** by clicking the download card below for your **ARM** device. PiecesOS will be installed as a core dependency with Pieces Desktop.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="macos_pfd_download_dmg_arm" gaPlatform="macos">
     *Recommended Method*
 
     macOS 13.0 (Ventura) or higher required.
@@ -87,7 +87,7 @@ Install the Pieces Desktop App **in order** by clicking the download card below 
 Install the Pieces Desktop App **in order** by clicking the download card below for your **Intel** device. PiecesOS will be installed as a core dependency with Pieces Desktop.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (DMG / Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download" gaEvent="doc_download_click" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (DMG / Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download" gaEvent="macos_pfd_download_dmg_intel" gaPlatform="macos">
     *Recommended Method*
 
     macOS 13.0 (Ventura) or higher required.
@@ -121,19 +121,23 @@ After downloading the correct `.dmg` file, it’s time to install the Pieces Des
 Alternatively, you may opt to install Pieces via Homebrew in your terminal.
 
 <Card title="Installing via Homebrew" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/homebrew.png">
-  You can install the Pieces Desktop App manually using Homebrew from your device’s terminal.
+  You can install the Pieces Desktop App manually using Homebrew from your device's terminal.
 
   To do so:
 
   1. Ensure Homebrew is installed on your system.
 
-  2. Run `brew install --cask pieces` in your terminal and press `return` to install the Pieces `brew` package.
+  2. Copy and run the command below:
+
+  ```bash
+  brew install --cask pieces
+  ```
 
   This command installs both the Pieces Desktop App and PiecesOS cask. If prompted, enter your administrator password.
 
   3. Wait for installation to complete—Homebrew will download and install the necessary files.
 
-  Once it’s done, you’ll see a message indicating successful installation.
+  Once it's done, you'll see a message indicating successful installation.
 </Card>
 
 ## Post-Installation Tips

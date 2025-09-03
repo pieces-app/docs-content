@@ -38,7 +38,7 @@ There are several requirements that your Linux device must meet to download and 
 
   ***
 
-  Run these commands **in order** to install and properly set up the Pieces Desktop App and it’s core dependencies:
+  Run these commands **in order** to install and properly set up the Pieces Desktop App and it's core dependencies:
 
   1. `sudo snap install pieces-os`
 
