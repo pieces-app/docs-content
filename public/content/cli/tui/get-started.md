@@ -37,7 +37,7 @@ The TUI is included with the Pieces CLI installation, but requires a one-time se
 
 On your first launch, you'll need to run `pieces tui install` to download and set up the TUI components. This is a one-time setup process.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/installing_pieces_tui2.gif" alt="Installing Pieces TUI components" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/installing_pieces_tui2.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="info">
   If you haven't installed the Pieces CLI yet, follow the [CLI installation guide](/products/cli/get-started) first.
@@ -64,7 +64,7 @@ To start using the TUI, follow these simple steps:
 
     This will launch the interactive Text User Interface.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/launching_pieces_tui.gif" alt="Launching Pieces TUI" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/launching_pieces_tui.gif" alt="" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Start Interacting">
@@ -105,7 +105,7 @@ Let's walk through your first interaction with the TUI to get you comfortable wi
     Press `return` (macOS) or `enter` (Windows/Linux) to send your question. Copilot will open a new chat and respond if not already in a chat.
   </Step>
 </Steps>
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/old_pieces_chat.png" alt="Pieces TUI chat interface" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/old_pieces_chat.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
   **New Chat Button:** You can start a fresh conversation anytime by clicking the "+new chat" button at the top of the left sidebar. This creates a new chat session while keeping your previous conversations accessible.
@@ -124,7 +124,7 @@ Let's walk through your first interaction with the TUI to get you comfortable wi
 
   <Step title="Open Workflow Activity">
     Press `return` (macOS) or `enter` (Windows/Linux) to open the selected workflow.
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/workstream_selected.png" alt="Pieces TUI opened workstream activity" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/workstream_selected.png" alt="" align="center" fullwidth="true" />
 
   </Step>
 
@@ -180,4 +180,5 @@ Follow the steps below to uninstall the TUI.
 <Callout type="info">
   If you also want to uninstall PiecesOS, [follow these steps](/products/core-dependencies/pieces-os/manual-installation#uninstalling-piecesos).
 </Callout>
+
 

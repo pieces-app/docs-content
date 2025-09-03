@@ -20,7 +20,7 @@ The recommended installation method on Windows is using the `.appinstaller` file
 Download the Pieces Desktop app—after installing Pieces Desktop, PiecesOS will be automatically installed, as it is a necessary dependency.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller" gaEvent="doc_download_click" gaPlatform="windows">
+  <Card title="Download — Pieces Desktop App" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller" gaEvent="windows_pfd_download_appinstaller" gaPlatform="windows">
     *Recommended Method*
 
     Windows 10 (1809) or higher required.
@@ -75,7 +75,7 @@ If you prefer an alternative installation method aside from the `.appinstaller` 
 If you cannot use the `.appinstaller` method for any reason, you can also install Pieces via `.exe`.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (EXE)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE&_gl=1*1a9yqbf*_gcl_au*OTQ5NDE1NTA4LjE3Mzk0NjU4MzM.*_ga*MTI0OTgzMTMuMTcyNDA5ODQwNg..*_ga_BVYEFRWCYX*MTc0MDc4MjM4Mi44LjAuMTc0MDc4MjM4Mi42MC4wLjA." gaEvent="doc_download_click" gaPlatform="windows">
+  <Card title="Download — Pieces Desktop App (EXE)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE&_gl=1*1a9yqbf*_gcl_au*OTQ5NDE1NTA4LjE3Mzk0NjU4MzM.*_ga*MTI0OTgzMTMuMTcyNDA5ODQwNg..*_ga_BVYEFRWCYX*MTc0MDc4MjM4Mi44LjAuMTc0MDc4MjM4Mi42MC4wLjA." gaEvent="windows_pfd_download_exe" gaPlatform="windows">
     *Alternative Method*
 
     Windows 10 (20H0) or higher required.
@@ -100,7 +100,11 @@ WinGet will allow you to easily install Pieces without having to leave the termi
   <Card title="WinGet — Pieces for Developers" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/winget.webp">
     1. Use Windows Terminal, Command Prompt, or PowerShell.
 
-    2. Then, type `winget install “Pieces for Developers”` and press `enter`.
+    2. Then, copy and run the command below:
+
+    ```bash
+    winget install "Pieces for Developers"
+    ```
 
     You will be promoted to agree or disagree to the terms of use a second time, so enter `Y` to proceed with the installation.
   </Card>
