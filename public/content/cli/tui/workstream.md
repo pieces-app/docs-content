@@ -12,7 +12,7 @@ metaDescription: Learn how to view, edit, and manage your workstream activities 
 
 The TUI Workstream Activities view provides terminal-based access to your Long-Term Memory (LTM-2.5) roll-ups and workflow summaries. Access this feature directly from your command line to view, edit, and manage your workstream activities.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/tui_general_wsactivity.png" alt="TUI workstream activities interface showing activity list and content view" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/tui_general_wsactivity.png" alt="" align="center" fullwidth="true" />
 
 ## Accessing Workstream Activities
 
@@ -32,7 +32,7 @@ The TUI Workstream Activities view provides terminal-based access to your Long-T
   <Step title="Edit Mode">
     Press `ctrl+e` to toggle into edit mode and modify the activity content.
     
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/edit_workstream_activity.png" alt="TUI workstream activities interface showing activity list and content view" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/edit_workstream_activity.png" alt="" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Save Changes">
@@ -58,4 +58,5 @@ Each workstream activity contains structured information captured by the LTM-2.5
     * **`shift+ctrl+c`:** Switch to Copilot
   </Step>
 </Steps>
+
 
