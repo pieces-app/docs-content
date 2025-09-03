@@ -28,7 +28,7 @@ If you’re experiencing difficulties with installing PiecesOS or the Pieces Des
 You can download the individual `.exe` files for PiecesOS and the Pieces Desktop App by clicking the download links below.
 
 <CardGroup cols={2}>
-  <Card title="Download — PiecesOS (.EXE)" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744992859004/fa1743fa-66e4-4700-92da-0de69e676abe.webp" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE">
+  <Card title="Download — PiecesOS (.EXE)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/os_server/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE">
     **Step 1:** Download PiecesOS (.EXE)
 
     *Required Core Dependency*
@@ -36,7 +36,7 @@ You can download the individual `.exe` files for PiecesOS and the Pieces Desktop
     Windows 10 (1809) or higher required.
   </Card>
 
-  <Card title="Download — Pieces Desktop App" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1744992861808/c9c77376-c282-4797-88dd-78b8a46e3aef.webp" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE">
+  <Card title="Download — Pieces Desktop App" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE">
     **Step 2:** Download Pieces for Developers (.EXE)
 
     *Alternative Method*

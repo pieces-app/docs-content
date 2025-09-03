@@ -70,8 +70,7 @@ From there, you can press `return` (macOS) or `enter` (Windows/Linux) to view yo
 ### Sharing
 
 Share your snippets from within the Pieces Web Extension, even if the person you’re sending it to doesn’t use Pieces or have a Pieces for Developers account.
-
-<Card title="Use Case" image="https://cdn.hashnode.com/res/hashnode/image/upload/v1745331050120/37d8601f-8136-45e4-b353-c6d37d69f976.png">
+<Card title="Use Case" image="/assets/icons/platform_logos/pieces_logo.png">
   Sharing useful code snippets can help overcome productivity hurdles, especially if a co-developer is new to the project or is a junior developer.
 
   For instance, a teammate working on server monitoring can use your shared script to automate daily tasks without extra setup.
