@@ -44,7 +44,7 @@ Using the Pieces Desktop App or a Pieces plugin or extension for your favorite I
 The **Long-Term Memory (LTM-2.7) Engine** is a powerful evolution of the original LTM system, designed to store and surface workflow context from up to **nine months** in the past.
 
 <Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
-  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7
+  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7.
 </Card>
 
 By combining automatic roll-ups with flexible memories browsing, LTM-2.7 ensures you don't lose track of code, discussions, or references—even if you return to a project weeks or months later.
@@ -63,7 +63,7 @@ Deep Study goes beyond standard workflow summaries to provide detailed insights 
 
 *Pieces Copilot with LTM-2.7 Context —* Pieces Desktop App
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/pieces_copilot_deep_study.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/perform_deep_study_normalsize.png" alt="" align="center" fullwidth="true" />
 
 ***
 
