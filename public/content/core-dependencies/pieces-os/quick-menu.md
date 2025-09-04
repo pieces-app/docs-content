@@ -12,7 +12,7 @@ metaDescription: Read documentation and see visuals demonstrations of the Pieces
 
 The **Quick Menu** is a lightweight interface for interacting with PiecesOS, located in your menu bar (macOS & Linux) or system tray (Windows).
 
-This popover lets you manage your PiecesOS settings, Long-Term Memory (LTM-2.5) Engine configurations, and application integrations.
+This popover lets you manage your PiecesOS settings, Long-Term Memory (LTM-2.7) Engine configurations, and application integrations.
 
 It enables you to monitor PiecesOS status, toggle memory and AI processing settings, and access critical resources without launching a separate application, among other features.
 
@@ -70,7 +70,7 @@ Directly under your account information, the Quick Menu displays your current Pi
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/check_for_updates_posdropdown.png" alt="" align="center" fullwidth="true" />
 
-## LTM-2.5 Engine
+## LTM-2.7 Engine
 
 LTM is PiecesOS’s core memory engine, capturing workflow context locally to enhance productivity.
 

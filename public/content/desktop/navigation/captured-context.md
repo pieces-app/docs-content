@@ -10,7 +10,7 @@ metaDescription: Navigate Captured Context view to automatically gather, categor
 
 ## Overview
 
-The Captured Context view in Pieces for Developers uses the Long-Term Memory Engine (LTM-2.5) to automatically gather, categorize, and display details from your coding workflow—such as websites, file anchors, people, annotations, and tags.
+The Captured Context view in Pieces for Developers uses the Long-Term Memory Engine (LTM-2.7) to automatically gather, categorize, and display details from your coding workflow—such as websites, file anchors, people, annotations, and tags.
 
 ## Accessing the Captured Context View
 

@@ -126,9 +126,9 @@ For users who choose to leverage cloud-based features, our platform offers secur
 
 * **Data Isolation:** Even when using cloud functionalities, we make sure your data remains segregated from other users’ data.
 
-### Long-Term Memory (LTM-2.5) Security
+### Long-Term Memory (LTM-2.7) Security
 
-Our Long-Term Memory (LTM-2.5) Engine is designed to protect your work through on-device processing and advanced local integration options.
+Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through on-device processing and advanced local integration options.
 
 * **On-device Processing:** All LTM functions run locally by default, keeping your sensitive data within your own environment.
 
@@ -137,7 +137,7 @@ Our Long-Term Memory (LTM-2.5) Engine is designed to protect your work through o
 * **Complete Control Over Data Sharing:** Decide when and if your data is shared, so you can be confident that you maintain full ownership and control over your information.
 
 <Callout type="alert">
-  For users concerned about privacy, we strongly recommend using a local LLM with Pieces for Developers products, so LTM-2.5, Pieces Copilot and Pieces Drive never send data through the cloud.
+  For users concerned about privacy, we strongly recommend using a local LLM with Pieces for Developers products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
 </Callout>
 
 ## Privacy Policy Updates

@@ -19,13 +19,13 @@ The Pieces CLI currently supports 26 cloud-based models.
 
 | Supported LLMs                | Supported LLMs   |
 | ----------------------------- | ---------------- |
-| Gemini-2.5 Flash Preview      | GPT-4o Mini      |
+| Gemini-2.7 Flash Preview      | GPT-4o Mini      |
 | o4 Mini                       | Gemini-1.5 Pro   |
 | o3                            | Gemini-1.5 Flash |
 | GPT-4.1                       | GPT-4o           |
 | Gemini-2.0 Flash Lite         | Claude 3 Haiku   |
-| Gemini-2.5 Pro Experimental   | Claude 3 Sonnet  |
-| Gemini-2.5 Pro Preview        | Claude 3 Opus    |
+| Gemini-2.7 Pro Experimental   | Claude 3 Sonnet  |
+| Gemini-2.7 Pro Preview        | Claude 3 Opus    |
 | Claude 3.7 Sonnet             | GPT-4 Turbo      |
 | o3 Mini                       | (Gemini)         |
 | o1                            | GPT-3.5-turbo    |

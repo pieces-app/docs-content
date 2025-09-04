@@ -3,7 +3,7 @@ title: Pieces Copilot
 path: /web-extension/copilot
 visibility: PUBLIC
 status: PUBLISHED
-description: You can use the Pieces Copilot right from your browser to ask questions, generate code, investigate code logic, prompt saved workflow context with the optional LTM-2.5 engine, and more.
+description: You can use the Pieces Copilot right from your browser to ask questions, generate code, investigate code logic, prompt saved workflow context with the optional LTM-2.7 engine, and more.
 metaTitle: Generative AI Conversations
 metaDescription: Discover how to use Pieces Copilot for context aware AI chats with LTM‑2 by adding file context and switching LLMs to streamline prototyping and collaboration.
 ---
@@ -14,7 +14,7 @@ If you're unsure how to implement something, stuck on a bug, or need an answer w
 
 The Pieces Web Extension offers several levels of conversation functionality, all fully integrated with Pieces.
 
-You can enable the [**Long Term Memory Engine (LTM-2.5)**](/products/meet-pieces/fundamentals#ltm-25) for complete, streamlined context across your workflow or open a limited context conversation in the browser's view.
+You can enable the [**Long Term Memory Engine (LTM-2.7)**](/products/meet-pieces/fundamentals#ltm-25) for complete, streamlined context across your workflow or open a limited context conversation in the browser's view.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/_MAIN/hover_copy_save.png" alt="" align="center" fullwidth="true" />
 

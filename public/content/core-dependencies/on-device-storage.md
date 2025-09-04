@@ -12,7 +12,7 @@ metaDescription: Learn where Pieces stores your database and logs on macOS, Wind
 
 Pieces for Developers was designed with a **local-first architecture**—which is why all processing—code analysis, secret detection, and tag generation—runs completely offline by **default**:
 
-* **What stays Local:** Snippets, tags, embeddings, LTM-2.5 memory, user settings, preferences, activity logs, diagnostic logs, and Pieces Copilot Chat history.
+* **What stays Local:** Snippets, tags, embeddings, LTM-2.7 memory, user settings, preferences, activity logs, diagnostic logs, and Pieces Copilot Chat history.
 
 * **When it can move to the Cloud:** Only if you explicitly enable **Personal Cloud** or use a cloud-based model provider like OpenAI. In those cases, data is handled according to the provider’s privacy policy—not ours.
 
@@ -28,7 +28,7 @@ We never use your data to train third-party models. You can delete your entire d
 
 ## Where your Database Lives
 
-Pieces stores all snippet metadata, embeddings, tags, and workflow context captured by LTM-2.5 in a single folder inside the `com.pieces` directory on your machine. 
+Pieces stores all snippet metadata, embeddings, tags, and workflow context captured by LTM-2.7 in a single folder inside the `com.pieces` directory on your machine. 
 
 | **Platform** | **Default path\***                             |
 | ------------ | ---------------------------------------------- |
@@ -40,7 +40,7 @@ Pieces stores all snippet metadata, embeddings, tags, and workflow context captu
   Replace `<username>` with your OS account name.
 </Callout>
 
-Inside `com.pieces.os`, you’ll see `production`, which contains several folders that store broken down LTM-2.5 context and the rest of your data.
+Inside `com.pieces.os`, you’ll see `production`, which contains several folders that store broken down LTM-2.7 context and the rest of your data.
 
 You are free to **copy, compress,** or **relocate** the entire `production` folder—for example, to sync via OneDrive or to migrate to another machine.
 

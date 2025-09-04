@@ -12,7 +12,7 @@ metaDescription: Use Pieces Copilot in Sublime Text for AI-assisted coding, debu
 
 If you're unsure how to implement a specific feature or stuck on a bug, you can [ask the Pieces Copilot coding-related questions](/products/extensions-plugins/sublime/copilot/chat) directly in Sublime. It will provide context-aware responses to help you move forward.
 
-The Pieces for Sublime Text plugin provides various conversation features, all fully integrated with Pieces. You can activate the **Long Term Memory Engine (LTM-2.5)** for detailed, seamless context across your entire workflow, or start a limited context conversation in the text editor's side view.
+The Pieces for Sublime Text plugin provides various conversation features, all fully integrated with Pieces. You can activate the **Long Term Memory Engine (LTM-2.7)** for detailed, seamless context across your entire workflow, or start a limited context conversation in the text editor's side view.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/generative_ai_conversations.png" alt="" align="center" fullwidth="true" />
 

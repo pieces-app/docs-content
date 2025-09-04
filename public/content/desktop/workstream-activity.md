@@ -3,7 +3,7 @@ title: Introduction to Workstream Activity
 path: /desktop/workstream-activity
 visibility: PUBLIC
 status: PUBLISHED
-description: Workstream Activity is your main hub for viewing all summaries, workflow context, and related information gathered by the Long-Term Memory (LTM-2.5) Engine.
+description: Workstream Activity is your main hub for viewing all summaries, workflow context, and related information gathered by the Long-Term Memory (LTM-2.7) Engine.
 metaTitle: Introduction to Workstream Activity | Pieces Docs
 metaDescription: Workstream Activity is your main hub for viewing all summaries, workflow context, and related information gathered by the Long-Term Memory (LTM-2) Engine.
 ---
@@ -14,12 +14,12 @@ metaDescription: Workstream Activity is your main hub for viewing all summaries,
 
 ## Overview
 
-The Workstream Activity view in the Pieces Desktop App integrates with the new-and-improved Long-Term Memory Engine (LTM-2.5) to capture and summarize your recent tasks, discussions, code reviews, and more.
+The Workstream Activity view in the Pieces Desktop App integrates with the new-and-improved Long-Term Memory Engine (LTM-2.7) to capture and summarize your recent tasks, discussions, code reviews, and more.
 
 By automatically generating concise roll-ups of your workflow, Workstream Activity aims to *eliminate* the repetitive context-setting required by most AI tools.
 
 <Callout type="tip">
-  LTM-2.5—also referred to as *Long-Term Memory Engine*—is available as part of PiecesOS, which is required for the Pieces Desktop App.
+  LTM-2.7—also referred to as *Long-Term Memory Engine*—is available as part of PiecesOS, which is required for the Pieces Desktop App.
 
   Make sure you have the latest versions installed to take advantage of this feature.
 </Callout>
@@ -28,17 +28,17 @@ By automatically generating concise roll-ups of your workflow, Workstream Activi
 
 Once you access Workstream Activity, you’ll see two main UI elements:
 
-1. **Activity Sidebar (Left Panel)**: A chronological list of your LTM roll-ups. Each roll-up is timestamped (e.g., “9:04 AM – 9:14 AM”) with a descriptive title (such as “Documentation & LTM-2.5 Prep”).
+1. **Activity Sidebar (Left Panel)**: A chronological list of your LTM roll-ups. Each roll-up is timestamped (e.g., “9:04 AM – 9:14 AM”) with a descriptive title (such as “Documentation & LTM-2.7 Prep”).
 
 2. **Roll-Up Details (Right Panel)**: Selecting a roll-up displays its sections and bullet points, including embedded links, references, or code snippet IDs.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/newly_new_workstream_activity/HOVERING_activity.png" alt="" align="center" fullwidth="true" />
 
-### Long-Term Memory (LTM-2.5) Engine
+### Long-Term Memory (LTM-2.7) Engine
 
 Long-Term Memory is an advanced memory agent that captures your workflow context at repeated intervals and preserves it for up to *nine months*.
 
-Instead of starting fresh with every AI query, you can use LTM-2.5’s persistent memory to pick up any past conversation, code snippet, or link you’ve encountered.
+Instead of starting fresh with every AI query, you can use LTM-2.7’s persistent memory to pick up any past conversation, code snippet, or link you’ve encountered.
 
 Visit our [Core Dependencies documentation](/products/core-dependencies) read more about LTM.
 
@@ -124,7 +124,7 @@ Workstream Activity turns your daily work into a rich, queryable memory—so you
   It eliminates the need to repeat information to an AI assistant, ensures project continuity, provides a powerful search for past discussions or documents, and allows for flexible exports to share or store roll-ups.
 </Card>
 
-With support from the LTM-2.5 engine, it becomes easy to search, share, and summarize critical moments from your workflow.
+With support from the LTM-2.7 engine, it becomes easy to search, share, and summarize critical moments from your workflow.
 
 Here are some practical ways to use it:
 
@@ -150,7 +150,7 @@ Here are some practical ways to use it:
   </Accordion>
 
   <Accordion title="Track Research and Learning Progress Over Time">
-    Whether you’re exploring new tech, debugging a complex problem, or reviewing articles, your LTM-2.5 roll-ups capture the learning trail so you can build on it later—or share it with others.
+    Whether you’re exploring new tech, debugging a complex problem, or reviewing articles, your LTM-2.7 roll-ups capture the learning trail so you can build on it later—or share it with others.
   </Accordion>
 </AccordionGroup>
 

@@ -20,9 +20,9 @@ Pieces for Developers products, including the [Pieces for Developers Desktop App
 
 To run any Pieces software, you will need **\[1] PiecesOS,** the backbone of the Pieces Suite. This lightweight application runs in the background of your device.
 
-It powers the [Long-Term Memory (LTM-2.5) Engine](/products/core-dependencies/pieces-os#ltm-25), [Pieces Drive,](/products/desktop/drive) and the [Pieces Copilot.](/products/desktop/copilot)
+It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-25), [Pieces Drive,](/products/desktop/drive) and the [Pieces Copilot.](/products/desktop/copilot)
 
-Running local LLMs requires downloading and installing the **\[2] Ollama** wrapper to power on-device AI capabilities, such as querying Pieces Copilot or the local inference required by the LTM-2.5 Engine.
+Running local LLMs requires downloading and installing the **\[2] Ollama** wrapper to power on-device AI capabilities, such as querying Pieces Copilot or the local inference required by the LTM-2.7 Engine.
 
 1. **PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp/get-started), and other integrations within your development environment.
 

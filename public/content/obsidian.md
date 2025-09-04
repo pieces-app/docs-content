@@ -16,7 +16,7 @@ metaDescription: Explore how to use Pieces for Obsidian to organize code snippet
 
 It gives users a simple way to manage and use saved code snippets through the Pieces Drive, using the AI-powered features of the [Pieces Copilot](/products/obsidian/copilot), all directly within their development environment.
 
-* [Pieces Copilot](/products/obsidian/copilot): Engage in AI-driven conversations to enhance productivity by providing contextual assistance for your projects—helping with code comprehension, comments, troubleshooting, and more—all by adding files and folders as context, with or without the powerful Long-Term Memory Engine (LTM-2.5).
+* [Pieces Copilot](/products/obsidian/copilot): Engage in AI-driven conversations to enhance productivity by providing contextual assistance for your projects—helping with code comprehension, comments, troubleshooting, and more—all by adding files and folders as context, with or without the powerful Long-Term Memory Engine (LTM-2.7).
 
 * [Pieces Drive](/products/obsidian/drive): Effortlessly save, find, and share your frequently used code snippets to your Pieces Drive. This makes organizing your work easy, quickly accessing important code, and collaborating effectively with others.
 

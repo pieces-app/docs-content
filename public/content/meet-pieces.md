@@ -25,7 +25,7 @@ At its core, Pieces is an all-in-one productivity tool that helps developers wor
 
 There are **\[3]** core pillars of Pieces functionality:
 
-1. [Long-Term Memory Engine (LTM-2.5)](/products/meet-pieces/fundamentals#ltm-25): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.5 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
+1. [Long-Term Memory Engine (LTM-2.7)](/products/meet-pieces/fundamentals#ltm-25): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.7 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
 
 2. [Pieces Drive](/products/meet-pieces/fundamentals#pieces-drive): The ability to save, search, reference, reuse, and share small developer resources like code snippets, screenshots, links, and text notes.
 
@@ -39,7 +39,7 @@ Pieces is an **excellent productivity option for developers of all levels** and 
 
 If you find yourself …
 
-1. **Preserving Workflow Context:** If you’re wondering where you left off with trying to untangle that permissions mess in Google Cloud Console or Firestore database, the [LTM-2.5](/products/meet-pieces/fundamentals#ltm-25) is an invaluable resource that can provide deep-links and anchors in the form of URLs and other helpful context.
+1. **Preserving Workflow Context:** If you’re wondering where you left off with trying to untangle that permissions mess in Google Cloud Console or Firestore database, the [LTM-2.7](/products/meet-pieces/fundamentals#ltm-25) is an invaluable resource that can provide deep-links and anchors in the form of URLs and other helpful context.
 
 2. **Managing Developer Materials**: If you find yourself needing to repurpose or refresh your memory with small developer resources throughout your workflow, the [Pieces Drive](/products/meet-pieces/fundamentals#pieces-drive) can help you stay organized while providing an efficient pipeline for referencing and reusing them.
 

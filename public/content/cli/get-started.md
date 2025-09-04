@@ -140,7 +140,7 @@ Follow the steps below to update the Pieces CLI.
 
 ## Onboarding
 
-The Pieces CLI offers a walkthrough to guide you through the steps of saving your first material and introduces you to the Long-Term Memory Engine (LTM-2.5), enabling you to make the most of the Pieces CLI.
+The Pieces CLI offers a walkthrough to guide you through the steps of saving your first material and introduces you to the Long-Term Memory Engine (LTM-2.7), enabling you to make the most of the Pieces CLI.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/onboarding_first_step.png" alt="" align="center" fullwidth="true" />
 

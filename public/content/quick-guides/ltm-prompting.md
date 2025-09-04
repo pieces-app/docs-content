@@ -17,12 +17,12 @@ With Pieces Long-Term Memory, you can add more dimensions to your prompts, query
 These guides show how to query the stored LTM context using the Pieces Copilot in the Pieces Desktop App or any app with a Pieces plugin or extension.
 
 <Callout type="tip">
-  When using these prompts, ensure you have LTM-2.5 turned on, both the [LTM](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), and the <a target="_blank" href="/products/desktop/copilot/integration#ltm-context-toggle">LTM context source</a> in the copilot chat.
+  When using these prompts, ensure you have LTM-2.7 turned on, both the [LTM](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), and the <a target="_blank" href="/products/desktop/copilot/integration#ltm-context-toggle">LTM context source</a> in the copilot chat.
 </Callout>
 
 ## Guide Links
 
-These guides introduce some of the ways you can query the databased of stored LTM-2.5 context using the Pieces Copilot in the Pieces Desktop App, or any of the applications you use that have a Pieces plugin or extension.
+These guides introduce some of the ways you can query the databased of stored LTM-2.7 context using the Pieces Copilot in the Pieces Desktop App, or any of the applications you use that have a Pieces plugin or extension.
 
 Click one of the cards below to jump to that guide.
 

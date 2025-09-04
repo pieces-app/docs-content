@@ -46,8 +46,8 @@ Simply type `Pieces:` followed by the desired command to filter and locate it in
 | **Pieces: Delete Copilot Chat**           | Deletes the current Pieces Copilot chat.                                                                                      |
 | **Pieces: Install PiecesOS**              | If PiecesOS is not found on your local machine, this command will take you the route of installing it.                        |
 | **Pieces: Open Pieces Drive**             | Opens materials found withing Pieces Drive.                                                                                   |
-| **Pieces: Enable Long-Term Memory**       | Enables the LTM-2.5 allowing you to actively capture what’s happening on your computer to grant the Copilot better answering. |
-| **Pieces: Pause Long-Term Memory**        | Completely disables Long-Term Memory LTM-2.5.                                                                                 |
+| **Pieces: Enable Long-Term Memory**       | Enables the LTM-2.7 allowing you to actively capture what’s happening on your computer to grant the Copilot better answering. |
+| **Pieces: Pause Long-Term Memory**        | Completely disables Long-Term Memory LTM-2.7.                                                                                 |
 | **Pieces: Connect Personal Cloud**        | Connect to your Pieces cloud account.                                                                                         |
 | **Pieces: Disconnect Personal Cloud**     | Disconnect from your Pieces cloud account.                                                                                    |
 | **Pieces: Export Pieces Material**        | Export a saved snippet via dropdown selection.                                                                                |

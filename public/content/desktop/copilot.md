@@ -36,7 +36,7 @@ Inside the Pieces Copilot view, you can:
 
 1. Interact with advanced [local and cloud-hosted LLMs](/products/desktop/copilot/interaction) for multi-purpose generative AI needs.
 
-2. Leverage [Long-Term Memory (LTM-2.5) context captured by PiecesOS](/products/desktop/copilot/integration) to enhance AI responses.
+2. Leverage [Long-Term Memory (LTM-2.7) context captured by PiecesOS](/products/desktop/copilot/integration) to enhance AI responses.
 
 3. Attach and manage folders, files, saved materials, and websites as [chat context.](/products/desktop/copilot/integration#adding-folders)
 

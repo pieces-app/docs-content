@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Why Use Quick Guides?
 
-Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot.
+Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.7) Memory Engine and Pieces Copilot.
 
 Capture context from your browser, summarize meetings with coworkers, find closed GitHub Issues from last month that were just mentioned in that Slack channel—*and that’s just the beginning.*
 

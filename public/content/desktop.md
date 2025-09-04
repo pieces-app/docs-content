@@ -34,7 +34,7 @@ Let’s dive in!
 
 ## Using the Desktop App
 
-The Pieces Desktop app is designed to act as a *hub* for the three main features of the Pieces Suite, some of which can be found within Pieces extensions and plugins and PiecesOS—the **LTM-2.5 Engine, Pieces Copilot, and Pieces Drive.**
+The Pieces Desktop app is designed to act as a *hub* for the three main features of the Pieces Suite, some of which can be found within Pieces extensions and plugins and PiecesOS—the **LTM-2.7 Engine, Pieces Copilot, and Pieces Drive.**
 
 With the Pieces Desktop App, you have access to dedicated views for the context captured by Long-Term Memory and the Workstream Activity feature, Pieces Copilot, and Pieces Drive.
 
@@ -50,19 +50,19 @@ Keep track of your workflow so you can access stored context from yesterday, las
 
 Imagine what you could do if you could always recall past solutions, find specific links that were lost to your browser history, or remember what so-and-so said in that one Slack channel about that new staging release?
 
-[The Long-Term Memory (LTM-2.5) ](/products/core-dependencies/pieces-os#ltm-25)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-25">engine</a> ensures that *nothing* slips through the cracks.
+[The Long-Term Memory (LTM-2.7) ](/products/core-dependencies/pieces-os#ltm-25)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-25">engine</a> ensures that *nothing* slips through the cracks.
 
 The new, incredibly powerful [Workstream Activity](/products/desktop/workstream-activity) feature provides a sleek UI for interacting with saved data from up to **9 months ago** in an easily digestible *LTM Roll-Up* format, allowing you to start conversations with that context or copy and download it.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_exploring_rollups.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  Read our [documentation on the new Long-Term Memory (LTM-2.5) Engine](/products/core-dependencies/pieces-os#ltm-25) for more information on what it is and how it works.
+  Read our [documentation on the new Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-25) for more information on what it is and how it works.
 </Callout>
 
 ### MCP Support
 
-The Pieces for Developers suite, powered by the LTM-2.5 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
+The Pieces for Developers suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
 
 With the Pieces MCP, you can thread rich workflow context stored in the Pieces Drive through to [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and other IDEs and productivity tools, making Pieces a *platform* for using long-term context in other workflows outside of just the Pieces Desktop App.
 

@@ -11,7 +11,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## The Pillars
 
-Pieces powers developers to new levels of productivity by introducing the **\[1] Long-Term Memory Engine (LTM-2.5)**, a powerful “artificial memory” that remembers your workflow and automatically saves context for future use.
+Pieces powers developers to new levels of productivity by introducing the **\[1] Long-Term Memory Engine (LTM-2.7)**, a powerful “artificial memory” that remembers your workflow and automatically saves context for future use.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/fundamentals/ltm-2-header.png" alt="" align="center" fullwidth="true" />
 
@@ -19,13 +19,13 @@ Next, Pieces offers the **\[2] Pieces Copilot**, assisting with day-to-day tasks
 
 Finally, Pieces provides the **\[3] Pieces Drive**, an intelligent and enriched material management experience that ensures your most important code—and other useful materials—are always at hand.
 
-## LTM-2.5
+## LTM-2.7
 
-The Long-Term Memory Engine (LTM-2.5) captures live context from your workflow over a 7-day period, enhancing your ability to recall and access past materials.
+The Long-Term Memory Engine (LTM-2.7) captures live context from your workflow over a 7-day period, enhancing your ability to recall and access past materials.
 
 ***
 
-*Pieces Copilot with LTM-2.5 Context*
+*Pieces Copilot with LTM-2.7 Context*
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_chat_about_rollups.png" alt="" align="left" fullwidth="true" />
 
@@ -33,19 +33,19 @@ The Long-Term Memory Engine (LTM-2.5) captures live context from your workflow o
 
 You can ask questions like, “*Can you provide me with the link to the Firestore database I was working in last week?”* or “*Summarize the contents of the brief on plugin updates in the Google doc Tim shared”* for game-changing productivity enhancement.
 
-Here are some ways to take advantage of the LTM-2.5:
+Here are some ways to take advantage of the LTM-2.7:
 
-* `Contextual Recall`: LTM-2.5 remembers the websites you visit, the code you work on, and the snippets you save. This context can be accessed via the Pieces Desktop App or within Copilot Chats inside your favorite IDE—with the relevant Pieces extension or plugin installed.
+* `Contextual Recall`: LTM-2.7 remembers the websites you visit, the code you work on, and the snippets you save. This context can be accessed via the Pieces Desktop App or within Copilot Chats inside your favorite IDE—with the relevant Pieces extension or plugin installed.
 
-* `Natural Language Queries`: Ask contextual questions about your previous workflow, and LTM-2.5 will source the relevant anchor and provide you with a clickable URL or path to a file on your device—or try asking it to summarize the contents of a webpage you visited earlier in the day.
+* `Natural Language Queries`: Ask contextual questions about your previous workflow, and LTM-2.7 will source the relevant anchor and provide you with a clickable URL or path to a file on your device—or try asking it to summarize the contents of a webpage you visited earlier in the day.
 
-* `Integrated Access`: Utilize LTM-2.5 through the Pieces Desktop App or within your favorite development tools via browser or IDE integrations.
+* `Integrated Access`: Utilize LTM-2.7 through the Pieces Desktop App or within your favorite development tools via browser or IDE integrations.
 
 ### Workstream Activity
 
 Pieces for Developers has just launched a new flagship feature called [Workstream Activity](/products/desktop/workstream-activity).
 
-The Workstream Activity view in the [Pieces Desktop App](/products/desktop) uses the advanced Long-Term Memory (LTM-2.5) Engine to collect and summarize your recent tasks, discussions, code reviews, and more.
+The Workstream Activity view in the [Pieces Desktop App](/products/desktop) uses the advanced Long-Term Memory (LTM-2.7) Engine to collect and summarize your recent tasks, discussions, code reviews, and more.
 
 ***
 

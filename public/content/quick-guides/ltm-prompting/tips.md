@@ -10,7 +10,7 @@ metaDescription: Learn effective prompting techniques to maximize Pieces Long-Te
 
 ## In This Guide
 
-Generative AI can only be *so* smart, but you can extract a lot more usefulness out of LLMs—especially when they’re served through Pieces, with the power of LTM-2.5—by adjusting your prompts.
+Generative AI can only be *so* smart, but you can extract a lot more usefulness out of LLMs—especially when they’re served through Pieces, with the power of LTM-2.7—by adjusting your prompts.
 
 This prompt guide will cover some of the more basic, but still quite important, of prompting so that you maximize the potential of LTM-enhanced in your workflow.
 

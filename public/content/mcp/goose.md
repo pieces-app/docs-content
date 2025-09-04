@@ -25,7 +25,7 @@ Learn how to integrate the Pieces MCP into Goose by following the steps below.
 
 ## Prerequisites
 
-There are **\[2]** primary prerequisites for integrating Pieces with Goose as an MCP—an active instance of **PiecesOS** and the fully-enabled **Long-Term Memory (LTM-2.5)** engine.
+There are **\[2]** primary prerequisites for integrating Pieces with Goose as an MCP—an active instance of **PiecesOS** and the fully-enabled **Long-Term Memory (LTM-2.7)** engine.
 
 <Steps>
   <Step title="Install & Run PiecesOS">
@@ -33,7 +33,7 @@ There are **\[2]** primary prerequisites for integrating Pieces with Goose as an
   </Step>
 
   <Step title="Enable Long-Term Memory">
-    For the MCP server to interact with your workflow context, you must enable the Long-Term Memory Engine (LTM-2.5) through the Pieces Desktop App or the [PiecesOS Quick Menu](/products/core-dependencies/pieces-os/quick-menu) in your toolbar.
+    For the MCP server to interact with your workflow context, you must enable the Long-Term Memory Engine (LTM-2.7) through the Pieces Desktop App or the [PiecesOS Quick Menu](/products/core-dependencies/pieces-os/quick-menu) in your toolbar.
   </Step>
 
   <Step title="Install Goose">
@@ -182,7 +182,7 @@ Once the integration is set up, you can start using Pieces Long-Term Memory thro
 </Steps>
 
 <Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
-  Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.5) with your new Pieces MCP server.
+  Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.7) with your new Pieces MCP server.
 </Card>
 
 ## Toggling & Removing Pieces MCP
@@ -221,7 +221,7 @@ If you're experiencing issues integrating Pieces MCP with Goose, follow these tr
 
 1. **Verify PiecesOS Status:** Ensure [PiecesOS is actively running](/products/core-dependencies/pieces-os) on your system. MCP integration requires PiecesOS to be operational.
 
-2. **Confirm LTM Engine Activation:** Make sure the [Long-Term Memory Engine (LTM-2.5) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Goose to retrieve accurate results.
+2. **Confirm LTM Engine Activation:** Make sure the [Long-Term Memory Engine (LTM-2.7) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Goose to retrieve accurate results.
 
 3. **Single MCP Instance:** Make sure that you aren't testing multiple instances of the Pieces MCP server in different IDEs. This *cross-contamination conflict* with the SSE and several MCP instances running on the same port can cause issues in different development environments.
 

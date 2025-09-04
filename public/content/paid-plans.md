@@ -29,8 +29,8 @@ Experience faster, more accurate AI assistance with top-tier cloud LLMs from a r
 
 | **Claude** | **Gemini**    |
 | ---------- | ------------- |
-| Sonnet 4   | 2.5 Flash     |
-| Opus 4     | 2.5 Flash Pro |
+| Sonnet 4   | 2.7 Flash     |
+| Opus 4     | 2.7 Flash Pro |
 
 <Callout type="tip">
   Premium OpenAI models coming soon for Pieces Pro users.
