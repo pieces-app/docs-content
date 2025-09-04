@@ -19,7 +19,7 @@ Before you begin, make sure you have:
 * **A Supported Browser:** Your browser must meet the minimum version requirement and must also be on the list of supported browsers, as not all browsers are supported at this time.
 
 <Callout type="info">
-  You must have [PiecesOS](/products/core-dependencies/pieces-os) to use the Pieces Web Extension. We also recommend downloading the [Pieces for Developers Desktop App](/products/desktop).
+  You must have [PiecesOS](/products/core-dependencies/pieces-os) to use the Pieces Web Extension. We also recommend downloading the [Pieces Desktop App](/products/desktop).
 </Callout>
 
 ### Sign in Required
@@ -108,11 +108,11 @@ To disconnect from the Pieces Cloud:
 
 ## Onboarding
 
-The Pieces Web Extension features an interactive walkthrough that shows you the *magic* behind the Long Term Memory (LTM-2.5) and how to get the most out of the web extension.
+The Pieces Web Extension features an interactive walkthrough that shows you the *magic* behind the Long Term Memory (LTM-2.7) and how to get the most out of the web extension.
 
-### Activating LTM-2.5
+### Activating LTM-2.7
 
-Click `Activate LTM`, and the welcome page appears with an overview of LTM-2.5.
+Click `Activate LTM`, and the welcome page appears with an overview of LTM-2.7.
 
 You'll have the option to close the page or click `I'm In` to continue. Click `I'm In`, and the *magic* window pops up with interactive features that guide you through the process.
 
@@ -120,11 +120,11 @@ You'll have the option to close the page or click `I'm In` to continue. Click `I
 
 Inside the *magic* window, click `Generate Secret Message`, and a browser window opens to display an example snippet for LTM. Y
 
-ou'll be prompted to paste your copied prompt—*“What was my secret message from Pieces for Developers?”*—and then click `Submit`.
+ou'll be prompted to paste your copied prompt—*“What was my secret message from Pieces?”*—and then click `Submit`.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/get_started/successful_onboarding.png" alt="" align="center" fullwidth="true" />
 
-Once submitted, Pieces celebrates your activation, showing you that LTM-2.5 is enabled and ready to go!
+Once submitted, Pieces celebrates your activation, showing you that LTM-2.7 is enabled and ready to go!
 
 ## Uninstalling
 

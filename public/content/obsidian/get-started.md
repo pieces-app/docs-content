@@ -19,7 +19,7 @@ Before installation, you'll need:
 * **Obsidian:** <a target="_blank" href="https://obsidian.md/download">Obsidian</a> is installed on your development machine.
 
 <Callout type="alert">
-  PiecesOS must be installed to enable the Pieces for Obsidian Plugin. We also recommend the Pieces for Developers Desktop App for enhanced functionality.
+  PiecesOS must be installed to enable the Pieces for Obsidian Plugin. We also recommend the Pieces Desktop App for enhanced functionality.
 </Callout>
 
 ### Sign in Required
@@ -52,7 +52,7 @@ Pieces requires all users to sign in before using any plugins or extensions. You
   </Step>
 
   <Step title="Search for the Plugin">
-    Click the search bar, then search for **Pieces for Developers**, and click the Pieces for Developers option.
+    Click the search bar, then search for **Pieces**, and click the Pieces option.
   </Step>
 
   <Step title="Install the Plugin">
@@ -137,8 +137,8 @@ Pieces works with you to ensure the best possible experience. You can find Piece
     On the bottom of the **Community Plugins** window, locate the section called **Installed Plugins.**
   </Step>
 
-  <Step title="Pieces for Developers Plugin.">
-    Locate the installed Pieces for Developers plugin and click the trash icon to uninstall the plugin.
+  <Step title="Pieces Plugin.">
+    Locate the installed Pieces plugin and click the trash icon to uninstall the plugin.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/obsidian_plugin_assets/getting_started/uninstall_button_OBS.png" alt="" align="center" fullwidth="true" />
   </Step>

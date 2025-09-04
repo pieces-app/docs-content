@@ -147,7 +147,7 @@ To ensure a stable, responsive experience—make sure your device fits these gen
 
 ### Minimum System Requirements for Pieces Software
 
-Your device, regardless of platform, should meet the following basic system specifications for using Pieces for Developers software.
+Your device, regardless of platform, should meet the following basic system specifications for using Pieces software.
 
 <pos-pfd-system-reqs />
 

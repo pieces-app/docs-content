@@ -18,7 +18,7 @@ The <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces">
 
 It provides developers with powerful tools for **managing code snippets, debugging, and refactoring** within their familiar development environment.
 
-* [Pieces Copilot:](/products/extensions-plugins/jetbrains/copilot) Users can start generative AI conversations and add files and folders as context to get the solutions they need, including out-of-IDE context with the optional Long-Term Memory Engine (LTM-2.5).
+* [Pieces Copilot:](/products/extensions-plugins/jetbrains/copilot) Users can start generative AI conversations and add files and folders as context to get the solutions they need, including out-of-IDE context with the optional Long-Term Memory Engine (LTM-2.7).
 
 * [Pieces Drive:](/products/extensions-plugins/jetbrains/drive) Effortlessly save, locate, and share frequently used code snippets, making it easier to organize your work, quickly access essential pieces of code, and collaborate effectively with others.
 
@@ -92,7 +92,7 @@ You can perform **several decisive** **actions** with the Pieces Copilot insid
 
 The **Ask Copilot** feature is the backbone of the Pieces Copilot experience.
 
-Pieces for Developers recently rolled out its new **AI Quick Actions** feature—similar to VS Code’s Codelens—which allows for select quick actions powered by Pieces Copilot, namely `Pieces: Explain` and `Pieces: Comment`.
+Pieces recently rolled out its new **AI Quick Actions** feature—similar to VS Code’s Codelens—which allows for select quick actions powered by Pieces Copilot, namely `Pieces: Explain` and `Pieces: Comment`.
 
 <Callout type="tip">
   The Quick Action tools—`Pieces: Explain` and `Pieces: Comment`—are above the function nearest to your cursor.

@@ -14,7 +14,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 ***
 
 <Callout type="alert">
-  V2 Documentation for the Pieces for Developers JupyterLabs Extension is under construction.
+  V2 Documentation for the Pieces JupyterLabs Extension is under construction.
 
   In the meantime, you can look at the V1 documentation for the Pieces for JupyterLab Extension below.
 </Callout>
@@ -28,7 +28,7 @@ Learn how to install the Pieces for JupyterLab Extension via the **PYPI Manager,
 This extension is compatible with *JupyterLab 4.0.0* and higher, and is currently in **beta**.
 
 <Callout type="tip">
-  Pieces For Developers captures *no identifiable user data.* Our local-only architecture means your data never has to leave your device.
+  Pieces captures *no identifiable user data.* Our local-only architecture means your data never has to leave your device.
 </Callout>
 
 ### Sign in Required
@@ -189,7 +189,7 @@ We prioritize your privacy and offline usability in the same spirit as JupyterLa
 
 ## Configuration
 
-You can personalize your experience with the Pieces for Developers JupyterLab Extension through the **Pieces Settings** menu.
+You can personalize your experience with the Pieces JupyterLab Extension through the **Pieces Settings** menu.
 
 This allows you to tailor how Pieces behaves to best fit your workflow:
 
@@ -203,7 +203,7 @@ This allows you to tailor how Pieces behaves to best fit your workflow:
 
 ## Troubleshooting
 
-If the Pieces for Developers JupyterLab Extension isn’t working as expected, first check that **Pieces OS** is running—you should see the Pieces logo in your toolbar (macOS) or taskbar (Windows).
+If the Pieces JupyterLab Extension isn’t working as expected, first check that **Pieces OS** is running—you should see the Pieces logo in your toolbar (macOS) or taskbar (Windows).
 
 Make sure you have the latest versions of both the **Pieces JupyterLab Extension** and **Pieces OS (v8.0.0 or higher)**, and that your **JupyterLab version is 4.0.0 or above**.
 

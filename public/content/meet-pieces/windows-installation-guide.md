@@ -3,7 +3,7 @@ title: Installation Guide | Windows
 path: /meet-pieces/windows-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
-description: The following guide will help you install and run both PiecesOS and the Pieces for Developers Desktop Application quickly and easily on your Windows device.
+description: The following guide will help you install and run both PiecesOS and the Pieces Desktop Application quickly and easily on your Windows device.
 metaTitle: Get Started | Windows
 metaDescription: Get started with Pieces on Windows – install, configure, troubleshoot and optimize your setup for seamless AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_windows_install.png"
@@ -97,13 +97,13 @@ If you cannot use the `.appinstaller` method for any reason, you can also insta
 WinGet will allow you to easily install Pieces without having to leave the terminal.
 
 <CardGroup cols={1}>
-  <Card title="WinGet — Pieces for Developers" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/winget.webp">
+  <Card title="WinGet — Pieces" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/winget.webp">
     1. Use Windows Terminal, Command Prompt, or PowerShell.
 
     2. Then, copy and run the command below:
 
     ```bash
-    winget install "Pieces for Developers"
+    winget install "Pieces"
     ```
 
     You will be promoted to agree or disagree to the terms of use a second time, so enter `Y` to proceed with the installation.
@@ -118,7 +118,7 @@ There are a series of on-screen prompts to navigate through when installing the 
 
 2. **Install Location:** Choose where to install Pieces (default location is recommended) and click `Install`.
 
-3. **Select Additional Tasks:** Check `Create a desktop shortcut` or `Automatically start Pieces for Developers` if preferred.
+3. **Select Additional Tasks:** Check `Create a desktop shortcut` or `Automatically start Pieces` if preferred.
 
 4. **Ready to Install:** Click `Install`**.**
 

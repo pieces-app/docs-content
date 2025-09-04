@@ -3,7 +3,7 @@ title: Installation Guide | Linux
 path: /meet-pieces/linux-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
-description: The following guide will help you install and run both PiecesOS and the Pieces for Developers Desktop Application quickly and easily on your Linux device.
+description: The following guide will help you install and run both PiecesOS and the Pieces Desktop Application quickly and easily on your Linux device.
 metaTitle: Get started | Linux
 metaDescription: Get started with Pieces on Linux – install, configure, troubleshoot and optimize your setup for seamless AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png"

@@ -35,7 +35,7 @@ There are **\[2]** prerequisites for integrating Pieces with GitHub Copilot as a
   </Step>
 
   <Step title="Enable Long-Term Memory">
-    For the MCP server to interact with your workflow context, you must enable the Long-Term Memory Engine (LTM-2.5) through the Pieces Desktop App or the [PiecesOS Quick Menu](/products/core-dependencies/pieces-os/quick-menu) in your toolbar.
+    For the MCP server to interact with your workflow context, you must enable the Long-Term Memory Engine (LTM-2.7) through the Pieces Desktop App or the [PiecesOS Quick Menu](/products/core-dependencies/pieces-os/quick-menu) in your toolbar.
   </Step>
 </Steps>
 
@@ -190,7 +190,7 @@ Once integrated, you can utilize Pieces LTM directly in Visual Studio Code.
 </Steps>
 
 <Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
-  Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.5) with your new Pieces MCP server.
+  Check out this [MCP-specific prompting guide](/products/mcp/prompting) if you want to effectively utilize the Long-Term Memory Engine (LTM-2.7) with your new Pieces MCP server.
 </Card>
 
 ## Troubleshooting Tips
@@ -199,7 +199,7 @@ If you’re experiencing issues integrating Pieces MCP with GitHub Copilot, foll
 
 1. **Verify PiecesOS Status**: Ensure [PiecesOS is actively running](/products/core-dependencies/pieces-os/troubleshooting) on your system. MCP integration requires PiecesOS to be operational.
 
-2. **Confirm LTM Engine Activation**: Make sure the [Long-Term Memory Engine (LTM-2.5) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Cursor to retrieve accurate results.
+2. **Confirm LTM Engine Activation**: Make sure the [Long-Term Memory Engine (LTM-2.7) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Cursor to retrieve accurate results.
 
 3. **Use Agent Mode in Chat**: Cursor must be in *Agent*, not *Ask*, to access the `ask_pieces_ltm` tool. Switch to Agent to enable full MCP integration. Make sure *not to add* the `ask_pieces_ltm` tool as context—instead, rely solely on the *Agent* chat mode.
 

@@ -93,7 +93,7 @@ To use this feature:
 After running the initial command, you can then query the LLM, which will use the file as context to generate accurate and useful responses.
 
 <Callout type="tip">
-  This is ideal for developers who need a comprehensive understanding of a file, such as its dependencies, functions, and classes
+  This is ideal for users who need a comprehensive understanding of a file, such as its dependencies, functions, and classes
 </Callout>
 
 ### Pieces: Ask About The Current Project

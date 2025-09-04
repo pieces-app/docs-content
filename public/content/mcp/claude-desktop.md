@@ -39,7 +39,7 @@ There are **two** main things you need to do to connect Pieces with Claude Deskt
   </Step>
 
   <Step title="Enable Long-Term Memory">
-    To let the MCP server use your workflow context, you need to turn on the Long-Term Memory Engine (LTM-2.5) through the Pieces Desktop App or [the PiecesOS Quick Menu in your toolbar.](/products/core-dependencies/pieces-os/quick-menu)
+    To let the MCP server use your workflow context, you need to turn on the Long-Term Memory Engine (LTM-2.7) through the Pieces Desktop App or [the PiecesOS Quick Menu in your toolbar.](/products/core-dependencies/pieces-os/quick-menu)
   </Step>
 </Steps>
 
@@ -202,7 +202,7 @@ If you’re experiencing issues integrating [Pieces MCP](/products/mcp/get-start
    Ensure PiecesOS is actively running on your system.
 
 2. **Confirm LTM Engine Activation**\
-   [Long-Term Memory (LTM-2.5)](/products/core-dependencies/pieces-os/quick-menu#ltm-25-engine) must be enabled in PiecesOS.
+   [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-27-engine) must be enabled in PiecesOS.
 
 3. **Single MCP Instance**\
    Avoid running multiple Pieces MCP instances in different apps simultaneously.

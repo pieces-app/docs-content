@@ -70,7 +70,7 @@ This opens up the snippet in markdown preview mode in a separate window. In the 
 
 Each product in the Pieces Suite uses [PiecesOS](/products/core-dependencies/pieces-os) to get information about your snippets' context.
 
-When you update a snippet in the [Pieces for Developers Desktop App](/products/desktop)—such as a name or description, tags or any of the other metadata—those changes are also reflected in your Pieces for Sublime Text Plugin without refreshing.
+When you update a snippet in the [Pieces Desktop App](/products/desktop)—such as a name or description, tags or any of the other metadata—those changes are also reflected in your Pieces for Sublime Text Plugin without refreshing.
 
 <Callout type="tip">
   If your snippets are not updating right away, see the [troubleshooting guide](/products/extensions-plugins/sublime/troubleshooting) for details on how to refresh your snippet list.

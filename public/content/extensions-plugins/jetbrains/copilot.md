@@ -12,7 +12,7 @@ metaDescription: With Pieces Copilot inside the Pieces for JetBrains Plugin, you
 
 If you’re unsure how to implement a specific piece of functionality, stuck on a bug, or simply want a useful answer to something within your codebase, you can use the Pieces Copilot to receive context-aware responses to help you move forward.
 
-The Pieces for JetBrains plugin provides several levels of conversation functionality, each of which is fully integrated with Pieces—you can enable the **Long Term Memory Engine (LTM-2.5)** for full, streamlined context across your entire workflow, or open a limited context conversation in the IDEs side view.
+The Pieces for JetBrains plugin provides several levels of conversation functionality, each of which is fully integrated with Pieces—you can enable the **Long Term Memory Engine (LTM-2.7)** for full, streamlined context across your entire workflow, or open a limited context conversation in the IDEs side view.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/jetbrains_plugin_assets/jetbrains_plugin_assets/pieces_copilot/MAIN_pieces_copilot/chat_window_open.png" alt="" align="center" fullwidth="true" />
 

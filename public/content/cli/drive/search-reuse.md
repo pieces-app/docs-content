@@ -57,7 +57,7 @@ You can open a snippet from the list using your scroll wheel or arrow keys and s
 
 Every product in the Pieces Suite uses [PiecesOS](/products/core-dependencies/pieces-os) to collect information about the context of your snippets.
 
-When you change a snippet in the [Pieces for Developers Desktop App](/products/desktop)—such as its name, description, tags, or any other metadata—those updates automatically appear in your Pieces Drive without needing to refresh.
+When you change a snippet in the [Pieces Desktop App](/products/desktop)—such as its name, description, tags, or any other metadata—those updates automatically appear in your Pieces Drive without needing to refresh.
 
 <Callout type="tip">
   If your snippets aren’t updating immediately, refer to the troubleshooting guide for guidance on refreshing your snippet list.

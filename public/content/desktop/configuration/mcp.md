@@ -3,7 +3,7 @@ title: Model Context Protocol (MCP) Servers
 path: /desktop/configuration/mcp
 visibility: PUBLIC
 status: PUBLISHED
-description: The Model Context Protocol (MCP) settings let you configure and manage MCP integration with PiecesOS, enabling connectivity between Large Language Models (LLMs) and your personal context stored by the Long-Term Memory Engine (LTM-2.5).
+description: The Model Context Protocol (MCP) settings let you configure and manage MCP integration with PiecesOS, enabling connectivity between Large Language Models (LLMs) and your personal context stored by the Long-Term Memory Engine (LTM-2.7).
 metaTitle: Configure Pieces MCP Settings
 metaDescription: Access the Model Context Protocol (MCP) tab within the Settings View of the Desktop App, where you can find the latest SSE URL for integrating into your favorite tools.
 ---

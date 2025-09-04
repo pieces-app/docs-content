@@ -36,7 +36,7 @@ If you’d like to adjust the keyboard shortcuts for the Pieces for Obsidian Plu
   </Step>
 
   <Step title="Find the Command">
-    Use the search bar to locate the specific command you want to override, such as commands for the "Pieces for Developers" plugin.
+    Use the search bar to locate the specific command you want to override, such as commands for the "Pieces" plugin.
   </Step>
 
   <Step title="Customize the Shortcut">

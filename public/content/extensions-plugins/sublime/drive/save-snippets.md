@@ -72,7 +72,7 @@ Additionally, the Pieces Copilot **scans saved snippets for sensitive informatio
 
 ## Where Saved Snippets Live
 
-Saved snippets are stored locally on your device, ensuring accessibility even when offline. This also means that any Pieces for Developers extension or plugin—or even the Pieces Desktop App—has constant, up-to-date access to your saved materials.
+Saved snippets are stored locally on your device, ensuring accessibility even when offline. This also means that any Pieces extension or plugin—or even the Pieces Desktop App—has constant, up-to-date access to your saved materials.
 
 You can search your saved snippets with the `Pieces: Search` feature.
 

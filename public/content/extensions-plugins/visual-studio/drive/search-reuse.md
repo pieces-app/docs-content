@@ -138,7 +138,7 @@ When using the Pieces Drive sidebar in Visual Studio, click on the **three verti
 
 Every product in the Pieces Suite uses [PiecesOS](/products/core-dependencies/pieces-os) to collect information about the context of your snippets.
 
-When you change a snippet in the [Pieces for Developers Desktop App](/products/desktop)—such as its name, description, tags, or any other metadata—those updates automatically appear in your [Pieces for Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio) without needing to refresh.
+When you change a snippet in the [Pieces Desktop App](/products/desktop)—such as its name, description, tags, or any other metadata—those updates automatically appear in your [Pieces for Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio) without needing to refresh.
 
 <Callout type="info">
   If your snippets aren’t updating immediately, refer to the [troubleshooting guide](/products/extensions-plugins/visual-studio/troubleshooting) for instructions on refreshing your snippet list.

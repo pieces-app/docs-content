@@ -1,9 +1,9 @@
 ---
-title: Pieces for Developers Desktop App
+title: Pieces Desktop App
 path: /desktop
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces for Developers Desktop Application features a set of AI tools designed to help developers and knowledge workers make smart choices every day.
+description: The Pieces Desktop Application features a set of AI tools designed to help users and knowledge workers make smart choices every day.
 metaTitle: Pieces Desktop Application
 metaDescription: Boost productivity with the Pieces Desktop App – AI-powered tools that use workflow context to enhance decision-making with generative AI.
 ---
@@ -14,15 +14,15 @@ metaDescription: Boost productivity with the Pieces Desktop App – AI-powered t
 
 ## Meet the Pieces Desktop App
 
-The **Pieces for Developers Desktop Application** contains a suite of AI-powered tools designed to improve productivity by utilizing your workflow context and enabling you to make intelligent decisions on a day-to-day basis with generative AI.
+The **Pieces Desktop Application** contains a suite of AI-powered tools designed to improve productivity by utilizing your workflow context and enabling you to make intelligent decisions on a day-to-day basis with generative AI.
 
-Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and soul of Pieces for Developers—the Pieces Desktop app is the ultimate assistant for developers and knowledge workers for code, context, and creativity.
+Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and soul of Pieces—the Pieces Desktop app is the ultimate assistant for code, context, and creativity.
 
 Let’s dive in!
 
 <CardGroup cols={2}>
   <Card title="Getting Started" image="/assets/icons/pieces_desktop.png">
-    Follow these instructions to download and install the Pieces for Developers Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
+    Follow these instructions to download and install the Pieces Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
   </Card>
 
   <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
@@ -34,7 +34,7 @@ Let’s dive in!
 
 ## Using the Desktop App
 
-The Pieces Desktop app is designed to act as a *hub* for the three main features of the Pieces Suite, some of which can be found within Pieces extensions and plugins and PiecesOS—the **LTM-2.5 Engine, Pieces Copilot, and Pieces Drive.**
+The Pieces Desktop app is designed to act as a *hub* for the three main features of the Pieces Suite, some of which can be found within Pieces extensions and plugins and PiecesOS—the **LTM-2.7 Engine, Pieces Copilot, and Pieces Drive.**
 
 With the Pieces Desktop App, you have access to dedicated views for the context captured by Long-Term Memory and the Workstream Activity feature, Pieces Copilot, and Pieces Drive.
 
@@ -50,19 +50,19 @@ Keep track of your workflow so you can access stored context from yesterday, las
 
 Imagine what you could do if you could always recall past solutions, find specific links that were lost to your browser history, or remember what so-and-so said in that one Slack channel about that new staging release?
 
-[The Long-Term Memory (LTM-2.5) ](/products/core-dependencies/pieces-os#ltm-25)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-25">engine</a> ensures that *nothing* slips through the cracks.
+[The Long-Term Memory (LTM-2.7) ](/products/core-dependencies/pieces-os#ltm-27)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-27">engine</a> ensures that *nothing* slips through the cracks.
 
 The new, incredibly powerful [Workstream Activity](/products/desktop/workstream-activity) feature provides a sleek UI for interacting with saved data from up to **9 months ago** in an easily digestible *LTM Roll-Up* format, allowing you to start conversations with that context or copy and download it.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_exploring_rollups.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  Read our [documentation on the new Long-Term Memory (LTM-2.5) Engine](/products/core-dependencies/pieces-os#ltm-25) for more information on what it is and how it works.
+  Read our [documentation on the new Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27) for more information on what it is and how it works.
 </Callout>
 
 ### MCP Support
 
-The Pieces for Developers suite, powered by the LTM-2.5 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
+The Pieces suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
 
 With the Pieces MCP, you can thread rich workflow context stored in the Pieces Drive through to [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and other IDEs and productivity tools, making Pieces a *platform* for using long-term context in other workflows outside of just the Pieces Desktop App.
 
@@ -98,7 +98,7 @@ Save and organize your materials in one place, then watch as AI-enriched metadat
 
 ## Troubleshooting
 
-Designed for three different operating systems, the Pieces for Developers Desktop Application has [in-depth troubleshooting documentation](/products/desktop/troubleshooting) for cross-platform issues and OS-specific issues.
+Designed for three different operating systems, the Pieces Desktop Application has [in-depth troubleshooting documentation](/products/desktop/troubleshooting) for cross-platform issues and OS-specific issues.
 
 ## Support
 

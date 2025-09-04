@@ -3,9 +3,9 @@ title: Keyboard Shortcuts
 path: /desktop/actions/keyboard-shortcuts
 visibility: PUBLIC
 status: PUBLISHED
-description: Keyboard shortcuts enable you to access parts of Pieces for Developers without having to use the Power Menu or the settings page.
+description: Keyboard shortcuts enable you to access parts of Pieces without having to use the Power Menu or the settings page.
 metaTitle: Keyboard Shortcuts | Pieces Desktop App
-metaDescription: Keyboard shortcuts enable you to access parts of Pieces for Developers without having to use the Power Menu or the settings page.
+metaDescription: Keyboard shortcuts enable you to access parts of Pieces without having to use the Power Menu or the settings page.
 ---
 
 ## Overview

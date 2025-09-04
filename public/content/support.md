@@ -14,7 +14,7 @@ metaDescription: Reach out to our engineers, open support tickets, and read disc
 ***
 
 <Card title="We’ve been given an award!" image="/assets/icons/platform_logos/pieces_logo.png">
-  Pieces for Developers was recently awarded the ‘Best Support’ badge for Fall of 2024 by G2. <a target="_blank" href="https://www.g2.com/products/pieces-for-developers/reviews?utm_source=rewards-badge">Read more here.</a>
+  Pieces was recently awarded the ‘Best Support’ badge for Fall of 2024 by G2. <a target="_blank" href="https://www.g2.com/products/pieces-for-developers/reviews?utm_source=rewards-badge">Read more here.</a>
 </Card>
 
 ***
@@ -119,7 +119,7 @@ At any time, you can find your up-to-date log files in the following locations, 
 
 ## Join our Discord Community
 
-We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces for Developers team.
+We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces team.
 
 You can also catch up on product updates, speak with our power users, or participate in weekly Community Events.
 

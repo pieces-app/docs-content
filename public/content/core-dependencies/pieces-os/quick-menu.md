@@ -12,7 +12,7 @@ metaDescription: Read documentation and see visuals demonstrations of the Pieces
 
 The **Quick Menu** is a lightweight interface for interacting with PiecesOS, located in your menu bar (macOS & Linux) or system tray (Windows).
 
-This popover lets you manage your PiecesOS settings, Long-Term Memory (LTM-2.5) Engine configurations, and application integrations.
+This popover lets you manage your PiecesOS settings, Long-Term Memory (LTM-2.7) Engine configurations, and application integrations.
 
 It enables you to monitor PiecesOS status, toggle memory and AI processing settings, and access critical resources without launching a separate application, among other features.
 
@@ -32,7 +32,7 @@ There are several views and buttons you can click to expand or enter in the Piec
 | *Long-Term Memory Access Control* | Enable or disable sources from which LTM captures contextual workflow data.                                                                |
 | *Settings*                        | Adjust settings like launch on login, enabled Pieces products, ML processing configurations, telemetry permissions, or optimize RAM usage. |
 | *Activity*                        | View recent LTM activity, like most recent Copilot Chats, people, and related websites.                                                    |
-| *Resources*                       | Find links to documentation and Pieces for Developers social accounts.                                                                     |
+| *Resources*                       | Find links to documentation and Pieces social accounts.                                                                     |
 
 ***
 
@@ -70,7 +70,7 @@ Directly under your account information, the Quick Menu displays your current Pi
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/check_for_updates_posdropdown.png" alt="" align="center" fullwidth="true" />
 
-## LTM-2.5 Engine
+## LTM-2.7 Engine
 
 LTM is PiecesOS’s core memory engine, capturing workflow context locally to enhance productivity.
 
@@ -196,11 +196,11 @@ The `Resources` provides quick access to documentation, support, and community l
 
 The Pieces Quick Menu on Linux contains several helpful resources and links, such as:
 
-* **Discoverer Integrations:** Opens the Pieces website, where you can find all <a target="_blank" href="https://pieces.app/plugins">Pieces for Developers browser and IDE extensions and plugins</a>.
+* **Discoverer Integrations:** Opens the Pieces website, where you can find all <a target="_blank" href="https://pieces.app/plugins">Pieces browser and IDE extensions and plugins</a>.
 
-* **About:** Launches the <a target="_blank" href="https://pieces.app/about">About</a> page for Pieces for Developers.
+* **About:** Launches the <a target="_blank" href="https://pieces.app/about">About</a> page for Pieces.
 
-* **Documentation:** Brings you to the official <a target="_blank" href="/">Pieces for Developers documentation</a>, where you can browse through guides and troubleshooting information for the entire Pieces Suite.
+* **Documentation:** Brings you to the official <a target="_blank" href="/">Pieces documentation</a>, where you can browse through guides and troubleshooting information for the entire Pieces Suite.
 
 * **Submit Feedback or Issues:** If you're experiencing an issue, click this button to open a webpage with a form for submitting bug reports or providing feedback. <a target="_blank" href="/products/support">You can also</a>[ visit our Support page here to do so.](/products/support)
 

@@ -80,7 +80,7 @@ There are two ways to access this command:
   </Step>
 
   <Step title="Run the Command">
-    Type and run `Pieces for Developers: Ask Copilot About Your Selection`.
+    Type and run `Pieces: Ask Copilot About Your Selection`.
   </Step>
 
   <Step title="Enter Question">

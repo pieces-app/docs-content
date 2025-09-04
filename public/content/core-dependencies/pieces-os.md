@@ -3,9 +3,9 @@ title: Understanding PiecesOS
 path: /core-dependencies/pieces-os
 visibility: PUBLIC
 status: PUBLISHED
-description: Read about PiecesOS, the foundational layer that supports the whole Pieces for Developers Suite, and the core functionalities—like LTM-2.5, Pieces Drive, and Pieces Copilot.
+description: Read about PiecesOS, the foundational layer that supports the whole Pieces Suite, and the core functionalities—like LTM-2.7, Pieces Drive, and Pieces Copilot.
 metaTitle: Understanding PiecesOS | Pieces Docs
-metaDescription: Read about PiecesOS, the foundational layer that supports the whole Pieces for Developers Suite, and the core functionalities—like LTM-2, Pieces Drive, and Pieces Copilot.
+metaDescription: Read about PiecesOS, the foundational layer that supports the whole Pieces Suite, and the core functionalities—like LTM-2, Pieces Drive, and Pieces Copilot.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/pieces_os.png"
 ---
 
@@ -15,7 +15,7 @@ PiecesOS is a background service that runs on your machine. It orchestrates loca
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/longtermmemory_piecesdrive_piecescopilot.png" alt="" align="center" fullwidth="true" />
 
-There are three core pillars of Pieces functionality powered by PiecesOS: [\[1\] LTM-2.5,](/products/core-dependencies/pieces-os#ltm-25) [\[2\] Pieces Drive,](/products/core-dependencies/pieces-os#pieces-drive) and [\[3\] Pieces Copilot.](/products/core-dependencies/pieces-os#pieces-copilot)
+There are three core pillars of Pieces functionality powered by PiecesOS: [\[1\] LTM-2.7,](/products/core-dependencies/pieces-os#ltm-27) [\[2\] Pieces Drive,](/products/core-dependencies/pieces-os#pieces-drive) and [\[3\] Pieces Copilot.](/products/core-dependencies/pieces-os#pieces-copilot)
 
 These components make up the Pieces experience and are essential to the modern AI-powered workflow.  
 
@@ -29,7 +29,7 @@ This ‘brain’ is required to enable the 3 fundamental features of the Pieces 
 
 ### How Does PiecesOS Work?
 
-Powered by PiecesOS, the Long-Term Memory (LTM-2.5) Engine tracks your development and workflow context using the Pieces Drive, allowing you to import and export materials as needed.
+Powered by PiecesOS, the Long-Term Memory (LTM-2.7) Engine tracks your development and workflow context using the Pieces Drive, allowing you to import and export materials as needed.
 
 Then, with Pieces Copilot, you can use cloud-based or local LLMs through Ollama to start chats that include the context you need.
 
@@ -39,21 +39,21 @@ This way, all AI-powered elements work together to enhance your context and crea
 
 Using the Pieces Desktop App or a Pieces plugin or extension for your favorite IDE requires PiecesOS, as it is a required dependency for memory and context preservation, storing and accessing materials, and interacting with generative AI.
 
-## LTM-2.5
+## LTM-2.7
 
-The **Long-Term Memory (LTM-2.5) Engine** is a powerful evolution of the original LTM system, designed to store and surface workflow context from up to **nine months** in the past.
+The **Long-Term Memory (LTM-2.7) Engine** is a powerful evolution of the original LTM system, designed to store and surface workflow context from up to **nine months** in the past.
 
 <Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
-  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.5 and the coming *LTM-2.5*
+  Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7 and the coming *LTM-2.7*
 </Card>
 
-By combining automatic “roll-ups” with flexible “memories” browsing, LTM-2.5 ensures you don’t lose track of code, discussions, or references—even if you return to a project weeks or months later.
+By combining automatic “roll-ups” with flexible “memories” browsing, LTM-2.7 ensures you don’t lose track of code, discussions, or references—even if you return to a project weeks or months later.
 
 These workflow summaries can be found within the [Workstream Activities](/products/desktop/workstream-activity) view in the [Pieces Desktop App](/products/desktop).
 
 ***
 
-*Pieces Copilot with LTM-2.5 Context —* Pieces Desktop App
+*Pieces Copilot with LTM-2.7 Context —* Pieces Desktop App
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Other%20Environments/pieces_cross_threading.png" alt="" align="center" fullwidth="true" />
 
@@ -91,7 +91,7 @@ LTM (through PiecesOS) extends your ability to [enable or disable specific sourc
 
 Traditionally, AI tools require you to restate your environment—what project you’re working on, the code you just wrote, or the documentation you’ve referenced.
 
-However, with LTM-2.5’s temporal grounding, you have:
+However, with LTM-2.7’s temporal grounding, you have:
 
 * **Reduced Manual Input**: No more duplicating the same context or re-pasting large code blocks.
 
@@ -139,7 +139,7 @@ Created by Anthropic, MCP removes the need for custom integrations by enabling t
 
 In the [Pieces Desktop App](/products/desktop), the 2nd-generation LTM comes with an incredibly powerful feature called [Workstream Activity](/products/desktop/workstream-activity).
 
-The Workstream Activity view is a dedicated interface in the Pieces Desktop App that provides a continuous snapshot of your recent tasks, discussions, and code or document reviews, captured by the **Long-Term Memory (LTM-2.5)** **Engine.**
+The Workstream Activity view is a dedicated interface in the Pieces Desktop App that provides a continuous snapshot of your recent tasks, discussions, and code or document reviews, captured by the **Long-Term Memory (LTM-2.7)** **Engine.**
 
 Every 20 minutes, LTM generates a *roll-up* that summarizes your workflow context for that period, highlighting details such as major tasks, key decisions, and follow-up actions.
 
@@ -237,7 +237,7 @@ The enrichment process, powered by on-device ML models, provides:
 
 Like Pieces Drive, Pieces Copilot can be found nested within Pieces plugins and extensions or the Pieces Desktop App.
 
-It can generate code, answer questions, add code documentation, and serve as the bridge between you and your workflow context, as captured by the LTM-2.5.
+It can generate code, answer questions, add code documentation, and serve as the bridge between you and your workflow context, as captured by the LTM-2.7.
 
 ***
 

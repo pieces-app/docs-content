@@ -16,7 +16,7 @@ Adding context to Pieces Copilot chats makes responses significantly more releva
   Read this [LLM Prompting Guide](/products/quick-guides/ltm-prompting/tips) or learn how to use [Pieces Copilot with LTM Context](/products/quick-guides/copilot-with-context) via these helpful Quick Guides.
 </Card>
 
-## Enriching Chats with LTM-2.5 Context
+## Enriching Chats with LTM-2.7 Context
 
 Integrating context ensures Pieces Copilot isn’t answering in a vacuum.
 

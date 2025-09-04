@@ -70,7 +70,7 @@ To downgrade Android Studio, follow these steps:
 
 ## Unable to Find the JetBrains Plugin in the JetBrains Marketplace[​](/extensions-plugins/jetbrains#i-cant-find-the-pieces-jetbrains-plugin-in-the-jetbrains-marketplace)
 
-If you can't find the Pieces for Developers JetBrains Plugin in the JetBrains Marketplace, you can navigate directly to it using <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets">this link</a>.
+If you can't find the Pieces JetBrains Plugin in the JetBrains Marketplace, you can navigate directly to it using <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets">this link</a>.
 
 ## Updating[​](/extensions-plugins/jetbrains#updating)
 

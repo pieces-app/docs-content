@@ -3,7 +3,7 @@ title: Sharing Snippets
 path: /extensions-plugins/jetbrains/drive/sharing
 visibility: PUBLIC
 status: PUBLISHED
-description: The Share via Pieces Link feature in the Pieces for JetBrains Plugin simplifies sharing code snippets by generating shareable links directly from the JetBrains IDE, without switching to the Pieces for Developers Desktop App.
+description: The Share via Pieces Link feature in the Pieces for JetBrains Plugin simplifies sharing code snippets by generating shareable links directly from the JetBrains IDE, without switching to the Pieces Desktop App.
 metaTitle: Sharing Code Snippets in JetBrains with Pieces Drive
 metaDescription: Generate shareable links for your saved snippets in Pieces for JetBrains, making it easy to collaborate with teammates.
 ---

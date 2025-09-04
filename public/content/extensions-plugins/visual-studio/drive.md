@@ -88,7 +88,7 @@ To share a snippet using the Pieces Extension for Visual Studio, right-click on 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/visual_studio_extension_assets/using_snippets/using_snippets_MAIN/shared_snippet_in_browser.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  You can send anyone a shareable link containing your code snippet, even if they don’t use Pieces or have a Pieces for Developers account.
+  You can send anyone a shareable link containing your code snippet, even if they don’t use Pieces or have a Pieces account.
 </Callout>
 
 ## Use Cases

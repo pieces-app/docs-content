@@ -10,13 +10,13 @@ metaDescription: The Updates & Upcoming page provides an overview of releases an
 
 ## What’s New
 
-The **Updates & Upcoming** page in Pieces for Developers provides a straightforward overview of recent releases and upcoming features.
+The **Updates & Upcoming** page in Pieces provides a straightforward overview of recent releases and upcoming features.
 
 You can check for new updates, preview future enhancements, and even share feedback or discuss features with the Pieces community—all in one place.
 
 ## Accessing Updates & Upcoming
 
-You can open this page through the **Power Menu** by clicking the home icon next to the search bar in the Pieces for Developers Desktop App, then selecting `Updates & Upcoming` from the dropdown.
+You can open this page through the **Power Menu** by clicking the home icon next to the search bar in the Pieces Desktop App, then selecting `Updates & Upcoming` from the dropdown.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Updates%20%26%20Upcoming/updates_upcoming_powermenu.png" alt="" align="center" fullwidth="true" />
 

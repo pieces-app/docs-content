@@ -3,7 +3,7 @@ title: Get Started with the Pieces Desktop App
 path: /desktop/onboarding
 visibility: PUBLIC
 status: PUBLISHED
-description: The Onboarding feature guides you through the initial stages of the Pieces Desktop App and sets you on your way to using the Long-Term Memory (LTM-2.5) Engine.
+description: The Onboarding feature guides you through the initial stages of the Pieces Desktop App and sets you on your way to using the Long-Term Memory (LTM-2.7) Engine.
 metaTitle: Pieces Onboarding
 metaDescription: Get up and running with the Pieces Desktop App with this guided LTM + Pieces Copilot onboarding experience.
 ---
@@ -22,7 +22,7 @@ A `Get Started` button takes you into the onboarding process.
 
 This step includes an option to sign in with GitHub, Google, or another wide range of options to import code Gists and relevant data.
 
-Pieces for Developers stores developer materials locally and allows you to share them with anyone you’d like.
+Pieces stores materials locally and allows you to share them with anyone you'd like.
 
 Signing in enables you to store snippets and backups in **Pieces Cloud**.
 
@@ -36,7 +36,7 @@ From here, you can follow the guided, interactive Long-Term Memory demo and expe
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_2_gif.gif" alt="" align="center" fullwidth="true" />
 
-All you need to do is proceed with your workflow for 10-15 minutes while the [Long-Term Memory Engine (LTM-2.5)](/products/core-dependencies/pieces-os#ltm-25) captures memories—then, we’ll show you how to use it with Pieces Copilot.
+All you need to do is proceed with your workflow for 10-15 minutes while the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) captures memories—then, we’ll show you how to use it with Pieces Copilot.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_3_completed_workflow_memories_gathering.png" alt="" align="center" fullwidth="true" />
 
@@ -56,7 +56,7 @@ You’ll also be introduced to the **Power Menu**, from which you can access the
 
 ### Pieces Copilot + LTM
 
-[LTM](/products/core-dependencies/pieces-os#ltm-25) captures and stores workflow context in the [Pieces Drive](/products/core-dependencies/pieces-os#pieces-drive). You can visit a site like Stack Overflow, read code explanations, and later query Pieces Copilot about what you read.
+[LTM](/products/core-dependencies/pieces-os#ltm-27) captures and stores workflow context in the [Pieces Drive](/products/core-dependencies/pieces-os#pieces-drive). You can visit a site like Stack Overflow, read code explanations, and later query Pieces Copilot about what you read.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/switching_llms_and_chatting.gif" alt="" align="center" fullwidth="true" />
 
@@ -82,7 +82,7 @@ If you want to read more, click the links below to jump to additional documentat
 
 * [Pieces Drive](/products/desktop/drive)—Save, access, edit, and reuse materials saved to the Pieces Drive.
 
-* [Workstream Activity](/products/desktop/workstream-activity)—View incremental workflow summaries, saved context, and related information gathered by the Long-Term Memory (LTM-2.5) Engine.
+* [Workstream Activity](/products/desktop/workstream-activity)—View incremental workflow summaries, saved context, and related information gathered by the Long-Term Memory (LTM-2.7) Engine.
 
 * [Navigation](/products/desktop/navigation)—Learn the different views and layouts in the Pieces Desktop App and discover the Power Menu.
 

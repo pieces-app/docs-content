@@ -11,7 +11,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/neovim.png" alt="" align="center" fullwidth="true" />
 
-V2 Documentation for the Pieces for Developers Neovim Plugin is under construction 🚧 ...
+V2 Documentation for the Pieces Neovim Plugin is under construction 🚧 ...
 
 ### Sign in Required
 

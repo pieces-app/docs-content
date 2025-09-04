@@ -88,7 +88,7 @@ The Pieces Copilot captures:
 
 ## Where Saved Snippets Live
 
-Saved snippets are stored locally on your device, ensuring offline accessibility. This also means that any Pieces for Developers extension, plugin, or even the Pieces Desktop App, has constant, up-to-date access to your saved materials with Pieces Drive.
+Saved snippets are stored locally on your device, ensuring offline accessibility. This also means that any Pieces extension, plugin, or even the Pieces Desktop App, has constant, up-to-date access to your saved materials with Pieces Drive.
 
 There are two ways to view your saved snippets—by viewing them in your [JetBrains IDE’s sidebar menu](/products/extensions-plugins/jetbrains/drive/search-reuse#via-pieces-sidebar), or with the [Search Everywhere](/products/extensions-plugins/jetbrains/drive/search-reuse#finding-saved-snippets) feature.
 

@@ -3,14 +3,14 @@ title: Snippet Discovery
 path: /desktop/navigation/snippet-discovery
 visibility: PUBLIC
 status: PUBLISHED
-description: The Snippet Discovery feature in Pieces for Developers helps you quickly find and add multiple code snippets from your files or folders.
+description: The Snippet Discovery feature in Pieces helps you quickly find and add multiple code snippets from your files or folders.
 metaTitle: Navigating Snippet Discovery | Pieces Docs
-metaDescription: Use Snippet Discovery in Pieces for Developers to quickly find and add multiple code snippets from your files or folders with ease.
+metaDescription: Use Snippet Discovery in Pieces to quickly find and add multiple code snippets from your files or folders with ease.
 ---
 
 ## Accessing Snippet Discovery
 
-Open the **Power Menu** by clicking the home icon next to the search bar in the Pieces for Developers Desktop App, or press `⌘+return` (macOS) and `ctrl+enter` (Windows/Linux).
+Open the **Power Menu** by clicking the home icon next to the search bar in the Pieces Desktop App, or press `⌘+return` (macOS) and `ctrl+enter` (Windows/Linux).
 
 Select `Snippet Discovery` from the dropdown to begin.
 

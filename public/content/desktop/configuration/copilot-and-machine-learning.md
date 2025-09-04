@@ -3,7 +3,7 @@ title: Pieces Copilot & Machine Learning
 path: /desktop/configuration/copilot-and-machine-learning
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces Copilot & Machine Learning settings let you configure Copilot chats, manage LLM runtimes, control auto-enrichment, and fine-tune the Long-Term Memory (LTM-2.5) Engine.
+description: The Pieces Copilot & Machine Learning settings let you configure Copilot chats, manage LLM runtimes, control auto-enrichment, and fine-tune the Long-Term Memory (LTM-2.7) Engine.
 metaTitle: Configuring Copilot and Machine Learning Settings | Pieces Docs
 metaDescription: The Pieces Copilot & Machine Learning settings let you configure Copilot chats, manage LLM runtimes, control auto-enrichment, and fine-tune the Long-Term Memory (LTM-2) Engine.
 ---
@@ -46,7 +46,7 @@ For more information about customizing your UI colors, visit our [Aesthetics & L
 
 ### Default LTM Behavior
 
-Enable or disable `Use Long-Term Memory (LTM-2.5) Context by Default` to control whether Pieces Copilot automatically references your recent workflow context as captured by the LTM.
+Enable or disable `Use Long-Term Memory (LTM-2.7) Context by Default` to control whether Pieces Copilot automatically references your recent workflow context as captured by the LTM.
 
 Turning this off means the AI will respond without leveraging your workflow context unless manually enabled when starting a new Pieces Copilot Chat.
 
@@ -92,9 +92,9 @@ You can select whether or not Pieces utilizes cloud or local models, or a mix of
   Selecting the mode that best fits your security and performance needs ensures that Pieces processes your snippets in the most efficient or privacy-conscious way possible.
 </Callout>
 
-### LTM-2.5 Engine
+### LTM-2.7 Engine
 
-Pieces employs an on-device **Long-Term Memory (LTM-2.5) Engine** to capture recent contexts, usage patterns, and snippet details for more intelligent Copilot suggestions.
+Pieces employs an on-device **Long-Term Memory (LTM-2.7) Engine** to capture recent contexts, usage patterns, and snippet details for more intelligent Copilot suggestions.
 
 Configurable behaviors include:
 
@@ -106,8 +106,8 @@ Configurable behaviors include:
 
 While *paused* or *off,* Pieces Copilot won’t use your workflow context to inform suggestions or provide more accurate information in generative AI responses.
 
-[You can read more about the LTM-2.5 Engine here.](/products/core-dependencies/pieces-os#ltm-25)
+[You can read more about the LTM-2.7 Engine here.](/products/core-dependencies/pieces-os#ltm-27)
 
-### Clearing LTM-2.5 Data
+### Clearing LTM-2.7 Data
 
 Click the `Trash` icon next to `Clear Long-Term Memory Engine Data` to remove any persisted context that LTM has gathered over time.

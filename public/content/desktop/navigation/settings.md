@@ -10,7 +10,7 @@ metaDescription: Customize your Pieces Desktop experience with settings for work
 
 ## Overview
 
-The `Settings` page in Pieces for Developers contains all configurable options, adjustable preferences, and modifiable behaviors for the Desktop Application.
+The `Settings` page in Pieces contains all configurable options, adjustable preferences, and modifiable behaviors for the Desktop Application.
 
 You can customize the Pieces Desktop App to your coding workflow by integrating external services or customizing the interface.
 

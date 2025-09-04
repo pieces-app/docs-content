@@ -21,7 +21,7 @@ Before installation, you’ll need:
 <Callout type="alert">
   PiecesOS must be installed to use the Pieces CLI and ensure it works properly. 
 
-  We also suggest using the Pieces for Developers Desktop App for better functionality.
+  We also suggest using the Pieces Desktop App for better functionality.
 </Callout>
 
 ### Sign in Required
@@ -140,7 +140,7 @@ Follow the steps below to update the Pieces CLI.
 
 ## Onboarding
 
-The Pieces CLI offers a walkthrough to guide you through the steps of saving your first material and introduces you to the Long-Term Memory Engine (LTM-2.5), enabling you to make the most of the Pieces CLI.
+The Pieces CLI offers a walkthrough to guide you through the steps of saving your first material and introduces you to the Long-Term Memory Engine (LTM-2.7), enabling you to make the most of the Pieces CLI.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/onboarding_first_step.png" alt="" align="center" fullwidth="true" />
 

@@ -64,14 +64,14 @@ If installation or UI issues persist, consider the following:
 * **Switch Between X11 and Wayland:** Some applications may work better on one display protocol than the other. Try switching to X11 for compatibility or Wayland for newer features. You can usually select this at the login screen.
 
 <Callout type="alert">
-  The LTM-2.5 Engine is designed to work with the X11 Window Manager. Other Window Managers, such as Wayland, are *not compatible.* This means that long-term memory functionality with certain Linux Virtual Machines (VMs) is not possible at this time.
+  The LTM-2.7 Engine is designed to work with the X11 Window Manager. Other Window Managers, such as Wayland, are *not compatible.* This means that long-term memory functionality with certain Linux Virtual Machines (VMs) is not possible at this time.
 </Callout>
 
 * **Update your GPU Drivers:** Ensure they are up to date. For NVIDIA, check for proprietary driver updates. AMD and Intel users should verify that their open-source drivers are up to date.
 
 * **Optimize Graphics Configurations:** Use tools like `nvidia-settings`, `radeon-profile`, or similar utilities to adjust your GPU settings for better performance and stability.
 
-These adjustments can resolve many graphical and display-related issues you may experience while using Pieces for Developers.
+These adjustments can resolve many graphical and display-related issues you may experience while using Pieces.
 
 ## Checking System Information
 

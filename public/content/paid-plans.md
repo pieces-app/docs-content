@@ -29,8 +29,8 @@ Experience faster, more accurate AI assistance with top-tier cloud LLMs from a r
 
 | **Claude** | **Gemini**    |
 | ---------- | ------------- |
-| Sonnet 4   | 2.5 Flash     |
-| Opus 4     | 2.5 Flash Pro |
+| Sonnet 4   | 2.7 Flash     |
+| Opus 4     | 2.7 Flash Pro |
 
 <Callout type="tip">
   Premium OpenAI models coming soon for Pieces Pro users.
@@ -250,7 +250,7 @@ If you would prefer not to use GitHub, you can still <a target="_blank" href="ht
 
 ### Join our Discord Community
 
-We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces for Developers team.
+We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces team.
 
 You can also catch up on product updates, speak with our power users, or participate in weekly Community Events.
 

@@ -29,7 +29,7 @@ The Pieces Desktop App will update automatically.
 
 For standalone & alternative installations, updates are checked daily or when you open the application. You'll be prompted to install or delay the update if one is available.
 
-See your platform-specific update instructions on updating the Pieces for Developers Desktop App:
+See your platform-specific update instructions on updating the Pieces Desktop App:
 
 * [macOS](/products/desktop/troubleshooting/macos#updating-the-pieces-desktop-app)
 
@@ -56,14 +56,14 @@ To restart and check for updates for PiecesOS and Pieces Desktop:
     Click on the PiecesOS icon and press the `power off` button or the `exit` button in the top right.
   </Step>
 
-  <Step title="Close Pieces for Developers">
+  <Step title="Close Pieces">
     Make sure the Pieces Desktop App is closed by clicking the `x` button on the top right or by closing it through task manager.
   </Step>
 
   <Step title="Open Pieces Desktop">
     After opening Pieces Desktop App, PiecesOS will open automatically
 
-    * If there are updates, you will be prompted to update both PiecesOS and Pieces for Developers.
+    * If there are updates, you will be prompted to update both PiecesOS and Pieces.
   </Step>
 </Steps>
 

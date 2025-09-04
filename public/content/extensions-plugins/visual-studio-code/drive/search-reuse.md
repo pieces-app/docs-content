@@ -140,7 +140,7 @@ While using the `Pieces: Search Pieces` function, you can click on one of the sn
 
 Every product within the Pieces Suite utilizes <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> to gather information regarding the context of your snippets.
 
-When you modify a snippet in the <a target="_blank" href="/products/desktop">Pieces for Developers Desktop App</a>—like changing its name or description, tags, or any other metadata—those updates are automatically shown in your Pieces Drive without the need for refreshing.
+When you modify a snippet in the <a target="_blank" href="/products/desktop">Pieces Desktop App</a>—like changing its name or description, tags, or any other metadata—those updates are automatically shown in your Pieces Drive without the need for refreshing.
 
 <Callout type="tip">
   If your snippets aren’t updating immediately, refer to the [troubleshooting guide](/products/extensions-plugins/visual-studio-code/troubleshooting) for instructions on how to refresh your snippet list.

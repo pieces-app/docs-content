@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ***
 
-## Introducing Pieces for Developers
+## Introducing Pieces
 
 This documentation is designed to provide a high-level overview of <a target="_blank" href="/products/meet-pieces/fundamentals">Pieces' features and functionalities</a>, with a quick-start and troubleshooting guides for <a target="_blank" href="/products/meet-pieces/macos-installation-guide">macOS</a>, <a target="_blank" href="/products/meet-pieces/windows-installation-guide">Windows</a>, and <a target="_blank" href="/products/meet-pieces/linux-installation-guide">Linux</a> to help you get started with Pieces as quickly as possible.
 
@@ -25,7 +25,7 @@ At its core, Pieces is an all-in-one productivity tool that helps developers wor
 
 There are **\[3]** core pillars of Pieces functionality:
 
-1. [Long-Term Memory Engine (LTM-2.5)](/products/meet-pieces/fundamentals#ltm-25): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.5 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
+1. [Long-Term Memory Engine (LTM-2.7)](/products/meet-pieces/fundamentals#ltm-27): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.7 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
 
 2. [Pieces Drive](/products/meet-pieces/fundamentals#pieces-drive): The ability to save, search, reference, reuse, and share small developer resources like code snippets, screenshots, links, and text notes.
 
@@ -33,13 +33,13 @@ There are **\[3]** core pillars of Pieces functionality:
 
 ### Who is Pieces For?
 
-To put it simply, Pieces is built from the ground up for developers who frequently reference or reuse small developer materials like code snippets or are looking to pick up where they left off and preserve the context of their workflow.
+To put it simply, Pieces is built from the ground up to help those who frequently reference or reuse small developer materials like code snippets or are looking to pick up where they left off and preserve the context of their workflow.
 
-Pieces is an **excellent productivity option for developers of all levels** and across various fields, including front-end developers, data scientists, DevOps engineers, and students.
+Pieces is an **excellent productivity option for users of all levels** and across various fields, including front-end developers, data scientists, DevOps engineers, and students.
 
 If you find yourself …
 
-1. **Preserving Workflow Context:** If you’re wondering where you left off with trying to untangle that permissions mess in Google Cloud Console or Firestore database, the [LTM-2.5](/products/meet-pieces/fundamentals#ltm-25) is an invaluable resource that can provide deep-links and anchors in the form of URLs and other helpful context.
+1. **Preserving Workflow Context:** If you’re wondering where you left off with trying to untangle that permissions mess in Google Cloud Console or Firestore database, the [LTM-2.7](/products/meet-pieces/fundamentals#ltm-27) is an invaluable resource that can provide deep-links and anchors in the form of URLs and other helpful context.
 
 2. **Managing Developer Materials**: If you find yourself needing to repurpose or refresh your memory with small developer resources throughout your workflow, the [Pieces Drive](/products/meet-pieces/fundamentals#pieces-drive) can help you stay organized while providing an efficient pipeline for referencing and reusing them.
 
@@ -51,7 +51,7 @@ Let Pieces do the heavy lifting and preserve your engineering creativity and ing
 
 ### How do I Use Pieces?
 
-PiecesOS serves as the foundational layer of the entire Pieces for Developers Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with all our browser and IDE extensions and plugins.
+PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with all our browser and IDE extensions and plugins.
 
 By installing PiecesOS, you enable the full functionality of the desktop app and our extensions, just like how Docker manages various containers.
 

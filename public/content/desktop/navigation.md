@@ -3,9 +3,9 @@ title: Navigating the Pieces Desktop App
 path: /desktop/navigation
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces for Developers Desktop Application offers a variety of views and layouts to enhance your workflow, with primary navigation occurring through the Power Menu.
+description: The Pieces Desktop Application offers a variety of views and layouts to enhance your workflow, with primary navigation occurring through the Power Menu.
 metaTitle: Navigating Pieces Desktop Application
-metaDescription: The Pieces for Developers Desktop Application offers a variety of views and layouts to enhance your workflow, with primary navigation occurring through the Power Menu.
+metaDescription: The Pieces Desktop Application offers a variety of views and layouts to enhance your workflow, with primary navigation occurring through the Power Menu.
 ---
 
 ## Power Menu
@@ -62,7 +62,7 @@ These actions, some of which are view-specific—like refreshing a selected Piec
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="" align="center" fullwidth="true" />
 
-Included at the very end of the scrollable **Find Actions** list are links to other Pieces for Developers plugins and extensions, as well as social outlets (<a target="_blank" href="https://www.youtube.com/@getpieces">Pieces YouTube</a>, [Pieces Discord](https://discord.com/invite/getpieces), etc.) and two additional links for <a target="_blank" href="https://github.com/pieces-app/support/issues">reporting issues</a> or <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF?typeform-source=beta.docs.pieces.app#page=docs-support">contacting support.</a>
+Included at the very end of the scrollable **Find Actions** list are links to other Pieces plugins and extensions, as well as social outlets (<a target="_blank" href="https://www.youtube.com/@getpieces">Pieces YouTube</a>, [Pieces Discord](https://discord.com/invite/getpieces), etc.) and two additional links for <a target="_blank" href="https://github.com/pieces-app/support/issues">reporting issues</a> or <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF?typeform-source=beta.docs.pieces.app#page=docs-support">contacting support.</a>
 
 ### via Power Menu — Settings
 

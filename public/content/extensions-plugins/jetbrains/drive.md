@@ -71,7 +71,7 @@ Enter a search query, and any related snippets will appear in the dropdown listâ
 
 ### Edit & Update
 
-You can easily [edit and update code snippets](/products/extensions-plugins/jetbrains/drive/edit-update#how-to-edit-snippets) directly from your IDE without opening a separate window or navigating to the Pieces for Developers Desktop App.
+You can easily [edit and update code snippets](/products/extensions-plugins/jetbrains/drive/edit-update#how-to-edit-snippets) directly from your IDE without opening a separate window or navigating to the Pieces Desktop App.
 
 To do so, open the **Pieces** from the tool window on the left-hand side of your JetBrains IDE, revealing a list of saved snippets. You can then right-click a snippet, which opens that snippet up in a new window.
 

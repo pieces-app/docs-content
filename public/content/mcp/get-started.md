@@ -3,9 +3,9 @@ title: Get Started with Pieces MCP
 path: /mcp/get-started
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn about Model Context Protocol (MCP) tools and discover how Pieces integrates the Long-Term Memory Engine (LTM-2.5) into your favorite IDEs and code editors.
+description: Learn about Model Context Protocol (MCP) tools and discover how Pieces integrates the Long-Term Memory Engine (LTM-2.7) into your favorite IDEs and code editors.
 metaTitle: Introducing Pieces Model Context Protocol (MCP) | Pieces Docs
-metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant workflow context to various IDE integrations. Explore the benefits of MCP for developers and teams.
+metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant workflow context to various IDE integrations. Explore the benefits of MCP for users and teams.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/mcp.png"
 ---
 
@@ -23,13 +23,13 @@ Welcome to Pieces Model Context Protocol (MCP), an innovative way to connect Lar
 
 In a way, MCP is becoming a *universal* context provider that uses a well-standardized communication protocol to pass information (like external data) or tools to LLM-powered applications.
 
-For developers, this is extremely useful—because it means somebody using the Cursor agentic chat system can rope in external context to the LLM, giving it additional context outside of the purview of the active file or codebase they’re working in.
+This is extremely useful—because it means somebody using the Cursor agentic chat system can rope in external context to the LLM, giving it additional context outside of the purview of the active file or codebase they're working in.
 
 ## How Pieces Integrates with MCP
 
 The core of the Pieces ecosystem is [PiecesOS](/products/core-dependencies/pieces-os), which powers the Pieces Desktop App, browser extensions, and IDE plugins.
 
-At its heart is the advanced [Long-Term Memory Engine (LTM-2.5)](/products/core-dependencies/pieces-os#ltm-25), which captures, enriches, and locally stores valuable contextual information from your daily workflow, such as code snippets, browser history, notes, and application data.
+At its heart is the advanced [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27), which captures, enriches, and locally stores valuable contextual information from your daily workflow, such as code snippets, browser history, notes, and application data.
 
 Pieces leverages the MCP to connect your favorite development tools and AI applications—like Cursor and GitHub Copilot—directly to PiecesOS, enabling smooth, context-rich interactions [entirely on your device.](/products/privacy-security-your-data#data-storage--control)
 
@@ -77,9 +77,9 @@ When integrated with [GitHub Copilot](/products/mcp/github-copilot), MCP enhance
 
 ***
 
-## Why Developers Love Pieces MCP
+## Why Users Love Pieces MCP
 
-Pieces MCP empowers developers to leverage personal context for AI-driven interactions, significantly reducing manual research, accelerating troubleshooting, and enhancing productivity.
+Pieces MCP empowers users to leverage personal context for AI-driven interactions, significantly reducing manual research, accelerating troubleshooting, and enhancing productivity.
 
 By connecting directly to [PiecesOS](/products/core-dependencies/pieces-os), your context becomes a powerful, personalized source of truth that informs AI interactions:
 
@@ -125,7 +125,7 @@ Let’s take a look at the Pieces + MCP flow as you’d experience it in a famil
   </Step>
 
   <Step title="Gathering Context">
-    The MCP server fetches relevant data from Pieces LTM-2.5.
+    The MCP server fetches relevant data from Pieces LTM-2.7.
   </Step>
 
   <Step title="Generating the Output">

@@ -22,7 +22,7 @@ The Pieces for VS Code Extension [currently supports over 54 different LLMs.](/p
 
 ## Connecting to a Remote PiecesOS Instance
 
-You can configure the Pieces for Developers VS Code Extension to connect to a remote machine running PiecesOS.
+You can configure the Pieces VS Code Extension to connect to a remote machine running PiecesOS.
 
 <Embed src="https://www.youtube.com/watch?v=sbgIaK9kpu4" />
 
@@ -30,7 +30,7 @@ You can configure the Pieces for Developers VS Code Extension to connect to a re
 
 * One machine running [Pieces OS](/installation-getting-started/what-am-i-installing)
 
-* One machine running the [Pieces for Developers VS Code extension](/extensions-plugins/vscode)
+* One machine running the [Pieces VS Code extension](/extensions-plugins/vscode)
 
 Before you begin, note that this *only applies* if VS Code and PiecesOS are running on different machines.
 

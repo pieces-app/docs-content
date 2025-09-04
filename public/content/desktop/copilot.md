@@ -30,13 +30,13 @@ On this page, you’ll find a brief overview of the key capabilities of Pieces C
 
 ## Pieces Copilot | Main View
 
-When you launch the Pieces for Developers Desktop App, you are greeted by the **Pieces Copilot View**—a dynamic, context-rich chat interface designed to help you interact with powerful generative AI, manage your project context, and streamline your coding workflow.
+When you launch the Pieces Desktop App, you are greeted by the **Pieces Copilot View**—a dynamic, context-rich chat interface designed to help you interact with powerful generative AI, manage your project context, and streamline your coding workflow.
 
 Inside the Pieces Copilot view, you can:
 
 1. Interact with advanced [local and cloud-hosted LLMs](/products/desktop/copilot/interaction) for multi-purpose generative AI needs.
 
-2. Leverage [Long-Term Memory (LTM-2.5) context captured by PiecesOS](/products/desktop/copilot/integration) to enhance AI responses.
+2. Leverage [Long-Term Memory (LTM-2.7) context captured by PiecesOS](/products/desktop/copilot/integration) to enhance AI responses.
 
 3. Attach and manage folders, files, saved materials, and websites as [chat context.](/products/desktop/copilot/integration#adding-folders)
 
@@ -72,7 +72,7 @@ Discover the array of 40+ cloud-hosted and local models, served through Ollama o
 
 If you don't want the wide range of tools designed to boost your productivity and reduce context switching in your workflow with the Pieces Desktop App—that’s fine.
 
-You can still find Pieces for Developers plugins & extensions available in your favorite collaboration tools, text editors, and most importantly, IDEs.
+You can still find Pieces plugins & extensions available in your favorite collaboration tools, text editors, and most importantly, IDEs.
 
 We’ll go over cross-platform consistency with context, history, and usage synchronization through PiecesOS, cross-threaded use case scenarios, link you to other Pieces software, and more.
 

@@ -22,7 +22,7 @@ The primary method of accessing Pieces Copilot, Pieces Drive, and other views is
   </Step>
 
   <Step title="Right-Click and Select Option">
-    Right-click on your selection, hover over `Pieces For Developers`, and select `Ask Copilot About…`
+    Right-click on your selection, hover over `Pieces`, and select `Ask Copilot About…`
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/chat/ask_pieces_right_click.gif" alt="" align="center" fullwidth="true" />
 

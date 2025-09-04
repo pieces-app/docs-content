@@ -34,7 +34,7 @@ It provides users with a streamlined solution for managing and interacting with 
 
 <guides-overview-card />
 
-This extension is designed to offer **two main pillars of functionality** for developers working in the Visual Studio IDE—Pieces Copilot and Pieces Drive.
+This extension is designed to offer **two main pillars of functionality** for users working in the Visual Studio IDE—Pieces Copilot and Pieces Drive.
 
 ### AI Assistance with Pieces Copilot
 

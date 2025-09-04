@@ -48,7 +48,7 @@ For a detailed list of all possible shortcuts and their descriptions, visit the 
 
 ### When to Use Shortcuts
 
-Shortcuts are a time-tested and often-preferred method of accomplishing individual tasks or processes for developers, creatives, and knowledge-workers alike.
+Shortcuts are a time-tested and often-preferred method of accomplishing individual tasks or processes for creatives and knowledge-workers alike.
 
 Here are some examples:
 

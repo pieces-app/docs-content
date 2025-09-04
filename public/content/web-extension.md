@@ -18,7 +18,7 @@ The [Pieces Web Extension](/products/web-extension/get-started#supported-browser
 
 It offers developers powerful tools for **managing code snippets, debugging, and refactoring** within their familiar development environment.
 
-* [Pieces Copilot:](/products/extensions-plugins/web-extension/copilot) Start AI-generated conversations and add websites and files as context to find the solutions you need. This includes out-of-browser context with the optional Long-Term Memory Engine (LTM-2.5).
+* [Pieces Copilot:](/products/extensions-plugins/web-extension/copilot) Start AI-generated conversations and add websites and files as context to find the solutions you need. This includes out-of-browser context with the optional Long-Term Memory Engine (LTM-2.7).
 
 - [Pieces Drive:](/products/extensions-plugins/web-extension/drive) Easily save, locate, and share frequently used code snippets, making it easier to organize your work, quickly access important pieces for code or websites, and collaborate effectively with others.
 
@@ -33,7 +33,7 @@ It offers developers powerful tools for **managing code snippets, debugging, and
 </CardGroup>
 
 <Card title="Learn More with Quick Guides">
-  Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.5) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
+  Pieces Quick Guides help you quickly understand and effectively utilize powerful features like the Long-Term (LTM-2.7) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
 </Card>
 
 <Callout type="tip">
@@ -68,7 +68,7 @@ You can do many powerful things with Pieces Copilot in your browser, such as sta
 
 This is the backbone of the Pieces Copilot experience—the **Ask Copilot** feature.
 
-**Ask Copilot** allows you to [ask Pieces to explain what you're reading](/products/web-extension/copilot/chat#generative-ai-conversations), helping you better understand the content. It can also generate responses filled with context outside of just your browser by referencing workflow data captured by the Long-Term Memory Engine (LTM-2.5).
+**Ask Copilot** allows you to [ask Pieces to explain what you're reading](/products/web-extension/copilot/chat#generative-ai-conversations), helping you better understand the content. It can also generate responses filled with context outside of just your browser by referencing workflow data captured by the Long-Term Memory Engine (LTM-2.7).
 
 ## Managing Materials
 
