@@ -3,7 +3,7 @@ title: Privacy, Security & Your Data
 path: /privacy-security-your-data
 visibility: PUBLIC
 status: PUBLISHED
-description: At Pieces for Developers, we believe that your trust is paramount—that’s why we’ve built our platform with a local-first approach that keeps your code and data safely on your device by default.
+description: At Pieces, we believe that your trust is paramount—that's why we've built our platform with a local-first approach that keeps your code and data safely on your device by default.
 metaTitle: Pieces Privacy & Security | Your Data
 metaDescription: Understand how Pieces handles privacy, security, and data protection to keep your AI-assisted development experience secure.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/privacy_security_your_data.png"
@@ -17,7 +17,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Your privacy and security are our **top priorities.**
 
-Pieces for Developers is built with a local-first architecture, so your code stays on-device by default, with complete offline functionality and cloud capabilities *only if enabled.*
+Pieces is built with a local-first architecture, so your code stays on-device by default, with complete offline functionality and cloud capabilities *only if enabled.*
 
 Designed for complete user control, all cloud features are opt-in only, telemetry is clearly marked and opt-out of, and you have full control over all privacy settings.
 
@@ -31,11 +31,11 @@ Designed for complete user control, all cloud features are opt-in only, telemetr
 
 ## Data Storage & Control
 
-All of your data is stored locally. When interacting with cloud-based LLMs, Pieces for Developers defaults to the model provider’s Privacy Policy—like OpenAI—since we use their API to provide the model.
+All of your data is stored locally. When interacting with cloud-based LLMs, Pieces defaults to the model provider's Privacy Policy—like OpenAI—since we use their API to provide the model.
 
 ### Where Your Data Lives
 
-All Pieces for Developers data is stored on your device and can be deleted, copied, compressed, or moved between devices without relying on cloud services. This allows easy transfer, simple backup, and no cloud dependency.
+All Pieces data is stored on your device and can be deleted, copied, compressed, or moved between devices without relying on cloud services. This allows easy transfer, simple backup, and no cloud dependency.
 
 At any time, you can find your up-to-date log files can find your log files in the following locations, depending on your platform:
 
@@ -101,7 +101,7 @@ Each Pieces product offers detailed settings for *data sharing, Cloud connectivi
 
 ### Available Offline Features
 
-Many of the core pillars of Pieces for Developers functionality have been designed to be offline-flexible.
+Many of the core pillars of Pieces functionality have been designed to be offline-flexible.
 
 ***
 
@@ -137,7 +137,7 @@ Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through o
 * **Complete Control Over Data Sharing:** Decide when and if your data is shared, so you can be confident that you maintain full ownership and control over your information.
 
 <Callout type="alert">
-  For users concerned about privacy, we strongly recommend using a local LLM with Pieces for Developers products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
+  For users concerned about privacy, we strongly recommend using a local LLM with Pieces products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
 </Callout>
 
 ## Privacy Policy Updates

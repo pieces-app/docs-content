@@ -37,7 +37,7 @@ You can download the individual `.exe` files for PiecesOS and the Pieces Desktop
   </Card>
 
   <Card title="Download — Pieces Desktop App" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE">
-    **Step 2:** Download Pieces for Developers (.EXE)
+    **Step 2:** Download Pieces (.EXE)
 
     *Alternative Method*
 
@@ -51,7 +51,7 @@ To install the Pieces Desktop App and PiecesOS using WinGet, follow these steps:
 
 1. **Open a Terminal:** Launch Windows Terminal, Command Prompt, or PowerShell as *administrator*.
 
-2. **Run the WinGet Command:** In the terminal, type `winget install “Pieces for Developers”` and press `enter`.
+2. **Run the WinGet Command:** In the terminal, type `winget install “Pieces”` and press `enter`.
 
 You may be prompted to enter `Y` or `N` to agree or disagree with the terms of use when installing the Pieces Desktop App—type and enter `Y` to proceed with the installation.
 

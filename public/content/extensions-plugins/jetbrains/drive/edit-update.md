@@ -73,7 +73,7 @@ Below the Pieces Copilot actions, you can quickly change a snippet's name, descr
 
 ## Additional Tools while Editing
 
-*Layers upon layers of functionality*—that's the aim of all Pieces for Developers plugins and extensions.
+*Layers upon layers of functionality*—that's the aim of all Pieces plugins and extensions.
 
 When you edit a snippet (find it in the Pieces Drive menu and click `Edit`), you can access all Pieces features, even though you're not in your main file view.
 

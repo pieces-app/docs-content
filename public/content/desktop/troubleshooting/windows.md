@@ -34,13 +34,13 @@ If you’re experiencing difficulties installing the Pieces Desktop App, you can
 </CardGroup>
 
 <Card title="Installing Via WinGet" image="/assets/icons/platform_logos/windows_logo.png">
-  You can also install Pieces for Developers manually using **WinGet** from your device’s terminal.
+  You can also install Pieces manually using **WinGet** from your device’s terminal.
 
   To do so:
 
   1. Launch Windows Terminal, Command Prompt, or PowerShell as *administrator.*
 
-  2. In the terminal, type `winget install “Pieces for Developers”` and press `enter`.
+  2. In the terminal, type `winget install “Pieces”` and press `enter`.
 
   You may be prompted to enter `Y` or `N` to agree or disagree with the terms of use when installing the Pieces Desktop App—type and enter `Y` to proceed with the installation.
 </Card>
@@ -66,7 +66,7 @@ Updating the Pieces Desktop App on Windows (and macOS) can be done directly with
     Select `Check for Desktop App Updates`
   </Step>
 
-  <Step title="Update Pieces for Developers">
+  <Step title="Update Pieces">
     If prompted, click `Download Update` to install available updates.
   </Step>
 </Steps>

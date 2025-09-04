@@ -18,7 +18,7 @@ Before you begin, make sure you have:
 
 * **Any JetBrains IDE:** The <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces">Pieces for JetBrains Plugin</a> works with any of the official JetBrains IDEs, so make sure you’ve got one installed.
 
-You must have <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> to use the Pieces for JetBrains Plugin. We also recommend downloading the Pieces for Developers Desktop App.
+You must have <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> to use the Pieces for JetBrains Plugin. We also recommend downloading the Pieces Desktop App.
 
 ### Sign in Required
 

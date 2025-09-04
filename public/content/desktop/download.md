@@ -1,5 +1,5 @@
 ---
-title: Download | Pieces for Developers
+title: Download | Pieces
 path: /desktop/download
 visibility: PUBLIC
 status: PUBLISHED

@@ -22,7 +22,7 @@ A `Get Started` button takes you into the onboarding process.
 
 This step includes an option to sign in with GitHub, Google, or another wide range of options to import code Gists and relevant data.
 
-Pieces for Developers stores developer materials locally and allows you to share them with anyone you’d like.
+Pieces stores materials locally and allows you to share them with anyone you'd like.
 
 Signing in enables you to store snippets and backups in **Pieces Cloud**.
 

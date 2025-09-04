@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ***
 
-## Introducing Pieces for Developers
+## Introducing Pieces
 
 This documentation is designed to provide a high-level overview of <a target="_blank" href="/products/meet-pieces/fundamentals">Pieces' features and functionalities</a>, with a quick-start and troubleshooting guides for <a target="_blank" href="/products/meet-pieces/macos-installation-guide">macOS</a>, <a target="_blank" href="/products/meet-pieces/windows-installation-guide">Windows</a>, and <a target="_blank" href="/products/meet-pieces/linux-installation-guide">Linux</a> to help you get started with Pieces as quickly as possible.
 
@@ -33,9 +33,9 @@ There are **\[3]** core pillars of Pieces functionality:
 
 ### Who is Pieces For?
 
-To put it simply, Pieces is built from the ground up for developers who frequently reference or reuse small developer materials like code snippets or are looking to pick up where they left off and preserve the context of their workflow.
+To put it simply, Pieces is built from the ground up to help those who frequently reference or reuse small developer materials like code snippets or are looking to pick up where they left off and preserve the context of their workflow.
 
-Pieces is an **excellent productivity option for developers of all levels** and across various fields, including front-end developers, data scientists, DevOps engineers, and students.
+Pieces is an **excellent productivity option for users of all levels** and across various fields, including front-end developers, data scientists, DevOps engineers, and students.
 
 If you find yourself …
 
@@ -51,7 +51,7 @@ Let Pieces do the heavy lifting and preserve your engineering creativity and ing
 
 ### How do I Use Pieces?
 
-PiecesOS serves as the foundational layer of the entire Pieces for Developers Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with all our browser and IDE extensions and plugins.
+PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with all our browser and IDE extensions and plugins.
 
 By installing PiecesOS, you enable the full functionality of the desktop app and our extensions, just like how Docker manages various containers.
 

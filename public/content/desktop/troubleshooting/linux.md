@@ -71,7 +71,7 @@ If installation or UI issues persist, consider the following:
 
 * **Optimize Graphics Configurations:** Use tools like `nvidia-settings`, `radeon-profile`, or similar utilities to adjust your GPU settings for better performance and stability.
 
-These adjustments can resolve many graphical and display-related issues you may experience while using Pieces for Developers.
+These adjustments can resolve many graphical and display-related issues you may experience while using Pieces.
 
 ## Checking System Information
 

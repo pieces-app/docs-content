@@ -80,7 +80,7 @@ This ensures that your library stays current, relevant, and aligned with your pr
 [Share your snippets directly with team members](/products/extensions-plugins/visual-studio-code/drive/sharing#how-to-share-a-saved-snippet), even if they don’t use Pieces.
 
 <Callout type="tip">
-  You can send a shareable link containing your code snippet to anyone, even if they don’t use Pieces or have a Pieces for Developers account.
+  You can send a shareable link containing your code snippet to anyone, even if they don’t use Pieces or have a Pieces account.
 </Callout>
 
 Sharing bits of code you find useful can remove productivity blockers if co-developer is unfamiliar with the project, or if they’re a junior.

@@ -32,7 +32,7 @@ It gives users a simple way to manage and use saved code snippets through the Pi
 
 <guides-overview-card />
 
-This extension is designed to offer **two main pillars of functionality** for developers working in the Obsidian editor—AI assistance with the Pieces Copilot and developer material management within the Pieces Drive.
+This extension is designed to offer **two main pillars of functionality** for users working in the Obsidian editor—AI assistance with the Pieces Copilot and material management within the Pieces Drive.
 
 ### Enhanced AI Assistance
 

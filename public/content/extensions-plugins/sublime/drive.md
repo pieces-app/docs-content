@@ -80,7 +80,7 @@ Is your teammate struggling to find important boilerplate code? Are they contact
 This is where sharing snippets comes into play—this feature lets you [share your code with team members](/products/extensions-plugins/sublime/drive/sharing), even if they don’t use Pieces.
 
 <Callout type="tip">
-  This can be done without the recipient needing a Pieces for Developers Account.
+  This can be done without the recipient needing a Pieces Account.
 </Callout>
 
 Sharing useful code snippets can remove productivity barriers, especially when a co-developer is new to the project or a junior team member.

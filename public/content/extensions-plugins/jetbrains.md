@@ -92,7 +92,7 @@ You can perform **several decisive** **actions** with the Pieces Copilot insid
 
 The **Ask Copilot** feature is the backbone of the Pieces Copilot experience.
 
-Pieces for Developers recently rolled out its new **AI Quick Actions** feature—similar to VS Code’s Codelens—which allows for select quick actions powered by Pieces Copilot, namely `Pieces: Explain` and `Pieces: Comment`.
+Pieces recently rolled out its new **AI Quick Actions** feature—similar to VS Code’s Codelens—which allows for select quick actions powered by Pieces Copilot, namely `Pieces: Explain` and `Pieces: Comment`.
 
 <Callout type="tip">
   The Quick Action tools—`Pieces: Explain` and `Pieces: Comment`—are above the function nearest to your cursor.

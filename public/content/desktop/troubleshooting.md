@@ -29,7 +29,7 @@ This guide covers troubleshooting for the Pieces Desktop App and PiecesOS, inclu
 
   On the [Cross-Platform troubleshooting guide](/products/desktop/troubleshooting/cross-platform), you’ll find:
 
-  * [Tips on restarting PiecesOS and Pieces for Developers Desktop App](/products/desktop/troubleshooting/cross-platform#restarting-pieces-suite--checking-updates)
+  * [Tips on restarting PiecesOS and Pieces Desktop App](/products/desktop/troubleshooting/cross-platform#restarting-pieces-suite--checking-updates)
 
   * [Links to common installation issues on your OS](/products/desktop/troubleshooting/cross-platform#common-installation-issues)
 

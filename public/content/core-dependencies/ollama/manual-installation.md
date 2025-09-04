@@ -10,7 +10,7 @@ metaDescription: Read documentation on manually installing Ollama outside of the
 
 ## Manual Installation Guide
 
-Ollama is an *optional* dependency that enables local AI inference for Pieces Copilot and other AI-powered features in Pieces for Developers.
+Ollama is an *optional* dependency that enables local AI inference for Pieces Copilot and other AI-powered features in Pieces.
 
 If you prefer to run LLMs on-device instead of using cloud-based AI, you will need to install Ollama manually.
 

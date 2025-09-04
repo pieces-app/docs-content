@@ -3,18 +3,18 @@ title: Power Menu Actions
 path: /desktop/actions/power-menu
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces for Developers is designed to keep you in the flow. Below is a comprehensive list of actions available within the Power Menu and their associated shortcuts to help you quickly access common tasks.
+description: Pieces is designed to keep you in the flow. Below is a comprehensive list of actions available within the Power Menu and their associated shortcuts to help you quickly access common tasks.
 metaTitle: Power-Menu | Pieces Desktop App
 metaDescription: See a comprehensive list of actions within the Power Menu and their associated shortcuts to help you quickly access common tasks.
 ---
 
 ## Overview
 
-The **Power Menu** in Pieces for Developers is a dynamic command palette. It shows certain views as 'suggested' based on the task you're working on or sorts them by how often you use them.
+The **Power Menu** in Pieces is a dynamic command palette. It shows certain views as 'suggested' based on the task you're working on or sorts them by how often you use them.
 
 ## Dynamic View-Based Actions
 
-The **Power Menu** in Pieces for Developers is a dynamic command palette.
+The **Power Menu** in Pieces is a dynamic command palette.
 
 When you press the Power Menu hotkey or open it from the app interface, you’ll see different actions *depending on which view or section of the app you’re currently in*.
 
@@ -99,7 +99,7 @@ Manage your account, cloud integrations, backups, and updates with these command
 | *Backup & Restore Data*                | Manage or recover saved backups of your Pieces data.                     |
 | *Toggle Light Mode*                    | Switch the user interface between light and dark themes.                 |
 | *Manage Accounts & Cloud Integrations* | Connect or configure your Pieces Cloud and linked accounts.              |
-| *Manage Early Access Program*          | Enroll in or manage beta features of Pieces for Developers.              |
+| *Manage Early Access Program*          | Enroll in or manage beta features of Pieces.              |
 | *Check for Desktop App Updates*        | Manually verify if a new version of the Pieces desktop app is available. |
 | *Check for Pieces OS Updates*          | Inspect whether Pieces OS has an update ready.                           |
 | *Manage In-App Notifications*          | Configure or silence various in-app alerts and messages.                 |
@@ -123,7 +123,7 @@ These commands help you traverse the Pieces interface, letting you access differ
 | *Go to Workflow Activity*        | Open the workflow overview to see recent tasks or snippet changes.    |
 | *Go to Updates & Upcoming*       | Check upcoming features, announcements, or patch notes.               |
 | *Go to Global Search*            | Access the global search interface for snippets and materials.        |
-| *Go to Settings*                 | Open the main settings panel for Pieces for Developers.               |
+| *Go to Settings*                 | Open the main settings panel for Pieces.                              |
 | *Go to Snippet Discovery*        | Explore recommended or newly discovered snippets.                     |
 | *Go Back*                        | Return to the previous screen or menu.                                |
 | *Go to Pieces Copilot*           | Launch or navigate to the AI-assisted Copilot interface.              |

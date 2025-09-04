@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Save, access, edit, and reuse materials saved to the Pieces Drive. 
 metaTitle: Introduction to Pieces Drive | Pieces Docs
-metaDescription: Discover Pieces Drive – your all-in-one workspace in Pieces for Developers for saving, managing, and accessing code snippets and dev materials.
+metaDescription: Discover Pieces Drive – your all-in-one workspace in Pieces for saving, managing, and accessing code snippets and dev materials.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/pieces_drive.png" alt="" align="center" fullwidth="true" />
@@ -14,7 +14,7 @@ metaDescription: Discover Pieces Drive – your all-in-one workspace in Pieces f
 
 ## What is Pieces Drive?
 
-**Pieces Drive** is a central feature of the Pieces for Developers Desktop App—your all-in-one workspace for saving, managing, and quickly accessing code snippets and other development materials. 
+**Pieces Drive** is a central feature of the Pieces Desktop App—your all-in-one workspace for saving, managing, and quickly accessing code snippets and other development materials. 
 
 ## Overview
 

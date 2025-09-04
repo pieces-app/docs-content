@@ -3,7 +3,7 @@ title: Introduction to Pieces Quick Guides
 path: /quick-guides/overview
 visibility: PUBLIC
 status: PUBLISHED
-description: Welcome to Pieces for Developers! 👋 Here, you can explore these curated Quick Guides to unlock full productivity potential through AI-driven context-aware development with Pieces.
+description: Welcome to Pieces! 👋 Here, you can explore these curated Quick Guides to unlock full productivity potential through AI-driven context-aware development with Pieces.
 metaTitle: Quick Guides for Using Pieces | Pieces Docs
 metaDescription: Explore quick guides to get started with Pieces. Learn prompts, workflows and more to maximize your Pieces experience.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/quick_guides/quick_guides.png"
@@ -55,10 +55,10 @@ Visit the links below to read Pieces Quick Guides on various topics, such as usi
 
 ## Ready to Explore?
 
-Jump into any guide above by clicking its card and transform your daily development routine with Pieces for Developers! 🌟
+Jump into any guide above by clicking its card and transform your daily development routine with Pieces! 🌟
 
 ## Additional Resources
 
-If you’re looking for more specific information, you can read comprehensive Pieces for Developers documentation on the [Pieces Desktop App](/products/desktop), the [Core Dependencies](/products/core-dependencies)—[PiecesOS](/products/core-dependencies/pieces-os) and [Ollama](/products/core-dependencies/ollama)—or any of our [plugins and extensions.](/products/extensions-plugins/visual-studio-code)
+If you're looking for more specific information, you can read comprehensive Pieces documentation on the [Pieces Desktop App](/products/desktop), the [Core Dependencies](/products/core-dependencies)—[PiecesOS](/products/core-dependencies/pieces-os) and [Ollama](/products/core-dependencies/ollama)—or any of our [plugins and extensions.](/products/extensions-plugins/visual-studio-code)
 
 If you need help with a bug, [visit our Support page](/products/support) for links to our GitHub, links to our social media outlets, and for contacting our engineers.

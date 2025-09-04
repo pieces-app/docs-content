@@ -34,17 +34,17 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
   Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.7) Memory Engine and Pieces Copilot. [Click here to get started.](/products/quick-guides/overview)
 </Card>
 
-This software is designed to offer **two main features**: AI Assistance with the Pieces Copilot and developer material management within the Pieces Drive.
+This software is designed to offer **two main features**: AI Assistance with the Pieces Copilot and material management within the Pieces Drive.
 
 ### Enhanced AI Assistance
 
-Through the Pieces CLI, developers can boost productivity by having AI-driven conversations that use [relevant notes and folders as context](/products/cli/copilot/chat), all within their terminal.
+Through the Pieces CLI, users can boost productivity by having AI-driven conversations that use [relevant notes and folders as context](/products/cli/copilot/chat), all within their terminal.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/chat/pieces_context_chat.gif" alt="" align="center" fullwidth="true" />
 
 ### Integrated Snippet Management
 
-With Pieces Drive and PiecesOS in their terminal, developers can [save, search, and share their code snippets](/products/cli/drive). This enhances productivity by making reusable code accessible and organized within their notes and project files.
+With Pieces Drive and PiecesOS in their terminal, users can [save, search, and share their code snippets](/products/cli/drive). This enhances productivity by making reusable code accessible and organized within their notes and project files.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/CLI_MAIN/pieces_drive_list.png" alt="" align="center" fullwidth="true" />
 

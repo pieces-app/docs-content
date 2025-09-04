@@ -250,7 +250,7 @@ If you would prefer not to use GitHub, you can still <a target="_blank" href="ht
 
 ### Join our Discord Community
 
-We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces for Developers team.
+We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces team.
 
 You can also catch up on product updates, speak with our power users, or participate in weekly Community Events.
 

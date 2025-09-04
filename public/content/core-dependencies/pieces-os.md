@@ -3,9 +3,9 @@ title: Understanding PiecesOS
 path: /core-dependencies/pieces-os
 visibility: PUBLIC
 status: PUBLISHED
-description: Read about PiecesOS, the foundational layer that supports the whole Pieces for Developers Suite, and the core functionalities—like LTM-2.7, Pieces Drive, and Pieces Copilot.
+description: Read about PiecesOS, the foundational layer that supports the whole Pieces Suite, and the core functionalities—like LTM-2.7, Pieces Drive, and Pieces Copilot.
 metaTitle: Understanding PiecesOS | Pieces Docs
-metaDescription: Read about PiecesOS, the foundational layer that supports the whole Pieces for Developers Suite, and the core functionalities—like LTM-2, Pieces Drive, and Pieces Copilot.
+metaDescription: Read about PiecesOS, the foundational layer that supports the whole Pieces Suite, and the core functionalities—like LTM-2, Pieces Drive, and Pieces Copilot.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/pieces_os.png"
 ---
 

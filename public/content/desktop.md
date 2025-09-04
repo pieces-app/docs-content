@@ -1,9 +1,9 @@
 ---
-title: Pieces for Developers Desktop App
+title: Pieces Desktop App
 path: /desktop
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces for Developers Desktop Application features a set of AI tools designed to help developers and knowledge workers make smart choices every day.
+description: The Pieces Desktop Application features a set of AI tools designed to help users and knowledge workers make smart choices every day.
 metaTitle: Pieces Desktop Application
 metaDescription: Boost productivity with the Pieces Desktop App – AI-powered tools that use workflow context to enhance decision-making with generative AI.
 ---
@@ -14,15 +14,15 @@ metaDescription: Boost productivity with the Pieces Desktop App – AI-powered t
 
 ## Meet the Pieces Desktop App
 
-The **Pieces for Developers Desktop Application** contains a suite of AI-powered tools designed to improve productivity by utilizing your workflow context and enabling you to make intelligent decisions on a day-to-day basis with generative AI.
+The **Pieces Desktop Application** contains a suite of AI-powered tools designed to improve productivity by utilizing your workflow context and enabling you to make intelligent decisions on a day-to-day basis with generative AI.
 
-Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and soul of Pieces for Developers—the Pieces Desktop app is the ultimate assistant for developers and knowledge workers for code, context, and creativity.
+Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and soul of Pieces—the Pieces Desktop app is the ultimate assistant for code, context, and creativity.
 
 Let’s dive in!
 
 <CardGroup cols={2}>
   <Card title="Getting Started" image="/assets/icons/pieces_desktop.png">
-    Follow these instructions to download and install the Pieces for Developers Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
+    Follow these instructions to download and install the Pieces Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
   </Card>
 
   <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
@@ -62,7 +62,7 @@ The new, incredibly powerful [Workstream Activity](/products/desktop/workstream-
 
 ### MCP Support
 
-The Pieces for Developers suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
+The Pieces suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
 
 With the Pieces MCP, you can thread rich workflow context stored in the Pieces Drive through to [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and other IDEs and productivity tools, making Pieces a *platform* for using long-term context in other workflows outside of just the Pieces Desktop App.
 
@@ -98,7 +98,7 @@ Save and organize your materials in one place, then watch as AI-enriched metadat
 
 ## Troubleshooting
 
-Designed for three different operating systems, the Pieces for Developers Desktop Application has [in-depth troubleshooting documentation](/products/desktop/troubleshooting) for cross-platform issues and OS-specific issues.
+Designed for three different operating systems, the Pieces Desktop Application has [in-depth troubleshooting documentation](/products/desktop/troubleshooting) for cross-platform issues and OS-specific issues.
 
 ## Support
 

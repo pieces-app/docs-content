@@ -33,14 +33,14 @@ There are a number of actions related to the [Material Management ecosystem](/pr
 
 You can access these commands through the **Command Palette** using the shortcuts—`⌘+p` (macOS) and `ctrl+p` (Windows/Linux).
 
-Type `Pieces for Developers:` followed by the desired command to filter and locate it in the list.
+Type `Pieces:` followed by the desired command to filter and locate it in the list.
 
 ***
 
-| **Pieces for Developers: Save to Pieces**                   | Save the selected code snippet to your Pieces repository for easy access and future use. |
+| **Pieces: Save to Pieces**                   | Save the selected code snippet to your Pieces repository for easy access and future use. |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Pieces for Developers: Share via Pieces**                 | Share the selected code snippet with others by generating a shareable link.              |
-| **Pieces for Developers: Switch Pieces Context**            | Switch between different Pieces contexts for more relevant suggestions or actions.       |
-| **Pieces for Developers: Ask Copilot about your selection** | Ask the Pieces copilot for assistance or insights related to the selected code snippet.  |
+| **Pieces: Share via Pieces**                 | Share the selected code snippet with others by generating a shareable link.              |
+| **Pieces: Switch Pieces Context**            | Switch between different Pieces contexts for more relevant suggestions or actions.       |
+| **Pieces: Ask Copilot about your selection** | Ask the Pieces copilot for assistance or insights related to the selected code snippet.  |
 
 ***

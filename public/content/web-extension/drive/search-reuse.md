@@ -148,7 +148,7 @@ When using the Pieces Drive within the Pieces Web Extension, you can click on th
 
 Every product within the Pieces Suite utilizes [PiecesOS](/products/core-dependencies/pieces-os) to gather information regarding the context of your snippets.
 
-When you modify a snippet in the <a target="_blank" href="/products/desktop">Pieces for Developers Desktop App</a>—like changing its name or description, tags, or any other metadata—those updates are automatically shown in your [Pieces Web Extension](/products/web-extension/get-started#supported-browsers) without the need for refreshing.
+When you modify a snippet in the <a target="_blank" href="/products/desktop">Pieces Desktop App</a>—like changing its name or description, tags, or any other metadata—those updates are automatically shown in your [Pieces Web Extension](/products/web-extension/get-started#supported-browsers) without the need for refreshing.
 
 <Callout type="tip">
   If your snippets aren’t updating immediately, refer to the [troubleshooting guide](/products/web-extension/troubleshooting) for instructions on refreshing your snippet list.

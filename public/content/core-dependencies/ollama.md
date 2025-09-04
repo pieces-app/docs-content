@@ -25,7 +25,7 @@ Unlike PiecesOS—which is required for all Pieces functionality—Ollama is onl
 
 Ollama acts as a wrapper around `llama.cpp`, making local AI processing faster, more stable, and easier to use.
 
-It simplifies model deployment and ensures compatibility with [Pieces for Developers’ supported LLMs](/products/core-dependencies/ollama/supported-models) and allows for new local models to be integrated soon after they are released.
+It simplifies model deployment and ensures compatibility with [Pieces supported LLMs](/products/core-dependencies/ollama/supported-models) and allows for new local models to be integrated soon after they are released.
 
 Additionally, many developers and organizations prefer local LLMs over cloud-hosted models for reasons such as:
 

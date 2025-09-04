@@ -66,7 +66,7 @@ Any related snippets will appear in the results list. From there, you can press 
 Share your snippets directly with team members in Obsidian, even if they don’t use Pieces.
 
 <Callout type="tip">
-  This can be done without the recipient needing a Pieces for Developers Account.
+  This can be done without the recipient needing a Pieces Account.
 </Callout>
 
 Sharing useful bits of code can help remove productivity blockers, especially if a co-developer is unfamiliar with the project or if they’re a junior developer.

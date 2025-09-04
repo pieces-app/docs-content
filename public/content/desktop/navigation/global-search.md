@@ -3,9 +3,9 @@ title: Global Search
 path: /desktop/navigation/global-search
 visibility: PUBLIC
 status: PUBLISHED
-description: Global Search in Pieces for Developers provides a unified way to find snippets, people, tags, links, and anchors across your entire repository.
+description: Global Search in Pieces provides a unified way to find snippets, people, tags, links, and anchors across your entire repository.
 metaTitle: Navigating Global Search | Pieces Docs
-metaDescription: Global Search in Pieces for Developers provides a unified way to find snippets, people, tags, links, and anchors across your entire repository
+metaDescription: Global Search in Pieces provides a unified way to find snippets, people, tags, links, and anchors across your entire repository
 ---
 
 ## Accessing Global Search

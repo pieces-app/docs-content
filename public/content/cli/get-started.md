@@ -21,7 +21,7 @@ Before installation, you’ll need:
 <Callout type="alert">
   PiecesOS must be installed to use the Pieces CLI and ensure it works properly. 
 
-  We also suggest using the Pieces for Developers Desktop App for better functionality.
+  We also suggest using the Pieces Desktop App for better functionality.
 </Callout>
 
 ### Sign in Required

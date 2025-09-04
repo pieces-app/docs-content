@@ -3,9 +3,9 @@ title: Core Features of Pieces
 path: /meet-pieces/fundamentals
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn about the [3] core features of Pieces, available for use within the Pieces for Developers Desktop App and any supported browser or IDE integration.
+description: Learn about the [3] core features of Pieces, available for use within the Pieces Desktop App and any supported browser or IDE integration.
 metaTitle: Pieces Fundamentals
-metaDescription: Learn about the [3] core features of Pieces, available for use within the Pieces for Developers Desktop App and any supported browser or IDE integration.
+metaDescription: Learn about the [3] core features of Pieces, available for use within the Pieces Desktop App and any supported browser or IDE integration.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_fundamentals.png"
 ---
 
@@ -43,7 +43,7 @@ Here are some ways to take advantage of the LTM-2.7:
 
 ### Workstream Activity
 
-Pieces for Developers has just launched a new flagship feature called [Workstream Activity](/products/desktop/workstream-activity).
+Pieces has just launched a new flagship feature called [Workstream Activity](/products/desktop/workstream-activity).
 
 The Workstream Activity view in the [Pieces Desktop App](/products/desktop) uses the advanced Long-Term Memory (LTM-2.7) Engine to collect and summarize your recent tasks, discussions, code reviews, and more.
 

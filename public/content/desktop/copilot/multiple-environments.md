@@ -14,13 +14,13 @@ Pieces is integrated into several of the most popular IDEs, code editors, and pr
 
 ## Cross-Environment Access
 
-Pieces for Developers has launched several plugins and extensions for popular code editors and IDEs, such as Visual Studio Code and JetBrains, and productivity tools, like Obsidian.
+Pieces has launched several plugins and extensions for popular code editors and IDEs, such as Visual Studio Code and JetBrains, and productivity tools, like Obsidian.
 
 In these plugins and extensions, you can also access Pieces Drive and PiecesOS-enabled LTM context alongside Pieces Copilot, giving you the full set of tools to use.
 
 ### Plugins & Extensions
 
-Click the links below to view up-to-date or upcoming documentation for all Pieces for Developers products, including plugins and extensions.
+Click the links below to view up-to-date or upcoming documentation for all Pieces products, including plugins and extensions.
 
 ***
 

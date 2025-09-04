@@ -62,7 +62,7 @@ Find materials in your Pieces Drive that you saved in other Pieces-enabled plugi
   </Step>
 
   <Step title="How It Works">
-    Install a Pieces for Developers extension or plugin (e.g., for Visual Studio Code, JetBrains IDEs, Chrome, etc.).
+    Install a Pieces extension or plugin (e.g., for Visual Studio Code, JetBrains IDEs, Chrome, etc.).
 
     Whenever you highlight code and choose “Save to Pieces” (or similar), it syncs directly to your Pieces Drive.
 

@@ -3,7 +3,7 @@ title: Installation Guide | macOS
 path: /meet-pieces/macos-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
-description: The following guide will help you install and run both PiecesOS and the Pieces for Developers Desktop Application quickly and easily.
+description: The following guide will help you install and run both PiecesOS and the Pieces Desktop Application quickly and easily.
 metaTitle: Get started | MacOS
 metaDescription: Get started with Pieces on macOS – install, configure, troubleshoot and optimize your setup for seamless AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_macos_install.webp"

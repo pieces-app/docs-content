@@ -10,7 +10,7 @@ metaDescription: Learn where Pieces stores your database and logs on macOS, Wind
 
 ## Why it Matters
 
-Pieces for Developers was designed with a **local-first architecture**—which is why all processing—code analysis, secret detection, and tag generation—runs completely offline by **default**:
+Pieces was designed with a **local-first architecture**—which is why all processing—code analysis, secret detection, and tag generation—runs completely offline by **default**:
 
 * **What stays Local:** Snippets, tags, embeddings, LTM-2.7 memory, user settings, preferences, activity logs, diagnostic logs, and Pieces Copilot Chat history.
 

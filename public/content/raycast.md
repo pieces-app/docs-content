@@ -3,9 +3,9 @@ title: Raycast Extension
 path: /raycast
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn more about the Pieces for Developers Raycast Extension.
+description: Learn more about the Pieces Raycast Extension.
 metaTitle: Using Pieces for Raycast | Pieces Docs
-metaDescription: Understand the benefits and importance of using the Pieces for Developers Raycast Extension, and get started with Quickstart and Commands.
+metaDescription: Understand the benefits and importance of using the Pieces Raycast Extension, and get started with Quickstart and Commands.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/raycast/raycast.png" alt="" align="center" fullwidth="true" />
@@ -24,7 +24,7 @@ metaDescription: Understand the benefits and importance of using the Pieces for 
 
 ## Pieces for Raycast Extension
 
-The Pieces for Developers Raycast Extension provides powerful features that allow you to streamline your workflow and boost productivity.
+The Pieces Raycast Extension provides powerful features that allow you to streamline your workflow and boost productivity.
 
 With just a few keystrokes, you can capture, search, and manage code snippets from anywhere on your desktop—*without switching context.*
 
@@ -45,7 +45,7 @@ Before using the Pieces for Raycast Extension, you must install PiecesOS on your
 PiecesOS powers all of Pieces' core functionalities, including snippet saving, enrichment, and integration handling.
 
 <Callout type="tip">
-  Pieces For Developers captures *no identifiable user data.* Our local-only architecture means your data never has to leave your device.
+  Pieces captures *no identifiable user data.* Our local-only architecture means your data never has to leave your device.
 </Callout>
 
 [Download the standalone PiecesOS file](/products/core-dependencies/pieces-os/manual-installation#macos) for your macOS system’s ARM or Intel-based architecture to start the installation process.
@@ -224,7 +224,7 @@ While most of the configuration happens automatically, here are some helpful not
 
 Use this section to diagnose problems, follow step-by-step fixes, and understand when to escalate an issue to the support team.
 
-Pieces for Developers is built with resilience, but we know bugs can happen, and we’re here to help when they do.
+Pieces is built with resilience, but we know bugs can happen, and we're here to help when they do.
 
 ### Node.js Installation Screen Appears
 

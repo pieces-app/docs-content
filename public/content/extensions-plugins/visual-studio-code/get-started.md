@@ -19,7 +19,7 @@ Before installation, you'll need:
 * **VS Code:** Visual Studio Code should already be installed on your development machine.
 
 <Callout type="alert">
-  PiecesOS must be installed to enable the Pieces for VS Code Extension. For enhanced functionality, we also recommend the Pieces for Developers Desktop App.
+  PiecesOS must be installed to enable the Pieces for VS Code Extension. For enhanced functionality, we also recommend the Pieces Desktop App.
 </Callout>
 
 ### Sign in Required

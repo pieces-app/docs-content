@@ -3,7 +3,7 @@ title: Support & Information
 path: /desktop/configuration/support
 visibility: PUBLIC
 status: PUBLISHED
-description: Find support links and information on your device and active version for PiecesOS and the Pieces for Developers Desktop App in these three “sticky” sections within the Settings view.
+description: Find support links and information on your device and active version for PiecesOS and the Pieces Desktop App in these three “sticky” sections within the Settings view.
 metaTitle: Support & Information | Configuration
 metaDescription: Find support links and information on your device and active version for PiecesOS.
 ---

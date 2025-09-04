@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Learn about Model Context Protocol (MCP) tools and discover how Pieces integrates the Long-Term Memory Engine (LTM-2.7) into your favorite IDEs and code editors.
 metaTitle: Introducing Pieces Model Context Protocol (MCP) | Pieces Docs
-metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant workflow context to various IDE integrations. Explore the benefits of MCP for developers and teams.
+metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant workflow context to various IDE integrations. Explore the benefits of MCP for users and teams.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/mcp.png"
 ---
 
@@ -23,7 +23,7 @@ Welcome to Pieces Model Context Protocol (MCP), an innovative way to connect Lar
 
 In a way, MCP is becoming a *universal* context provider that uses a well-standardized communication protocol to pass information (like external data) or tools to LLM-powered applications.
 
-For developers, this is extremely useful—because it means somebody using the Cursor agentic chat system can rope in external context to the LLM, giving it additional context outside of the purview of the active file or codebase they’re working in.
+This is extremely useful—because it means somebody using the Cursor agentic chat system can rope in external context to the LLM, giving it additional context outside of the purview of the active file or codebase they're working in.
 
 ## How Pieces Integrates with MCP
 
@@ -77,9 +77,9 @@ When integrated with [GitHub Copilot](/products/mcp/github-copilot), MCP enhance
 
 ***
 
-## Why Developers Love Pieces MCP
+## Why Users Love Pieces MCP
 
-Pieces MCP empowers developers to leverage personal context for AI-driven interactions, significantly reducing manual research, accelerating troubleshooting, and enhancing productivity.
+Pieces MCP empowers users to leverage personal context for AI-driven interactions, significantly reducing manual research, accelerating troubleshooting, and enhancing productivity.
 
 By connecting directly to [PiecesOS](/products/core-dependencies/pieces-os), your context becomes a powerful, personalized source of truth that informs AI interactions:
 

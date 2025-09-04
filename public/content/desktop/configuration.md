@@ -3,9 +3,9 @@ title: Configuration
 path: /desktop/configuration
 visibility: PUBLIC
 status: PUBLISHED
-description: In the Pieces for Developers Desktop App, you can customize everything from visuals and aesthetics to Pieces Drive enrichment and Pieces Copilot models to fit your preferences and workflow.
+description: In the Pieces Desktop App, you can customize everything from visuals and aesthetics to Pieces Drive enrichment and Pieces Copilot models to fit your preferences and workflow.
 metaTitle: Configuring Pieces Desktop Application
-metaDescription: Customize Pieces for Developers with settings for visuals, Pieces Drive enrichment, and Copilot models to optimize your workflow.
+metaDescription: Customize Pieces with settings for visuals, Pieces Drive enrichment, and Copilot models to optimize your workflow.
 ---
 
 ## Accessing Settings
@@ -98,7 +98,7 @@ You can also set the default UI of different views and adjust default sorting an
 
 ### Additional Settings
 
-The [Additional Settings](/products/desktop/configuration/additional-settings) section contains advanced configurations that allow you to fine-tune Pieces for Developers to suit your workflow.
+The [Additional Settings](/products/desktop/configuration/additional-settings) section contains advanced configurations that allow you to fine-tune Pieces to suit your workflow.
 
 <Steps>
   <Step title="Telemetry & Diagnostics">

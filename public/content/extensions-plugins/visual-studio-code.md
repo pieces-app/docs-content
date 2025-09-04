@@ -35,7 +35,7 @@ It provides users with a streamlined way to manage and interact with saved code 
 
 <guides-overview-card />
 
-This extension is designed to offer **two main pillars of functionality** for developers working in the Visual Studio Code environment—Pieces Copilot and Pieces Drive.
+This extension is designed to offer **two main pillars of functionality** for users working in the Visual Studio Code environment—Pieces Copilot and Pieces Drive.
 
 ## Enhanced AI Assistance
 

@@ -95,7 +95,7 @@ From there, you can choose from a variety of options listed in the table below.
 
 ## Quickly Access Snippets
 
-*Layers upon layers of functionality*—that’s the goal of all Pieces for Developers plugins and extensions.
+*Layers upon layers of functionality*—that’s the goal of all Pieces plugins and extensions.
 
 Right from within the Pieces Drive tab, select a saved material to open it in markdown as a preview—then click the `Edit` icon to edit & save your code.
 

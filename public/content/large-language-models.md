@@ -1,9 +1,9 @@
 ---
-title: Pieces for Developers | LLMs
+title: Pieces | LLMs
 path: /large-language-models
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces for Developers software products provide user access to 54 total large language models (LLMs) from a wide variety of providers—and we’re adding more and more!
+description: Pieces software products provide user access to 54 total large language models (LLMs) from a wide variety of providers—and we’re adding more and more!
 metaTitle: Pieces Supported LLMs | Cloud & Local Models
 metaDescription: Explore the available cloud-based and local LLMs supported by Pieces for AI-driven development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/compatible-llms.png"

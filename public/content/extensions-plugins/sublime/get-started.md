@@ -18,7 +18,7 @@ Before you begin, make sure you have:
 
 * **Sublime Text:** Make sure you’ve installed Sublime Text on your development machine.
 
-You must have <a target="_blank" href="https://beta.docs.pieces.app/products/core-dependencies/pieces-os">**PiecesOS**</a> to use the Pieces for Sublime Plugin. We also recommend downloading the Pieces for Developers Desktop App.
+You must have <a target="_blank" href="https://beta.docs.pieces.app/products/core-dependencies/pieces-os">**PiecesOS**</a> to use the Pieces for Sublime Plugin. We also recommend downloading the Pieces Desktop App.
 
 ### Sign in Required
 

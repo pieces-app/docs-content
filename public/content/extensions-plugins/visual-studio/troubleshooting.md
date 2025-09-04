@@ -42,7 +42,7 @@ See your specific OS page for platform-specific instructions on updating PiecesO
 
 ### Minimum System Requirements for Pieces Software
 
-Regardless of platform, your device should meet the following basic system specifications for using the Pieces for Developers software.
+Regardless of platform, your device should meet the following basic system specifications for using the Pieces software.
 
 ***
 

@@ -21,7 +21,7 @@ Before installation, you'll need:
 * **Windows:** Visual Studio is no longer available on macOS and is exclusively designed and maintained for Windows devices.
 
 <Callout type="alert">
-  PiecesOS must be installed to enable the Pieces for Visual Studio Extension. For enhanced functionality, we also recommend the Pieces for Developers Desktop App.
+  PiecesOS must be installed to enable the Pieces for Visual Studio Extension. For enhanced functionality, we also recommend the Pieces Desktop App.
 </Callout>
 
 ### Sign in Required

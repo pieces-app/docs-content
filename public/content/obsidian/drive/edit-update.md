@@ -100,7 +100,7 @@ The Pieces for Obsidian Plugin allows you to quickly manage your snippets by cli
 
 ## Quickly Access Snippets
 
-*Layers upon layers of functionality*—that’s the goal of all Pieces for Developers plugins and extensions.
+*Layers upon layers of functionality*—that’s the goal of all Pieces plugins and extensions.
 
 Right from within the Pieces Drive tab, select a saved material to open it in markdown as a preview, then click the **Edit** icon to edit & save your code.
 
