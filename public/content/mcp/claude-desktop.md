@@ -202,7 +202,7 @@ If you’re experiencing issues integrating [Pieces MCP](/products/mcp/get-start
    Ensure PiecesOS is actively running on your system.
 
 2. **Confirm LTM Engine Activation**\
-   [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-25-engine) must be enabled in PiecesOS.
+   [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-27-engine) must be enabled in PiecesOS.
 
 3. **Single MCP Instance**\
    Avoid running multiple Pieces MCP instances in different apps simultaneously.

@@ -106,7 +106,7 @@ Configurable behaviors include:
 
 While *paused* or *off,* Pieces Copilot won’t use your workflow context to inform suggestions or provide more accurate information in generative AI responses.
 
-[You can read more about the LTM-2.7 Engine here.](/products/core-dependencies/pieces-os#ltm-25)
+[You can read more about the LTM-2.7 Engine here.](/products/core-dependencies/pieces-os#ltm-27)
 
 ### Clearing LTM-2.7 Data
 

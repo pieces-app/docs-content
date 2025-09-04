@@ -15,7 +15,7 @@ PiecesOS is a background service that runs on your machine. It orchestrates loca
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/longtermmemory_piecesdrive_piecescopilot.png" alt="" align="center" fullwidth="true" />
 
-There are three core pillars of Pieces functionality powered by PiecesOS: [\[1\] LTM-2.7,](/products/core-dependencies/pieces-os#ltm-25) [\[2\] Pieces Drive,](/products/core-dependencies/pieces-os#pieces-drive) and [\[3\] Pieces Copilot.](/products/core-dependencies/pieces-os#pieces-copilot)
+There are three core pillars of Pieces functionality powered by PiecesOS: [\[1\] LTM-2.7,](/products/core-dependencies/pieces-os#ltm-27) [\[2\] Pieces Drive,](/products/core-dependencies/pieces-os#pieces-drive) and [\[3\] Pieces Copilot.](/products/core-dependencies/pieces-os#pieces-copilot)
 
 These components make up the Pieces experience and are essential to the modern AI-powered workflow.  
 

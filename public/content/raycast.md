@@ -76,7 +76,7 @@ PiecesOS is requesting to bypass the system private window picker and directly a
 
 Click `Allow`.
 
-These permissions are required for [PiecesOS](/products/core-dependencies/pieces-os) to power the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-25).
+These permissions are required for [PiecesOS](/products/core-dependencies/pieces-os) to power the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27).
 
 PiecesOS will automatically open in your toolbar and pop up a *Notification preferences modal* in the upper right corner of your screen.
 

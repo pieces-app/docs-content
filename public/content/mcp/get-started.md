@@ -29,7 +29,7 @@ For developers, this is extremely useful—because it means somebody using the C
 
 The core of the Pieces ecosystem is [PiecesOS](/products/core-dependencies/pieces-os), which powers the Pieces Desktop App, browser extensions, and IDE plugins.
 
-At its heart is the advanced [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-25), which captures, enriches, and locally stores valuable contextual information from your daily workflow, such as code snippets, browser history, notes, and application data.
+At its heart is the advanced [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27), which captures, enriches, and locally stores valuable contextual information from your daily workflow, such as code snippets, browser history, notes, and application data.
 
 Pieces leverages the MCP to connect your favorite development tools and AI applications—like Cursor and GitHub Copilot—directly to PiecesOS, enabling smooth, context-rich interactions [entirely on your device.](/products/privacy-security-your-data#data-storage--control)
 

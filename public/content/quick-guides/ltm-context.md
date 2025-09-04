@@ -23,7 +23,7 @@ To enable the LTM-2.7 Engine from PiecesOS, click the PiecesOS icon to open the 
 
 ## In This Quick Guide
 
-In this Quick Guide, you’ll use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-25) to save context from a website, then prompt the Pieces Copilot to tell you what it saw.
+In this Quick Guide, you’ll use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27) to save context from a website, then prompt the Pieces Copilot to tell you what it saw.
 
 <Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
   Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7 and the coming *LTM-2.7*

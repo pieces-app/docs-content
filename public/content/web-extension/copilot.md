@@ -14,7 +14,7 @@ If you're unsure how to implement something, stuck on a bug, or need an answer w
 
 The Pieces Web Extension offers several levels of conversation functionality, all fully integrated with Pieces.
 
-You can enable the [**Long Term Memory Engine (LTM-2.7)**](/products/meet-pieces/fundamentals#ltm-25) for complete, streamlined context across your workflow or open a limited context conversation in the browser's view.
+You can enable the [**Long Term Memory Engine (LTM-2.7)**](/products/meet-pieces/fundamentals#ltm-27) for complete, streamlined context across your workflow or open a limited context conversation in the browser's view.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/_MAIN/hover_copy_save.png" alt="" align="center" fullwidth="true" />
 

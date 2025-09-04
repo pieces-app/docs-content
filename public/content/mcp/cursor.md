@@ -117,7 +117,7 @@ To set up the Pieces MCP, you can edit the `.json` settings configuration file f
 
 ## Using Pieces MCP Server in Cursor
 
-Once integrated, you can utilize [Pieces LTM](/products/core-dependencies/pieces-os#ltm-25) directly in Cursor through the built-in chat agent.
+Once integrated, you can utilize [Pieces LTM](/products/core-dependencies/pieces-os#ltm-27) directly in Cursor through the built-in chat agent.
 
 <Steps>
   <Step title="Open the Chat Panel">

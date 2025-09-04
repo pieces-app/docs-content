@@ -50,14 +50,14 @@ Keep track of your workflow so you can access stored context from yesterday, las
 
 Imagine what you could do if you could always recall past solutions, find specific links that were lost to your browser history, or remember what so-and-so said in that one Slack channel about that new staging release?
 
-[The Long-Term Memory (LTM-2.7) ](/products/core-dependencies/pieces-os#ltm-25)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-25">engine</a> ensures that *nothing* slips through the cracks.
+[The Long-Term Memory (LTM-2.7) ](/products/core-dependencies/pieces-os#ltm-27)<a target="_blank" href="/products/core-dependencies/pieces-os#ltm-27">engine</a> ensures that *nothing* slips through the cracks.
 
 The new, incredibly powerful [Workstream Activity](/products/desktop/workstream-activity) feature provides a sleek UI for interacting with saved data from up to **9 months ago** in an easily digestible *LTM Roll-Up* format, allowing you to start conversations with that context or copy and download it.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_exploring_rollups.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  Read our [documentation on the new Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-25) for more information on what it is and how it works.
+  Read our [documentation on the new Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27) for more information on what it is and how it works.
 </Callout>
 
 ### MCP Support

@@ -36,7 +36,7 @@ From here, you can follow the guided, interactive Long-Term Memory demo and expe
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_2_gif.gif" alt="" align="center" fullwidth="true" />
 
-All you need to do is proceed with your workflow for 10-15 minutes while the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-25) captures memories—then, we’ll show you how to use it with Pieces Copilot.
+All you need to do is proceed with your workflow for 10-15 minutes while the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) captures memories—then, we’ll show you how to use it with Pieces Copilot.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_3_completed_workflow_memories_gathering.png" alt="" align="center" fullwidth="true" />
 
@@ -56,7 +56,7 @@ You’ll also be introduced to the **Power Menu**, from which you can access the
 
 ### Pieces Copilot + LTM
 
-[LTM](/products/core-dependencies/pieces-os#ltm-25) captures and stores workflow context in the [Pieces Drive](/products/core-dependencies/pieces-os#pieces-drive). You can visit a site like Stack Overflow, read code explanations, and later query Pieces Copilot about what you read.
+[LTM](/products/core-dependencies/pieces-os#ltm-27) captures and stores workflow context in the [Pieces Drive](/products/core-dependencies/pieces-os#pieces-drive). You can visit a site like Stack Overflow, read code explanations, and later query Pieces Copilot about what you read.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/switching_llms_and_chatting.gif" alt="" align="center" fullwidth="true" />
 
