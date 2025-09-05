@@ -122,7 +122,11 @@ Proceed through the purchase form to enter your contact and payment information.
   The official Pieces checkout page is `checkout.pieces.services`.
 </Callout>
 
-After completing your purchase, you’ll receive an email receipt along with a separate message containing your subscription details and direct links to update your payment method or cancel your subscription.
+After completing your purchase, you'll receive an email receipt along with a separate message containing your subscription details and direct links to update your payment method or cancel your subscription.
+
+<Callout type="tip">
+  **Not seeing your Pro status?** Restart the Pieces Desktop app to force sync your account with the latest subscription status.
+</Callout>
 
 ## Billing & Account Management
 
