@@ -50,7 +50,7 @@ Use the built-in controls in Pieces Desktop or PiecesOS to activate your Pro sub
   <Step title="Select Unlock Pieces Pro">
     Tap `Unlock Pieces Pro` to open the upgrade modal, which highlights your new perks.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/upgrade_perks.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces_pro_full_width.png" alt="" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Begin Checkout">
@@ -144,7 +144,7 @@ Change or add your credit card directly in the *Payment methods* tab.
   <Step title="Scroll to Subscriptions">
     At the bottom of the Settings menu, select `Subscription` to view your active plan.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/subscription_tab_fixed.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/payments_full_width.png" alt="" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Open Payment Dashboard">
