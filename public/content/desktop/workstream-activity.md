@@ -8,7 +8,7 @@ metaTitle: Introduction to Workstream Activity | Pieces Docs
 metaDescription: Workstream Activity is your main hub for viewing all summaries, workflow context, and related information gathered by the Long-Term Memory (LTM-2) Engine.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/workstream_activity%20.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/general_workstream.png" alt="" align="center" fullwidth="true" />
 
 ***
 
@@ -32,7 +32,7 @@ Once you access Workstream Activity, you’ll see two main UI elements:
 
 2. **Roll-Up Details (Right Panel)**: Selecting a roll-up displays its sections and bullet points, including embedded links, references, or code snippet IDs.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/newly_new_workstream_activity/HOVERING_activity.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/different_general_workstream.png" alt="" align="center" fullwidth="true" />
 
 ### Long-Term Memory (LTM-2.7) Engine
 
@@ -54,7 +54,9 @@ Each *roll-up* is a one-page summary that includes information and specific sect
 
 * **Follow-Up Actions**: Unfinished items, suggestions for next steps, and reminders.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/editing_workstream_activity/general_edit_view.png" alt="" align="center" fullwidth="true" />
+* **NEW: "Formed with MCP" Indicator**: Workstream activities created through Model Context Protocol (MCP) integrations will display a "Formed with MCP" button/pill, indicating they were generated using external MCP tools like the Pieces MCP integration.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/mcp_tag.png" alt="" align="center" fullwidth="true" />
 
 ### Interacting with LTM Roll-Ups
 
@@ -64,9 +66,20 @@ Each roll-up offers multiple interaction points:
 
 * `Copy` / `Download`: Export the roll-up as plain text or Markdown, letting you archive or share your summary outside of Pieces.
 
+* **NEW: macOS Share Feature**: On macOS, use the native Apple share feature to share workstream summaries directly to chats, AirDrop, and other macOS applications.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_share_option.png" alt="" align="center" fullwidth="true" />
+
 * `Deep Links`: Open references directly in your browser. If the roll-up mentions a specific blog or document, you can jump straight to it from within Pieces.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/newly_new_workstream_activity/clicking_all_options.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/deep_links_options.gif" alt="" align="center" fullwidth="true" />
+
+### Editing Workstream Activities
+
+You can edit and customize your workstream activities to better reflect your workflow context or add additional details that weren't automatically captured.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/editing_view.png" alt="" align="center" fullwidth="true" />
+
 
 <Callout type="tip">
   If you remember that a teammate shared a solution link last month, you can locate that exact snippet, conversation, or link by searching the relevant keyword in Workstream Activity.
@@ -98,7 +111,7 @@ This opens up a *Time Range Selection* menu, which allows you to generate a summ
 
 Then, select your desired time ranges, and click the `green checkmark` icon to generate the summary.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/newly_new_workstream_activity/generating_new_activity.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/generating_workstream_activity.gif" alt="" align="center" fullwidth="true" />
 
 ### Related Workstream Activities
 
@@ -108,7 +121,7 @@ The cards link to past *Workstream Activity Rollups* that contain the context us
 
 This will use *Rollups* relevant to your question and what you're currently working on, as Pieces works to find all *Workstream Activity Rollups associated with the query.*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_MAIN/copilot_worksteam_activity.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/generate_a_rollup.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Clicking one of the surfaced context cards will take you to that specific Rollup in the **Workstream Activities** view.
@@ -166,7 +179,7 @@ At any time, even after a summary has been generated, you can disable sources fr
 
 In the Workstream Activity view, there is an LTM Access Control modal designated by a grid-like icon—clicking this opens the modal, where you can toggle or un-toggle data capture from specific sources.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/newly_new_workstream_activity/changing%20source.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/access_settings.png" alt="" align="center" fullwidth="true" />
 
 In the PiecesOS task bar window, you can [disable any sources you don’t wish to capture](/products/core-dependencies/pieces-os/quick-menu#quick-menu-actions) (e.g., personal browsing activity or data from messaging applications) through the LTM Access Control panel.
 
