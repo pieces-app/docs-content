@@ -8,7 +8,7 @@ metaTitle: Adjusting Pieces Copilot | Pieces Docs
 metaDescription: Learn how to enrich your Pieces Copilot chats by integrating context – like folders, file, and other saved materials – from your previous tasks and current projects.
 ---
 
-## Adjusting Models & Appearance
+# Adjusting Models & Appearance
 
 Learn how to switch between local and cloud-hosted models, change the aesthetics and layout of your Pieces Copilot chat view, and more.
 
@@ -18,7 +18,7 @@ There are dozens of local and cloud-hosted LLMs to choose from within the Pieces
 
 ### LLM Runtime Modal
 
-At the bottom left of the Pieces Copilot view is the active model—by default you’ll see *GPTo3-Mini.*
+At the bottom left of the Pieces Copilot view is the active model. By default, this is a cloud LLM. 
 
 Clicking this button opens the **Manage Copilot LLM Runtime** modal, where you can enter your own API key or [select local and cloud-hosted LLMs served through Pieces.](/products/core-dependencies/ollama#using-local-vs-cloud-models)
 
@@ -40,7 +40,7 @@ You can read this documentation containing [all local and cloud-hosted LLMs serv
 
 In case you need a fresh start or want to clear the current context, the interface includes options (accessible via the **Chat Options** menu) to reset the conversation.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/quick%20options%20(3%20dots).png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_resetting_conversation.gif" alt="" align="center" fullwidth="true" />
 
 This is particularly useful when you want to switch focus or change the conversation pipeline.
 
@@ -53,7 +53,7 @@ A search bar labeled *Find Cloud LLMs* lets you browse available cloud-based mod
 <Callout type="alert">
   Ollama is required to use local LLMs with Pieces software.
 
-  If you don’t have it installed, that’s okay—you can download and install it through the Pieces Desktop App by clicking on the `Active Model` button.
+  If you don’t have it installed, that’s okay—you can download and install it through the Pieces Desktop App by clicking on the `Active Model` button and switching to the `On-Device` tab. You'll be prompted to install Ollama.
 </Callout>
 
 ***

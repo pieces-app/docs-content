@@ -64,9 +64,9 @@ In this section, we'll cover context and project management—adding items from 
 
 Pieces Copilot offers flexibility in choosing the AI model (cloud-based or local) and customizing the chat appearance and default context usage.
 
-Discover the array of 40+ cloud-hosted and local models, served through Ollama or other providers, learn how to adjust your runtime, customize the appearance of your Pieces Copilot Chat view, enable or disable LTM context for new chats, and more.
+Choose from over 40 cloud-hosted and local models (including those served via Ollama and other providers), adjust your runtime settings, customize the appearance of your Copilot Chat view, enable or disable LTM context for new chats, and more.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/switching_llms_and_chatting.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_asking_pieces_copilot_a_question.gif" alt="" align="center" fullwidth="true" />
 
 ### Pieces Copilot in Multiple Environments
 
