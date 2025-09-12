@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if PiecesOS or t
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_linux.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="Displaying linux.png" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="" align="left" fullwidth="true" />
 
 ***
 
