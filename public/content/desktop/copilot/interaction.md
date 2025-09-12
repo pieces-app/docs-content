@@ -72,7 +72,7 @@ Clicking it opens a [context menu](/products/desktop/copilot/integration) with a
 
 2. `Add Files`**,** `Add Folders`**,** `Add Snippets`**,** `Add Websites`**:** Each option opens the corresponding modal for adding context from local resources or the web.
 
-3. `Add Messages`**:** (Currently grayed out—coming soon.)
+3. `Add Messages`**:**
 
 [Read more about adding context to your Pieces Copilot Chats.](/products/desktop/copilot/integration#adding-folders)
 
@@ -100,6 +100,34 @@ At the top right corner of the active chat window, a vertical ellipsis (three st
 
 <Callout type="alert">
   These options are available inside of an existing chat with user input and AI generations—i.e., an *active* chat. You will not see these options when inside a blank chat template.
+</Callout>
+
+## Interacting with Generated Responses
+
+When Pieces Copilot generates a reply, a toolbar appears with helpful buttons, icons, and cards to manage or reuse that output.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_available_toolbar_options_copilot.webp" alt="" align="center" fullwidth="true" />
+
+### Response Toolbar Actions
+
+There are several actions you can take under each generated Pieces Copilot response. 
+
+1. `Model & Time`: A chip shows the model used (for example, Claude, GPT, Gemini, or a local model) and how long ago the response was generated.
+
+2. `Copy`: Click the copy icon to copy the entire response to your clipboard.
+
+3. `Export`: Export the response to your `Downloads` folder by default. You can select from PDF, markdown, or plaintext formats.
+
+4. `Regenerate`: Use the refresh icon to re-run the response with the same model or a different one. Clicking opens a modal where you can select the model you want to use for the regeneration.
+
+5. `Convert to Workstream Summary`: The paper icon converts this Copilot output into a Workstream Summary so you can capture and reference it later in your workflow.
+
+6. `More Options (⋮)`: The three-dot menu reveals additional actions. You can select `Use as Context` to add that specific response as context for follow-up prompts, or `Delete Message` to remove the message from the current conversation.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/copilot_message_available_options_toolbar.gif" alt="" align="center" fullwidth="true" />
+
+<Callout type="tip">
+  If LTM Context is enabled, you may also see related context cards surface beneath the response. These link to Workstream Activity Rollups that informed the generation.
 </Callout>
 
 ### New Chat & Pipelines
@@ -133,3 +161,66 @@ This allows you to quickly revisit previous interactions by clicking on a chat e
 An icon at the top of the sidebar lets you collapse or expand this panel as needed—called **Focus Mode**—so you can focus solely on your current conversation if desired.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/going_through_chat_history_and_exploring.gif" alt="" align="center" fullwidth="true" />
+
+## Searching Previous Chats
+
+When you are in the Pieces Copilot view, click the search bar at the very top labeled `Find chats…`. 
+
+This opens a centered modal showing your recent chats. 
+
+You can scroll this list, and each item displays a percentage on the right that represents how relevant that chat likely is to your current workflow or how frequently you return to it.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_find_chats_search_field.png" alt="" align="center" fullwidth="true" />
+
+### Running a Search
+
+Type your query into the search field and press `enter` (Windows/Linux) or `return` (macOS) to execute the search. Results will appear with matching terms highlighted in yellow. 
+
+If a chat is an exact match for your query, you’ll see an `EXACT MATCH` label on the right instead of a percentage.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/searching_chats_yellow_syntax.png" alt="" align="center" fullwidth="true" />
+
+<Callout type="tip">
+  Pressing enter/return is **required** to run the search from the modal.
+</Callout>
+
+## Deep Study
+
+Did you know that Pieces can provide highly accurate, sourced, timestamped deep research reports of your work history, personal projects, and progress on a given topic? 
+
+DeepStudy leverages your Long-Term Memory so Copilot can analyze work across people, applications, topics, and time windows.
+
+- **Deep contextual recall**: Connects information across timeframes, collaborators, and apps
+- **Comprehensive recaps**: Summarizes work done over days, weeks, or months
+- **Targeted queries**: Answers questions that specify people, topics, projects, and date ranges
+- **Actionable insights**: Surfaces linked artifacts (issues, errors, files) and proposes next steps
+
+Using this feature, simply ask Pieces Copilot *"Can you perform a deep study on what I've done for the last few days?"* using your selected local or cloud LLM, and you'll receive an in-depth report that you can save, share, or export on your given topic.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/deep_study_demo.webp" alt="" align="center" fullwidth="true" />
+
+<Callout type="tip">
+  Deep Study requires that you enable the Long-Term Memory Engine.
+</Callout>
+
+### Example prompts
+
+Use natural language and include time ranges, people, and topics when possible. 
+
+Here's some prompts you can try: 
+
+```text
+Perform a deep study of what I worked on last week related to WebSocket errors.
+```
+
+```text
+Tell me everything I did with [PERSON NAME] over the last 3 months.
+```
+
+```text
+What did I accomplish related to [TOPIC] in [MONTH]?
+```
+
+```text
+When was the last time I worked on [PROJECT/FILE]?
+```

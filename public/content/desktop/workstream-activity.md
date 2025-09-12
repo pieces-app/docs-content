@@ -62,9 +62,11 @@ Each *roll-up* is a one-page summary that includes information and specific sect
 
 Each roll-up offers multiple interaction points:
 
-* `Start Copilot Chat`: Immediately open a Pieces Copilot Chat session scoped to that roll-up’s context, eliminating the need to re-explain your background or goals.
+* `Start Copilot Chat`: Immediately open a Pieces Copilot Chat session scoped to that roll-up’s context; the summary is used as context right away so you don’t need to restate anything.
 
-* `Copy` / `Download`: Export the roll-up as plain text or Markdown, letting you archive or share your summary outside of Pieces.
+* `Export` (toolbar): Download the summary as `PDF`, `Markdown (.md)`, or `Plain Text (.txt)` directly from the toolbar.
+
+* `More (three-dots)`: Access quick actions — `Edit` (opens the editor; see [Editing Workstream Activities](/desktop/workstream-activity/edit-workstream-activities)), `Copy to Clipboard`, or `Delete`.
 
 * **NEW: macOS Share Feature**: On macOS, use the native Apple share feature to share workstream summaries directly to chats, AirDrop, and other macOS applications.
 
@@ -81,8 +83,8 @@ You can edit and customize your workstream activities to better reflect your wor
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/editing_view.png" alt="" align="center" fullwidth="true" />
 
 
-<Callout type="tip">
-  If you remember that a teammate shared a solution link last month, you can locate that exact snippet, conversation, or link by searching the relevant keyword in Workstream Activity.
+<Callout type="note">
+  <strong>macOS native Share:</strong> On macOS, the clipboard/share action can invoke the system Share sheet to send a summary as <em>PDF</em>, <em>Markdown</em>, or <em>Plain Text</em> to recent contacts or apps like AirDrop, Mail, Messages, Notes, and other installed apps.
 </Callout>
 
 ### Generating LTM Rollups
@@ -170,6 +172,10 @@ Here are some practical ways to use it:
 Want to keep reading?
 
 Check out this quick guide for more use cases, featuring in-depth, real-world scenarios on [using the Workstream Activities view.](/products/quick-guides/ltm-prompting/workstream-activity)
+
+<Callout type="tip">
+  If you remember that a teammate shared a solution link last month, you can locate that exact snippet, conversation, or link by searching the relevant keyword in Workstream Activity.
+</Callout>
 
 ### Privacy & Source Control
 

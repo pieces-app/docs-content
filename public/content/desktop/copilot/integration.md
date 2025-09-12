@@ -22,7 +22,7 @@ Integrating context ensures Pieces Copilot isn’t answering in a vacuum.
 
 By including Long-Term Memory data and project-specific resources, you can improve the accuracy of generative AI responses, reduce context-switching, work more effectively.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Context%20%26%20Projects/switching_context_in_activity.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_pfd_ltm_source_gif.gif" alt="" align="center" fullwidth="true" />
 
 ### Related Workstream Activities
 
@@ -30,7 +30,7 @@ Pieces Copilot will draw on memories and workflow context captured by the LTM en
 
 The Workstream Activity cards will display under the response with several cards linking to past *Workstream Activity Rollups* that contain the context used to create that response.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_MAIN/copilot_worksteam_activity.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/querying_pieces_copilot.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Clicking one of the surfaced context cards will take you to that specific Rollup in the **Workstream Activities** view.
