@@ -93,7 +93,7 @@ Ensure your edits have been saved and are visible in the activity preview.
 
 * **Verify Update:** Your edited summary now appears in the activity preview.
 
-## Managing Workstream Summaries 
+## Managing Workstream Summaries
 
 Managing multiple workstream summaries at once gives you powerful control over your workflow. With mass selection, you can quickly merge related summaries, delete outdated ones, copy several summaries for sharing, or export a batch for archiving. 
 
