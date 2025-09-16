@@ -21,7 +21,7 @@ Powered by [PiecesOS](/products/core-dependencies/pieces-os)—the heart and sou
 Let’s dive in!
 
 <CardGroup cols={2}>
-  <Card title="Getting Started" image="/assets/icons/pieces_desktop.png">
+  <Card title="Getting Started" image="/assets/icons/pieces_os_light.svg">
     Follow these instructions to download and install the Pieces Desktop Application for [macOS](/products/meet-pieces/macos-installation-guide), [Windows](/products/meet-pieces/windows-installation-guide), or [Linux](/products/meet-pieces/linux-installation-guide).
   </Card>
 
