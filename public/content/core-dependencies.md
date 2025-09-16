@@ -28,12 +28,6 @@ Running local LLMs requires downloading and installing the **\[2] Ollama** wrapp
 
 2. **Ollama**: A specialized wrapper that enables local AI inference, allowing Pieces Copilot and other features to leverage machine learning models *directly on your device.*
 
-## Deep Study
-
-PiecesOS includes a new **Deep Study** feature within the LTM-2.7 Engine that provides comprehensive analysis of your recent workflow activities. This context analysis goes beyond standard workflow summaries to deliver detailed insights into your development patterns, project progress, and workstream activities.
-
-You can access Deep Study by asking Pieces Copilot questions like *"Can you perform a deep study on what I've done for the last few days?"* This feature analyzes your recent context more thoroughly than standard summaries, helping you understand your workflow trends and identify areas for optimization.
-
 ## What Do They Do?
 
 These dependencies—**PiecesOS and Ollama**—are lightweight services and engines that handle everything from local model management and context storage to advanced local inference for AI-assisted workflows.

@@ -22,7 +22,11 @@ At the bottom left of the Pieces Copilot view is the active model. By default, t
 
 Clicking this button opens the **Manage Copilot LLM Runtime** modal, where you can enter your own API key or [select local and cloud-hosted LLMs served through Pieces.](/products/core-dependencies/ollama#using-local-vs-cloud-models)
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/screenshot_of_llms.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="" align="center" fullwidth="true" />
+
+<Callout type="info">
+  Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5/GPT-5 Mini, Anthropic Claude 4.1 Opus, Google Gemini 2.5 Pro). To unlock these premium models, see [Pieces Pro](/paid-plans).
+</Callout>
 
 ### Model Selection
 
@@ -30,7 +34,7 @@ Pieces Copilot allows you to choose between cloud-hosted models and on-device mo
 
 Each option has its benefits:
 
-* **Cloud LLMs:** Typically offer state-of-the-art performance and are ideal for complex queries requiring deep context.
+* **Cloud LLMs:** Typically offer state-of-the-art performance and are ideal for complex queries requiring deep context. Supported providers and example models include OpenAI (GPT-5, GPT-5 Mini, GPT-5 Nano, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1), Anthropic (Claude 4.1 Opus, Claude 4 Opus, Claude 4 Sonnet), and Google (Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5-Flash-Lite). See the complete list on the [Cloud Models](/products/large-language-models/cloud-models) page.
 
 * **On-Device LLMs:** Ensure data privacy and are optimal for offline or air-gapped environments.
 

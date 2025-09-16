@@ -59,11 +59,22 @@ LTM-2.7 includes a powerful new Deep Study feature that provides comprehensive a
 
 Deep Study goes beyond standard workflow summaries to provide detailed insights into your development patterns, project progress, and workstream activities. This feature analyzes your recent context more thoroughly than standard summaries, helping you understand your workflow trends and identify areas for optimization.
 
+#### How it works in the UI (Pro)
+
+- In any Pieces Copilot chat, click `Activate DeepStudy` (marked `PRO`) at the bottom of the chat to enable Deep Study for your next prompt.
+- Deep Study reports typically take 10–20 minutes to generate.
+- While running, progress indicators show a `Thinking` state and multiple cooperating agents. You can expand chevrons to view each agent’s intermediate steps.
+
+#### Model and runtime
+
+- Deep Study always runs on a dedicated cloud LLM managed by Pieces (currently a Google model, subject to change).
+- Changing the selected LLM via the standard runtime modal does not affect Deep Study generations.
+
 ***
 
 *Pieces Copilot with LTM-2.7 Context —* Pieces Desktop App
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/perform_deep_study_normalsize.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="" align="center" fullwidth="true" />
 
 ***
 
@@ -258,6 +269,16 @@ It can generate code, answer questions, add code documentation, and serve as the
 ### Introducing Context to Chats
 
 If you encounter a scenario where you need to recall a specific URL to a Firestore database that was used during a live demo with another coworker, you can use Pieces Copilot (with LTM enabled) to recall that *exact link.*
+
+#### Supported Cloud Models
+
+Pieces Copilot supports leading cloud providers and models, including:
+
+- OpenAI: GPT-5, GPT-5 Mini, GPT-5 Nano, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1
+- Anthropic: Claude 4.1 Opus, Claude 4 Opus, Claude 4 Sonnet
+- Google: Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5-Flash-Lite
+
+[Browse the full Cloud Models catalog →](/products/large-language-models/cloud-models)
 
 ### Understanding Code
 

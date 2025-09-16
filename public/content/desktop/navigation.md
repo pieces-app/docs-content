@@ -34,7 +34,7 @@ Interactive, labeled buttons in this menu let you jump to different views that c
 
 ## Views from the Power Menu
 
-There are 7 views available within the **Power Menu** at any given point.
+There are several views available within the **Power Menu** at any given point.
 
 If you want more information, click the titles of the views below to read more specific documentation on them:
 
@@ -42,13 +42,7 @@ If you want more information, click the titles of the views below to read more s
 
 * [Settings](/products/desktop/navigation/settings)**:** The master settings window.
 
-* [Captured Context](/products/desktop/navigation/captured-context)**:** View websites, anchors, people, annotations, and tags captured by LTM.
-
 * [Updates & Upcoming](/products/desktop/navigation/updates)**:** View release notes for upcoming features and past releases.
-
-* [Snippet Discovery](/products/desktop/navigation/snippet-discovery)**:** Let Pieces scan a local code repository for useful materials.
-
-* [Workflow Activity](/products/desktop/navigation/workflow-activity)**:** See top materials, recent searches, and a timeline history of added or adjusted materials within the Pieces Drive.
 
 * [Global Search](/products/desktop/navigation/global-search)**:** Search your Pieces Drive for specific saved materials.
 

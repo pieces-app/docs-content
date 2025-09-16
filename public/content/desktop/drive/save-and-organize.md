@@ -70,24 +70,6 @@ Find materials in your Pieces Drive that you saved in other Pieces-enabled plugi
   </Step>
 </Steps>
 
-### Snippet Discovery
-
-Scan local code repositories for useful snippets that are relevant to your workflow.
-
-<Steps>
-  <Step title="Purpose">
-    Automate finding reusable code within a local folder or repository.
-  </Step>
-
-  <Step title="How It Works">
-    Select **Snippet Discovery** in the modal, then choose a folder or repository on your device.
-
-    Pieces scans these files for frequently repeated code patterns (snippets).
-
-    You can decide which discovered snippets to add to Pieces Drive.
-  </Step>
-</Steps>
-
 ### Import GitHub Gists
 
 Import GitHub Gists as individual saved materials in your Pieces Drive.
@@ -160,11 +142,11 @@ Use generative AI to generate new saved materials based on your exact requiremen
 
 ### Add Files
 
-Import files from your device to use as a base for snippet discovery, or as context for future workflows.
+Import files from your device to use as context for future workflows.
 
 <Steps>
   <Step title="Purpose">
-    Import entire local files into Pieces Drive for safekeeping and snippet discovery.
+    Import entire local files into Pieces Drive for safekeeping and future reuse.
   </Step>
 
   <Step title="How It Works:">
@@ -191,10 +173,6 @@ Find some additional information and quick tips for saving and organizing materi
 
   <Accordion title="Annotate for Clarity">
     If you’re sharing your workspace with other developers, annotations can be invaluable for explaining snippet usage or constraints.
-  </Accordion>
-
-  <Accordion title="Enable Snippet Discovery (Early)">
-    If you have large repositories, run Snippet Discovery to populate your drive with frequently used code.
   </Accordion>
 
   <Accordion title="Leverage Plugins">

@@ -186,7 +186,7 @@ If a chat is an exact match for your query, you’ll see an `EXACT MATCH` label 
 
 ## Deep Study
 
-Did you know that Pieces can provide highly accurate, sourced, timestamped deep research reports of your work history, personal projects, and progress on a given topic? 
+Did you know that Pieces can provide highly accurate, sourced, timestamped deep research reports of your work history, personal projects, and progress on a given topic?
 
 DeepStudy leverages your Long-Term Memory so Copilot can analyze work across people, applications, topics, and time windows.
 
@@ -195,9 +195,24 @@ DeepStudy leverages your Long-Term Memory so Copilot can analyze work across peo
 - **Targeted queries**: Answers questions that specify people, topics, projects, and date ranges
 - **Actionable insights**: Surfaces linked artifacts (issues, errors, files) and proposes next steps
 
-Using this feature, simply ask Pieces Copilot *"Can you perform a deep study on what I've done for the last few days?"* using your selected local or cloud LLM, and you'll receive an in-depth report that you can save, share, or export on your given topic.
+Using this feature, simply ask Pieces Copilot *"Can you perform a deep study on what I've done for the last few days?"* and you'll receive an in-depth report that you can save, share, or export on your given topic.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/deep_study_demo.webp" alt="" align="center" fullwidth="true" />
+### How to Activate Deep Study (Pro)
+
+- At the bottom of any Pieces Copilot chat, click `Activate DeepStudy` (labeled with a `PRO` badge). This toggles the Deep Study workflow for your next prompt.
+- Deep Study is a Pieces Pro feature.
+
+### What to Expect
+
+- Duration: A comprehensive Deep Study typically takes 10–20 minutes to complete, depending on the size of your recent context.
+- Progress UI: After you click `Activate DeepStudy` and submit a deep-study prompt, you’ll see progress indicators, including a `Thinking` state. Multiple agents work in unison; you can expand the chevrons to inspect each agent’s intermediate thoughts and steps as the report is constructed.
+
+### Model Used for Deep Study
+
+- Deep Study runs on a dedicated cloud LLM managed by Pieces (currently a Google model, subject to change).
+- Changing your selected model via the standard LLM Runtime modal does not affect Deep Study. Your per-chat model choice applies to normal responses, but Deep Study always uses its dedicated runtime.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Deep Study requires that you enable the Long-Term Memory Engine.
