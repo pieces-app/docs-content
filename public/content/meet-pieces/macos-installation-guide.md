@@ -18,7 +18,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 Click the **buttons below** to download Pieces for your macOS device.
 
 <CardGroup cols={2}>
-  <Card title="Download — Pieces Desktop App (ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_arm" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (ARM)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_arm" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 
@@ -75,7 +75,7 @@ If you cannot use the `.pkg` installer for any reason, you can install PiecesOS 
 Install the Pieces Desktop App **in order** by clicking the download card below for your **ARM** device. PiecesOS will be installed as a core dependency with Pieces Desktop.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/apple_silicon.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="macos_pfd_download_dmg_arm" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (DMG / ARM)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download" gaEvent="macos_pfd_download_dmg_arm" gaPlatform="macos">
     *Recommended Method*
 
     macOS 13.0 (Ventura) or higher required.
