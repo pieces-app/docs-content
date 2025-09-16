@@ -100,7 +100,7 @@ These shortcuts make it simple to jump between different views and features, kee
 | **Command**                          | **Windows/Linux** | **macOS**   |
 | ------------------------------------ | ----------------- | ----------- |
 | *Focus search*                       | `ctrl+f or /`     | `⌘+f or /`  |
-| *Workflow activity view*             | `shift+ctrl+a`    | `shift+⌘+a` |
+| *Open Power Menu*                    | `ctrl+shift+p`    | `⌘+shift+p` |
 | *Jump to first/last piece*           | `ctrl+→/ctrl+←`   | `⌘+→/⌘+←`   |
 | *Toggle between image and code view* | `t`               | `t`         |
 | *View next or previous piece*        | `→ or ←`          | `→ or ←`    |

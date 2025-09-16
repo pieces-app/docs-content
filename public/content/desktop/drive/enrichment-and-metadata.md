@@ -14,7 +14,7 @@ After adding your snippets, you’ll want to keep them organized. Pieces Drive s
 
 ## Editing your Saved Materials
 
-There are several types of saved metadata and captured context to make use of, edit, repurpose, and delete—if you want.
+There are several types of saved metadata to make use of, edit, repurpose, and delete—if you want.
 
 Below are the primary methods for managing your materials once they’re in the Pieces Drive:
 
@@ -44,7 +44,7 @@ In the detail view, locate the three-dot **Quick Menu** to reveal actions for cu
 
 Tags are a powerful organizational tool. Pieces automatically generates tags based on the snippet’s contents, but you can refine or add your own.
 
-From the **Quick Menu** or in the **Captured Context** panel, click `Manage Tags` to type new tags or remove existing ones.
+From the **Quick Menu** click `Manage Tags` to type new tags or remove existing ones.
 
 <Callout type="tip">
   Group snippets by frameworks (“React,” “Express”), projects (“Client A,” “Side Project”), or problem domains (“API calls,” “Data Structures”).

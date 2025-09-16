@@ -67,6 +67,6 @@ This new saved material is immediately re-enriched as if it was a brand new mate
 
 * **Tags & Annotations:** If relevant, Pieces may retain or revise tags based on the snippet’s updated content.
 
-* **Captured Context:** The snippet will record its transformation history, so you know it originated from another piece of code.
+* **History:** The snippet will record its transformation history, so you know it originated from another piece of code.
 
 You can further refine the newly created material by [renaming it, adding or removing tags, editing annotations, and more.](/products/desktop/drive/enrichment-and-metadata#renaming-and-reclassifying)

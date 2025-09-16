@@ -52,9 +52,9 @@ Inside the Pieces Drive view, you can:
 
 2. Save new materials or create materials from scratch using a range of mediums.
 
-3. View captured context alongside individual snippets and edit the metadata generated alongside them.
+3. View metadata alongside individual snippets and edit the metadata generated alongside them.
 
-4. Discover related snippets, duplicate and transform snippets, or start [Pieces Copilot Chats with them.](/products/desktop/copilot/integration#enriching-chats-with-ltm-2-context)
+4. Duplicate and transform snippets, or start [Pieces Copilot Chats with them.](/products/desktop/copilot/integration#enriching-chats-with-ltm-2-context)
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/pieces_drive.png" alt="" align="center" fullwidth="true" />
 
@@ -86,7 +86,7 @@ Pieces Drive automatically enriches every snippet with valuable context, making 
 
 This includes auto-generated titles, suggested queries, related websites, and tags that help you quickly see what a snippet does and how it might be used.
 
-You’ll learn how to access *Captured Context* for individual saved materials, how to manage sensitive information, view and edit automatically generated annotations and tags, and more.
+You’ll learn how to access saved metadata for individual materials, how to manage sensitive information, view and edit automatically generated annotations and tags, and more.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/viewing_metadata.gif" alt="" align="center" fullwidth="true" />
 

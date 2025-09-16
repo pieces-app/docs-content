@@ -59,7 +59,15 @@ Here’s how Ollama works alongside PiecesOS:
 
 PiecesOS primarily uses cloud-based AI models for Pieces Copilot.
 
-However, users who prefer on-device AI for speed, privacy, or offline access can install Ollama to enable local models. 
+However, users who prefer on-device AI for speed, privacy, or offline access can install Ollama to enable local models.
+
+Supported cloud providers and example models include:
+
+- OpenAI: GPT-5, GPT-5 Mini, GPT-5 Nano, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1
+- Anthropic: Claude 4.1 Opus, Claude 4 Opus, Claude 4 Sonnet
+- Google: Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5-Flash-Lite
+
+[See the full Cloud Models list →](/products/large-language-models/cloud-models)
 
 [You can read about the system requirements for Ollama here.](/products/core-dependencies/ollama/troubleshooting#using-local-models)
 

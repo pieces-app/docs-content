@@ -76,6 +76,10 @@ Each roll-up offers multiple interaction points:
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/workstream_activity/new_workstreamsep-8/deep_links_options.gif" alt="" align="center" fullwidth="true" />
 
+<Callout type="tip">
+  Need to find a focused summary back in the left-hand list? Click the small target icon in the preview header (hover text: <em>"Jump to Summary In List"</em>). It scrolls the sidebar to the exact position of the summary you’re currently viewing—even if you’ve scrolled the list back to the top.
+</Callout>
+
 ### Editing Workstream Activities
 
 You can edit and customize your workstream activities to better reflect your workflow context or add additional details that weren't automatically captured.

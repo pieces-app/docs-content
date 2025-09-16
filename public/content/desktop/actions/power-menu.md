@@ -120,14 +120,11 @@ These commands help you traverse the Pieces interface, letting you access differ
 
 | **Command**                      | **Description**                                                       |
 | -------------------------------- | --------------------------------------------------------------------- |
-| *Go to Workflow Activity*        | Open the workflow overview to see recent tasks or snippet changes.    |
 | *Go to Updates & Upcoming*       | Check upcoming features, announcements, or patch notes.               |
 | *Go to Global Search*            | Access the global search interface for snippets and materials.        |
 | *Go to Settings*                 | Open the main settings panel for Pieces.                              |
-| *Go to Snippet Discovery*        | Explore recommended or newly discovered snippets.                     |
 | *Go Back*                        | Return to the previous screen or menu.                                |
 | *Go to Pieces Copilot*           | Launch or navigate to the AI-assisted Copilot interface.              |
-| *Go to Captured Context*         | View context automatically captured during snippet creation or usage. |
 | *Go Home*                        | Navigate to the main dashboard or home screen.                        |
 | *Go to VS Code Plugin*           | Redirect to the Visual Studio Code integration.                       |
 | *Go to Visual Studio Plugin*     | Redirect to the Visual Studio integration.                            |

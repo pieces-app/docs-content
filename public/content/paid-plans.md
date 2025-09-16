@@ -21,19 +21,30 @@ Designed for teams and individuals who demand cutting-edge capabilities, Pieces 
 
 Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.
 
+<Callout type="info">
+  Deep Study reports are a Pieces Pro feature. Activate them in the Copilot chat via the `Activate DeepStudy` button to generate comprehensive, sourced summaries of your recent work.
+</Callout>
+
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/modal_popup.png" alt="" align="center" fullwidth="true" />
 
 ### Premium AI Models
 
-Experience faster, more accurate AI assistance with top-tier cloud LLMs from a range of providers.
+Experience faster, more accurate AI assistance with top-tier cloud LLMs from leading providers.
 
-| **Claude** | **Gemini**    |
-| ---------- | ------------- |
-| Sonnet 4   | 2.7 Flash     |
-| Opus 4     | 2.7 Flash Pro |
+| **OpenAI**   | **Anthropic**       | **Google**             |
+| ------------ | ------------------- | ---------------------- |
+| GPT-5        | Claude 4.1 Opus     | Gemini 2.5 Pro         |
+| GPT-5 Mini   | Claude 4 Opus       | Gemini 2.5 Flash       |
+| GPT-5 Nano   | Claude 4 Sonnet     | Gemini 2.5-Flash-Lite  |
+| o4 Mini      |                     |                        |
+| o3 Pro       |                     |                        |
+| o3 Mini      |                     |                        |
+| o3           |                     |                        |
+| o1           |                     |                        |
+| GPT-4.1      |                     |                        |
 
 <Callout type="tip">
-  Premium OpenAI models coming soon for Pieces Pro users.
+  Model availability may vary by plan and region. See the latest list on the <a target="_blank" href="/products/large-language-models/cloud-models">Cloud Models</a> page.
 </Callout>
 
 ## Upgrading to Pieces Pro

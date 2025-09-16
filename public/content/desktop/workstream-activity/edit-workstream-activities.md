@@ -47,6 +47,10 @@ Learn how to find the specific activity you want to update within the Workstream
   </Step>
 </Steps>
 
+<Callout type="tip">
+  Clicking the small target icon in the preview header, which reveals a 'Jump to Summary In List' tooltip when hovered, scrolls the sidebar to the exact position of the summary you’re currently viewing—even if you’ve scrolled the list back to the top.
+</Callout>
+
 ### Opening the Markdown Editor
 
 Switch from preview mode to the markdown editor for making changes and use the built-in text-editing toolbar.
@@ -97,9 +101,11 @@ Ensure your edits have been saved and are visible in the activity preview.
 
 Managing multiple workstream summaries at once gives you powerful control over your workflow. With mass selection, you can quickly merge related summaries, delete outdated ones, copy several summaries for sharing, or export a batch for archiving. 
 
-This is useful when you want to consolidate similar content, clean up your activity list, or move information out of Pieces in bulk—all in just a few clicks.
+This is useful when you want to consolidate similar content, clean up your activity list, or move information out of Pieces in bulk.
 
 You can perform these actions on a single summary or on multiple summaries at once: merge, copy, export, or delete. Use selection mode to work in bulk.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/merge_workstream_summaries.webp" alt="Merging multiple workstream summaries" align="center" fullwidth="true" />
 
 ### Selecting One or Many Summaries
 
