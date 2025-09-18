@@ -122,8 +122,8 @@ Let's walk through your first interaction with the TUI to get you comfortable wi
     Use arrow keys to navigate through your workstream activities in the left sidebar.
   </Step>
 
-  <Step title="Open Workflow Activity">
-    Press `return` (macOS) or `enter` (Windows/Linux) to open the selected workflow.
+  <Step title="Open Workstream Activity">
+    Press `return` (macOS) or `enter` (Windows/Linux) to open the selected workstream.
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/workstream_selected.png" alt="" align="center" fullwidth="true" />
 
   </Step>

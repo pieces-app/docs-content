@@ -53,7 +53,7 @@ These workflow summaries can be found within the [Workstream Activities](/produc
 
 ### Deep Study
 
-LTM-2.7 includes a powerful new Deep Study feature that provides comprehensive analysis of your recent workflow activities. You can access this advanced context analysis by asking Pieces Copilot questions like:
+LTM-2.7 includes a powerful new Deep Study feature that provides comprehensive analysis of your recent workstream activities. You can access this advanced context analysis by asking Pieces Copilot questions like:
 
 *"Can you perform a deep study on what I've done for the last few days?"*
 
