@@ -120,6 +120,7 @@ These commands help you traverse the Pieces interface, letting you access differ
 
 | **Command**                      | **Description**                                                       |
 | -------------------------------- | --------------------------------------------------------------------- |
+| *Go to Workstream Activity*        | Open the workstream activities overview to see recent tasks.    |
 | *Go to Updates & Upcoming*       | Check upcoming features, announcements, or patch notes.               |
 | *Go to Global Search*            | Access the global search interface for snippets and materials.        |
 | *Go to Settings*                 | Open the main settings panel for Pieces.                              |
