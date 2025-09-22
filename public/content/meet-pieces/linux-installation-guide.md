@@ -33,7 +33,7 @@ There are several requirements that your Linux device must meet to download and 
   To determine which display manager your Linux device is using, go to **Settings,** then **System,** and **System Details** to see if you are using an X11 or a non-LLVM compatible manager.
 </Callout>
 
-<Card title="Download — Linux" image="/assets/icons/platform_logos/linux_logo.png">
+<Card title="Download — Linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
   *Ubuntu 22.04+ required.*
 
   ***
