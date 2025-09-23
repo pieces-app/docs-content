@@ -272,7 +272,7 @@ We want to ensure that your experience with PiecesOS, the Pieces Desktop App, an
 
 If you need help getting everything up and running, feel free to book a call with our Founders & Engineering Leaders via <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">our support calendar.</a>
 
-## Open a GitHub Issue<a target="_blank" href="/extensions-plugins/sublime#get-support-or-share-feedback">**​**</a>
+## Open a GitHub Issue<a target="_blank" href="/products/support">**​**</a>
 
 You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
 

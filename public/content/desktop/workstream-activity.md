@@ -66,7 +66,7 @@ Each roll-up offers multiple interaction points:
 
 * `Export` (toolbar): Download the summary as `PDF`, `Markdown (.md)`, or `Plain Text (.txt)` directly from the toolbar.
 
-* `More (three-dots)`: Access quick actions — `Edit` (opens the editor; see [Editing Workstream Activities](/desktop/workstream-activity/edit-workstream-activities)), `Copy to Clipboard`, or `Delete`.
+* `More (three-dots)`: Access quick actions — `Edit` (opens the editor; see [Editing Workstream Activities](/products/desktop/workstream-activity/edit-workstream-activities)), `Copy to Clipboard`, or `Delete`.
 
 * **NEW: macOS Share Feature**: On macOS, use the native Apple share feature to share workstream summaries directly to chats, AirDrop, and other macOS applications.
 
