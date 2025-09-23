@@ -28,9 +28,9 @@ You can configure the Pieces VS Code Extension to connect to a remote machine ru
 
 ### Prerequisites
 
-* One machine running [Pieces OS](/installation-getting-started/what-am-i-installing)
+* One machine running [Pieces OS](/products/core-dependencies/pieces-os)
 
-* One machine running the [Pieces VS Code extension](/extensions-plugins/vscode)
+* One machine running the [Pieces VS Code extension](/products/extensions-plugins/visual-studio-code)
 
 Before you begin, note that this *only applies* if VS Code and PiecesOS are running on different machines.
 

@@ -18,9 +18,9 @@ The [Pieces Web Extension](/products/web-extension/get-started#supported-browser
 
 It offers developers powerful tools for **managing code snippets, debugging, and refactoring** within their familiar development environment.
 
-* [Pieces Copilot:](/products/extensions-plugins/web-extension/copilot) Start AI-generated conversations and add websites and files as context to find the solutions you need. This includes out-of-browser context with the optional Long-Term Memory Engine (LTM-2.7).
+* [Pieces Copilot:](/products/web-extension/copilot) Start AI-generated conversations and add websites and files as context to find the solutions you need. This includes out-of-browser context with the optional Long-Term Memory Engine (LTM-2.7).
 
-- [Pieces Drive:](/products/extensions-plugins/web-extension/drive) Easily save, locate, and share frequently used code snippets, making it easier to organize your work, quickly access important pieces for code or websites, and collaborate effectively with others.
+- [Pieces Drive:](/products/web-extension/drive) Easily save, locate, and share frequently used code snippets, making it easier to organize your work, quickly access important pieces for code or websites, and collaborate effectively with others.
 
 <CardGroup cols={2}>
   <Card title="Getting Started" image="/assets/icons/browser_extension.png">

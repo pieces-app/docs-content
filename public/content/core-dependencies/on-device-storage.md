@@ -68,7 +68,7 @@ There are several options to backup, restore or reset your database from within 
 | *Restore Database on a New Machine*                | Install Pieces OS. Replace the newly created `com.pieces.*` folder with your backup. Then, restart Pieces.                                                   |
 | *Start Fresh or Troubleshoot a Corrupted Database* | Quit Pieces. Rename the `production` folder to something else, then relaunch. Pieces will create a brand-new, empty database (keep the backup just in case). |
 
-## Need Help?<a target="_blank" href="/extensions-plugins/sublime#get-support-or-share-feedback">**​**</a>
+## Need Help?<a target="_blank" href="/products/support">**​**</a>
 
 You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
 

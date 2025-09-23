@@ -16,9 +16,9 @@ You can also find some specific troubleshooting steps for JCEF-related issues be
 
 <on-device-storage />
 
-[​](/extensions-plugins/jetbrains#troubleshooting)
+[​](/products/extensions-plugins/jetbrains#troubleshooting)
 
-## Pieces Copilot: Enabling JCEF Runtime and Downgrade[​](/extensions-plugins/jetbrains#pieces-copilot-enabling-jcef-runtime-and-downgrade)
+## Pieces Copilot: Enabling JCEF Runtime and Downgrade[​](/products/extensions-plugins/jetbrains#pieces-copilot-enabling-jcef-runtime-and-downgrade)
 
 The Pieces Copilot relies on the **JCEF (Java Chromium Embedded Framework)** runtime to function appropriately within JetBrains IDEs.
 
@@ -68,11 +68,11 @@ To downgrade Android Studio, follow these steps:
 
 3. **Reinstall Android Studio** using the Giraffe version and switch the runtime to JCEF-enabled using the instructions above.
 
-## Unable to Find the JetBrains Plugin in the JetBrains Marketplace[​](/extensions-plugins/jetbrains#i-cant-find-the-pieces-jetbrains-plugin-in-the-jetbrains-marketplace)
+## Unable to Find the JetBrains Plugin in the JetBrains Marketplace[​](/products/extensions-plugins/jetbrains#i-cant-find-the-pieces-jetbrains-plugin-in-the-jetbrains-marketplace)
 
 If you can't find the Pieces JetBrains Plugin in the JetBrains Marketplace, you can navigate directly to it using <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets">this link</a>.
 
-## Updating[​](/extensions-plugins/jetbrains#updating)
+## Updating[​](/products/extensions-plugins/jetbrains#updating)
 
 The Pieces for JetBrains Plugin will automatically update when a new version is available.
 

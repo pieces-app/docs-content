@@ -38,7 +38,7 @@ PiecesOS is **required** for all Pieces products, including:
 
 * Pieces Desktop App
 
-* Plugins & Extensions for [JetBrains](/products/extensions-plugins/jetbrains), [VS Code](/products/extensions-plugins/visual-studio-code), [Sublime Text](/products/extensions-plugins/sublime), [JupyterLab](/products/extensions-plugins/jupyterlab), [Azure Data Studio](/products/extensions-plugins/azure-data-studio), [Neovim](/products/extensions-plugins/neovim-plugin), [Raycast](/products/raycast), [Obsidian](/products/obsidian), [the Pieces CLI](/products/extensions-plugins/cli), and more.
+* Plugins & Extensions for [JetBrains](/products/extensions-plugins/jetbrains), [VS Code](/products/extensions-plugins/visual-studio-code), [Sublime Text](/products/extensions-plugins/sublime), [JupyterLab](/products/extensions-plugins/jupyterlab), [Neovim](/products/extensions-plugins/neovim-plugin), [Raycast](/products/raycast), [Obsidian](/products/obsidian), [the Pieces CLI](/products/cli), and more.
 
 ## Why Do We Need Them?
 
