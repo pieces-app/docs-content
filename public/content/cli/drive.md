@@ -36,7 +36,7 @@ By using the Pieces CLI, capture and manage snippets in Pieces Drive to streamli
 
 ### Save & Organize
 
-Easily [save a function, script, or piece of boilerplate](/products/cli/drive/save-materials) directly from the tool menu or with a keyboard shortcut. These snippets are stored in your personal Pieces Drive and include context, metadata, and tags for easy retrieval.
+Easily [save a function, script, or piece of boilerplate](/products/cli/drive/saving-materials) directly from the tool menu or with a keyboard shortcut. These snippets are stored in your personal Pieces Drive and include context, metadata, and tags for easy retrieval.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/saved_snippet_displayed.png" alt="" align="center" fullwidth="true" />
 

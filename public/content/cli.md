@@ -72,7 +72,7 @@ To save a snippet, copy a section of text or code to your clipboard, head over t
   Common snippet types include utility functions, API requests, and reusable code blocks.
 </Callout>
 
-When you save snippets to your Pieces Drive with Pieces CLI, they get AI-generated metadata like [tags, titles, authorship details, and descriptions](/products/cli/drive/save-snippets#whats-stored-when-you-save-a-snippet). This keeps everything organized and easy to access and use at any point.
+When you save snippets to your Pieces Drive with Pieces CLI, they get AI-generated metadata like [tags, titles, authorship details, and descriptions](/products/cli/drive/saving-materials#whats-stored-when-you-save-a-snippet). This keeps everything organized and easy to access and use at any point.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/CLI_MAIN/snippet_content.png" alt="" align="center" fullwidth="true" />
 

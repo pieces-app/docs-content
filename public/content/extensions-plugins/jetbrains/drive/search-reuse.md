@@ -122,7 +122,7 @@ While using the Pieces Drive sidebar, you can click on one of the snippets in th
 
 ***
 
-## Real Time Snippet Streaming[​](/extensions-plugins/jetbrains#real-time-snippet-streaming)
+## Real Time Snippet Streaming[​](/products/extensions-plugins/jetbrains#real-time-snippet-streaming)
 
 Each product in the Pieces Suite uses [PiecesOS](/products/core-dependencies/pieces-os) to get information about your snippets' context.
 

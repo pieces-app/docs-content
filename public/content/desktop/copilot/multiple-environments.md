@@ -28,14 +28,14 @@ Click the links below to view up-to-date or upcoming documentation for all Piece
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
 | [JetBrains](/products/extensions-plugins/jetbrains)                 | [Visual Studio](/products/extensions-plugins/visual-studio)           |
 | [Sublime Text](/products/extensions-plugins/sublime)                | [Visual Studio Code](/products/extensions-plugins/visual-studio-code) |
-| [Azure Data Studio](/products/extensions-plugins/azure-data-studio) | [Web Extension](/products/web-extension)                              |
+|  | [Web Extension](/products/web-extension)                              |
 | <a target="_blank" href="https://pieces.app/plugins/neovim">Neovim</a>                     | [JupyterLab](/products/extensions-plugins/jupyterlab)                 |
 
 ***
 
 Additionally, find documentation here for our other productivity & collaboration tools:
 
-* [Pieces CLI](/products/extensions-plugins/cli)
+* [Pieces CLI](/products/cli)
 
 * [RayCast](/products/raycast)
 

@@ -98,7 +98,7 @@ Read more about [what LLMs are available for use](/products/extensions-plugins/v
 
 The new Pieces MCP enables you to utilize the LTM (Long-Term Memory) within any of your preferred IDEs, including VS Code.
 
-The [Pieces MCP](http://google.com/link-to-the-mcp-docs-in-chat) works inline with GitHub Copilot within VS Code, allowing you to use your favorite Pieces actions directly within your VS Code or VS Code forks.
+The [Pieces MCP](/products/mcp/get-started) works inline with GitHub Copilot within VS Code, allowing you to use your favorite Pieces actions directly within your VS Code or VS Code forks.
 
 ## Pieces Copilot As a Daily Driver
 
