@@ -126,6 +126,48 @@ ou'll be prompted to paste your copied prompt—*“What was my secret message f
 
 Once submitted, Pieces celebrates your activation, showing you that LTM-2.7 is enabled and ready to go!
 
+## Localhost Network Access
+
+With the latest Chrome v142 release, users of the Pieces Web Extension may see a pop-up on pages where the extension is active. This pop-up requests permission to access the localhost network on the user's machine.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/get_started/lan_perm_popup_full.png" alt="Local Host Popup - Chrome" align="center" fullwidth="true" />
+
+### Why are you getting this pop-up?
+
+The appearance of this pop-up is a result of recent Chrome security policy updates affecting how browser extensions and services request access to localhost. Because the Pieces Web Extension interacts with the locally running Pieces OS server via the localhost network, Chrome requires explicit user permission on active pages, as detailed in [this blog](https://developer.chrome.com/blog/privacy-sandbox/localhost-permission/).
+
+### How to resolve this?
+
+When this pop-up appears, simply click **Allow** to grant the Pieces Web Extension access to the localhost network for that specific site.
+
+To permanently allow localhost access across all sites, follow these steps:
+
+<Steps>
+  <Step title="Go to the extension site settings within Chrome">
+    Navigate to:
+
+    ```
+    chrome://settings/content/siteDetails?site=chrome-extension://igbgibhbfonhmjlechmeefimncpekepm
+    ```
+  </Step>
+
+  <Step title="Find the Local Network Access permission">
+    Scroll down until you see the **Local Network Access** permission.
+
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/get_started/dropdown_lan_full.png" alt="" align="center" fullwidth="true" />
+  </Step>
+
+  <Step title="Set the permission to Allow">
+    Set the permission to **Allow** to enable the Pieces Web Extension to connect to the Pieces OS via the localhost network.
+
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/get_started/setting_lan_allow.png" alt="" align="center" fullwidth="true" />
+  </Step>
+</Steps>
+
+Following the steps above should remove the pop-up. By granting localhost network access, you're allowing the Pieces Web Extension to communicate with PiecesOS running on your local machine.
+
+This issue is currently being tracked on [our GitHub support page](https://github.com/pieces-app/support/issues/952). If you continue to encounter the pop-up after updating your permissions, please let us know through the same link.
+
 ## Uninstalling
 
 To uninstall the Pieces extension in Chrome based browsers, click the three dots in the top right to open your browser menu.

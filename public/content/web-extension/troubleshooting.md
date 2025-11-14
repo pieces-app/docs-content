@@ -10,7 +10,11 @@ metaDescription: "Troubleshoot common issues with the Pieces Web Extension: veri
 
 ## Having Trouble with the Pieces Web Extension?
 
-If you’re having issues with the Pieces Web Extension, try the following quick fixes and dependency checks.
+If you're having issues with the Pieces Web Extension, try the following quick fixes and dependency checks.
+
+<Callout type="info">
+Starting with Chrome version 142 and later, you may need to grant the localhost network access permission to the extension to ensure it functions properly and has access to all of its features. Learn how to grant these permissions [here](/products/web-extension/get-started#localhost-network-access).
+</Callout>
 
 <on-device-storage />
 
