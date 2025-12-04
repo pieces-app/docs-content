@@ -31,11 +31,11 @@ Read this [guide on determining your CPU architecture](/products/desktop/trouble
 For detailed instructions, refer to our comprehensive [macOS installation and quick-start guide.](/products/meet-pieces/macos-installation-guide)
 
 <CardGroup cols={2}>
-  <Card title="Apple Silicon / ARM" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=286281413.1724689222&_gl=1*soqacc*_gcl_au*MTgwNDcwNzY1OC4xNzQwNDA5MjEz*_ga*Mjg2MjgxNDEzLjE3MjQ2ODkyMjI.*_ga_BVYEFRWCYX*MTc0MDU3NzUzMS42My4xLjE3NDA1OTM3MjEuNTIuMC4w">
+  <Card title="Apple Silicon / ARM" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">
     *macOS 12.0 (Monterey) or higher*
   </Card>
 
-  <Card title="Intel" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE&ga_visitor=108380292.1740593596&_gl=1*1vo6txu*_gcl_au*MTE0NTE1OTUyLjE3NDA1OTM1OTY.*_ga*MTA4MzgwMjkyLjE3NDA1OTM1OTY.*_ga_BVYEFRWCYX*MTc0MDU5MzU5NS4xLjEuMTc0MDU5MzYxMS40NC4wLjA.">
+  <Card title="Intel" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE">
     *macOS 12.0 (Monterey) or higher*
   </Card>
 </CardGroup>

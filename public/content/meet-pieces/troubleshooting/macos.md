@@ -35,7 +35,7 @@ Make sure to select the correct Pieces `.pkg` for your macOS device—Apple Sili
 
 | **Apple Silicon (ARM)**                                                                                                                                                                                      | **Intel**                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Apple Silicon / ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Intel)</a> |
+| <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Apple Silicon / ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Intel)</a> |
 
 ### via DMG Files
 
