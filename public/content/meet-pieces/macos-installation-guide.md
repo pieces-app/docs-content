@@ -18,11 +18,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 Click the **buttons below** to download Pieces for your macOS device.
 
 <CardGroup cols={2}>
-  <Card title="Download — Pieces Desktop App (ARM)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_arm" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (ARM)" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_arm" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 
-  <Card title="Download — Pieces Desktop App (Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_intel" gaPlatform="macos">
+  <Card title="Download — Pieces Desktop App (Intel)" image="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/intel.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="macos_pfd_download_pkg_intel" gaPlatform="macos">
     *macOS 13.0 (Ventura) or higher required*
   </Card>
 </CardGroup>
