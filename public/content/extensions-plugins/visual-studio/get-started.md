@@ -56,7 +56,7 @@ Alternatively, you can download the .VSIX installer from the <a target="_blank" 
 
 PiecesOS is a background service that runs on your computer. It handles local data processing and manages custom machine learning (ML) models used in Pieces software.
 
-To use the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for Visual Studio Extension</a>, you must install <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> on your operating system.
+To use the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for Visual Studio Extension</a>, you must install <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> on your operating system.
 
 Click below to download PiecesOS for Windows.
 

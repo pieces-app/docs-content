@@ -10,7 +10,7 @@ metaDescription: Explore all available commands in the Pieces for VS Code Extens
 
 ## Pieces for VS Code Extension Commands
 
-Below is a table containing every command that is available to use in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a>.
+Below is a table containing every command that is available to use in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a>.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/vs_code_extension_assets/commands/settings_pieces.png" alt="" align="center" fullwidth="true" />
 

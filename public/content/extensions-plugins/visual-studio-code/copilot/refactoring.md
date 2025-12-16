@@ -10,7 +10,7 @@ metaDescription: Switch between LLMs in the Pieces for VS Code Extension, includ
 
 ## Refactoring Code
 
-Refactoring is vital for improving your code's structure and maintainability without changing its behavior. The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> simplifies this process with its `Modify Selection with Copilot` feature.
+Refactoring is vital for improving your code's structure and maintainability without changing its behavior. The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> simplifies this process with its `Modify Selection with Copilot` feature.
 
 ## Modifying your Code with Pieces Copilot
 

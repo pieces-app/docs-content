@@ -14,7 +14,7 @@ metaDescription: Chat with Pieces Copilot inside Visual Studio for AI-driven cod
 
 ## Pieces for Visual Studio Extension
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for Visual Studio Extension</a> is a powerful and versatile tool that integrates seamlessly with the Visual Studio IDE, enhancing productivity and enabling efficient code management.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for Visual Studio Extension</a> is a powerful and versatile tool that integrates seamlessly with the Visual Studio IDE, enhancing productivity and enabling efficient code management.
 
 It provides users with a streamlined solution for managing and interacting with saved code snippets through the Pieces Drive, while leveraging the AI-powered capabilities of the Pieces Copilot—all directly within their development environment.
 
@@ -123,7 +123,7 @@ Below is a brief overview of the various material management options available w
 
 ### **Referencing & Reusing**
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for Visual Studio Extension</a> provides robust search tools to help you quickly find and access your saved snippets.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for Visual Studio Extension</a> provides robust search tools to help you quickly find and access your saved snippets.
 
 You can [perform broad searches or narrow your results by using specific terms](/products/extensions-plugins/visual-studio/drive/search-reuse#via-search-feature) such as function names, keywords, or tags, making locating the exact code you need effortless.
 

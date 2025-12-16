@@ -10,7 +10,7 @@ metaDescription: Enhance VS Code with Pieces Copilot – generate code, add comm
 
 ## Overview
 
-Pieces Copilot within the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> integrates advanced AI capabilities into your coding workflow, like swappable LLMs for adding code comments, generating additional code, debugging, and more.
+Pieces Copilot within the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> integrates advanced AI capabilities into your coding workflow, like swappable LLMs for adding code comments, generating additional code, debugging, and more.
 
 The Pieces Copilot allows you to generate intelligent code comments, access AI Quick Actions, and ask variable-context coding questions without leaving Visual Studio Code.
 

@@ -16,7 +16,7 @@ If the Pieces for VS Code Extension isn’t working as expected, try the followi
 
 ### Download the Latest Version(s)
 
-First, confirm you’re using the latest version of the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> from the Visual Studio Marketplace and the latest version of <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a>.
+First, confirm you’re using the latest version of the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> from the Visual Studio Marketplace and the latest version of <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a>.
 
 The minimum functioning version permitted is currently **10.1.12.**
 

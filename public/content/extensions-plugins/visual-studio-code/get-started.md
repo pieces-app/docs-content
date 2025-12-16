@@ -28,7 +28,7 @@ Pieces requires all users to sign in before using any plugins or extensions. You
 
 ## Setting Up PiecesOS
 
-To use the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a>, you must install <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> on your operating system.
+To use the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a>, you must install <a target="_blank" href="/products/core-dependencies/pieces-os">PiecesOS</a> on your operating system.
 
 Follow the specific setup steps below:
 
@@ -41,7 +41,7 @@ Follow the specific setup steps below:
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/visual_studio_code/vsc_marketplace.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="info">
-  Alternatively, download the .VSIX installer from the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">VS Code Marketplace</a> and install it manually.
+  Alternatively, download the .VSIX installer from the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">VS Code Marketplace</a> and install it manually.
 </Callout>
 
 2. Restart VS Code after installing the extension to complete the setup.
@@ -50,7 +50,7 @@ Follow the specific setup steps below:
 
 ### Updating
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> will automatically update when a new version is available.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> will automatically update when a new version is available.
 
 <Callout type="tip">
   The `Auto Update` setting is enabled by default.

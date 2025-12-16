@@ -10,7 +10,7 @@ metaDescription: Use Pieces Copilot in VS Code for AI-driven debugging – quick
 
 ## Fixing Bugs with Pieces Copilot
 
-The Pieces Copilot in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> offers AI-driven debugging that **simplifies finding and fixing code issues in VS Code.** This feature not only speeds up troubleshooting but also provides an opportunity to learn from the fixes suggested by the AI.
+The Pieces Copilot in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> offers AI-driven debugging that **simplifies finding and fixing code issues in VS Code.** This feature not only speeds up troubleshooting but also provides an opportunity to learn from the fixes suggested by the AI.
 
 ## Using the Debugging Tool
 

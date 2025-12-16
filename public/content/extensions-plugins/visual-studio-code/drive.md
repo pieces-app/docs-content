@@ -10,7 +10,7 @@ metaDescription: Save, reuse, and manage code snippets effortlessly with the Pie
 
 ## Using Pieces Drive in VS Code
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> improves development productivity and time management by providing powerful features like [saving](/products/extensions-plugins/visual-studio-code/drive/save-snippets) and [reusing](/products/extensions-plugins/visual-studio-code/drive/search-reuse) saved materials, so your most important code is always available.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> improves development productivity and time management by providing powerful features like [saving](/products/extensions-plugins/visual-studio-code/drive/save-snippets) and [reusing](/products/extensions-plugins/visual-studio-code/drive/search-reuse) saved materials, so your most important code is always available.
 
 ## Use Cases & Examples
 
@@ -172,7 +172,7 @@ func watchFileChanges(path string) {
 
 ## **Additional Snippet Scenarios**
 
-Read up on some additional scenarios and use cases for Pieces Drive and see how the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> could benefit you and your workflow.
+Read up on some additional scenarios and use cases for Pieces Drive and see how the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> could benefit you and your workflow.
 
 ***
 
@@ -196,4 +196,4 @@ Read up on some additional scenarios and use cases for Pieces Drive and see how 
 
 ***
 
-<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Download the Pieces for VS Code Extension today!</a>
+<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Download the Pieces for VS Code Extension today!</a>
