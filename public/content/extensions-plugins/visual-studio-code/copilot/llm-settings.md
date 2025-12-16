@@ -10,7 +10,7 @@ metaDescription: Switch between LLMs in Pieces Copilot for VS Code. Choose the r
 
 ## Switching LLMs
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> currently supports [54 different LLMs](/products/large-language-models), including both cloud-hosted and local models.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> currently supports [54 different LLMs](/products/large-language-models), including both cloud-hosted and local models.
 
 ## How To Configure Your LLM Runtime
 

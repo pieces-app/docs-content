@@ -10,7 +10,7 @@ metaDescription: Share code snippets within Pieces for VS Code Extension. Genera
 
 ## How to Share a Saved Snippet
 
-The `Share` feature in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> makes sharing your saved code snippets with colleagues, teams, or the wider development community easy.
+The `Share` feature in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> makes sharing your saved code snippets with colleagues, teams, or the wider development community easy.
 
 There are 3 ways to share saved snippets—by using the tool menu, keyboard shortcuts, or by right-clicking on previously-saved snippets within the Pieces Drive.
 

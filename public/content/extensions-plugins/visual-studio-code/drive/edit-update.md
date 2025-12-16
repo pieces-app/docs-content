@@ -10,7 +10,7 @@ metaDescription: Easily edit and update your code snippets in the Pieces for VS 
 
 ## Editing
 
-Maintaining an up-to-date library of code snippets in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> is made easy through seamless editing.
+Maintaining an up-to-date library of code snippets in the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> is made easy through seamless editing.
 
 ## How to Edit Snippets
 

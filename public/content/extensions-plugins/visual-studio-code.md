@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Pieces for Visual Studio Code
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> is a versatile tool that integrates seamlessly with the VS Code editor and IDEs based on VS Code, such as Cursor.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> is a versatile tool that integrates seamlessly with the VS Code editor and IDEs based on VS Code, such as Cursor.
 
 It provides users with a streamlined way to manage and interact with saved code snippets and harness the capabilities of the AI-powered [Pieces Copilot](/products/extensions-plugins/visual-studio-code/copilot) directly within their coding environment.
 
@@ -116,7 +116,7 @@ You can find brief descriptions below of the different material management optio
 
 ### Referencing & Reusing
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> offers powerful search tools to quickly find and access your saved snippets.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> offers powerful search tools to quickly find and access your saved snippets.
 
 You can [perform broad searches or refine results using specific terms](/products/extensions-plugins/visual-studio-code/drive/search-reuse#via-search-feature) like function names, keywords, or tags, making it easy to locate the exact code you need.
 
@@ -130,4 +130,4 @@ This opens a search bar where you can input queries to find your snippets. Once 
 
 ## Download the Extension
 
-Ready to streamline your development? Download the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> and follow our [installation guide to start.](/products/extensions-plugins/visual-studio-code/get-started)
+Ready to streamline your development? Download the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> and follow our [installation guide to start.](/products/extensions-plugins/visual-studio-code/get-started)

@@ -10,7 +10,7 @@ metaDescription: Learn how to switch LLMs in Pieces for Sublime Text to customiz
 
 ## Switching LLMs
 
-The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode">Pieces for VS Code Extension</a> currently supports [a wide range of different LLMs](/products/large-language-models), including both cloud-hosted and local models.
+The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> currently supports [a wide range of different LLMs](/products/large-language-models), including both cloud-hosted and local models.
 
 ## How To Configure Your LLM Runtime
 
