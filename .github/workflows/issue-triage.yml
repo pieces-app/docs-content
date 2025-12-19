@@ -27,10 +27,10 @@ jobs:
             // Detect issues that only contain the template and no real content
             const looksEmpty =
               normalized.includes("### page url") &&
-              normalized.includes("### what’s wrong") &&
+              normalized.includes("### what's wrong") &&
               normalized.includes("### suggested fix") &&
               normalized.includes("### additional context") &&
-              !normalized.match(/what’s wrong[\s\S]*[a-z0-9]/) &&
+              !normalized.match(/what's wrong[\s\S]*[a-z0-9]/) &&
               !normalized.match(/suggested fix[\s\S]*[a-z0-9]/) &&
               !normalized.match(/additional context[\s\S]*[a-z0-9]/);
 
@@ -78,7 +78,7 @@ We've received your request and someone from the Pieces team will take a look. I
 
 In the meantime, please make sure the following sections are filled out to help us investigate efficiently:
 - Page URL
-- What’s wrong
+- What's wrong
 - Suggested fix (if applicable)
 - Additional context
 
