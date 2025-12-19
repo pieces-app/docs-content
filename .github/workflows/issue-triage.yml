@@ -1,0 +1,88 @@
+name: Issue Triage
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Triage issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || "";
+
+            // Normalize body for easier checks
+            const normalized = body
+              .toLowerCase()
+              .replace(/\s+/g, " ")
+              .trim();
+
+            // Detect issues that only contain the template or comments
+            const looksEmpty =
+              normalized.includes("### page url") &&
+              normalized.includes("### what’s wrong") &&
+              !normalized.match(/what’s wrong\?\s*(?!<!--)/) &&
+              !normalized.match(/suggested fix\s*(?!<!--)/) &&
+              !normalized.match(/additional context\s*(?!<!--)/);
+
+            if (looksEmpty) {
+              // Comment explaining closure
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `This issue doesn't follow our issue template and is missing critical information.
+
+**What's missing:**
+- Explanation of the problem
+- Page or source details
+- Additional context or supporting information
+
+This often happens when issues are created automatically or without being fully filled out.
+
+Please feel free to reopen this issue once the required details are added. Thank you. 🙏`
+              });
+
+              // Add labels
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ["invalid", "question"]
+              });
+
+              // Close the issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: "closed"
+              });
+
+              return;
+            }
+
+            // Otherwise, normal acknowledgment comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `Thanks for opening this issue.
+
+We've received your request and someone from the Pieces team will take a look. It may take up to **2 business days** to receive a response.
+
+In the meantime, please make sure the following sections are filled out to help us investigate efficiently:
+- **Page URL**
+- **What’s wrong**
+- **Suggested fix** (if applicable)
+- **Additional context**
+
+If you think of more details, feel free to edit the issue or add a comment. 🙏`
+            });
