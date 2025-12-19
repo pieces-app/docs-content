@@ -18,22 +18,24 @@ jobs:
             const issue = context.payload.issue;
             const body = issue.body || "";
 
-            // Normalize body for easier checks
+            // Normalize body for easier matching
             const normalized = body
               .toLowerCase()
               .replace(/\s+/g, " ")
               .trim();
 
-            // Detect issues that only contain the template or comments
+            // Detect issues that only contain the template and no real content
             const looksEmpty =
               normalized.includes("### page url") &&
               normalized.includes("### what’s wrong") &&
-              !normalized.match(/what’s wrong\?\s*(?!<!--)/) &&
-              !normalized.match(/suggested fix\s*(?!<!--)/) &&
-              !normalized.match(/additional context\s*(?!<!--)/);
+              normalized.includes("### suggested fix") &&
+              normalized.includes("### additional context") &&
+              !normalized.match(/what’s wrong[\s\S]*[a-z0-9]/) &&
+              !normalized.match(/suggested fix[\s\S]*[a-z0-9]/) &&
+              !normalized.match(/additional context[\s\S]*[a-z0-9]/);
 
             if (looksEmpty) {
-              // Comment explaining closure
+              // Explain why the issue is being closed
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -50,7 +52,7 @@ This often happens when issues are created automatically or without being fully 
 Please feel free to reopen this issue once the required details are added. Thank you. 🙏`
               });
 
-              // Add labels
+              // Apply labels
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -69,7 +71,7 @@ Please feel free to reopen this issue once the required details are added. Thank
               return;
             }
 
-            // Otherwise, normal acknowledgment comment
+            // Normal acknowledgment for valid issues
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -79,10 +81,10 @@ Please feel free to reopen this issue once the required details are added. Thank
 We've received your request and someone from the Pieces team will take a look. It may take up to **2 business days** to receive a response.
 
 In the meantime, please make sure the following sections are filled out to help us investigate efficiently:
-- **Page URL**
-- **What’s wrong**
-- **Suggested fix** (if applicable)
-- **Additional context**
+- Page URL
+- What’s wrong
+- Suggested fix (if applicable)
+- Additional context
 
 If you think of more details, feel free to edit the issue or add a comment. 🙏`
             });
