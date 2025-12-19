@@ -35,7 +35,6 @@ jobs:
               !normalized.match(/additional context[\s\S]*[a-z0-9]/);
 
             if (looksEmpty) {
-              // Explain why the issue is being closed
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -52,7 +51,6 @@ This often happens when issues are created automatically or without being fully 
 Please feel free to reopen this issue once the required details are added. Thank you. 🙏`
               });
 
-              // Apply labels
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -60,7 +58,6 @@ Please feel free to reopen this issue once the required details are added. Thank
                 labels: ["invalid", "question"]
               });
 
-              // Close the issue
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -71,7 +68,6 @@ Please feel free to reopen this issue once the required details are added. Thank
               return;
             }
 
-            // Normal acknowledgment for valid issues
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
