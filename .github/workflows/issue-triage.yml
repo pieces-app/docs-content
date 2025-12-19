@@ -15,20 +15,67 @@ jobs:
           script: |
             const issue = context.payload.issue;
             const body = issue.body || "";
+            
             // Normalize body for easier matching
             const normalized = body
               .toLowerCase()
               .replace(/\s+/g, " ")
               .trim();
-            // Detect issues that only contain the template and no real content
-            const looksEmpty =
-              normalized.includes("### page url") &&
-              normalized.includes("### what's wrong") &&
-              normalized.includes("### suggested fix") &&
-              normalized.includes("### additional context") &&
-              !normalized.match(/what's wrong[\s\S]*[a-z0-9]/) &&
-              !normalized.match(/suggested fix[\s\S]*[a-z0-9]/) &&
-              !normalized.match(/additional context[\s\S]*[a-z0-9]/);
+            
+            // Check if the issue contains the template headers
+            const hasTemplate =
+              normalized.includes("page url") &&
+              normalized.includes("what's wrong") &&
+              normalized.includes("suggested fix") &&
+              normalized.includes("additional context");
+            
+            if (!hasTemplate) {
+              // Issue doesn't use template at all - let it through
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `Thanks for opening this issue.
+
+            We've received your request and someone from the Pieces team will take a look. It may take up to **2 business days** to receive a response.
+
+            In the meantime, please make sure the following sections are filled out to help us investigate efficiently:
+            - Page URL
+            - What's wrong
+            - Suggested fix (if applicable)
+            - Additional context
+
+            If you think of more details, feel free to edit the issue or add a comment. 🙏`
+              });
+              return;
+            }
+            
+            // Extract content after each header
+            const extractAfterHeader = (text, header) => {
+              const regex = new RegExp(`${header}\\s*(.+?)(?=###|$)`, 's');
+              const match = text.match(regex);
+              return match ? match[1].trim() : '';
+            };
+            
+            const pageUrlContent = extractAfterHeader(body, '### Page URL');
+            const whatsWrongContent = extractAfterHeader(body, "### What's wrong\\?");
+            const suggestedFixContent = extractAfterHeader(body, '### Suggested fix \\(optional\\)');
+            const additionalContextContent = extractAfterHeader(body, '### Additional context');
+            
+            // Check if any section has meaningful content (more than just whitespace/newlines)
+            const hasContent = (content) => {
+              return content.replace(/\s+/g, '').length > 0;
+            };
+            
+            const hasPageUrl = hasContent(pageUrlContent);
+            const hasWhatsWrong = hasContent(whatsWrongContent);
+            const hasSuggestedFix = hasContent(suggestedFixContent);
+            const hasAdditionalContext = hasContent(additionalContextContent);
+            
+            // Consider it empty if none of the required sections have content
+            // (suggested fix is optional, so we don't require it)
+            const looksEmpty = !hasPageUrl && !hasWhatsWrong && !hasAdditionalContext;
+            
             if (looksEmpty) {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
@@ -59,6 +106,8 @@ jobs:
               });
               return;
             }
+            
+            // Issue has content - post welcome message
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
