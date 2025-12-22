@@ -16,21 +16,15 @@ jobs:
             const issue = context.payload.issue;
             const body = issue.body || "";
             
-            // Normalize body for easier matching
-            const normalized = body
-              .toLowerCase()
-              .replace(/\s+/g, " ")
-              .trim();
-            
             // Check if the issue contains the template headers
             const hasTemplate =
-              normalized.includes("page url") &&
-              normalized.includes("what's wrong") &&
-              normalized.includes("suggested fix") &&
-              normalized.includes("additional context");
+              body.includes("Page URL") &&
+              body.includes("What's wrong") &&
+              body.includes("Suggested fix") &&
+              body.includes("Additional context");
             
             if (!hasTemplate) {
-              // Issue doesn't use template at all - let it through
+              // Issue doesn't use template at all - let it through with reminder
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -50,53 +44,39 @@ jobs:
               return;
             }
             
-            // Extract content after each header
-            const extractAfterHeader = (text, header) => {
-              const regex = new RegExp(`${header}\\s*(.+?)(?=###|$)`, 's');
-              const match = text.match(regex);
-              return match ? match[1].trim() : '';
+            // Function to remove HTML comments
+            const removeComments = (text) => {
+              return text.replace(/<!--[\s\S]*?-->/g, '');
             };
             
-            const pageUrlContent = extractAfterHeader(body, '### Page URL');
-            const whatsWrongContent = extractAfterHeader(body, "### What's wrong\\?");
-            const suggestedFixContent = extractAfterHeader(body, '### Suggested fix \\(optional\\)');
-            const additionalContextContent = extractAfterHeader(body, '### Additional context');
+            // Extract content after "What's wrong?" header
+            const whatsWrongMatch = body.match(/What's wrong\?\s*\n+([\s\S]*?)(?=\n#{1,3}\s|$)/i);
+            const whatsWrongContent = whatsWrongMatch ? removeComments(whatsWrongMatch[1]).trim() : '';
             
-            // Check if any section has meaningful content (more than just whitespace/newlines)
-            const hasContent = (content) => {
-              return content.replace(/\s+/g, '').length > 0;
-            };
+            // Check if "What's wrong?" section is empty or only whitespace after removing comments
+            const whatsWrongIsEmpty = !whatsWrongContent || whatsWrongContent.replace(/\s+/g, '').length === 0;
             
-            const hasPageUrl = hasContent(pageUrlContent);
-            const hasWhatsWrong = hasContent(whatsWrongContent);
-            const hasSuggestedFix = hasContent(suggestedFixContent);
-            const hasAdditionalContext = hasContent(additionalContextContent);
-            
-            // Consider it empty if none of the required sections have content
-            // (suggested fix is optional, so we don't require it)
-            const looksEmpty = !hasPageUrl && !hasWhatsWrong && !hasAdditionalContext;
-            
-            if (looksEmpty) {
+            if (whatsWrongIsEmpty) {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `This issue doesn't follow our issue template and is missing critical information.
+                body: `This issue is missing the most critical information: **what's wrong**.
 
-            **What's missing:**
-            - Explanation of the problem
-            - Page or source details
-            - Additional context or supporting information
+            Please describe the problem you're experiencing so we can help you effectively.
 
-            This often happens when issues are created automatically or without being fully filled out.
+            This issue will be closed, but feel free to reopen it once you've added:
+            - A clear description of the problem
+            - What you expected to happen
+            - What actually happened
 
-            Please feel free to reopen this issue once the required details are added. Thank you. 🙏`
+            Thank you! 🙏`
               });
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                labels: ["invalid", "question"]
+                labels: ["invalid", "needs-info"]
               });
               await github.rest.issues.update({
                 owner: context.repo.owner,
@@ -107,7 +87,7 @@ jobs:
               return;
             }
             
-            // Issue has content - post welcome message
+            // Issue has content in "What's wrong?" - post welcome message
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
