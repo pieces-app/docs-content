@@ -16,15 +16,22 @@ jobs:
             const issue = context.payload.issue;
             const body = issue.body || "";
             
+            // Function to remove HTML comments
+            const removeComments = (text) => {
+              return text.replace(/<!--[\s\S]*?-->/g, '');
+            };
+            
+            // Remove all HTML comments from the body first
+            const cleanBody = removeComments(body);
+            
             // Check if the issue contains the template headers
             const hasTemplate =
-              body.includes("Page URL") &&
-              body.includes("What's wrong") &&
-              body.includes("Suggested fix") &&
-              body.includes("Additional context");
+              cleanBody.includes("Page URL") &&
+              cleanBody.includes("What's wrong") &&
+              cleanBody.includes("Suggested fix") &&
+              cleanBody.includes("Additional context");
             
             if (!hasTemplate) {
-              // Issue doesn't use template at all - let it through with reminder
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -44,18 +51,21 @@ jobs:
               return;
             }
             
-            // Function to remove HTML comments
-            const removeComments = (text) => {
-              return text.replace(/<!--[\s\S]*?-->/g, '');
-            };
+            // Extract content after "What's wrong?" - match until next ### header or end
+            const whatsWrongRegex = /###\s*What's wrong\?\s*\n([\s\S]*?)(?=###|$)/i;
+            const whatsWrongMatch = cleanBody.match(whatsWrongRegex);
+            const whatsWrongContent = whatsWrongMatch ? whatsWrongMatch[1].trim() : '';
             
-            // Extract content after "What's wrong?" header
-            const whatsWrongMatch = body.match(/What's wrong\?\s*\n+([\s\S]*?)(?=\n#{1,3}\s|$)/i);
-            const whatsWrongContent = whatsWrongMatch ? removeComments(whatsWrongMatch[1]).trim() : '';
+            // Also check Additional context as a secondary indicator
+            const additionalContextRegex = /###\s*Additional context\s*\n([\s\S]*?)$/i;
+            const additionalContextMatch = cleanBody.match(additionalContextRegex);
+            const additionalContextContent = additionalContextMatch ? additionalContextMatch[1].trim() : '';
             
-            // Check if "What's wrong?" section is empty or only whitespace after removing comments
-            const whatsWrongIsEmpty = !whatsWrongContent || whatsWrongContent.replace(/\s+/g, '').length === 0;
+            // Check if both critical sections are empty (ignoring whitespace)
+            const whatsWrongIsEmpty = whatsWrongContent.replace(/\s+/g, '').length === 0;
+            const additionalContextIsEmpty = additionalContextContent.replace(/\s+/g, '').length === 0;
             
+            // Close if "What's wrong?" is empty (this is the most critical field)
             if (whatsWrongIsEmpty) {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
