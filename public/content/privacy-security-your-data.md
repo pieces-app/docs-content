@@ -144,7 +144,7 @@ Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through o
 
 We maintain transparency about <a target="_blank" href="https://pieces.app/legal/privacy-policy">our privacy practices</a>.
 
-For the latest updates or specific concerns, please <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">contact our support team.</a>
+For the latest updates or specific concerns, please <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">contact our support team.</a>
 
 ***
 

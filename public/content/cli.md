@@ -26,7 +26,7 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
   </Card>
 
   <Card title="Support & Troubleshooting" image="/assets/icons/platform_logos/pieces_logo.png">
-    Explore [troubleshooting options](/products/cli/troubleshooting), navigate to our support page, or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
+    Explore [troubleshooting options](/products/cli/troubleshooting), navigate to our support page, or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>
 

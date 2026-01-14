@@ -255,7 +255,7 @@ Once you've confirmed both, try the upgrade process again.
 
 ### Live Support with Pieces
 
-We aim to make your experience with PiecesOS, the Pieces Desktop App, and our IDE or browser integrations as smooth as possible by engaging with users to improve our products, and you can book a call with our developers for assistance via <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">our support calendar.</a>
+We aim to make your experience with PiecesOS, the Pieces Desktop App, and our IDE or browser integrations as smooth as possible by engaging with users to improve our products, and you can book a call with our developers for assistance via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
 
 ### Open a GitHub Issue<a target="_blank" href="/products/support">**​**</a>
 

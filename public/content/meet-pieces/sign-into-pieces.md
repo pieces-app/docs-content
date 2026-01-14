@@ -270,7 +270,7 @@ Having trouble signing in or have questions? We're here to help:
 
 We want to ensure that your experience with PiecesOS, the Pieces Desktop App, and any of our IDE or browser integrations is as smooth and seamless as possible—and part of that is speaking with as many users as possible so we can continue iterating and improving on Pieces products.
 
-If you need help getting everything up and running, feel free to book a call with our Founders & Engineering Leaders via <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">our support calendar.</a>
+If you need help getting everything up and running, feel free to book a call with our Founders & Engineering Leaders via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
 
 ## Open a GitHub Issue<a target="_blank" href="/products/support">**​**</a>
 
