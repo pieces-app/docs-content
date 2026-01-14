@@ -30,7 +30,7 @@ It provides developers with powerful tools for **managing code snippets, debuggi
   </Card>
 
   <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
-    Explore [troubleshooting options](/products/extensions-plugins/jetbrains/troubleshooting), navigate to our [support page](/products/support), or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
+    Explore [troubleshooting options](/products/extensions-plugins/jetbrains/troubleshooting), navigate to our [support page](/products/support), or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>
 

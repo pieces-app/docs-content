@@ -28,7 +28,7 @@ It offers developers powerful tools for **managing code snippets, debugging, and
   </Card>
 
   <Card title="Support" image="/assets/icons/platform_logos/pieces_logo.png">
-    Explore [troubleshooting options](/products/extensions-plugins/web-extension/troubleshooting), navigate to our [support](/products/support) page, or directly [book a call with our engineers.](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr)
+    Explore [troubleshooting options](/products/extensions-plugins/web-extension/troubleshooting), navigate to our [support](/products/support) page, or directly [book a call with our engineers.](https://calendar.app.google/WVUDtUfNy5Vst3sH7)
   </Card>
 </CardGroup>
 

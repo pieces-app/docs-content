@@ -26,7 +26,7 @@ It gives users a simple way to manage and use saved code snippets through the Pi
   </Card>
 
   <Card title="Support & Troubleshooting" image="/assets/icons/platform_logos/pieces_logo.png">
-    Explore [troubleshooting options](/products/obsidian/troubleshooting), navigate to our <a target="_blank" href="/products/support">support page</a>, or <a target="_blank" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ22WJ2Htd2wRMJhueCNYc0xbFBFCAN-khijcuoXACd_Uux3wIhgZeGkzDRcqD3teamAI-CwCHpr">directly book a call</a> with our engineers.
+    Explore [troubleshooting options](/products/obsidian/troubleshooting), navigate to our <a target="_blank" href="/products/support">support page</a>, or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">directly book a call</a> with our engineers.
   </Card>
 </CardGroup>
 
