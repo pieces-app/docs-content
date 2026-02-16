@@ -3,9 +3,9 @@ title: Core Dependencies
 path: /core-dependencies
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn about PiecesOS and Ollama, the two core dependencies that power the Pieces Desktop App and the entire Pieces  suite of plugins and extensions.
+description: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of plugins and extensions, including built-in local models for on-device AI.
 metaTitle: Pieces Core Dependencies
-metaDescription: Learn about PiecesOS and Ollama, the two core dependencies that power the Pieces Desktop App and the entire Pieces suite of plugins and extensions.
+metaDescription: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of plugins and extensions, including built-in local models for on-device AI.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="" align="center" fullwidth="true" />
@@ -14,23 +14,31 @@ metaDescription: Learn about PiecesOS and Ollama, the two core dependencies that
 
 ## What Are Core Dependencies?
 
-Pieces products, including the [Pieces Desktop Application](/products/desktop), utilize *two core dependencies* to provide a local, secure, and efficient experience—[PiecesOS](/products/core-dependencies/pieces-os) and [Ollama](/products/core-dependencies/ollama)**.**
+Pieces products, including the [Pieces Desktop Application](/products/desktop), are built on [PiecesOS](/products/core-dependencies/pieces-os), which provides a local, secure, and efficient experience with built-in AI capabilities.
 
-## What Are They?
+## What Is PiecesOS?
 
-To run any Pieces software, you will need **\[1] PiecesOS,** the backbone of the Pieces Suite. This lightweight application runs in the background of your device.
+To run any Pieces software, you will need **PiecesOS,** the backbone of the Pieces Suite. This lightweight application runs in the background of your device.
 
 It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27), [Pieces Drive,](/products/desktop/drive) and the [Pieces Copilot.](/products/desktop/copilot)
 
-Running local LLMs requires downloading and installing the **\[2] Ollama** wrapper to power on-device AI capabilities, such as querying Pieces Copilot or the local inference required by the LTM-2.7 Engine.
+**PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp/get-started), and other integrations within your development environment.
 
-1. **PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp/get-started), and other integrations within your development environment.
+## Local Models
 
-2. **Ollama**: A specialized wrapper that enables local AI inference, allowing Pieces Copilot and other features to leverage machine learning models *directly on your device.*
+Pieces includes built-in local models that run directly through PiecesOS—no external dependencies required.
 
-## What Do They Do?
+These models power:
+- **Long-Term Memory (LTM-2.7)** workflow processing
+- **Code enrichment** and analysis
+- **Pieces Copilot** with on-device LLMs
+- **Secret detection** and security scanning
 
-These dependencies—**PiecesOS and Ollama**—are lightweight services and engines that handle everything from local model management and context storage to advanced local inference for AI-assisted workflows.
+All local processing happens entirely on your device through PiecesOS, ensuring privacy and offline functionality.
+
+## What Does PiecesOS Do?
+
+PiecesOS is a lightweight service that handles everything from local model management and context storage to advanced local inference for AI-assisted workflows.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/pfd_x_piecesos_and_ollama.png" alt="" align="center" fullwidth="true" />
 
@@ -40,13 +48,13 @@ PiecesOS is **required** for all Pieces products, including:
 
 * Plugins & Extensions for [JetBrains](/products/extensions-plugins/jetbrains), [VS Code](/products/extensions-plugins/visual-studio-code), [Sublime Text](/products/extensions-plugins/sublime), [JupyterLab](/products/extensions-plugins/jupyterlab), [Neovim](/products/extensions-plugins/neovim-plugin), [Raycast](/products/raycast), [Obsidian](/products/obsidian), [the Pieces CLI](/products/cli), and more.
 
-## Why Do We Need Them?
+## Why Do We Need PiecesOS?
 
-Pieces is designed with **speed and efficiency** in mind, so PiecesOS acts as the end-all between different Pieces products to minimize client-side overhead and additional code while also being secure and highly configurable.
+Pieces is designed with **speed and efficiency** in mind, so PiecesOS acts as the central hub between different Pieces products to minimize client-side overhead and additional code while also being secure and highly configurable.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/performance_privacy_flexibility.png" alt="" align="center" fullwidth="true" />
 
-Our focus on **security and flexibility** is why we’ve introduced the Ollama wrapper for local large language models—users can switch entirely to on-device generative AI, and by offloading most operations locally, the user experience benefits from:
+Our focus on **security and flexibility** is why we've built local models directly into PiecesOS—users can work entirely with on-device generative AI, and by offloading most operations locally, the user experience benefits from:
 
 * **Instant AI-powered assistance** without cloud latency.
 
@@ -56,15 +64,14 @@ Our focus on **security and flexibility** is why we’ve introduced the Ollama w
 
 * **Lightweight, background operation**, consuming minimal system resources.
 
-However, you don't have to install Ollama if you don't want to use it.
+Local models are built into PiecesOS automatically, providing on-device AI capabilities without any additional setup or installation.
 
-You can install it if you want to use local models, which is especially useful in enterprise settings where strong device security is important.
+This is especially useful in enterprise settings where strong device security is important.
 
 ***
 
-| **Dependency** | **Purpose**                                                           | **Required?**                                     |
-| -------------- | --------------------------------------------------------------------- | ------------------------------------------------- |
-| *PiecesOS*     | Manages memory, developer material storage, and plugin communication. | Yes — this is required for all Pieces products.   |
-| *Ollama*       | Enables locally powered generative AI queries and model execution.    | No — but this is required for local AI inference. |
+| **Dependency** | **Purpose**                                                           | **Required?**                                   |
+| -------------- | --------------------------------------------------------------------- | ----------------------------------------------- |
+| *PiecesOS*     | Manages memory, developer material storage, and plugin communication. Includes built-in local models for on-device AI. | Yes — this is required for all Pieces products. |
 
 ***

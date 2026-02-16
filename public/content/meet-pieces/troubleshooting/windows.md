@@ -67,13 +67,17 @@ Many issues can stem from out-of-date plugins, extensions, the desktop app, or P
 
 ### Updating PiecesOS
 
-To restart and check for updates to PiecesOS on Windows:
-
-1. Locate the Pieces Icon (`P`) in your taskbar
-
-2. Click the icon to view your update status
-
-3. If an update is available, follow the on-screen prompt to download and install it.
+<Steps>
+  <Step title="Locate the Pieces Icon">
+    Find the Pieces Icon (`P`) in your taskbar.
+  </Step>
+  <Step title="Check for Updates">
+    Click the icon to view your update status.
+  </Step>
+  <Step title="Install Update">
+    If an update is available, follow the on-screen prompt to download and install it.
+  </Step>
+</Steps>
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_pieces_os_for_updates.gif" alt="" align="center" fullwidth="true" />
 
@@ -81,19 +85,35 @@ For standalone .EXE installations, updates are checked daily or upon application
 
 ### Updating the Pieces Desktop App
 
-Updating the Pieces Desktop App on Windows (and macOS) can be done directly within the application:
+Updating the Pieces Desktop App on Windows can be done directly from the app:
 
-1. Open the Pieces Desktop App
+<Steps>
+  <Step title="Open the Pieces Desktop App">
+    Press the `Windows Icon` and search for Pieces Desktop, open it.
+  </Step>
 
-2. Click the **User Icon** to the right of the **Search Bar** at the top of the main app view
+  <Step title="Click Your Username">
+    Click your username in the top left of the app.
+  </Step>
 
-3. Select `Check for Desktop App Updates`
+  <Step title="Hover Over Update">
+    Hover over `Update` in the dropdown menu.
+  </Step>
 
-4. If prompted, click `Download Update` install available updates
+  <Step title="Select Component to Update">
+    Click on either `Desktop App` or `PiecesOS` from the Update submenu to check for and install updates for that component.
+  </Step>
+
+  <Step title="Restart App">
+    Restart the app when the update completes.
+
+    <Callout type="info">
+      You may also see an update notification automatically when you open either of the apps.
+    </Callout>
+  </Step>
+</Steps>
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_check_pfd_for_updates.gif" alt="" align="center" fullwidth="true" />
-
-You can also select `Check for PiecesOS Updates` from the same menu as an alternative to doing so from the PiecesOS system window in your taskbar.
 
 ## Issues Launching PiecesOS
 
@@ -139,13 +159,19 @@ Before installing, ensure your Windows system is fully updated:
 
 ## Accessing Pieces Logs
 
-On Windows machines, Pieces writes its log files under your local AppData folder. You’ll find two separate folders depending on which component you’re using:
+On Windows machines, Pieces writes its log files under your local AppData folder. You'll find two separate folders depending on which component you're using:
 
-* **Pieces OS (POS) logs**:\
-  `C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support`
+* **Pieces OS (POS) logs**:
 
-- **Pieces Desktop (PFD) logs**:\
-  `C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.pfd\production\Support`
+```plaintext
+C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support
+```
+
+- **Pieces Desktop (PFD) logs**:
+
+```plaintext
+C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.pfd\production\Support
+```
 
 <Callout type="alert">
   Replace \<USERNAME> with your Windows account name
@@ -189,4 +215,4 @@ A new window will open called **About Windows**, which will display your current
 
 ## Restart & Retry
 
-If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> for further assistance or book a call with our engineers.
+If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> for further assistance or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">book a call with our engineers</a>.

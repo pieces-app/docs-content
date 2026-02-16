@@ -38,7 +38,7 @@ There are several views available within the **Power Menu** at any given point.
 
 If you want more information, click the titles of the views below to read more specific documentation on them:
 
-* [Pieces Copilot](/products/desktop/copilot) **/** [Pieces Drive](/products/desktop/drive)**:** Depending on which view you’re currently in, one of these buttons will display—or both, if in another view.
+* [Conversational Chat](/products/desktop/conversational-chat) **/** [Pieces Drive](/products/desktop/drive)**:** Depending on which view you're currently in, one of these buttons will display—or both, if in another view.
 
 * [Settings](/products/desktop/navigation/settings)**:** The master settings window.
 
@@ -50,9 +50,9 @@ If you want more information, click the titles of the views below to read more s
 
 From within the Power Menu, there is a search bar titled *Find Action*.
 
-From this menu, you can either click or scroll through some of the available options, like `Manage General Copilot Settings`, `New General Copilot Conversation`, or `Refresh Selected Chat`.
+From this menu, you can either click or scroll through some of the available options, like `Manage General Conversational Search Settings`, `New General Conversational Search Conversation`, or `Refresh Selected Chat`.
 
-These actions, some of which are view-specific—like refreshing a selected Pieces Copilot Chat—are useful ways to navigate throughout the Pieces Desktop App while maintaining speed and efficiency in your workflow.
+These actions, some of which are view-specific—like refreshing a selected Conversational Search conversation—are useful ways to navigate throughout the Pieces Desktop App while maintaining speed and efficiency in your workflow.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="" align="center" fullwidth="true" />
 
@@ -62,16 +62,16 @@ Included at the very end of the scrollable **Find Actions** list are links to ot
 
 The **Settings** view is the only page from which the **Power Menu** cannot be accessed.
 
-This view contains several different buckets of configurable options, such as [Account & Cloud](/products/desktop/configuration/account-and-cloud), [Pieces Copilot & Machine Learning](/products/desktop/configuration/copilot-and-machine-learning), [Aesthetics & Layouts](/products/desktop/configuration/aesthetics-layout), and [other settings](/products/desktop/configuration/additional-settings).
+This view contains several different buckets of configurable options: [Account](/products/desktop/configuration/account), [Long-Term Memory](/products/desktop/configuration/long-term-memory), [Models](/products/desktop/configuration/models), [Model Context Protocol (MCP)](/products/desktop/configuration/mcp), [Appearance](/products/desktop/configuration/appearance), and [Troubleshooting](/products/desktop/configuration/troubleshooting).
 
 ## Focus Mode
 
 **Focus Mode** allows you to concentrate on your current task by minimizing distractions.
 
-You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of the Pieces Copilot or Pieces Drive view, near the sidebar.
+You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of the Conversational Search or Pieces Drive view, near the sidebar.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/toggling_sidebar_in_copilot.gif" alt="" align="center" fullwidth="true" />
 
-When activated, it closes the sidebar, giving you an expanded view of your current Pieces Copilot conversation.
+When activated, it closes the sidebar, giving you an expanded view of your current Conversational Search conversation.
 
 To exit **Focus Mode**, simply click the button again to restore the sidebar, or press `esc` (macOS/Windows/Linux).

@@ -10,7 +10,7 @@ metaDescription: Download the Pieces Desktop Application for AI-powered workflow
 
 ## Installing the Pieces Desktop App
 
-Installation for the Pieces Desktop App and its core dependencies—[PiecesOS](/products/core-dependencies/pieces-os) and [Ollama](/products/core-dependencies/ollama)—is straightforward.
+Installation for the Pieces Desktop App is straightforward. The Pieces Desktop App installs alongside its core dependency—[PiecesOS](/products/core-dependencies/pieces-os)—which is a separate component that runs in the background to power the app's features.
 
 Select the appropriate download file for your platform (macOS/Windows) or follow the CLI installation instructions for Linux.
 
@@ -77,3 +77,7 @@ For a step-by-step terminal process using the CLI, refer to our [comprehensive L
 
   5. Type `pieces-for-developers` to launch the application directly from your terminal.
 </Card>
+
+## Next Steps
+
+After installation, you'll go through an onboarding process that helps you get started with the Pieces Desktop App. The app will run in the background to generate your first LTM summary while you continue working, allowing you to return later and see insights into your workflow patterns. For details on what to expect, see our [Onboarding Guide](/products/desktop/onboarding).

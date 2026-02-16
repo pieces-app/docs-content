@@ -1,7 +1,7 @@
 ---
 title: Understanding Ollama
 path: /core-dependencies/ollama
-visibility: PUBLIC
+visibility: PRIVATE
 status: PUBLISHED
 description: Read about Ollama, an optional dependency which enables fully on-device generative AI capabilities between Pieces Drive and the Pieces Copilot.
 metaTitle: Ollama | Pieces Core Dependancies
@@ -63,9 +63,9 @@ However, users who prefer on-device AI for speed, privacy, or offline access can
 
 Supported cloud providers and example models include:
 
-- OpenAI: GPT-5, GPT-5 Mini, GPT-5 Nano, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1
-- Anthropic: Claude 4.1 Opus, Claude 4 Opus, Claude 4 Sonnet
-- Google: Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5-Flash-Lite
+- OpenAI: GPT-5.2 Pro, GPT-5.2, GPT-5.1, GPT-5 Thinking, GPT-5, GPT-5 Fast, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1, GPT-4o, GPT-4o Mini
+- Anthropic: Claude 4.5 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku, Claude 4 Sonnet, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3.5 Haiku
+- Google: Gemini 3 Pro Preview, Gemini 3 Flash Preview, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5 Flash Lite, Gemini 2 Flash Lite
 
 [See the full Cloud Models list →](/products/large-language-models/cloud-models)
 

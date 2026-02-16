@@ -80,11 +80,11 @@ These permissions are required for [PiecesOS](/products/core-dependencies/pieces
 
 PiecesOS will automatically open in your toolbar and pop up a *Notification preferences modal* in the upper right corner of your screen.
 
-### Enabling the LTM-2 Engine
+### Enabling the LTM-2.7 Engine
 
 To do this, open the PiecesOS Quick Menu and click `Enable Long-Term Memory Engine`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/misc_fragments_media/macos_piecesOS_toolbar.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="" align="center" fullwidth="true" />
 
 ## Install the Pieces for Raycast Extension
 

@@ -21,7 +21,7 @@ Find links to detailed sections on specific troubleshooting steps as well as inf
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, Ollama, the Pieces Desktop App, or PiecesOS itself.
+Many issues can stem from out-of-date plugins, extensions, the Pieces Desktop App, or PiecesOS itself.
 
 ### Updating PiecesOS
 
@@ -87,23 +87,23 @@ Platform-specific solutions are detailed on their respective OS pages:
 
 ## Using Local Models
 
-Running Pieces software with a local LLM through **Ollama** can offer greater privacy, faster responses (when properly configured), and independence from cloud dependencies.
+Running Pieces software with local LLMs can offer greater privacy, faster responses (when properly configured), and independence from cloud dependencies.
 
-By utilizing the Ollama framework, users can efficiently deploy and manage local language models tailored to their needs.
+Local models are served directly through PiecesOS, allowing users to efficiently deploy and manage on-device language models tailored to their needs.
 
 However, local models often require robust hardware configurations and careful optimization to run smoothly.
 
-Older devices, regardless of operating system, may struggle to meet the hardware demands of these LLMs, even with Ollama's streamlined setup.
+Older devices, regardless of operating system, may struggle to meet the hardware demands of these LLMs.
 
 ### Minimum System Requirements
 
 Local models demand more from your system than their cloud-hosted counterparts.
 
-To ensure a stable, responsive experience—make sure your device fits these general minimum device specifications, pulled from Ollama documentation and other experience-tested public sources.
+To ensure a stable, responsive experience—make sure your device fits these general minimum device specifications.
 
 <Steps>
   <Step title="Operating System">
-    Ollama is supported on macOS, Windows, and Linux devices—but you need to make sure your operating system is running at the correct minimum version to avoid compatibility issues.
+    Local models are supported on macOS, Windows, and Linux devices—but you need to make sure your operating system is running at the correct minimum version to avoid compatibility issues.
 
     * **macOS:** macOS 13.0 (Ventura) or higher
 
@@ -131,17 +131,17 @@ To ensure a stable, responsive experience—make sure your device fits these gen
   </Step>
 
   <Step title="GPU">
-    While you don’t need a GPU to run a local Ollama model as long as the LLM is CPU-tuned, a GPU can significantly speed up inference and the training of custom models.
+    While you don't need a GPU to run a local model as long as the LLM is CPU-tuned, a GPU can significantly speed up inference and the training of custom models.
 
     * **Recommended:** Any modern GPU with at least 6GB of VRAM
   </Step>
 
   <Step title="Disk Space">
-    Local large language models can occupy significant disk space, so ensure you have enough capacity for both the core installation and any custom models you plan to download or train.
+    Local large language models can occupy significant disk space, so ensure you have enough capacity for both the core installation and any custom models you plan to download.
 
-    * **Minimum:** At least 12GB of free storage space for installing Ollama and other base models.
+    * **Minimum:** At least 12GB of free storage space for base models.
 
-    * **Additional Storage:** Required for larger models that have additional dependencies
+    * **Additional Storage:** Required for larger models with additional dependencies
   </Step>
 </Steps>
 

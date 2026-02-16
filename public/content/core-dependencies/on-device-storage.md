@@ -48,11 +48,20 @@ You are free to **copy, compress,** or **relocate** the entire `production` fold
 
 When you open a GitHub issue or contact **Pieces Support**, attaching the most recent logs helps us diagnose problems in *minutes* instead of *hours*.
 
-| **Platform** | **Log Directory**                                                     |
-| ------------ | --------------------------------------------------------------------- |
-| *macOS*      | `/Users/<username>/Library/com.pieces.os/production/support/logs/`    |
-| *Windows*    | `C:/Users/<username>/Documents/com.pieces.os/production/support/logs` |
-| *Linux*      | `/home/<username>/.local/share/com.pieces.os/logs/`                   |
+**macOS:**
+```
+/Users/<username>/Library/com.pieces.os/production/support/logs/
+```
+
+**Windows:**
+```
+C:/Users/<username>/Documents/com.pieces.os/production/support/logs
+```
+
+**Linux:**
+```
+/home/<username>/.local/share/com.pieces.os/logs/
+```
 
 Logs rotate daily and are timestamped (`log-05062025`).
 

@@ -13,7 +13,7 @@ metaDescription: Learn how to use Pieces Copilot within the Pieces Desktop App, 
 Adding context to Pieces Copilot chats makes responses significantly more relevant and useful—especially when that context is pulled directly from your workflow.
 
 <Card title="Want to learn more about using LTM Context?" image="/assets/icons/platform_logos/pieces_logo.png">
-  Read this [LLM Prompting Guide](/products/quick-guides/ltm-prompting/tips) or learn how to use [Pieces Copilot with LTM Context](/products/quick-guides/copilot-with-context) via these helpful Quick Guides.
+  Check out the [LTM Prompting Guide](/products/quick-guides/ltm-prompting) or learn how to use [Pieces Copilot with LTM Context](/products/quick-guides/copilot-with-context) via these helpful Quick Guides.
 </Card>
 
 ## Enriching Chats with LTM-2.7 Context
@@ -28,12 +28,12 @@ By including Long-Term Memory data and project-specific resources, you can impro
 
 Pieces Copilot will draw on memories and workflow context captured by the LTM engine to prepare a relevant, context-rich answer for you.
 
-The Workstream Activity cards will display under the response with several cards linking to past *Workstream Activity Rollups* that contain the context used to create that response.
+The Timeline cards will display under the response with several cards linking to past timeline events that contain the context used to create that response.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/querying_pieces_copilot.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  Clicking one of the surfaced context cards will take you to that specific Rollup in the **Workstream Activities** view.
+  Clicking one of the surfaced context cards will take you to that specific Roll-Up in **Timeline**.
 </Callout>
 
 ### LTM Context Toggle

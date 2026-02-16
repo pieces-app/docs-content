@@ -3,7 +3,7 @@ title: Getting to Know Pieces
 path: /meet-pieces
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is an AI-enabled productivity tool designed to increase developer efficiency through personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application and integrations with many popular IDEs.
+description: Pieces is an AI-enabled productivity tool designed to increase developer efficiency through personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application, plugins for Sublime and Obsidian, and MCP integrations with Cursor, GitHub Copilot, and more.
 metaTitle: Pieces Documentation
 metaDescription: Get started on Windows, macOS, Linux. Troubleshoot, configure, and make the most of Pieces–documentation for new users, developers, and admins for all Pieces OS.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png"
@@ -21,15 +21,15 @@ Let’s answer a few basic questions:
 
 ### What is Pieces?
 
-At its core, Pieces is an all-in-one productivity tool that helps developers work *smarter*, not harder, by anchoring engineers to their workflow with the power of the **Long-Term Memory Engine, Pieces Drive,** and the **Pieces Copilot.**
+At its core, Pieces is an all-in-one productivity tool that helps you work *smarter*, not harder, by keeping track of your activities, important information, and conversations—all in one place, with features like Long-Term Memory, Timeline, and Conversational Chat.
 
 There are **\[3]** core pillars of Pieces functionality:
 
 1. [Long-Term Memory Engine (LTM-2.7)](/products/meet-pieces/fundamentals#ltm-27): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.7 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
 
-2. [Pieces Drive](/products/meet-pieces/fundamentals#pieces-drive): The ability to save, search, reference, reuse, and share small developer resources like code snippets, screenshots, links, and text notes.
+2. [Pieces Timeline](/products/desktop/timeline): Your central workspace for accessing workflow context captured by Long-Term Memory. Generate summaries, review past activities, browse captured memories, and interact with your workflow history—all in one place.
 
-3. [Pieces Copilot](/products/meet-pieces/fundamentals#pieces-copilot): An intelligent assistant that helps with generating code, answering questions, and adding code comments while utilizing a LLM of your choice—featuring an adjustable context window ranging from conversation-only to entire project repositories.
+3. [Conversational Search](/products/meet-pieces/fundamentals#pieces-copilot): An intelligent assistant that helps with answering questions, generating content, and providing guidance while utilizing a LLM of your choice—with an adjustable context window ranging from conversation-only to entire project folders.
 
 ### Who is Pieces For?
 
@@ -184,27 +184,27 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
   <Step title="Step 2: Choose Your Tools">
     Select the applications and integrations that fit your workflow:
     
-    <Card title="Desktop App" href="/desktop" image="/assets/icons/pieces_os_light_logo.png">
-      **Your central hub** — Manage memories, chat with Copilot, and access all Pieces features
+    <Card title="Desktop App" href="/products/desktop" image="/assets/icons/pieces_os_light_logo.png">
+      **Your central hub** — Manage memories, chat with Pieces Copilot, and access all Pieces features
     </Card>
     
     <CardGroup cols={2}>
-      <Card title="IDE Plugins & Extensions" image="/assets/icons/vs_code.png">
-        **Deep integration** — [VS Code](https://docs.pieces.app/products/extensions-plugins/visual-studio-code), [JetBrains](https://docs.pieces.app/products/extensions-plugins/jetbrains), [Sublime Text](https://docs.pieces.app/products/extensions-plugins/sublime), [Visual Studio](https://docs.pieces.app/products/extensions-plugins/visual-studio), and more
+      <Card title="Pieces CLI" href="/products/cli" image="/assets/icons/apple_terminal.png">
+        **Command-line power** — Access Pieces from your terminal
       </Card>
       
-      <Card title="Browser Extension" href="https://docs.pieces.app/products/web-extension" image="/assets/icons/google_chrome.png">
-        **Capture from the web** — Save content, research, and context from any website
+      <Card title="MCP Integrations" href="/products/mcp/get-started" image="/assets/icons/new_cursor.png">
+        **Connect AI tools** — [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and [Claude Desktop](/products/mcp/claude-desktop)
       </Card>
     </CardGroup>
     
     <CardGroup cols={2}>
-      <Card title="Pieces CLI" href="https://docs.pieces.app/products/cli" image="/assets/icons/apple_terminal.png">
-        **Command-line power** — Access Pieces from your terminal
+      <Card title="Plugins" href="/products/extensions-plugins" image="/assets/icons/sublime.png">
+        **IDE & editor integrations** — [Sublime Text](/products/extensions-plugins/sublime) and [Obsidian](/products/obsidian). Connect via [MCP](/products/mcp/get-started) for Cursor, GitHub Copilot, and more.
       </Card>
       
-      <Card title="Productivity Tools" image="/assets/icons/raycast.png">
-        **Enhanced workflow** — [Raycast](https://docs.pieces.app/products/raycast), [Obsidian](https://docs.pieces.app/products/obsidian), and more productivity integrations
+      <Card title="Browser Extension" href="/products/web-extension" image="/assets/icons/google_chrome.png">
+        **Capture from the web** — Save content, research, and context from any website
       </Card>
     </CardGroup>
   </Step>

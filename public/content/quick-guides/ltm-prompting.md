@@ -35,7 +35,3 @@ Click one of the cards below to jump to that guide.
     A selection of popular use cases for the new Pieces Workstream Activity view.
   </Card>
 </CardGroup>
-
-<Card title="General Long-Term Memory Prompting Tips" href="/products/quick-guides/ltm-prompting/tips">
-  Some general prompting tips to help you get the most out of Pieces.
-</Card>

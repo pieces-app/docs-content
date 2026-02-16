@@ -12,11 +12,23 @@ metaDescription: If the Pieces Desktop App isn't working as expected, start here
 
 Click one of the links below to get started troubleshooting on your device—or [browse the cross-platform troubleshooting documentation](/products/desktop/troubleshooting/cross-platform) for more general fixes.
 
-***
+<CardGroup cols={2}>
+  <Card title="Cross-Platform" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/desktop/troubleshooting/cross-platform" target="_self">
+    Troubleshooting guides for all platforms
+  </Card>
 
-| [Cross-Platform](/products/desktop/troubleshooting/cross-platform) | [macOS](/products/desktop/troubleshooting/macos) |
-| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [Windows](/products/desktop/troubleshooting/windows)               | [Linux](/products/desktop/troubleshooting/linux) |
+  <Card title="macOS" image="/assets/icons/platform_logos/macos_logo.png" href="/products/desktop/troubleshooting/macos" target="_self">
+    macOS-specific troubleshooting guides
+  </Card>
+
+  <Card title="Windows" image="/assets/icons/platform_logos/windows_logo.png" href="/products/desktop/troubleshooting/windows" target="_self">
+    Windows-specific troubleshooting guides
+  </Card>
+
+  <Card title="Linux" image="/assets/icons/platform_logos/ubuntu_logo.png" href="/products/desktop/troubleshooting/linux" target="_self">
+    Linux-specific troubleshooting guides
+  </Card>
+</CardGroup>
 
 ***
 

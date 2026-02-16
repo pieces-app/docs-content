@@ -31,14 +31,13 @@ There are several views and buttons you can click to expand or enter in the Piec
 | *Long-Term Memory Engine*         | Enable or disable LTM.                                                                                                                     |
 | *Long-Term Memory Access Control* | Enable or disable sources from which LTM captures contextual workflow data.                                                                |
 | *Settings*                        | Adjust settings like launch on login, enabled Pieces products, ML processing configurations, telemetry permissions, or optimize RAM usage. |
-| *Activity*                        | View recent LTM activity, like most recent Copilot Chats, people, and related websites.                                                    |
 | *Resources*                       | Find links to documentation and Pieces social accounts.                                                                     |
 
 ***
 
 *PiecesOS Quick Menu on macOS*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/pos_main_dropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/pos_quick-menu_overview.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="alert">
   The PiecesOS Quick Menu shares the same user interface (UI) as the Quick Menu on Windows.
@@ -58,7 +57,7 @@ At the top of the Quick Menu, you can **log in or log out** of your Pieces accou
 
 If you log out, PiecesOS will continue running locally with saved configurations but will not sync to the cloud.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/account_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_account_overview.png" alt="" align="center" fullwidth="true" />
 
 ### Checking for Updates
 
@@ -68,7 +67,7 @@ Directly under your account information, the Quick Menu displays your current Pi
 
 * If PiecesOS is up to date, the menu will display a green check mark and show the active version—i.e., 11.0.4.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/check_for_updates_posdropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
 
 ## LTM-2.7 Engine
 
@@ -82,11 +81,9 @@ You can toggle the LTM engine **On** or **Off** from the Quick Menu.
 
 To do so, click the `Pieces` logo in your taskbar or toolbar, and click `Enable Long-Term Memory Engine` to enable it.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/powering_on_ltme.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="" align="center" fullwidth="true" />
 
 Conversely, you can click the green `On` button to display a drop-down menu that lets you disable the LTM temporarily in minute increments or altogether.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_long_term_memory_context/disabling_long_term_memory.gif" alt="" align="center" fullwidth="true" />
 
 ### Long-Term Memory Access Control
 
@@ -98,15 +95,7 @@ This view displays a list of apps from which LTM is actively gathering data (e.g
 
 Clicking on an enabled source opens a window where you can choose to disable it.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/enabled_sources.png" alt="" align="center" fullwidth="true" />
-
-2. **Disabled Sources**
-
-Apps or sources that LTM is blocked from accessing appear here.
-
-Click the `Add` button to open a Finder (macOS) or Folder (Windows) window, where you can manually select additional applications to allow memory capture.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/disabled_sources.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/quick_menu_known_icons.png" alt="" align="center" fullwidth="true" />
 
 ## MCP Menu
 
@@ -114,7 +103,7 @@ Pieces is fully integrated with MCP functionality and now ships with an in-house
 
 You can find the SSE endpoint URL for creating your own Pieces MCP instances, as well as links to related documentation, in the `Model Context Protocol (MCP) Servers` menu.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/mcp_menu.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
 
 ## Settings
 
@@ -124,7 +113,7 @@ The `Settings` menu allows you to configure PiecesOS to best suit your workflow.
 
 Adjusts memory allocation for PiecesOS to reduce resource consumption while maintaining performance.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_ml_processing.png" alt="" align="center" fullwidth="true" />
 
 ### Launch on Login
 
@@ -149,18 +138,6 @@ This menu controls how PiecesOS manages AI model inference. You can use `Blended
 You can also make changes to the enrichment to level and type to individual applications for more fine-tuned control.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/ml_blending.png" alt="" align="center" fullwidth="true" />
-
-### Activity
-
-The `Activity` menu provides a log of recent actions and interactions within PiecesOS, such as:
-
-1. **Most Recent Copilot Chat:** Displays the last Copilot conversation timestamp.
-
-2. **Most Recent People:** Lists recognized people based on saved materials and shared code.
-
-   **Most Recent Websites:** Shows the last visited web pages that PiecesOS captured. Each website is listed with a clickable URL
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/activity_blur.jpg" alt="" align="center" fullwidth="true" />
 
 ### Resources
 

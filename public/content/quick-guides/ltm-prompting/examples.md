@@ -10,7 +10,7 @@ metaDescription: Explore use cases and example prompts for Pieces Long-Term Memo
 
 ## In This Guide
 
-There are many ways to use and prompt LTM to find specific information, recall past fixes and solutions, refresh your memory from conversations and shared resources, and much more.
+There are many ways to use and prompt the LTM to find specific information, recall past fixes and solutions, refresh your memory from conversations and shared resources, and much more.
 
 In this guide, you’ll find some carefully selected use cases and examples that our users commonly rely on—but this is just the beginning.
 

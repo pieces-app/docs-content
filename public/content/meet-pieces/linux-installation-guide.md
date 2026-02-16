@@ -19,7 +19,7 @@ Follow the steps below to download and install Pieces for Linux using the Comman
 
 ### Requirements
 
-There are several requirements that your Linux device must meet to download and install the Pieces Desktop App, PiecesOS, and *ensure LTM-2 compatibility.*
+There are several requirements that your Linux device must meet to download and install the Pieces Desktop App, PiecesOS, and *ensure LTM-2.7 compatibility.*
 
 * **Snap Support:** Ensure `snapd` is installed and enabled on your system. Most recent Ubuntu releases include `snapd` by default. If needed, install `snapd` by following the official `snapd` documentation.
 
@@ -65,7 +65,7 @@ Read the documentation below for tips and information to ensure you’re up and 
 
 The Pieces Desktop App automatically downloads and installs new updates.
 
-You can also manually check for updates to PiecesOS and the Pieces Desktop App by clicking the profile icon nested in the search bar at the top of your Pieces Desktop App view, then selecting `Check for Desktop App Updates` or `Check for PiecesOS Updates.`
+You can also manually check for updates to PiecesOS and the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/checking_pieces_desktop_app_for_pieces_os_updates.gif" alt="" align="center" fullwidth="true" />
 

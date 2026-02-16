@@ -38,10 +38,10 @@ How to change your LLM:
   </Step>
 </Steps>
 
-From here, you can browse and select from a variety of available models, such as the local and cloud-based models listed [in the tables on this page.](/products/core-dependencies/ollama/supported-models)
+From here, you can browse and select from a variety of available models, such as the local and cloud-based models listed [on the supported models page.](/products/core-dependencies/local-models/supported-models)
 
 <Callout type="tip">
-  Cloud-hosted models offer access to the latest AI capabilities, while on-device models ensure offline functionality, making Pieces Copilot adaptable to your specific workflow and environment.
+  Cloud-hosted models offer access to the latest AI capabilities, while local models run entirely on your device through PiecesOS, ensuring complete privacy and offline functionality.
 </Callout>
 
 Once you’ve chosen a new model, the switch is instant, allowing you to continue your work seamlessly with the selected model's capabilities—*no need to restart or refresh anything.*

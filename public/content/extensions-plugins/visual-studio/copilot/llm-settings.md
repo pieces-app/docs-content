@@ -38,9 +38,13 @@ How to change your LLM:
   </Step>
 </Steps>
 
-You can also use Ollama as your LLM runtime, which you can [read more about here](/products/core-dependencies/ollama).
+You can use local models for on-device AI inference, which you can [read more about here](/products/core-dependencies/local-models).
 
 From here, you can browse and select from various available models, such as the local and cloud-based models listed [in the table at the top of this page.](/products/extensions-plugins/visual-studio/configuration#supported-llms)
+
+<Callout type="tip">
+  Local models run entirely on your device through PiecesOS, ensuring complete privacy and offline functionality without any external dependencies.
+</Callout>
 
 Once you’ve chosen a new model, the switch is instant, allowing you to continue your work seamlessly with the selected model's capabilities—*no need to restart or refresh anything.*
 

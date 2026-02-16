@@ -123,4 +123,4 @@ If you encounter persistent installation issues, consult online forums or commun
 
 If you've updated components, checked the hardware, and adjusted configurations without success, try restarting your machine and then try again.
 
-If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">**GitHub issue**</a> for further assistance or book a call with our engineers.
+If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">**GitHub issue**</a> for further assistance or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">book a call with our engineers</a>.

@@ -3,129 +3,130 @@ title: Configuration
 path: /desktop/configuration
 visibility: PUBLIC
 status: PUBLISHED
-description: In the Pieces Desktop App, you can customize everything from visuals and aesthetics to Pieces Drive enrichment and Pieces Copilot models to fit your preferences and workflow.
+description: In the Pieces Desktop App, you can customize everything from visuals and aesthetics to Pieces Timeline enrichment and Conversational Search models to fit your preferences and workflow.
 metaTitle: Configuring Pieces Desktop Application
-metaDescription: Customize Pieces with settings for visuals, Pieces Drive enrichment, and Copilot models to optimize your workflow.
+metaDescription: Customize Pieces with settings for visuals, Pieces Timeline enrichment, and Conversational Search models to optimize your workflow.
 ---
 
 ## Accessing Settings
 
-There are several ways to open up **Settings** in the Pieces Desktop App, where you can adjust account and cloud behaviors, check your application versions, change views and layouts, and more.
-
-You can access **Settings** by clicking the profile picture icon in the upper-right and clicking `All Settings`.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Additional%20Settings/accessing_settings.gif" alt="" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  You may also click the *Settings Gear* icon in the bottom-left corner to open the **Settings** view.
-</Callout>
-
-You can also open up the **Power Menu** and search for *“settings”,* then click `Go to Settings` using the shortcuts in the table below:
-
-| **macOS**  | **Windows**  | **Linux**    |
-| ---------- | ------------ | ------------ |
-| `⌘+return` | `ctrl+enter` | `ctrl+enter` |
-
-### Account & Cloud
-
-The [Account & Cloud](/products/desktop/configuration/account-and-cloud) section manages your Pieces account, cloud services, and backups. This ensures a seamless connection across devices and helps keep your data secure.
+Open Settings from the home view to adjust account and cloud behaviors, check your application versions, change views and layouts, and more.
 
 <Steps>
-  <Step title="Cloud Management">
-    Connect and sync with Pieces Cloud for *real-time access* across multiple devices, or monitor your connection status and manage sync preferences.
+  <Step title="Click Profile Picture">
+    Click your profile picture in the top left of the home view.
+
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/settings_dropdown_open.png" alt="" align="center" fullwidth="true" />
   </Step>
 
-  <Step title="Database Backups">
-    Automatically backup your snippets, files, and projects or restore previous versions in case of data loss.
+  <Step title="Hover Over Settings">
+    Hover over `Settings` in the dropdown menu that appears.
+  </Step>
+
+  <Step title="Choose Navigation Method">
+    You can either select one of the quick options (Account, Long-Term Memory, Models, MCP, Appearance, Troubleshooting) to jump directly to that category, or select `All` at the top of the quick options to open the full Settings view with all categories. You can also select `Log Out` at the bottom of the menu to sign out of your account.
+  </Step>
+
+  <Step title="Understand the Layout">
+    The Settings view is organized into a two-column layout:
+
+    * **Left sidebar**: Lists all settings categories
+    * **Right content area**: Displays the settings for the selected category
+  </Step>
+
+  <Step title="Browse Categories">
+    Scroll through the sidebar to browse categories or scroll through the content area to see all options within a category.
+  </Step>
+
+  <Step title="Filter by Category">
+    Clicking a category in the left sidebar filters the right content area to show only that category's settings. Click `All` in the sidebar to see all settings at once.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Account%20%26%20Cloud/account_integrations.png" alt="" align="center" fullwidth="true" />
+## Account
 
-### Pieces Copilot & Machine Learning
+Manage your Pieces account, linked third-party services, profile information, personal cloud synchronization, subscriptions, and privacy settings. This ensures your account stays secure and synced with the services you use to authenticate.
 
-These [Pieces Copilot and Pieces Drive](/products/desktop/configuration/copilot-and-machine-learning) configuration sections let you adjust default behaviors related to metadata, LTM context, models, and local model processing.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="" align="center" fullwidth="true" />
 
-<Steps>
-  <Step title="Runtime">
-    Change models, reset the active runtime if facing issues, and use Long-Term Memory (LTM) context by default, and more.
-  </Step>
+> Account settings showing profile information, linked accounts, organizations, subscriptions, personal cloud, and privacy settings
 
-  <Step title="Enrichment">
-    Adjust the level of auto-enrichment performed locally when Pieces Drive generates and assigns metadata to saved materials.
-  </Step>
-</Steps>
+<FancyCard title="Learn More" href="/products/desktop/configuration/account" colored={false}>
+  Learn how to manage your account, view linked services, configure personal cloud synchronization, manage subscriptions, and configure privacy settings.
+</FancyCard>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/switch_llm_settings.png" alt="" align="center" fullwidth="true" />
+### Organizations & Teams
 
-### Model Content Protocol (MCP)
+Create and manage organizations and teams to collaborate with others, share resources, and maintain consistent settings across your team in Pieces.
 
-From this view, you can access the [*HTTP Server URL* for the Pieces MCP.](/products/desktop/configuration/mcp) This allows you to set up productivity tools and code editors that support this protocol with context directly from your local Pieces database.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/organization_and_teams_overview_settings.png" alt="" align="center" fullwidth="true" />
 
-You'll also find a *Book* icon that links you to documentation on getting started with the Pieces MCP and information about available integrations.
+> Account settings page showing Organizations & Teams section with organization list and management options
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Model%20Context%20Protocol%20(MCP)%20Servers/mcp_settings.png" alt="" align="center" fullwidth="true" />
+<FancyCard title="Learn More" href="/products/organizations-and-teams" colored={false}>
+  Learn how to create organizations, invite team members, manage team settings, and collaborate effectively with your team.
+</FancyCard>
 
-### Aesthetics & Layouts
+## Long-Term Memory
 
-The [Aesthetics & Layouts](/products/desktop/configuration/aesthetics-layout) section allows you to customize the visual appearance of the Pieces Desktop App, including dark and light modes, UI scaling, accent color, and more.
+Manage long-term memory preferences and data. Configure the Long-Term Memory Engine, control which applications Pieces can access, manage system permissions, optimize performance, and clear stored data.
 
-You can also set the default UI of different views and adjust default sorting and listing methods for displaying snippets & summaries
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="" align="center" fullwidth="true" />
 
-<Steps>
-  <Step title="Dark & Light Mode">
-    Adjust auto-switch settings based on system preferences.
-  </Step>
+> Long-Term Memory settings showing Memory Formation, Performance, and Stored Data sections
 
-  <Step title="Accent Colors">
-    Select from various colors to adjust Pieces Copilot chat accents and other visual elements.
-  </Step>
+<FancyCard title="Learn More" href="/products/desktop/configuration/long-term-memory" colored={false}>
+  Configure the Long-Term Memory Engine, manage app access control, system permissions, and optimize performance.
+</FancyCard>
 
-  <Step title="Font & UI Scaling">
-    Increase or decrease font size and UI size for different screen resolutions.
-  </Step>
+## Models
 
-  <Step title="Layout Settings">
-    Set the default view to Pieces Copilot or Pieces Drive, default search mode, and default gallery & list views.
-  </Step>
+Manage AI models and model preferences. Configure processing modes, set up local model runtime with Ollama, and control which AI models are available for use in Pieces.
 
-  <Step title="Default Search Mode">
-    Choose between *Blended, Full-Text, Neural Code Search,* or *Search-with-Material* as the default search mode for the **Search Bar.**
-  </Step>
-</Steps>
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="" align="center" fullwidth="true" />
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="" align="center" fullwidth="true" />
+> Models settings showing Model Capabilities, Local Model Runtime, and Model Management sections
 
-### Additional Settings
+<FancyCard title="Learn More" href="/products/desktop/configuration/models" colored={false}>
+  Configure processing modes, set up Ollama for local models, and enable or disable specific AI models.
+</FancyCard>
 
-The [Additional Settings](/products/desktop/configuration/additional-settings) section contains advanced configurations that allow you to fine-tune Pieces to suit your workflow.
+## Model Context Protocol (MCP)
 
-<Steps>
-  <Step title="Telemetry & Diagnostics">
-    Enable or disable anonymous usage data collection and manage crash reporting and performance monitoring.
-  </Step>
+Access server URLs and documentation for integrating Pieces Long-Term Memory with Cursor, GitHub Copilot, and other tools that support the Model Context Protocol. The MCP server enables connectivity between Large Language Models (LLMs) and your personal context stored by the Long-Term Memory Engine.
 
-  <Step title="Notifications">
-    Customize which in-app alerts you receive and the frequency of notification pop-up modals.
-  </Step>
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="" align="center" fullwidth="true" />
 
-  <Step title="Shortcuts">
-    View the default shortcuts for Pieces Desktop App functionality specific to your device’s operating system (OS).
-  </Step>
-</Steps>
+> MCP settings showing server URLs and documentation options
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Additional%20Settings/telemetry.png" alt="" align="center" fullwidth="true" />
+<FancyCard title="Learn More" href="/products/desktop/configuration/mcp" colored={false}>
+  Learn how to configure the Pieces MCP and integrate it with Cursor, GitHub Copilot, Goose, and other tools.
+</FancyCard>
 
-### Support & Information
+## Appearance
 
-Whenever you access the **Settings** view and click on a specific section—i.e., *Machine Learning, Telemetry,* or *Copilot Chats*—three smaller Support & Information sections are appended to the end of the focused settings view.
+Customize the visual appearance of the Pieces Desktop App, including theme mode, accent colors, font settings, and visual density. Adjust these settings to match your preferences and create a comfortable work environment.
 
-These always-available sections are:
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/appearance/appearance_settings_overview.png" alt="" align="center" fullwidth="true" />
 
-1. **Support**: Contains links to documentation, submitting feedback or reporting issues, and all keyboard shortcuts.
+> Appearance settings showing Theming, Fonts, and Spacing sections
 
-2. **Desktop App Information**: This section lists the Pieces Desktop App version, lets you check for updates, launches onboarding, and provides your platform information.
+<FancyCard title="Learn More" href="/products/desktop/configuration/appearance" colored={false}>
+  Switch between themes, customize accent colors, adjust font size and weight, and configure visual density.
+</FancyCard>
 
-3. **PiecesOS Information**: This page lists your PiecesOS version, lets you check for updates, and lists the active PiecesOS port.
+## Troubleshooting
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/settings.png" alt="" align="center" fullwidth="true" />
+Get help, troubleshoot issues, view app information, and contact support. Access support resources, documentation links, version details, and feedback channels to resolve issues and get the most out of Pieces.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/troubleshooting_settings_overview.png" alt="" align="center" fullwidth="true" />
+
+> Troubleshooting settings showing Online Resources, Get In Touch, PiecesOS Information, and Desktop App Information sections
+
+<FancyCard title="Learn More" href="/products/desktop/configuration/troubleshooting" colored={false}>
+  Access support resources, view version information, check for updates, and contact the Pieces team.
+</FancyCard>
+
+***
+
+If Configuration isn't what you're looking for, check out [Conversational Search](/products/desktop/conversational-search) to learn about asking questions about your workflow, or explore the [Timeline](/products/desktop/timeline) to see how Pieces [creates](/products/desktop/single-click-summaries) and [stores memories](/products/desktop/timeline/timeline-events).

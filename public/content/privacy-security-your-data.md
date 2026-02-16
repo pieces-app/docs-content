@@ -25,7 +25,7 @@ Designed for complete user control, all cloud features are opt-in only, telemetr
 
 🛡️ *We are SOC 2 Certified & Enterprise-Ready!*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_compliance.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_compliance.png" alt="" align="center" />
 
 ***
 
@@ -132,12 +132,12 @@ Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through o
 
 * **On-device Processing:** All LTM functions run locally by default, keeping your sensitive data within your own environment.
 
-* **Local LLM Options via** <a target="_blank" href="https://ollama.com/">Ollama</a>: You can integrate with local LLMs through the Pieces client’s usage of Ollama as a local model wrapper for added security.
+* **Built-in Local Models:** You can download and use local LLMs directly through PiecesOS for complete on-device AI processing with added security.
 
 * **Complete Control Over Data Sharing:** Decide when and if your data is shared, so you can be confident that you maintain full ownership and control over your information.
 
 <Callout type="alert">
-  For users concerned about privacy, we strongly recommend using a local LLM with Pieces products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
+  For users concerned about privacy, we strongly recommend using local models with Pieces products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
 </Callout>
 
 ## Privacy Policy Updates

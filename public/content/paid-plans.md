@@ -17,6 +17,76 @@ Pieces Pro elevates your development workflow by providing access to premium AI 
 
 Designed for teams and individuals who demand cutting-edge capabilities, Pieces Pro builds on the free core features of snippet management and AI assistance.
 
+## Pricing
+
+Choose the plan that works best for you:
+
+<CardGroup cols={3}>
+  <Card title="Free Plan" image="/assets/icons/pieces_logo.png">
+    <div style="margin-bottom: 1rem;">
+      <span style="display: inline-block; padding: 0.375rem 0.875rem; background-color: #e5e7eb; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: #374151; letter-spacing: 0.025em;">Free Forever</span>
+    </div>
+    
+    <div style="margin-bottom: 1.5rem;">
+      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">Free</div>
+      <div style="font-size: 0.875rem; color: #6b7280;">Perfect for getting started</div>
+    </div>
+    
+    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
+      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
+        <li style="margin-bottom: 0.5rem;">✓ Basic AI features</li>
+        <li style="margin-bottom: 0.5rem;">✓ Local storage only</li>
+        <li style="margin-bottom: 0.5rem;">✓ Community support</li>
+        <li>✓ Limited cloud backup</li>
+      </ul>
+    </div>
+  </Card>
+
+  <Card title="Pieces Pro Monthly" image="/assets/icons/pieces_logo.png">
+    <div style="margin-bottom: 1rem;">
+      <span style="display: inline-block; padding: 0.375rem 0.875rem; background-color: #dbeafe; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: #1e40af; letter-spacing: 0.025em;">Monthly Billing</span>
+    </div>
+    
+    <div style="margin-bottom: 1.5rem;">
+      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">$18.99</div>
+      <div style="font-size: 0.875rem; color: #6b7280;">per month</div>
+    </div>
+    
+    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
+      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
+        <li style="margin-bottom: 0.5rem;">✓ Full access to Pieces Pro features</li>
+        <li style="margin-bottom: 0.5rem;">✓ AI-powered code generation</li>
+        <li style="margin-bottom: 0.5rem;">✓ Advanced code search</li>
+        <li>✓ Priority support</li>
+      </ul>
+    </div>
+  </Card>
+
+  <Card title="Pieces Pro Yearly" image="/assets/icons/pieces_logo.png">
+    <div style="margin-bottom: 1rem;">
+      <span style="display: inline-block; padding: 0.375rem 0.875rem; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: white; letter-spacing: 0.025em; box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);">Most Popular</span>
+    </div>
+    
+    <div style="margin-bottom: 1.5rem;">
+      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">$169.99</div>
+      <div style="font-size: 0.875rem; color: #6b7280;">per year <span style="color: #10b981; font-weight: 600;">($14.17/month)</span></div>
+      <div style="font-size: 0.75rem; color: #10b981; font-weight: 600; margin-top: 0.25rem;">Save 20% compared to monthly</div>
+    </div>
+    
+    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
+      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
+        <li style="margin-bottom: 0.5rem;">✓ Full access to Pieces Pro features</li>
+        <li style="margin-bottom: 0.5rem;">✓ AI-powered code generation</li>
+        <li style="margin-bottom: 0.5rem;">✓ Advanced code search</li>
+        <li>✓ Priority support</li>
+      </ul>
+    </div>
+  </Card>
+</CardGroup>
+
 ## Benefits
 
 Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.
@@ -25,7 +95,7 @@ Unlimited access to *premium LLMs, infinite long-term memory,* and *priority sup
   Deep Study reports are a Pieces Pro feature. Activate them in the Copilot chat via the `Activate DeepStudy` button to generate comprehensive, sourced summaries of your recent work.
 </Callout>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/modal_popup.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/update-to-pieces-pro.png" alt="" align="center" fullwidth="true" />
 
 ### Premium AI Models
 
@@ -33,15 +103,20 @@ Experience faster, more accurate AI assistance with top-tier cloud LLMs from lea
 
 | **OpenAI**   | **Anthropic**       | **Google**             |
 | ------------ | ------------------- | ---------------------- |
-| GPT-5        | Claude 4.1 Opus     | Gemini 2.5 Pro         |
-| GPT-5 Mini   | Claude 4 Opus       | Gemini 2.5 Flash       |
-| GPT-5 Nano   | Claude 4 Sonnet     | Gemini 2.5-Flash-Lite  |
-| o4 Mini      |                     |                        |
+| GPT-5.2 Pro  | Claude 4.5 Opus    | Gemini 3 Pro Preview  |
+| GPT-5.2      | Claude 4.5 Sonnet  | Gemini 3 Flash Preview|
+| GPT-5.1      | Claude 4.5 Haiku   | Gemini 2.5 Pro        |
+| GPT-5 Thinking| Claude 4 Sonnet    | Gemini 2.5 Flash      |
+| GPT-5        | Claude 3.7 Sonnet  | Gemini 2.5 Flash Lite |
+| GPT-5 Fast   | Claude 3.5 Sonnet  | Gemini 2 Flash Lite   |
+| o4 Mini      | Claude 3.5 Haiku   |                        |
 | o3 Pro       |                     |                        |
 | o3 Mini      |                     |                        |
 | o3           |                     |                        |
 | o1           |                     |                        |
 | GPT-4.1      |                     |                        |
+| GPT-4o       |                     |                        |
+| GPT-4o Mini  |                     |                        |
 
 <Callout type="tip">
   Model availability may vary by plan and region. See the latest list on the <a target="_blank" href="/products/large-language-models/cloud-models">Cloud Models</a> page.
@@ -54,14 +129,8 @@ Use the built-in controls in Pieces Desktop or PiecesOS to activate your Pro sub
 ### In Pieces Desktop
 
 <Steps>
-  <Step title="Open Menu">
-    Click your `profile icon` in the top bar. This is located on the right side of the search bar within the Pieces Desktop app.
-  </Step>
-
-  <Step title="Select Unlock Pieces Pro">
-    Tap `Unlock Pieces Pro` to open the upgrade modal, which highlights your new perks.
-
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces_pro_full_width.png" alt="" align="center" fullwidth="true" />
+  <Step title="Click Unlock Pieces Pro">
+    Click the `Unlock Pieces Pro` button in the top bar, located to the right of your profile icon. This opens the upgrade modal, which highlights your new perks.
   </Step>
 
   <Step title="Begin Checkout">
@@ -149,17 +218,17 @@ Change or add your credit card directly in the *Payment methods* tab.
 
 <Steps>
   <Step title="Open Settings">
-    Click your profile icon and choose `All Settings`.
+    Click your `User Profile` in the top left, then hover over `Settings` in the dropdown menu.
   </Step>
 
-  <Step title="Scroll to Subscriptions">
-    At the bottom of the Settings menu, select `Subscription` to view your active plan.
+  <Step title="Navigate to Account">
+    Click `Account` from the settings hover menu to view your account settings, including your subscription.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/payments_full_width.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/subscription_account.png" alt="" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Open Payment Dashboard">
-    Click the `user icon` next to your subscription entry to launch the *Billing Dashboard.*
+    Click the `Manage` next to your subscription entry to launch the *Billing Dashboard.*
   </Step>
 
   <Step title="Add or Edit Card">
@@ -183,15 +252,15 @@ Click `Cancel subscription` in the *Subscription* tab. You’ll be redirected to
 
 <Steps>
   <Step title="Open Settings">
-    Click your profile icon and choose `All Settings`.
+    Click your `User Profile` in the top left, then hover over `Settings` in the dropdown menu.
   </Step>
 
-  <Step title="Access Subscription Section">
-    At the bottom of the Settings menu, select `Subscription` to view your active plan.
+  <Step title="Navigate to Account">
+    Click `Account` from the settings hover menu to view your account settings, including your subscription.
   </Step>
 
   <Step title="Open Payment Dashboard">
-    Click the `user icon` next to your subscription entry to launch the billing dashboard.
+    Click the `Manage` next to your subscription entry to launch the billing dashboard.
   </Step>
 
   <Step title="Launch Cancellation Dialog">
@@ -211,15 +280,15 @@ Browse your billing history in the *Payments* tab. Click `any entry` to view a c
 
 <Steps>
   <Step title="Open Settings">
-    Click your profile icon and choose `All Settings`.
+    Click your `User Profile` in the top left, then hover over `Settings` in the dropdown menu.
   </Step>
 
-  <Step title="Access Subscription Section">
-    At the bottom of the Settings menu, select `Subscription` to view your active plan.
+  <Step title="Navigate to Account">
+    Click `Account` from the settings hover menu to view your account settings, including your subscription.
   </Step>
 
   <Step title="Open Payment Dashboard">
-    Click the `user icon` next to your subscription entry to launch the billing dashboard.
+    Click the `Manage` next to your subscription entry to launch the billing dashboard.
   </Step>
 
   <Step title="Open Payments Tab">

@@ -17,7 +17,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Compatible AI Models with Pieces
 
-Pieces utilizes cloud-hosted LLMs from providers like OpenAI, Anthropic, and Google. All local models are served through [Ollama, a core dependency of PiecesOS](/products/core-dependencies/ollama) and the rest of the Pieces Suite.
+Pieces utilizes cloud-hosted LLMs from providers like OpenAI, Anthropic, and Google. Local models can optionally be downloaded and served through PiecesOS and the rest of the Pieces Suite.
 
 ## Cloud-Only LLMs | Providers
 
@@ -51,10 +51,12 @@ Read [through the list of local AI models available for use](/products/large-lan
 
 ***
 
-### Using Ollama with Pieces
+### Using Local Models with Pieces
 
-Ollama is *required* to utilize local generative AI features.
+Local models can be optionally downloaded to utilize on-device generative AI features.
 
-It’s a lightweight system that allows for a plug-and-play experience with local models, meaning that Pieces can update the number of compatible models we serve at lightning-speeds!
+PiecesOS provides a seamless experience with local models, allowing you to work entirely offline with complete privacy.
 
-If you want to read more about installing and using Ollama with Pieces, [click here for the Ollama section of our Core Dependencies documentation.](/products/core-dependencies/ollama)
+Local models are automatically available once PiecesOS is installed. Download and manage them through the Pieces Copilot LLM selector in any Pieces product.
+
+[Learn more about PiecesOS and local model architecture →](/products/core-dependencies/pieces-os#built-in-local-models)
