@@ -56,31 +56,48 @@ Many issues can stem from out-of-date plugins, extensions, the desktop app, or P
 
 ### Updating PiecesOS
 
-To restart and check for updates to PiecesOS on macOS:
+<Steps>
+  <Step title="Ensure PiecesOS is Running">
+    Make sure PiecesOS is running—look for the **Pieces Icon** in your system tray (menu bar).
+  </Step>
+  <Step title="Check for and Install Updates">
+    Check for available updates and install them if prompted.
+  </Step>
+</Steps>
 
-1. Restart PiecesOS
-
-2. Ensure PiecesOS is running (look for the **Pieces Icon** in your system tray)
-
-3. Check for and install available updates
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_piecesos_for_updates.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
 
 ### Updating the Pieces Desktop App
 
-Updating the **Pieces Desktop App** on Windows and macOS systems can be done by clicking the **user icon** to the right of the **search bar** at the top of the Pieces Desktop Window, then clicking `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
+Updating the Pieces Desktop App on macOS can be done directly from the app:
 
-To check the Pieces Desktop App for updates on macOS:
+<Steps>
+  <Step title="Open the Pieces Desktop App">
+    Launch the Pieces Desktop App.
+  </Step>
 
-1. Open the Pieces Desktop App
+  <Step title="Click Your Username">
+    Click your username in the top left of the app.
+  </Step>
 
-2. Click the **user icon** to the right of the **search bar** at the top of the main app view
+  <Step title="Hover Over Update">
+    Hover over `Update` in the dropdown menu.
+  </Step>
 
-3. Click `Check for Desktop App Updates`
+  <Step title="Select Component to Update">
+    Click on either `Desktop App` or `PiecesOS` from the Update submenu to check for and install updates for that component.
+  </Step>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_check_pfd_for_updates_profile_dropdown.gif" alt="" align="center" fullwidth="true" />
+  <Step title="Restart App">
+    Restart the app when the update completes.
 
-You can also click `Check for PiecesOS Updates` as an alternative to doing so in from the PiecesOS system window in your taskbar.
+    <Callout type="info">
+      You may also see an update notification automatically when you open either of the apps.
+    </Callout>
+  </Step>
+</Steps>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="" align="center" fullwidth="true" />
 
 ## Common Installation Issues
 
@@ -122,4 +139,4 @@ Once you’ve determined your CPU architecture, [download the correct installati
 
 If installation fails due to having an outdated version of macOS or installing the wrong package for your device’s architecture, restart your machine and try the installation again from scratch.
 
-If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> for further assistance, or book a call with our engineers.
+If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> for further assistance, or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">book a call with our engineers</a>.

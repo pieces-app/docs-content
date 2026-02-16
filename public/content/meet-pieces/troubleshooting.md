@@ -15,15 +15,29 @@ Click one of the links below to get started troubleshooting on your device—or 
 
 ***
 
-| [Cross-Platform](/products/meet-pieces/troubleshooting/cross-platform) | [macOS](/products/meet-pieces/troubleshooting/macos) |
-| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Windows](/products/meet-pieces/troubleshooting/windows)               | [Linux](/products/meet-pieces/troubleshooting/linux) |
+<CardGroup cols={2}>
+  <Card title="Cross-Platform" href="/products/meet-pieces/troubleshooting/cross-platform" image="/assets/icons/platform_logos/pieces_logo.png">
+    General troubleshooting for all platforms
+  </Card>
+
+  <Card title="macOS" href="/products/meet-pieces/troubleshooting/macos" image="/assets/icons/platform_logos/macos_logo.png">
+    macOS-specific troubleshooting
+  </Card>
+
+  <Card title="Windows" href="/products/meet-pieces/troubleshooting/windows" image="/assets/icons/platform_logos/windows_logo.png">
+    Windows-specific troubleshooting
+  </Card>
+
+  <Card title="Linux" href="/products/meet-pieces/troubleshooting/linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
+    Linux-specific troubleshooting
+  </Card>
+</CardGroup>
 
 ***
 
 ## Cross-Platform Issues
 
-This cross-platform troubleshooting documentation covers the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, best practices for running local LLMs with Ollama, model selection for your hardware, and solutions for crashes due to limited resources or GPU compatibility.
+This cross-platform troubleshooting documentation covers the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, best practices for running local LLMs, model selection for your hardware, and solutions for crashes due to limited resources or GPU compatibility.
 
 <Card title="macOS + Windows + Linux" image="/assets/icons/platform_logos/pieces_logo.png">
   Use the Cross-Platform page if you’re not sure where to begin or if your issue isn’t clearly related to your operating system.
@@ -39,7 +53,7 @@ This cross-platform troubleshooting documentation covers the Pieces Desktop App 
 
 ## macOS Issues
 
-This macOS guide helps troubleshoot installation and update issues for PiecesOS and the Pieces Desktop App on macOS, covering manual installs (`PKG`, `DMG`, Homebrew), checking macOS version and CPU type, and fixing compatibility or outdated software problems.
+This macOS guide helps troubleshoot installation and update issues for PiecesOS and the Pieces Desktop App on macOS, covering manual installs (`PKG`, `DMG`, `Homebrew`), checking macOS version and CPU type, and fixing compatibility or outdated software problems.
 
 <Card title="macOS" image="/assets/icons/platform_logos/macos_logo.png">
   The [macOS troubleshooting guide](/products/meet-pieces/troubleshooting/macos) provides information and guides on:

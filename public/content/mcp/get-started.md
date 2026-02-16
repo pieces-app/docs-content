@@ -147,6 +147,8 @@ Explore how quickly MCP enhances your productivity by delivering deep, personali
 
 To begin using Pieces MCP, [install and launch PiecesOS](/products/core-dependencies/pieces-os/manual-installation) on your system, then follow our integration documentation for setting up the MCP server within your favorite IDE:
 
+* [Pieces MCP + Claude Desktop & Claude Code Integration Guide](/products/mcp/claude-desktop)
+
 * [Pieces MCP + Cursor Integration Guide](/products/mcp/cursor)
 
 * [Pieces MCP + GitHub Copilot Integration Guide](/products/mcp/github-copilot)

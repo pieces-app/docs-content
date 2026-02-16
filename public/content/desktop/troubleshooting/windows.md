@@ -58,12 +58,16 @@ Updating the Pieces Desktop App on Windows (and macOS) can be done directly with
     Press the `Windows Icon` and search for Pieces Desktop, open it
   </Step>
 
-  <Step title="Locate the User Icon">
-    Click the `User Icon` to the right of the **Search Bar** at the top of the main app view
+  <Step title="Click Your User Profile">
+    Click your `User Profile` in the top left of the main app view
   </Step>
 
-  <Step title="Check for Updates">
-    Select `Check for Desktop App Updates`
+  <Step title="Hover Over Update">
+    Hover over `Update` in the dropdown menu that appears
+  </Step>
+
+  <Step title="Select Component to Update">
+    Click on either `Desktop App` or `PiecesOS` from the Update submenu to check for and install updates for that component
   </Step>
 
   <Step title="Update Pieces">
@@ -193,4 +197,4 @@ After trying any of the fixes above, it’s recommended that you restart your de
 
 This ensures all caches are clean and the computer is refreshed.
 
-If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">**GitHub issue**</a> for further assistance or book a call with our engineers.
+If the problem persists, please open a <a target="_blank" href="https://github.com/pieces-app/support/issues">**GitHub issue**</a> for further assistance or <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">book a call with our engineers</a>.

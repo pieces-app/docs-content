@@ -5,89 +5,141 @@ visibility: PUBLIC
 status: PUBLISHED
 description: The Onboarding feature guides you through the initial stages of the Pieces Desktop App and sets you on your way to using the Long-Term Memory (LTM-2.7) Engine.
 metaTitle: Pieces Onboarding
-metaDescription: Get up and running with the Pieces Desktop App with this guided LTM + Pieces Copilot onboarding experience.
+metaDescription: Get up and running with the Pieces Desktop App with this guided LTM + Conversational Search onboarding experience.
 ---
 
-## First Contact
+## Signing In
 
-When you first launch the Pieces Desktop App, you can choose from `Light` or `Dark` theme modes to suit your preferences; otherwise, this mode is tied to your system's preferences and will change periodically.
+When you first launch the Pieces Desktop App, you'll be prompted to sign in with GitHub, Google, or other authentication providers. Signing in enables you to store snippets and backups in *Pieces Cloud* and import code Gists. Pieces stores materials locally by default, and you can share them with anyone you'd like.
 
-You can also decide if you want to share *anonymous crash data* to help improve the product.
-
-A `Get Started` button takes you into the onboarding process.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_step_1.png" alt="" align="center" fullwidth="true" />
-
-### Cloud Accounts & Integrations
-
-This step includes an option to sign in with GitHub, Google, or another wide range of options to import code Gists and relevant data.
-
-Pieces stores materials locally and allows you to share them with anyone you'd like.
-
-Signing in enables you to store snippets and backups in **Pieces Cloud**.
+<Steps>
+  <Step title="Launch Pieces Desktop App">
+    Open the Pieces Desktop App on your device.
+  </Step>
+  <Step title="Choose Sign-In Method">
+    Select your preferred sign-in method from the available options (GitHub, Google, Microsoft, or other providers).
+  </Step>
+  <Step title="Complete Authentication">
+    Follow the prompts to complete authentication with your chosen provider.
+  </Step>
+</Steps>
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_login_page.png" alt="" align="center" fullwidth="true" />
 
-## The Magic Moment
+> Login page showing sign-in options including GitHub, Google, and other authentication providers
 
-Once past the **Cloud Accounts & Integrations** screen, you’ll be launched into the default Pieces Desktop App view, which is the **Workstream Activity View.**
+## Setting Up Preferences
 
-From here, you can follow the guided, interactive Long-Term Memory demo and experience your first *Magic Moment.*
+After signing in, configure your initial preferences including theme mode and data sharing settings. These settings help personalize your Pieces experience.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_2_gif.gif" alt="" align="center" fullwidth="true" />
+<Steps>
+  <Step title="Choose Theme Mode">
+    Select `Light` or `Dark` theme mode to suit your preferences, or choose `System` to match your operating system's theme. This mode can be changed later in [Appearance settings](/products/desktop/configuration/appearance).
+  </Step>
+  <Step title="Configure Data Sharing (Optional)">
+    Decide if you want to share *anonymous crash data* to help improve the product. This setting can be changed later in [Troubleshooting settings](/products/desktop/configuration/troubleshooting).
+  </Step>
+  <Step title="Start Onboarding">
+    Click `Get Started` to begin the onboarding process and start using Pieces.
+  </Step>
+</Steps>
 
-All you need to do is proceed with your workflow for 10-15 minutes while the [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) captures memories—then, we’ll show you how to use it with Pieces Copilot.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_step_1.png" alt="" align="center" fullwidth="true" />
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/step_3_completed_workflow_memories_gathering.png" alt="" align="center" fullwidth="true" />
+> Theme selection screen showing Light and Dark theme options, anonymous crash data toggle, and Get Started button
 
-### Workstream Activity Summaries
+## Initial Memory Formation
 
-Now that you've successfully captured over 30 memories using the LTM, it's time for you to check out your summary to see how future summaries will appear.
+After clicking `Get Started`, you'll land on the homepage of the Pieces Desktop App. The [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) Engine needs to capture workflow context before you can use all features. You'll see the *Single-Click Summaries* section with six cards that are locked until memory formation completes.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/gif_of_exploring_rollups.gif" alt="" align="center" fullwidth="true" />
+The homepage displays the *Single-Click Summaries* section with six cards: `What's Top of Mind`, `Standup Update`, `Time Breakdown`, `Custom Summary`, `Day Recap`, and `Discover`. These cards are grayed out and locked until memory formation completes. Below this section, you'll see the *Forming Initial Memories* progress tracker showing how many of the 30 required memories have been captured.
 
-These summaries include helpful links to collaboration-focused documents, reference conversations with coworkers you've participated in, provide links to articles you've mentioned, and show GitHub PRs or Jira tickets you've opened, among other things.
+### Understanding the LTM Welcome Screen
 
-From this point, you’ll see a highlighted button in the top-right corner of the Pieces Desktop App—this is where you can control LTM Engine Access Settings, which controls what applications Pieces is allowed to pull workflow context from.
+When you first arrive at the homepage, you'll see the LTM welcome screen that explains Long-Term Memory and its benefits. This screen introduces you to how Pieces captures and uses your workflow context to provide personalized AI assistance.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/scrolling_power_menu.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/ltm_welcome.png" alt="" align="center" fullwidth="true" />
 
-You’ll also be introduced to the **Power Menu**, from which you can access the Pieces Copilot view—that's where you’ll be headed next.
+> LTM welcome screen explaining Long-Term Memory and its benefits
 
-### Pieces Copilot + LTM
+### Creating Initial Memories
 
-[LTM](/products/core-dependencies/pieces-os#ltm-27) captures and stores workflow context in the [Pieces Drive](/products/core-dependencies/pieces-os#pieces-drive). You can visit a site like Stack Overflow, read code explanations, and later query Pieces Copilot about what you read.
+After clicking `Got It` on the LTM welcome screen, you'll see the initial memory formation interface. This screen shows the progress of memory formation and introduces you to Single-Click Summaries that will become available once memories are captured.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/switching_llms_and_chatting.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/creating_initial_memories.png" alt="" align="center" fullwidth="true" />
 
-By enabling LTM, you can use Pieces Copilot as an AI assistant trained on your personal workflow data, all of which is kept on-device.
+> Initial memory formation screen showing progress tracker, memory formation status, and Single-Click Summary cards
+
+### Capturing Workflow Context
+
+Continue with your normal workflow for 10-15 minutes while LTM-2.7 captures workflow context in the background. The progress tracker shows memory formation status, and you can see which memories have been formed as you work. Each memory appears with a checkmark and description once it's been captured.
+
+<Steps>
+  <Step title="Continue Your Workflow">
+    Use your computer normally—browse documentation, write code, use your IDE, or work in other applications. LTM-2.7 captures workflow context automatically in the background.
+  </Step>
+  <Step title="Monitor Progress">
+    Watch the progress tracker to see memory formation status. The tracker shows "X/30" memories captured, and you can see which memories have been formed as you work.
+  </Step>
+  <Step title="Wait for Completion">
+    Once 30 memories are captured, the *Single-Click Summaries* cards unlock and become clickable.
+  </Step>
+</Steps>
+
+### Unlocking Features
+
+Once you've successfully captured 30 memories, the six *Single-Click Summaries* cards become clickable and unlock. You can now generate summaries like `Standup Update`, `Day Recap`, `What's Top of Mind`, and more. Each card provides one-click access to contextual summaries based on your captured workflow data, giving you instant insights into your productivity and work patterns.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif" alt="" align="center" fullwidth="true" />
+
+> Pieces Timeline showing unlocked Single-Click Summary cards and workflow events
+
+## Using Conversational Search
+
+[LTM](/products/core-dependencies/pieces-os#ltm-27) captures and stores workflow context, enabling you to use [Conversational Search](/products/desktop/conversational-search) as an AI assistant trained on your personal workflow data. All data is kept on-device for privacy, so your conversations and memories stay secure.
+
+### Understanding Conversational Search
+
+Conversational Search lets you ask questions about your workflow and get context-aware responses powered by LTM-2.7. You can visit sites like Stack Overflow, read code explanations, and later query Conversational Search about what you read. By enabling LTM, you can use Conversational Search as an AI assistant trained on your personal workflow data, making it uniquely helpful for your specific work patterns and projects.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="" align="center" fullwidth="true" />
+
+> Conversational Search interface showing model selection dropdown and available models
 
 <Callout type="info">
-  Read more about [data collection and storage.](/products/core-dependencies/on-device-storage)
+  Read more about [data collection and storage](/products/core-dependencies/on-device-storage).
 </Callout>
 
-Clicking the flashing button that reads *“Generate a stand-up styled summary of my recent work”* to have Pieces Copilot use LTM data to generate an output of what you did during the memory-capturing process.
+### Accessing Conversational Search
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_generating_a_standup_styled_summary.gif" alt="" align="center" fullwidth="true" />
+Access Conversational Search directly from the homepage to ask questions about your workflow, with LTM providing context from your captured memories. You can switch between cloud-hosted and local models using the model selector in the chat interface.
 
-You can also see the flashing LLM selector in the bottom-left corner of the app. This is where you’ll swap between cloud-hosted LLMs and local, on-device models, powered by [Ollama](/products/core-dependencies/ollama)—an optional dependency.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="" align="center" fullwidth="true" />
 
-## Additional Documentation
+> Typing a prompt into Conversational Search input field
 
-That’s it! You’ve completed the Pieces onboarding and are ready to start exploring the app and discovering how to utilize the features and functionalities of the Pieces ecosystem in your daily workflow.
+***
 
-If you want to read more, click the links below to jump to additional documentation:
+## Next Steps
 
-* [Pieces Copilot](/products/desktop/copilot)—Ask technical questions, create code snippets, get help with debugging, and receive insights—all in a chat format you know.
+You've completed the Pieces onboarding and are ready to start exploring the app. Learn more about key features and how to utilize the Pieces ecosystem in your daily workflow.
 
-* [Pieces Drive](/products/desktop/drive)—Save, access, edit, and reuse materials saved to the Pieces Drive.
+### Explore Key Features
 
-* [Workstream Activity](/products/desktop/workstream-activity)—View incremental workflow summaries, saved context, and related information gathered by the Long-Term Memory (LTM-2.7) Engine.
+* **[Conversational Search](/products/desktop/conversational-search)** - Ask questions about your workflow, get context-aware responses, and receive insights powered by LTM-2.7—all in a chat format you know.
 
-* [Navigation](/products/desktop/navigation)—Learn the different views and layouts in the Pieces Desktop App and discover the Power Menu.
+* **[Pieces Timeline](/products/desktop/timeline)** - View incremental workflow summaries, saved context, and related information gathered by the Long-Term Memory (LTM-2.7) Engine.
 
-* [Configuration](/products/desktop/configuration)—Customize everything from visuals and aesthetics to Pieces Drive enrichment and Pieces Copilot models to fit your preferences and workflow.
+* **[Single-Click Summaries](/products/desktop/single-click-summaries)** - Generate instant, contextual summaries from your workflow using preset summary types.
 
-* [Actions & Keyboard Shortcuts](/products/desktop/actions)—Use Power Menu Actions and Keyboard Shortcuts to perform tasks or navigate from view to view quickly.
+### Customize Your Experience
 
-* [Troubleshooting](/products/desktop/troubleshooting)—If the Pieces Desktop App isn't working as expected, start here. This page explains our troubleshooting documentation and guides you to the solution that best addresses your issue.
+* **[Configuration](/products/desktop/configuration)** - Customize everything from visuals and aesthetics to Conversational Search models to fit your preferences and workflow.
+
+* **[Navigation](/products/desktop/navigation)** - Learn the different views and layouts in the Pieces Desktop App.
+
+* **[Actions & Keyboard Shortcuts](/products/desktop/actions)** - Use *Power Menu* Actions and Keyboard Shortcuts to perform tasks or navigate from view to view quickly.
+
+### Get Help
+
+* **[Troubleshooting](/products/desktop/troubleshooting)** - If the Pieces Desktop App isn't working as expected, start here. This page explains our troubleshooting documentation and guides you to the solution that best addresses your issue.

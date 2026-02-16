@@ -19,8 +19,6 @@ To complete this Quick Guide, you’ll need:
 
 To enable the LTM-2.7 Engine from PiecesOS, click the PiecesOS icon to open the [Quick Menu](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) on Windows or macOS, then select `Enable Long-Term Memory Engine`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_long_term_memory_context/disabling_long_term_memory.gif" alt="" align="center" fullwidth="true" />
-
 ## In This Quick Guide
 
 In this Quick Guide, you’ll use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27) to save context from a website, then prompt the Pieces Copilot to tell you what it saw.

@@ -96,7 +96,7 @@ Many issues can stem from out-of-date plugins, extensions, or PiecesOS itself.
 
     3. Check for and install available updates
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Troubleshooting/macOS/check_for_updates_pos.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">

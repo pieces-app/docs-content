@@ -1,11 +1,11 @@
 ---
-title: Pieces MCP + Claude Desktop Integration
+title: Pieces MCP + Claude Integration
 path: /mcp/claude-desktop
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Claude Desktop lets you use Pieces Long-Term Memories captured by PiecesOS without any third-party applications.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Desktop
-metaDescription: Discover 2 different ways to configure the Pieces MCP to provide your workflow context to Claude Desktop, allowing you to work smarter.
+description: The Pieces MCP integration with Claude Desktop and Claude Code lets you use Pieces Long-Term Memories captured by PiecesOS without any third-party applications.
+metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Desktop & Claude Code
+metaDescription: Discover different ways to configure the Pieces MCP to provide your workflow context to Claude Desktop and Claude Code, allowing you to work smarter.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/claude_desktop_mcp.jpg"
 ---
 
@@ -15,13 +15,13 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Claude Desktop is a powerful way to bring your workflow context directly into your AI assistant.
+Integrating the [Pieces MCP](/products/mcp/get-started) with Claude Desktop or Claude Code is a powerful way to bring your workflow context directly into your AI assistant.
 
-With this integration, you'll have an in-Desktop Claude agent that knows more about your projects than just the files you copy and paste.
+With this integration, you'll have a Claude agent that knows more about your projects than just the files you copy and paste.
 
-You can ask questions about prior work, like *“What decision did I make in last week’s sprint review?”* and instantly reuse that context without searching through notes or commits.
+You can ask questions about prior work, like *"What decision did I make in last week's sprint review?"* and instantly reuse that context without searching through notes or commits.
 
-Learn how to integrate the Pieces MCP into Claude Desktop by following the steps below.
+Learn how to integrate the Pieces MCP into Claude Desktop or Claude Code by following the steps below.
 
 <Callout type="info">
   It is imperative that you download and/or update <a target="_blank" href="https://claude.ai/download">Claude Desktop</a> to the latest, most up-to-date version to ensure compatibility with Pieces MCP.
@@ -29,7 +29,7 @@ Learn how to integrate the Pieces MCP into Claude Desktop by following the steps
 
 ## Prerequisites
 
-There are **two** main things you need to do to connect Pieces with Claude Desktop as an MCP: have an active instance of PiecesOS running and and turn on the Long-Term Memory engine.
+There are **two** main things you need to do to connect Pieces with Claude as an MCP:
 
 <Steps>
   <Step title="Install & Run PiecesOS">
@@ -49,9 +49,9 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 <pos-download-guide />
 
-## Setting Up Claude Desktop
+## Setting up Pieces MCP for Claude Desktop
 
-There are **two methods** to set up the Pieces MCP for Claude Desktop—either configuring the server connection manually with a direct command, or using the [Pieces CLI ](/products/cli)to configure it automatically.
+There are **two methods** to set up the Pieces MCP for Claude Desktop. Configure the server connection manually, or use the [Pieces CLI](/products/cli) to configure Claude Desktop automatically:
 
 ### Method 1: Manual Configuration (Direct MCP Command)
 
@@ -132,7 +132,7 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
   </Step>
 
   <Step title="Enable Pieces MCP">
-    Start prompting Claude—if properly set up, you will be prompted by Claude to enable and allow (on a case-by-case basis, or via `always allow`) Claude to pass prompts through the `ask_pieces_ltm` tool.
+    Start prompting Claude. If properly set up, you will be prompted by Claude to enable and allow (on a case-by-case basis, or via `always allow`) Claude to pass prompts through the `ask_pieces_ltm` tool.
 
     This utility communicates with PiecesOS and your local repository of saved workflow context.
   </Step>
@@ -177,15 +177,46 @@ This method uses the Pieces CLI to automatically set up and configure Pieces MCP
   </Step>
 </Steps>
 
-## Using Pieces MCP Server in Claude Desktop
+## Adding Pieces MCP to Claude Code
 
-Once integrated, you can utilize Pieces LTM directly in Claude Desktop.
+Configure Pieces MCP for Claude Code to make it available across all your projects.
 
-1. **Open a Claude Chat**\
-   Launch a new conversation in Claude Desktop.
+<Callout type="info">
+  This section is specifically for Claude Code and does not work with Claude Desktop. For Claude Desktop, use the methods above.
+</Callout>
+
+<Steps>
+  <Step title="Run the Claude Code MCP Add Command">
+    In your terminal, run the following command:
+
+    ```bash
+    claude mcp add --scope user PiecesMCP --transport sse http://localhost:39300/model_context_protocol/2025-03-26/mcp
+    ```
+
+    The `--scope user` flag makes Pieces MCP available globally across all your Claude Code projects, rather than just the current directory.
+  </Step>
+
+  <Step title="Start Using Pieces MCP in Claude Code">
+    Open any project in Claude Code and start asking context-aware questions about your workflow, such as:
+
+    * *"What patterns did I use in my last React component?"*
+    * *"Show me the authentication flow I implemented yesterday."*
+  </Step>
+</Steps>
+
+<Callout type="info">
+  Claude Code will use the `ask_pieces_ltm` tool to pull relevant context from PiecesOS.
+</Callout>
+
+## Using Pieces MCP Server
+
+Once integrated, you can utilize Pieces LTM directly in Claude Desktop or Claude Code.
+
+1. **Start a Conversation**\
+   Launch a new conversation in Claude Desktop or open a project in Claude Code.
 
 2. **Prompt with Context**\
-   Ask Claude questions about prior work or files (e.g., *“What was I doing for work yesterday?”*).
+   Ask Claude questions about prior work or files (e.g., *"What was I doing for work yesterday?"*).
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/what_have_i_been_working_on.png" alt="" align="center" fullwidth="true" />
 
@@ -196,7 +227,7 @@ Once integrated, you can utilize Pieces LTM directly in Claude Desktop.
 
 ## Troubleshooting
 
-If you’re experiencing issues integrating [Pieces MCP](/products/mcp/get-started) with Claude Desktop:
+If you're experiencing issues integrating [Pieces MCP](/products/mcp/get-started) with Claude Desktop or Claude Code:
 
 1. **Verify PiecesOS Status**\
    Ensure PiecesOS is actively running on your system.

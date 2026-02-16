@@ -20,12 +20,12 @@ There are dozens of local and cloud-hosted LLMs to choose from within the Pieces
 
 At the bottom left of the Pieces Copilot view is the active model. By default, this is a cloud LLM. 
 
-Clicking this button opens the **Manage Copilot LLM Runtime** modal, where you can enter your own API key or [select local and cloud-hosted LLMs served through Pieces.](/products/core-dependencies/ollama#using-local-vs-cloud-models)
+Clicking this button opens the **Manage Copilot LLM Runtime** modal, where you can enter your own API key or [select local and cloud-hosted LLMs served through Pieces.](/products/core-dependencies/pieces-os#local-vs-cloud-models)
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="" align="center" fullwidth="true" />
 
 <Callout type="info">
-  Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5/GPT-5 Mini, Anthropic Claude 4.1 Opus, Google Gemini 2.5 Pro). To unlock these premium models, see [Pieces Pro](/paid-plans).
+  Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5.2 Pro/GPT-5.2, Anthropic Claude 4.5 Opus, Google Gemini 3 Pro Preview). To unlock these premium models, see [Pieces Pro](/paid-plans).
 </Callout>
 
 ### Model Selection
@@ -34,11 +34,11 @@ Pieces Copilot allows you to choose between cloud-hosted models and on-device mo
 
 Each option has its benefits:
 
-* **Cloud LLMs:** Typically offer state-of-the-art performance and are ideal for complex queries requiring deep context. Supported providers and example models include OpenAI (GPT-5, GPT-5 Mini, GPT-5 Nano, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1), Anthropic (Claude 4.1 Opus, Claude 4 Opus, Claude 4 Sonnet), and Google (Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5-Flash-Lite). See the complete list on the [Cloud Models](/products/large-language-models/cloud-models) page.
+* **Cloud LLMs:** Typically offer state-of-the-art performance and are ideal for complex queries requiring deep context. Supported providers and example models include OpenAI (GPT-5.2 Pro, GPT-5.2, GPT-5.1, GPT-5 Thinking, GPT-5, GPT-5 Fast, o4 Mini, o3 Pro, o3 Mini, o3, o1, GPT-4.1, GPT-4o, GPT-4o Mini), Anthropic (Claude 4.5 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku, Claude 4 Sonnet, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3.5 Haiku), and Google (Gemini 3 Pro Preview, Gemini 3 Flash Preview, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5 Flash Lite, Gemini 2 Flash Lite). See the complete list on the [Cloud Models](/products/large-language-models/cloud-models) page.
 
 * **On-Device LLMs:** Ensure data privacy and are optimal for offline or air-gapped environments.
 
-You can read this documentation containing [all local and cloud-hosted LLMs served through the Pieces Desktop App.](/products/core-dependencies/ollama/supported-models)
+You can read this documentation containing [all local and cloud-hosted LLMs available through the Pieces Desktop App.](/products/core-dependencies/local-models/supported-models)
 
 ### Resetting Conversations
 
@@ -50,30 +50,16 @@ This is particularly useful when you want to switch focus or change the conversa
 
 ### Search Functionality
 
-A search bar labeled *Find Cloud LLMs* lets you browse available cloud-based models—then, switching to *On-Device,* you can search through the list of local models available with the [optional Ollama client.](/products/core-dependencies/ollama)
-
-***
-
-<Callout type="alert">
-  Ollama is required to use local LLMs with Pieces software.
-
-  If you don’t have it installed, that’s okay—you can download and install it through the Pieces Desktop App by clicking on the `Active Model` button and switching to the `On-Device` tab. You'll be prompted to install Ollama.
-</Callout>
-
-***
-
-To switch between the *Cloud* and *On-Device* model list, click the slider next to the search bar.
+To browse and download local models, click the **Active Model** button and hover over **All Models**, then scroll down to find available local models.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/scrolling_through_llms.gif" alt="" align="center" fullwidth="true" />
 
-Once toggled, the search bar updates to *Find On-Device LLMs* and shows a message either prompting you to install Ollama or indicating that Ollama is installed and ready, along with its version number.
+Local models are downloaded on-demand through PiecesOS. Simply select a local model to download and use it.
 
 ***
 
 <Callout type="tip">
-  While Ollama is required for on-device generative AI, you do not need it to use the Long-Term Memory Engine.
-
-  This distinction ensures that you can benefit from local Long-Term Memory features even if you choose not to use on-device LLMs.
+  Local models run entirely on your device through PiecesOS, providing complete privacy and offline functionality without any external dependencies.
 </Callout>
 
 ***

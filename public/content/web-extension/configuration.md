@@ -64,7 +64,7 @@ Choose which language model powers Copilot in the extension (e.g. GPT‑4o Mini,
 
 Select the UI accent color used throughout the extension (Blue, Green, Purple, etc.).
 
-### Use Long‑Term Memory (LTM-2) Context by Default
+### Use Long‑Term Memory (LTM-2.7) Context by Default
 
 When checked, your saved long‑term memory is automatically included in every Pieces Copilot query without needing to re-enable LTM chat-by-chat.
 
@@ -98,7 +98,7 @@ Choose how Pieces utilizes cloud and local LLMs to process context and power oth
 
 ### Long‑Term Memory Source Control
 
-When generating context, choose which sources (chats, visited pages, etc.) the LTM-2 engine draws context from.
+When generating context, choose which sources (chats, visited pages, etc.) the LTM-2.7 engine draws context from.
 
 This can also be done within the PiecesOS Quick Menu in the `Long-Term Memory Engine Access Control` panel.
 

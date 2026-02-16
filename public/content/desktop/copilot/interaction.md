@@ -20,7 +20,7 @@ This view is the central hub from which you can start new chats, access previous
 
 The central area of the Pieces Copilot view is a blank chat where you can start a new conversation.
 
-To get the most out of generative AI using local or cloud models through Pieces Copilot, make sure you [check out our LLM Prompting Guide.](/products/quick-guides/ltm-prompting/tips)
+To get the most out of generative AI using local or cloud models through Pieces Copilot, make sure you [check out our LTM Prompting Guide.](/products/quick-guides/ltm-prompting)
 
 At the top of the window, you will see a set of three *Suggested Prompts*—these dynamic prompts adapt based on your topics common to your workflow (if captured by LTM) and serve as a quick way to begin engaging with the AI.
 
@@ -120,14 +120,14 @@ There are several actions you can take under each generated Pieces Copilot respo
 
 4. `Regenerate`: Use the refresh icon to re-run the response with the same model or a different one. Clicking opens a modal where you can select the model you want to use for the regeneration.
 
-5. `Convert to Workstream Summary`: The paper icon converts this Copilot output into a Workstream Summary so you can capture and reference it later in your workflow.
+5. `Convert to LTM Roll-Up`: The paper icon converts this Copilot output into an LTM Roll-Up so you can capture and reference it later in your workflow.
 
-6. `More Options (⋮)`: The three-dot menu reveals additional actions. You can select `Use as Context` to add that specific response as context for follow-up prompts, or `Delete Message` to remove the message from the current conversation.
+6. `More Options (⋮)`: The three-dot menu (`⋮`) reveals additional actions. You can select `Use as Context` to add that specific response as context for follow-up prompts, or `Delete Message` to remove the message from the current conversation.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/copilot_message_available_options_toolbar.gif" alt="" align="center" fullwidth="true" />
 
 <Callout type="tip">
-  If LTM Context is enabled, you may also see related context cards surface beneath the response. These link to Workstream Activity Rollups that informed the generation.
+  If LTM Context is enabled, you may also see related context cards surface beneath the response. These link to timeline events that informed the generation.
 </Callout>
 
 ### New Chat & Pipelines

@@ -36,7 +36,7 @@ You can review each section individually or see everything at once by selecting 
 
 ### Account & Integrations
 
-In this section, you can integrate external services with Pieces and adjust your user details, beginning with [Account Information.](/products/desktop/configuration/account-and-cloud#account-management)
+In this section, you can integrate external services with Pieces and adjust your user details, beginning with [Account Information.](/products/desktop/configuration/account)
 
 This area displays your email address and any linked accounts.
 
@@ -46,13 +46,13 @@ If you’re interested in testing upcoming features, the **Early Access Program*
 
 ### Personal Cloud
 
-The [Personal Cloud](/products/desktop/configuration/account-and-cloud#disconnecting-personal-cloud) tab controls how your snippets and materials sync across devices.
+The Personal Cloud settings are now part of the [Account](/products/desktop/configuration/account) tab and control how your snippets and materials sync across devices.
 
-You’ll see a status for your cloud connection (including the last sync time), plus options to set or modify your personal domain.
+You'll see a status for your cloud connection (including the last sync time), plus options to set or modify your personal domain.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/disconnect_cloud.png" alt="" align="center" fullwidth="true" />
 
-There’s also a `Backup & Restore Data` feature to preserve or retrieve your snippets from the cloud whenever needed.
+There's also a `Backup & Restore Data` feature to preserve or retrieve your snippets from the cloud whenever needed.
 
 * `Status`: Check if your cloud is connected and see when it last synced.
 
@@ -60,43 +60,35 @@ There’s also a `Backup & Restore Data` feature to preserve or retrieve your sn
 
 * `Backup & Restore Data`: Protect your snippets and data.
 
-### Copilot Chats
+### Long-Term Memory
 
-Within [Pieces Copilot Chats](/products/desktop/configuration/copilot-and-machine-learning#copilot-chats), decide which LLM runtime powers the Pieces Copilot and manage your chat-specific settings.
+The [Long-Term Memory](/products/desktop/configuration/long-term-memory) settings allow you to manage the Long-Term Memory Engine, control which applications Pieces can access, manage system permissions, optimize performance, and clear stored data.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/switch_llm_settings.png" alt="" align="center" fullwidth="true" />
+* `Long-Term Memory Engine`: Toggle the engine on or off to control workflow context capture.
 
-You can [Manage Copilot LLM Runtime](/products/desktop/configuration/copilot-and-machine-learning#manage-llm-runtime) or [Hard-Reset Active Runtime](/products/desktop/configuration/copilot-and-machine-learning#reset-active-runtime) if it becomes unresponsive. You can also pick an accent color for the chat UI, and `Delete All Copilot Chats` to clear your chat history.
+* `App Access Control`: Manage which applications the Long-Term Memory Engine interacts with.
 
-* `Manage Copilot LLM Runtime`: Switch or reset your current LLM.
+* `System Permissions`: Manage accessibility and screen permissions for LTM.
 
-* `Hard-Reset Active Runtime`: Restart the runtime if it’s unresponsive.
+* `Optimize System RAM Usage`: Unload local machine learning models from memory.
 
-* `Delete All Copilot Chats`: Remove your entire chat history.
+* `Clear LTM Data`: Remove persisted data captured by the Long-Term Memory Engine.
 
-### Machine Learning
+### Models
 
-Pieces uses an on-device ML engine (with optional cloud capabilities) to enrich and tag your snippets.
+The [Models](/products/desktop/configuration/models) settings allow you to configure processing modes, set up local model runtime with Ollama, and control which AI models are available for use in Pieces.
 
-Inside the [Machine Learning](/products/desktop/configuration/copilot-and-machine-learning#machine-learning) tab, you can toggle `Auto-Generated Tags`, `Auto-Generated Websites`, `Auto-Generated Hints`, and `Auto-Generated People`.
+* `Processing Mode`: Choose between Cloud, Local, or Blended processing modes.
 
-Adjust the *Enrichment Level* (0 to 9) or choose an *Enrichment Mode* (local, cloud, or blended). The LTM captures historical data for additional context—if needed, you can clear it to start fresh.
+* `Ollama Status`: Check if Ollama is installed, activated, and ready for local model processing.
 
-* `Auto-Generated Tags`: Enable or disable automated tagging.
-
-* `Auto-Generated Websites`, `Auto-Generated Hints`, `Auto-Generated People`: Fine-tune which content gets generated.
-
-* `Enrichment Level`: Control how detailed the ML analysis should be.
-
-* `Enrichment Mode`: Decide between local, cloud, or blended.
-
-* `Long-Term Memory Engine`: Provides temporal context, with an option to clear data.
+* `Model Management`: Enable or disable specific AI models from different providers (OpenAI, Anthropic, Google, Microsoft, Meta, IBM, etc.).
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/processing_mode.png" alt="" align="center" fullwidth="true" />
 
 ### Views & Layouts
 
-[Views & Layouts](/products/desktop/configuration/aesthetics-layout#adjusting-layout) controls how you see content in Pieces.
+[Views & Layouts](/products/desktop/configuration/views-layouts) controls how you see content in Pieces.
 
 You can set a `Default Layout`, choose how items are sorted in list or gallery views, and select a `Default Search Mode` like `Neural Code Search (NCS)`.
 
@@ -112,32 +104,28 @@ You’ll also find options for `Confirmation Settings` (for specific actions), t
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Workstream%20Activity/views_layouts_changing_workstream_view.png" alt="" align="center" fullwidth="true" />
 
-### Aesthetics
+### Appearance
 
-In the [Aesthetics](/products/desktop/configuration/aesthetics-layout) tab, customize the overall appearance of Pieces.
+In the [Appearance](/products/desktop/configuration/appearance) tab, customize the overall appearance of Pieces.
 
-Switch between [light or dark mode](/products/desktop/configuration/aesthetics-layout#dark--light-mode), select an accent color for UI highlights, and `Zoom In/Out` to adjust the interface scale.
+Switch between light or dark mode, select an accent color for UI highlights, adjust font size and weight, and configure visual density to control spacing and layout.
 
 These controls help you create a comfortable coding environment for extended sessions.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="" align="center" fullwidth="true" />
 
-### Other Options & Settings Pages
+### Troubleshooting
 
-[Additional preferences](/products/desktop/configuration/additional-settings) live here, including [in-app notifications](/products/desktop/configuration/additional-settings#notification-preferences) (to minimize distractions or stay fully informed), Release Notes (for the latest updates), and Power Tips (for efficiency boosts).
+The [Troubleshooting](/products/desktop/configuration/troubleshooting) settings provide access to support resources, documentation links, version information, and feedback channels.
 
-You can also manage Plugins, invite colleagues via *Refer a Friend*, and control how much crash or compliance data is shared under [Telemetry & Diagnostics.](/products/desktop/configuration/additional-settings#telemetry--diagnostics)
+You can view PiecesOS and Desktop App version information, check for updates, access product documentation, report issues on GitHub, book support calls, and control how much crash or compliance data is shared under Privacy settings in Account.
 
-* `In-App Notifications`: Decide which alerts you receive.
+* `Online Resources`: Access product documentation and GitHub issues.
 
-* `Release Notes`: View the most recent updates.
+* `Get In Touch`: Book support calls, contact the team, or visit the support hub.
 
-* `Power Tips`: Learn shortcuts and advanced capabilities.
+* `PiecesOS Information`: View version, port, and check for updates.
 
-* `Plugins`: Extend Pieces with extra functionality.
+* `Desktop App Information`: View version, platform details, and check for updates.
 
-* `Refer a Friend`: Invite others to use Pieces.
-
-* `Telemetry & Diagnostics`: Configure data sharing preferences.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Additional%20Settings/telemetry.png" alt="" align="center" fullwidth="true" />
+* `Privacy`: Configure telemetry and diagnostics settings (found in Account settings).

@@ -1,0 +1,107 @@
+---
+title: Context & Project Integration
+path: /desktop/conversational-search/context-integration
+visibility: PUBLIC
+status: PUBLISHED
+description: Enable or disable Long-Term Memory context in Conversational Search to include your workflow history in conversations.
+metaTitle: Context & Project Integration | Conversational Search
+metaDescription: Enable or disable Long-Term Memory context in Conversational Search to include your workflow history in conversations.
+---
+
+## Context & Project Integration
+
+Control whether Conversational Search includes Long-Term Memory context in your conversations. When enabled, Conversational Search has access to 9 months of captured workflow context from your [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) Engine, including code you've written, conversations you've had, and decisions you've made.
+
+## LTM Context Toggle
+
+Enable or disable Long-Term Memory context for Conversational Search. When enabled, your chats automatically include workflow history context. When disabled, conversations use only the current context without historical data.
+
+### Enabling LTM Context
+
+Turn on Long-Term Memory context to include workflow history in your chats:
+
+<Steps>
+  <Step title="Click User Profile">
+    Click your `User Profile` in the top left of the Pieces Desktop App.
+  </Step>
+  <Step title="Hover Over LTM-2.7">
+    Hover over `LTM-2.7` in the dropdown menu that appears.
+  </Step>
+  <Step title="Manage LTM-2.7">
+    A menu will appear with options to pause LTM-2.7 or turn it off. To enable LTM context for Conversational Search, ensure LTM-2.7 is not paused or turned off.
+  </Step>
+</Steps>
+
+### Disabling LTM Context
+
+Turn off Long-Term Memory context when you want conversations without historical workflow data:
+
+<Steps>
+  <Step title="Click User Profile">
+    Click your `User Profile` in the top left of the Pieces Desktop App.
+  </Step>
+  <Step title="Hover Over LTM-2.7">
+    Hover over `LTM-2.7` in the dropdown menu.
+  </Step>
+  <Step title="Pause or Turn Off">
+    Select a pause duration (15 minutes, 1 hour, 6 hours, 12 hours, or 24 hours) or choose `Turn Off` to disable LTM-2.7. When LTM-2.7 is paused or turned off, Conversational Search will not include workflow history context in conversations.
+  </Step>
+</Steps>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/context-integration/hovering_over_ltm_turnoff.png" alt="" align="center" fullwidth="true" />
+
+> User profile menu showing LTM-2.7 hover menu with pause and turn off options
+
+## Understanding LTM Context
+
+When LTM-2.7 is enabled, Conversational Search automatically includes relevant workflow context from your Long-Term Memory. This means your conversations can reference:
+
+* Code you've written and changes you've made
+* Conversations and decisions from your workflow history
+* Activities captured by LTM-2.7 from connected applications
+* Timeline Events and summaries from your workflow
+
+When LTM-2.7 is paused or turned off, Conversational Search operates without access to this historical context, providing responses based only on the current conversation.
+
+## Related Timeline Events
+
+View which Timeline Events were used to generate responses by opening the Relevant Summaries sidebar.
+
+Conversational Search draws from your LTM memories to provide accurate responses. The Relevant Summaries sidebar shows you exactly which Timeline Events were used to generate each response, helping you verify the source of information and discover related work.
+
+### Viewing Related Timeline Events
+
+Open the Relevant Summaries sidebar to see which Timeline Events were used in a response:
+
+<Steps>
+  <Step title="Find Relevant Summaries Button">
+    After receiving a response in Conversational Search, look for the `Relevant Summaries` button at the bottom of the chat response.
+  </Step>
+  <Step title="Open Sidebar">
+    Click the `Relevant Summaries` button to open the sidebar on the right side of the interface.
+  </Step>
+  <Step title="Review Timeline Events">
+    The sidebar displays a list of relevant Timeline Events that were used to generate the response. Each entry shows the Timeline Event title, description, timestamp, and related applications.
+  </Step>
+  <Step title="Sort Summaries (Optional)">
+    Click the sort dropdown in the top right of the sidebar to change how summaries are organized. Options include `Suggested`, `Recent`, and `Most Viewed`.
+  </Step>
+  <Step title="Click a Timeline Event">
+    Click any Timeline Event in the sidebar to view full details about that event, including when it was captured and what specific context it contains.
+  </Step>
+  <Step title="Close Sidebar">
+    Click the `X` icon in the top left of the sidebar to close it and return to the main chat view.
+  </Step>
+</Steps>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/relevant_summaires_conversational_chat.png" alt="" align="center" fullwidth="true" />
+
+> Relevant Summaries sidebar open showing Timeline Events used to generate the response, with sort dropdown visible in the top right
+
+***
+
+## Next Steps
+
+Now that you know how to control LTM context in Conversational Search, learn how to start context-specific conversations directly from your workflow memories.
+
+[Starting a conversation with a Timeline Event →](/products/desktop/conversational-search/chat-with-timeline-events)

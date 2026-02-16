@@ -63,7 +63,7 @@ To find the up-to-date SSE endpoint with the active instance of POS (including t
 
 There, you can copy the SSE endpoint with one click, which includes the active PiecesOS port number.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pos_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
 
 You can also find this in the Pieces Desktop App by opening the [Settings](/products/desktop/configuration) view and clicking **Model Context Protocol (MCP)**.
 

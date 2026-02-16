@@ -5,17 +5,21 @@ visibility: PUBLIC
 status: PUBLISHED
 ---
 
+***
+
 ## Settings and Models
 
-Learn how to configure the Pieces CLI—changing both LLMs and the code editor.
+Configure the Pieces CLI by changing both language models and the code editor.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="" align="center" fullwidth="true" />
 
+> Available models and settings configuration interface
+
 ## Supported LLMs
 
-We continually update and configure our plugins and extensions to ensure compatibility with the latest large language models (LLMs).
+The Pieces CLI supports 26 cloud-based language models that you can switch between.
 
-The Pieces CLI currently supports 26 cloud-based models.
+We continually update and configure our plugins and extensions to ensure compatibility with the latest large language models (LLMs).
 
 | Supported LLMs                | Supported LLMs   |
 | ----------------------------- | ---------------- |
@@ -37,44 +41,64 @@ The Pieces CLI currently supports 26 cloud-based models.
 
 ## Settings Overview
 
-Below is a breakdown of each adjustable setting (preferences, behaviors, views, etc.) you can find in the Pieces CLI, broken down by section
+A breakdown of each adjustable setting you can configure in the Pieces CLI, organized by section.
 
-**List Applications**
+### List Applications
 
-To see every application you’ve registered, run `list apps`. This prints a table of app names and IDs so you can verify which integrations are available.
+View all registered applications and verify which integrations are available.
 
-**List Models**
+Run `list apps` to see every application you've registered. This prints a table of app names and IDs so you can verify which integrations are available.
 
-Use `list models` to display all AI models you’ve configured for the `ask` command. The output shows each model’s name and index, and which is currently active.
+### List Models
 
-**View Configuration**
+Display all language models configured for the `ask` command.
+
+Use `list models` to display all language models you've configured for the `ask` command. The output shows each model's name and index, and which is currently active.
+
+### View Configuration
+
+Print your current IDE selection for code editing.
 
 Run `config` to print your current IDE selection for code editing.
 
-**Edit Configuration**
+### Edit Configuration
+
+Open your config file in your preferred editor to adjust settings.
 
 Execute `config --editor <editorName>` to open your config file in the editor of your choice. Simply adjust values (for example, change `timeout: 10` to `timeout: 20`) and save—your changes take effect immediately.
 
-**Login**
+### Login
 
-Authenticate with your Pieces Cloud account by running `login`. You’ll be prompted for credentials in a web browser; once you’re logged in, you can sync materials and access private resources in your [Pieces Drive](/products/cli/drive).
+Authenticate with your Pieces Cloud account to sync materials and access private resources.
 
-**Logout**
+Run `login` to authenticate with your Pieces Cloud account. You'll be prompted for credentials in a web browser; once you're logged in, you can sync materials and access private resources in your [Pieces Drive](/products/cli/drive).
+
+### Logout
+
+Clear your saved credentials and end your session.
 
 Use `logout` to clear your saved credentials and end your session. This is useful when switching accounts or working on a shared machine.
 
-**Contribute**
+### Contribute
 
-Kick off a contribution workflow with `contribute`. You’ll be guided through describing your changes, and a pull-request template will open in your browser so you can submit improvements to the CLI.
+Start a contribution workflow to submit improvements to the CLI.
 
-**Install PiecesOS**
+Kick off a contribution workflow with `contribute`. You'll be guided through describing your changes, and a pull-request template will open in your browser so you can submit improvements to the CLI.
+
+### Install PiecesOS
+
+Download and set up PiecesOS, which provides background services and a graphical dashboard.
 
 Run `install` to download and set up the [PiecesOS](/products/core-dependencies/pieces-os), which provides background services, like Pieces Drive, and a graphical dashboard for non-CLI related tasks.
 
-**Open PiecesOS**
+### Open PiecesOS
 
-Use `open` to launch the desktop app or helper Applet. If it isn’t already running, this command starts the service and brings up the GUI.
+Launch the desktop app or helper Applet.
+
+Use `open` to launch the desktop app or helper Applet. If it isn't already running, this command starts the service and brings up the GUI.
 
 ***
+
+## Next Steps
 
 For additional support resources, check out our [troubleshooting guide.](/products/cli/troubleshooting)

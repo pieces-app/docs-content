@@ -22,7 +22,7 @@ For example:
 
 * **Pieces Drive View:** You’ll see commands related to creating, editing, or managing snippets (e.g., “Create New Material,” “Optimize Snippet,” etc.).
 
-* **Pieces Copilot View:** You’ll see commands focused on AI-driven interactions (e.g., “Ask Copilot,” “Analyze this Snippet,” etc.).
+* **Conversational Search View:** You'll see commands focused on AI-driven interactions (e.g., "Ask Conversational Search," "Analyze this Snippet," etc.).
 
 * **Application & Cloud / Global Context:** Some commands (e.g., “Check for Updates,” “Manage Accounts & Cloud Integrations,” “Go to Settings”) appear in multiple views or from a global context.
 
@@ -30,24 +30,24 @@ For example:
   If you search for a command in the Power Menu and you’re *not* in the view where that command is valid, **it will not appear** in your search results.
 </Callout>
 
-### Pieces Copilot
+### Conversational Search
 
-You can find lots of saved material and generative AI-focused actions when accessing the Power Menu from the Pieces Copilot view.
+You can find lots of saved material and generative AI-focused actions when accessing the Power Menu from the Conversational Search view.
 
 ***
 
 | **Command**                                 | **Description**                                                                 |
 | ------------------------------------------- | ------------------------------------------------------------------------------- |
-| *Manage General Copilot Settings*           | Takes you to the Pieces Copilot settings page.                                  |
-| *Manage Copilot LLM Runtime Configuration*  | Opens a modal for changing cloud and local LLMs.                                |
-| *Enter Focused Copilot*                     | Collapses the sidebar and enters Focus Mode.                                    |
-| *Launch Copilot in Browser*                 | Launches an instance of the Pieces Desktop App UI in your browser.              |
-| *New Copilot Conversation with LTM Context* | Starts a new Pieces Copilot Chat with LTM enabled.                              |
-| *New General Copilot Conversation*          | Starts a new Pieces Copilot Chat without additional prompting pipelines.        |
-| *New Contextual Copilot Conversation*       | Starts a new Pieces Copilot Chat with context.                                  |
-| *New Copilot Conversation*                  | Starts a new Pieces Copilot Chat that defaults to the set LTM behavior.         |
-| *New Generative Copilot Conversation*       | Starts a new Pieces Copilot Chat with a code-generating prompt pipeline preset. |
-| *Delete All Copilot Chats*                  | Deletes all Pieces Copilot chats.                                               |
+| *Manage General Conversational Search Settings*           | Takes you to the Conversational Search settings page.                                  |
+| *Manage Conversational Search LLM Runtime Configuration*  | Opens a modal for changing cloud and local LLMs.                                |
+| *Enter Focused Conversational Search*                     | Collapses the sidebar and enters Focus Mode.                                    |
+| *Launch Conversational Search in Browser*                 | Launches an instance of the Pieces Desktop App UI in your browser.              |
+| *New Conversational Search Conversation with LTM Context* | Starts a new Conversational Search with LTM enabled.                              |
+| *New General Conversational Search Conversation*          | Starts a new Conversational Search without additional prompting pipelines.        |
+| *New Contextual Conversational Search Conversation*       | Starts a new Conversational Search with context.                                  |
+| *New Conversational Search Conversation*                  | Starts a new Conversational Search that defaults to the set LTM behavior.         |
+| *New Generative Conversational Search Conversation*       | Starts a new Conversational Search with a code-generating prompt pipeline preset. |
+| *Delete All Conversational Search Conversations*                  | Deletes all Conversational Search conversations.                                               |
 
 ***
 
@@ -120,12 +120,12 @@ These commands help you traverse the Pieces interface, letting you access differ
 
 | **Command**                      | **Description**                                                       |
 | -------------------------------- | --------------------------------------------------------------------- |
-| *Go to Workstream Activity*        | Open the workstream activities overview to see recent tasks.    |
+| *Go to Timeline*                  | Open Timeline to view workflow summaries and captured context. |
 | *Go to Updates & Upcoming*       | Check upcoming features, announcements, or patch notes.               |
 | *Go to Global Search*            | Access the global search interface for snippets and materials.        |
 | *Go to Settings*                 | Open the main settings panel for Pieces.                              |
 | *Go Back*                        | Return to the previous screen or menu.                                |
-| *Go to Pieces Copilot*           | Launch or navigate to the AI-assisted Copilot interface.              |
+| *Go to Conversational Search*           | Launch or navigate to the AI-assisted Conversational Search interface.              |
 | *Go Home*                        | Navigate to the main dashboard or home screen.                        |
 | *Go to VS Code Plugin*           | Redirect to the Visual Studio Code integration.                       |
 | *Go to Visual Studio Plugin*     | Redirect to the Visual Studio integration.                            |

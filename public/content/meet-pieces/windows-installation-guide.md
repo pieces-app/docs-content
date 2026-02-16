@@ -138,7 +138,7 @@ Read the documentation below for some tips and information to make sure you’re
 
 The Pieces Desktop App **automatically downloads and installs new updates.**
 
-You can also manually check for updates to PiecesOS and the Pieces Desktop App by clicking the `Profile` nested in the **Search Bar** at the top of your Pieces Desktop App view, then selecting `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
+You can also manually check for updates to PiecesOS and the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/windows_check_pfd_for_updates.gif" alt="" align="center" fullwidth="true" />
 

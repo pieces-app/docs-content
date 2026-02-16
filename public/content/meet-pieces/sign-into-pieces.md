@@ -3,30 +3,22 @@ title: Getting Started with Sign-In
 path: /meet-pieces/sign-into-pieces
 visibility: PUBLIC
 status: PUBLISHED
-description: Everything you need to know about signing in to Pieces, including step-by-step instructions for new and existing users, troubleshooting common issues, and understanding our new security requirements.
+description: Everything you need to know about signing in to Pieces, including step-by-step instructions, troubleshooting common issues, and understanding our new security requirements.
 metaTitle: "Sign In to Pieces: Authentication Guide & Troubleshooting"
 metaDescription: Learn how to sign in to Pieces Desktop App. Step-by-step guide for new and existing users, platform instructions, and troubleshooting common sign-in issues.
 ---
 
-# Sign-In to the Pieces Suite
+## Signing In to Pieces
+
+Whether you're new to Pieces or have used it for years, you'll need to sign in to use Pieces—anonymous usage is no longer available. We've upgraded our sign-in system with more sign-in options, better security, and the ability to combine accounts easily. Your existing account works exactly the same; just sign in like you normally would.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in.png" alt="" align="center" fullwidth="true" />
 
-<Callout type="alert">
-  **Important Security Update**
+> The Pieces sign-in screen
 
-  Starting with version 12.0.0, all users must sign in to use Pieces. This change helps us prevent misuse and discourage bad actors from abusing our infrastructure. Previous versions will no longer work after this update.
-</Callout>
+## Sign-In Process
 
-## What's Changing
-
-You'll need to sign in to use Pieces - no more anonymous usage. <mark>This applies to everyone</mark>, whether you're new to Pieces or have been using it for years.
-
-## For New Users
-
-When you open Pieces for the first time, you'll see a sign-in screen right away. The option to skip sign-in has been removed.
-
-Here's what to do:
+When you open Pieces, you'll see a sign-in screen. Both new and existing users follow the same sign-in flow.
 
 <Steps>
   <Step title="Choose Your Sign-In Method">
@@ -42,175 +34,76 @@ Here's what to do:
   </Step>
 
   <Step title="Continue Setup">
-    Once you're signed in, you'll continue with the setup process.
+    Once you're signed in, you'll continue with the setup process or return to your workspace.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in-page.png" align="center" fullwidth="false" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in-page.png" alt="" align="center" fullwidth="true" />
 
-## For Existing Users
+> The sign-in screen you'll see when opening Pieces
 
-When you update and open Pieces, it will check if you're signed in during startup.
+### Accessing Sign-In
 
-### What You'll See
+If the sign-in prompt doesn't appear automatically, you can access it from your system tray or menu bar:
 
-1. Pieces will start up normally
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/must-sign-up.png" alt="" align="center" fullwidth="true" />
 
-2. You'll see a "Sign In to use Pieces" step
+> If you're not signed in, you'll see a prompt to sign in
 
-3. If you're not signed in, you'll see a prompt to sign in
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign_in_request.png" alt="" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  We're requiring sign-in to use Pieces as of the PiecesOS 12.0.0 release to enhance security and enable new features
-</Callout>
-
-## How to Sign In
-
-### On Mac
-
-If the sign in prompt doesn't appear automatically:
-
+<Tabs>
+  <Tab title="macOS">
 <Steps>
   <Step title="Open the Pieces App">
-    Click the **Pieces** icon in your menu bar (top of screen).
+        Click the Pieces icon in your menu bar (top of screen).
   </Step>
-
-  <Step title="Sign in to Pieces">
+      <Step title="Sign In">
     Click `Sign In` when the Pieces app opens.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/pieces_new_os_dropdown.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/update-to-pieces-pro.png" alt="" align="center" fullwidth="true" />
+
+        > Pieces menu bar dropdown showing Sign In option
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="Windows">
+    <Steps>
+      <Step title="Open the Pieces App">
+        Click the Pieces icon in your system tray (near the clock).
+      </Step>
+      <Step title="Sign In">
+        Click `Sign In` when the Pieces app opens.
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="Linux">
+    <Steps>
+      <Step title="Open the Pieces App">
+        Click the Pieces icon in your system tray.
+      </Step>
+      <Step title="Sign In">
+        Click `Sign In` when the Pieces app opens.
   </Step>
 </Steps>
-
-Or open Pieces directly by typing this in Terminal:
-
-```bash
-open "pieces-for-developers://open"
-```
-
-### On Windows
-
-If the sign in prompt doesn't appear automatically:
-
-<Steps>
-  <Step title="Open the Pieces App">
-    Click the **Pieces** icon in your system tray (near the clock).
-  </Step>
-
-  <Step title="Sign in to Pieces">
-    Click `Sign In` when the Pieces app opens.
-  </Step>
-</Steps>
-
-Or open Pieces directly by typing this in PowerShell or Command Prompt:
-
-```powershell
-start "pieces-for-developers://open"
-```
-
-### On Linux
-
-If the sign in prompt doesn't appear automatically:
-
-<Steps>
-  <Step title="Open the Pieces App">
-    Click the Pieces icon in your system tray.
-  </Step>
-
-  <Step title="Sign in to Pieces">
-    Click `Sign In` when the Pieces app opens.
-  </Step>
-</Steps>
-
-Or open Pieces directly by typing this in your terminal:
-
-```bash
-xdg-open "pieces-for-developers://open"
-```
+  </Tab>
+</Tabs>
 
 ### Staying Signed In
 
-Once you sign in, you should stay signed in automatically. *However*, if you sign out from another device or location, you'll need to sign in again. This keeps your account secure across all your devices.
+Once you sign in, you should stay signed in automatically. However, if you sign out from another device or location, you'll need to sign in again. This keeps your account secure across all your devices.
 
-## Troubleshooting
+## Requirements and Updates
 
-***
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/flowchart2.png" alt="" align="center" fullwidth="true" />
-
-***
-
-### Stuck at Startup
-
-If Pieces gets stuck at "Sign In to use Pieces" during startup, simply click the `Sign In` button that appears and complete the process in your browser.
-
-This is intentional, as we now require every Pieces user to be logged in to use our platform.
-
-### Authentication Failed
-
-Getting an "authentication failed" error? Make sure you're using the same account you used before with Pieces.
-
-### Browser Doesn't Return
-
-After signing in, your browser might not automatically switch back to Pieces. That's okay - just manually switch back to the Pieces app. It should recognize that you've signed in successfully.
-
-If it hasn’t, restart your Pieces and follow the sign in steps again.
-
-### Repeatedly Signed Out
-
-If you keep getting signed out, check that your computer's date and time are set correctly. Authentication relies on accurate time settings to keep your account secure.
-
-***
-
-## What's New with Sign-In
-
-We've upgraded our sign-in system to make it better for you:
-
-* **Combine accounts easily**: If you've signed in different ways before, you can now merge those accounts
-
-* **More sign-in options**: Choose from more providers than ever before
-
-* **Better security**: Enhanced protection against threats and abuse
-
-<Callout type="tip">
-  Your existing account works exactly the same - just sign in like you normally would
-</Callout>
-
-## How This Affects Your Daily Work
-
-### Right Now
-
-* You <mark>must update</mark> to the latest version to keep using Pieces
-
-* You need to sign in before you can access your snippets and tools
+To use the new sign-in features, you must update both PiecesOS and the Pieces Desktop app to version 15.0.0 or later. Older versions of Pieces Desktop and PiecesOS will be deprecated and will not work anymore.
 
 <Callout type="alert">
-  Older versions of Pieces Desktop and PiecesOS will be depreciated and will not work anymore. You must update to version 12.0.0 to use the Pieces Suite.
+  You must update to version 15.0.0 or later to use the Pieces Suite. Both PiecesOS and the Desktop App must be updated for sign-in to work properly.
 </Callout>
-
-## Keeping Your Account Safe
-
-Here are simple ways to protect your Pieces account:
-
-1. Use a strong password if signing in with email.
-
-2. Turn on two-factor authentication with your sign-in provider.
-
-3. Sign out when using shared computers.
-
-4. Let us know immediately if you see anything suspicious.
-
-## Updating to the Latest Version
-
-To use the new sign-in features, you'll need to update both PiecesOS and the Pieces Desktop app.
 
 ### Update PiecesOS
 
 PiecesOS runs in the background and powers all Pieces features.
-
-To update:
 
 <Steps>
   <Step title="Find PiecesOS">
@@ -218,11 +111,11 @@ To update:
   </Step>
 
   <Step title="Open Update Options">
-    Right-click the icon and select `You’re up to date`—this will trigger an automatic check for updates.
+    Right-click the icon and select `You're up to date`—this will trigger an automatic check for updates.
   </Step>
 
   <Step title="Install Update">
-    If an update is available, click "Update Now".
+    If an update is available, click `Update Now`.
   </Step>
 
   <Step title="Wait for Restart">
@@ -256,36 +149,83 @@ After updating PiecesOS, update the desktop app:
   </Step>
 </Steps>
 
-<Callout type="alert">
-  Both components must be updated to version 12.0.0 or later for sign-in to work properly. If you're having issues, make sure both PiecesOS and the Desktop App are fully updated.
-</Callout>
+## Troubleshooting
 
-***
+If you encounter issues while signing in, try these solutions:
 
-## Need Help?
+### Opening Pieces via Command Line
+
+If the Pieces app doesn't open automatically, you can launch it directly from your terminal or command line:
+
+<Tabs>
+  <Tab title="macOS">
+    Open Terminal and run:
+
+    ```bash
+    open "pieces-for-developers://open"
+    ```
+  </Tab>
+
+  <Tab title="Windows">
+    Open PowerShell or Command Prompt and run:
+
+    ```powershell
+    start "pieces-for-developers://open"
+    ```
+  </Tab>
+
+  <Tab title="Linux">
+    Open your terminal and run:
+
+    ```bash
+    xdg-open "pieces-for-developers://open"
+    ```
+  </Tab>
+</Tabs>
+
+### Stuck at Startup
+
+If Pieces gets stuck at "Sign In to use Pieces" during startup, simply click the `Sign In` button that appears and complete the process in your browser. This is intentional, as we now require every Pieces user to be logged in to use our platform.
+
+### Authentication Failed
+
+Getting an "authentication failed" error? Make sure you're using the same account you used before with Pieces.
+
+### Browser Doesn't Return
+
+After signing in, your browser might not automatically switch back to Pieces. That's okay—just manually switch back to the Pieces app. It should recognize that you've signed in successfully. If it hasn't, restart your Pieces and follow the sign-in steps again.
+
+### Repeatedly Signed Out
+
+If you keep getting signed out, check that your computer's date and time are set correctly. Authentication relies on accurate time settings to keep your account secure.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/flowchart2.png" alt="" align="center" fullwidth="true" />
+
+> Troubleshooting flowchart for sign-in issues
+
+## Keeping Your Account Safe
+
+Here are simple ways to protect your Pieces account:
+
+* Use a strong password if signing in with email
+* Turn on two-factor authentication with your sign-in provider
+* Sign out when using shared computers
+* Let us know immediately if you see anything suspicious
+
+## Getting Help
 
 Having trouble signing in or have questions? We're here to help:
 
-## Live Support with Pieces
+* **[Live Support](https://calendar.app.google/WVUDtUfNy5Vst3sH7)**: Book a call with our Founders & Engineering Leaders
+* **[GitHub Issues](https://github.com/pieces-app/support/issues)**: Report bugs, request features, and track known issues
+* **[Discord Community](https://discord.com/invite/getpieces)**: Join our community for support, discussions, and direct interaction with the Pieces team
+* **[Community Discussions](https://github.com/pieces-app/support/discussions)**: Create or read through existing discussions to inform our product roadmap
+* **[Feedback Form](https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support)**: Leave feedback or report bugs without using GitHub
 
-We want to ensure that your experience with PiecesOS, the Pieces Desktop App, and any of our IDE or browser integrations is as smooth and seamless as possible—and part of that is speaking with as many users as possible so we can continue iterating and improving on Pieces products.
+***
 
-If you need help getting everything up and running, feel free to book a call with our Founders & Engineering Leaders via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
+## Next Steps
 
-## Open a GitHub Issue<a target="_blank" href="/products/support">**​**</a>
+Now that you're signed in, explore what Pieces can do for you.
 
-You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
-
-If you would prefer not to use GitHub, you can still <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>
-
-## Join our Discord Community
-
-We have a strong community presence on <a target="_blank" href="https://discord.com/invite/getpieces">our Discord channel,</a> so feel free to reach out to other users or members of the Pieces team.
-
-You can also catch up on product updates, speak with our power users, or participate in weekly Community Events.
-
-## Join Community Discussions
-
-We’re active within our community and are always looking for feedback and suggestions from our power users.
-
-If this is you, feel free to <a target="_blank" href="https://github.com/pieces-app/support/discussions">create or read through existing discussions on our GitHub</a>—that way you can inform our product roadmap and contribute feature requests.
+[Getting Started with Pieces →](/products/meet-pieces)

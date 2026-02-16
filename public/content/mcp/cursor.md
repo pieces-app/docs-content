@@ -49,23 +49,23 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 <pos-download-guide />
 
-### Getting the SSE Endpoint for PiecesOS
+### Getting the MCP Endpoint for PiecesOS
 
-To use Pieces MCP with Cursor, you'll first need the Server-Sent Events (SSE) endpoint from PiecesOS:
+To use Pieces MCP with Cursor, you'll need the MCP endpoint from PiecesOS:
 
 ```markdown
-http://localhost:39300/model_context_protocol/2024-11-05/sse
+http://localhost:39300/model_context_protocol/2025-03-26/mcp
 ```
 
 <Callout type="alert">
   Keep in mind that the **specific port** (i.e., `39300`) PiecesOS is running on **may vary**.
 </Callout>
 
-To find the current SSE endpoint with the active instance of POS (including the current port number), open the PiecesOS Quick Menu and expand the **Model Context Protocol (MCP) Servers** tab.
+To find the current MCP endpoint with the active instance of PiecesOS (including the current port number), open the PiecesOS Quick Menu and expand the **Model Context Protocol (MCP) Servers** tab.
 
-There, you can click once to copy the SSE endpoint, which includes the active PiecesOS port number.
+There, you can click once to copy the MCP endpoint, which includes the active PiecesOS port number.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pos_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
 
 You can also do this in the Pieces Desktop App by opening the **Settings** view and clicking **Model Context Protocol (MCP).**
 
@@ -95,7 +95,7 @@ To set up the Pieces MCP, you can edit the `.json` settings configuration file f
     {
       "mcpServers": {
         "Pieces": {
-          "url": "http://localhost:39300/model_context_protocol/2024-11-05/sse"
+          "url": "http://localhost:39300/model_context_protocol/2025-03-26/mcp"
         }
       }
     }
@@ -157,7 +157,7 @@ If you’re experiencing issues integrating Pieces MCP with Cursor, follow these
 
 2. **Confirm LTM Engine Activation**: Make sure the [Long-Term Memory Engine (LTM-2.7) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Cursor to retrieve accurate results.
 
-3. **Single MCP Instance:** Make sure that you aren’t testing multiple instances of the Pieces MCP server in different IDEs. This cross-contamination conflict with the SSE and several MCP instances running on the same port can cause issues in different development environments.
+3. **Single MCP Instance:** Make sure that you aren't testing multiple instances of the Pieces MCP server in different IDEs. This cross-contamination conflict with several MCP instances running on the same port can cause issues in different development environments.
 
 4. **Use Agent Mode in Chat**: Cursor must be in *Agent Mode*, not *Ask Mode*, to access the `ask_pieces_ltm` tool. Switch to Agent Mode to enable full MCP integration.
 
@@ -167,24 +167,15 @@ If you’re experiencing issues integrating Pieces MCP with Cursor, follow these
 
 7. **Go to** `settings.json` **in Cursor:** Confirm the MCP server status shows "running" (it may say "start" or "pause" otherwise). Restart the server if necessary and inspect terminal outputs for error messages.
 
-8. **Review Configuration Details**: Double-check the MCP endpoint URL and the port number in Cursor settings to ensure accuracy, You can find the current SSE endpoint URL in the Pieces Desktop App under **Settings** → **Model Context Protocol (MCP)**, or in the PiecesOS Quick Menu. It is usually formatted as:
+8. **Review Configuration Details**: Double-check the MCP endpoint URL and the port number in Cursor settings to ensure accuracy. You can find the current MCP endpoint URL in the Pieces Desktop App under **Settings** → **Model Context Protocol (MCP)**, or in the PiecesOS Quick Menu. It is usually formatted as:
 
 ```scss
-http://localhost:{port_number}/model_context_protocol/{version}/sse
+http://localhost:{port_number}/model_context_protocol/2025-03-26/mcp
 ```
 
-### JSON Blob Error in MCP Settings
-
-When you open **Preferences → Settings → MCP**, you may see a raw `.JSON` payload or *“unknown message ID”* error displayed beneath your enabled Pieces server—even though your tool calls work correctly.
-
-Cursor’s *Settings* UI currently doesn’t recognize the JSON-RPC success envelope, so it misclassifies the response as an error object and dumps the payload.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_error.png" alt="" align="center" fullwidth="true" />
-
-This visual artifact is harmless. All genuine LTM responses still arrive properly in the Cursor chat window.
 
 <Callout type="alert">
-  Ignore any red `.JSON` blobs in the MCP Settings view. The **Chat** pane is the source of truth—if your pieces queries return formatted summaries there, the integration is functioning normally.
+  Ignore any red `.JSON` blobs in the MCP Settings view. The **Chat** pane is the source of truth—if your Pieces queries return formatted summaries there, the integration is functioning normally.
 </Callout>
 
 ***
