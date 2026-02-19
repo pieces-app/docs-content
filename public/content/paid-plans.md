@@ -87,6 +87,46 @@ Choose the plan that works best for you:
   </Card>
 </CardGroup>
 
+## Plan Comparison
+
+Compare Free and Pieces Pro to see which plan fits your workflow.
+
+### Free Plan — Model Access
+
+The free plan includes full access to local models (Ollama) with no usage limits, plus limited usage of select cloud models. You can use on-device models like Llama, Gemma, and Phi for private, offline use. Cloud model usage is capped—upgrade to Pro for unlimited access to premium LLMs.
+
+| **Feature** | **Free** | **Pieces Pro** |
+|-------------|----------|----------------|
+| Cloud / premium AI models | Limited usage | Unlimited access |
+| Local models (Ollama) | Full access, no limits | Full access, no limits |
+| Long-term memory | Rolling window (time-bound) | Unlimited (up to 9 months) |
+| Deep Study reports | — | ✓ |
+| AI-powered code generation | Basic | Advanced |
+| Support | Community | Priority |
+| Cloud backup | Limited | Full |
+
+For details on which models are available on each plan, see [Models](/products/desktop/configuration/models#free-vs-pro-model-access).
+
+## Frequently Asked Questions
+
+<AccordionGroup>
+  <Accordion title="Does the paid plan affect memory quality or just the built-in chat?">
+    Both. Pro gives you longer memory retention *and* access to more powerful models for searching and reasoning over your stored context. The Long-Term Memory engine that captures and organizes your workflow data is the same on both plans—the main differences are *duration* and *retrieval quality*.
+  </Accordion>
+
+  <Accordion title="How long does Long-Term Memory last on each plan?">
+    The free plan is time-bound: you have access to a rolling window of recent history. Pieces Pro offers unlimited long-term memory with up to 9 months of context.
+  </Accordion>
+
+  <Accordion title="What are the limits on premium model usage?">
+    The free plan includes limited usage of select cloud models to get started. Pro offers unlimited access to premium LLMs including GPT-5, Claude, Gemini, and thinking models. [See the full model list](/products/large-language-models/cloud-models) for details on which models are Free vs Pro.
+  </Accordion>
+
+  <Accordion title="Does upgrading to Pro create better memories?">
+    No. The engine that captures and organizes your data is the same. Pro users get *longer* retention (up to 9 months vs a rolling window) and can use more powerful models to *search and query* those memories, yielding deeper insights—but the underlying memory formation is identical.
+  </Accordion>
+</AccordionGroup>
+
 ## Benefits
 
 Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.

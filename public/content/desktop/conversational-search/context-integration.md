@@ -12,6 +12,10 @@ metaDescription: Enable or disable Long-Term Memory context in Conversational Se
 
 Control whether Conversational Search includes Long-Term Memory context in your conversations. When enabled, Conversational Search has access to 9 months of captured workflow context from your [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) Engine, including code you've written, conversations you've had, and decisions you've made.
 
+<Callout type="info">
+  LTM must be enabled to access the chat feature in Pieces Desktop. If LTM is off, chat does not work. LTM is enabled by default in conversations.
+</Callout>
+
 ## LTM Context Toggle
 
 Enable or disable Long-Term Memory context for Conversational Search. When enabled, your chats automatically include workflow history context. When disabled, conversations use only the current context without historical data.

@@ -88,6 +88,101 @@ Manage accessibility and screen permissions for the Long-Term Memory Engine. If 
   </Step>
 </Steps>
 
+### LTM Audio
+
+LTM Audio, also known as Audio Ingestion, enables the Long-Term Memory Engine to capture system audio and microphone input to enhance your workflow context. This feature is currently in *Preview* and requires platform-specific permissions.
+
+<Embed
+  src="https://youtu.be/vg4Mg8Xasn8"
+  title="How to enable LTM Audio in Pieces Desktop"
+/>
+
+<Tabs>
+  <TabItem title="macOS">
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_mac.gif" alt="" align="center" fullwidth="true" />
+
+    > LTM Audio setup on macOS
+
+    First-time users will see a yellow warning indicator on the `Enable LTM Audio` option when they open their `User Profile` in the top left. Click the `warning indicator` to open the permissions dialog and grant the required access.
+
+    <Steps>
+      <Step title="Open Permissions Dialog">
+        Click your `User Profile` in the top left. If you see a yellow warning indicator, click it to open the "Some Permissions Are Missing" dialog. Otherwise, go to *Settings* → *Long-Term Memory* → *Long-Term Memory Permissions*.
+      </Step>
+
+      <Step title="Grant System Audio Capture">
+        In the permissions dialog, locate "System Audio Capture" and click the `Allow` button. This opens the macOS *Privacy & Security* → *Screen & System Audio Recording* settings.
+      </Step>
+
+      <Step title="Add Pieces OS to System Audio Recording">
+        In the *System Audio Recording Only* section at the bottom, click the `+` button. Navigate to *Applications* in Finder and select `Pieces OS`. The system will prompt you to restart Pieces OS—choose `Quit & Reopen`.
+      </Step>
+
+      <Step title="Grant Microphone Access">
+        After restarting, the permissions dialog will prompt you to grant Microphone Access. Click the `Allow` button for "Microphone Access" to open the macOS *Privacy & Security* → *Microphone* settings.
+      </Step>
+
+      <Step title="Enable Microphone for Pieces OS">
+        In the Microphone settings, find `Pieces OS` and turn the toggle on. Choose `Quit & Reopen` when prompted to restart Pieces OS.
+      </Step>
+
+      <Step title="Enable LTM Audio">
+        Once permissions are granted, click your `User Profile` in the top left and click `Enable LTM Audio` to turn the feature on. Alternatively, click the `PiecesOS` icon in your menu bar to open the dropdown, scroll to *LTM Audio*, and enable it there.
+      </Step>
+    </Steps>
+
+    <Callout type="info">
+      LTM Audio is a *Preview* feature. You must grant both System Audio Capture and Microphone Access, then restart Pieces OS after each permission change, before the feature can be enabled.
+    </Callout>
+  </TabItem>
+
+  <TabItem title="Windows">
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_windows.png" alt="" align="center" fullwidth="true" />
+
+    > LTM Audio setup on Windows
+
+    On Windows, LTM Audio prompts for microphone permission only. Accept the prompt and the feature is enabled—no system audio capture or restart required.
+
+    Enable LTM Audio from your `User Profile` in the top left, or from the PiecesOS icon in your system tray—click it to open the dropdown, scroll to *LTM Audio*, and toggle it on.
+
+    **If you skipped the initial permission prompt**
+
+    You can grant microphone access through Windows Settings:
+
+    <Steps>
+      <Step title="Open Settings">
+        Press `Win + I` or click the `Start` button and select `Settings`.
+      </Step>
+
+      <Step title="Navigate to Microphone settings">
+        Go to `Privacy & Security` (Windows 11) or `Privacy` (Windows 10), then select `Microphone`.
+      </Step>
+
+      <Step title="Enable microphone for Pieces OS">
+        Turn on *Microphone access* if it is off. Find `Pieces OS` in the list of apps and enable the toggle next to it.
+      </Step>
+
+      <Step title="Enable LTM Audio">
+        Restart Pieces if it was open, then enable *LTM Audio* from your `User Profile` or the `PiecesOS` system tray dropdown.
+      </Step>
+    </Steps>
+
+    <Callout type="info">
+      LTM Audio is a *Preview* feature. Accept the microphone permission when prompted to enable the feature.
+    </Callout>
+  </TabItem>
+
+  <TabItem title="Linux">
+    On Linux (Snap installation), run `pieces-os.doctor` after installation. The script outputs a command you can copy and paste into your terminal to connect all interfaces with the system.
+
+    Once the interfaces are connected, enable LTM Audio from your `User Profile` in the top left, or from the PiecesOS icon in your application tray—click it to open the dropdown, scroll to *LTM Audio*, and toggle it on.
+
+    <Callout type="info">
+      LTM Audio is a *Preview* feature. Run `pieces-os.doctor` to connect system interfaces before enabling the feature.
+    </Callout>
+  </TabItem>
+</Tabs>
+
 ## Performance
 
 Optimize system resources and manage memory usage for the Long-Term Memory Engine.
