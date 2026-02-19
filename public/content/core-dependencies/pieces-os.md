@@ -46,7 +46,7 @@ The Long-Term Memory (LTM-2.7) Engine is a powerful evolution of the original LT
 By automatically capturing workflow context and providing flexible memory browsing, LTM-2.7 ensures you don't lose track of code, discussions, or references—even if you return to a project weeks or months later. These workflow events and summaries can be found within the [Timeline](/products/desktop/timeline) view in the [Pieces Desktop App](/products/desktop).
 
 <Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
-  Here's a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7.
+  Here's a [quick read on some of the nano-models](https://tsavo.hashnode.dev/temporal-nano-model-breakthrough) we develop that layer into the data retrieval pipeline for LTM-2.7.
 </Card>
 
 ### Deep Study
@@ -84,8 +84,8 @@ Under the hood, LTM monitors your workflow at the operating system level, captur
 
 LTM (through PiecesOS) extends your ability to [enable or disable specific sources](/products/core-dependencies/pieces-os/quick-menu#quick-menu-actions) for data capture—this way, you can decide exactly what gets tracked and stored, providing flexibility if you have sensitive or personal workflows.
 
-<Callout type="tip">
-  The data captured by LTM is processed and stored entirely on your device, so you don't need to worry about privacy and security—[which you can read more about here.](/products/privacy-security-your-data)
+<Callout type="info">
+  LTM data is stored on your device. Processing depends on your [processing mode](/products/desktop/configuration/models) and model choice: **Local** does most processing on-device but can still use an external cloud model. **Blended** and **Cloud** send context to cloud providers. [Learn more about privacy and security.](/products/privacy-security-your-data)
 </Callout>
 
 ### Less Context Switching
@@ -152,8 +152,8 @@ LTM applies on-device machine learning algorithms to filter out sensitive inform
 
 ## Pieces Drive
 
-Pieces Drive is a legacy material manager that allows you to save, manage, and share developer resources. This feature will be merged with Timeline in a future update.
+[Pieces Drive](/products/desktop/drive) is a legacy material manager that allows you to save, manage, and share developer resources. This feature will be merged with Timeline in a future update.
 
 ***
 
-If PiecesOS isn't what you're looking for, check out the [Pieces Desktop App](/products/desktop) to see how these components work together, or explore [Conversational Search](/products/desktop/conversational-search) to learn how to talk with your memories.
+Check out the [Pieces Desktop App](/products/desktop) to see how these components work together, or explore [Conversational Search](/products/desktop/conversational-search) to learn how to talk with your memories.

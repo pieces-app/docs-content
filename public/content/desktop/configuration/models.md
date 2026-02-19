@@ -225,6 +225,33 @@ Each provider can be expanded to see individual models, and you can enable or di
 
 For a complete list of all compatible models and their capabilities, see the [Compatible LLMs](/products/large-language-models) documentation. This page provides detailed information about cloud models, local models, and which models work best for different use cases.
 
+### Free vs Pro Model Access
+
+Model access depends on your plan. Free users get full access to local models and limited usage of cloud models. Pieces Pro subscribers get unlimited access to premium cloud LLMs.
+
+#### Free Plan — Models
+
+The free plan includes:
+
+* **Local models (Ollama)**: Full access with no usage limits. Download and run models like Llama, Gemma, Phi, and others entirely on-device.
+* **Cloud models**: Limited usage. Access to select cloud models with usage caps—ideal for getting started and trying AI-assisted development.
+* **Basic AI features**: Snippet management, local storage, and community support.
+
+<Callout type="info">
+  Model availability and usage limits may vary. See the [Cloud Models](/products/large-language-models/cloud-models) page for the latest list and plan-specific availability.
+</Callout>
+
+#### Plan Comparison
+
+| **Feature** | **Free** | **Pieces Pro** |
+|-------------|----------|----------------|
+| Local models (Ollama) | Full access, no limits | Full access, no limits |
+| Cloud / premium models | Limited usage | Unlimited access |
+| Long-term memory | Standard | Infinite |
+| Deep Study reports | — | ✓ |
+
+For pricing and upgrade options, see [Pieces Pro](/products/paid-plans).
+
 ***
 
 ## Next Steps

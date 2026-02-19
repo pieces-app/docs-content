@@ -85,6 +85,14 @@ To do so, click the `Pieces` logo in your taskbar or toolbar, and click `Enable 
 
 Conversely, you can click the green `On` button to display a drop-down menu that lets you disable the LTM temporarily in minute increments or altogether.
 
+### LTM Audio (Audio Ingestion)
+
+LTM Audio enables the Long-Term Memory Engine to capture system audio and microphone input. From the Quick Menu, scroll to *LTM Audio* and toggle it on or off.
+
+<Callout type="info">
+  On macOS, LTM Audio requires [System Audio Capture and Microphone Access permissions](/products/desktop/configuration/long-term-memory#ltm-audio) before it can be enabled. First-time users may see a yellow warning indicator on their User Profile—click it to grant the required permissions.
+</Callout>
+
 ### Long-Term Memory Access Control
 
 This section allows you to manage which applications and sources LTM captures data from through two menus:

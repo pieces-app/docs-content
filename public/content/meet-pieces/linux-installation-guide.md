@@ -45,8 +45,12 @@ There are several requirements that your Linux device must meet to download and 
   2. `sudo snap connect pieces-os:process-control :process-control`
 
   3. `sudo snap install pieces-for-developers`
+  
+  Run `pieces-os.doctor`. The script outputs a command; copy and paste it into your terminal to connect all interfaces with the system.
 
   Then, type `pieces-for-developers` to launch the application directly from your terminal.
+
+  
 </Card>
 
 Your Linux device must be running a supported distribution of Ubuntu—**Ubuntu 22+.**
@@ -60,6 +64,10 @@ Installation of PiecesOS and the Pieces Desktop App on supported Linux systems i
 ## Post-Installation Tips
 
 Read the documentation below for tips and information to ensure you’re up and running with the latest versions of PiecesOS and the Pieces Desktop App, as well as steps to uninstall Pieces software from your Linux device.
+
+### Connect System Interfaces
+
+After installing via snap, run `pieces-os.doctor` in your terminal. The script outputs a command you can copy and paste to connect all interfaces with the system. This step is required for full functionality, including features like [LTM Audio](/products/desktop/configuration/long-term-memory#ltm-audio).
 
 ### Updating
 
