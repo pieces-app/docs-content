@@ -31,16 +31,16 @@ Read this [guide on determining your CPU architecture](/products/desktop/trouble
 For detailed instructions, refer to our comprehensive [macOS installation and quick-start guide.](/products/meet-pieces/macos-installation-guide)
 
 <CardGroup cols={2}>
-  <Card title="Apple Silicon / ARM" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">
-    *macOS 12.0 (Monterey) or higher*
+  <Card title="Apple Silicon / ARM" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">
+    *macOS 13.0 (Ventura) or higher*
   </Card>
 
-  <Card title="Intel" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE">
-    *macOS 12.0 (Monterey) or higher*
+  <Card title="Intel" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE">
+    *macOS 13.0 (Ventura) or higher*
   </Card>
 </CardGroup>
 
-Otherwise, you can download Pieces software using [alternative installation methods](/products/meet-pieces/macos-installation-guide) (.DMG, Homebrew).
+Otherwise, you can download Pieces software using [alternative installation methods](/products/meet-pieces/macos-installation-guide) (.PKG, Homebrew).
 
 ### Windows
 
