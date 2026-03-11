@@ -11,7 +11,6 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="" align="center" fullwidth="true" />
 
-***
 
 ## Private and Secure
 

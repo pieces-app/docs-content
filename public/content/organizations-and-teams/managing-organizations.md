@@ -3,9 +3,9 @@ title: Managing Organizations
 path: /desktop/organizations-and-teams/managing-organizations
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to manage your organization as an owner or admin, including member management, billing, teams, and settings.
+description: Learn how to manage your organization as an owner or admin, including member management, billing, and settings.
 metaTitle: Managing Organizations | Pieces Docs
-metaDescription: Comprehensive guide to managing organizations, members, teams, billing, and settings in Pieces.
+metaDescription: Comprehensive guide to managing organizations, members, billing, and settings in Pieces.
 ---
 
 
@@ -17,16 +17,16 @@ metaDescription: Comprehensive guide to managing organizations, members, teams, 
 
 ***
 
-## Organization Overview
+## Organization Home
 
-Access your organization dashboard to view updates, post content, invite members, and navigate to different sections of your organization.
+Access your organization's Home page to get set up, navigate to management tools, and find helpful resources for your team.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/organization-overview/organization-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
 
-> Organization overview page showing recent updates, post update button, and sidebar navigation
+> Organization Home page showing setup instructions, management links, and resource cards
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/organization-overview" colored={false}>
-  Learn how to navigate your organization dashboard, post updates, and interact with team content.
+  Learn how to navigate your organization Home page, access setup resources, and manage your organization.
 </FancyCard>
 
 ## Inviting Members
@@ -45,7 +45,7 @@ Add team members to your organization by sending invitations. You can invite mem
 
 View and manage all organization members, track seat usage, handle pending invitations, and update member roles and permissions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/members-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
 
 > Members tab showing seat usage, current members list, and pending invites
 
@@ -53,23 +53,11 @@ View and manage all organization members, track seat usage, handle pending invit
   Learn how to manage member roles, view seat usage, and handle member-related tasks.
 </FancyCard>
 
-## Managing Teams
-
-Create and manage teams within your organization to organize members into smaller groups. Teams can post updates and collaborate on specific projects.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-teams/teams-overview.png" alt="" align="center" fullwidth="true" />
-
-> Teams dropdown showing team list and create team option
-
-<FancyCard title="Learn More" href="/products/organizations-and-teams/managing-teams" colored={false}>
-  Explore how to create teams, manage team members, and organize your organization into smaller groups.
-</FancyCard>
-
 ## Billing
 
 Manage your organization's subscription, update seat counts, view billing information, and configure billing addresses.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/billing/org-billing-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="" align="center" fullwidth="true" />
 
 > Billing tab showing subscription details, seat count, and billing address options
 
@@ -77,16 +65,40 @@ Manage your organization's subscription, update seat counts, view billing inform
   Learn how to manage subscriptions, update seats, and configure billing information.
 </FancyCard>
 
+## Models (Organization Management for AI)
+
+The Models section is the organization management area for AI configuration. It appears as a top-level item in the sidebar with two tabs: *Models* (general settings, allow-lists, processing mode) and *API Keys* (OpenAI, Anthropic, GCP credentials).
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="" align="center" fullwidth="true" />
+
+> Models section showing general settings and API keys configuration
+
+<FancyCard title="Learn More" href="/products/organizations-and-teams/settings-models" colored={false}>
+  Configure model allow-lists, processing mode, and API keys for your organization.
+</FancyCard>
+
+## Long Term Memory
+
+Configure context capture settings, application sources, denied websites, and default models for memory processing. Long Term Memory is a top-level item in the sidebar.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_applications.png" alt="" align="center" fullwidth="true" />
+
+> Long Term Memory section showing Memory Formation toggles and Default Models
+
+<FancyCard title="Learn More" href="/products/organizations-and-teams/settings-ltm-sources" colored={false}>
+  Configure context capture, application sources, denied websites, and default models for LTM.
+</FancyCard>
+
 ## Organization Settings
 
-Configure organization-wide settings that sync to team members' Pieces Desktop and PiecesOS installations. Control features, API keys, models, and LTM sources for your entire organization.
+Configure organization-wide settings that sync to team members' Pieces Desktop and PiecesOS installations. Settings includes General (contact info, address) and Features (External Cloud, Analytics toggles).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/organization_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="" align="center" fullwidth="true" />
 
-> Settings page showing tabs for General, Teams, Features, API Keys, Models, LTM Sources, and LTM Websites
+> Settings page showing tabs for General and Features
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/organization-settings" colored={false}>
-  Discover how to configure organization settings, manage feature toggles, and control team-wide configurations.
+  Discover how to configure organization settings and control feature toggles.
 </FancyCard>
 
 ***

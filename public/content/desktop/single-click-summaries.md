@@ -92,6 +92,37 @@ Access your completed summaries and view the full results. When a summary finish
 
 > Completed summary view showing full results with insights, related activities, and links to relevant documents
 
+## Scheduling Summaries
+
+Schedule single-click summaries to run automatically at a time you choose. As long as Pieces is open and running on your computer, the summary will generate at the scheduled time and appear in your [Pieces Timeline](/products/desktop/timeline).
+
+<Callout type="info">
+  Scheduling is available for all built-in summary types except *Custom Summary*.
+</Callout>
+
+<Steps>
+  <Step title="Open Schedule Modal">
+    Hover over a summary card on the homepage and click `Schedule this summary`, or use the schedule option on the summary card. The schedule modal opens for that summary type.
+  </Step>
+  <Step title="Choose Repeat Frequency">
+    Select **Daily** to run every day, or **Weekly** to run on specific days of the week. For weekly schedules, select one or more days (e.g., Mo, Tu, We, Th, Fr for weekdays).
+  </Step>
+  <Step title="Set the Time">
+    Pick a time from the preset options (6 AM, 8 AM, 9 AM, 12 PM, 5 PM, 9 PM) or choose **Custom** to set a different time.
+  </Step>
+  <Step title="Confirm Schedule">
+    Review the summary message (e.g., "Runs weekdays at 08:00 AM") and click `Schedule` to save. The summary will run automatically at the set time whenever Pieces is open and running.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  Scheduled summaries only run when Pieces is open and running on your computer. If Pieces is closed at the scheduled time, the summary will not generate.
+</Callout>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/schedule_single_click_summary_modal.png" alt="" align="center" fullwidth="true" />
+
+> Schedule modal showing repeat frequency (Daily/Weekly), day selection, time options, and schedule confirmation message
+
 ## Using Summary Types
 
 Learn how to use specific summary types and customize them for your workflow.
@@ -102,6 +133,7 @@ Single-Click Summaries include preset summary types designed for common workflow
 
 | **Summary Type** | **Description** |
 |------------------|-----------------|
+| **Today's Headlines** | Breaking news and headlines personalized to your professional world, based on your recent work context. |
 | **What's Top of Mind** | Identifies recurring topics and priorities from your recent workflow, ranked by importance. |
 | **Morning Brief** | Provides everything you need to kickstart your day, compiled from your recent activities. |
 | **Standup Update** | Generates a three-part update: what you did, what's next, and blockers—perfect for team standups. |
@@ -113,6 +145,10 @@ Single-Click Summaries include preset summary types designed for common workflow
 | **Professional Persona** | Provides work style analysis and professional summary based on your workflow patterns. |
 | **Collaboration Patterns** | Identifies who you work with and how, revealing collaboration dynamics in your workflow. |
 | **Discover** | Access additional summary options and request new summary types through a popup interface. |
+
+### Today's Headlines
+
+Takes the context of what you've been working on recently and uses *Perplexity* to find news articles and headlines related to your work. It summarizes them and delivers a bite-sized overview of what's going on in your industry—so you stay informed without leaving your workflow.
 
 ### What's Top of Mind
 
@@ -143,12 +179,26 @@ Compiles an end-of-day summary of your accomplishments, completed tasks, and ove
 
 ### Time Breakdown
 
-Organizes your daily work into projects with in-depth time breakdowns, showing what you worked on per project throughout the day. This summary takes all the work you've done through the day, categorizes it by project, and provides detailed time tracking for each project and activity.
+Organizes your work into projects with in-depth time breakdowns, showing what you worked on per project. Time Breakdown reconstructs your billable hours from captured workstream context—categorizing activity by project and providing structured time blocks you can review, refine, and submit.
 
 <Embed 
-  src="https://youtu.be/jksolzBdHdU" 
+  src="https://youtu.be/QXlZt2cPSzE" 
   title="Time Breakdown summary demonstration video"
 />
+
+Tap `Discover More` from your Home Dashboard to find Time Breakdown. Choose a preset time range that matches your reporting needs:
+
+* **Last 24 Hours** — Daily timesheet submissions
+* **Last 2 Days** — Catch up on a missed day
+* **Last Week** — Weekly billing cycles or sprint reviews
+* **Last 2 Weeks** — Bi-weekly invoicing
+* **Last 30 Days** — Monthly reviews or end-of-month billing
+
+<Callout type="info">
+  Time ranges longer than 24 hours can take longer to generate—sometimes 15 minutes or more—depending on the amount of data to process.
+</Callout>
+
+Once generated, you can view, edit, copy, export, or use the Time Breakdown as context for a Pieces Copilot chat to ask follow-up questions.
 
 ### Week Recap
 
@@ -206,18 +256,23 @@ Generate summaries tailored to specific time periods and topics that matter to y
 
 <Steps>
   <Step title="Open Custom Summary">
-    Click the **Custom Summary** card on the homepage.
+    Click the `Custom Summary` card on the homepage. If it's not visible, tap `Discover More` to view all single-click summary options, then select `Custom Summary`.
   </Step>
-  <Step title="Select Time Range">
-    In the popup, choose a time range from the dropdown. Options include "Just now," "Within the last hour," "Today," or select custom dates.
+  <Step title="Configure Parameters">
+    Set your scoping: choose a **Time Range** (e.g., last 24 hours, this week, last week), optionally scope to **Signals** (detected projects), **Applications** (VS Code, Chrome, Slack, etc.), or **Websites** to narrow the focus. Combine multiple dimensions for precise results.
   </Step>
-  <Step title="Add Focus (Optional)">
-    Click `Add Focus` and type in a topic, client, project, or specific area you want the summary to emphasize. This helps generate more targeted insights for particular aspects of your work.
+  <Step title="Customize Template Identity (Optional)">
+    Give your summary a name, pick a color, and choose an icon. This helps you recognize it at a glance when it appears in your summary library.
+  </Step>
+  <Step title="Save Template (Optional)">
+    Tap `Save` to store your configuration as a reusable template. Once saved, your template lives alongside built-in options like Morning Brief and Day Recap—trigger it with a single click whenever you need it, with no reconfiguration.
   </Step>
   <Step title="Generate Summary">
     Click `Generate` to start creating your custom summary.
   </Step>
 </Steps>
+
+**Pro tip:** If you generate the same kind of summary more than twice (e.g., weekly client updates, sprint retros), save it as a template. Build it once, use it forever.
 
 ### Using Discover
 

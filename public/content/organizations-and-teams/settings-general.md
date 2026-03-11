@@ -12,21 +12,21 @@ metaDescription: Learn how to update organization details, configure domains, se
 
 The General settings tab allows you to configure basic organization information, contact details, associated domains, SSO integration, and delete your organization. These settings control fundamental aspects of your organization's identity and access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/organization_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="" align="center" fullwidth="true" />
 
 > General settings tab showing organization name, contact info, domains, and danger zone
 
-## Accessing General Settings
-
-Navigate to the General settings tab to configure organization details. This is the default tab when you first open Settings.
+## How to Get to General Settings
 
 <Steps>
-  <Step title="Open Settings">
-    From your *organization overview* page, click `Settings` in the *sidebar* navigation.
+  <Step title="Open the Portal">
+    Go to [portal.pieces.app](https://portal.pieces.app) and sign in. Select your organization from the *sidebar* dropdown if needed.
   </Step>
-
+  <Step title="Open Settings">
+    Click `Settings` in the *sidebar* navigation.
+  </Step>
   <Step title="Select General Tab">
-    Click the `General` tab at the top of the *Settings* page. This is the default tab when you first open Settings.
+    Click the `General` tab at the top. It's the default tab when you open Settings.
   </Step>
 </Steps>
 
@@ -45,22 +45,22 @@ Modify your organization's basic details including name, contact information, an
 
   <Step title="Update Contact Information">
     Update the following contact fields:
-    * **Organization Contact**: Name of the primary contact person
-    * **Organization Email**: Primary email address for the organization
-    * **Organization Phone**: Contact phone number
+    * **Name** — Name of the primary contact person
+    * **Email** — Primary email address for the organization
+    * **Phone** — Contact phone number
   </Step>
 
   <Step title="Update Address">
     Fill in or modify the organization address fields:
-    * **Organization Country**: Select from the *dropdown*
-    * **Organization Street Address**: Enter street address
-    * **Organization City**: Enter city name
-    * **Organization State**: Select state from *dropdown*
-    * **Organization ZIP Code**: Enter ZIP/postal code
+    * **Country** — Select from the *dropdown*
+    * **Street address** — Enter street address
+    * **City** — Enter city name
+    * **State** — Select state from *dropdown*
+    * **ZIP Code** — Enter ZIP/postal code
   </Step>
 
   <Step title="Save Changes">
-    Click the `Save` button in the top right corner to save all your changes.
+    A save reminder appears at the bottom of the page. Click `Save` to apply your changes.
   </Step>
 </Steps>
 
@@ -78,7 +78,7 @@ Set up domains that are associated with your organization for automatic user ass
   </Step>
 
   <Step title="Save Domains">
-    Click `Save` to save your domain configuration. Domains associated with this organization enable automatic user assignment for users with matching email domains.
+    A save reminder appears at the bottom of the page. Click `Save` to save your domain configuration.
   </Step>
 </Steps>
 
@@ -92,7 +92,7 @@ Configure SSO (Single Sign-On) integration using a tenant ID for *Descope* integ
   </Step>
 
   <Step title="Save Configuration">
-    Click `Save` to save your SSO configuration. This is optional and only needed if you're using *Descope* for SSO integration.
+    A save reminder appears at the bottom of the page. Click `Save` to save your SSO configuration. This is optional and only needed if you're using *Descope* for SSO integration.
   </Step>
 </Steps>
 
@@ -100,10 +100,10 @@ Configure SSO (Single Sign-On) integration using a tenant ID for *Descope* integ
 
 Permanently delete your organization and all associated data. This action cannot be undone.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/deleting_org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/deleting_org.png" alt="" align="center" fullwidth="true" />
 
 <Callout type="alert">
-  Deleting an organization is permanent and irreversible. This will permanently delete all organization data, team data, member associations, and billing information. Subscriptions will be cancelled. Make sure you have backups of any important data before proceeding.
+  Deleting an organization is permanent and irreversible. This will permanently delete all organization data, member associations, and billing information. Subscriptions will be cancelled. Make sure you have backups of any important data before proceeding.
 </Callout>
 
 <Steps>
@@ -114,7 +114,6 @@ Permanently delete your organization and all associated data. This action cannot
   <Step title="Read Warning">
     Review the warning message that explains what will be deleted:
     * All organization data and settings
-    * All team data within this organization
     * All member associations
     * All billing and subscription information (subscriptions will be cancelled)
   </Step>
@@ -132,4 +131,4 @@ Permanently delete your organization and all associated data. This action cannot
 
 ## Next Steps
 
-Now that you understand general settings, explore other organization settings like [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide features, or check out [API Keys Settings](/products/organizations-and-teams/settings-api-keys) to configure AI service credentials.
+Now that you understand general settings, explore other organization settings like [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide features, or check out [Models](/products/organizations-and-teams/settings-models) (including the API Keys tab) to configure AI providers and credentials.

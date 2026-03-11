@@ -101,7 +101,7 @@ If you've joined a new organization but cannot use Pieces until you configure mo
   </Step>
 
   <Step title="Save Changes">
-    Click the `Save` button to save your model selections. After saving, you should be able to use Pieces with your organization.
+    A save reminder appears at the bottom of the page. Click `Save` to apply your model selections. After saving, you should be able to use Pieces with your organization.
   </Step>
 </Steps>
 

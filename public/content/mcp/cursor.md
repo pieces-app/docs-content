@@ -73,11 +73,37 @@ You can also do this in the Pieces Desktop App by opening the **Settings** view 
 
 ## Setting Up Cursor
 
-Read below for steps on setting up the Pieces MCP in your Cursor IDE using the global MCP configuration method—or watch the video below for a tutorial and live demo.
+There are two ways to set up Pieces MCP for Cursor: use the Pieces CLI for automatic configuration, or configure manually.
+
+### One-Click Install
+
+Install Pieces MCP in Cursor with a single click. Ensure [PiecesOS is running](/products/core-dependencies/pieces-os) and [Long-Term Memory is enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) before clicking.
+
+<mcp-install-badges platforms="cursor" />
 
 <Embed src="https://www.youtube.com/watch?v=joqJbr9MV8k" />
 
-### via Global MCP Configuration
+### Method 1: CLI Install (Recommended)
+
+The Pieces CLI can automatically configure Pieces MCP for Cursor—no manual config editing required.
+
+<Steps>
+  <Step title="Install the Pieces CLI">
+    Install the [Pieces CLI](/products/cli/get-started) if you haven't already.
+  </Step>
+  <Step title="Run the Setup Command">
+    In your terminal, run:
+
+    ```bash
+    pieces mcp setup
+    ```
+  </Step>
+  <Step title="Select Cursor">
+    A platform selection menu appears with options: *VS Code*, *Cursor*, *Claude Desktop*, *Windsurf*, *Claude Code*, *Raycast*, and *Warp*. Use the arrow keys to navigate to *Cursor*, then press `return` (macOS) or `enter` (Windows/Linux) to auto-install.
+  </Step>
+</Steps>
+
+### Method 2: Manual Configuration (Global MCP)
 
 To set up the Pieces MCP, you can edit the `.json` settings configuration file from within **Cursor Settings.**
 
@@ -169,7 +195,7 @@ If you’re experiencing issues integrating Pieces MCP with Cursor, follow these
 
 8. **Review Configuration Details**: Double-check the MCP endpoint URL and the port number in Cursor settings to ensure accuracy. You can find the current MCP endpoint URL in the Pieces Desktop App under **Settings** → **Model Context Protocol (MCP)**, or in the PiecesOS Quick Menu. It is usually formatted as:
 
-```scss
+```text
 http://localhost:{port_number}/model_context_protocol/2025-03-26/mcp
 ```
 

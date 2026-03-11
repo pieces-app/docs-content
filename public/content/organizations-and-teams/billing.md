@@ -10,32 +10,53 @@ metaDescription: Guide to managing organization subscriptions, seat counts, bill
 
 ## Billing
 
-The Billing tab allows you to manage your organization's subscription, view billing details, update seat counts, and configure billing addresses. All billing changes are processed through the *Paddle* payment system.
+The Billing page allows you to manage your organization's subscription, view billing details, adjust seat counts, and add billing contact information.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/billing/org-billing-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="" align="center" fullwidth="true" />
 
-> Billing tab showing subscription details, seat count, and billing address options
+> Billing tab showing subscription information, seats, and billing contact
 
-
-### Viewing Subscription Information
-
-Access your current subscription details, billing amounts, and important dates.
+## How to Get to Billing
 
 <Steps>
-  <Step title="Navigate to Billing">
-    From your *organization overview* page, click `Billing` in the *sidebar* navigation.
+  <Step title="Open the Portal">
+    Go to [portal.pieces.app](https://portal.pieces.app) and sign in. Select your organization from the *sidebar* dropdown if needed.
   </Step>
+  <Step title="Open Billing">
+    Click `Billing` in the *sidebar* navigation.
+  </Step>
+</Steps>
 
+## Viewing Subscription Information
+
+<Steps>
+  <Step title="Open Billing">
+    Go to [portal.pieces.app](https://portal.pieces.app), sign in, and select your organization. Click `Billing` in the sidebar.
+  </Step>
   <Step title="View Current Plan">
-    The *Billing* page displays your current subscription plan (e.g., "Enterprise Seat Yearly") and subscription status (Active or Canceled).
+    The *Subscription Information* section displays your current plan (e.g., "Enterprise Seat Yearly") and subscription status shown as an *Active* or *Canceled* badge.
   </Step>
 
-  <Step title="Review Billing Details">
-    View important billing information:
-    * **Billing Amount**: Your subscription cost (e.g., "$275.99 / year")
-    * **Total for X seats**: Total cost based on current seat count
-    * **Subscription Started**: Date when your subscription began
-    * **Next Billing Date**: When your next payment will be processed
+  <Step title="Review Pricing and Dates">
+    The *Billing* section shows your pricing breakdown:
+    * **Price** — Cost per seat per billing period (e.g., "$275.99/seat per year")
+    * **Total** — Combined cost for all seats (e.g., "$275.99 per year")
+    * **Next billing date** — When your next payment will be processed
+    * **Started** — Date when your subscription began
+  </Step>
+</Steps>
+
+### Changing or Managing Your Plan
+
+Update your subscription plan or apply discounts from the *Subscription Information* section.
+
+<Steps>
+  <Step title="Change Plan">
+    Click the `Change plan` button to view available plans and switch your subscription to a different billing period or tier.
+  </Step>
+
+  <Step title="Add Discount">
+    Click the `Add discount` button to apply a discount code to your subscription.
   </Step>
 </Steps>
 
@@ -45,68 +66,44 @@ Update the number of seats in your subscription to accommodate more or fewer tea
 
 <Steps>
   <Step title="Adjust Seat Count">
-    In the *Billing* page, find the *seat count* field. Use the `+` and `-` buttons to increase or decrease the number of seats, or type a number directly into the field.
+    In the *Seats* section, use the `+` and `-` buttons to increase or decrease the number of seats, or type a number directly into the field.
   </Step>
 
   <Step title="Review Minimum Seats">
-    Note the minimum seats requirement shown below the seat count (e.g., "Minimum seats: 1 (based on 1 active member)"). You cannot set seats below this minimum.
-  </Step>
-
-  <Step title="Update Seats">
-    Click the `Update Seats` button to proceed with the seat change. This will open the billing window where you can review the new total and complete payment for the updated subscription.
-  </Step>
-
-  <Step title="Complete Payment">
-    In the *billing* window, review the updated subscription details and complete payment through *Paddle*. Your seat count will update immediately after payment confirmation.
+    Below the seat count, a message shows how many members you have and the minimum seats required (e.g., "You have 1 member, so you need at least 1 seats"). You cannot set seats below this minimum.
   </Step>
 </Steps>
 
-## Configuring Billing Address
+## Billing Contact
 
-Configure or update your organization's billing address for invoices and payment processing.
+Add or update billing contact information for invoices and payment correspondence. The *Billing Contact* section is located below the *Subscription Information* and *Seats* sections on the Billing page.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/billing_address.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_contact_billing_tab.png" alt="" align="center" fullwidth="true" />
 
-> Billing Address section showing address fields and edit button
+> Billing Contact section with fields for name, email, phone, and address
 
 <Steps>
-  <Step title="Locate Billing Address Section">
-    Scroll down on the *Billing* page to find the *Billing Address* section.
+  <Step title="Navigate to Billing">
+    From your organization's `Home` page, click `Billing` in the *sidebar* navigation.
   </Step>
 
-  <Step title="Click Edit Address">
-    Click the `Edit Address` button in the top right of the *Billing Address* section.
+  <Step title="Locate Billing Contact Section">
+    Scroll down past the *Subscription Information* and *Seats* sections. The *Billing Contact* section appears below, with fields for Name, Email, Phone, Country, Street address, City, State, and ZIP Code.
   </Step>
 
-  <Step title="Enter Address Information">
-    Fill in all required *billing address* fields:
-    * *Billing Contact*
-    * *Billing Email*
-    * *Billing Phone*
-    * *Billing Country*
-    * *Billing Street Address*
-    * *Billing City*
-    * *Billing State*
-    * *Billing ZIP Code*
-  </Step>
-
-  <Step title="Save Address">
-    Click `Save` to save your billing address. This address will be used for invoices and payment processing.
+  <Step title="Add or Update Contact Information">
+    If no billing contact is on file, click the `Add` button to enter your billing contact details. If a contact exists, edit the fields directly. A save reminder appears at the bottom of the page. Click `Save` to apply.
   </Step>
 </Steps>
 
 ## Understanding Seat Minimums
 
-Your organization must maintain a minimum number of seats based on your active member count. Understanding seat minimums helps you manage your subscription effectively.
+Your organization must maintain a minimum number of seats based on your active member count.
 
-Key points about seat minimums:
-
-* **Active Members** - Each active member requires one seat
-* **Minimum Calculation** - Minimum seats = Number of active members
-* **Seat Reduction** - You can only reduce seats if you first remove members to free up seats
-* **Seat Increase** - You can add seats at any time, which will be billed according to your subscription plan
-
-When you try to reduce seats below the minimum, you'll see a warning indicating how many active members you have and the minimum seat requirement.
+* **Active Members** — Each active member requires one seat
+* **Minimum Calculation** — Minimum seats equals the number of active members
+* **Seat Reduction** — You can only reduce seats if you first remove members to free up seats
+* **Seat Increase** — You can add seats at any time, billed according to your subscription plan
 
 ***
 

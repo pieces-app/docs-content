@@ -109,13 +109,13 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
   </Step>
 
   <Step title="Add MCP Server Configuration">
-    Paste the following JSON, adjusting the path to your `pieces.exe` if different:
+    Paste the following JSON into your Claude config file, adjusting the path to your `pieces` executable for your OS:
 
-    ```powershell
-    jsonCopyEdit{
+    ```json
+    {
       "mcpServers": {
-        "Pieces": {
-          "command": "C:\\Users\\<YourUser>\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\pieces.exe",
+        "pieces": {
+          "command": "/Users/<YourUser>/venv/bin/pieces",
           "args": [
             "--ignore-onboarding",
             "mcp",
@@ -125,6 +125,10 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
       }
     }
     ```
+
+    **Path examples by OS:**
+    * **macOS/Linux** — `/Users/<YourUser>/venv/bin/pieces` or `~/.local/bin/pieces`
+    * **Windows** — `C:\Users\<YourUser>\AppData\Local\Programs\Python\Python3XX\Scripts\pieces.exe`
   </Step>
 
   <Step title="Save & Restart Claude Desktop">
@@ -158,16 +162,10 @@ This method uses the Pieces CLI to automatically set up and configure Pieces MCP
     Run:
 
     ```powershell
-    pieces mcp setup --claude
+    pieces mcp setup
     ```
 
-    This will:
-
-    * Detect your Claude Desktop MCP config location.
-
-    * Insert the correct `mcpServers` entry for Pieces.
-
-    * Point Claude directly to the MCP server without requiring manual JSON edits.
+    A platform selection menu appears with these options: *VS Code*, *Cursor*, *Claude Desktop*, *Windsurf*, *Claude Code*, *Raycast*, and *Warp*. Use the arrow keys to navigate, hover over *Claude Desktop* or *Claude Code*, then press `return` (macOS) or `enter` (Windows/Linux) to auto-install the MCP.
   </Step>
 
   <Step title="Restart Claude Desktop">
@@ -190,7 +188,7 @@ Configure Pieces MCP for Claude Code to make it available across all your projec
     In your terminal, run the following command:
 
     ```bash
-    claude mcp add --scope user PiecesMCP --transport sse http://localhost:39300/model_context_protocol/2025-03-26/mcp
+    claude mcp add --scope user pieces --transport http http://localhost:39300/model_context_protocol/2025-03-26/mcp
     ```
 
     The `--scope user` flag makes Pieces MCP available globally across all your Claude Code projects, rather than just the current directory.
@@ -233,7 +231,7 @@ If you're experiencing issues integrating [Pieces MCP](/products/mcp/get-started
    Ensure PiecesOS is actively running on your system.
 
 2. **Confirm LTM Engine Activation**\
-   [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-27-engine) must be enabled in PiecesOS.
+   [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) must be enabled in PiecesOS.
 
 3. **Single MCP Instance**\
    Avoid running multiple Pieces MCP instances in different apps simultaneously.
@@ -246,7 +244,7 @@ If you're experiencing issues integrating [Pieces MCP](/products/mcp/get-started
    If using *Method 2*, rerun:
 
    ```powershell
-   pieces mcp setup --claude
+   pieces mcp setup
    ```
 
 ***

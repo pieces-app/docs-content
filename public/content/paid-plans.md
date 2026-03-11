@@ -223,6 +223,10 @@ Proceed through the purchase form to enter your contact and payment information.
     Check the purchase overview on the right, and switch to annual billing if desired.
   </Step>
 
+  <Step title="Apply a Discount Code (Optional)">
+    Look for the small green `Add discount` text above the credit card fields. Click it to reveal the discount code input, enter your code, and apply. The totals will update to reflect the discounted price. Apply your code *before* completing payment—most codes cannot be applied retroactively.
+  </Step>
+
   <Step title="Proceed to Payment">
     Click `Continue` to advance to the payment form.
   </Step>
@@ -245,7 +249,7 @@ Proceed through the purchase form to enter your contact and payment information.
 After completing your purchase, you'll receive an email receipt along with a separate message containing your subscription details and direct links to update your payment method or cancel your subscription.
 
 <Callout type="tip">
-  **Not seeing your Pro status?** Restart the Pieces Desktop app to force sync your account with the latest subscription status.
+  Restart the Pieces Desktop app to force sync your account with the latest subscription status if Pro status doesn't appear.
 </Callout>
 
 ## Billing & Account Management
@@ -347,6 +351,15 @@ Browse your billing history in the *Payments* tab. Click `any entry` to view a c
 </Callout>
 
 ## Troubleshooting
+
+### Discount Code Not Working?
+
+* **Check for typos** — Discount codes are usually case-sensitive. Enter the code exactly as provided.
+* **Verify expiration** — Some codes have an expiration date. Confirm your code is still valid.
+* **Plan eligibility** — Certain codes may only apply to Pieces Pro or Pieces Enterprise. Ensure the code matches the plan you're purchasing.
+* **Apply before paying** — Make sure you clicked `Apply` after entering the code. It won't auto-apply. If the discount still doesn't appear, refresh the page and re-enter the code.
+
+### Blank Upgrade Page or Checkout Error
 
 If you're seeing a blank upgrade page with a minimal table showing $0.00 for all values, followed by an error that returns you to the previous screen, this is a known issue related to our payments pipeline.
 

@@ -29,6 +29,15 @@ If you’re experiencing difficulties installing PiecesOS or the Pieces Desktop 
   If you’re unsure which `.dmg` or `.pkg` you need based on your device’s CPU, [click here.](/products/meet-pieces/troubleshooting/macos#checking-cpu-type)
 </Callout>
 
+### via DMG Files
+
+Make sure to select the correct Pieces `.dmg` files for your macOS device—Apple Silicon (ARM) or Intel.
+
+| **Apple Silicon (ARM)**                                                                                                                                                                  | **Intel**                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a target="_blank" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces Desktop App DMG for macOS (ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces Desktop App DMG for macOS (Intel)</a> |
+| <a target="_blank" href="https://builds.pieces.app/stages/production/os_server/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download PiecesOS DMG for macOS (ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE">Download PiecesOS DMG for macOS (Intel)</a>              |
+
 ### via PKG Files
 
 Make sure to select the correct Pieces `.pkg` for your macOS device—Apple Silicon (ARM) or Intel.
@@ -36,15 +45,6 @@ Make sure to select the correct Pieces `.pkg` for your macOS device—Apple Sili
 | **Apple Silicon (ARM)**                                                                                                                                                                                      | **Intel**                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Apple Silicon / ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces PKG for macOS (Intel)</a> |
-
-### via DMG Files
-
-Make sure to select the correct Pieces `.dmg` files for your macOS device—Apple Silicon (ARM) or Intel.
-
-| **Apple Silicon (ARM)**                                                                                                                                                                  | **Intel**                                                                                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a target="_blank" href="https://builds.pieces.app/stages/production/os_server/dmg-arm64/download?download=true&product=DOCUMENTATION_WEBSITE">Download PiecesOS DMG for macOS (ARM)</a> | <a target="_blank" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE">Download PiecesOS DMG for macOS (Intel)</a>              |
-| [Download Pieces Desktop App DMG for macOS (ARM)](https://builds.pieces.app/stages/production/pieces_for_x/dmg-arm64/download?download=true\&product=DOCUMENTATION_WEBSITE)              | <a target="_blank" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE">Download Pieces Desktop App DMG for macOS (Intel)</a> |
 
 ### via Homebrew
 

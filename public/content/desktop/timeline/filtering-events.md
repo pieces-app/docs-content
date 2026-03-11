@@ -157,7 +157,7 @@ When viewing summaries in Timeline, you can filter by specific applications that
 > Hovering over a summary showing interactive application icons (Chrome, Cursor, etc.) that can be clicked to filter
 
 <Callout type="tip">
-  Filtering by applications from summaries helps you understand which tools contributed to specific summaries and find related activities from those same applications.
+The fastest way to narrow down a long Timeline is to tap a **tag** or **source** directly on a summary. Tapping a tag (e.g., project name) or source (e.g., VS Code icon) filters to only show summaries with that tag or source—helping you distill thousands of entries down to a handful of relevant ones.
 </Callout>
 
 ## Filtering by Favorites
@@ -177,7 +177,7 @@ Show only events you've marked as favorites in your Timeline.
 </Steps>
 
 <Callout type="info">
-  To favorite an event, open the event's `three-dots menu` and select "Favorite." Learn more about favoriting events in [Event Actions and Menus](/products/desktop/timeline/event-actions).
+  To favorite an event, open the event's `three-dots menu` and select `Favorite`. Learn more about favoriting events in [Event Actions and Menus](/products/desktop/timeline/event-actions).
 </Callout>
 
 ## Clearing Filters

@@ -14,13 +14,13 @@ Create a new organization to start collaborating with your team, or accept an in
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/organizations-and-teams/create_organization.png" alt="" align="center" fullwidth="true" />
 
-> Account settings page showing Organizations & Teams section with Create organization button
+> Modal showing the walkthrough of creating an organization
 
 ## Creating an Organization
 
 Set up a new organization to start collaborating with your team. The creation process includes selecting a subscription plan and configuring initial settings.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/hovering_create_org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/hovering_create_org_new.png" alt="" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Access Creation Flow">
@@ -90,4 +90,4 @@ Accept an invitation to join an existing organization and start collaborating wi
 
 ## Next Steps
 
-Now that you've created or joined an organization, learn about [managing organizations](/products/organizations-and-teams/managing-organizations) to explore member management, billing, and settings, or check out the [Organization Overview](/products/organizations-and-teams/organization-overview) to learn how to navigate your organization dashboard.
+Now that you've created or joined an organization, learn about [managing organizations](/products/organizations-and-teams/managing-organizations) to explore member management, billing, and settings, or check out the [Organization Home page](/products/organizations-and-teams/organization-overview) to learn how to navigate your organization dashboard.

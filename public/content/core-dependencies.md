@@ -10,7 +10,6 @@ metaDescription: Learn about PiecesOS, the core dependency that powers the Piece
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="" align="center" fullwidth="true" />
 
-***
 
 ## What Are Core Dependencies?
 

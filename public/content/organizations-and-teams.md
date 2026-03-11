@@ -3,9 +3,9 @@ title: Organizations & Teams
 path: /desktop/organizations-and-teams
 visibility: PUBLIC
 status: PUBLISHED
-description: Create and manage organizations and teams to collaborate with others, share resources, and maintain consistent settings across your team in Pieces.
+description: Create and manage organizations to collaborate with others, share resources, and maintain consistent settings across your organization in Pieces.
 metaTitle: Organizations & Teams in Pieces Desktop | Pieces Docs
-metaDescription: Learn how to create organizations, invite team members, manage team settings, and collaborate effectively with your team in Pieces.
+metaDescription: Learn how to create organizations, invite members, manage settings, and collaborate effectively with your organization in Pieces.
 ---
 
 
@@ -15,13 +15,12 @@ metaDescription: Learn how to create organizations, invite team members, manage 
 />
 
 
-***
 
 ## Creating and Joining Organizations
 
-Create a new organization to start collaborating with your team, or accept an invitation to join an existing organization. As an organization owner, you'll have full control over team settings, member access, and shared resources.
+Create a new organization to start collaborating with your team, or accept an invitation to join an existing organization. As an organization owner, you'll have full control over organization settings, member access, and shared resources.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/hovering_create_org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/hovering_create_org_new.png" alt="" align="center" fullwidth="true" />
 
 > Account settings page showing Organizations & Teams section with Create organization button
 
@@ -33,21 +32,21 @@ Create a new organization to start collaborating with your team, or accept an in
 
 As an organization owner or admin, you can manage members, configure settings, control billing, and oversee all aspects of your organization. Access powerful admin features to maintain team-wide consistency and control.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/organization_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
 
-> Organization overview page showing updates, members, teams, billing, and settings options
+> Organization Home page showing management tools, setup instructions, and resource links
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/managing-organizations" colored={false}>
-  Explore organization management features including member management, billing, teams, and settings configuration.
+  Explore organization management features including member management, billing, and settings configuration.
 </FancyCard>
 
 ## Organization Member Guide
 
-As a member of an organization, you can collaborate with your team, post updates, view shared content, and participate in team activities. Understand what you can do and how your role affects your access and permissions.
+As a member of an organization, you can collaborate with your team, view shared resources, and participate in team activities. Understand what you can do and how your role affects your access and permissions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/organization-overview/organization-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
 
-> Organization overview page from a member's perspective showing available features and limitations
+> Organization Home page from a member's perspective showing available features
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/organization-member-guide" colored={false}>
   Learn about member features, permissions, and how to effectively collaborate within your organization.
