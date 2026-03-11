@@ -183,6 +183,16 @@ LTM Audio, also known as Audio Ingestion, enables the Long-Term Memory Engine to
   </TabItem>
 </Tabs>
 
+### Querying Your LTM Audio Context
+
+Once LTM Audio is enabled and you've had meetings or conversations, you can query that audio context in [Conversational Search](/products/desktop/conversational-search) just like any other LTM data. Example queries:
+
+* *"What was discussed in yesterday's standup about the blockers on the API migration?"*
+* *"What action items came out of yesterday's sprint planning meeting?"*
+* *"Summarize the key takeaways from today's board meeting."*
+
+See the [LTM prompting guide](/products/quick-guides/ltm-prompting) for more query strategies.
+
 ## Performance
 
 Optimize system resources and manage memory usage for the Long-Term Memory Engine.

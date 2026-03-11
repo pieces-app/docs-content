@@ -10,7 +10,6 @@ metaDescription: Understand the benefits and importance of using the Pieces Rayc
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/raycast/raycast.png" alt="" align="center" fullwidth="true" />
 
-***
 
 <Callout type="alert">
   V2 Documentation for the Pieces extension for the Raycast productivity tool is under construction.

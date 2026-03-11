@@ -12,17 +12,26 @@ metaDescription: Comprehensive guide to managing organization members, roles, an
 
 The Members tab provides a comprehensive view of all organization members, seat usage, pending invitations, and member management tools. Use this section to track membership, update roles, and manage access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-member-guide/member-overview/member-overview-orgn.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
 
 > Members tab showing seat usage, current members list, and pending invites
 
-## Viewing Members and Seat Usage
+## How to Get to Members
 
-Access the Members tab to see current members, seat allocation, and pending invitations.
+<Steps>
+  <Step title="Open the Portal">
+    Go to [portal.pieces.app](https://portal.pieces.app) and sign in. Select your organization from the *sidebar* dropdown if needed.
+  </Step>
+  <Step title="Open Members">
+    Click `Members` in the *sidebar* navigation.
+  </Step>
+</Steps>
+
+## Viewing Members and Seat Usage
 
 <Steps>
   <Step title="Navigate to Members">
-    From your *organization overview* page, click `Members` in the *sidebar* navigation.
+    From your organization's `Home` page, click `Members` in the *sidebar* navigation.
   </Step>
 
   <Step title="View Seat Usage">
@@ -72,7 +81,7 @@ Update member roles to change their permissions and access levels within the org
   </Step>
 
   <Step title="Save Changes">
-    Click `Save` to apply the role change. The member's permissions will update immediately.
+    A save reminder appears at the bottom of the page. Click `Save` to apply the role change. The member's permissions will update immediately.
   </Step>
 </Steps>
 
@@ -113,4 +122,4 @@ Understanding how seats work helps you manage your organization effectively:
 
 ## Next Steps
 
-Now that you understand member management, learn about [billing](/products/organizations-and-teams/billing) to manage your subscription and seat count, or explore [managing teams](/products/organizations-and-teams/managing-teams) to organize members into smaller groups.
+Now that you understand member management, learn about [billing](/products/organizations-and-teams/billing) to manage your subscription and seat count.

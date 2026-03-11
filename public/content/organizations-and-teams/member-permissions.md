@@ -16,6 +16,10 @@ Understanding your role and permissions helps you know what you can do within yo
 
 Organizations have four main roles with different permission levels. Each role determines what you can do within the organization.
 
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
+
+> Members tab showing seat usage and member list with role indicators
+
 The four roles are:
 
 * **Owner** - Full control including organization deletion
@@ -34,21 +38,13 @@ Members with the Read role have the most limited access. They can view content b
 
 **What Read members CAN do:**
 
-* View organization overview and recent updates
+* View organization Home page and resources
 * View organization members list
-* View teams and team updates
-* Add reactions to updates
-* View comments on updates
-* Access support resources
 
 **What Read members CANNOT do:**
 
-* Post updates or create content
-* Comment on updates
 * Invite or manage members
 * Access billing or settings
-* Create or delete teams
-* Edit or delete any content
 
 ### Write Role Permissions
 
@@ -56,18 +52,12 @@ Members with the Write role can create and edit content but cannot manage the or
 
 **What Write members CAN do:**
 * Everything Read members can do, plus:
-* Post content updates
-* Comment on updates
-* Edit their own updates
-* Delete their own updates
 * Create and manage their own content
 
 **What Write members CANNOT do:**
 * Invite or manage members
 * Change member roles
 * Access billing or settings
-* Create or delete teams (from settings)
-* Edit or delete content created by others
 * Manage organization-wide settings
 
 ### Admin Role Permissions
@@ -80,7 +70,6 @@ Admins have extensive access but cannot delete the organization.
 * Change member roles
 * Access billing and manage subscriptions
 * Configure organization settings
-* Create and delete teams
 * Manage all organization content
 
 **What Admins CANNOT do:**
@@ -102,7 +91,7 @@ Your role determines what you see and can do in the organization interface:
 * **Sidebar Navigation** - Read and Write members see fewer options than Admins and Owners
 * **Action Buttons** - Some buttons (like `Invite people`) only appear for Admins and Owners
 * **Settings Access** - Only Admins and Owners can access the *Settings* and *Billing* sections
-* **Content Management** - Your ability to create, edit, and delete content depends on your role
+* **Content Management** - Your ability to manage content depends on your role
 
 ## Requesting Access Changes
 

@@ -61,13 +61,13 @@ If both machines are on the same LAN:
 
 If machines are **not** on the same LAN:
 
-1. Install <a target="_blank" href="https://ngrok.com/download">ngrok</a> or <a target="_blank" href="https://tailscale.com/">Tailscale</a> on the machine with Pieces OS.
+1. Install <a target="_blank" href="https://ngrok.com/download">ngrok</a> or <a target="_blank" href="https://tailscale.com/">Tailscale</a> on the machine with Pieces OS. See [ngrok Setup](/products/mcp/ngrok-setup) for MCP-specific setup.
 
 2. Run: `ngrok http 39300`
 
 3. Copy the public forwarding URL.
 
-4. In VS Code, set it as the `Pieces: Custom URL` (see steps above).
+4. In VS Code, set the public forwarding URL you copied as the `Pieces: Custom URL`.
 
 5. Reload the VS Code window.
 

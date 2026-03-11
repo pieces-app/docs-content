@@ -114,6 +114,12 @@ Use some of these time-based example prompts to ask Pieces Copilot to provide ac
   </Step>
 </Steps>
 
+### More Examples by Time Horizon
+
+**Daily / 24–48 hours:** "Generate my standup for today: what I accomplished in the past 24 hours, what I'm working on, and any blockers." | "What follow-ups came up in my emails and meetings over the past 48 hours?"
+
+**Weeks to months:** "Find the conversation I had with my team a few weeks ago about [topic] and summarize what we decided." | "Based on my work over the past quarter, give me a performance review."
+
 ## Get Next Steps
 
 Pieces can detect any upcoming activities, such as tasks in a task management tool, emails in your inbox, or discussions around future work in chat tools.

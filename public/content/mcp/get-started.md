@@ -145,15 +145,58 @@ Let’s take a look at the Pieces + MCP flow as you’d experience it in a famil
 
 Explore how quickly MCP enhances your productivity by delivering deep, personalized context directly to your AI-driven coding flow.
 
-To begin using Pieces MCP, [install and launch PiecesOS](/products/core-dependencies/pieces-os/manual-installation) on your system, then follow our integration documentation for setting up the MCP server within your favorite IDE:
+To begin using Pieces MCP, [install and launch PiecesOS](/products/core-dependencies/pieces-os/manual-installation) on your system, then follow our integration documentation for setting up the MCP server within your favorite IDE or tool:
 
-* [Pieces MCP + Claude Desktop & Claude Code Integration Guide](/products/mcp/claude-desktop)
+### One-Click Install (Cursor & VS Code)
 
-* [Pieces MCP + Cursor Integration Guide](/products/mcp/cursor)
+If you use Cursor or VS Code, install Pieces MCP with a single click. Ensure [PiecesOS is running](/products/core-dependencies/pieces-os) and [Long-Term Memory is enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) first.
 
-* [Pieces MCP + GitHub Copilot Integration Guide](/products/mcp/github-copilot)
+<mcp-install-badges platforms="cursor,vscode" />
 
-* [Pieces MCP + Goose Integration Guide](/products/mcp/goose)
+### Setup Tools
+
+* [mcp-remote Stdio Bridge](/products/mcp/mcp-remote) — Connect stdio-only clients to PiecesOS
+* [ngrok Setup](/products/mcp/ngrok-setup) — Expose PiecesOS for remote MCP access
+
+### Platform Integrations
+
+* [Pieces MCP + Cursor](/products/mcp/cursor)
+
+* [Pieces MCP + Claude Desktop](/products/mcp/claude-desktop)
+
+* [Pieces MCP + Claude Code](/products/mcp/claude-code)
+
+* [Pieces MCP + Claude Cowork](/products/mcp/claude-cowork)
+
+* [Pieces MCP + GitHub Copilot](/products/mcp/github-copilot)
+
+* [Pieces MCP + VS Code](/products/mcp/vs-code)
+
+* [Pieces MCP + Goose](/products/mcp/goose)
+
+* [Pieces MCP + Windsurf](/products/mcp/windsurf)
+
+* [Pieces MCP + Zed](/products/mcp/zed)
+
+* [Pieces MCP + JetBrains IDEs](/products/mcp/jetbrains-ides)
+
+* [Pieces MCP + Continue.dev](/products/mcp/continue-dev)
+
+* [Pieces MCP + Cline](/products/mcp/cline)
+
+* [Pieces MCP + Raycast](/products/mcp/raycast)
+
+* [Pieces MCP + Rovo Dev CLI](/products/mcp/rovo-dev-cli)
+
+* [Pieces MCP + OpenAI Codex CLI](/products/mcp/openai-codex-cli)
+
+* [Pieces MCP + Google Gemini CLI](/products/mcp/google-gemini-cli)
+
+* [Pieces MCP + Amazon Q Developer](/products/mcp/amazon-q-developer)
+
+* [Pieces MCP + ChatGPT Developer Mode](/products/mcp/chatgpt-developer-mode)
+
+* [Pieces MCP + OpenClaw](/products/mcp/openclaw)
 
 ***
 

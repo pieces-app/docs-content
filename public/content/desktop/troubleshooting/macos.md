@@ -21,20 +21,24 @@ You can also find information below on how to determine the CPU architecture and
 
 <on-device-storage />
 
-## Manual Installation Methods
+## Alternative Installation Methods
 
-If you're having trouble installing PiecesOS or the Pieces Desktop App, you can manually install both software by downloading the standalone `.dmg` files or using terminal commands, instead of the recommended `.pkg` method.
+If you're having trouble installing the Pieces Desktop App using the recommended `.dmg` method, you can try installing using our unified `.pkg` installers or via Homebrew.
+
+### via PKG
+
+Our `.pkg` files install both PiecesOS and the Pieces Desktop App in a single guided sequence.
 
 <Callout type="alert">
-  If you’re not sure which `.dmg` you need based on your device’s CPU, [click here.](/products/desktop/troubleshooting/macos#checking-cpu-type)
+  If you’re not sure which installer you need based on your device’s CPU, [click here.](/products/desktop/troubleshooting/macos#checking-cpu-type)
 </Callout>
 
 <CardGroup cols={2}>
-  <Card title="Pieces Desktop App — ARM .DMG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/os_server/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Pieces Desktop App — ARM .PKG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd-arm64/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *macOS 13.0 (Ventura) or higher*
   </Card>
 
-  <Card title="Pieces Desktop App — Intel .DMG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/dmg/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
+  <Card title="Pieces Desktop App — Intel .PKG" image="/assets/icons/platform_logos/macos_logo.png" href="https://builds.pieces.app/stages/production/macos_packaging/pkg-pfd/download?download=true&product=DOCUMENTATION_WEBSITE" external="true">
     *macOS 13.0 (Ventura) or higher*
   </Card>
 </CardGroup>

@@ -11,18 +11,18 @@ metaDescription: Learn about member features, permissions, and how to effectivel
 
 ## Organization Member Guide
 
-As a member of an organization, you can collaborate with your team, post updates, view shared content, and participate in team activities. This guide explains what you can do as a member and how your role affects your access and permissions.
+As a member of an organization, you can collaborate with your team, view shared resources, and participate in team activities. This guide explains what you can do as a member and how your role affects your access and permissions.
 
-## Organization Overview
+## Organization Home
 
-Access your organization dashboard to view updates, post content, and interact with your team. Members can participate in team collaboration while having limited administrative access.
+Access your organization's Home page to get set up with Pieces and collaborate with your team. Members can view resources and participate in team activities while having limited administrative access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-member-guide/member-overview/member_org_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
 
-> Organization overview page from a member's perspective showing available features
+> Organization Home page from a member's perspective showing available features
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/member-overview" colored={false}>
-  Learn how to navigate your organization dashboard, post updates, and interact with team content as a member.
+  Learn how to navigate your organization Home page and collaborate with your team as a member.
 </FancyCard>
 
 ## Understanding Member Permissions

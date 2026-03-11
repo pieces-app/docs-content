@@ -113,6 +113,12 @@ Use Sources and Time Ranges together for precise queries—for example, "Chrome 
 
 ## Working with Responses
 
+### Ask Follow-Up About Selected Text
+
+Highlight any text in an AI response and click `Ask follow-up` to add it as context for your next message. The selected text appears in a context box above the chat input—type your follow-up question and send. The box can be dismissed with the `X` icon if you change your mind.
+
+### Response Toolbar Actions
+
 All response actions are available in the *toolbar* below each response:
 
 * **Copy:** Click the `clipboard icon` to copy the entire response to your clipboard

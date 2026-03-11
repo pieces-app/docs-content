@@ -30,12 +30,16 @@ On Linux, the Pieces Desktop App is distributed via snaps (for Ubuntu-based syst
 To update the Pieces Desktop App on Linux:
 
 <Steps>
-  <Step title="Check the Current Version">
-    Running `snap info pieces-for-developers` to check the current version
+  <Step title="Quit Apps Before Updating (Recommended)">
+    For best results, quit the Pieces Desktop App and PiecesOS before updating. This ensures a clean shutdown and avoids conflicts. After updating, launch PiecesOS first, then the Desktop App.
   </Step>
 
-  <Step title="Check for Updates">
-    Running `sudo snap refresh` to apply any available updates
+  <Step title="Check the Current Version">
+    Run `snap info pieces-for-developers` to check the current version.
+  </Step>
+
+  <Step title="Apply Updates">
+    Run `sudo snap refresh pieces-for-developers pieces-os` to update both. Use `sudo snap refresh` to update all snap packages.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_PFD.gif" alt="" align="center" fullwidth="true" />
   </Step>

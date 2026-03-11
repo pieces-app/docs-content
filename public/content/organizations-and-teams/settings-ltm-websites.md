@@ -3,114 +3,118 @@ title: LTM Websites Settings
 path: /desktop/organizations-and-teams/settings-ltm-websites
 visibility: PUBLIC
 status: PUBLISHED
-description: Configure which websites Pieces is denied from accessing for the workstream pattern engine.
+description: Configure which websites are blocked from Long Term Memory context capture.
 metaTitle: LTM Websites Settings | Pieces Docs
-metaDescription: Learn how to manage denied websites and control Pieces' access to specific URLs.
+metaDescription: Learn how to enable LTM website management and block specific websites from Long Term Memory.
 ---
 
 ## LTM Websites Settings
 
-The LTM Websites settings tab allows you to configure which websites Pieces is denied from accessing for the workstream pattern engine. You can add individual URLs or bulk upload via CSV, and these settings automatically sync to all team members' Pieces Desktop installations.
+The LTM Websites settings allow you to configure which websites are blocked from Long Term Memory. You must **enable** *Organization managed denied websites* in the General tab first; then use the *Websites* tab to add blocked sites. **Disable** the toggle to fully turn off organization-managed website blocking. These settings automatically sync to all team members' Pieces Desktop and PiecesOS installations.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/ltm_websites.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_websites.png" alt="" align="center" fullwidth="true" />
 
-> LTM Websites settings tab showing denied websites list and upload options
+> Blocked websites list with add input and CSV upload
 
 <Callout type="info">
-  All LTM website settings configured here automatically sync to team members' Pieces Desktop installations, ensuring consistent website access control across your team.
+  All LTM website settings configured here automatically sync to team members' Pieces Desktop and PiecesOS installations, ensuring consistent blocked website lists across your team.
 </Callout>
 
 ## Accessing LTM Websites Settings
 
-Navigate to the LTM Websites settings tab to configure denied websites. These settings control which websites Pieces is denied from accessing for the workstream pattern engine.
+Enable the toggle in the General tab, then use the Websites tab to manage blocked sites.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/enabling_ltm_website_and_website.png" alt="" align="center" fullwidth="true" />
+
+> Enabling Organization managed denied websites in the General tab
 
 <Steps>
-  <Step title="Open Settings">
-    From your *organization overview* page, click `Settings` in the sidebar navigation.
+  <Step title="Open Long Term Memory">
+    From your organization's `Home` page, click `Long Term Memory` in the *sidebar* navigation.
   </Step>
 
-  <Step title="Select LTM Websites Tab">
-    Click the `LTM Websites` tab at the top of the *Settings* page.
+  <Step title="Enable Organization Managed Denied Websites">
+    In the *General* tab, turn on the *Organization managed denied websites* toggle in the Memory Formation section. You can also click the `Manage websites` button to jump to the Websites tab.
+  </Step>
+
+  <Step title="Open Websites Tab">
+    Click the `Websites` tab at the top of the Long Term Memory page to add or manage blocked websites.
   </Step>
 </Steps>
 
-## Managing Denied Websites
+## Managing Blocked Websites
 
-Add websites to the denied list to prevent Pieces from accessing them. You can add websites individually or upload multiple sites via CSV.
+The *Blocked websites* section lists sites that will not be tracked or used for Long Term Memory. Add websites individually or upload multiple sites via CSV.
 
-### Adding Denied Websites Manually
+### Adding Blocked Websites Manually
 
-Add individual websites to the denied list to prevent Pieces from accessing them.
+Add individual websites to the blocked list.
 
 <Steps>
   <Step title="Enter Website URL">
-    In the *website input* field, enter the URL of the website you want to deny access to (e.g., `https://example.com` or `example.com`).
+    In the input field (placeholder: "example.com or https://example.com"), enter the URL or domain you want to block (e.g., `example.com` or `https://example.com`).
   </Step>
 
   <Step title="Add Website">
-    Click the `add` button or press Enter to add the website to your *denied* list.
+    Click the `+ Add` button to add the website to your blocked list.
   </Step>
 
   <Step title="Save Changes">
-    Click `Save` in the top right corner to save your *denied websites* list.
+    A save reminder appears at the bottom of the page. Click `Save` to apply. Your blocked websites list will sync to all team members.
   </Step>
 </Steps>
 
-### Bulk Uploading Denied Websites
+### Bulk Uploading Blocked Websites
 
-Upload multiple websites at once using a CSV file for efficient management.
+Upload multiple websites at once using a CSV file. Format: one website per line.
 
 <Steps>
   <Step title="Prepare CSV File">
-    Create a CSV file with one website URL per line. For example:
+    Create a CSV file with one website URL or domain per line. For example:
     ```
     https://example.com
-    https://another-site.com
-    https://third-site.com
+    another-site.com
+    third-site.com
     ```
   </Step>
 
   <Step title="Upload CSV">
-    Click the `Upload CSV` button or drag and drop your CSV file into the *upload* area on the *LTM Websites settings* page.
+    Click the `Upload CSV` button or drag and drop your CSV file into the upload area.
   </Step>
 
-  <Step title="Review Imported Websites">
-    Review the list of websites that were imported from your CSV file.
-  </Step>
-
-  <Step title="Save Changes">
-    Click `Save` to save all imported websites to your *denied* list.
+  <Step title="Review and Save">
+    Review the imported websites. A save reminder appears at the bottom of the page. Click `Save` to add them to your blocked list.
   </Step>
 </Steps>
 
-### Managing Denied Websites List
+### Removing Blocked Websites
 
-View and manage your current list of denied websites.
+To allow a website for Long Term Memory again, remove it from the blocked list.
 
 <Steps>
-  <Step title="View Denied List">
-    Review all websites currently in your *denied* list on the *LTM Websites settings* page.
+  <Step title="Locate Website">
+    Find the website in the *Blocked websites* list.
   </Step>
 
-  <Step title="Remove Websites">
-    Use the remove option (typically an X icon or delete button) next to each website to remove it from the *denied* list if needed.
+  <Step title="Remove Website">
+    Click the trash icon next to the website to remove it from the blocked list.
   </Step>
 
   <Step title="Save Changes">
-    Click `Save` to apply any changes to your *denied websites* list.
+    A save reminder appears at the bottom of the page. Click `Save` to apply your changes.
   </Step>
 </Steps>
 
-## Understanding Website Denial
+## Understanding Blocked Websites
 
-When a website is added to the *denied* list, Pieces will not access data from that website for the workstream pattern engine. This helps you control what information Pieces can collect and use.
+When a website is added to the *Blocked websites* list, it will not be tracked or used for Long Term Memory. This helps you control what information Pieces can collect and use.
 
-* **Privacy Control** - Prevent Pieces from accessing sensitive or private websites
-* **Team Consistency** - Ensure all team members have the same website access restrictions
-* **Automatic Sync** - Settings automatically apply to all team members' installations
+* **Privacy Control** — Prevent Pieces from accessing sensitive or private websites
+* **Team Consistency** — All team members share the same blocked website list
+* **Fully Disable** — Turn off the *Organization managed denied websites* toggle in the General tab to disable organization-managed website blocking entirely
 
 ***
 
 ## Next Steps
 
-Now that you understand LTM websites settings, explore [LTM Sources Settings](/products/organizations-and-teams/settings-ltm-sources) to control which applications Pieces can access, or check out [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide features.
+Now that you understand LTM websites settings, explore [LTM Applications](/products/organizations-and-teams/settings-ltm-sources) to control which applications are blocked or allowed for context capture, or check out [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide features.

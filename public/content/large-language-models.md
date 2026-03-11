@@ -11,8 +11,6 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/standalone_single_docs/compatible_llms/compatible-llms.png" alt="" align="center" fullwidth="true" />
 
-***
-
 <pieces-pro-cta />
 
 ## Compatible AI Models with Pieces

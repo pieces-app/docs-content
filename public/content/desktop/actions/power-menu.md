@@ -12,6 +12,15 @@ metaDescription: See a comprehensive list of actions within the Power Menu and t
 
 The **Power Menu** in Pieces is a dynamic command palette. It shows certain views as 'suggested' based on the task you're working on or sorts them by how often you use them.
 
+### Quick Navigation
+
+Jump between key views by typing a few letters in the Power Menu search:
+
+* **Conversational Search** — Type `copilot` or `conversational` and select `Go to Conversational Search` to start chatting with your memories.
+* **Timeline** — Type `workstream` or `timeline` and select `Go to Timeline` to browse your workflow summaries and activities.
+
+The Power Menu learns from your usage—frequently used commands appear higher, so common jumps get faster over time.
+
 ## Dynamic View-Based Actions
 
 The **Power Menu** in Pieces is a dynamic command palette.

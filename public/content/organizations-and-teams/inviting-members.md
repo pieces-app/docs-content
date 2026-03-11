@@ -10,11 +10,22 @@ metaDescription: Step-by-step guide to inviting members to your organization, in
 
 ## Inviting Members
 
-Add team members to your organization by sending invitations. You can invite members individually, add multiple members at once, or bulk upload invitations via CSV file. Each member must have an available seat in your subscription.
+Add team members by sending invitations. You can invite one at a time, add multiple, or bulk upload via CSV. Each member needs an available seat.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/invite-to-org.png" alt="" align="center" fullwidth="true" />
 
 > Invite members modal showing email input, role selection, and CSV upload option
+
+## How to Open the Invite Modal
+
+<Steps>
+  <Step title="Open the Portal">
+    Go to [portal.pieces.app](https://portal.pieces.app) and sign in. Select your organization from the *sidebar* dropdown if needed.
+  </Step>
+  <Step title="Click Invite People">
+    Click the `Invite people` button in the top right corner. The button is available from any tab (Home, Members, Models, Long Term Memory, Billing, Settings). The invite modal opens.
+  </Step>
+</Steps>
 
 ## Understanding Member Roles
 
@@ -38,13 +49,10 @@ Invite team members using different methods depending on your needs and team siz
 
 ### Inviting a Single Member
 
-Invite one team member at a time with a specific role assignment.
-
 <Steps>
-  <Step title="Open Invite Modal">
-    From the *organization overview* page, click the `Invite people` button in the top right corner.
+  <Step title="Open the Invite Modal">
+    Go to [portal.pieces.app](https://portal.pieces.app), sign in, and select your organization. Click `Invite people` in the top right corner (available from any tab).
   </Step>
-
   <Step title="Enter Email Address">
     In the *Invite Organization Members* modal, enter the email address of the person you want to invite in the *email input* field.
   </Step>
@@ -60,11 +68,9 @@ Invite one team member at a time with a specific role assignment.
 
 ### Inviting Multiple Members
 
-Add multiple members in a single invitation flow.
-
 <Steps>
-  <Step title="Open Invite Modal">
-    Click the `Invite people` button from the *organization overview* page.
+  <Step title="Open the Invite Modal">
+    Go to [portal.pieces.app](https://portal.pieces.app), sign in, and select your organization. Click `Invite people` in the top right corner (available from any tab).
   </Step>
 
   <Step title="Enter First Member">
@@ -86,11 +92,9 @@ Add multiple members in a single invitation flow.
 
 ### Bulk Inviting via CSV
 
-Upload a CSV file to invite multiple members at once, which is efficient for large teams.
-
 <Steps>
-  <Step title="Open Invite Modal">
-    Click the `Invite people` button from the *organization overview* page.
+  <Step title="Open the Invite Modal">
+    Go to [portal.pieces.app](https://portal.pieces.app), sign in, and select your organization. Click `Invite people` in the top right corner (available from any tab).
   </Step>
 
   <Step title="Prepare CSV File">
@@ -125,7 +129,7 @@ Before inviting members, check your current seat usage:
 
 <Steps>
   <Step title="Navigate to Members Tab">
-    From your *organization overview* page, click `Members` in the *sidebar* navigation.
+    From your organization's `Home` page, click `Members` in the *sidebar* navigation.
   </Step>
   <Step title="View Seat Usage">
     At the top of the *Members* page, you'll see the *Seat Usage* card showing how many seats are used out of your total subscription (e.g., "1 of 1 seats used").
@@ -135,7 +139,7 @@ Before inviting members, check your current seat usage:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/members-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
 
 > Members tab showing seat usage card with current usage and total seats
 

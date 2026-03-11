@@ -11,7 +11,6 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png" alt="" align="center" fullwidth="true" />
 
-***
 
 ## Introducing Pieces
 

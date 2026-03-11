@@ -3,137 +3,65 @@ title: Organization Overview
 path: /desktop/organizations-and-teams/organization-overview
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to navigate your organization dashboard, post updates, and interact with team content as an owner or admin.
+description: Learn how to navigate your organization's Home page, access setup resources, and manage your organization from the dashboard.
 metaTitle: Organization Overview | Pieces Docs
-metaDescription: Guide to using the organization overview page, posting updates, and managing organization content.
+metaDescription: Guide to using the organization Home page, accessing setup resources, managing members, and navigating organization features.
 ---
 
-## Organization Overview
+## Organization Home
 
-The organization overview page is your main dashboard for managing and interacting with your organization. From here, you can post updates, view team activity, invite members, and navigate to different sections of your organization.
+The Home page is your central dashboard for managing your organization in the Pieces User Portal. The sidebar gives you quick access to Members, Models, Long Term Memory, Billing, and Settings.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/organization-overview/organization-overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
 
-> Organization overview page showing recent updates, post update button, and sidebar navigation
+> Organization Home page with Setup, Manage, and Resources sections
 
-## Accessing Your Organization
-
-Navigate to your organization from your Personal Workspace to access the overview page.
+## How to Get to Your Organization
 
 <Steps>
-  <Step title="Open Personal Workspace">
-    Click your `User Profile` in the top left, then click `Settings` and select `Account` to access your Personal Workspace.
+  <Step title="Open the Portal">
+    Go to [portal.pieces.app](https://portal.pieces.app) and sign in. Or from Pieces Desktop, click your `User Profile` in the top left → `Settings` → `Account`.
   </Step>
-
-  <Step title="Select Organization">
-    In the *sidebar*, click the *organization dropdown* at the top. Select the organization you want to access from the list of organizations you belong to.
+  <Step title="Select Your Organization">
+    In the *sidebar*, click the *organization dropdown* at the top (shows your org name). Select the organization you want to access.
   </Step>
-
-  <Step title="View Overview">
-    The organization overview page displays recent updates, team activity, and provides access to all organization features through the sidebar navigation.
+  <Step title="View Home">
+    The Home page shows setup instructions, management links, and resources. Use the sidebar to jump to any section.
   </Step>
 </Steps>
 
-## Working with Updates
+## How to Get to Each Section
 
-Post, view, interact with, and manage content updates on your organization overview page.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/organization-overview/writing_an_update.png" alt="" align="center" fullwidth="true" />
-
-### Posting Content Updates
-
-Share updates, announcements, or information with your team by posting content updates to the organization.
+Use the sidebar to reach the main organization areas:
 
 <Steps>
-  <Step title="Click Post Update">
-    On the organization overview page, click the `Post Update` button in the top right (or the pencil icon next to "Recent Updates").
+  <Step title="Members">
+    Click `Members` in the sidebar to view members, seat usage, and pending invites. Click `Invite people` to add new members.
   </Step>
-
-  <Step title="Enter Update Details">
-    In the *Create Content Update* modal, fill in:
-    * **Title**: Enter a title describing what the update is about
-    * **Content**: Add the details of your update in the content field
-    * **Tags**: Add comma-separated tags (e.g., `# feature, bug-fix, announcement`)
+  <Step title="Models">
+    Click `Models` in the sidebar to configure AI models and API keys. Use the *Models* tab for provider toggles and allow-lists; use the *API Keys* tab to add credentials.
   </Step>
-
-  <Step title="Post Update">
-    Click `Post Update` to publish your update. The update will appear in the *Recent Updates* section for all organization members to see.
+  <Step title="Long Term Memory">
+    Click `Long Term Memory` in the sidebar to manage context capture, blocked applications, blocked websites, and default models.
+  </Step>
+  <Step title="Billing">
+    Click `Billing` in the sidebar to view your plan, change seats, and manage billing contact. Owners and Admins only.
+  </Step>
+  <Step title="Settings">
+    Click `Settings` in the sidebar to configure General (org name, contact, domains) and Features (External Cloud, Analytics). Owners and Admins only.
   </Step>
 </Steps>
 
-### Viewing and Interacting with Updates
+## Setup, Manage, and Resources
 
-View team updates, add reactions, and comment on posts to engage with your team.
+The Home page body has three areas:
 
-<Steps>
-  <Step title="View Updates">
-    Scroll through the *Recent Updates* section to see all posted updates. Each update shows the author, timestamp, tags, and content.
-  </Step>
-
-  <Step title="Add Reactions">
-    Click the smiley face icon below an update to add a reaction. This helps team members quickly acknowledge updates.
-  </Step>
-
-  <Step title="View Comments">
-    Click on the *comments* section (showing "X comments") to view existing comments on an update.
-  </Step>
-
-  <Step title="Add a Comment">
-    Click the arrow down next to "comments" to expand the *comment* section. Type your comment in the text box and click the submit button (paper airplane icon) to post your comment.
-  </Step>
-</Steps>
-
-### Editing Updates
-
-Edit your posted updates to update information or correct mistakes. Note that tags cannot be edited after posting.
-
-<Steps>
-  <Step title="Click Edit Icon">
-    Find the update you want to edit and click the pencil icon next to the update.
-  </Step>
-
-  <Step title="Modify Content">
-    Update the title and *content* fields as needed. Tags cannot be modified after posting.
-  </Step>
-
-  <Step title="Save Changes">
-    Click the `Save` button (with checkmark icon) to save your changes. Click `Cancel` to discard changes.
-  </Step>
-</Steps>
-
-### Deleting Updates
-
-Remove updates that are no longer relevant or were posted by mistake.
-
-<Steps>
-  <Step title="Click Delete Icon">
-    Find the update you want to delete and click the trash can icon next to the update.
-  </Step>
-
-  <Step title="Confirm Deletion">
-    Confirm the deletion in the browser *popup*. This action cannot be undone.
-  </Step>
-</Steps>
-
-## Understanding Sidebar Navigation
-
-The *sidebar* provides quick access to all organization features. Use the *sidebar* to navigate between different sections of your organization.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/organization-overview/organization-overview.png?w=1200&format=webp&q=85" alt="" align="center" fullwidth="true" />
-
-> Organization sidebar navigation showing Overview, Members, Teams, Billing, Settings, and Support options
-
-The sidebar includes the following navigation options:
-
-* **Overview** - Current page showing recent updates and team activity
-* **Members** - View and manage organization members, track seat usage, and handle invitations
-* **Teams** - Access and manage teams within the organization
-* **Billing** - Manage subscription and billing information (Owners and Admins only)
-* **Settings** - Configure organization settings that sync to team members (Owners and Admins only)
-* **Support** - Quick access to support resources
+* **Setup** — Prompts to sign in with your account email in Desktop & PiecesOS, plus buttons to open or download Pieces Desktop.
+* **Manage** — Cards that link directly to Members, Models, and Billing. Click a card to jump to that section.
+* **Resources** — Links to documentation, pro tips, support, and GitHub.
 
 ***
 
 ## Next Steps
 
-Now that you understand the organization overview, learn about [inviting members](/products/organizations-and-teams/inviting-members) to grow your team, or explore [managing members](/products/organizations-and-teams/managing-members) to understand member management features.
+[Invite members](/products/organizations-and-teams/inviting-members), configure [Models and API keys](/products/organizations-and-teams/settings-models), or check [Settings](/products/organizations-and-teams/organization-settings) for General and Features.

@@ -36,6 +36,10 @@ The Pieces Desktop app is designed to act as a hub for the Pieces Suite, powered
 
 With the Pieces Desktop App, you have access to dedicated views for the context captured by Long-Term Memory through [Pieces Timeline](/products/desktop/timeline).
 
+## Activity Timeline
+
+A horizontal activity timeline at the bottom of the main view shows your workflow activity across the day (from 12am to 12am). Hover over any point to see a tooltip with more details—including the timestamp, memory count, and LTM status (e.g., *ON LTM-2.7*, *ON LTM Audio*) for that moment.
+
 ## Pieces Timeline
 
 Keep track of your workflow so you can access stored context from yesterday, last week, or even last month—whenever you need it. The [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) Engine ensures that nothing slips through the cracks.
@@ -96,7 +100,7 @@ With the Pieces MCP, you can thread rich workflow context through to [Cursor](/p
 
 ***
 
-*Pieces MCP → Cursor*
+*Pieces MCP with Cursor*
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/misc/cursor_ask_about_youtube_tutorial.png" alt="" align="center" fullwidth="true" />
 

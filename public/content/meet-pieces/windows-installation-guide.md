@@ -75,7 +75,7 @@ If you prefer an alternative installation method aside from the `.appinstaller` 
 If you cannot use the `.appinstaller` method for any reason, you can also install Pieces via `.exe`.
 
 <CardGroup cols={1}>
-  <Card title="Download — Pieces Desktop App (EXE)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE&_gl=1*1a9yqbf*_gcl_au*OTQ5NDE1NTA4LjE3Mzk0NjU4MzM.*_ga*MTI0OTgzMTMuMTcyNDA5ODQwNg..*_ga_BVYEFRWCYX*MTc0MDc4MjM4Mi44LjAuMTc0MDc4MjM4Mi42MC4wLjA." gaEvent="windows_pfd_download_exe" gaPlatform="windows">
+  <Card title="Download — Pieces Desktop App (EXE)" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/pieces_for_x/windows-exe/download?download=true&product=DOCUMENTATION_WEBSITE" gaEvent="windows_pfd_download_exe" gaPlatform="windows">
     *Alternative Method*
 
     Windows 10 (20H0) or higher required.

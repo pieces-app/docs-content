@@ -48,7 +48,7 @@ Click the download button to install the Pieces Desktop App using the *Recommend
 
 For detailed instructions, refer to our comprehensive [Windows installation and quick-start guide.](/products/meet-pieces/windows-installation-guide)
 
-<Card title="Windows" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller?_gl=1*o2haep*_gcl_au*MTA2NTQ0NTg3OC4xNzM4NjI2MzMx*_ga*MTkzMTk3NjkzNy4xNzM4NjI2MzMx*_ga_BVYEFRWCYX*MTc0NjIwNTI5OS45LjEuMTc0NjIxMzY2MC41NC4wLjA.">
+<Card title="Windows" image="/assets/icons/platform_logos/windows_logo.png" href="https://builds.pieces.app/stages/production/appinstaller/pieces_for_x.appinstaller">
   *Windows 10 (1809) or higher*
 </Card>
 
