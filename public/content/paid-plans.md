@@ -23,64 +23,64 @@ Choose the plan that works best for you:
 
 <CardGroup cols={3}>
   <Card title="Free Plan" image="/assets/icons/pieces_logo.png">
-    <div style="margin-bottom: 1rem;">
-      <span style="display: inline-block; padding: 0.375rem 0.875rem; background-color: #e5e7eb; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: #374151; letter-spacing: 0.025em;">Free Forever</span>
+    <div className="mb-4">
+      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-slate-200 dark:bg-slate-600 text-slate-700 dark:text-slate-300">Free Forever</span>
     </div>
     
-    <div style="margin-bottom: 1.5rem;">
-      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">Free</div>
-      <div style="font-size: 0.875rem; color: #6b7280;">Perfect for getting started</div>
+    <div className="mb-6">
+      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">Free</div>
+      <div className="text-sm text-slate-500 dark:text-slate-400">Perfect for getting started</div>
     </div>
     
-    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
-      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
-      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
-        <li style="margin-bottom: 0.5rem;">✓ Basic AI features</li>
-        <li style="margin-bottom: 0.5rem;">✓ Local storage only</li>
-        <li style="margin-bottom: 0.5rem;">✓ Community support</li>
+    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
+      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
+      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+        <li className="mb-2">✓ Basic AI features</li>
+        <li className="mb-2">✓ Local storage only</li>
+        <li className="mb-2">✓ Community support</li>
         <li>✓ Limited cloud backup</li>
       </ul>
     </div>
   </Card>
 
   <Card title="Pieces Pro Monthly" image="/assets/icons/pieces_logo.png">
-    <div style="margin-bottom: 1rem;">
-      <span style="display: inline-block; padding: 0.375rem 0.875rem; background-color: #dbeafe; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: #1e40af; letter-spacing: 0.025em;">Monthly Billing</span>
+    <div className="mb-4">
+      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-blue-100 dark:bg-blue-900/40 text-blue-800 dark:text-blue-200">Monthly Billing</span>
     </div>
     
-    <div style="margin-bottom: 1.5rem;">
-      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">$18.99</div>
-      <div style="font-size: 0.875rem; color: #6b7280;">per month</div>
+    <div className="mb-6">
+      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">$18.99</div>
+      <div className="text-sm text-slate-500 dark:text-slate-400">per month</div>
     </div>
     
-    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
-      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
-      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
-        <li style="margin-bottom: 0.5rem;">✓ Full access to Pieces Pro features</li>
-        <li style="margin-bottom: 0.5rem;">✓ AI-powered code generation</li>
-        <li style="margin-bottom: 0.5rem;">✓ Advanced code search</li>
+    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
+      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
+      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+        <li className="mb-2">✓ Full access to Pieces Pro features</li>
+        <li className="mb-2">✓ AI-powered code generation</li>
+        <li className="mb-2">✓ Advanced code search</li>
         <li>✓ Priority support</li>
       </ul>
     </div>
   </Card>
 
   <Card title="Pieces Pro Yearly" image="/assets/icons/pieces_logo.png">
-    <div style="margin-bottom: 1rem;">
-      <span style="display: inline-block; padding: 0.375rem 0.875rem; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); border-radius: 9999px; font-size: 0.75rem; font-weight: 600; color: white; letter-spacing: 0.025em; box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);">Most Popular</span>
+    <div className="mb-4">
+      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-md shadow-blue-500/30">Most Popular</span>
     </div>
     
-    <div style="margin-bottom: 1.5rem;">
-      <div style="font-size: 2.5rem; font-weight: 700; line-height: 1; color: #111827; margin-bottom: 0.25rem;">$169.99</div>
-      <div style="font-size: 0.875rem; color: #6b7280;">per year <span style="color: #10b981; font-weight: 600;">($14.17/month)</span></div>
-      <div style="font-size: 0.75rem; color: #10b981; font-weight: 600; margin-top: 0.25rem;">Save 20% compared to monthly</div>
+    <div className="mb-6">
+      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">$169.99</div>
+      <div className="text-sm text-slate-500 dark:text-slate-400">per year <span className="text-emerald-600 dark:text-emerald-400 font-semibold">($14.17/month)</span></div>
+      <div className="text-xs text-emerald-600 dark:text-emerald-400 font-semibold mt-1">Save 20% compared to monthly</div>
     </div>
     
-    <div style="border-top: 1px solid #e5e7eb; padding-top: 1rem;">
-      <div style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem;">Includes:</div>
-      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; color: #6b7280; line-height: 1.75;">
-        <li style="margin-bottom: 0.5rem;">✓ Full access to Pieces Pro features</li>
-        <li style="margin-bottom: 0.5rem;">✓ AI-powered code generation</li>
-        <li style="margin-bottom: 0.5rem;">✓ Advanced code search</li>
+    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
+      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
+      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+        <li className="mb-2">✓ Full access to Pieces Pro features</li>
+        <li className="mb-2">✓ AI-powered code generation</li>
+        <li className="mb-2">✓ Advanced code search</li>
         <li>✓ Priority support</li>
       </ul>
     </div>
@@ -100,7 +100,6 @@ The free plan includes full access to local models (Ollama) with no usage limits
 | Cloud / premium AI models | Limited usage | Unlimited access |
 | Local models (Ollama) | Full access, no limits | Full access, no limits |
 | Long-term memory | Rolling window (time-bound) | Unlimited (up to 9 months) |
-| Deep Study reports | — | ✓ |
 | AI-powered code generation | Basic | Advanced |
 | Support | Community | Priority |
 | Cloud backup | Limited | Full |
@@ -131,32 +130,32 @@ For details on which models are available on each plan, see [Models](/products/d
 
 Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.
 
-<Callout type="info">
-  Deep Study reports are a Pieces Pro feature. Activate them in the Copilot chat via the `Activate DeepStudy` button to generate comprehensive, sourced summaries of your recent work.
-</Callout>
-
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/update-to-pieces-pro.png" alt="" align="center" fullwidth="true" />
 
 ### Premium AI Models
 
 Experience faster, more accurate AI assistance with top-tier cloud LLMs from leading providers.
 
-| **OpenAI**   | **Anthropic**       | **Google**             |
-| ------------ | ------------------- | ---------------------- |
-| GPT-5.2 Pro  | Claude 4.5 Opus    | Gemini 3 Pro Preview  |
-| GPT-5.2      | Claude 4.5 Sonnet  | Gemini 3 Flash Preview|
-| GPT-5.1      | Claude 4.5 Haiku   | Gemini 2.5 Pro        |
-| GPT-5 Thinking| Claude 4 Sonnet    | Gemini 2.5 Flash      |
-| GPT-5        | Claude 3.7 Sonnet  | Gemini 2.5 Flash Lite |
-| GPT-5 Fast   | Claude 3.5 Sonnet  | Gemini 2 Flash Lite   |
-| o4 Mini      | Claude 3.5 Haiku   |                        |
-| o3 Pro       |                     |                        |
-| o3 Mini      |                     |                        |
-| o3           |                     |                        |
-| o1           |                     |                        |
-| GPT-4.1      |                     |                        |
-| GPT-4o       |                     |                        |
-| GPT-4o Mini  |                     |                        |
+| **OpenAI**    | **Anthropic**        | **Google**                  | **Perplexity**              |
+| ------------- | -------------------- | --------------------------- | --------------------------- |
+| GPT-5.2 Pro   | Claude 4.6 Opus      | Gemini 3.1 Pro Preview      | Sonar Deep Research         |
+| GPT-5.2       | Claude 4.6 Sonnet    | Gemini 3.1 Flash Lite Preview| Sonar Reasoning Pro         |
+| GPT-5.1       | Claude 4.5 Opus      | Gemini 3 Pro Preview        | Sonar Pro                   |
+| GPT-5 Thinking| Claude 4.5 Sonnet    | Gemini 3 Flash Preview      |                             |
+| GPT-5          | Claude 4.5 Haiku    | Gemini 2.5 Pro              |                             |
+| GPT-5 Fast    | Claude 4 Sonnet      | Gemini 2.5 Flash            |                             |
+| o1 Pro        | Claude 3.7 Sonnet   | Gemini 2.5 Flash Lite       |                             |
+| o4 Mini       | Claude 3.5 Sonnet   | Gemini 2 Flash Lite         |                             |
+| o3 Pro        | Claude 3.5 Haiku    |                             |                             |
+| o3 Mini       |                      |                             |                             |
+| o3            |                      |                             |                             |
+| o1            |                      |                             |                             |
+| GPT-4.1       |                      |                             |                             |
+| GPT-4.1 Mini  |                      |                             |                             |
+| GPT-4o        |                      |                             |                             |
+| GPT-4o Mini   |                      |                             |                             |
+| GPT-4 Turbo   |                      |                             |                             |
+| GPT-4         |                      |                             | Sonar                       |
 
 <Callout type="tip">
   Model availability may vary by plan and region. See the latest list on the <a target="_blank" href="/products/large-language-models/cloud-models">Cloud Models</a> page.
