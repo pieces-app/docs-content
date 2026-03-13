@@ -591,11 +591,11 @@ When connected, your data is automatically synchronized in real time across all 
 
 ## Privacy
 
-Configure telemetry and diagnostics settings to help improve Pieces. Share anonymous telemetry and crash data to help the Pieces team build better developer tools across macOS, Linux, and Windows.
+Configure telemetry and diagnostics settings to help improve Pieces. Share anonymous telemetry and crash data to help the Pieces team build better tools across macOS, Linux, and Windows.
 
 ### Telemetry & Diagnostics
 
-Enable or disable anonymous telemetry and crash data collection. Building next generation Developer Tools across macOS, Linux, and Windows is hard! Share anonymous telemetry and crash data to help improve Pieces.
+Enable or disable anonymous telemetry and crash data collection. Building next-generation tools across macOS, Linux, and Windows is hard! Share anonymous telemetry and crash data to help improve Pieces.
 
 <Steps>
   <Step title="Open Account Settings">

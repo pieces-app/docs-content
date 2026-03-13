@@ -73,6 +73,10 @@ Make sure you have enough seats for your team before sending invitations. You ca
 
 If you've received an invitation to join a Pieces organization, follow these steps to get set up.
 
+<Callout type="info">
+  Onboarding users need to sign in with the same email the invitation was sent to.
+</Callout>
+
 ### Accepting Your Invitation
 
 <Steps>

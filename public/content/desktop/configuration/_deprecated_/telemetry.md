@@ -12,7 +12,7 @@ metaDescription: Configure telemetry and diagnostics settings to share anonymous
 
 ## Telemetry Settings
 
-Configure telemetry and diagnostics settings to help improve Pieces. Share anonymous telemetry and crash data to help the Pieces team build better developer tools across macOS, Linux, and Windows.
+Configure telemetry and diagnostics settings to help improve Pieces. Share anonymous telemetry and crash data to help the Pieces team build better tools across macOS, Linux, and Windows.
 
 To access Telemetry settings, click your `User Profile` in the top left, then hover over `Settings` and select `Telemetry`.
 
