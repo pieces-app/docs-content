@@ -12,7 +12,7 @@ metaDescription: Learn how to update organization details, configure domains, se
 
 The General settings tab allows you to configure basic organization information, contact details, associated domains, SSO integration, and delete your organization. These settings control fundamental aspects of your organization's identity and access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="General settings tab with organization name, contact info, and domains" align="center" fullwidth="true" />
 
 > General settings tab showing organization name, contact info, domains, and danger zone
 
@@ -100,7 +100,7 @@ Configure SSO (Single Sign-On) integration using a tenant ID for *Descope* integ
 
 Permanently delete your organization and all associated data. This action cannot be undone.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/deleting_org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/deleting_org.png" alt="Organization deletion confirmation in the Danger Zone section" align="center" fullwidth="true" />
 
 <Callout type="alert">
   Deleting an organization is permanent and irreversible. This will permanently delete all organization data, member associations, and billing information. Subscriptions will be cancelled. Make sure you have backups of any important data before proceeding.

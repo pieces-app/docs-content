@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/desktop/pfd.png"
 metaTitle: Exploring Cloud-Based AI Models Supported by Pieces | Pieces Docs
-metaDescription: Find information of cloud LLMs available for use that are supported by PiecesOS, the Pieces Desktop App, and other Pieces plugins and extensions.
+metaDescription: Find information of cloud LLMs available for use that are supported by PiecesOS, the Pieces Desktop App, and other Pieces MCP integrations.
 description: Utilize cloud-hosted large language models (LLMs) from providers like OpenAI, Anthropic, and Google. 
 ---
 

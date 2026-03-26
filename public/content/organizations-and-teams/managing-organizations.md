@@ -21,7 +21,7 @@ metaDescription: Comprehensive guide to managing organizations, members, billing
 
 Access your organization's Home page to get set up, navigate to management tools, and find helpful resources for your team.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="Organization Home page with setup instructions and management links" align="center" fullwidth="true" />
 
 > Organization Home page showing setup instructions, management links, and resource cards
 
@@ -33,7 +33,7 @@ Access your organization's Home page to get set up, navigate to management tools
 
 Add team members to your organization by sending invitations. You can invite members individually, add multiple members at once, or bulk upload via CSV.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/invite-to-org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/invite-to-org.png" alt="Invite members modal with email input and role selection" align="center" fullwidth="true" />
 
 > Invite members modal showing email input, role selection, and CSV upload option
 
@@ -45,7 +45,7 @@ Add team members to your organization by sending invitations. You can invite mem
 
 View and manage all organization members, track seat usage, handle pending invitations, and update member roles and permissions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="Members tab with seat usage, members list, and pending invites" align="center" fullwidth="true" />
 
 > Members tab showing seat usage, current members list, and pending invites
 
@@ -57,7 +57,7 @@ View and manage all organization members, track seat usage, handle pending invit
 
 Manage your organization's subscription, update seat counts, view billing information, and configure billing addresses.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="Billing tab with subscription details, seat count, and billing address" align="center" fullwidth="true" />
 
 > Billing tab showing subscription details, seat count, and billing address options
 
@@ -69,7 +69,7 @@ Manage your organization's subscription, update seat counts, view billing inform
 
 The Models section is the organization management area for AI configuration. It appears as a top-level item in the sidebar with two tabs: *Models* (general settings, allow-lists, processing mode) and *API Keys* (OpenAI, Anthropic, GCP credentials).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="Models section with general settings and API keys configuration" align="center" fullwidth="true" />
 
 > Models section showing general settings and API keys configuration
 
@@ -81,7 +81,7 @@ The Models section is the organization management area for AI configuration. It 
 
 Configure context capture settings, application sources, denied websites, and default models for memory processing. Long Term Memory is a top-level item in the sidebar.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_applications.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_applications.png" alt="Long Term Memory section with Memory Formation toggles and Default Models" align="center" fullwidth="true" />
 
 > Long Term Memory section showing Memory Formation toggles and Default Models
 
@@ -93,7 +93,7 @@ Configure context capture settings, application sources, denied websites, and de
 
 Configure organization-wide settings that sync to team members' Pieces Desktop and PiecesOS installations. Settings includes General (contact info, address) and Features (External Cloud, Analytics toggles).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="Settings page with General and Features tabs" align="center" fullwidth="true" />
 
 > Settings page showing tabs for General and Features
 

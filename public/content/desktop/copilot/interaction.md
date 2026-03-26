@@ -12,7 +12,7 @@ metaDescription: Introduction to Pieces Copilot – your AI assistant for techni
 
 When opening the Pieces Desktop App after installation, you are first presented with a default view—the Pieces Copilot.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_copilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_copilot.png" alt="Pieces Copilot main chat interface with input field and sidebar" align="center" fullwidth="true" />
 
 This view is the central hub from which you can start new chats, access previous chats, and configure Long-Term Memory, models, and context to suit the task at hand.
 
@@ -34,7 +34,7 @@ Directly above the chat input field, a *Set Context* area provides four buttons:
 
 * `Saved Materials`**:** Lets you pick items previously saved in Pieces Drive.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_snippet_to_copilot.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_snippet_to_copilot.gif" alt="Adding snippet context to Copilot chat via Set Context buttons" align="center" fullwidth="true" />
 
 These buttons help you easily inject context into your chat so Pieces Copilot can deliver more accurate and relevant responses.
 
@@ -60,7 +60,7 @@ This is your primary area for entering queries or pasting code, and is flanked b
 
 * To the *right,* you’ll find actions to insert code blocks into the chat or extract code from screenshots.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/gif_of_running_through_all_options.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/gif_of_running_through_all_options.gif" alt="Quick action buttons and tools in the Copilot input field" align="center" fullwidth="true" />
 
 ### Left-Side Quick-Action Button
 
@@ -106,7 +106,7 @@ At the top right corner of the active chat window, a vertical ellipsis (three st
 
 When Pieces Copilot generates a reply, a toolbar appears with helpful buttons, icons, and cards to manage or reuse that output.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_available_toolbar_options_copilot.webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_available_toolbar_options_copilot.webp" alt="Response toolbar with copy, export, regenerate, and other action options" align="center" fullwidth="true" />
 
 ### Response Toolbar Actions
 
@@ -124,7 +124,7 @@ There are several actions you can take under each generated Pieces Copilot respo
 
 6. `More Options (⋮)`: The three-dot menu (`⋮`) reveals additional actions. You can select `Use as Context` to add that specific response as context for follow-up prompts, or `Delete Message` to remove the message from the current conversation.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/copilot_message_available_options_toolbar.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/copilot_message_available_options_toolbar.gif" alt="More options menu showing use as context and delete message actions" align="center" fullwidth="true" />
 
 <Callout type="tip">
   If LTM Context is enabled, you may also see related context cards surface beneath the response. These link to timeline events that informed the generation.
@@ -146,7 +146,7 @@ When clicked, it presents you with 3 options:
 
 ***
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/chat_pipelines.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/chat_pipelines.png" alt="Chat pipeline options dropdown showing multipurpose, code comprehension, and code generation" align="center" fullwidth="true" />
 
 <Callout type="tip">
   You can select one of these chat pipelines as the default pipeline when creating new chats.
@@ -160,7 +160,7 @@ This allows you to quickly revisit previous interactions by clicking on a chat e
 
 An icon at the top of the sidebar lets you collapse or expand this panel as needed—called **Focus Mode**—so you can focus solely on your current conversation if desired.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/going_through_chat_history_and_exploring.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/going_through_chat_history_and_exploring.gif" alt="Sidebar showing chat history with dates and expanding focus mode toggle" align="center" fullwidth="true" />
 
 ## Searching Previous Chats
 
@@ -170,7 +170,7 @@ This opens a centered modal showing your recent chats.
 
 You can scroll this list, and each item displays a percentage on the right that represents how relevant that chat likely is to your current workflow or how frequently you return to it.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_find_chats_search_field.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_find_chats_search_field.png" alt="Find chats search field showing recent chats with relevance percentages" align="center" fullwidth="true" />
 
 ### Running a Search
 
@@ -178,7 +178,7 @@ Type your query into the search field and press `enter` (Windows/Linux) or `retu
 
 If a chat is an exact match for your query, you’ll see an `EXACT MATCH` label on the right instead of a percentage.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/searching_chats_yellow_syntax.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/searching_chats_yellow_syntax.png" alt="Chat search results with highlighted matching terms and exact match labels" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Pressing enter/return is **required** to run the search from the modal.
@@ -212,7 +212,7 @@ Using this feature, simply ask Pieces Copilot *"Can you perform a deep study on 
 - Deep Study runs on a dedicated cloud LLM managed by Pieces (currently a Google model, subject to change).
 - Changing your selected model via the standard LLM Runtime modal does not affect Deep Study. Your per-chat model choice applies to normal responses, but Deep Study always uses its dedicated runtime.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="Deep Study progress interface showing thinking state and agent intermediate steps" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Deep Study requires that you enable the Long-Term Memory Engine.

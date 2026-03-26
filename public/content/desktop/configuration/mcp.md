@@ -14,7 +14,7 @@ Access server URLs and documentation for integrating Pieces Long-Term Memory wit
 
 To access MCP settings, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="Model Context Protocol settings showing server URLs and documentation" align="center" fullwidth="true" />
 
 > Model Context Protocol (MCP) settings showing server URLs and View Documentation option
 

@@ -28,7 +28,7 @@ Located on the left sidebar, the **Saved Materials List** displays each of your 
 
 Click any item to load it in the main detail pane. This is where you’ll see the code or text, along with a wealth of automatically generated context (tags, annotations, etc.).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/pieces_drive.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/pieces_drive.png" alt="Pieces Drive gallery view of saved materials" align="center" fullwidth="true" />
 
 ### Renaming and Reclassifying
 
@@ -38,7 +38,7 @@ In the detail view, locate the three-dot **Quick Menu** to reveal actions for cu
 
 * `Reclassify`: If Pieces incorrectly detects the code’s language or you’d prefer to classify it differently, you can manually select a new language (e.g., reclassifying JavaScript as TypeScript).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/reclassify.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/reclassify.png" alt="Reclassify saved material language or type" align="center" fullwidth="true" />
 
 ### Managing Tags
 
@@ -72,7 +72,7 @@ If something isn’t automatically detected, you can still mark something as *se
 
 * **Manual Entry**: You can also mark something as sensitive if it’s not automatically detected. This adds an extra layer of privacy for your team or organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/adding_a_sensitive_item.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/adding_a_sensitive_item.png" alt="Marking sensitive strings in a saved material" align="center" fullwidth="true" />
 
 ### Anchors & Related People
 
@@ -100,4 +100,4 @@ From within the main detail view of a snippet, the **Quick Menu** (often represe
 
 5. `Delete`: Permanently remove the snippet if it’s no longer needed.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/managing_annotations.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/managing_annotations.gif" alt="Managing annotations on a saved snippet" align="center" fullwidth="true" />

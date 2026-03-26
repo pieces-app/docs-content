@@ -12,7 +12,7 @@ metaDescription: Learn how to enable LTM website management and block specific w
 
 The LTM Websites settings allow you to configure which websites are blocked from Long Term Memory. You must **enable** *Organization managed denied websites* in the General tab first; then use the *Websites* tab to add blocked sites. **Disable** the toggle to fully turn off organization-managed website blocking. These settings automatically sync to all team members' Pieces Desktop and PiecesOS installations.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_websites.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_websites.png" alt="Blocked websites list with add input and CSV upload" align="center" fullwidth="true" />
 
 > Blocked websites list with add input and CSV upload
 
@@ -24,7 +24,7 @@ The LTM Websites settings allow you to configure which websites are blocked from
 
 Enable the toggle in the General tab, then use the Websites tab to manage blocked sites.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/enabling_ltm_website_and_website.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/enabling_ltm_website_and_website.png" alt="Enabling organization-managed denied websites in the General tab" align="center" fullwidth="true" />
 
 > Enabling Organization managed denied websites in the General tab
 

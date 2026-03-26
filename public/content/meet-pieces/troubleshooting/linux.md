@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if PiecesOS or t
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_linux.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="Linux troubleshooting banner" align="left" fullwidth="true" />
 
 ***
 
@@ -35,7 +35,7 @@ To update PiecesOS on Linux:
 
 2. Run `sudo snap refresh` to update PiecesOS if a newer version is available
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="Running snap refresh to update PiecesOS on Linux" align="center" fullwidth="true" />
 
 ### Updating the Pieces Desktop App
 
@@ -45,7 +45,7 @@ Similar to PiecesOS, you can update the Pieces Desktop App by:
 
 2. Running `sudo snap refresh` to apply any available updates
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_PFD.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_PFD.gif" alt="Running snap refresh to update Pieces Desktop App on Linux" align="center" fullwidth="true" />
 
 ## Common Installation Issues
 
@@ -71,8 +71,8 @@ If installation or UI issues persist, consider the following:
 
   Restart after changing your graphics engine to ensure Pieces doesn't hit any snags on startup.
 
-<Callout type="alert">
-  The LTM-2.7 Engine is designed to work with the X11 Window Manager. Other Window Managers, such as Wayland, are *not compatible.* This means that long-term memory functionality with certain Linux Virtual Machines (VMs) is not possible at this time.
+<Callout type="tip">
+  **Supported setup:** **Ubuntu** with **X11**. **Wayland** usually needs follow-up from `pieces-os.doctor`. Other distros are **best-effort**. If capture or LTM fails, try an **X11 session**, re-run `pieces-os.doctor`, or use a **supported Ubuntu** install—**VMs** are the most variable.
 </Callout>
 
 * **Update your GPU Drivers:** Ensure they are up to date. For NVIDIA, check for proprietary driver updates. AMD and Intel users should verify that their open-source drivers are up to date.
@@ -89,13 +89,13 @@ You can verify your system’s hardware configuration and ensure it meets recomm
 
 To determine your CPU type and find other important information, type `lscpu` in your terminal and press `Enter`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="Terminal output of lscpu command on Ubuntu" align="center" fullwidth="true" />
 
 ### Checking GPU Information
 
 To determine your GPU type and find other important information, `lspci | grep -i vga` in your terminal and press `Enter`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="Terminal output of lspci showing GPU info on Ubuntu" align="center" fullwidth="true" />
 
 Confirm that your CPU, GPU, and memory resources are sufficient for running PiecesOS and local AI models (if applicable).
 
@@ -115,7 +115,7 @@ To check what version of Ubuntu you’re running:
 
 This section will will display your Ubuntu version information.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="Checking Ubuntu version in System Settings" align="center" fullwidth="true" />
 
 ### Consulting Online Resources
 

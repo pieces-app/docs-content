@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Cline
 metaDescription: Learn how to integrate Pieces MCP with Cline. Use SSE transport for reliable connection—Streamable HTTP has known compatibility issues.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/cline-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/cline-mcp.png" alt="Pieces MCP integration with Cline" align="center" fullwidth="true" />
 
 ***
 

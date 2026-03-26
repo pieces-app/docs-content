@@ -3,12 +3,12 @@ title: Core Dependencies
 path: /core-dependencies
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of plugins and extensions, including built-in local models for on-device AI.
+description: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of MCP integrations, including built-in local models for on-device AI.
 metaTitle: Pieces Core Dependencies
-metaDescription: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of plugins and extensions, including built-in local models for on-device AI.
+metaDescription: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of MCP integrations, including built-in local models for on-device AI.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="Core dependencies overview banner" align="center" fullwidth="true" />
 
 
 ## What Are Core Dependencies?
@@ -19,7 +19,7 @@ Pieces products, including the [Pieces Desktop Application](/products/desktop), 
 
 To run any Pieces software, you will need **PiecesOS,** the backbone of the Pieces Suite. This lightweight application runs in the background of your device.
 
-It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27), [Pieces Drive,](/products/desktop/drive) and the [Pieces Copilot.](/products/desktop/copilot)
+It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27), [Pieces Drive,](/products/desktop/drive) and [Conversational Search](/products/desktop/conversational-search) with Pieces Copilot.
 
 **PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp/get-started), and other integrations within your development environment.
 
@@ -39,19 +39,19 @@ All local processing happens entirely on your device through PiecesOS, ensuring 
 
 PiecesOS is a lightweight service that handles everything from local model management and context storage to advanced local inference for AI-assisted workflows.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/pfd_x_piecesos_and_ollama.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/pfd_x_piecesos_and_ollama.png" alt="Pieces Desktop App, PiecesOS, and local models architecture" align="center" fullwidth="true" />
 
 PiecesOS is **required** for all Pieces products, including:
 
 * Pieces Desktop App
 
-* Plugins & Extensions for [JetBrains](/products/extensions-plugins/jetbrains), [VS Code](/products/extensions-plugins/visual-studio-code), [Sublime Text](/products/extensions-plugins/sublime), [JupyterLab](/products/extensions-plugins/jupyterlab), [Neovim](/products/extensions-plugins/neovim-plugin), [Raycast](/products/raycast), [Obsidian](/products/obsidian), [the Pieces CLI](/products/cli), and more.
+* [MCP integrations](/products/mcp/get-started) for [JetBrains IDEs](/products/mcp/jetbrains-ides), [VS Code](/products/mcp/vs-code), [Raycast](/products/mcp/raycast), and [many other tools](/products/mcp/get-started), plus [the Pieces CLI](/products/cli).
 
 ## Why Do We Need PiecesOS?
 
 Pieces is designed with **speed and efficiency** in mind, so PiecesOS acts as the central hub between different Pieces products to minimize client-side overhead and additional code while also being secure and highly configurable.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/performance_privacy_flexibility.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/performance_privacy_flexibility.png" alt="PiecesOS performance, privacy, and flexibility benefits" align="center" fullwidth="true" />
 
 Our focus on **security and flexibility** is why we've built local models directly into PiecesOS—users can work entirely with on-device generative AI, and by offloading most operations locally, the user experience benefits from:
 
@@ -71,6 +71,6 @@ This is especially useful in enterprise settings where strong device security is
 
 | **Dependency** | **Purpose**                                                           | **Required?**                                   |
 | -------------- | --------------------------------------------------------------------- | ----------------------------------------------- |
-| *PiecesOS*     | Manages memory, developer material storage, and plugin communication. Includes built-in local models for on-device AI. | Yes — this is required for all Pieces products. |
+| *PiecesOS*     | Manages memory, developer material storage, and MCP client communication. Includes built-in local models for on-device AI. | Yes — this is required for all Pieces products. |
 
 ***

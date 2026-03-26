@@ -12,7 +12,7 @@ metaDescription: Learn how to configure LTM context capture, application sources
 
 The Long Term Memory section allows you to configure context capture settings, manage which applications and websites Pieces can access, and set default models for memory processing. These settings automatically sync to all team members' Pieces Desktop and PiecesOS installations. Long Term Memory is a top-level section in the organization sidebar.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_applications.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/ltm_applications.png" alt="Long Term Memory settings with Memory Formation toggles and Default Models" align="center" fullwidth="true" />
 
 > Long Term Memory section showing Memory Formation toggles and Default Models
 
@@ -61,7 +61,7 @@ The *General* tab has three toggles that control how Pieces captures context. Tu
 
 Default models are used for memory event processing, auto-generated summaries, and audio transcription. Configure them after setting up API keys in [Models](/products/organizations-and-teams/settings-models).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/default_models_overview_on_ltm_tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/default_models_overview_on_ltm_tab.png" alt="Default Models section on the LTM General tab with model assignments" align="center" fullwidth="true" />
 
 > Default Models section on the LTM General tab showing model assignment options
 
@@ -81,7 +81,7 @@ Default models are used for memory event processing, auto-generated summaries, a
 
 When *Organization managed application sources* is enabled in the General tab, click the `Manage applications` button or select the *Applications* tab to manage which applications Pieces can access for context capture.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/long_term_memory_tab_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/long_term_memory_tab_overview.png" alt="Available applications list with names, bundle IDs, and toggle switches" align="center" fullwidth="true" />
 
 > Available applications list showing application names, bundle IDs, and toggle switches
 

@@ -11,7 +11,7 @@ status: PUBLISHED
 
 Configure the Pieces CLI by changing both language models and the code editor.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="Available models and settings configuration" align="center" fullwidth="true" />
 
 > Available models and settings configuration interface
 
@@ -19,7 +19,7 @@ Configure the Pieces CLI by changing both language models and the code editor.
 
 The Pieces CLI supports 26 cloud-based language models that you can switch between.
 
-We continually update and configure our plugins and extensions to ensure compatibility with the latest large language models (LLMs).
+We continually update and configure our MCP integrations to ensure compatibility with the latest large language models (LLMs).
 
 | Supported LLMs                | Supported LLMs   |
 | ----------------------------- | ---------------- |

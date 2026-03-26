@@ -11,7 +11,7 @@ If you're facing an issue or stuck on a difficult debug, ask the Pieces Copilot 
 
 You can ask questions that don't need context, like *“What is the basic format for a JSON object?”* or more detailed questions where the Pieces Copilot requires context from your saved materials.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/_MAIN/pieces_ask_question.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/_MAIN/pieces_ask_question.png" alt="Asking a question to Pieces Copilot" align="center" fullwidth="true" />
 
 ## Adding Conversation Context
 
@@ -19,7 +19,7 @@ Contextual awareness lets the Pieces Copilot help you solve problems faster by p
 
 To best add conversation context, [include materials](/products/cli/copilot/chat#via-material-index) or [file context](/products/cli/copilot/chat#via-file-path) for more accurate responses from the Pieces Copilot chat.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/_MAIN/adding_file.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/_MAIN/adding_file.png" alt="Adding file context to Copilot chat" align="center" fullwidth="true" />
 
 ## Pieces Copilot As a Daily Driver
 

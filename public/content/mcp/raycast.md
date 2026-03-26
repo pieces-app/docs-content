@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Raycast
 metaDescription: Learn how to integrate Pieces MCP with Raycast. Raycast supports stdio only—use mcp-remote bridge to connect to PiecesOS. macOS only.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/raycast-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/raycast-mcp.png" alt="Pieces MCP integration with Raycast" align="center" fullwidth="true" />
 
 ***
 

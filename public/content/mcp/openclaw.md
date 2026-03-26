@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with OpenClaw
 metaDescription: Learn how to integrate Pieces MCP with OpenClaw. OpenClaw executes MCP tools via MCPorter. Automate standups, meeting prep, and more.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/openclaw-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/openclaw-mcp.png" alt="Pieces MCP integration with OpenClaw" align="center" fullwidth="true" />
 
 ***
 
@@ -26,7 +26,11 @@ With Pieces MCP connected, OpenClaw gains access to your Long-Term Memory. It ca
   </Step>
 
   <Step title="OpenClaw Installed">
-    Clone and configure OpenClaw following the [OpenClaw setup guide](https://github.com/clawdbot).
+    Clone and configure OpenClaw following the [setup instructions in the OpenClaw getting started](https://docs.openclaw.ai/start/getting-started).
+  </Step>
+
+  <Step title="Official Pieces skill on ClawHub">
+    Install the [Pieces Long-Term Memory (MCP) skill](https://clawhub.ai/jackrosspieces/pieces-mcp) on ClawHub. It is the full agent-facing guide for OpenClaw: MCP-only URLs, tunnels when PiecesOS runs on another machine, `mcporter.json`, `mcp-remote`, gateway restart, and troubleshooting.
   </Step>
 
   <Step title="Install & Run PiecesOS">
@@ -42,7 +46,9 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting Up OpenClaw
 
-OpenClaw executes MCP tools via **MCPorter**, its built-in MCP management layer. Edit `~/.openclaw/workspace/config/mcporter.json`:
+OpenClaw executes MCP tools via **MCPorter**, its built-in MCP management layer. Edit `~/.openclaw/workspace/config/mcporter.json`.
+
+The [official Pieces MCP skill for OpenClaw](https://clawhub.ai/jackrosspieces/pieces-mcp) documents **MCP-only** integration: point `mcp-remote` at the **`/mcp`** endpoint (`/model_context_protocol/2025-03-26/mcp`), not the legacy **`/sse`** path. That matches how OpenClaw and MCPorter expect to bridge Pieces.
 
 Install `mcp-remote` globally with a pinned version for security:
 
@@ -52,26 +58,9 @@ npm install -g mcp-remote@0.1.38
 
 See [MCP Bridge](/products/mcp/mcp-remote) for why we recommend a locally installed binary over `npx`.
 
-### Local Setup (SSE with mcp-remote — recommended)
+### Local setup (MCP with mcp-remote — recommended)
 
-When OpenClaw and PiecesOS run on the same machine, use the localhost URL with the mcp-remote bridge:
-
-```json
-{
-  "mcpServers": {
-    "pieces": {
-      "command": "mcp-remote",
-      "args": [
-        "http://localhost:39300/model_context_protocol/2024-11-05/sse"
-      ]
-    }
-  }
-}
-```
-
-### Remote Setup (ngrok)
-
-When OpenClaw needs to reach PiecesOS on a different machine:
+When OpenClaw and PiecesOS run on the same machine, use the localhost MCP URL with the mcp-remote bridge:
 
 ```json
 {
@@ -79,14 +68,31 @@ When OpenClaw needs to reach PiecesOS on a different machine:
     "pieces": {
       "command": "mcp-remote",
       "args": [
-        "https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2024-11-05/sse"
+        "http://localhost:39300/model_context_protocol/2025-03-26/mcp"
       ]
     }
   }
 }
 ```
 
-See [Tunneling](/products/mcp/ngrok-setup) for tunnel setup.
+### Remote setup (ngrok or other HTTPS tunnel)
+
+When OpenClaw runs on a different machine than PiecesOS, expose PiecesOS (port 39300) with a tunnel and use the **same MCP path** on your tunnel base URL:
+
+```json
+{
+  "mcpServers": {
+    "pieces": {
+      "command": "mcp-remote",
+      "args": [
+        "https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp"
+      ]
+    }
+  }
+}
+```
+
+See [Tunneling](/products/mcp/ngrok-setup) for tunnel setup. For step-by-step tunnel checks, `curl` validation, and gateway restarts, follow the [ClawHub skill](https://clawhub.ai/jackrosspieces/pieces-mcp).
 
 ## Example Use Cases
 
@@ -100,10 +106,17 @@ Once Pieces MCP is connected to OpenClaw, you can automate workflows like:
 
 ## Verification
 
-1. Start OpenClaw.
-2. Ask via your connected messaging platform: *"What Pieces tools do you have?"*
-3. Pieces LTM tools should be listed.
-4. Try: *"What did I work on yesterday?"*—OpenClaw will call `ask_pieces_ltm`.
+<Steps>
+  <Step title="Start OpenClaw">
+    Launch or connect to your OpenClaw instance as you normally do.
+  </Step>
+  <Step title="Confirm Pieces tools are exposed">
+    Ask via your connected messaging platform: *"What Pieces tools do you have?"* Pieces LTM tools should appear in the list.
+  </Step>
+  <Step title="Exercise Long-Term Memory">
+    Try: *"What did I work on yesterday?"*—OpenClaw should call `ask_pieces_ltm`.
+  </Step>
+</Steps>
 
 ## Security Note
 
@@ -115,21 +128,29 @@ OpenClaw can run with `permissionMode: 'bypassPermissions'` to execute tools aut
 
 ## Updating
 
-Edit `~/.openclaw/workspace/config/mcporter.json`, update the URL, and restart OpenClaw.
+Edit `~/.openclaw/workspace/config/mcporter.json`, update the URL, then restart the OpenClaw gateway (for example `openclaw gateway restart` from `~/.openclaw/workspace`, as in the [official skill](https://clawhub.ai/jackrosspieces/pieces-mcp)).
 
 ## Troubleshooting
 
 If you're experiencing issues integrating Pieces MCP with OpenClaw:
 
-1. **Verify PiecesOS Status**: Ensure [PiecesOS is actively running](/products/core-dependencies/pieces-os/troubleshooting) on your system.
-
-2. **MCPorter Config Not Found**: Create `~/.openclaw/workspace/config/` directory manually.
-
-3. **Bridge Process Not Starting**: Run `npm install -g mcp-remote@0.1.38` and ensure the global npm bin directory is in your PATH.
-
-4. **Tools Not Available**: Restart OpenClaw after editing MCPorter config.
-
-5. **ngrok URL Expired**: Restart the ngrok tunnel and update the URL in MCPorter config. See [ngrok Setup](/products/mcp/ngrok-setup) for details.
+<Steps>
+  <Step title="Verify PiecesOS is running">
+    Ensure [PiecesOS is actively running](/products/core-dependencies/pieces-os/troubleshooting) on your system.
+  </Step>
+  <Step title="MCPorter config path exists">
+    If the config is missing, create `~/.openclaw/workspace/config/` manually.
+  </Step>
+  <Step title="Bridge process (`mcp-remote`)">
+    Run `npm install -g mcp-remote@0.1.38` and ensure the global npm bin directory is in your `PATH`.
+  </Step>
+  <Step title="Tools still not listed">
+    After editing MCPorter config, restart the gateway (`openclaw gateway restart` per the [ClawHub skill](https://clawhub.ai/jackrosspieces/pieces-mcp)) so OpenClaw picks up the Pieces MCP server.
+  </Step>
+  <Step title="Remote / tunnel URL">
+    If you use ngrok or another tunnel, restart the tunnel when the URL changes and update the URL in MCPorter config. See [ngrok Setup](/products/mcp/ngrok-setup) for details.
+  </Step>
+</Steps>
 
 ***
 

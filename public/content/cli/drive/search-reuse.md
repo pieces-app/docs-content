@@ -27,7 +27,7 @@ If you want to access your saved snippets directly within Pieces CLI, you can:
 
     Alternatively, you can launch into Pieces CLI run mode with `pieces run`. This will enable you to just enter `search “query”`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/ncs_search_results.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/ncs_search_results.png" alt="Neural code search results" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -43,13 +43,13 @@ For example, `pieces search "query" --mode fts` will use the full-text search on
 
 [Saved snippets](/products/cli/drive/saving-materials) can be viewed by opening them up directly from the Pieces Drive with `pieces list`, using your scroll wheel or arrow keys, and selecting the snippet with the `return` (macOS) or `enter` (Windows/Linux) key, all from within your terminal.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/pieces_drive_list.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/pieces_drive_list.png" alt="Pieces Drive materials list" align="center" fullwidth="true" />
 
 In your terminal, you can also open snippets with the `pieces search “query” [optional: --mode ncs,fts]` command. If Pieces finds snippets that match your query, you will be presented with a list of snippets.
 
 You can open a snippet from the list using your scroll wheel or arrow keys and select it with the `return` (macOS) or `enter` (Windows/Linux) key.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/search_snippets.gif" alt="" align="middle" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/search_reuse/search_snippets.gif" alt="Searching and selecting snippets" align="middle" fullwidth="true" />
 
 ***
 

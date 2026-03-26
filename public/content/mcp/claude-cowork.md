@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Cowork
 metaDescription: Learn how to integrate Pieces MCP with Claude Cowork. Use the same config as Claude Desktop. Pro/Max/Team/Enterprise plans. Research preview.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/claude-cowork-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/claude-cowork-mcp.png" alt="Pieces MCP integration with Claude Cowork" align="center" fullwidth="true" />
 
 ***
 
@@ -124,21 +124,36 @@ Once connected, start a Cowork session and Pieces LTM tools are available alongs
 
 ## Verification
 
-1. Open Claude Desktop and start a Cowork session (look for the folder/file access UI).
-2. Ask: *"What Pieces tools are available?"*
-3. Give a multi-step task: *"Search my Pieces memory for my recent work on [project name] and write a status update to my Desktop"*
+<Steps>
+  <Step title="Open a Cowork session">
+    Open Claude Desktop and start a Cowork session (look for the folder/file access UI).
+  </Step>
+  <Step title="Confirm Pieces tools">
+    Ask: *"What Pieces tools are available?"*
+  </Step>
+  <Step title="Try a multi-step task">
+    For example: *"Search my Pieces memory for my recent work on [project name] and write a status update to my Desktop"*
+  </Step>
+</Steps>
 
 ## Troubleshooting
 
 If you're experiencing issues integrating Pieces MCP with Claude Cowork:
 
-1. **Cowork Option Not Visible**: Ensure you have Pro/Max/Team/Enterprise plan.
-
-2. **Pieces Tools Not Appearing**: Restart Claude Desktop after config changes.
-
-3. **MCP Tools Unavailable**: Confirm the Pieces server is configured in Claude Desktop—Cowork shares Desktop's config.
-
-4. **Windows Not Available**: Windows support was added February 10, 2026—update Claude Desktop.
+<Steps>
+  <Step title="Cowork option not visible">
+    Ensure you have a Pro, Max, Team, or Enterprise plan.
+  </Step>
+  <Step title="Pieces tools not appearing">
+    Restart Claude Desktop after config changes.
+  </Step>
+  <Step title="MCP tools unavailable">
+    Confirm the Pieces server is configured in Claude Desktop—Cowork shares Desktop's config.
+  </Step>
+  <Step title="Windows">
+    Windows support was added February 10, 2026—update Claude Desktop.
+  </Step>
+</Steps>
 
 ***
 

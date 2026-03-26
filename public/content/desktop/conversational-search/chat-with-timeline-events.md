@@ -12,7 +12,7 @@ metaDescription: Start context-specific conversations directly from Timeline Eve
 
 Start context-specific chats directly from any Timeline Event. When you start a conversation with a Timeline Event, it opens in Conversational Search with that event's full context pre-loaded and displayed as an information card. Use this when you want to ask questions about a specific past moment, understand what happened during a particular work session, or drill into details of a specific Timeline Event.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_event_in_conversational_search_with_widget_showing.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_event_in_conversational_search_with_widget_showing.png" alt="Conversational Search with Timeline Event context card and chat input" align="center" fullwidth="true" />
 
 > Conversational Search view showing a Timeline Event card with pre-loaded context and input field ready for questions
 
@@ -30,7 +30,7 @@ Start a context-specific conversation from any Timeline Event using the `Start R
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_timeline_event.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_timeline_event.png" alt="Timeline Event detail with Start Related Chat opening Conversational Search" align="center" fullwidth="true" />
 
 > Conversational Search showing memory, Timeline Event, Start Related Chat, and Conversational Search open with Timeline Event card displayed
 
@@ -44,7 +44,7 @@ When Conversational Search opens with a Timeline Event, you'll see an informatio
 * "Summarize the key outcomes from this work"
 * "What happened next?"
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_event_in_conversational_search_with_widget_showing.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/chat-with-timeline-events/chat_with_event_in_conversational_search_with_widget_showing.png" alt="Scoped chat with event card, placeholder prompt, and model toolbar" align="center" fullwidth="true" />
 
 > Conversational Search interface showing Timeline Event information card with event details, input field with placeholder text, and bottom toolbar with model selection and filters
 

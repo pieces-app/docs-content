@@ -10,7 +10,7 @@ metaDescription: Learn how to talk with your memories, filter searches, switch m
 
 ***Conversational Search*** is the ability to talk with your memories. You can have conversations with your captured workflow context—ask specific questions, search through your memories, and filter by apps or time ranges to customize which memories you're talking with. All responses are powered by [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/landing_overview_conversational_chat_and_examples.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/landing_overview_conversational_chat_and_examples.png" alt="Conversational Search interface with suggested prompts, chat input, model selector" align="center" fullwidth="true" />
 
 > Full Conversational Search interface on homepage showing suggested prompts, chat input, model selector, and bottom toolbar
 
@@ -22,7 +22,7 @@ Have conversations with your captured workflow context. Ask specific questions a
 
 Suggested prompts appear as clickable buttons based on your recent workflow. Click any prompt to instantly start that conversation. Responses include Related Timeline Events cards showing which memories were used as sources.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/clicking_on_sample_prompt.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/clicking_on_sample_prompt.gif" alt="Clicking suggested prompt showing response with Related Timeline Events cards" align="center" fullwidth="true" />
 
 > Clicking a suggested prompt, showing the complete flow from click to response with Related Timeline Events cards
 
@@ -51,7 +51,7 @@ Type your own questions to have conversations with your memories about specific 
 * "What did Sarah and I discuss about the API redesign in Teams?"
 * "Show me the code changes I made related to WebSocket connections"
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="Start New Chat button and input field with example question typed" align="center" fullwidth="true" />
 
 > Start New Chat button and input field with example question typed
 
@@ -81,7 +81,7 @@ Limit searches to memories from specific applications. Use this when you want an
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_sources.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_sources.png" alt="Sources filter modal with app checkboxes, Chrome and VS Code selected" align="center" fullwidth="true" />
 
 > Sources filter modal showing list of apps with checkboxes, with Chrome and VS Code selected
 
@@ -103,7 +103,7 @@ Focus searches on specific time periods. Use this when you need information from
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_time.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_time.png" alt="Time Ranges modal showing preset options and calendar view" align="center" fullwidth="true" />
 
 > Time Ranges modal showing preset options and calendar view
 
@@ -127,7 +127,7 @@ All response actions are available in the *toolbar* below each response:
 * **Convert to Timeline Event:** Click the `paper/document icon` to save important responses—they'll appear in the *memories sidebar* for later reference
 * **Use as Context:** Click the `three-dot menu` (`⋮`) and select "Use as Context" to add the response as context for follow-up questions
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_response_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_response_options.png" alt="Response toolbar with Copy, Export, Regenerate, and Convert buttons" align="center" fullwidth="true" />
 
 > Response toolbar showing Copy, Export, Regenerate, Convert to Timeline Event, and More menu buttons labeled
 
@@ -135,7 +135,7 @@ All response actions are available in the *toolbar* below each response:
 
 Cards appear below responses showing which source Timeline Events were used to generate the answer. Click any card to view the full Timeline Event details and verify where information came from.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/relevant_summaires_conversational_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/relevant_summaires_conversational_chat.png" alt="Response with Related Timeline Events cards showing memory titles and timestamps" align="center" fullwidth="true" />
 
 > Response with Related Timeline Events cards below showing memory titles and timestamps
 
@@ -157,7 +157,7 @@ Switch between cloud and local models based on your needs. Use cloud models (Cla
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Model selector dropdown with recent, suggested, and all models options" align="center" fullwidth="true" />
 
 > Model selector dropdown 
 

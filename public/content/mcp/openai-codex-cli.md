@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with OpenAI Codex CLI
 metaDescription: Learn how to integrate Pieces MCP with OpenAI Codex CLI. Use TOML config format for MCP server setup. Requires Codex 0.2.0+.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/codex-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/codex-mcp.png" alt="Pieces MCP integration with OpenAI Codex CLI" align="center" fullwidth="true" />
 
 ***
 

@@ -14,7 +14,7 @@ Timeline Events is the chronological sidebar that displays all activities and co
 
 Click the `Show Timeline` button in the top-left corner of the main view to open or close Pieces Timeline.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="Timeline with Events sidebar, Show Timeline, and grouped activities" align="center" fullwidth="true" />
 
 > Full screenshot of Timeline with Timeline Events sidebar open on the left, showing the "Show Timeline" button highlighted, multiple date groups (Today, Yesterday, Last Saturday), and several activity items with timestamps and icons
 
@@ -31,7 +31,7 @@ Each memory item displays:
 * **App Icons:** Small icons showing which applications were involved (Chrome, VS Code, Slack, etc.).
 * **Count Badge:** Number on the right indicating how many events or items are in that memory.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/current_day_dropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/current_day_dropdown.png" alt="Current day dropdown in Timeline Events" align="center" fullwidth="true" />
 
 > Showing current day dropdown in Timeline
 
@@ -90,7 +90,7 @@ Use the search bar to find activities by keyword or topic:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/searching_through_timeline_events_slash_activities.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/searching_through_timeline_events_slash_activities.png" alt="Search filtering Timeline Events in real time" align="center" fullwidth="true" />
 
 > Search/filter functionality showing typing a search query in the search bar at the top of Timeline Events sidebar, with the activity list filtering in real-time to display only matching results
 
@@ -117,7 +117,7 @@ Click an activity to view its complete roll-up details:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="Selected event in sidebar with roll-up detail in main panel" align="center" fullwidth="true" />
 
 > Screenshot showing an activity item selected in the Timeline Events sidebar (highlighted) and the corresponding detailed roll-up displayed in the main panel to the right
 

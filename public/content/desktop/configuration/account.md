@@ -14,7 +14,7 @@ Manage your Pieces account settings, authentication, linked accounts, organizati
 
 To access Account settings, click your `User Profile` in the top left, then hover over `Settings` and select `Account`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="Account settings with profile, linked accounts, organizations, and subscriptions" align="center" fullwidth="true" />
 
 > Account settings showing profile information, linked accounts, organizations, and subscriptions
 
@@ -190,7 +190,7 @@ Remove a linked account from your Pieces account. You can disconnect accounts fr
 
 View and manage your organization memberships from the Account settings page. The *Organizations & Teams* section displays all organizations you belong to, along with their subscription types and management options.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/organization_and_teams_overview_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/organization_and_teams_overview_settings.png" alt="Organizations and Teams section in Account settings" align="center" fullwidth="true" />
 
 > Account settings page showing Organizations & Teams section with organization list and management options
 

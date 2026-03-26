@@ -17,7 +17,7 @@ As a member of an organization, you can collaborate with your team, view shared 
 
 Access your organization's Home page to get set up with Pieces and collaborate with your team. Members can view resources and participate in team activities while having limited administrative access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="Organization Home page from a member's perspective" align="center" fullwidth="true" />
 
 > Organization Home page from a member's perspective showing available features
 
@@ -29,7 +29,7 @@ Access your organization's Home page to get set up with Pieces and collaborate w
 
 Learn about the different member roles and what each role can and cannot do within an organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-member-guide/member-permissions/permissions_selection.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-member-guide/member-permissions/permissions_selection.png" alt="Member permissions overview showing role differences and access levels" align="center" fullwidth="true" />
 
 > Member permissions overview showing role differences and access levels
 

@@ -20,7 +20,7 @@ To access settings, press `⌘+,` (macOS) or `ctrl+,` (Windows/Linux).
 
 You can also open the **Power Menu**, type ‘settings’ in the search field, and select `Go To Settings` from the dropdown menu.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/settings.png" alt="Settings window with category sidebar" align="center" fullwidth="true" />
 
 ## Understanding the Settings Layout
 
@@ -40,7 +40,7 @@ In this section, you can integrate external services with Pieces and adjust your
 
 This area displays your email address and any linked accounts.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Account%20%26%20Cloud/account_integrations.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Account%20%26%20Cloud/account_integrations.png" alt="Accounts and Cloud Integrations modal" align="center" fullwidth="true" />
 
 If you’re interested in testing upcoming features, the **Early Access Program** lets you join beta releases and stay ahead of the curve.
 
@@ -50,7 +50,7 @@ The Personal Cloud settings are now part of the [Account](/products/desktop/conf
 
 You'll see a status for your cloud connection (including the last sync time), plus options to set or modify your personal domain.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/disconnect_cloud.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/disconnect_cloud.png" alt="Personal Cloud connect and disconnect controls" align="center" fullwidth="true" />
 
 There's also a `Backup & Restore Data` feature to preserve or retrieve your snippets from the cloud whenever needed.
 
@@ -84,7 +84,7 @@ The [Models](/products/desktop/configuration/models) settings allow you to confi
 
 * `Model Management`: Enable or disable specific AI models from different providers (OpenAI, Anthropic, Google, Microsoft, Meta, IBM, etc.).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/processing_mode.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/processing_mode.png" alt="Processing mode selection for ML in Settings" align="center" fullwidth="true" />
 
 ### Views & Layouts
 
@@ -102,7 +102,7 @@ You’ll also find options for `Confirmation Settings` (for specific actions), t
 
 * `Default Toolbar`: Assign a default toolbar to new snippets.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Workstream%20Activity/views_layouts_changing_workstream_view.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Workstream%20Activity/views_layouts_changing_workstream_view.png" alt="Changing Workstream Activity view layout" align="center" fullwidth="true" />
 
 ### Appearance
 
@@ -112,7 +112,7 @@ Switch between light or dark mode, select an accent color for UI highlights, adj
 
 These controls help you create a comfortable coding environment for extended sessions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="Accent color picker in Appearance settings" align="center" fullwidth="true" />
 
 ### Troubleshooting
 

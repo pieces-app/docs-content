@@ -9,7 +9,7 @@ metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) w
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/github_mcp.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp-2-1.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp-2-1.png" alt="Pieces MCP integration with GitHub Copilot" align="center" fullwidth="true" />
 
 ***
 
@@ -61,11 +61,11 @@ To find the current SSE endpoint with the active instance of POS (including the 
 
 There, you can copy the SSE endpoint with one click, which includes the active PiecesOS port number.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="PiecesOS Quick Menu with MCP servers section" align="center" fullwidth="true" />
 
 You can also do this in the Pieces Desktop App by opening the **Settings** view and clicking **Model Context Protocol (MCP).**
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop MCP configuration view" align="center" fullwidth="true" />
 
 ## Setting Up GitHub Copilot
 
@@ -87,7 +87,7 @@ Adding the Pieces MCP in the built-in MCP menu is the easiest method to setting 
   <Step title="Add a New MCP Server">
     In the Command Palette, type **MCP: Add Server** and select the command when it appears.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp_add_server_dropdown.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp_add_server_dropdown.png" alt="VS Code command palette showing MCP add server" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Choose the Server Type">
@@ -161,7 +161,7 @@ You can manually add the MCP to your MCP settings `.JSON` by following the steps
   <Step title="Save the File">
     Save the configuration.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp_settings.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/mcp_settings.png" alt="VS Code MCP settings configuration" align="center" fullwidth="true" />
 
     Your GitHub Copilot chat, as long as it’s in Agent mode, will now see PiecesOS as an MCP.
   </Step>
@@ -181,7 +181,7 @@ Once integrated, you can utilize Pieces LTM directly in Visual Studio Code.
   <Step title="Start Prompting">
     Enter your prompt, and click the **send** icon or press `return` (macOS) or `enter` (Windows/Linux) to send your query to the Copilot.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/chatting_with_mcp.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_gh_copilot/chatting_with_mcp.gif" alt="GitHub Copilot chat using Pieces MCP demonstration" align="center" fullwidth="true" />
 
     <Callout type="alert">
       Do not add the `ask_pieces_ltm` tool as *context* to the conversation. If you are running the chat in *Agent* mode—which is required for the Pieces MCP integration to operate successfully—it will automatically utilize this tool.

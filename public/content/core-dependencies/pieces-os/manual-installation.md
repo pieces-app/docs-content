@@ -50,7 +50,7 @@ If you need help determining your device’s OS version or system specifications
 
 ## Why Install PiecesOS Manually?
 
-PiecesOS is installed by default when installing the Pieces Desktop App as a core dependency, but it can be installed manually for use with a Pieces plugin or extension if you’re not ready to dive into the entire Pieces ecosystem.
+PiecesOS is installed by default when installing the Pieces Desktop App as a core dependency, but it can be installed manually for use with a [Pieces MCP integration](/products/mcp/get-started) if you’re not ready to dive into the entire Pieces ecosystem.
 
 LTM, Pieces Drive, and Pieces Copilot will still be available to you.
 
@@ -63,6 +63,10 @@ If you want to install PiecesOS automatically alongside the Pieces Desktop App, 
 There are different ways to install PiecesOS as a standalone entity, separate from the Pieces Desktop App.
 
 To install, download the appropriate link for your device’s OS and architecture (if using a macOS device) and open the file, then walk through the guided installation steps as necessary.
+
+<Callout type="alert">
+  **Installation path:** Avoid **OneDrive**, **iCloud Drive**, and other **cloud-synced** install locations—use a **local drive** (the default path is recommended).
+</Callout>
 
 ## Windows
 
@@ -144,7 +148,7 @@ Select your operating system below to platform-specific steps to uninstalling Pi
 
     Scroll or search until you find `PiecesOS.` Right-click on these two applications and select `Move to Trash`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_how_to_uninstall_pfd.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_how_to_uninstall_pfd.gif" alt="Uninstalling PiecesOS from macOS Applications folder" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">
@@ -154,7 +158,7 @@ Select your operating system below to platform-specific steps to uninstalling Pi
 
     The **PiecesOS application** will appear after that query. Click the three dots to the right of the application title, and click `Uninstall`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/uninstalling_on_windows.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/uninstalling_on_windows.gif" alt="Uninstalling PiecesOS from Windows Settings" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Linux">
@@ -164,7 +168,7 @@ Select your operating system below to platform-specific steps to uninstalling Pi
 
     To remove **PiecesOS,** type `sudo snap remove pieces-os` and press `enter`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/uninstall_pfd_from_terminal.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/uninstall_pfd_from_terminal.png" alt="Uninstalling PiecesOS from the Linux terminal" align="center" fullwidth="true" />
   </TabItem>
 </Tabs>
 

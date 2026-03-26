@@ -37,7 +37,7 @@ There are several views and buttons you can click to expand or enter in the Piec
 
 *PiecesOS Quick Menu on macOS*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/pos_quick-menu_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/pos_quick-menu_overview.png" alt="PiecesOS Quick Menu overview on macOS" align="center" fullwidth="true" />
 
 <Callout type="alert">
   The PiecesOS Quick Menu shares the same user interface (UI) as the Quick Menu on Windows.
@@ -57,7 +57,7 @@ At the top of the Quick Menu, you can **log in or log out** of your Pieces accou
 
 If you log out, PiecesOS will continue running locally with saved configurations but will not sync to the cloud.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_account_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_account_overview.png" alt="PiecesOS Quick Menu account login and logout options" align="center" fullwidth="true" />
 
 ### Checking for Updates
 
@@ -67,7 +67,7 @@ Directly under your account information, the Quick Menu displays your current Pi
 
 * If PiecesOS is up to date, the menu will display a green check mark and show the active version—i.e., 11.0.4.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="PiecesOS Quick Menu update status and version info" align="center" fullwidth="true" />
 
 ## LTM-2.7 Engine
 
@@ -81,7 +81,7 @@ You can toggle the LTM engine **On** or **Off** from the Quick Menu.
 
 To do so, click the `Pieces` logo in your taskbar or toolbar, and click `Enable Long-Term Memory Engine` to enable it.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="Toggling LTM engine on or off in the Quick Menu" align="center" fullwidth="true" />
 
 Conversely, you can click the green `On` button to display a drop-down menu that lets you disable the LTM temporarily in minute increments or altogether.
 
@@ -103,7 +103,7 @@ This view displays a list of apps from which LTM is actively gathering data (e.g
 
 Clicking on an enabled source opens a window where you can choose to disable it.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/quick_menu_known_icons.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/quick_menu_known_icons.png" alt="LTM enabled sources with application icons in Quick Menu" align="center" fullwidth="true" />
 
 ## MCP Menu
 
@@ -111,7 +111,7 @@ Pieces is fully integrated with MCP functionality and now ships with an in-house
 
 You can find the SSE endpoint URL for creating your own Pieces MCP instances, as well as links to related documentation, in the `Model Context Protocol (MCP) Servers` menu.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="MCP Server options and SSE endpoint in the Quick Menu" align="center" fullwidth="true" />
 
 ## Settings
 
@@ -121,7 +121,7 @@ The `Settings` menu allows you to configure PiecesOS to best suit your workflow.
 
 Adjusts memory allocation for PiecesOS to reduce resource consumption while maintaining performance.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_ml_processing.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_ml_processing.png" alt="ML processing and memory optimization settings" align="center" fullwidth="true" />
 
 ### Launch on Login
 
@@ -129,15 +129,15 @@ You can enable or disable automatic startup for PiecesOS when your computer boot
 
 ### Enabled Apps
 
-View a list of applications that have Pieces plugins and extensions installed.
+View a list of applications that have Pieces MCP integrations connected.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/enabled_apps.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/enabled_apps.png" alt="List of enabled Pieces MCP integrations" align="center" fullwidth="true" />
 
 ### Telemetry Sharing
 
-Enable or disable telemetry data collection on an individual application, plugin, or extension basis.
+Enable or disable telemetry data collection on an individual application or MCP integration basis.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/telemetry_pos.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/telemetry_pos.png" alt="Telemetry sharing settings for individual applications" align="center" fullwidth="true" />
 
 ### ML Processing
 
@@ -145,7 +145,7 @@ This menu controls how PiecesOS manages AI model inference. You can use `Blended
 
 You can also make changes to the enrichment to level and type to individual applications for more fine-tuned control.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/ml_blending.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/ml_blending.png" alt="ML processing mode selection between Blended and Local" align="center" fullwidth="true" />
 
 ### Resources
 
@@ -175,13 +175,13 @@ The `Resources` provides quick access to documentation, support, and community l
 
 ***
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/resources.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/resources.png" alt="PiecesOS Quick Menu resources and links section" align="center" fullwidth="true" />
 
 ## Linux
 
 The Pieces Quick Menu on Linux contains several helpful resources and links, such as:
 
-* **Discoverer Integrations:** Opens the Pieces website, where you can find all <a target="_blank" href="https://pieces.app/plugins">Pieces browser and IDE extensions and plugins</a>.
+* **Discoverer Integrations:** Opens the Pieces website, where you can find all <a target="_blank" href="/products/mcp/get-started">Pieces MCP integrations</a>.
 
 * **About:** Launches the <a target="_blank" href="https://pieces.app/about">About</a> page for Pieces.
 
@@ -193,6 +193,6 @@ The Pieces Quick Menu on Linux contains several helpful resources and links, suc
 
 * **Quit:** Quits PiecesOS. To relaunch, open your terminal and type `pieces-os` and press `enter` or find the PiecesOS launcher from your application tray.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/pieces_os_main/quick_menu/linux_quick_menu.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/pieces_os_main/quick_menu/linux_quick_menu.png" alt="PiecesOS Quick Menu on Linux" align="center" fullwidth="true" />
 
-As a background resource task, there are currently fewer adjustable actions, but LTM Pieces Drive and Pieces Copilot can still be accessed and utilized within Pieces plugins and extensions on Linux.
+As a background resource task, there are currently fewer adjustable actions, but LTM Pieces Drive and Pieces Copilot can still be accessed and utilized within Pieces MCP integrations on Linux.

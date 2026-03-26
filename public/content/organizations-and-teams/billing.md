@@ -12,7 +12,7 @@ metaDescription: Guide to managing organization subscriptions, seat counts, bill
 
 The Billing page allows you to manage your organization's subscription, view billing details, adjust seat counts, and add billing contact information.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_tab_overview.png" alt="Billing tab showing subscription information, seats, and billing contact" align="center" fullwidth="true" />
 
 > Billing tab showing subscription information, seats, and billing contact
 
@@ -78,7 +78,7 @@ Update the number of seats in your subscription to accommodate more or fewer tea
 
 Add or update billing contact information for invoices and payment correspondence. The *Billing Contact* section is located below the *Subscription Information* and *Seats* sections on the Billing page.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_contact_billing_tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/billing_contact_billing_tab.png" alt="Billing Contact section with fields for name, email, phone, and address" align="center" fullwidth="true" />
 
 > Billing Contact section with fields for name, email, phone, and address
 

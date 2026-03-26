@@ -8,7 +8,7 @@ metaTitle: Introduction to Pieces Copilot | Pieces Docs
 metaDescription: Download the Pieces Desktop App and access OS-specific installation guides for Windows, macOS, and Linux to get started quickly
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/pieces_copilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/pieces_copilot.png" alt="Pieces Copilot introduction banner" align="center" fullwidth="true" />
 
 ***
 
@@ -48,7 +48,7 @@ We’ll walk you through the main Copilot Chat window and touch on all of the ma
 
 You’ll learn how to interact with Pieces Copilot, utilize flexible *Suggested Prompts* when starting new chats, enable or disable Long-Term Memory context, add individual items to the chat, and discover other productivity-centric *Quick Actions.*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/gif_of_running_through_all_options.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/gif_of_running_through_all_options.gif" alt="Pieces Copilot main chat with suggested prompts and quick actions" align="center" fullwidth="true" />
 
 ### Context & Project Integration
 
@@ -58,7 +58,7 @@ By integrating local folders, files, and your saved code snippets, you can signi
 
 In this section, we'll cover context and project management—adding items from Pieces Drive or your device as chat context, offering real-world examples to reduce context switching, and showing how to adjust the AI's understanding of your environment or workflow.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/adding_folder_to_copilot_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/adding_folder_to_copilot_chat.png" alt="Adding a folder as context in Pieces Copilot chat" align="center" fullwidth="true" />
 
 ### Configuring Pieces Copilot
 
@@ -66,7 +66,7 @@ Pieces Copilot offers flexibility in choosing the AI model (cloud-based or local
 
 Choose from over 40 cloud-hosted and local models (including those served via Ollama and other providers), adjust your runtime settings, customize the appearance of your Copilot Chat view, enable or disable LTM context for new chats, and more.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_asking_pieces_copilot_a_question.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_asking_pieces_copilot_a_question.gif" alt="Asking Pieces Copilot a question in the chat" align="center" fullwidth="true" />
 
 ### Pieces Copilot in Multiple Environments
 
@@ -80,7 +80,7 @@ We’ll go over cross-platform consistency with context, history, and usage sync
 
 *Pieces Copilot in JetBrains IDEs*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_MAIN/pieces_copilot_in_multiple_environments_parent_page.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_MAIN/pieces_copilot_in_multiple_environments_parent_page.png" alt="Pieces Copilot in JetBrains IDEs" align="center" fullwidth="true" />
 
 ***
 

@@ -20,7 +20,7 @@ At the very top of the Pieces Drive view is the **Search Bar**, labeled *Find Ma
 
 This is your starting point for quick lookups.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/searching_pieces_drive.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/searching_pieces_drive.png" alt="Search field in Pieces Drive" align="center" fullwidth="true" />
 
 ### Natural Language Queries
 
@@ -36,7 +36,7 @@ After you type your query, results populate in the Saved Materials List on the l
 
 Each matching snippet’s auto-generated title and a quick preview appear—just click any snippet to open it in the main detail pane.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/quick_search_filters.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/quick_search_filters.png" alt="Quick search filters in Pieces Drive" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Searching “local storage React” can bring up multiple snippets involving React’s local storage usage, even if the phrase “local storage” doesn’t appear verbatim in the snippet title.
@@ -79,7 +79,7 @@ These advanced filters let you refine your search using specific criteria and st
 
 Pieces lets you filter using *language*, *tags* and specific *natural language phrases* so that you see only what you need to see—this is particularly useful if you have similar-sounding snippets across multiple languages.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/search_filters.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/search_filters.png" alt="Advanced search filters in Pieces Drive" align="center" fullwidth="true" />
 
 There are a few different use cases for searching with these methods:
 

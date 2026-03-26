@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with VS Code
 metaDescription: Learn how to integrate Pieces MCP with Visual Studio Code. Access Long-Term Memory within your editor for enhanced, context-aware productivity.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/visual-studio-code-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/visual-studio-code-mcp.png" alt="Pieces MCP integration with Visual Studio Code" align="center" fullwidth="true" />
 
 ***
 

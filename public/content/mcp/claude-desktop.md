@@ -9,7 +9,7 @@ metaDescription: Discover different ways to configure the Pieces MCP to provide 
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/claude_desktop_mcp.jpg"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/pieces_mcp_for_claude_desktop_banner.jpg" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/pieces_mcp_for_claude_desktop_banner.jpg" alt="Pieces MCP for Claude Desktop banner" align="center" fullwidth="true" />
 
 ***
 
@@ -61,7 +61,7 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
   With this method, the Claude MCP config points to the Pieces CLI executable and runs `pieces mcp start` whenever Claude starts. This is different from using the CLI to configure Claude directly (Method 2).
 </Callout>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/claude_manual_config.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/claude_manual_config.png" alt="Claude Desktop manual MCP configuration process" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Install the Pieces CLI">
@@ -146,7 +146,7 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
 
 This method uses the Pieces CLI to automatically set up and configure Pieces MCP for Claude Desktop.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/generic_cli_shot.png" alt="" align="center" fullwidth="false" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/generic_cli_shot.png" alt="Pieces CLI automatic MCP setup command" align="center" fullwidth="false" />
 
 <Steps>
   <Step title="Install the Pieces CLI">
@@ -171,7 +171,7 @@ This method uses the Pieces CLI to automatically set up and configure Pieces MCP
   <Step title="Restart Claude Desktop">
     Once the command completes, restart Claude Desktop and confirm that the Pieces MCP server is connected.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/cli_mcp_setup_claude_desktop.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/cli_mcp_setup_claude_desktop.png" alt="Successful Pieces MCP setup in Claude Desktop" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -216,12 +216,12 @@ Once integrated, you can utilize Pieces LTM directly in Claude Desktop or Claude
 2. **Prompt with Context**\
    Ask Claude questions about prior work or files (e.g., *"What was I doing for work yesterday?"*).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/what_have_i_been_working_on.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/what_have_i_been_working_on.png" alt="Claude asking what user was working on" align="center" fullwidth="true" />
 
 3. **Verify MCP Tools Are Active**\
    If configured correctly, Claude will automatically use the `ask_pieces_ltm` tool to pull relevant context.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/general_claude_desktop_output_1.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/general_claude_desktop_output_1.png" alt="Claude Desktop using Pieces MCP tool output" align="center" fullwidth="true" />
 
 ## Troubleshooting
 

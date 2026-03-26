@@ -29,7 +29,7 @@ Follow the steps below to change the cloud LLM utilized by the Pieces MCP:
 
     Use your `scroll wheel` or `arrow keys` to navigate to your desired LLM and press `return` (macOS) or `enter` (Windows/Linux) to set the LLM runtime.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/llms_settings/available_models.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/llms_settings/available_models.png" alt="List of available LLM models" align="center" fullwidth="true" />
   </Step>
 </Steps>
 

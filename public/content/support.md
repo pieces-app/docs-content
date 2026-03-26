@@ -9,7 +9,7 @@ metaTitle: Pieces Support
 metaDescription: Reach out to our engineers, open support tickets, and read discussions on our GitHub page for support with Pieces software.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/support/support_banner.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/support/support_banner.png" alt="Pieces support banner" align="center" fullwidth="true" />
 
 ***
 
@@ -25,13 +25,13 @@ We've got you covered if you’re experiencing an issue or have feedback for the
 
 ## Live Support with Pieces
 
-We want to ensure that your experience with PiecesOS, the Pieces Desktop App, and any of our IDE or browser integrations is as smooth and seamless as possible—and part of that is speaking with as many users as possible so we can continue iterating and improving on Pieces products.
+We want to ensure that your experience with PiecesOS, the Pieces Desktop App, and any of our MCP integrations is as smooth and seamless as possible—and part of that is speaking with as many users as possible so we can continue iterating and improving on Pieces products.
 
 If you need help getting everything up and running, feel free to book a call with our Founders & Engineering Leaders via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
 
 ## Open a GitHub Issue<a target="_blank" href="/products/support#get-support-or-share-feedback">**​**</a>
 
-You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
+You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces MCP integration by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
 
 If you would prefer not to use GitHub, you can still <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>
 
@@ -65,7 +65,7 @@ At any time, you can find your up-to-date log files in the following locations, 
 
     **Note:** If you don’t see the `Library` folder or certain files, press `⌘+shift+.` (period) to show hidden files in Finder.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/mac_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/mac_support.png" alt="Locating Pieces log files on macOS" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">
@@ -93,7 +93,7 @@ At any time, you can find your up-to-date log files in the following locations, 
 
        * Check **Hidden items**.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/windows_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/windows_support.png" alt="Locating Pieces log files on Windows" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Linux">
@@ -113,7 +113,7 @@ At any time, you can find your up-to-date log files in the following locations, 
 
     3. Open `production` → `Support` to view the logs. If the folder doesn’t appear, ensure hidden files are visible. In most file managers, press `ctrl+h` to toggle hidden files on/off.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/linux_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/linux_support.png" alt="Locating Pieces log files on Linux" align="center" fullwidth="true" />
   </TabItem>
 </Tabs>
 

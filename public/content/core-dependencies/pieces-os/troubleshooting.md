@@ -14,6 +14,10 @@ Find information on troubleshooting common installation and update issues for Pi
 
 <on-device-storage />
 
+### Installation folder and cloud sync (OneDrive, iCloud Drive, etc.)
+
+If you installed to **OneDrive**, **iCloud Drive**, or another **synced folder**, you may see install failures, crashes, or bad updates. **Uninstall**, then **reinstall** to the **default path** on a local drive. See [Windows](/products/meet-pieces/windows-installation-guide#on-screen-prompts) and [manual installation](/products/core-dependencies/pieces-os/manual-installation#manual-download--installation).
+
 ### Checking System Specifications
 
 Navigate between the grouped tabs below to find information on several common installation issues users experience when downloading and installing PiecesOS.
@@ -36,7 +40,7 @@ Navigate between the grouped tabs below to find information on several common in
 
     * **Intel:** You will see an Intel processor, e.g., `2.6 GHz Intel Core i7`
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="Checking macOS CPU architecture via About This Mac" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">
@@ -54,7 +58,7 @@ Navigate between the grouped tabs below to find information on several common in
 
     The **System** tab will display your processor, number of CPU cores, and memory (RAM), while the **Display** tab will list your GPU, it’s maker (NVIDIA, AMD, Intel, etc.) and the available video memory (VRAM).
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="Checking Windows hardware specs using dxdiag" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Linux">
@@ -66,11 +70,11 @@ Navigate between the grouped tabs below to find information on several common in
 
     To determine your CPU type and find other important information, type `lscpu` in your terminal and press `Enter`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="Terminal output of lscpu command on Ubuntu" align="center" fullwidth="true" />
 
     **Checking GPU Information**
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="Terminal output of lspci showing GPU info on Ubuntu" align="center" fullwidth="true" />
 
     Confirm that your CPU, GPU, and memory resources are sufficient for running PiecesOS and local AI models (if applicable).
   </TabItem>
@@ -82,7 +86,7 @@ Navigate between the grouped tabs below to find information on several common in
 
 ### Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, or PiecesOS itself.
+Many issues can stem from out-of-date MCP integrations or PiecesOS itself.
 
 <Tabs>
   <TabItem title="macOS">
@@ -96,7 +100,7 @@ Many issues can stem from out-of-date plugins, extensions, or PiecesOS itself.
 
     3. Check for and install available updates
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="Checking for PiecesOS updates via Quick Menu on macOS" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">
@@ -110,7 +114,7 @@ Many issues can stem from out-of-date plugins, extensions, or PiecesOS itself.
 
     3. If an update is available, follow the on-screen prompt to download and install it.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_pieces_os_for_updates.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_pieces_os_for_updates.gif" alt="Checking PiecesOS for updates on Windows taskbar" align="center" fullwidth="true" />
 
     ### Updating PiecesOS (AppInstaller)
 
@@ -130,7 +134,7 @@ Many issues can stem from out-of-date plugins, extensions, or PiecesOS itself.
 
     2. Run `sudo snap refresh` to update PiecesOS if a newer version is available
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="Running snap refresh to update PiecesOS on Linux" align="center" fullwidth="true" />
   </TabItem>
 </Tabs>
 
@@ -156,7 +160,7 @@ Having an out-of-date operating system version can cause a range of installation
 
     The `macOS` line will report what version of macOS installed, e.g., `Sequoia 15.1.1`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="Checking macOS version via About This Mac" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Windows">
@@ -172,7 +176,7 @@ Having an out-of-date operating system version can cause a range of installation
 
     3. Install any pending updates and restart your computer
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/checking_windows_ver.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/checking_windows_ver.gif" alt="Checking Windows version using winver command" align="center" fullwidth="true" />
   </TabItem>
 
   <TabItem title="Linux">
@@ -192,7 +196,7 @@ Having an out-of-date operating system version can cause a range of installation
 
     This section will will display your Ubuntu version information.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="Checking Ubuntu version in System Settings" align="center" fullwidth="true" />
   </TabItem>
 </Tabs>
 

@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if the Pieces De
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/desktop/troubleshooting_windows.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/troubleshooting_windows.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/troubleshooting_windows.png" alt="Windows troubleshooting guide banner" align="center" fullwidth="true" />
 
 ***
 
@@ -47,7 +47,7 @@ If you’re experiencing difficulties installing the Pieces Desktop App, you can
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, or the Desktop App itself.
+Many issues can stem from out-of-date MCP integrations or the Desktop App itself.
 
 ### Updating the Pieces Desktop App
 
@@ -75,7 +75,7 @@ Updating the Pieces Desktop App on Windows (and macOS) can be done directly with
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Troubleshooting/Windows/updating_pieces_desktop.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Troubleshooting/Windows/updating_pieces_desktop.png" alt="Checking for Pieces Desktop App updates on Windows" align="center" fullwidth="true" />
 
 You can also select `Check for PiecesOS Updates` from the same menu as an alternative to doing so from the PiecesOS system window in your taskbar.
 
@@ -177,7 +177,7 @@ To check your device specifications on Windows:
 
 The **System** tab displays your processor, the number of CPU cores, and memory (RAM), while the **Display** tab lists your GPU, its manufacturer (e.g., NVIDIA, AMD, Intel), and the available video memory (VRAM).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="Opening dxdiag to view hardware specs on Windows" align="center" fullwidth="true" />
 
 ### Checking Windows Version
 

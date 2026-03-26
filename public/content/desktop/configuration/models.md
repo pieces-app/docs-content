@@ -14,7 +14,7 @@ Manage AI models and model preferences. Configure processing modes, set up local
 
 To access Models settings, click your `User Profile` in the top left, then hover over `Settings` and select `Models`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="Models settings with capabilities, local runtime, and model management" align="center" fullwidth="true" />
 
 > Models settings showing Model Capabilities, Local Model Runtime, and Model Management sections
 
@@ -164,7 +164,7 @@ Control which models are available by enabling or disabling them individually or
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/enabling_a_model.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/enabling_a_model.png" alt="Enabling a model with the toggle switch in Model Management" align="center" fullwidth="true" />
 
 > Models settings showing how to enable a model using the toggle switch
 
@@ -186,7 +186,7 @@ Remove local models that you no longer need. This frees up storage space on your
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/delete_local_model.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/delete_local_model.png" alt="Deleting a local model from Model Management" align="center" fullwidth="true" />
 
 > Models settings showing how to delete a local model
 

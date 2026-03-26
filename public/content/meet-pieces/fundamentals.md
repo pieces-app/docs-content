@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Pieces helps you work smarter with **\[1] Long-Term Memory Engine (LTM-2.7)**, an "artificial memory" that remembers your workflow and saves context for later.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/fundamentals/ltm-2-header.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/fundamentals/ltm-2-header.png" alt="Long-Term Memory Engine LTM-2.7 header" align="center" fullwidth="true" />
 
 Next, **\[2] Conversational Search** helps with everyday tasks like answering questions, creating content, and getting help—with as much or as little context as you need.
 
@@ -27,7 +27,7 @@ The Long-Term Memory Engine (LTM-2.7) captures what you're working on, so you ca
 
 *Conversational Search with LTM-2.7 Context*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_chat_about_rollups.png" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_chat_about_rollups.png" alt="Conversational Search with LTM-2.7 context" align="left" fullwidth="true" />
 
 ***
 
@@ -55,7 +55,7 @@ Conversational Search uses Large Language Models (LLMs) to help answer questions
 
 *Conversational Search for Content Generation*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/generating_code.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/generating_code.png" alt="Conversational Search generating code content" align="center" fullwidth="true" />
 
 ***
 
@@ -75,7 +75,7 @@ Timeline is your central workspace in the Pieces Desktop App. It shows summaries
 
 *Timeline Interface*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/pieces_drive.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Searching%20%26%20Filtering%20Materials/pieces_drive.png" alt="Pieces Timeline interface" align="center" fullwidth="true" />
 
 ***
 

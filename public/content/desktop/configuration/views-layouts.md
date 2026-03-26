@@ -14,7 +14,7 @@ Customize confirmation settings, metrics summary display, and saved materials to
 
 To access Views & Layouts settings, click your `User Profile` in the top left, then hover over `Settings` and select `Views & Layouts`.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/aesthetics_settings.png" alt="Views and Layouts settings overview" align="center" fullwidth="true" />
 
 > Views & Layouts settings showing Confirmation Settings, Metrics Summary Settings, and Default Toolbar options
 
@@ -38,7 +38,7 @@ Configure which confirmation menus appear when performing deletions or updates. 
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/aesthetics_settings.png" alt="Confirmation Menu Settings popup with Deletions and Updates" align="center" fullwidth="true" />
 
 > *Confirmation Menu Settings* popup showing Deletions and Updates sections with checkboxes
 
@@ -83,7 +83,7 @@ Configure confirmation prompts for shareable link updates. When enabled, Pieces 
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/aesthetics_settings.png" alt="Updates section for shareable link confirmation options" align="center" fullwidth="true" />
 
 > Updates section showing Shareable Link update confirmation options
 
@@ -107,7 +107,7 @@ Customize when and how the Metrics Summary displays in Gallery View. Control the
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/metric_settings_overview.png" alt="Metrics Settings popup with Mode and Visibility options" align="center" fullwidth="true" />
 
 > *Metrics Settings* popup showing Mode and Visibility options
 
@@ -181,7 +181,7 @@ Configure the default toolbar that appears for saved materials. Choose between D
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/aesthetics_settings.png" alt="Default Toolbar dropdown with Default, Suggested, and Custom options" align="center" fullwidth="true" />
 
 > Default Toolbar dropdown showing Default, Suggested, and Custom options
 

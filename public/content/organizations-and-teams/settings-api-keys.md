@@ -12,7 +12,7 @@ metaDescription: Learn how to configure API keys for OpenAI, Anthropic, and GCP 
 
 The API Keys tab is one of two tabs within the *Models* section—the organization management area for AI configuration. From the API Keys tab, you configure credentials for model providers (OpenAI, Anthropic, GCP). These API keys automatically sync to all team members' Pieces Desktop and PiecesOS installations, enabling your team to use these services without individual configuration.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab.png" alt="API Keys tab with OpenAI, Anthropic, and GCP configuration sections" align="center" fullwidth="true" />
 
 > API Keys tab showing OpenAI, Anthropic, and GCP configuration sections
 
@@ -38,7 +38,7 @@ The API Keys tab is one of two tabs within the *Models* section—the organizati
 
 Set up API credentials for model providers. Each provider has its own configuration section: OpenAI, Anthropic (Claude), and GCP Configuration.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab_Adding_apikey.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab_Adding_apikey.png" alt="Adding a new API key in the configuration form" align="center" fullwidth="true" />
 
 ### Configuring OpenAI
 
@@ -115,7 +115,7 @@ Set up GCP API keys and Vertex AI service accounts for your organization.
 
 View, edit, and remove existing API key configurations.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab_editing_api_key.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_api_tab_editing_api_key.png" alt="Edit API Key form with name, key, and optional fields" align="center" fullwidth="true" />
 
 > Edit API Key form showing name, API key, and optional fields
 

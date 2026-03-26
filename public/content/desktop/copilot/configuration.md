@@ -22,7 +22,7 @@ At the bottom left of the Pieces Copilot view is the active model. By default, t
 
 Clicking this button opens the **Manage Copilot LLM Runtime** modal, where you can enter your own API key or [select local and cloud-hosted LLMs served through Pieces.](/products/core-dependencies/pieces-os#local-vs-cloud-models)
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="Manage Copilot LLM Runtime modal listing cloud and local models" align="center" fullwidth="true" />
 
 <Callout type="info">
   Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5.2 Pro/GPT-5.2, Anthropic Claude 4.5 Opus, Google Gemini 3 Pro Preview). To unlock these premium models, see [Pieces Pro](/paid-plans).
@@ -44,7 +44,7 @@ You can read this documentation containing [all local and cloud-hosted LLMs avai
 
 In case you need a fresh start or want to clear the current context, the interface includes options (accessible via the **Chat Options** menu) to reset the conversation.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_resetting_conversation.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/gif_of_resetting_conversation.gif" alt="Resetting a Pieces Copilot conversation from Chat Options" align="center" fullwidth="true" />
 
 This is particularly useful when you want to switch focus or change the conversation pipeline.
 
@@ -52,7 +52,7 @@ This is particularly useful when you want to switch focus or change the conversa
 
 To browse and download local models, click the **Active Model** button and hover over **All Models**, then scroll down to find available local models.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/scrolling_through_llms.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/scrolling_through_llms.gif" alt="Scrolling the All Models list to browse and download local models" align="center" fullwidth="true" />
 
 Local models are downloaded on-demand through PiecesOS. Simply select a local model to download and use it.
 
@@ -70,10 +70,10 @@ Within the same modal area, a `Settings Gear` icon gives you access to personali
 
 From here, you can choose a chat accent color to customize the look and feel of your Copilot interface, and enable or disable the option to enable LTM by default when starting a new chat.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="Copilot chat appearance settings with accent color and LTM default toggle" align="center" fullwidth="true" />
 
 When enabling Long-Term Memory Context by default, every new chat automatically incorporates your saved long-term memory context, ensuring that your conversations are always informed by your previous work.
 
 You can also use the keyboard shortcut `cmd+shift+t` (macOS) or `ctrl+shift+t` (Windows/Linux) to toggle the *Dark/Bright* theme for the Pieces Desktop App.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/screenshot_of_copilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/screenshot_of_copilot.png" alt="Pieces Copilot chat view after theme customization" align="center" fullwidth="true" />

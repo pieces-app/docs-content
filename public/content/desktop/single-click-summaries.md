@@ -49,7 +49,7 @@ Track your summaries as they generate in the Pieces Timeline. When you generate 
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="Timeline with queued Single-Click Summaries for the current day" align="center" fullwidth="true" />
 
 > Pieces Timeline showing current day expanded with queued summaries visible, including "What's Top of Mind" showing "Queued (#3)", "Day Recap" showing "Queued (#2)", and "AI Habits" showing "Next in queue"
 
@@ -88,7 +88,7 @@ Access your completed summaries and view the full results. When a summary finish
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/completed_summary_view_with_results.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/completed_summary_view_with_results.png" alt="Completed summary with insights, related activities, and document links" align="center" fullwidth="true" />
 
 > Completed summary view showing full results with insights, related activities, and links to relevant documents
 
@@ -119,7 +119,7 @@ Schedule single-click summaries to run automatically at a time you choose. As lo
   Scheduled summaries only run when Pieces is open and running on your computer. If Pieces is closed at the scheduled time, the summary will not generate.
 </Callout>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/schedule_single_click_summary_modal.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/schedule_single_click_summary_modal.png" alt="Schedule summary modal with frequency, day, and time options" align="center" fullwidth="true" />
 
 > Schedule modal showing repeat frequency (Daily/Weekly), day selection, time options, and schedule confirmation message
 
@@ -278,7 +278,7 @@ Generate summaries tailored to specific time periods and topics that matter to y
 
 Access additional summary options and request new summary types through Discover. Click the `Discover` summary card to open a popup displaying available summary options—you'll see the standard summary types plus additional options you haven't encountered yet, expanding your choices for generating insights.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/discover_popup.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/discover_popup.png" alt="Discover popup listing summary types and Request a Summary" align="center" fullwidth="true" />
 
 > Discover popup showing available summary options including Request a Summary
 
@@ -304,7 +304,7 @@ Suggest new summary types to help shape future Single-Click Summary options. Fro
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/request_a_summary_popup.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/request_a_summary_popup.png" alt="Request a Summary form with name, description, and submit" align="center" fullwidth="true" />
 
 > Request a Summary popup with Artifact Name and Description fields, and Submit Request button
 

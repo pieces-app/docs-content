@@ -37,7 +37,7 @@ Access Pieces Timeline from the main view to see all your workflow events and su
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/hovering_over_show_timeline.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/hovering_over_show_timeline.png" alt="Show Timeline button to open Timeline view" align="center" fullwidth="true" />
 
 > Main view showing `Show Timeline` button in top left, with Pieces Timeline open displaying chronological events
 
@@ -51,7 +51,7 @@ Pieces Timeline displays three main types of events, all organized chronological
 
 * **Conversational Searches** - [Chat conversations you have with your memories](/products/desktop/conversational-search). Each conversation appears as an event in Pieces Timeline, allowing you to revisit past conversations and their context.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/searching_through_timeline_events_slash_activities.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline-events/searching_through_timeline_events_slash_activities.png" alt="Searching timeline events and activities" align="center" fullwidth="true" />
 
 > Pieces Timeline showing different event types: conversational search event, standup update summary, and timeline events with app icons
 
@@ -77,7 +77,7 @@ When you generate single-click summaries, they appear under the current day in P
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="Queued summaries in Timeline" align="center" fullwidth="true" />
 
 > Pieces Timeline showing current day expanded with queued summaries visible, including "What's Top of Mind" showing "Queued (#3)", "Day Recap" showing "Queued (#2)", and "AI Habits" showing "Next in queue"
 
@@ -104,7 +104,7 @@ Click any event in Pieces Timeline to view its full content in the main view pan
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/timeline_summaries.png" alt="Timeline summaries and day sections in Timeline" align="center" fullwidth="true" />
 
 > Event selected in Pieces Timeline (highlighted) with its full content displayed in the main view panel on the right
 
@@ -153,7 +153,7 @@ Quickly navigate to a specific event's position in the Timeline sidebar when vie
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/jump_to_summary_in_timeline.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/jump_to_summary_in_timeline.png" alt="Jump to summary in Timeline list" align="center" fullwidth="true" />
 
 > Pieces Timeline showing day groups (Today expanded, Yesterday collapsed) with event counts, and `Jump to Summary in List` button visible in header
 

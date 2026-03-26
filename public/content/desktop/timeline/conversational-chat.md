@@ -14,7 +14,7 @@ metaDescription: Ask questions about your workflow with context-aware assistance
 
 Unlike generic AI, responses reference your specific work. Related Roll-Ups cards below responses reveal which memories were used.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Conversational Chat with suggested prompts and Start New Chat" align="center" fullwidth="true" />
 
 > Conversational Chat section showing suggested prompts: "Explain Conversational Chat", "Summarize my memories", "Document onboarding changes", and "Start New Chat" button
 
@@ -30,7 +30,7 @@ Prompts update dynamically (e.g., "Summarize my memories", "Document onboarding 
 
 Click the `Start New Chat` button (blue, bottom-right). Type naturally: "What did I work on yesterday?" or "Find that Slack conversation about API changes." Press Enter to send.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Chat interface opening after a suggested prompt or Start New Chat" align="center" fullwidth="true" />
 
 > Clicking a suggested prompt or Start New Chat, showing the chat interface opening
 
@@ -48,7 +48,7 @@ Below each response, "Related Workstream Activities" cards appear showing which 
 
 Each card is clickable and takes you to full LTM Roll-Up details, providing transparency into where information came from.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Response with Related Workstream Activities cards linking to roll-ups" align="center" fullwidth="true" />
 
 > Chat response with 2-3 Related Roll-Up cards below, showing user clicking a card to view full roll-up
 
@@ -69,7 +69,7 @@ Click any model name to switch. Use the "All Models" button to see the complete 
 * **Time Ranges**—Filter memories by time period.
 * **Activate DeepStudy**—Enhanced research mode for comprehensive analysis.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Model selector with Recent and Suggested models and Sources, Time Ranges, DeepStudy" align="center" fullwidth="true" />
 
 > Model selector dropdown showing Recent and Suggested sections with available models, plus bottom toolbar with Sources, Time Ranges, and Activate DeepStudy buttons
 

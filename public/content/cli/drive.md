@@ -38,13 +38,13 @@ By using the Pieces CLI, capture and manage snippets in Pieces Drive to streamli
 
 Easily [save a function, script, or piece of boilerplate](/products/cli/drive/saving-materials) directly from the tool menu or with a keyboard shortcut. These snippets are stored in your personal Pieces Drive and include context, metadata, and tags for easy retrieval.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/saved_snippet_displayed.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/saved_snippet_displayed.png" alt="Saved snippet details with metadata" align="center" fullwidth="true" />
 
 To save a code snippet, copy a snippet from a website or your IDE, go over to the Pieces CLI, and type `create`. If you’re not in a running Pieces CLI, you can type `pieces create` and enter the command.
 
 This will automatically grab whatever is in your clipboard and save it to your Pieces Drive.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/pieces_create.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/pieces_create.gif" alt="Creating a new snippet with pieces create command" align="center" fullwidth="true" />
 
 ### Search & Reuse
 
@@ -52,7 +52,7 @@ You can search your collection of saved materials directly from your terminal. T
 
 To search, you can access the `search` action inside of the Pieces CLI.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/pieces_search_interm.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/pieces_search_interm.png" alt="Search interface in Pieces CLI" align="center" fullwidth="true" />
 
 From within Pieces CLI you can enter `search “query”` to do a basic search. If you’re not within the Pieces CLI, you can enter `pieces search “query”`.
 
@@ -72,7 +72,7 @@ In the `pieces save` command of the **Pieces Drive** within Pieces Copilot, open
 
 This keeps your library up-to-date, relevant, and aligned with your project's progress. Enhancing your materials makes them more efficient, which benefits you in the long run.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/edit_command.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/_MAIN/edit_command.png" alt="Edit command for updating snippets" align="center" fullwidth="true" />
 
 ### Reusable Scheduling Functions
 

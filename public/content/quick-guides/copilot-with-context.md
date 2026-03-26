@@ -51,7 +51,7 @@ The first step is to review the issue by letting Pieces capture it, and then ask
 
 Pieces will respond with a summary of the issue:
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/github_issue.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/github_issue.png" alt="Pieces Copilot summarizing a GitHub issue using LTM context" align="center" fullwidth="true" />
 
 ### Clone the Project
 
@@ -83,13 +83,13 @@ Adding the project as context to your Pieces Copilot Chat will look a little dif
 
     Select the `scifi_store` folder in the repository you cloned in the previous step.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/scifi_store_selected_folder.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/scifi_store_selected_folder.png" alt="Selecting the scifi_store folder as Copilot context" align="center" fullwidth="true" />
   </Step>
 
   <Step title="via VS Code with Pieces Installed">
     From the **Explorer**, right-click on the pane itself (not on a file or folder), and select `Pieces`, then click `Pieces: Add to Copilot Context`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/in_ide_folder_Add_scifi.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/in_ide_folder_Add_scifi.png" alt="Adding a folder to Copilot context in VS Code" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -113,7 +113,7 @@ Now that Pieces has the issue from the Long-Term Memory and the project folder a
 
     Review these code changes along with the original codebase.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/asking_to_fix.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/asking_to_fix.png" alt="Pieces Copilot reasoning over the project and GitHub issue" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -147,6 +147,6 @@ This was done in 2 stages to illustrate the information from the Pieces Long-Ter
   <Step title="Check the Response">
     The Pieces Copilot will now reason over your project, as well as the GitHub issue, and give you suggestions on how to implement it.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/extra_example.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/extra_example.png" alt="Pieces Copilot implementing an issue with a single prompt" align="center" fullwidth="true" />
   </Step>
 </Steps>

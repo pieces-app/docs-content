@@ -28,7 +28,7 @@ From this list, you can scroll down to see previous saved materials, or click th
 
 * `Language`**:** Groups saved materials by language—Python, JavaScript, Kotlin, etc.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/sort_filters_drive.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/sort_filters_drive.png" alt="Sort and filter controls in Pieces Drive" align="center" fullwidth="true" />
 
 ### Adding New Materials
 
@@ -36,7 +36,7 @@ The primary way to add materials to Pieces Drive is through the `Add Materials` 
 
 Clicking it opens a modal that presents several distinct options for different workflows and preferences.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/add_code_snippet.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/add_code_snippet.png" alt="Adding a new code snippet in Pieces Drive" align="center" fullwidth="true" />
 
 ### Paste Code from Clipboard
 

@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if the Pieces De
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/desktop/troubleshooting_linux.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/troubleshooting_linux.png" alt="Linux troubleshooting guide banner" align="center" fullwidth="true" />
 
 ## Installation & Updating Fixes
 
@@ -41,7 +41,7 @@ To update the Pieces Desktop App on Linux:
   <Step title="Apply Updates">
     Run `sudo snap refresh pieces-for-developers pieces-os` to update both. Use `sudo snap refresh` to update all snap packages.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_PFD.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_PFD.gif" alt="Running snap refresh to update Pieces Desktop App on Linux" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -67,8 +67,8 @@ If installation or UI issues persist, consider the following:
 
 * **Switch Between X11 and Wayland:** Some applications may work better on one display protocol than the other. Try switching to X11 for compatibility or Wayland for newer features. You can usually select this at the login screen.
 
-<Callout type="alert">
-  The LTM-2.7 Engine is designed to work with the X11 Window Manager. Other Window Managers, such as Wayland, are *not compatible.* This means that long-term memory functionality with certain Linux Virtual Machines (VMs) is not possible at this time.
+<Callout type="tip">
+  **Supported setup:** **Ubuntu** with **X11**. **Wayland** usually needs follow-up from `pieces-os.doctor`. Other distros are **best-effort**. If capture or LTM fails, try an **X11 session**, re-run `pieces-os.doctor`, or use a **supported Ubuntu** install—**VMs** are the most variable.
 </Callout>
 
 * **Update your GPU Drivers:** Ensure they are up to date. For NVIDIA, check for proprietary driver updates. AMD and Intel users should verify that their open-source drivers are up to date.
@@ -85,13 +85,13 @@ Verify your system's hardware configuration and ensure it meets the recommended 
 
 To determine your CPU type and find other important information, type `lscpu` in your terminal and press `Enter`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpu_UBUNTU.png" alt="Terminal output of lscpu on Ubuntu" align="center" fullwidth="true" />
 
 ### Checking GPU Information
 
 To determine your GPU type and find other important information, `lspci | grep -i vga` in your terminal and press `Enter`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="Terminal output of lspci showing GPU on Ubuntu" align="center" fullwidth="true" />
 
 Confirm that your CPU, GPU, and memory resources are sufficient for running PiecesOS and local AI models, if applicable.
 
@@ -117,7 +117,7 @@ To check what version of Ubuntu you’re running:
 
 This section will display your Ubuntu version information.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/settings_about_system.gif" alt="Checking Ubuntu version in System Settings About" align="center" fullwidth="true" />
 
 ### Consulting Online Resources
 

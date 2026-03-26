@@ -14,7 +14,7 @@ Access documentation and get started guides for all available Pieces integration
 
 To access Connected Applications settings, click your `User Profile` in the top left, then hover over `Settings` and select `Connected Applications`.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="Connected Applications settings with integration links to documentation" align="center" fullwidth="true" />
 
 > Connected Applications settings showing list of available integrations with links to documentation
 

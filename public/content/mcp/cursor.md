@@ -9,7 +9,7 @@ metaDescription: Read documentation on integrating Pieces Model Context Protocol
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/cursor_mcp.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/mcp-2.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/mcp-2.png" alt="Pieces MCP integration with Cursor IDE" align="center" fullwidth="true" />
 
 ***
 
@@ -65,11 +65,11 @@ To find the current MCP endpoint with the active instance of PiecesOS (including
 
 There, you can click once to copy the MCP endpoint, which includes the active PiecesOS port number.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="PiecesOS Quick Menu showing MCP servers section" align="center" fullwidth="true" />
 
 You can also do this in the Pieces Desktop App by opening the **Settings** view and clicking **Model Context Protocol (MCP).**
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop App Model Context Protocol settings" align="center" fullwidth="true" />
 
 ## Setting Up Cursor
 
@@ -111,7 +111,7 @@ To set up the Pieces MCP, you can edit the `.json` settings configuration file f
   <Step title="Go to Settings">
     Navigate to **Cursor Settings**, then to the `MCP` section.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_no_mcp.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_no_mcp.png" alt="Cursor Settings MCP section before configuration" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Add a New MCP">
@@ -133,7 +133,7 @@ To set up the Pieces MCP, you can edit the `.json` settings configuration file f
 
     Make sure to refresh the MCP server window by clicking the **refresh icon** and ensure that there is a *green dot* indicating that the server is running and functioning without errors.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_green_dot_mcp.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_green_dot_mcp.png" alt="Cursor MCP server running with green status indicator" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Use Pieces MCP">
@@ -157,7 +157,7 @@ Once integrated, you can utilize [Pieces LTM](/products/core-dependencies/pieces
   <Step title="Begin Prompting">
     From this point, you can begin prompting. If PiecesOS was previously installed, try testing out the Pieces MCP integration with a prompt like, “What was I doing for work yesterday?” and click `Use Tool` when prompted.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/example_pieces_mcp_cursor.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/example_pieces_mcp_cursor.gif" alt="Cursor Agent using Pieces MCP tool demonstration" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -173,7 +173,7 @@ To do this, open up **Cursor Settings,** click `Rules`, then add new *User Rules
 
 Here’s an example of a straightforward set of rules tailored to a specific use case and work flow:
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_rules.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cursor/cursor_rules.png" alt="Cursor custom rules configuration for Pieces MCP" align="center" fullwidth="true" />
 
 ## Troubleshooting
 

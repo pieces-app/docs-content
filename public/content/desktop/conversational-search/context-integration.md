@@ -52,7 +52,7 @@ Turn off Long-Term Memory context when you want conversations without historical
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/context-integration/hovering_over_ltm_turnoff.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/context-integration/hovering_over_ltm_turnoff.png" alt="Toggling LTM context for Conversational Search" align="center" fullwidth="true" />
 
 > User profile menu showing LTM-2.7 hover menu with pause and turn off options
 
@@ -98,7 +98,7 @@ Open the Relevant Summaries sidebar to see which Timeline Events were used in a 
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/relevant_summaires_conversational_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/relevant_summaires_conversational_chat.png" alt="Relevant Summaries button showing source Timeline Events" align="center" fullwidth="true" />
 
 > Relevant Summaries sidebar open showing Timeline Events used to generate the response, with sort dropdown visible in the top right
 

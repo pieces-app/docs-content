@@ -34,7 +34,7 @@ When **Global Search** first opens, you’ll see:
 
 * A ‘Powered by NCS’ indicator and an `i` icon at the bottom, which explains more about NCS when hovered over.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/global_search.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/global_search.png" alt="Global Search overlay for saved materials" align="center" fullwidth="true" />
 
 ### Suggested Searches
 
@@ -42,7 +42,7 @@ Below the search bar, you’ll find a list of *Suggested Searches* based on your
 
 To use this feature, either click a *Suggested Search* to immediately run that query, or click the `Refresh` icon to load a new set of suggestions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/suggested_searches.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/suggested_searches.gif" alt="Suggested searches in Global Search" align="center" fullwidth="true" />
 
 ### Performing a Search
 
@@ -50,7 +50,7 @@ To perform a search, type your query into the *Find Materials* field, then press
 
 Pieces will perform the search and display your results in the main view, sorted by how relevant they are to your query.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/perform_a_search.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/perform_a_search.gif" alt="Typing a query and viewing Global Search results" align="center" fullwidth="true" />
 
 ## Search Results
 
@@ -58,7 +58,7 @@ Once you run a search, **Global Search** populates the main area with matching s
 
 Results are split into two sections, showing the list of located code snippets, materials, and other related context.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/search_results.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Global%20Search/search_results.png" alt="Global Search results list with matching snippets" align="center" fullwidth="true" />
 
 ### Material List
 

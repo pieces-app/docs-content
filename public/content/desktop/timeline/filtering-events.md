@@ -14,7 +14,7 @@ Filter your Pieces Timeline to focus on specific event types, sources, or applic
 
 Use the `Filter List` button to access all filtering options, or hover over summaries to filter by specific applications that contributed to those summaries.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/filter_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/filter_options.png" alt="Timeline filter options panel" align="center" fullwidth="true" />
 
 > Pieces Timeline with Filter List menu open showing filter options for event types, work summaries, and sources
 
@@ -34,7 +34,7 @@ Open the Filter List menu to access all filtering options for your Timeline even
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/filter_list_button_hovered.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/filter_list_button_hovered.png" alt="Filter List button hovered in Timeline" align="center" fullwidth="true" />
 
 > Filter List button in Timeline header with menu open showing filter categories
 
@@ -82,7 +82,7 @@ Show only Timeline Events—workflow moments captured by LTM-2.7, including auto
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/work_summaries_filtered.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/work_summaries_filtered.png" alt="Work summaries filtered in Timeline" align="center" fullwidth="true" />
 
 > Filter List menu with Work Summaries expanded showing individual summary type options
 
@@ -129,7 +129,7 @@ Filter Timeline events by the applications or sources that captured them.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/sources_in_filter_dropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/sources_in_filter_dropdown.png" alt="Source filters in Timeline filter dropdown" align="center" fullwidth="true" />
 
 > Filter List menu with Sources expanded showing list of applications with checkboxes
 
@@ -152,7 +152,7 @@ When viewing summaries in Timeline, you can filter by specific applications that
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/hovering_over_filter_source_chrome.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/hovering_over_filter_source_chrome.png" alt="Selecting Chrome as a filter source in Timeline" align="center" fullwidth="true" />
 
 > Hovering over a summary showing interactive application icons (Chrome, Cursor, etc.) that can be clicked to filter
 
@@ -196,7 +196,7 @@ Reset your Timeline view to show all events without any filters applied.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/hovering_over_clear_all_filters.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/filtering-events/hovering_over_clear_all_filters.png" alt="Clear all filters control in Timeline" align="center" fullwidth="true" />
 
 > Filter List menu with `X` icon visible to close/clear filters
 

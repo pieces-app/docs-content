@@ -8,7 +8,7 @@ metaTitle: Using the Pieces Web Extension | Pieces Docs
 metaDescription: Use the Pieces Web Extension to quickly capture, save, and manage code snippets from any webpage, enhancing your development workflow.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/og_image%20(2).png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/og_image%20(2).png" alt="Pieces Web Extension banner" align="center" fullwidth="true" />
 
 ***
 
@@ -50,7 +50,7 @@ Pieces Copilot provides you with the ability to initiate context-rich generative
 
 You can also add websites, files, and other materials as context to your conversations.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/right_click_hover_save.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/right_click_hover_save.png" alt="Right-click context menu with Pieces Copilot options" align="center" fullwidth="true" />
 
 ### Material Management with Pieces Drive
 
@@ -60,7 +60,7 @@ These features help developers store their favorite code or websites in a person
 
 You can quickly review past work, find related authors and links with the extra details saved with each piece, and more.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/right_click_saved_snippet.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/right_click_saved_snippet.png" alt="Saved snippet context menu in the Web Extension" align="center" fullwidth="true" />
 
 ## Using Pieces Copilot
 
@@ -74,7 +74,7 @@ This is the backbone of the Pieces Copilot experience—the **Ask Copilot** feat
 
 When you save material to your personal repository, Pieces automatically enriches the snippet with AI-generated tags, titles, related authors, links, descriptions, and more.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/hover_over_ask_pieces.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/hover_over_ask_pieces.png" alt="Hover menu showing Ask Pieces and Save Selection options" align="center" fullwidth="true" />
 
 Save materials by right-clicking a selection and choosing the `Save Selection` `to Pieces` option from the pop-up window.
 
@@ -90,7 +90,7 @@ At the top of the Pieces Drive, you can [search](/products/web-extension/drive/s
 
 Once you've found the material you want, clicking on it will open it, giving you [options to manage it](/products/web-extension/drive/edit-update). Pieces will also provide options to [share and copy.](/products/web-extension/drive/sharing)
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/editing_snippet_demo.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/_MAIN/editing_snippet_demo.gif" alt="Editing and managing a saved snippet in the Web Extension" align="center" fullwidth="true" />
 
 ***
 

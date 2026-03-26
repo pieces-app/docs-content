@@ -15,17 +15,17 @@ PiecesOS is a background service that runs on your machine. It orchestrates loca
 
 The core functionality powered by PiecesOS is [LTM-2.7](/products/core-dependencies/pieces-os#ltm-27), which enables the [Timeline](/products/desktop/timeline) feature in the Pieces Desktop App.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/longtermmemory_piecesdrive_piecescopilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/longtermmemory_piecesdrive_piecescopilot.png" alt="PiecesOS powering Long-Term Memory, Pieces Drive, and Copilot" align="center" fullwidth="true" />
 
 > PiecesOS powering core Pieces functionality
 
 ## The Role of PiecesOS
 
-PiecesOS provides the intelligence and power behind Pieces software in two key ways. First, it supplies the essential components of the Pieces infrastructure and supports various processes. Second, it powers standalone Pieces plugins and extensions when used without the Pieces Desktop App.
+PiecesOS provides the intelligence and power behind Pieces software in two key ways. First, it supplies the essential components of the Pieces infrastructure and supports various processes. Second, it powers [MCP integrations](/products/mcp/get-started) when you use Pieces without the Pieces Desktop App.
 
 This 'brain' is required to enable the fundamental features of the Pieces development experience.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/piecesos_bridging_all_products.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/piecesos_bridging_all_products.png" alt="PiecesOS bridging all Pieces products and services" align="center" fullwidth="true" />
 
 > PiecesOS bridging all Pieces products and services
 
@@ -37,7 +37,7 @@ With [Conversational Search](/products/desktop/conversational-search), you can h
 
 ## Fundamental Components
 
-Using the Pieces Desktop App or a Pieces plugin or extension for your favorite IDE requires PiecesOS. It is a required dependency for memory and context preservation, storing and accessing materials, and interacting with generative AI.
+Using the Pieces Desktop App or a [Pieces MCP integration](/products/mcp/get-started) in your favorite IDE requires PiecesOS. It is a required dependency for memory and context preservation, storing and accessing materials, and interacting with generative AI.
 
 ## LTM-2.7
 
@@ -65,7 +65,7 @@ Deep Study reports typically take 10–20 minutes to generate. While running, pr
 
 Deep Study always runs on a dedicated cloud LLM managed by Pieces (currently a Google model, subject to change). Changing the selected LLM via the standard runtime modal does not affect Deep Study generations.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/deep_study_actions.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/deep_study_actions.png" alt="Deep Study progress indicators and cooperating agents" align="center" fullwidth="true" />
 
 > Deep Study in action showing progress indicators and cooperating agents
 
@@ -114,7 +114,7 @@ The Model Context Protocol (MCP) is an open framework that lets Large Language M
 
 [MCP is fully supported within the Pieces ecosystem](/products/mcp/get-started) and acts as the link between PiecesOS and external applications that need real-time, local context.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/pieces_os_main/cursor_change_documentation_from_conversation_2_agentic_demo_screenshot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/pieces_os_main/cursor_change_documentation_from_conversation_2_agentic_demo_screenshot.png" alt="Pieces MCP integration with Cursor for context-aware changes" align="center" fullwidth="true" />
 
 > Pieces MCP integration with Cursor showing context-aware documentation changes
 
@@ -126,7 +126,7 @@ LTM continuously captures workflow context as you work, creating timeline events
 
 The Timeline view [lets you search for keywords, open references or links, and even launch Conversational Search chats](/products/desktop/timeline) directly from timeline events.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif?w=1200&format=webp&q=85" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif?w=1200&format=webp&q=85" alt="Exploring timeline events in the Timeline view" align="center" fullwidth="true" />
 
 > Exploring timeline events in the Timeline view
 

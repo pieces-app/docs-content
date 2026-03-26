@@ -12,7 +12,7 @@ metaDescription: Guide to using the organization Home page, accessing setup reso
 
 The Home page is your central dashboard for managing your organization in the Pieces User Portal. The sidebar gives you quick access to Members, Models, Long Term Memory, Billing, and Settings.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="Organization Home page with Setup, Manage, and Resources sections" align="center" fullwidth="true" />
 
 > Organization Home page with Setup, Manage, and Resources sections
 

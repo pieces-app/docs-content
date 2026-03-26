@@ -8,7 +8,7 @@ metaTitle: Pieces Desktop Application
 metaDescription: Boost productivity with the Pieces Desktop App – AI-powered tools that use workflow context to enhance decision-making with generative AI.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/all_logos.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pfd_docs_figmas/all_logos.png" alt="Pieces Desktop App logos and branding" align="center" fullwidth="true" />
 
 > Pieces Desktop App logos and branding
 
@@ -46,7 +46,7 @@ Keep track of your workflow so you can access stored context from yesterday, las
 
 [Pieces Timeline](/products/desktop/timeline) provides a sleek UI for interacting with saved data from up to 9 months ago in an easily digestible format, allowing you to view timeline events, workstream summaries, single-click summaries, and conversational searches.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif" alt="Pieces Timeline showing workflow events, summaries, and activity graph visualization" align="center" fullwidth="true" />
 
 > Pieces Timeline showing workflow events, summaries, and activity graph visualization
 
@@ -58,7 +58,7 @@ Keep track of your workflow so you can access stored context from yesterday, las
 
 Generate instant, contextual summaries from your workflow using preset summary types. With [Single-Click Summaries](/products/desktop/single-click-summaries), you can instantly generate contextual summaries with one click. Choose from summary types like *What's Top of Mind*, *Standup Update*, *Custom Summary*, *Day Recap*, *AI Habits*, and *Discover*—to quickly access insights about your workflow without typing a single prompt.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="" align="center" fullwidth="true">
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="Pieces Timeline with Single-Click Summaries generating" align="center" fullwidth="true">
 
 > Showing Pieces with Timeline open and Single-Click Summaries Generating
 
@@ -70,7 +70,7 @@ Generate instant, contextual summaries from your workflow using preset summary t
 
 Use [Conversational Search](/products/desktop/conversational-search) as your main chat interface, where you'll find suggested prompts to help you get started. Query your workflow memories and get AI-powered insights about your past activities.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Conversational Search interface with chat and suggested prompts" align="center" fullwidth="true" />
 
 > Conversational Search interface showing chat interface and suggested prompts
 
@@ -102,10 +102,10 @@ With the Pieces MCP, you can thread rich workflow context through to [Cursor](/p
 
 *Pieces MCP with Cursor*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/misc/cursor_ask_about_youtube_tutorial.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/misc/cursor_ask_about_youtube_tutorial.png" alt="Pieces MCP integration with Cursor showing workflow context threading" align="center" fullwidth="true" />
 
 > Pieces MCP integration with Cursor showing workflow context threading
 
 ***
 
-If Pieces Desktop isn't what you're looking for, check out [PiecesOS](/products/core-dependencies/pieces-os) to learn about the core engine powering Pieces, or explore [Extensions & Plugins](/products/extensions-plugins) to integrate Pieces into your favorite IDE or editor.
+If Pieces Desktop isn't what you're looking for, check out [PiecesOS](/products/core-dependencies/pieces-os) to learn about the core engine powering Pieces, or explore [MCP integrations](/products/mcp/get-started) to connect Pieces to your favorite IDE or editor.

@@ -14,6 +14,10 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 ***
 
 <Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
+<Callout type="alert">
   V2 Documentation for the Pieces JupyterLabs Extension is under construction.
 
   In the meantime, you can look at the V1 documentation for the Pieces for JupyterLab Extension below.

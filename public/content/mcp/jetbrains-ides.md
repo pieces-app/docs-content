@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with JetBrains IDEs
 metaDescription: Learn how to integrate Pieces MCP with JetBrains IDEs. Requires JetBrains 2025.2+ with AI Assistant. Access Long-Term Memory for enhanced productivity.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/jetbrains-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/jetbrains-mcp.png" alt="Pieces MCP integration with JetBrains IDEs" align="center" fullwidth="true" />
 
 ***
 

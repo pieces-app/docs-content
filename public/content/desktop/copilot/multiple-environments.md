@@ -55,11 +55,11 @@ The Copilot experience supports *cross-threading.*
 
 This means that your chat history and contextual data can be shared between the Desktop App and other environments.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Other%20Environments/pieces_cross_threading.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Other%20Environments/pieces_cross_threading.png" alt="Cross-threaded Copilot chat shared between Desktop App and IDE" align="center" fullwidth="true" />
 
 Whether you start a conversation in the Desktop App and later continue it in an IDE, your context and settings persist—making for a fluid, uninterrupted workflow.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/copilot_in_environment_demo_part_two.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/copilot_in_environment_demo_part_two.png" alt="Continuing a Copilot conversation across environments" align="center" fullwidth="true" />
 
 ## The Pieces User Experience
 
@@ -73,7 +73,7 @@ In platforms such as JetBrains, Visual Studio Code, and the Pieces Web Extension
 
 *Pieces Web Extension*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/pieces_web_extension_copilot_applet.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/pieces_web_extension_copilot_applet.png" alt="Pieces Copilot applet in the Web Extension" align="center" fullwidth="true" />
 
 ***
 
@@ -87,6 +87,6 @@ Although the visual presentation differs, all core features remain available, so
 
 *Pieces for Sublime Text Plugin*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/pieces_copilot_sublime_text.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_copilot/pieces_copilot_in_multiple_environments/pieces_copilot_sublime_text.png" alt="Pieces Copilot interface in Sublime Text" align="center" fullwidth="true" />
 
 ***

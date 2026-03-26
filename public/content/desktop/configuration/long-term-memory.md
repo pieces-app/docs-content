@@ -14,7 +14,7 @@ Manage long-term memory preferences and data. Configure the Long-Term Memory Eng
 
 To access Long-Term Memory settings, click your `User Profile` in the top left, then hover over `Settings` and select `Long-Term Memory`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="Long-Term Memory settings with Memory Formation, Performance, and Stored Data" align="center" fullwidth="true" />
 
 > Long-Term Memory settings showing Memory Formation, Performance, and Stored Data sections
 
@@ -99,7 +99,7 @@ LTM Audio, also known as Audio Ingestion, enables the Long-Term Memory Engine to
 
 <Tabs>
   <TabItem title="macOS">
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_mac.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_mac.gif" alt="LTM Audio permission setup flow on macOS" align="center" fullwidth="true" />
 
     > LTM Audio setup on macOS
 
@@ -137,7 +137,7 @@ LTM Audio, also known as Audio Ingestion, enables the Long-Term Memory Engine to
   </TabItem>
 
   <TabItem title="Windows">
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_windows.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/audio_ingestion/v1/audio_ingestion_windows.png" alt="LTM Audio permission prompt on Windows" align="center" fullwidth="true" />
 
     > LTM Audio setup on Windows
 

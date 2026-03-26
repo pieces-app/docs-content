@@ -12,7 +12,7 @@ metaDescription: Explore all available commands in the Pieces TUI with this comp
 
 Below is a comprehensive table containing every command and shortcut available in the Pieces TUI (Text User Interface).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/command_pallete.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/command_pallete.png" alt="TUI command palette interface" align="center" fullwidth="true" />
 
 ***
 

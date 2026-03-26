@@ -21,7 +21,7 @@ metaDescription: Conversational Search is the ability to talk with your memories
 
 You can talk with all your memories, or customize which memories to include by filtering by specific apps and time ranges. Ask specific questions about your past work, and Conversational Search provides contextual answers based on your actual workflow history, powered by [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) with access to up to 9 months of captured memories.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Home view with Conversational Search, suggested prompts, and Start New Chat" align="center" fullwidth="true" />
 
 > Homepage showing Conversational Search section with suggested prompts and Start New Chat button
 

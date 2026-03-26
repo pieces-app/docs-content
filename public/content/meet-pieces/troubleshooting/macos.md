@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if PiecesOS or t
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_macOS.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/troubleshooting_macos.png" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/troubleshooting_macos.png" alt="macOS troubleshooting banner" align="left" fullwidth="true" />
 
 ***
 
@@ -52,7 +52,7 @@ A singular brew command, `brew install—- cask pieces`, automatically manages i
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, the desktop app, or PiecesOS.
+Many issues can stem from out-of-date MCP integrations, the desktop app, or PiecesOS.
 
 ### Updating PiecesOS
 
@@ -65,7 +65,7 @@ Many issues can stem from out-of-date plugins, extensions, the desktop app, or P
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="PiecesOS Quick Menu showing check for updates option" align="center" fullwidth="true" />
 
 ### Updating the Pieces Desktop App
 
@@ -97,7 +97,7 @@ Updating the Pieces Desktop App on macOS can be done directly from the app:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="Pieces Desktop App update dropdown menu on macOS" align="center" fullwidth="true" />
 
 ## Common Installation Issues
 
@@ -117,7 +117,7 @@ To determine your Apple device’s version of macOS:
 
 The `macOS` line will report what version of macOS installed, e.g., `Sequoia 15.1.1`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="Checking macOS version via About This Mac" align="center" fullwidth="true" />
 
 ### Checking CPU Type
 

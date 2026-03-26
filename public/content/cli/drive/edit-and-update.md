@@ -31,7 +31,7 @@ Follow the steps below to edit a saved material in the Pieces CLI.
 
     Any changes made and saved within your IDE will update the Pieces Drive automatically, allowing you to use the changed snippet immediately.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/edit_update/editing_saving.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/edit_update/editing_saving.gif" alt="Modifying snippet in IDE and auto-saving" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -51,7 +51,7 @@ With the Pieces CLI, you can rename saved materials and have those changes apply
 
     This will open a new prompt for you to change the name and classification for the snippet.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/edit_update/edit_command.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/edit_update/edit_command.png" alt="Edit command interface for renaming snippets" align="center" fullwidth="true" />
 
     When you’re complete, the snippet will update across your Pieces Drive automatically.
   </Step>

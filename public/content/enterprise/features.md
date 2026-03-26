@@ -12,7 +12,7 @@ metaDescription: Enterprise features—admin controls, security, compliance, and
 
 Pieces Enterprise includes features designed for teams and organizations at scale. Admin controls, security, and compliance options help you deploy Pieces across your engineering organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="Organization Home page with admin dashboard and management tools" align="center" fullwidth="true" />
 
 > Organization Home page showing admin dashboard, management tools, and resource links
 

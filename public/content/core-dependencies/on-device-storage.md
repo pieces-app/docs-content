@@ -79,6 +79,6 @@ There are several options to backup, restore or reset your database from within 
 
 ## Need Help?<a target="_blank" href="/products/support">**​**</a>
 
-You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
+You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces MCP integration by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
 
 If you would prefer not to use GitHub, you can still <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>

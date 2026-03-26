@@ -12,7 +12,7 @@ metaDescription: Find solutions to common organization access issues and authent
 
 If you encounter issues when creating, accessing, or managing organizations, use this guide to resolve common problems.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/support_orgs.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/organization-settings/support_orgs.png" alt="Organizations and Teams troubleshooting guide" align="center" fullwidth="true" />
 
 > Troubleshooting guide showing common issues and solutions
 
