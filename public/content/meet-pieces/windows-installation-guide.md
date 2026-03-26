@@ -9,7 +9,7 @@ metaDescription: Get started with Pieces on Windows – install, configure, trou
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_windows_install.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/trimmed_windows_banner.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/trimmed_windows_banner.png" alt="Pieces for Windows installation guide banner" align="center" fullwidth="true" />
 
 ***
 
@@ -114,9 +114,13 @@ WinGet will allow you to easily install Pieces without having to leave the termi
 
 There are a series of on-screen prompts to navigate through when installing the Pieces Desktop App and PiecesOS, through either the `.exe` or `.appinstaller` desktop installation methods.
 
+<Callout type="alert">
+  **Don't install** Pieces or PiecesOS to **OneDrive** or other **cloud-synced** folders (Dropbox, Google Drive, etc.)—sync can interfere with installs and updates. Use the **default path** on a local drive.
+</Callout>
+
 1. **User Account Control (UAC):** If prompted by Windows’ User Account Control, click `Yes` to allow the installer to make changes.
 
-2. **Install Location:** Choose where to install Pieces (default location is recommended) and click `Install`.
+2. **Install Location:** Pick a **local** folder (see the warning above—avoid synced locations). The default path is recommended. Click `Install`.
 
 3. **Select Additional Tasks:** Check `Create a desktop shortcut` or `Automatically start Pieces` if preferred.
 
@@ -140,7 +144,7 @@ The Pieces Desktop App **automatically downloads and installs new updates.**
 
 You can also manually check for updates to PiecesOS and the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/windows_check_pfd_for_updates.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/windows_check_pfd_for_updates.gif" alt="Checking for updates in the Pieces Desktop App on Windows" align="center" fullwidth="true" />
 
 ### Uninstalling
 
@@ -148,7 +152,7 @@ Open **Settings,** then find **Apps** and search `Pieces.`
 
 Two applications will appear after you enter the search query—**Pieces Desktop** and **PiecesOS.** Click the three dots to the right of the application title, and click `Uninstall`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/uninstalling_on_windows.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/uninstalling_on_windows.gif" alt="Uninstalling Pieces and PiecesOS from Windows Settings" align="center" fullwidth="true" />
 
 ## Additional Resources
 

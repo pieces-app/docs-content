@@ -9,7 +9,7 @@ metaDescription: Explore quick guides to get started with Pieces. Learn prompts,
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/quick_guides/quick_guides.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/quick-guides.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/quick-guides.png" alt="Pieces Quick Guides overview banner" align="center" fullwidth="true" />
 
 ***
 

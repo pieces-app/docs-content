@@ -3,13 +3,13 @@ title: Getting to Know Pieces
 path: /meet-pieces
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is an AI-enabled productivity tool designed to increase developer efficiency through personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application, plugins for Sublime and Obsidian, and MCP integrations with Cursor, GitHub Copilot, and more.
+description: Pieces is an AI-enabled productivity tool designed to increase developer efficiency through personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application and MCP integrations with Cursor, GitHub Copilot, and more.
 metaTitle: Pieces Documentation
 metaDescription: Get started on Windows, macOS, Linux. Troubleshoot, configure, and make the most of Pieces–documentation for new users, developers, and admins for all Pieces OS.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png" alt="Getting to Know Pieces banner" align="center" fullwidth="true" />
 
 
 ## Introducing Pieces
@@ -154,9 +154,9 @@ Let Pieces do the heavy lifting and preserve your engineering creativity and ing
 
 ### How do I Use Pieces?
 
-PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with all our browser and IDE extensions and plugins.
+PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with [MCP integrations](/products/mcp/get-started) in your editors and tools.
 
-By installing PiecesOS, you enable the full functionality of the desktop app and our extensions, just like how Docker manages various containers.
+By installing PiecesOS, you enable the full functionality of the desktop app and those integrations, just like how Docker manages various containers.
 
 <Steps>
   <Step title="Step 1: Install Pieces">
@@ -194,16 +194,6 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
       
       <Card title="MCP Integrations" href="/products/mcp/get-started" image="/assets/icons/new_cursor.png">
         **Connect AI tools** — [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and [Claude Desktop](/products/mcp/claude-desktop)
-      </Card>
-    </CardGroup>
-    
-    <CardGroup cols={2}>
-      <Card title="Plugins" href="/products/extensions-plugins" image="/assets/icons/sublime.png">
-        **IDE & editor integrations** — [Sublime Text](/products/extensions-plugins/sublime) and [Obsidian](/products/obsidian). Connect via [MCP](/products/mcp/get-started) for Cursor, GitHub Copilot, and more.
-      </Card>
-      
-      <Card title="Browser Extension" href="/products/web-extension" image="/assets/icons/google_chrome.png">
-        **Capture from the web** — Save content, research, and context from any website
       </Card>
     </CardGroup>
   </Step>

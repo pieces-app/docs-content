@@ -11,6 +11,10 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/neovim.png" alt="" align="center" fullwidth="true" />
 
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
 V2 Documentation for the Pieces Neovim Plugin is under construction 🚧 ...
 
 ### Sign in Required

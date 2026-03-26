@@ -18,7 +18,7 @@ There are two ways to open the **Power Menu**:
   <Step title="via Home Icon">
     Click the `Home Icon` to the left of the *Search Bar* to open up the **Power Menu.**
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/scrolling_power_menu.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/scrolling_power_menu.gif" alt="Opening the Power Menu from the Home icon" align="center" fullwidth="true" />
   </Step>
 
   <Step title="via Shortcuts">
@@ -54,7 +54,7 @@ From this menu, you can either click or scroll through some of the available opt
 
 These actions, some of which are view-specific—like refreshing a selected Conversational Search conversation—are useful ways to navigate throughout the Pieces Desktop App while maintaining speed and efficiency in your workflow.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="Find Action search in the Power Menu" align="center" fullwidth="true" />
 
 Included at the very end of the scrollable **Find Actions** list are links to other Pieces plugins and extensions, as well as social outlets (<a target="_blank" href="https://www.youtube.com/@getpieces">Pieces YouTube</a>, [Pieces Discord](https://discord.com/invite/getpieces), etc.) and two additional links for <a target="_blank" href="https://github.com/pieces-app/support/issues">reporting issues</a> or <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF?typeform-source=beta.docs.pieces.app#page=docs-support">contacting support.</a>
 
@@ -70,7 +70,7 @@ This view contains several different buckets of configurable options: [Account](
 
 You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of the Conversational Search or Pieces Drive view, near the sidebar.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/toggling_sidebar_in_copilot.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/toggling_sidebar_in_copilot.gif" alt="Toggling Focus Mode to hide or show the sidebar" align="center" fullwidth="true" />
 
 When activated, it closes the sidebar, giving you an expanded view of your current Conversational Search conversation.
 

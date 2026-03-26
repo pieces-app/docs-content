@@ -12,7 +12,7 @@ metaDescription: Learn how to manage model access, processing mode, and API keys
 
 The Models section is the organization management area for AI. From here you control which models are available, enable or disable providers (Google, OpenAI, etc.), configure processing mode, and set up API keys. All settings sync to team members' Pieces Desktop and PiecesOS.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="Models page with provider sections, model lists, and toggles" align="center" fullwidth="true" />
 
 > Models page showing provider sections (Google, OpenAI) with model lists and toggles
 
@@ -55,7 +55,7 @@ By default, all models from enabled providers are available. To control which pr
 
 Each provider (Google, OpenAI, Anthropic, etc.) has a toggle at the top of its section. Turn it on to make that provider's models available; turn it off to disable them.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_show_models.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_show_models.png" alt="Provider sections with on/off toggles for Google, OpenAI, and others" align="center" fullwidth="true" />
 
 > Provider sections with on/off toggles for Google, OpenAI, and other providers
 

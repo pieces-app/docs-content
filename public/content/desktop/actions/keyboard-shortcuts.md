@@ -12,7 +12,7 @@ metaDescription: Keyboard shortcuts enable you to access parts of Pieces without
 
 You can browse the list of keyboard shortcuts below as a reference guide, or you can open the **Keyboard Shortcuts** modal by navigating to **Settings,** and scrolling to **Support** or use `⌘+;` (macOS) or `ctrl+;` (Windows/Linux).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/keyboard_shortcuts.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/keyboard_shortcuts.png" alt="Keyboard Shortcuts modal listing commands and key bindings" align="center" fullwidth="true" />
 
 ## Use a Piece
 

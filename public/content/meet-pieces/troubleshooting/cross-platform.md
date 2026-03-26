@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if PiecesOS or t
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_cross_platform.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/cross_platform/troubleshooting_multiOS.png" alt="" align="left" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/cross_platform/troubleshooting_multiOS.png" alt="Cross-platform troubleshooting banner" align="left" fullwidth="true" />
 
 ***
 
@@ -21,7 +21,7 @@ Find links to detailed sections on specific troubleshooting steps as well as inf
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, the Pieces Desktop App, or PiecesOS itself.
+Many issues can stem from out-of-date MCP integrations, the Pieces Desktop App, or PiecesOS itself.
 
 ### Updating PiecesOS
 
@@ -71,7 +71,7 @@ To restart and check for updates to PiecesOS:
 
 3. Check for and install available updates
 
-4. Verify that the Pieces Desktop Application and the plugin or extension you are attempting to use is up-to-date
+4. Verify that the Pieces Desktop Application and the MCP integration you are attempting to use is up-to-date
 
 ## Common Installation Issues
 

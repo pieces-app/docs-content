@@ -20,7 +20,7 @@ The Pieces Desktop App provides two primary ways to quickly perform *actions* an
 
 When you open the **Power Menu**, the actions you see can change based on your current location in the app.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/searching_powermenu.png" alt="Power Menu with context-aware Find Action search" align="center" fullwidth="true" />
 
 Here are some examples:
 
@@ -44,7 +44,7 @@ There are plenty of use cases for using the **Power Menu**—here are a couple:
 
 For a detailed list of all possible shortcuts and their descriptions, visit the [Keyboard Shortcuts](/products/desktop/actions/keyboard-shortcuts) page for multi-platform shortcut tables and action titles.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/keyboard_shortcuts.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Support%20%26%20Information/keyboard_shortcuts.png" alt="Keyboard Shortcuts reference in Settings" align="center" fullwidth="true" />
 
 ### When to Use Shortcuts
 

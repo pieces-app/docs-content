@@ -18,6 +18,10 @@ Select the appropriate download file for your platform (macOS/Windows) or follow
   macOS users will be prompted to select the proper download file based on their device’s architecture—ARM or Intel.
 </Callout>
 
+<Callout type="alert">
+  **Don't install** to **OneDrive**, **iCloud Drive**, or other **synced** folders—use a **local path** (the default is best). Details: [Windows](/products/meet-pieces/windows-installation-guide#on-screen-prompts), [manual install](/products/core-dependencies/pieces-os/manual-installation#manual-download--installation).
+</Callout>
+
 ## Downloads
 
 Find the download files for the Pieces Desktop App for your macOS or Windows device below.

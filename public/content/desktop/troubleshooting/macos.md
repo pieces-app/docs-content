@@ -9,7 +9,7 @@ metaDescription: Learn about what troubleshooting steps to take if the Pieces De
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/desktop/macos_troubleshooting.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/troubleshooting_macos.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/troubleshooting_macos.png" alt="macOS troubleshooting guide banner" align="center" fullwidth="true" />
 
 ***
 
@@ -55,9 +55,9 @@ Our `.pkg` files install both PiecesOS and the Pieces Desktop App in a single gu
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, PiecesOS, or the desktop app itself.
+Many issues can stem from out-of-date MCP integrations, PiecesOS, or the desktop app itself.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="Profile menu with Check for Updates for Desktop App and PiecesOS" align="center" fullwidth="true" />
 
 ### Updating the Pieces Desktop App
 
@@ -108,7 +108,7 @@ To determine your Apple device’s version of macOS:
   <Step title="Find your OS Version">
     Under your device name (i.e. MacBook Air), look for the last line on the list, titled **macOS**
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/macos/macos_checking_about_mac.gif" alt="About This Mac showing macOS version and chip" align="center" fullwidth="true" />
   </Step>
 </Steps>
 

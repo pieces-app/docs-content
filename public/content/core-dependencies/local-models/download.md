@@ -28,7 +28,7 @@ The easiest way to download and manage local models is directly from Conversatio
   <Step title="Click Active Model">
     Click your active model button (e.g., `Gemini 3 Pro Preview`) in the bottom toolbar of the Conversational Search interface.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Active model selection button in Conversational Search" align="center" fullwidth="true" />
 
     > Clicking the active model button in Conversational Search to open the model dropdown
   </Step>
@@ -44,7 +44,7 @@ The easiest way to download and manage local models is directly from Conversatio
   <Step title="Enable Models">
     Toggle the switch next to any model you want to enable. Models that are already downloaded will be immediately available for use.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/enabling_a_model.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/enabling_a_model.png" alt="Model management interface with toggle switches to enable models" align="center" fullwidth="true" />
 
     > Model management interface showing toggle switches to enable or disable models
   </Step>
@@ -54,11 +54,11 @@ The easiest way to download and manage local models is directly from Conversatio
   </Step>
 </Steps>
 
-## Downloading Through IDE Plugins
+## Downloading Through an MCP Integration
 
-You can also download local models through any Pieces plugin or extension:
+You can also download local models through any Pieces MCP integration:
 
-1. Open Conversational Search in your IDE plugin.
+1. Open Conversational Search in your editor or tool where Pieces MCP is connected.
 
 2. Click the **Active Model** or **Change Model** button.
 
@@ -96,7 +96,7 @@ To free up storage space, you can delete downloaded local models directly from t
   <Step title="Click Trash Icon">
     Click the trash icon on the model card to delete the downloaded model. Confirm the deletion when prompted to remove the model from your device.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/delete_local_model.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/delete_local_model.png" alt="Deleting a downloaded local model via the trash icon" align="center" fullwidth="true" />
 
     > Model management interface showing a downloaded model with trash icon visible for deletion
   </Step>

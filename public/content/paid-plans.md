@@ -9,7 +9,7 @@ metaDescription: Upgrade to Pieces Pro to access top-tier AI models from Claude,
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/paid_plans.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces-pro.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces-pro.png" alt="Pieces Pro premium plan banner" align="center" fullwidth="true" />
 
 ## About Pieces Pro
 
@@ -130,7 +130,7 @@ For details on which models are available on each plan, see [Models](/products/d
 
 Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/update-to-pieces-pro.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/update-to-pieces-pro.png" alt="Upgrade to Pieces Pro prompt in the Desktop App" align="center" fullwidth="true" />
 
 ### Premium AI Models
 
@@ -191,7 +191,7 @@ Use the built-in controls in Pieces Desktop or PiecesOS to activate your Pro sub
   <Step title="Locate the Unlock Pieces Pro section">
     Below the account section, there’s a new section called `Unlock Pieces Pro`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces_upgrade_os.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/pieces_upgrade_os.png" alt="Unlock Pieces Pro section in PiecesOS Quick Menu" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Unlock Pro">
@@ -211,7 +211,7 @@ Proceed through the purchase form to enter your contact and payment information.
   <Step title="Enter Contact Information">
     Provide your email address, country, and ZIP/postal code.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/checkout_details_page.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/checkout_details_page.png" alt="Pieces Pro checkout contact information form" align="center" fullwidth="true" />
 
     <Callout type="info">
       You may opt in to receive product updates and offers.
@@ -237,7 +237,7 @@ Proceed through the purchase form to enter your contact and payment information.
   <Step title="Confirm Purchase">
     Click `Pay Now` to finalize your subscription.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/thank_you_page.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/thank_you_page.png" alt="Thank you page after completing Pieces Pro purchase" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -267,7 +267,7 @@ Change or add your credit card directly in the *Payment methods* tab.
   <Step title="Navigate to Account">
     Click `Account` from the settings hover menu to view your account settings, including your subscription.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/subscription_account.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/subscription_account.png" alt="Account settings showing subscription management options" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Open Payment Dashboard">
@@ -285,7 +285,7 @@ Change or add your credit card directly in the *Payment methods* tab.
   <Step title="Save Changes">
     Click `Update payment method` to confirm and store the updated payment information to be *used on the next billing cycle*.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/update_payment_method.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/update_payment_method.png" alt="Update payment method form for Pieces Pro subscription" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -313,7 +313,7 @@ Click `Cancel subscription` in the *Subscription* tab. You’ll be redirected to
   <Step title="Choose an Option">
     Click `Cancel subscription` to end your plan immediately or click `Back` to return without canceling.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/cancel_subscription_active.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/cancel_subscription_active.png" alt="Cancel subscription confirmation dialog" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -341,7 +341,7 @@ Browse your billing history in the *Payments* tab. Click `any entry` to view a c
   <Step title="Choose an Invoice">
     On the *Payments* tab, you’ll see all of your active and past invoices — click on any one to access the details and edit any information within the invoice.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/invoice_page.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/invoice_page.png" alt="Invoices and billing history in the Payments tab" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -376,11 +376,11 @@ Once you've confirmed both, try the upgrade process again.
 
 ### Live Support with Pieces
 
-We aim to make your experience with PiecesOS, the Pieces Desktop App, and our IDE or browser integrations as smooth as possible by engaging with users to improve our products, and you can book a call with our developers for assistance via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
+We aim to make your experience with PiecesOS, the Pieces Desktop App, and our MCP integrations as smooth as possible by engaging with users to improve our products, and you can book a call with our developers for assistance via <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">our support calendar.</a>
 
 ### Open a GitHub Issue<a target="_blank" href="/products/support">**​**</a>
 
-You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces plugin or extension by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
+You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces MCP integration by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
 
 If you would prefer not to use GitHub, you can still <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>
 

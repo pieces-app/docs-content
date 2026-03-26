@@ -12,6 +12,10 @@ metaDescription: Chat with Pieces Copilot inside Visual Studio for AI-driven cod
 
 ***
 
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
 ## Pieces for Visual Studio Extension
 
 The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for Visual Studio Extension</a> is a powerful and versatile tool that integrates seamlessly with the Visual Studio IDE, enhancing productivity and enabling efficient code management.

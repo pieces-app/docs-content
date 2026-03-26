@@ -9,7 +9,7 @@ metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/mcp.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/mcp.png" alt="Pieces Model Context Protocol overview banner" align="center" fullwidth="true" />
 
 ***
 
@@ -27,13 +27,13 @@ This is extremely useful—because it means somebody using the Cursor agentic ch
 
 ## How Pieces Integrates with MCP
 
-The core of the Pieces ecosystem is [PiecesOS](/products/core-dependencies/pieces-os), which powers the Pieces Desktop App, browser extensions, and IDE plugins.
+The core of the Pieces ecosystem is [PiecesOS](/products/core-dependencies/pieces-os), which powers the Pieces Desktop App and [MCP integrations](/products/mcp/get-started) across your editors and tools.
 
 At its heart is the advanced [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27), which captures, enriches, and locally stores valuable contextual information from your daily workflow, such as code snippets, browser history, notes, and application data.
 
 Pieces leverages the MCP to connect your favorite development tools and AI applications—like Cursor and GitHub Copilot—directly to PiecesOS, enabling smooth, context-rich interactions [entirely on your device.](/products/privacy-security-your-data#data-storage--control)
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/mcp-diagram.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/mcp-diagram.png" alt="Pieces MCP architecture diagram showing data flow" align="center" fullwidth="true" />
 
 ### Required Dependency
 
@@ -93,7 +93,7 @@ By connecting directly to [PiecesOS](/products/core-dependencies/pieces-os), you
 
 *Pieces MCP —> Cursor*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/cursor_example_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/cursor_example_chat.png" alt="Cursor example chat showing Pieces MCP in use" align="center" fullwidth="true" />
 
 ***
 
@@ -137,7 +137,7 @@ Let’s take a look at the Pieces + MCP flow as you’d experience it in a famil
 
 *Pieces MCP —> GitHub Copilot*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/visualstudio_example_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/introducing_pieces_mcp/visualstudio_example_chat.png" alt="Visual Studio example chat with Pieces MCP" align="center" fullwidth="true" />
 
 ***
 

@@ -12,7 +12,7 @@ metaDescription: Step-by-step guide to creating organizations and accepting invi
 
 Create a new organization to start collaborating with your team, or accept an invitation to join an existing organization. Organizations allow you to share resources, manage team-wide settings, and collaborate effectively.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/organizations-and-teams/create_organization.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/organizations-and-teams/create_organization.png" alt="Modal showing the walkthrough of creating an organization" align="center" fullwidth="true" />
 
 > Modal showing the walkthrough of creating an organization
 
@@ -20,7 +20,7 @@ Create a new organization to start collaborating with your team, or accept an in
 
 Set up a new organization to start collaborating with your team. The creation process includes selecting a subscription plan and configuring initial settings.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/hovering_create_org_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media02-27-26/hovering_create_org_new.png" alt="Account settings showing Organizations & Teams section with Create organization button" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Access Creation Flow">
@@ -70,7 +70,7 @@ Set up a new organization to start collaborating with your team. The creation pr
 
 Accept an invitation to join an existing organization and start collaborating with your team.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/google-email-org-invite.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/google-email-org-invite.png" alt="Email invitation from organization with details and acceptance link" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Receive Invitation">

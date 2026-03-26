@@ -12,7 +12,7 @@ metaDescription: Learn how to enable and disable features that sync across your 
 
 The Features settings tab allows you to control organization-wide feature toggles that automatically sync to all team members' Pieces Desktop and PiecesOS installations. These settings ensure consistent feature availability across your team.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/features_tab_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/features_tab_settings.png" alt="Features settings tab with feature toggles and processing options" align="center" fullwidth="true" />
 
 > Features settings tab showing various feature toggles and processing options
 

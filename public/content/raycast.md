@@ -8,7 +8,7 @@ metaTitle: Using Pieces for Raycast | Pieces Docs
 metaDescription: Understand the benefits and importance of using the Pieces Raycast Extension, and get started with Quickstart and Commands.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/raycast/raycast.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/raycast/raycast.png" alt="Pieces for Raycast Extension banner" align="center" fullwidth="true" />
 
 
 <Callout type="alert">
@@ -83,7 +83,7 @@ PiecesOS will automatically open in your toolbar and pop up a *Notification pref
 
 To do this, open the PiecesOS Quick Menu and click `Enable Long-Term Memory Engine`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="Enabling Long-Term Memory Engine in PiecesOS Quick Menu" align="center" fullwidth="true" />
 
 ## Install the Pieces for Raycast Extension
 
@@ -131,7 +131,7 @@ Quickly search across all of your saved code snippets using Raycast’s minimal 
 
 This command surfaces results enriched with metadata such as title, language, tags, and source (e.g., clipboard, browser, editor). It’s a fast way to rediscover useful context you’ve captured in the past, without digging through files, emails, or browser tabs.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/search_snippets.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/search_snippets.gif" alt="Searching saved code snippets in Raycast" align="center" fullwidth="true" />
 
 Use this feature when:
 
@@ -147,7 +147,7 @@ This command displays a timeline of your clipboard history—enriched with metad
 
 You can scroll through recently copied content and selectively save high-value items as persistent snippets. Each saved snippet includes its origin, content type, and timestamp, helping you retain the most relevant fragments of your workday.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/save_clipboard_history.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/save_clipboard_history.gif" alt="Saving clipboard history to Pieces via Raycast" align="center" fullwidth="true" />
 
 ### Save Clipboard to Pieces
 
@@ -155,7 +155,7 @@ You can quickly save the current content in your clipboard to Pieces.
 
 This command is perfect for moments when you quickly copy a block of code, a command, or a snippet of text and want to ensure its preservation.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/save_clipboard.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/save_clipboard.gif" alt="Saving current clipboard content to Pieces via Raycast" align="center" fullwidth="true" />
 
 ### Save Browser History to Pieces
 
@@ -163,7 +163,7 @@ This command allows you to surface code snippets that you recently interacted wi
 
 Pieces identifies these snippets in your browser activity and gives you the option to save them with proper enrichment and metadata.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/save_browser_history.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/save_browser_history.gif" alt="Saving browser history snippets to Pieces via Raycast" align="center" fullwidth="true" />
 
 ### Save Finder Selection
 
@@ -171,7 +171,7 @@ Select one or more files in macOS Finder and save them to Pieces with a single c
 
 Files are stored as artifacts in your Pieces Library and enriched with metadata like filename, extension, and path.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/save_finder_selection.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/save_finder_selection.gif" alt="Saving Finder file selection to Pieces via Raycast" align="center" fullwidth="true" />
 
 ### Save Selection in Any App
 
@@ -179,7 +179,7 @@ Highlight any text in the currently active (frontmost) application—like VS Cod
 
 This command enables frictionless, cross-app snippet capture without copy/paste.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/save_frontmost_selection.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/save_frontmost_selection.gif" alt="Saving text selection from any app to Pieces via Raycast" align="center" fullwidth="true" />
 
 ## Account Access
 
@@ -197,13 +197,13 @@ This command securely authenticates your Pieces account from within Raycast, ena
 
 Once signed in, your saved snippets are backed up and available wherever Pieces is installed.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/sign_in_to_pieces.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/sign_in_to_pieces.gif" alt="Signing in to Pieces account from Raycast" align="center" fullwidth="true" />
 
 ### Sign out of Pieces
 
 Log out of your Pieces account from Raycast.
 
-<Image src="https://old.docs.pieces.app/assets/raycast/signout.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://old.docs.pieces.app/assets/raycast/signout.gif" alt="Signing out of Pieces account from Raycast" align="center" fullwidth="true" />
 
 <Callout type="tip">
   This is useful for switching accounts, temporarily disabling cloud syncing, or handing off a machine to another developer.

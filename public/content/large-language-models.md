@@ -9,7 +9,7 @@ metaDescription: Explore the available cloud-based and local LLMs supported by P
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/compatible-llms.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/standalone_single_docs/compatible_llms/compatible-llms.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/standalone_single_docs/compatible_llms/compatible-llms.png" alt="Compatible large language models supported by Pieces" align="center" fullwidth="true" />
 
 <pieces-pro-cta />
 
@@ -19,7 +19,7 @@ Pieces utilizes cloud-hosted LLMs from providers like OpenAI, Anthropic, and Goo
 
 ## Cloud-Only LLMs | Providers
 
-[Browse the list of cloud-hosted AI models available for use](/products/large-language-models/cloud-models) with the Pieces Desktop App and several of our plugins and extensions.
+[Browse the list of cloud-hosted AI models available for use](/products/large-language-models/cloud-models) with the Pieces Desktop App and several of our MCP integrations.
 
 ***
 

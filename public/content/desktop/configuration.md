@@ -16,7 +16,7 @@ Open Settings from the home view to adjust account and cloud behaviors, check yo
   <Step title="Click Profile Picture">
     Click your profile picture in the top left of the home view.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/settings_dropdown_open.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/settings_dropdown_open.png" alt="Profile menu open with Settings and quick category options" align="center" fullwidth="true" />
   </Step>
 
   <Step title="Hover Over Settings">
@@ -47,7 +47,7 @@ Open Settings from the home view to adjust account and cloud behaviors, check yo
 
 Manage your Pieces account, linked third-party services, profile information, personal cloud synchronization, subscriptions, and privacy settings. This ensures your account stays secure and synced with the services you use to authenticate.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="Account settings showing profile, linked accounts, organizations, subscriptions, and privacy" align="center" fullwidth="true" />
 
 > Account settings showing profile information, linked accounts, organizations, subscriptions, personal cloud, and privacy settings
 
@@ -59,7 +59,7 @@ Manage your Pieces account, linked third-party services, profile information, pe
 
 Create and manage organizations and teams to collaborate with others, share resources, and maintain consistent settings across your team in Pieces.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/organization_and_teams_overview_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/organization_and_teams_overview_settings.png" alt="Organizations and Teams section in Account settings" align="center" fullwidth="true" />
 
 > Account settings page showing Organizations & Teams section with organization list and management options
 
@@ -71,7 +71,7 @@ Create and manage organizations and teams to collaborate with others, share reso
 
 Manage long-term memory preferences and data. Configure the Long-Term Memory Engine, control which applications Pieces can access, manage system permissions, optimize performance, and clear stored data.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="Long-Term Memory settings with Memory Formation, Performance, and Stored Data" align="center" fullwidth="true" />
 
 > Long-Term Memory settings showing Memory Formation, Performance, and Stored Data sections
 
@@ -83,7 +83,7 @@ Manage long-term memory preferences and data. Configure the Long-Term Memory Eng
 
 Manage AI models and model preferences. Configure processing modes, set up local model runtime with Ollama, and control which AI models are available for use in Pieces.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="Models settings with capabilities, local runtime, and model management" align="center" fullwidth="true" />
 
 > Models settings showing Model Capabilities, Local Model Runtime, and Model Management sections
 
@@ -95,7 +95,7 @@ Manage AI models and model preferences. Configure processing modes, set up local
 
 Access server URLs and documentation for integrating Pieces Long-Term Memory with Cursor, GitHub Copilot, and other tools that support the Model Context Protocol. The MCP server enables connectivity between Large Language Models (LLMs) and your personal context stored by the Long-Term Memory Engine.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="MCP settings with server URLs and documentation links" align="center" fullwidth="true" />
 
 > MCP settings showing server URLs and documentation options
 
@@ -107,7 +107,7 @@ Access server URLs and documentation for integrating Pieces Long-Term Memory wit
 
 Customize the visual appearance of the Pieces Desktop App, including theme mode, accent colors, font settings, and visual density. Adjust these settings to match your preferences and create a comfortable work environment.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/appearance/appearance_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/appearance/appearance_settings_overview.png" alt="Appearance settings with theming, fonts, and spacing" align="center" fullwidth="true" />
 
 > Appearance settings showing Theming, Fonts, and Spacing sections
 
@@ -119,7 +119,7 @@ Customize the visual appearance of the Pieces Desktop App, including theme mode,
 
 Get help, troubleshoot issues, view app information, and contact support. Access support resources, documentation links, version details, and feedback channels to resolve issues and get the most out of Pieces.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/troubleshooting_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/troubleshooting_settings_overview.png" alt="Troubleshooting settings with online resources, contact, and app version info" align="center" fullwidth="true" />
 
 > Troubleshooting settings showing Online Resources, Get In Touch, PiecesOS Information, and Desktop App Information sections
 

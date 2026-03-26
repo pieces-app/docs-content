@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with ChatGPT Developer 
 metaDescription: Learn how to integrate Pieces MCP with ChatGPT Developer Mode. Requires ngrok or HTTPS proxy—ChatGPT needs a remote URL. Pro/Plus/Business/Enterprise/Education plans.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/chatgpt-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/chatgpt-mcp.png" alt="Pieces MCP integration with ChatGPT Developer Mode" align="center" fullwidth="true" />
 
 ***
 

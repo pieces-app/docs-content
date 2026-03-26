@@ -22,7 +22,7 @@ Integrating context ensures Pieces Copilot isn’t answering in a vacuum.
 
 By including Long-Term Memory data and project-specific resources, you can improve the accuracy of generative AI responses, reduce context-switching, work more effectively.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_pfd_ltm_source_gif.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/showing_pfd_ltm_source_gif.gif" alt="Pieces Copilot response with LTM Workstream Activity context cards" align="center" fullwidth="true" />
 
 ### Related Workstream Activities
 
@@ -30,7 +30,7 @@ Pieces Copilot will draw on memories and workflow context captured by the LTM en
 
 The Timeline cards will display under the response with several cards linking to past timeline events that contain the context used to create that response.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/querying_pieces_copilot.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/querying_pieces_copilot.gif" alt="Timeline context cards under a Copilot response linking to past events" align="center" fullwidth="true" />
 
 <Callout type="tip">
   Clicking one of the surfaced context cards will take you to that specific Roll-Up in **Timeline**.
@@ -44,7 +44,7 @@ When turned on, your long-term memory data—captured by PiecesOS from your prev
 
 This means that even if you start a fresh conversation, Pieces Copilot has access to important context from earlier sessions.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Additional%20Settings/toggling_ltm.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Additional%20Settings/toggling_ltm.gif" alt="Toggling LTM context on in the Pieces Copilot view" align="center" fullwidth="true" />
 
 ### Adding Folders
 
@@ -56,7 +56,7 @@ To do so, click `Add Folders` to open your Finder (macOS) or File Explorer (Wind
 
 Select the directories that you want the Pieces Copilot to use as context. This is especially useful when working on large projects where entire folders contain valuable code references.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/adding_folder_to_copilot_chat.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/adding_folder_to_copilot_chat.png" alt="Adding folders as context in Manage Copilot Context" align="center" fullwidth="true" />
 
 ### Adding Files
 
@@ -64,7 +64,7 @@ Similarly, clicking the `Files` button opens the same modal so you can select in
 
 Click `Add Files` to select specific code files.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_file_copilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_file_copilot.png" alt="Adding individual files as Copilot context" align="center" fullwidth="true" />
 
 These files are then parsed by Pieces Copilot to provide precise answers related to your code.
 
@@ -74,7 +74,7 @@ If you need to reference external code on a website—like on Stack Overflow—c
 
 This opens a modal where you can enter a website URL.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Context%20%26%20Projects/add_Website.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Context%20%26%20Projects/add_Website.png" alt="Adding a website URL as Copilot context" align="center" fullwidth="true" />
 
 Websites with code snippets or technical documentation can then be used as contextual material for your Pieces Copilot queries.
 
@@ -88,6 +88,6 @@ Clicking the `Saved Materials` button opens up an interface that displays a clic
 
 Choose the relevant saved material that you’d like to include in your current conversation.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_snippet_to_copilot.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/add_snippet_to_copilot.gif" alt="Selecting saved materials from Pieces Drive as Copilot context" align="center" fullwidth="true" />
 
 This ensures that the Pieces Copilot is aware of your pre-curated, AI-enriched materials and can reference them in its responses.

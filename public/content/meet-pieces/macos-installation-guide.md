@@ -58,6 +58,10 @@ Once you've downloaded the correct `.dmg` file, it's time to install the Pieces 
   </Step>
 </Steps>
 
+<Callout type="alert">
+  Put Pieces in **Applications** or another **local** folder—not **iCloud Drive** or other synced locations.
+</Callout>
+
 ### System Requirements
 
 There are <mark>(2)</mark> requirements for installing Pieces on your macOS device:
@@ -155,7 +159,7 @@ The Pieces Desktop App automatically downloads and installs new updates.
 
 You can also manually check for updates to PiecesOS and the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_check_pfd_for_updates_profile_dropdown.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_check_pfd_for_updates_profile_dropdown.gif" alt="Checking for updates via the profile dropdown on macOS" align="center" fullwidth="true" />
 
 ### Uninstalling
 
@@ -163,7 +167,7 @@ On your macOS device, navigate to **Finder,** then select **Applications.**
 
 Scroll or search until you find both `Pieces` and `PiecesOS.` Right-click on these two applications and select `Move to Trash`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_how_to_uninstall_pfd.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_how_to_uninstall_pfd.gif" alt="Uninstalling Pieces from macOS Applications folder" align="center" fullwidth="true" />
 
 ## Additional Resources
 

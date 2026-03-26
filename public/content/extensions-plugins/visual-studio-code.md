@@ -13,6 +13,10 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ***
 
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
 ## Pieces for Visual Studio Code
 
 The <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.PiecesVisualStudio">Pieces for VS Code Extension</a> is a versatile tool that integrates seamlessly with the VS Code editor and IDEs based on VS Code, such as Cursor.

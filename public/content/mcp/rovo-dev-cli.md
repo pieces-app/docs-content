@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Rovo Dev CLI
 metaDescription: Learn how to integrate Pieces MCP with Rovo Dev CLI. Access Long-Term Memory for enhanced, context-aware productivity.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/rovodevcli-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/rovodevcli-mcp.png" alt="Pieces MCP integration with Rovo Dev CLI" align="center" fullwidth="true" />
 
 ***
 

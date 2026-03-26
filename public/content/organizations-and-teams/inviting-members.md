@@ -12,7 +12,7 @@ metaDescription: Step-by-step guide to inviting members to your organization, in
 
 Add team members by sending invitations. You can invite one at a time, add multiple, or bulk upload via CSV. Each member needs an available seat.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/invite-to-org.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/invite-to-org.png" alt="Invite members modal with email input, role selection, and CSV upload" align="center" fullwidth="true" />
 
 > Invite members modal showing email input, role selection, and CSV upload option
 
@@ -31,7 +31,7 @@ Add team members by sending invitations. You can invite one at a time, add multi
 
 Before inviting members, understand the different roles available and what each role can do within your organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/inviting_members_roles.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/inviting-members/inviting_members_roles.png" alt="Member roles overview with Owner, Admin, Write, and Read descriptions" align="center" fullwidth="true" />
 
 > Member roles overview showing Owner, Admin, Write, and Read role descriptions
 
@@ -139,7 +139,7 @@ Before inviting members, check your current seat usage:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="Members tab showing seat usage with current and total seats" align="center" fullwidth="true" />
 
 > Members tab showing seat usage card with current usage and total seats
 

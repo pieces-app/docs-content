@@ -18,7 +18,7 @@ One of the most convenient ways to collaborate or showcase work is by sending a 
 
 Pieces Drive makes this process dirt-simple using *shareable links*, which allow others to view your snippet and its related metadata in a consistent, Pieces-branded web interface—even if they don’t have Pieces installed. 
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_drive/sharing/shared_snippet_demo_1.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_drive/sharing/shared_snippet_demo_1.png" alt="Shareable link preview for a saved snippet" align="center" fullwidth="true" />
 
 These links preserve the snippet’s code, syntax highlighting, tags, annotations, and other contextual data—this way, recipients see not just lines of text, but the snippet’s *entire backstory and classification.*
 
@@ -34,7 +34,7 @@ Find and click the **three-dot Quick Menu** (usually in the top-right corner of 
 
 Then, choose `Generate Shareable Link` or `Shareable Link`—if it's your first time creating a link for that snippet, Pieces will make a new unique URL.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Snippet%20Discovery/sharing_a_snippet.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Snippet%20Discovery/sharing_a_snippet.gif" alt="Generating a shareable link from the snippet quick menu" align="center" fullwidth="true" />
 
 <Callout type="tip">
   If you’ve already generated a link for this material before, it exists in the cloud—so you can just copy the shareable link to your clipboard.
@@ -46,7 +46,7 @@ You can toggle a different shareable link modal that provides you with the previ
 
 If you want to see how the snippet appears, simply paste the link into a web browser.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_drive/sharing/material_in_browser_demo_2.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/pieces_drive/sharing/material_in_browser_demo_2.png" alt="Shared snippet opened in the browser with metadata" align="center" fullwidth="true" />
 
 You’ll find a code view, syntax highlighting, any relevant tags, annotations, and a snippet description—just like in Pieces Drive.
 
@@ -94,7 +94,7 @@ This will give you access to the shareable link in an input field, the option to
 
 3. `Revoke Link`**:** Similar to *deleting a material,* this button essentially ‘deletes’ the shared link, taking the saved material off of the cloud so that it cannot be accessed outside of your Pieces Drive.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/screenshot_of_share_tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Transforming%20%26%20Translating%20Code/screenshot_of_share_tab.png" alt="Shareable Link section in snippet quick menu" align="center" fullwidth="true" />
 
 ## Use Cases & Workflows
 

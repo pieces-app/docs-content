@@ -12,6 +12,10 @@ metaDescription: The Pieces for JetBrains Plugin enhances your development exper
 
 ***
 
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
 ## Pieces for JetBrains Plugin
 
 The <a target="_blank" href="https://plugins.jetbrains.com/plugin/17328-pieces">Pieces for JetBrains Plugin</a> enhances your development experience by seamlessly integrating the best features from the Pieces suite directly into JetBrains IDEs, making your favorite tools readily accessible within your workspace.

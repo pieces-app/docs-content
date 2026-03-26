@@ -95,7 +95,7 @@ If you've received an invitation to join a Pieces organization, follow these ste
 
 After accepting your invitation, you'll land on your organization's Home page in the Pieces portal. The *Setup* section at the top provides everything you need to get Pieces installed.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_overview.png" alt="Organization Home page with Setup section and download links" align="center" fullwidth="true" />
 
 > Organization Home page showing Setup section with download links and sign-in instructions
 

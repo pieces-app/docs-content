@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Local models are *optional* but powerful AI capabilities built into PiecesOS that allow you to run Large Language Models (LLMs) directly on your device instead of relying on cloud-based AI processing.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="Local models for on-device generative AI" align="center" fullwidth="true" />
 
 Unlike cloud models—which require an internet connection—local models run entirely on your device, providing complete privacy and offline functionality.
 

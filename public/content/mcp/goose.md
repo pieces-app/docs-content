@@ -9,7 +9,7 @@ metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) w
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/goose_mcp.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/mcp_goose.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/mcp_goose.png" alt="Pieces MCP integration with Goose" align="center" fullwidth="true" />
 
 ***
 
@@ -63,11 +63,11 @@ To find the up-to-date SSE endpoint with the active instance of POS (including t
 
 There, you can copy the SSE endpoint with one click, which includes the active PiecesOS port number.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_mcp_options.png" alt="PiecesOS Quick Menu MCP servers section" align="center" fullwidth="true" />
 
 You can also find this in the Pieces Desktop App by opening the [Settings](/products/desktop/configuration) view and clicking **Model Context Protocol (MCP)**.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop app MCP settings" align="center" fullwidth="true" />
 
 ## Setting Up Goose with Pieces MCP
 
@@ -85,7 +85,7 @@ Make sure you have the latest version of Goose installed to ensure compatibility
 
 Setting up the Pieces MCP through the Goose Command Line Interface is straightforward.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/set_up_mcp_server.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/set_up_mcp_server.gif" alt="Goose configure command for setting up MCP" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Run the Configuration Command">
@@ -177,7 +177,7 @@ Once the integration is set up, you can start using Pieces Long-Term Memory thro
 
     Here’s a response using that exact same prompt inside of Goose using the Pieces MCP integration:
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/example_convo_demo_prompt.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/example_convo_demo_prompt.png" alt="Example Goose conversation demonstrating Pieces MCP" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -189,7 +189,7 @@ Once the integration is set up, you can start using Pieces Long-Term Memory thro
 
 To remove the Pieces MCP for Goose, you can follow the same process you otherwise would for removing any Goose extension.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/remove_mcp_server.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/goose_mcp/remove_mcp_server.gif" alt="Goose configure menu for removing MCP servers" align="center" fullwidth="true" />
 
 <Steps>
   <Step title="Enter the Configuration Settings">

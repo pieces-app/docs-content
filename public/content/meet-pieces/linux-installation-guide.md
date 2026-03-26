@@ -9,7 +9,7 @@ metaDescription: Get started with Pieces on Linux – install, configure, troubl
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png" alt="Pieces for Linux installation guide banner" align="center" fullwidth="true" />
 
 ***
 
@@ -27,10 +27,10 @@ There are several requirements that your Linux device must meet to download and 
 
 * **Minimum OS Type:** PiecesOS has been tested and developed primarily for Ubuntu 22+ or later-based distributions, so make sure your system is updated to at least Ubuntu 22+ or later.
 
-* **X11 Window Manager:** Virtual Linux machines or dedicated instances of Linux, even PiecesOS-compatible Ubuntu 22+ distributions, **must utilize X11** as the proprietary Window Manager.
+* **Display server (X11 or Wayland):** Pieces is primarily **supported** on **Ubuntu** using **X11**. **Wayland** support requires manual steps—run `pieces-os.doctor` after install and follow its output. Other configurations and distros *may* work but are generally *unsupported*. If **Long-Term Memory** or screen-related features misbehave—especially in **some VMs**—try logging in with an **X11 session** or see [Linux troubleshooting](/products/meet-pieces/troubleshooting/linux).
 
 <Callout type="tip">
-  To determine which display manager your Linux device is using, go to **Settings,** then **System,** and **System Details** to see if you are using an X11 or a non-LLVM compatible manager.
+  Check your session with `echo $XDG_SESSION_TYPE` (`wayland` or `x11`). On **Wayland**, use `pieces-os.doctor` to wire up interfaces; labels in **Settings → System** vary by distro.
 </Callout>
 
 <Card title="Download — Linux" image="/assets/icons/platform_logos/ubuntu_logo.png">
@@ -75,7 +75,7 @@ The Pieces Desktop App automatically downloads and installs new updates.
 
 You can also manually check for updates to PiecesOS and the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/checking_pieces_desktop_app_for_pieces_os_updates.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/checking_pieces_desktop_app_for_pieces_os_updates.gif" alt="Checking for PiecesOS updates in the Pieces Desktop App on Linux" align="center" fullwidth="true" />
 
 ## Uninstalling
 
@@ -99,7 +99,7 @@ You can uninstall PiecesOS and the Pieces Desktop App using `snap` commands dire
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/uninstall_pfd_from_terminal.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/uninstall_pfd_from_terminal.png" alt="Uninstalling Pieces from the Linux terminal" align="center" fullwidth="true" />
 
 ## Additional Resources
 

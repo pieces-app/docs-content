@@ -32,7 +32,7 @@ metaDescription: Learn how to configure organization settings and control featur
 
 Configure basic organization information, contact details, and address. Update your organization's identity and how Pieces reaches you for billing and support.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/settings_overview_general_Tab.png" alt="General settings tab with organization name, contact info, and address" align="center" fullwidth="true" />
 
 > General settings tab showing organization name, contact info, and address fields
 
@@ -44,7 +44,7 @@ Configure basic organization information, contact details, and address. Update y
 
 Toggle organization-wide features that sync to team members' Pieces Desktop and PiecesOS. Control external cloud, analytics, and reporting features.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/features_tab_settings.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/features_tab_settings.png" alt="Features settings tab with External Cloud and Analytics toggles" align="center" fullwidth="true" />
 
 > Features settings tab showing External Cloud and Analytics toggles
 

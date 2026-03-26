@@ -35,7 +35,7 @@ Read below for detailed steps on using the `share` command within the Pieces CLI
 
     Open it in a browser with `y` or deny it with `n`. After entering your option, press `return` (macOS) or `enter` (Windows/Linux).
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/sharing/sharing_snippet.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/sharing/sharing_snippet.gif" alt="Sharing a snippet and opening in browser" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -59,7 +59,7 @@ When you save a snippet to the Pieces Cloud, the code is [enriched with valuable
 
 This information appears to the right of the code block when the shared snippet is open in your browser:
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_1.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_1.png" alt="Shared snippet with metadata displayed" align="center" fullwidth="true" />
 
 ### Sensitive Information Watchdog
 
@@ -67,6 +67,6 @@ The share command does more than enable you to share snippets with your entire t
 
 You'll see a section titled **Sensitive Information:**
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_2.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/CLI/cli_drive_sharing_2.png" alt="Sensitive information detection in shared snippet" align="center" fullwidth="true" />
 
 Our in-house ML model scans snippets for potentially sensitive information, such as API keys or passwords, and alerts you so you can make an informed decision before sharing the snippet.

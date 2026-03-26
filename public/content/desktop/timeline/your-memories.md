@@ -16,7 +16,7 @@ Timeline Activities is the chronological sidebar that displays all activities an
 
 Click the `Show Timeline` button in the top-left corner of the main view to open or close Pieces Timeline.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Timeline with Activities sidebar, Show Timeline button, and date groups" align="center" fullwidth="true" />
 
 > Full screenshot of Timeline with Timeline Activities sidebar open on the left, showing the "Show Timeline" button highlighted, multiple date groups (Today, Yesterday, Last Saturday), and several activity items with timestamps and icons
 
@@ -33,7 +33,7 @@ Each memory item displays:
 * **App Icons:** Small icons showing which applications were involved (Chrome, VS Code, Slack, etc.).
 * **Count Badge:** Number on the right indicating how many events or items are in that memory.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Memory items with title, timestamp, emoji, app icons, and count badge" align="center" fullwidth="true" />
 
 > Close-up screenshot of 2-3 individual memory items showing all the components clearly labeled: title, timestamp, emoji indicator, app icons, and count badge
 
@@ -87,7 +87,7 @@ Use the search bar to find activities by keyword or topic.
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Search bar filtering Timeline Activities in real time" align="center" fullwidth="true" />
 
 > Search/filter functionality showing typing a search query in the search bar at the top of Timeline Activities sidebar, with the activity list filtering in real-time to display only matching results
 
@@ -115,7 +115,7 @@ Click an activity to view its complete roll-up details.
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Selected activity in sidebar with full roll-up in main panel" align="center" fullwidth="true" />
 
 > Split screenshot showing an activity item selected in the Timeline Activities sidebar (highlighted) and the corresponding detailed roll-up displayed in the main panel to the right
 

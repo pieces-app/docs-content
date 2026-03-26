@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Code
 metaDescription: Learn how to integrate Pieces MCP with Claude Code. Use the CLI to add Pieces LTM—automatically available in the VS Code extension.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/claude-code-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/claude-code-mcp.png" alt="Pieces MCP integration with Claude Code" align="center" fullwidth="true" />
 
 ***
 

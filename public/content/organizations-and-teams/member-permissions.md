@@ -16,7 +16,7 @@ Understanding your role and permissions helps you know what you can do within yo
 
 Organizations have four main roles with different permission levels. Each role determines what you can do within the organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="Members tab with seat usage and member list showing role indicators" align="center" fullwidth="true" />
 
 > Members tab showing seat usage and member list with role indicators
 

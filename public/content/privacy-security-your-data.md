@@ -9,7 +9,7 @@ metaDescription: Understand how Pieces handles privacy, security, and data prote
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/privacy_security_your_data.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="Pieces privacy and security banner" align="center" fullwidth="true" />
 
 
 ## Private and Secure
@@ -24,7 +24,7 @@ Designed for complete user control, all cloud features are opt-in only, telemetr
 
 🛡️ *We are SOC 2 Certified & Enterprise-Ready!*
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_compliance.png" alt="" align="center" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_compliance.png" alt="SOC 2 compliance certification badge" align="center" />
 
 ***
 

@@ -13,6 +13,10 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ***
 
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp/get-started).
+</Callout>
+
 ## Pieces for Sublime Text Plugin
 
 The <a target="_blank" href="https://packagecontrol.io/packages/Pieces">Pieces for Sublime Text Plugin</a> is a powerful tool that integrates directly into the Sublime Text editor. It allows users to manage saved code snippets and access [Pieces Copilot](/products/extensions-plugins/sublime/copilot) features.

@@ -100,28 +100,48 @@ Append the correct path to your ngrok URL:
 
 | **Endpoint** | **Path** | **Use for** |
 |--------------|----------|--------------|
-| **Streamable HTTP** | `/model_context_protocol/2025-03-26/mcp` | ChatGPT, Claude Cowork Connectors UI |
-| **SSE** | `/model_context_protocol/2024-11-05/sse` | MCP Bridge, OpenClaw remote |
+| **Streamable HTTP (MCP)** | `/model_context_protocol/2025-03-26/mcp` | ChatGPT, Claude Cowork Connectors UI, OpenClaw (MCPorter + `mcp-remote`) |
+| **SSE** | `/model_context_protocol/2024-11-05/sse` | MCP Bridge and other clients that require the legacy SSE endpoint |
 
-Example: if ngrok shows `https://abc123.ngrok-free.app`, use `https://abc123.ngrok-free.app/model_context_protocol/2025-03-26/mcp` for ChatGPT or `https://abc123.ngrok-free.app/model_context_protocol/2024-11-05/sse` for MCP Bridge.
+Example: if ngrok shows `https://abc123.ngrok-free.app`, use `https://abc123.ngrok-free.app/model_context_protocol/2025-03-26/mcp` for ChatGPT, Claude Cowork, or OpenClaw, or `https://abc123.ngrok-free.app/model_context_protocol/2024-11-05/sse` for MCP Bridge.
 
 ## Configuring Your MCP Client
 
 ### ChatGPT Developer Mode
 
-1. Open [chatgpt.com](https://chatgpt.com) → **Settings** → **Connectors**.
-2. Click `Create` and add a new connector.
-3. Set **MCP Server URL** to: `https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp`
-4. Save. The tunnel must be running whenever you use ChatGPT with Pieces.
+<Steps>
+  <Step title="Open Connectors in ChatGPT">
+    Open [chatgpt.com](https://chatgpt.com) → **Settings** → **Connectors**.
+  </Step>
+  <Step title="Create a connector">
+    Click `Create` and add a new connector.
+  </Step>
+  <Step title="Set the MCP Server URL">
+    Set **MCP Server URL** to: `https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp`
+  </Step>
+  <Step title="Save and keep the tunnel running">
+    Save. The tunnel must be running whenever you use ChatGPT with Pieces.
+  </Step>
+</Steps>
 
 See [ChatGPT Developer Mode integration](/products/mcp/chatgpt-developer-mode) for full setup.
 
 ### Claude Cowork (Connectors UI)
 
-1. Open Claude Desktop → **Settings** → **Connectors**.
-2. Click `Add custom connector`.
-3. Enter: `https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp`
-4. Save and restart Claude Desktop.
+<Steps>
+  <Step title="Open Connectors in Claude Desktop">
+    Open Claude Desktop → **Settings** → **Connectors**.
+  </Step>
+  <Step title="Add a custom connector">
+    Click `Add custom connector`.
+  </Step>
+  <Step title="Paste your tunnel MCP URL">
+    Enter: `https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp`
+  </Step>
+  <Step title="Save and restart">
+    Save and restart Claude Desktop.
+  </Step>
+</Steps>
 
 See [Claude Cowork integration](/products/mcp/claude-cowork) for full setup.
 
@@ -135,7 +155,7 @@ Install `mcp-remote` globally (`npm install -g mcp-remote@0.1.38`), then edit `~
     "pieces": {
       "command": "mcp-remote",
       "args": [
-        "https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2024-11-05/sse"
+        "https://YOUR_NGROK_URL.ngrok-free.app/model_context_protocol/2025-03-26/mcp"
       ]
     }
   }
@@ -154,15 +174,23 @@ The tunnel is active only while `ngrok http 39300` is running. Start ngrok when 
 
 ### Troubleshooting
 
-1. **Tunnel not connecting** — Ensure PiecesOS is running and listening on the port. Test locally: `curl http://localhost:39300/.well-known/version`
-
-2. **Wrong port** — Use the port from the PiecesOS Quick Menu or Settings → Model Context Protocol (MCP). It may not be 39300.
-
-3. **URL not accessible** — Verify ngrok is running and the HTTPS URL loads in a browser. Free plans may show an ngrok interstitial page on first visit; that's normal.
-
-4. **Subdirectory paths** — Use the exact paths: `/model_context_protocol/2025-03-26/mcp` or `/model_context_protocol/2024-11-05/sse`. Paths like `/functions/v1/mcp` do not work.
-
-5. **Connection refused** — Restart PiecesOS and ngrok. Ensure no firewall is blocking the port.
+<Steps>
+  <Step title="Tunnel not connecting">
+    Ensure PiecesOS is running and listening on the port. Test locally: `curl http://localhost:39300/.well-known/version`
+  </Step>
+  <Step title="Wrong port">
+    Use the port from the PiecesOS Quick Menu or **Settings** → **Model Context Protocol (MCP)**. It may not be 39300.
+  </Step>
+  <Step title="URL not accessible">
+    Verify ngrok is running and the HTTPS URL loads in a browser. Free plans may show an ngrok interstitial page on first visit; that's normal.
+  </Step>
+  <Step title="Subdirectory paths">
+    Use the exact paths: `/model_context_protocol/2025-03-26/mcp` or `/model_context_protocol/2024-11-05/sse`. Paths like `/functions/v1/mcp` do not work.
+  </Step>
+  <Step title="Connection refused">
+    Restart PiecesOS and ngrok. Ensure no firewall is blocking the port.
+  </Step>
+</Steps>
 
 ### Security
 

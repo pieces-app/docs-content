@@ -30,7 +30,7 @@ If your project has a unique name, or other identifier that is easy to query for
 
 Once you have this, you can either open it all in a Pieces Copilot chat and have the LLM create a detailed summary report to share with someone else, or you can export and share the activities directly, either as markdown files, or as raw text.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/add_Website.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/add_Website.png" alt="Filtering Workstream Activities by project keyword" align="center" fullwidth="true" />
 
 ## Create a Summary To Document a Process
 
@@ -40,7 +40,7 @@ The problem with this approach is that it misses important context, such as link
 
 By using Pieces, you can go through a process by checking documents, chats, emails, and code—then, you can create a new Workstream Activity for the time you spent.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_chat_about_rollups.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/screenshot_of_chat_about_rollups.png" alt="LTM roll-up summary for documenting a process" align="center" fullwidth="true" />
 
 This summary can be shared with your colleagues and will include text details like links to the documents you read, information about people involved in the conversations, links to code, and more.
 
@@ -50,6 +50,6 @@ Pieces can help you create a summary of completed work based on details like tic
 
 You can do this by going through your ticket system and reviewing all the tickets you worked on the previous day.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_generating_a_standup_styled_summary.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/gif_of_generating_a_standup_styled_summary.gif" alt="Generating a standup-style summary from Workstream Activities" align="center" fullwidth="true" />
 
 Then, create a new Workstream Activity for the time you spent reviewing, which will include deep links to the tickets. You can use this raw content for your daily standup or ask the Pieces Copilot to summarize it in a more suitable format.

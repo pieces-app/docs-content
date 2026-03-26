@@ -14,7 +14,7 @@ All events in Pieces Timeline—including conversational searches, Timeline Even
 
 Understanding which actions are available helps you manage your Timeline effectively and customize events to fit your workflow needs.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/three_dot_menu_with_full_summary-event_iopen.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/three_dot_menu_with_full_summary-event_iopen.png" alt="Three-dot menu on a timeline event with full summary open" align="center" fullwidth="true" />
 
 > Event content view showing three-dots menu icon in the header with menu options visible
 
@@ -34,7 +34,7 @@ Open the action menu for any event to see available options based on the event t
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/event_in_timeline_favorited.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/event_in_timeline_favorited.png" alt="Favorited timeline event in the list" align="center" fullwidth="true" />
 
 > Three-dots menu open showing available actions for a conversational search event
 
@@ -58,7 +58,7 @@ Mark important events as favorites to quickly find them later.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/hovering_over_generate_title_in_event_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/hovering_over_generate_title_in_event_overview.png" alt="Generate title control in event overview" align="center" fullwidth="true" />
 
 > Event with star icon indicating it's favorited, and three-dots menu showing Favorite option
 
@@ -104,7 +104,7 @@ Remove events from your Timeline. Deletion is permanent and cannot be undone.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/delete_confirmation.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/delete_confirmation.png" alt="Delete timeline event confirmation dialog" align="center" fullwidth="true" />
 
 > Delete confirmation popup showing event title with warning message and Delete/Cancel buttons
 
@@ -128,7 +128,7 @@ After favoriting events, use the favorites filter to view only your favorited ev
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/filter_by_favorites.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/event-actions/filter_by_favorites.png" alt="Filter timeline by favorites" align="center" fullwidth="true" />
 
 > Timeline filtered to show only favorited events, all displaying star icons
 

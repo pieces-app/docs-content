@@ -16,7 +16,7 @@ LTM Roll-Ups are detailed summaries of your workflow periods, automatically gene
 
 Roll-ups help you understand what happened during specific workflow periods. They capture the context of your work—what you did, why you made certain decisions, and what still needs attention—making it easy to reference past work and understand your workflow patterns.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Full LTM roll-up in the main panel with all sections" align="center" fullwidth="true" />
 
 > Complete roll-up displayed in the main panel showing all sections
 
@@ -35,7 +35,7 @@ Each roll-up includes:
 
 Roll-ups created through Model Context Protocol (MCP) integrations display a "Formed with MCP" indicator.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Roll-up sections labeled Core Tasks, Key Decisions, Documents, Follow-ups" align="center" fullwidth="true" />
 
 > Roll-up sections with annotations showing Core Tasks, Key Decisions, Documents, and Follow-Up Actions
 
@@ -59,7 +59,7 @@ Click an activity to view its full roll-up details:
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Roll-up with matching activity highlighted in Timeline Activities sidebar" align="center" fullwidth="true" />
 
 > Roll-up displayed with the corresponding activity highlighted in the Timeline Activities sidebar
 
@@ -75,7 +75,7 @@ From the toolbar, you can:
 * **More menu**—Copy or Delete
 * **macOS Share**—Share to AirDrop, Mail, Messages, etc.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Roll-up toolbar with Copilot, Export, Edit, More, and Share actions" align="center" fullwidth="true" />
 
 > Toolbar with all action buttons labeled
 
@@ -99,7 +99,7 @@ Modify roll-up content using the built-in markdown editor:
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="Markdown editor for a roll-up with formatting toolbar" align="center" fullwidth="true" />
 
 > Markdown editor interface showing formatting toolbar and editable content
 
@@ -122,7 +122,7 @@ Configure which applications LTM captures from:
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="LTM Access Control modal with per-app source toggles" align="center" fullwidth="true" />
 
 > LTM Access Control modal showing toggle switches for different application sources
 

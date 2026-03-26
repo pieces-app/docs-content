@@ -63,7 +63,7 @@ Once this is finished, you can now launch the Pieces Desktop App by pressing the
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date plugins, extensions, the desktop app, or PiecesOS itself.
+Many issues can stem from out-of-date MCP integrations, the desktop app, or PiecesOS itself.
 
 ### Updating PiecesOS
 
@@ -79,7 +79,7 @@ Many issues can stem from out-of-date plugins, extensions, the desktop app, or P
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_pieces_os_for_updates.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_pieces_os_for_updates.gif" alt="Checking PiecesOS for updates on Windows taskbar" align="center" fullwidth="true" />
 
 For standalone .EXE installations, updates are checked daily or upon application launch, prompting you to install or delay as needed.
 
@@ -113,7 +113,7 @@ Updating the Pieces Desktop App on Windows can be done directly from the app:
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_check_pfd_for_updates.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_check_pfd_for_updates.gif" alt="Checking Pieces Desktop App for updates on Windows" align="center" fullwidth="true" />
 
 ## Issues Launching PiecesOS
 
@@ -191,7 +191,7 @@ To check your device specifications on Windows:
 
 The **System** tab displays your processor, the number of CPU cores, and memory (RAM), while the **Display** tab lists your GPU, its manufacturer (NVIDIA, AMD, Intel, etc.), and the available video memory (VRAM).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/windows_checking_hardware_specs.gif" alt="Checking hardware specs using dxdiag on Windows" align="center" fullwidth="true" />
 
 [Read documentation on the minimum recommended hardware specifications across all OS platforms.](/products/meet-pieces/troubleshooting/cross-platform#hardware-recommendations)
 
@@ -207,7 +207,7 @@ To check what version of Windows you’re running:
 
 A new window will open called **About Windows**, which will display your current Windows version.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/checking_windows_ver.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/windows/checking_windows_ver.gif" alt="Checking Windows version using winver command" align="center" fullwidth="true" />
 
 <Callout type="tip">
   If this doesn't work, you're likely using a Windows version older than Windows 10.

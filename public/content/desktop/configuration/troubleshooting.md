@@ -14,7 +14,7 @@ Get help, troubleshoot issues, view app information, and contact support. Access
 
 To access Troubleshooting settings, click your `User Profile` in the top left, then hover over `Settings` and select `Troubleshooting`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/troubleshooting_settings_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/troubleshooting_settings_overview.png" alt="Troubleshooting settings overview with resources, support, and app information" align="center" fullwidth="true" />
 
 > Troubleshooting settings showing Online Resources, Get In Touch, PiecesOS Information, and Desktop App Information sections
 

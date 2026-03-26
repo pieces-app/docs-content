@@ -24,7 +24,7 @@ When you first launch the Pieces Desktop App, you'll be prompted to sign in with
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_login_page.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_login_page.png" alt="Pieces Desktop sign-in page with GitHub, Google, and Microsoft" align="center" fullwidth="true" />
 
 > Login page showing sign-in options including GitHub, Google, and other authentication providers
 
@@ -44,7 +44,7 @@ After signing in, configure your initial preferences including theme mode and da
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_step_1.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/onboarding/second_rv_pfd_onboarding/revised_step_1.png" alt="Initial preferences with theme, telemetry toggle, and Get Started" align="center" fullwidth="true" />
 
 > Theme selection screen showing Light and Dark theme options, anonymous crash data toggle, and Get Started button
 
@@ -58,7 +58,7 @@ The homepage displays the *Single-Click Summaries* section with six cards: `What
 
 When you first arrive at the homepage, you'll see the LTM welcome screen that explains Long-Term Memory and its benefits. This screen introduces you to how Pieces captures and uses your workflow context to provide personalized AI assistance.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/ltm_welcome.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/ltm_welcome.png" alt="LTM welcome screen explaining Long-Term Memory" align="center" fullwidth="true" />
 
 > LTM welcome screen explaining Long-Term Memory and its benefits
 
@@ -66,7 +66,7 @@ When you first arrive at the homepage, you'll see the LTM welcome screen that ex
 
 After clicking `Got It` on the LTM welcome screen, you'll see the initial memory formation interface. This screen shows the progress of memory formation and introduces you to Single-Click Summaries that will become available once memories are captured.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/creating_initial_memories.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/Onboarding/creating_initial_memories.png" alt="Initial memory formation progress and locked Single-Click Summary cards" align="center" fullwidth="true" />
 
 > Initial memory formation screen showing progress tracker, memory formation status, and Single-Click Summary cards
 
@@ -90,7 +90,7 @@ Continue with your normal workflow for 10-15 minutes while LTM-2.7 captures work
 
 Once you've successfully captured 30 memories, the six *Single-Click Summaries* cards become clickable and unlock. You can now generate summaries like `Standup Update`, `Day Recap`, `What's Top of Mind`, and more. Each card provides one-click access to contextual summaries based on your captured workflow data, giving you instant insights into your productivity and work patterns.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/exploring_pieces_timeline.gif" alt="Pieces Timeline with unlocked summaries and workflow events" align="center" fullwidth="true" />
 
 > Pieces Timeline showing unlocked Single-Click Summary cards and workflow events
 
@@ -102,7 +102,7 @@ Once you've successfully captured 30 memories, the six *Single-Click Summaries* 
 
 Conversational Search lets you ask questions about your workflow and get context-aware responses powered by LTM-2.7. You can visit sites like Stack Overflow, read code explanations, and later query Conversational Search about what you read. By enabling LTM, you can use Conversational Search as an AI assistant trained on your personal workflow data, making it uniquely helpful for your specific work patterns and projects.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Conversational Search model selector dropdown" align="center" fullwidth="true" />
 
 > Conversational Search interface showing model selection dropdown and available models
 
@@ -114,7 +114,7 @@ Conversational Search lets you ask questions about your workflow and get context
 
 Access Conversational Search directly from the homepage to ask questions about your workflow, with LTM providing context from your captured memories. You can switch between cloud-hosted and local models using the model selector in the chat interface.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="Typing a question into Conversational Search" align="center" fullwidth="true" />
 
 > Typing a prompt into Conversational Search input field
 

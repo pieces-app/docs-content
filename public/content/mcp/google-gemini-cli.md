@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Google Gemini CLI
 metaDescription: Learn how to integrate Pieces MCP with Google Gemini CLI. Use httpUrl for Streamable HTTP or url for SSE.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/google-gemini-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/google-gemini-mcp.png" alt="Pieces MCP integration with Google Gemini CLI" align="center" fullwidth="true" />
 
 ***
 

@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Zed
 metaDescription: Learn how to integrate Pieces MCP with Zed. Zed uses stdio only—connect via mcp-remote bridge to access Long-Term Memory.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/zed-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/zed-mcp.png" alt="Pieces MCP integration with Zed editor" align="center" fullwidth="true" />
 
 ***
 

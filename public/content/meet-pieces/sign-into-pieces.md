@@ -12,7 +12,7 @@ metaDescription: Learn how to sign in to Pieces Desktop App. Step-by-step guide 
 
 Whether you're new to Pieces or have used it for years, you'll need to sign in to use Pieces—anonymous usage is no longer available. We've upgraded our sign-in system with more sign-in options, better security, and the ability to combine accounts easily. Your existing account works exactly the same; just sign in like you normally would.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in.png" alt="Pieces sign-in screen" align="center" fullwidth="true" />
 
 > The Pieces sign-in screen
 
@@ -38,7 +38,7 @@ When you open Pieces, you'll see a sign-in screen. Both new and existing users f
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in-page.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/sign-in-page.png" alt="Sign-in screen displayed when opening Pieces" align="center" fullwidth="true" />
 
 > The sign-in screen you'll see when opening Pieces
 
@@ -46,7 +46,7 @@ When you open Pieces, you'll see a sign-in screen. Both new and existing users f
 
 If the sign-in prompt doesn't appear automatically, you can access it from your system tray or menu bar:
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/must-sign-up.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/must-sign-up.png" alt="Prompt to sign in when not authenticated" align="center" fullwidth="true" />
 
 > If you're not signed in, you'll see a prompt to sign in
 
@@ -59,7 +59,7 @@ If the sign-in prompt doesn't appear automatically, you can access it from your 
       <Step title="Sign In">
     Click `Sign In` when the Pieces app opens.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/update-to-pieces-pro.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/update-to-pieces-pro.png" alt="Pieces menu bar dropdown with Sign In option" align="center" fullwidth="true" />
 
         > Pieces menu bar dropdown showing Sign In option
       </Step>
@@ -199,7 +199,7 @@ After signing in, your browser might not automatically switch back to Pieces. Th
 
 If you keep getting signed out, check that your computer's date and time are set correctly. Authentication relies on accurate time settings to keep your account secure.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/flowchart2.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/sign-in/flowchart2.png" alt="Troubleshooting flowchart for sign-in issues" align="center" fullwidth="true" />
 
 > Troubleshooting flowchart for sign-in issues
 

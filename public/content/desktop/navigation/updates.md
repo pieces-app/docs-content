@@ -18,7 +18,7 @@ You can check for new updates, preview future enhancements, and even share feedb
 
 You can open this page through the **Power Menu** by clicking the home icon next to the search bar in the Pieces Desktop App, then selecting `Updates & Upcoming` from the dropdown.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Updates%20%26%20Upcoming/updates_upcoming_powermenu.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Updates%20%26%20Upcoming/updates_upcoming_powermenu.png" alt="Updates and Upcoming in the Power Menu" align="center" fullwidth="true" />
 
 Alternatively, press `shift+w` (macOS/Windows/Linux) on your keyboard to jump there instantly.
 
@@ -30,7 +30,7 @@ At the top, you’ll find **Upcoming Features**, which highlight planned feature
 
 Below that, you’ll see **Previous Releases**, which outlines all new additions, fixes, and improvements that have already been rolled out.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Updates%20%26%20Upcoming/updates_upcoming_page.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Navigation/Updates%20%26%20Upcoming/updates_upcoming_page.png" alt="Release notes on the Updates and Upcoming page" align="center" fullwidth="true" />
 
 ### Upcoming Features
 

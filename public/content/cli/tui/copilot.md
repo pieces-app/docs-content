@@ -9,7 +9,7 @@ status: PUBLISHED
 
 The TUI Copilot provides a full-featured chat interface directly in your terminal. The interface is divided into three main areas: chat history, conversation window, and quick options.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/tui_general_copilot.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/tui_general_copilot.png" alt="TUI Copilot with chat history sidebar" align="center" fullwidth="true" />
 
 ## Chat History
 

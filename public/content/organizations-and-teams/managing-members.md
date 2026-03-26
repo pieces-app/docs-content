@@ -12,7 +12,7 @@ metaDescription: Comprehensive guide to managing organization members, roles, an
 
 The Members tab provides a comprehensive view of all organization members, seat usage, pending invitations, and member management tools. Use this section to track membership, update roles, and manage access.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/organization_members_overview.png" alt="Members tab with seat usage, current members, and pending invites" align="center" fullwidth="true" />
 
 > Members tab showing seat usage, current members list, and pending invites
 
@@ -61,7 +61,7 @@ Track invitations that have been sent but not yet accepted by members.
 
 Update member roles and remove members from your organization.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/change_member_roles.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/change_member_roles.png" alt="Changing member roles in the organization members list" align="center" fullwidth="true" />
 
 ### Managing Member Roles
 
@@ -107,7 +107,7 @@ Remove members from your organization when they no longer need access.
 
 Seats are tied to your subscription and determine how many active members your organization can have.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/billing_per_seta_closeup.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/managing-organizations/managing-members/billing_per_seta_closeup.png" alt="Seat usage card showing current and total seats available" align="center" fullwidth="true" />
 
 > Seat usage card showing current usage and total seats available
 

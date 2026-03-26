@@ -8,7 +8,7 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with Amazon Q Developer
 metaDescription: Learn how to integrate Pieces MCP with Amazon Q Developer. Access Long-Term Memory in CLI and IDE for enhanced productivity.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/amazon-q-dev-mcp.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/amazon-q-dev-mcp.png" alt="Pieces MCP integration with Amazon Q Developer" align="center" fullwidth="true" />
 
 ***
 

@@ -32,7 +32,7 @@ There are two ways to access the code transformation feature within the Pieces D
 
 By clicking the white `‘+’ icon` in the bottom left of the Pieces Drive view—also known as the *Add Materials* button—you can click `Duplicate Current`, which accesses the currently-viewed saved material and provides several different options for transformation.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Saving%20%26%20Organizing%20Materials/screenshot_of_duplicate.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Saving%20%26%20Organizing%20Materials/screenshot_of_duplicate.png" alt="Duplicate saved material action in Pieces Drive" align="center" fullwidth="true" />
 
 ### via Quick Menu
 

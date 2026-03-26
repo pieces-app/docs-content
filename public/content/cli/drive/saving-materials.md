@@ -41,7 +41,7 @@ For Pieces CLI, you can save a snippet to your Pieces Drive with one command.
 
     If you’re within the Pieces CLI `pieces run` mode, you can enter `create`.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/saving_snippet/pieces_create.gif" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/saving_snippet/pieces_create.gif" alt="Running pieces create command to save a snippet" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -65,13 +65,13 @@ The Pieces Copilot captures several different kinds of metadata:
 
 * `Related People`: Associated collaborators or contributors.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/saving_snippet/saved_snippet_displayed.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/saving_snippet/saved_snippet_displayed.png" alt="Saved snippet showing metadata and details" align="center" fullwidth="true" />
 
 Furthermore, the Pieces Copilot reviews stored snippets for sensitive data, including API keys, passwords, and authentication tokens, ensuring that **no confidential information** is unintentionally saved.
 
 ## Where Saved Snippets Live
 
-Saved snippets are stored locally on your device, ensuring offline accessibility. This also means that any Pieces extension, plugin, or even the Pieces Desktop App, has constant, up-to-date access to your saved materials with Pieces Drive.
+Saved snippets are stored locally on your device, ensuring offline accessibility. This also means that any Pieces MCP integration or even the Pieces Desktop App has constant, up-to-date access to your saved materials with Pieces Drive.
 
 You can find your saved snippets via the `pieces list` command or the `pieces search` feature.
 

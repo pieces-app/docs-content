@@ -9,7 +9,7 @@ metaDescription: Learn the troubleshooting steps to take if the Pieces Desktop A
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/desktop/troubleshooting_cross_platform.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/cross_platform/troubleshooting_multiOS.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/cross_platform/troubleshooting_multiOS.png" alt="Cross-platform troubleshooting guide banner" align="center" fullwidth="true" />
 
 ***
 

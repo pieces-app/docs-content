@@ -26,7 +26,7 @@ Before installation, you’ll need:
 
 ### Sign in Required
 
-Pieces requires all users to sign in before using any plugins or extensions. You'll be prompted to authenticate if you haven't already. For help, see our [sign-in guide](/products/meet-pieces/sign-into-pieces).
+Pieces requires all users to sign in before using any Pieces products, including MCP integrations and the CLI. You'll be prompted to authenticate if you haven't already. For help, see our [sign-in guide](/products/meet-pieces/sign-into-pieces).
 
 ## Installing the Pieces CLI
 
@@ -36,7 +36,7 @@ Follow the instructions below to install the Pieces CLI and any required depende
   <Step title="Install Python">
     Head to [Python’s website](https://www.python.org/downloads/) and download the version that best suits your environment.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/python_download.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/python_download.png" alt="Python download page" align="center" fullwidth="true" />
 
     After downloading the Python version 3.xx, you will be guided through the installation process. Follow their steps until Python is installed.
 
@@ -134,7 +134,7 @@ Follow the steps below to update the Pieces CLI.
       </Tab>
     </Tabs>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/update_pieces_cli.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/update_pieces_cli.png" alt="Pieces CLI update command output" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
@@ -142,7 +142,7 @@ Follow the steps below to update the Pieces CLI.
 
 The Pieces CLI offers a walkthrough to guide you through the steps of saving your first material and introduces you to the Long-Term Memory Engine (LTM-2.7), enabling you to make the most of the Pieces CLI.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/onboarding_first_step.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/onboarding_first_step.png" alt="Onboarding first step interface" align="center" fullwidth="true" />
 
 ### Save Your First Material
 
@@ -166,7 +166,7 @@ This will display a list of all your saved materials. You can navigate through t
 
 Select the material you're highlighting by pressing `return`(macOS) or `enter`(Windows/Linux).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/selecting_pieces_list_onboarding.gif" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/selecting_pieces_list_onboarding.gif" alt="Selecting a material from pieces list" align="center" fullwidth="true" />
 
 ### Start a Session
 
@@ -196,7 +196,7 @@ If you enter `y` it will open the GitHub discussion board in a new tab in your b
 
 After completing the <a target="_blank" href="https://github.com/pieces-app/cli-agent/discussions/194">feedback</a>, Pieces will prompt you to type `pieces contribute` and then ask if you’d like to open the <a target="_blank" href="https://github.com/pieces-app/cli-agent">source code for Pieces CLI on GitHub</a> to improve it. You can optionally say yes by entering `y`; otherwise, enter `n`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/pieces_feedback_onboarding.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/pieces_feedback_onboarding.png" alt="Feedback and contribution options in onboarding" align="center" fullwidth="true" />
 
 ## Uninstalling
 
@@ -236,6 +236,6 @@ If you also want to uninstall PiecesOS, [follow these steps](/products/core-depe
       </Tab>
     </Tabs>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/pip_uninstall.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/get_started/pip_uninstall.png" alt="Pip uninstall command output" align="center" fullwidth="true" />
   </Step>
 </Steps>

@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Ollama is an *optional* but powerful dependency that allows PiecesOS to run Large Language Models (LLMs) directly on your device instead of relying on cloud-based AI processing.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="Ollama core dependency for on-device generative AI" align="center" fullwidth="true" />
 
 Unlike PiecesOS—which is required for all Pieces functionality—Ollama is only needed if you want to use local AI models with Pieces Copilot.
 

@@ -14,7 +14,7 @@ Customize your Pieces Copilot chat appearance and manage your chat history. Conf
 
 To access Copilot Chats settings, click your `User Profile` in the top left, then hover over `Settings` and select `Copilot Chats`.
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/account/account_settings.png" alt="Copilot Chats settings with accent color and delete all chats options" align="center" fullwidth="true" />
 
 > Copilot Chats settings showing accent color option and delete all chats option
 
@@ -42,7 +42,7 @@ Change the accent color used in your Pieces Copilot chats. The accent color affe
   </Step>
 </Steps>
 
-<Image src="https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="Accent color picker grid with selected color marked" align="center" fullwidth="true" />
 
 > Color picker showing grid of 36 colors with selected color marked with Checkmark
 
