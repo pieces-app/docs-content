@@ -8,7 +8,10 @@ metaTitle: Integrate Pieces Model Context Protocol (MCP) with OpenClaw
 metaDescription: Learn how to integrate Pieces MCP with OpenClaw. OpenClaw executes MCP tools via MCPorter. Automate standups, meeting prep, and more.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_cover_images/openclaw-mcp.png" alt="Pieces MCP integration with OpenClaw" align="center" fullwidth="true" />
+<Embed
+  src="https://youtu.be/Bh_y65oGzMg"
+  title="Pieces MCP integration with OpenClaw walkthrough"
+/>
 
 ***
 
