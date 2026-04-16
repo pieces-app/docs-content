@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Windsurf. Access Long-Te
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Windsurf brings your workflow context directly into the Cascade AI panel. With this integration, Windsurf can access your past work, similar code, and historical debugging context to provide smarter, personalized assistance.
+Integrating the [Pieces MCP](/products/mcp) with Windsurf brings your workflow context directly into the Cascade AI panel. With this integration, Windsurf can access your past work, similar code, and historical debugging context to provide smarter, personalized assistance.
 
 ## Prerequisites
 

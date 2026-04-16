@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Claude Cowork. Use the s
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Claude Cowork brings your workflow context directly into Anthropic's autonomous task automation agent. Claude Cowork is a general-purpose task automation agent that runs within Claude Desktop—it reads, writes, and organizes files, executes multi-step tasks, and works across your filesystem.
+Integrating the [Pieces MCP](/products/mcp) with Claude Cowork brings your workflow context directly into Anthropic's autonomous task automation agent. Claude Cowork is a general-purpose task automation agent that runs within Claude Desktop—it reads, writes, and organizes files, executes multi-step tasks, and works across your filesystem.
 
 With Pieces MCP connected, Cowork can use your Long-Term Memory as context while executing tasks—like generating standups from yesterday's work or creating summary documents from your captured workflow data.
 

@@ -68,7 +68,7 @@ This view contains several different buckets of configurable options: [Account](
 
 **Focus Mode** allows you to concentrate on your current task by minimizing distractions.
 
-You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of the Conversational Search or Pieces Drive view, near the sidebar.
+You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of Conversational Search or Pieces Drive view, near the sidebar.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/toggling_sidebar_in_copilot.gif" alt="Toggling Focus Mode to hide or show the sidebar" align="center" fullwidth="true" />
 

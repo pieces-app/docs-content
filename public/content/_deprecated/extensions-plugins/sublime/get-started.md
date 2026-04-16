@@ -120,9 +120,9 @@ After clicking the prompt, `Ask for help and get those bugs fixed`, PiecesOS wil
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/getting_started/fixing_bug_onboarding.gif" alt="" align="center" fullwidth="true" />
 
-### Pieces Copilot
+### Conversational Search
 
-This is when you're introduced to opening Pieces Copilot. When you select `Copilot`, Pieces will open a new tab with Pieces Copilot ready for a prompt!
+This is when you're introduced to opening Conversational Search. When you select `Copilot`, Pieces will open a new tab with Conversational Search ready for a prompt!
 
 Once you open the Copilot, the onboarding step is done. You can now ask [questions about your code](/products/extensions-plugins/sublime/copilot/chat), [document it](/products/extensions-plugins/sublime/copilot/documenting-code), [debug errors](/products/extensions-plugins/sublime/copilot/debugging-errors), or [refactor selected material](/products/extensions-plugins/sublime/copilot/refactoring)—all within the Sublime Text interface.
 

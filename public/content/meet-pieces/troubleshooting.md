@@ -63,6 +63,8 @@ This macOS guide helps troubleshoot installation and update issues for PiecesOS 
   * [Determining and choosing the correct installation package for different chipsets](/products/meet-pieces/troubleshooting/macos#checking-cpu-type)
 
   * [Updating PiecesOS and the Pieces Desktop App](/products/meet-pieces/troubleshooting/macos#versions--updates)
+
+  * [macOS Permissions (Screen Recording & Microphone)](/products/meet-pieces/troubleshooting/macos#macos-permissions)
 </Card>
 
 ## Windows Issues

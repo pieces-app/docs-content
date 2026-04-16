@@ -68,7 +68,7 @@ I.e., `pieces search “query” --mode fts` will use the full-text search on yo
 
 Your snippets can change as your project grows, as you adapt to new project needs, or when you switch to new files in your codebase.
 
-In the `pieces save` command of the **Pieces Drive** within Pieces Copilot, open your saved snippets, update the code to meet current needs, and save the revised version back to Pieces.
+In the `pieces save` command of the **Pieces Drive** within Conversational Search, open your saved snippets, update the code to meet current needs, and save the revised version back to Pieces.
 
 This keeps your library up-to-date, relevant, and aligned with your project's progress. Enhancing your materials makes them more efficient, which benefits you in the long run.
 

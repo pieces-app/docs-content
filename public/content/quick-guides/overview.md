@@ -51,6 +51,6 @@ Jump into any guide above by clicking its card and transform your daily workflow
 
 ## Additional Resources
 
-If you're looking for more specific information, you can read comprehensive Pieces documentation on the [Pieces Desktop App](/products/desktop), the [Core Dependency—PiecesOS](/products/core-dependencies/pieces-os)—or any of our [plugins and extensions.](/products/extensions-plugins/visual-studio-code)
+If you're looking for more specific information, you can read comprehensive Pieces documentation on the [Pieces Desktop App](/products/desktop), the [Core Dependency—PiecesOS](/products/core-dependencies/pieces-os)—or choose how to connect Pieces in the [Integrations overview](/products/integrations-overview) and [MCP setup guides](/products/mcp).
 
 If you need help with a bug, [visit our Support page](/products/support) for links to our GitHub, links to our social media outlets, and for contacting our engineers.

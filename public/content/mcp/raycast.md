@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Raycast. Raycast support
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Raycast brings your workflow context directly into your macOS launcher. Raycast does not natively support HTTP-based MCP servers—you need an **stdio-to-HTTP bridge** (like [mcp-remote](/products/mcp/mcp-remote)) to connect to PiecesOS.
+Integrating the [Pieces MCP](/products/mcp) with Raycast brings your workflow context directly into your macOS launcher. Raycast does not natively support HTTP-based MCP servers—you need an **stdio-to-HTTP bridge** (like [mcp-remote](/products/mcp/mcp-remote)) to connect to PiecesOS.
 
 <Callout type="info">
   **macOS only:** Raycast is currently available only on macOS.

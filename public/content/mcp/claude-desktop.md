@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Claude Desktop or Claude Code is a powerful way to bring your workflow context directly into your AI assistant.
+Integrating the [Pieces MCP](/products/mcp) with Claude Desktop or Claude Code is a powerful way to bring your workflow context directly into your AI assistant.
 
 With this integration, you'll have a Claude agent that knows more about your projects than just the files you copy and paste.
 
@@ -225,7 +225,7 @@ Once integrated, you can utilize Pieces LTM directly in Claude Desktop or Claude
 
 ## Troubleshooting
 
-If you're experiencing issues integrating [Pieces MCP](/products/mcp/get-started) with Claude Desktop or Claude Code:
+If you're experiencing issues integrating [Pieces MCP](/products/mcp) with Claude Desktop or Claude Code:
 
 1. **Verify PiecesOS Status**\
    Ensure PiecesOS is actively running on your system.

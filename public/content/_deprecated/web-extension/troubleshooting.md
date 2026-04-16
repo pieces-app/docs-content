@@ -38,7 +38,7 @@ If you need to download and install PiecesOS, [click here.](/products/core-depen
 
 ## Refreshing Copilot Chats
 
-If you're using the Pieces Copilot chat and disconnect from WiFi or encounter issues with a cloud-based LLM, you may need to refresh the chat.
+If you're using Conversational Search chat and disconnect from WiFi or encounter issues with a cloud-based LLM, you may need to refresh the chat.
 
 This can resolve issues such as the LLM appearing to "hang" (e.g., generating a response that turns out to be an infinite loop).
 

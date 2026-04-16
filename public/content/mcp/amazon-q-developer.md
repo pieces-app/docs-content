@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Amazon Q Developer. Acce
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Amazon Q Developer brings your workflow context directly into AWS's AI assistant, available both as a CLI and an IDE plugin. You can ask Q about past implementations, similar code, and historical debugging context.
+Integrating the [Pieces MCP](/products/mcp) with Amazon Q Developer brings your workflow context directly into AWS's AI assistant, available both as a CLI and an IDE plugin. You can ask Q about past implementations, similar code, and historical debugging context.
 
 ## Prerequisites
 

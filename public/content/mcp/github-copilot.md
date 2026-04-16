@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Get Started
 
-Connecting [Pieces MCP](/products/mcp/get-started) to **GitHub Copilot** enhances context-aware coding by linking your current task with past work.
+Connecting [Pieces MCP](/products/mcp) to **GitHub Copilot** enhances context-aware coding by linking your current task with past work.
 
 This integration allows GitHub Copilot to provide insights like past implementations and peer-reviewed solutions.
 

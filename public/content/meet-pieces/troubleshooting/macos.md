@@ -135,6 +135,70 @@ To determine what CPU architecture your Apple device utilizes:
 
 Once you’ve determined your CPU architecture, [download the correct installation package accordingly.](/products/meet-pieces/macos-installation-guide#recommended-installation-method)
 
+## macOS Permissions
+
+PiecesOS requires specific macOS permissions to function properly. If features like *Long-Term Memory* or *Live Context* aren't working as expected, the most common cause is missing system permissions.
+
+### Screen & System Audio Recording
+
+PiecesOS needs *Screen & System Audio Recording* permission to capture on-screen context for features like *Long-Term Memory* and *Live Context*.
+
+To enable this permission:
+
+<Steps>
+  <Step title="Open System Settings">
+    Click the `Apple Icon` in the top-left corner of your screen and select `System Settings`
+  </Step>
+
+  <Step title="Navigate to Privacy & Security">
+    Select `Privacy & Security` from the sidebar
+  </Step>
+
+  <Step title="Select Screen & System Audio Recording">
+    Scroll down and click `Screen & System Audio Recording`
+  </Step>
+
+  <Step title="Enable Pieces OS">
+    Find **Pieces OS** in the list and toggle it **on**. If Pieces OS is not listed, click the `+` button at the bottom of the list, then locate and add Pieces OS from your Applications folder.
+
+    <Image src="/assets/images/troubleshooting/macos/macos_screen_recording_permission.png" alt="macOS Screen & System Audio Recording settings showing Pieces OS enabled" align="center" fullwidth="true" />
+
+    > macOS Screen & System Audio Recording settings with Pieces OS enabled.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  macOS may prompt you to quit and reopen Pieces OS for the permission change to take effect.
+</Callout>
+
+### Microphone
+
+PiecesOS also requires *Microphone* access to capture audio context for *Long-Term Memory*.
+
+To enable this permission:
+
+<Steps>
+  <Step title="Open System Settings">
+    Click the `Apple Icon` in the top-left corner of your screen and select `System Settings`
+  </Step>
+
+  <Step title="Navigate to Privacy & Security">
+    Select `Privacy & Security` from the sidebar
+  </Step>
+
+  <Step title="Select Microphone">
+    Scroll down and click `Microphone`
+  </Step>
+
+  <Step title="Enable Pieces OS">
+    Find **Pieces OS** in the list and toggle it **on**. If Pieces OS is not listed, click the `+` button at the bottom of the list, then locate and add Pieces OS from your Applications folder.
+
+    <Image src="/assets/images/troubleshooting/macos/macos_microphone_permission.png" alt="macOS Privacy & Security Microphone settings showing Pieces OS enabled" align="center" fullwidth="true" />
+
+    > macOS Microphone settings with Pieces OS enabled.
+  </Step>
+</Steps>
+
 ## Restart & Retry
 
 If installation fails due to having an outdated version of macOS or installing the wrong package for your device’s architecture, restart your machine and try the installation again from scratch.

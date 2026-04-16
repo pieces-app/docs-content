@@ -62,6 +62,8 @@ It includes steps for manual installation using DMG or Homebrew, checking for up
   * [How to verify your macOS version](/products/desktop/troubleshooting/macos#checking-os-version)
 
   * [Updating the Pieces Desktop App](/products/desktop/troubleshooting/macos#updating-the-pieces-desktop-app)
+
+  * [macOS Permissions (Screen Recording & Microphone)](/products/desktop/troubleshooting/macos#macos-permissions)
 </Card>
 
 ## Windows Issues
@@ -95,7 +97,7 @@ This guide explains how to troubleshoot the Pieces Desktop App on Linux, includi
 
   * [Using snap commands to update the Pieces Desktop App](/products/desktop/troubleshooting/linux#updating-pieces-desktop)
 
-  * [Adjusting graphics settings if you encounter UI issues](/products/desktop/troubleshooting/linux#adjusting-grapics--display-settings)
+  * [Adjusting graphics settings if you encounter UI issues](/products/desktop/troubleshooting/linux#adjusting-graphics--display-settings)
 </Card>
 
 ## Additional Assistance

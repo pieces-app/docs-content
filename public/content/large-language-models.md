@@ -55,6 +55,6 @@ Local models can be optionally downloaded to utilize on-device generative AI fea
 
 PiecesOS provides a seamless experience with local models, allowing you to work entirely offline with complete privacy.
 
-Local models are automatically available once PiecesOS is installed. Download and manage them through the Pieces Copilot LLM selector in any Pieces product.
+Local models are automatically available once PiecesOS is installed. Download and manage them through the Conversational Search LLM selector in any Pieces product.
 
 [Learn more about PiecesOS and local model architecture →](/products/core-dependencies/pieces-os#built-in-local-models)

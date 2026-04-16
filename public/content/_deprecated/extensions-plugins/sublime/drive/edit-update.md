@@ -48,6 +48,6 @@ Once you make your changes, saving your snippet will close the editing view and 
 
 ## Actions from the Editing View
 
-When editing a snippet, you can use all [Pieces Copilot](/products/extensions-plugins/sublime/copilot) features, like adding comments, starting conversations, and fixing bugs, allowing you to share it with a coworker, get feedback, and then refine the snippet by adding comments and adjusting parameters or error handling.
+When editing a snippet, you can use all [Conversational Search](/products/extensions-plugins/sublime/copilot) features, like adding comments, starting conversations, and fixing bugs, allowing you to share it with a coworker, get feedback, and then refine the snippet by adding comments and adjusting parameters or error handling.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/using_snippets/edit_and_update/documenting_code.gif" alt="" align="center" fullwidth="true" />

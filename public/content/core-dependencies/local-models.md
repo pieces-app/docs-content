@@ -52,7 +52,7 @@ Here's how local models work with PiecesOS:
 * **Ensure compatibility** with PiecesOS through automatic version management.
 
 <Callout type="tip">
-  Since local models are several GBs in size, they are **not downloaded by default**. You can download them through the Conversational Search model selector when you need them.
+  Since local models are several GBs in size, they are **not downloaded by default**. You can download them through Conversational Search model selector when you need them.
 </Callout>
 
 ### Using Local vs Cloud Models

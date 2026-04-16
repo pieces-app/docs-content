@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with OpenAI Codex CLI. Use TO
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with OpenAI Codex CLI brings your workflow context directly into the Codex command-line agent. Codex uses **TOML** (not JSON) for its configuration.
+Integrating the [Pieces MCP](/products/mcp) with OpenAI Codex CLI brings your workflow context directly into the Codex command-line agent. Codex uses **TOML** (not JSON) for its configuration.
 
 <Callout type="info">
   **Minimum version:** Codex CLI 0.2.0 or later is required for MCP support.

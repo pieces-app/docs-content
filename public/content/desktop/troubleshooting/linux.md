@@ -89,7 +89,7 @@ To determine your CPU type and find other important information, type `lscpu` in
 
 ### Checking GPU Information
 
-To determine your GPU type and find other important information, `lspci | grep -i vga` in your terminal and press `Enter`.
+To determine your GPU type and find other important information, run `lspci | grep -i vga` in your terminal and press `Enter`.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="Terminal output of lspci showing GPU on Ubuntu" align="center" fullwidth="true" />
 

@@ -1,11 +1,11 @@
 ---
-title: Using Pieces Copilot with Context
+title: Using Conversational Search with Context
 path: /quick-guides/copilot-with-context
 visibility: PUBLIC
 status: PUBLISHED
 description: Use a combination of Pieces Long-Term Memory, and code context, to get help implementing a feature.
-metaTitle: How to use Pieces Copilot with Context | Pieces Docs
-metaDescription: Learn how to use Pieces Copilot with Long-Term Memory and code context to get AI-powered assistance in implementing features efficiently.
+metaTitle: How to use Conversational Search with Context | Pieces Docs
+metaDescription: Learn how to use Conversational Search with Long-Term Memory and code context to get AI-powered assistance in implementing features efficiently.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/quick_guides/quick_guides.png"
 ---
 
@@ -17,21 +17,21 @@ To complete this Quick Guide, you’ll need:
 
 2. **Long-Term Memory** enabled in the Pieces Desktop App.
 
-3. **Optional**—Pieces installed in a Python IDE, such as the [VS Code Extension](/products/extensions-plugins/visual-studio-code), or the [JetBrains PyCharm Plugin](/products/extensions-plugins/jetbrains).
+3. **Optional**—Pieces connected in a Python IDE via MCP, such as [Visual Studio Code](/products/mcp/vs-code) or [JetBrains IDEs](/products/mcp/jetbrains-ides) (including PyCharm).
 
 ## In This Quick Guide
 
-This Quick Guide will show you how to combine the Pieces Long-Term Memory with code context in a Pieces Copilot chat, demonstrating how you can use AI to help implement a feature in a Python app.
+This Quick Guide shows how to combine **Long-Term Memory** with **Conversational Search**—including scoping a chat to a specific captured memory using **`Chat`** on a Timeline summary—so you can get AI help implementing a feature in a Python app.
 
 As a developer, a common daily task is reviewing a ticket in a tool like GitHub Issues or Jira and then implementing it in a codebase.
 
 This often involves switching back and forth between the code and the ticket, which can affect your productivity due to constant context switching.
 
-With Pieces, you can use the Long-Term Memory feature to remind you of the ticket details. You can then combine this with your code, allowing Pieces to guide you on implementing the issue, all from within your IDE!
+With Pieces, Long-Term Memory captures the ticket as you read it. After you work in your project, Pieces can use those **captured memories**—and you can open **Conversational Search** scoped to the right **summary** from Timeline using the **`Chat`** action on the three-dots menu.
 
 ### Review a GitHub Issue
 
-The first step is to review the issue by letting Pieces capture it, and then ask the Pieces Copilot about it.
+The first step is to review the issue by letting Pieces capture it, and then ask Conversational Search about it.
 
 <Steps>
   <Step title="Review the GitHub Issue">
@@ -41,7 +41,7 @@ The first step is to review the issue by letting Pieces capture it, and then ask
   </Step>
 
   <Step title="Ask Pieces About the Issue">
-    In the Pieces Copilot, start a new chat, ensuring the Long-Term Memory (LTM) context is enabled, and use the following prompt:
+    In Conversational Search, start a new chat, ensuring the Long-Term Memory (LTM) context is enabled, and use the following prompt:
 
     ```plaintext
     Summarize the create a sign up page issue I was just reading
@@ -51,7 +51,7 @@ The first step is to review the issue by letting Pieces capture it, and then ask
 
 Pieces will respond with a summary of the issue:
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/github_issue.png" alt="Pieces Copilot summarizing a GitHub issue using LTM context" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/github_issue.png" alt="Conversational Search summarizing a GitHub issue using LTM context" align="center" fullwidth="true" />
 
 ### Clone the Project
 
@@ -69,37 +69,33 @@ This issue refers to a sci-fi store—a small web application written in Python 
   </Step>
 </Steps>
 
-### Use the Project as Context
+### Tie the project to Conversational Search (Timeline Chat)
 
-The next step is to add the project as context to the Pieces Copilot chat. This lets you link the project to the Long-Term Memory and ask questions about the code.
-
-Adding the project as context to your Pieces Copilot Chat will look a little different depending on whether you’re using the Pieces Desktop App or an IDE with the respective Pieces plugin or extension installed,such as VS Code.
+You **cannot** attach a project folder or individual files directly to Conversational Search. Instead, **LTM** must **capture** your work in `scifi_store`, then you **scope** a chat to the summary or event that holds that context.
 
 <Steps>
-  <Step title="via Pieces Desktop App">
-    From the Pieces Desktop App, select the `Manage Conversation Context `button, then select `Add Folders`.
-
-    From the `Manage Copilot Context | Folders` dialog, select `Add Folders`.
-
-    Select the `scifi_store` folder in the repository you cloned in the previous step.
-
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/scifi_store_selected_folder.png" alt="Selecting the scifi_store folder as Copilot context" align="center" fullwidth="true" />
+  <Step title="Work in the project so LTM captures it">
+    With **Long-Term Memory** enabled, spend a few minutes in your IDE inside `scifi_store`—open files, scroll relevant modules, or run the app—so Pieces records useful workflow context.
   </Step>
 
-  <Step title="via VS Code with Pieces Installed">
-    From the **Explorer**, right-click on the pane itself (not on a file or folder), and select `Pieces`, then click `Pieces: Add to Copilot Context`.
+  <Step title="Open Timeline and find a relevant summary">
+    In the Pieces Desktop App, open [Pieces Timeline](/products/desktop/timeline). Look for a recent **roll-up** or **summary** that reflects that coding session (for example activity involving your editor and that repo).
+  </Step>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/in_ide_folder_Add_scifi.png" alt="Adding a folder to Copilot context in VS Code" align="center" fullwidth="true" />
+  <Step title="Choose Chat on the three-dots menu">
+    Open that item in the main panel. Click the **three-dots menu** (⋮) on the event header and select **`Chat`**. Conversational Search opens with that memory in scope.
+
+    For more detail, see [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary).
   </Step>
 </Steps>
 
-### Prompt Pieces Copilot
+### Prompt Conversational Search
 
-Now that Pieces has the issue from the Long-Term Memory and the project folder as context, you can ask Pieces to implement this issue.
+With the GitHub issue in LTM and a **scoped** chat tied to a summary that includes your project activity, you can ask Pieces how to implement the issue.
 
 <Steps>
   <Step title="Ask Pieces how to Implement the Issue">
-    In the same Pieces Copilot chat, use this prompt (or one like it):
+    In the same Conversational Search chat, use this prompt (or one like it):
 
     ```plaintext
     How can I implement this issue in this project?
@@ -107,18 +103,18 @@ Now that Pieces has the issue from the Long-Term Memory and the project folder a
   </Step>
 
   <Step title="Check the Response">
-    The Pieces Copilot will now reason over your project, as well as the GitHub issue you were looking at.
+    The Conversational Search will use **Long-Term Memory**—including the issue you read and the workflow captured from `scifi_store` inside the scoped summary—to propose implementation steps.
 
-    The response will contain relevant instructions on how to implement this issue, such as code for the endpoint, the new page leveraging the existing app templates, and so on.
+    The response may include concrete suggestions such as code for an endpoint, a new page using existing templates, and so on.
 
     Review these code changes along with the original codebase.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/asking_to_fix.png" alt="Pieces Copilot reasoning over the project and GitHub issue" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/asking_to_fix.png" alt="Conversational Search reasoning over the project and GitHub issue" align="center" fullwidth="true" />
   </Step>
 </Steps>
 
 <Callout type="tip">
-  🎉 Congratulations, you’ve completed the *Using Pieces Copilot with Context* Quick Guide! 🎉
+  🎉 Congratulations, you’ve completed the *Using Conversational Search with Context* Quick Guide! 🎉
 </Callout>
 
 ## Bonus—Try One Prompt
@@ -128,16 +124,16 @@ This Quick Guide showed two prompts: one to get the details about the issue and 
 This was done in 2 stages to illustrate the information from the Pieces Long-Term Memory, but is *unnecessary*. You can do this in a single prompt!
 
 <Steps>
-  <Step title="Create a New Copilot Chat">
-    Create a new Pieces Copilot Chat in the Pieces Desktop App, or in your IDE.
+  <Step title="Create a New Conversational Search chat">
+    Start from home or your IDE, or open **`Chat`** from a Timeline summary that already contains both the issue and recent work in `scifi_store`.
   </Step>
 
-  <Step title="Add the Project Folder as Context">
-    Add the `scifi_store` project as context to this new Pieces Copilot Chat.
+  <Step title="Scope with Timeline Chat if needed">
+    If you need one focused memory in scope, use **`Chat`** on the relevant summary’s three-dots menu—see [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary).
   </Step>
 
-  <Step title="Prompt Pieces Copilot">
-    Use this single prompt when interacting with Pieces Copilot;
+  <Step title="Prompt Conversational Search">
+    Use this single prompt when interacting with Conversational Search;
 
     ```plaintext
     How can I implement the create a sign up page issue I was just reading in this Python project?
@@ -145,8 +141,8 @@ This was done in 2 stages to illustrate the information from the Pieces Long-Ter
   </Step>
 
   <Step title="Check the Response">
-    The Pieces Copilot will now reason over your project, as well as the GitHub issue, and give you suggestions on how to implement it.
+    The assistant uses your **Long-Term Memory** (issue + captured IDE activity) to suggest how to implement the ticket—especially if you used **Chat** on a summary that already bundles that context.
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/extra_example.png" alt="Pieces Copilot implementing an issue with a single prompt" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/quick_guides/using_pieces_copilot_with_memory_context/new_media/extra_example.png" alt="Conversational Search implementing an issue with a single prompt" align="center" fullwidth="true" />
   </Step>
 </Steps>

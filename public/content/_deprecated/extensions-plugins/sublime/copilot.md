@@ -1,16 +1,16 @@
 ---
-title: Pieces Copilot
+title: Conversational Search
 path: /extensions-plugins/sublime/copilot
 visibility: PUBLIC
 status: PUBLISHED
 description: Designed to be more than a code assistant, Copilot boosts productivity by helping you debug, ask coding questions, generate code, and insert comments—all within Sublime.
-metaTitle: Using Pieces Copilot in Sublime | Pieces Docs
-metaDescription: Use Pieces Copilot in Sublime Text for AI-assisted coding, debugging, and code completion.
+metaTitle: Using Conversational Search in Sublime | Pieces Docs
+metaDescription: Use Conversational Search in Sublime Text for AI-assisted coding, debugging, and code completion.
 ---
 
 ## Generative AI Conversations
 
-If you're unsure how to implement a specific feature or stuck on a bug, you can [ask the Pieces Copilot coding-related questions](/products/extensions-plugins/sublime/copilot/chat) directly in Sublime. It will provide context-aware responses to help you move forward.
+If you're unsure how to implement a specific feature or stuck on a bug, you can [ask Conversational Search coding-related questions](/products/extensions-plugins/sublime/copilot/chat) directly in Sublime. It will provide context-aware responses to help you move forward.
 
 The Pieces for Sublime Text plugin provides various conversation features, all fully integrated with Pieces. You can activate the **Long Term Memory Engine (LTM-2.7)** for detailed, seamless context across your entire workflow, or start a limited context conversation in the text editor's side view.
 
@@ -18,23 +18,23 @@ The Pieces for Sublime Text plugin provides various conversation features, all f
 
 ## Adding Conversation Context
 
-Contextual awareness enables the Pieces Copilot to provide solutions that are directly relevant to the challenges you're facing and your code.
+Contextual awareness enables Conversational Search to provide solutions that are directly relevant to the challenges you're facing and your code.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/pieces_ai_copilot/pieces_ai_copilot_PARENT_PAGE/add_file_to_context.png" alt="" align="center" fullwidth="true" />
 
 Start by right-clicking an active file in Sublime Text and click `Pieces: Add to Copilot Context`.
 
-Within the Pieces Copilot active chat, you can also add multiple types of context by clicking the `message icon`. After doing so a new menu will pop up asking what you’d like to add as context.
+Within Conversational Search active chat, you can also add multiple types of context by clicking the `message icon`. After doing so a new menu will pop up asking what you’d like to add as context.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/pieces_ai_copilot/pieces_ai_copilot_PARENT_PAGE/adding_context_active_chat.png" alt="" align="center" fullwidth="true" />
 
-## Pieces Copilot Tools
+## Conversational Search Tools
 
 Explore powerful AI-driven tools and features with the Pieces for Sublime Text Plugin.
 
 ### Documenting Code
 
-Keeping well-documented code is an often overlooked aspect of programming, but it’s *very* important—that’s why the Pieces Copilot in Sublime Text lets you [use AI to generate intelligent and context-aware code comments.](/products/extensions-plugins/sublime/copilot/documenting-code)
+Keeping well-documented code is an often overlooked aspect of programming, but it’s *very* important—that’s why Conversational Search in Sublime Text lets you [use AI to generate intelligent and context-aware code comments.](/products/extensions-plugins/sublime/copilot/documenting-code)
 
 To add documentation and comments to code, select the code snippet—no matter the length—then right click, hover over `Pieces`, then hover over `Quick Actions`, and finally click on `Add Code Comments`.
 
@@ -56,9 +56,9 @@ This opens a pop-up near the selected code with an option to Accept or Reject th
 
 ### Generate & Update Code
 
-The Pieces Copilot can [generate code snippets based on your specifications](/products/extensions-plugins/sublime/copilot/refactoring).
+The Conversational Search can [generate code snippets based on your specifications](/products/extensions-plugins/sublime/copilot/refactoring).
 
-With the Pieces for Sublime Text Plugin, you can enhance your workflow with two powerful Pieces Copilot commands:
+With the Pieces for Sublime Text Plugin, you can enhance your workflow with two powerful Conversational Search commands:
 
 * `Modify`: [Edit or transform the selected code snippet to improve readability](/products/extensions-plugins/sublime/copilot/refactoring), optimize performance, or adapt it for specific needs.
 
@@ -68,19 +68,19 @@ It helps update existing code by offering improved or refactored versions, optim
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/pieces_ai_copilot/documenting_code/modify_code.gif" alt="" align="center" fullwidth="true" />
 
-## Selecting Your Pieces Copilot Runtime
+## Selecting Your Conversational Search Runtime
 
-You can change which [LLM is utilized by Pieces Copilot](/products/extensions-plugins/sublime/copilot/llm-settings) in the Pieces for Sublime Text Plugin by running the command `Pieces: Change LLM`.
+You can change which [LLM is utilized by Conversational Search](/products/extensions-plugins/sublime/copilot/llm-settings) in the Pieces for Sublime Text Plugin by running the command `Pieces: Change LLM`.
 
 Options include lightweight models for simple queries, advanced models for in-depth analysis, and both **local** and **cloud-based LLMs**.
 
-This flexibility lets you customize the Pieces Copilot experience to suit your specific development needs, whether prioritizing speed or accuracy.
+This flexibility lets you customize Conversational Search experience to suit your specific development needs, whether prioritizing speed or accuracy.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/selecting_runtime.png" alt="" align="center" fullwidth="true" />
 
-## Pieces Copilot As a Daily Driver
+## Conversational Search As a Daily Driver
 
-The Pieces Copilot is a powerful, adaptable tool that grows with you as you use it—*so use it!*
+The Conversational Search is a powerful, adaptable tool that grows with you as you use it—*so use it!*
 
 ***
 
@@ -90,7 +90,7 @@ The Pieces Copilot is a powerful, adaptable tool that grows with you as you use 
   </Accordion>
 
   <Accordion title="Troubleshoot and Resolve Bugs Swiftly">
-    Use the Pieces Copilot in Sublime Text to streamline the bug-fixing process. Its contextual understanding and suggested solutions make troubleshooting faster, keeping your project on course.
+    Use Conversational Search in Sublime Text to streamline the bug-fixing process. Its contextual understanding and suggested solutions make troubleshooting faster, keeping your project on course.
   </Accordion>
 
   <Accordion title="Quick Prototyping">
@@ -98,11 +98,11 @@ The Pieces Copilot is a powerful, adaptable tool that grows with you as you use 
   </Accordion>
 
   <Accordion title="Skill Enhancement">
-    Pieces Copilot doubles as a learning tool, helping you explore best practices, new paradigms, and advanced techniques in real-time.
+    Conversational Search doubles as a learning tool, helping you explore best practices, new paradigms, and advanced techniques in real-time.
   </Accordion>
 
   <Accordion title="Efficient Code Refactoring">
-    Optimize your codebase through intelligent refactoring recommendations. The Pieces Copilot analyzes your code patterns suggests structural improvements and delivers optimizations for both performance and readability.
+    Optimize your codebase through intelligent refactoring recommendations. The Conversational Search analyzes your code patterns suggests structural improvements and delivers optimizations for both performance and readability.
   </Accordion>
 </AccordionGroup>
 

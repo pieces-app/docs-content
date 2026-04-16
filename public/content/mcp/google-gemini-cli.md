@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Google Gemini CLI. Use h
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Google Gemini CLI brings your workflow context directly into the Gemini command-line agent. Gemini CLI supports stdio, SSE, and Streamable HTTP.
+Integrating the [Pieces MCP](/products/mcp) with Google Gemini CLI brings your workflow context directly into the Gemini command-line agent. Gemini CLI supports stdio, SSE, and Streamable HTTP.
 
 <Callout type="info">
   **Key distinction:** For HTTP servers, use `httpUrl`; for SSE servers, use `url`—they are different fields in the Gemini config.

@@ -154,7 +154,7 @@ Let Pieces do the heavy lifting and preserve your engineering creativity and ing
 
 ### How do I Use Pieces?
 
-PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with [MCP integrations](/products/mcp/get-started) in your editors and tools.
+PiecesOS serves as the foundational layer of the entire Pieces Suite, much like Docker does for containerized applications—it powers the Pieces Desktop App along with [MCP integrations](/products/mcp) in your editors and tools.
 
 By installing PiecesOS, you enable the full functionality of the desktop app and those integrations, just like how Docker manages various containers.
 
@@ -184,7 +184,7 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
     Select the applications and integrations that fit your workflow:
     
     <Card title="Desktop App" href="/products/desktop" image="/assets/icons/pieces_os_light_logo.png">
-      **Your central hub** — Manage memories, chat with Pieces Copilot, and access all Pieces features
+      **Your central hub** — Manage memories, chat with Conversational Search, and access all Pieces features
     </Card>
     
     <CardGroup cols={2}>
@@ -192,7 +192,7 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
         **Command-line power** — Access Pieces from your terminal
       </Card>
       
-      <Card title="MCP Integrations" href="/products/mcp/get-started" image="/assets/icons/new_cursor.png">
+      <Card title="MCP Integrations" href="/products/mcp" image="/assets/icons/new_cursor.png">
         **Connect AI tools** — [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and [Claude Desktop](/products/mcp/claude-desktop)
       </Card>
     </CardGroup>

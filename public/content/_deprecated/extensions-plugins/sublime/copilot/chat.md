@@ -4,13 +4,13 @@ path: /extensions-plugins/sublime/copilot/chat
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces for Sublime Text Plugin provides versatile tools for leveraging generative AI to gain insights, debug, and optimize code seamlessly within your editor.
-metaTitle: Chatting with AI in Sublime using Pieces Copilot | Pieces Docs
-metaDescription: Interact with Pieces Copilot in Sublime Text for AI-driven coding insights and automated development assistance.
+metaTitle: Chatting with AI in Sublime using Conversational Search | Pieces Docs
+metaDescription: Interact with Conversational Search in Sublime Text for AI-driven coding insights and automated development assistance.
 ---
 
 ## Accessing Copilot Chats in Sublime Text
 
-There are two primary ways to access Generative AI Conversations with the Pieces Copilot.
+There are two primary ways to access Generative AI Conversations with Conversational Search.
 
 ### via Right-Click Menu
 
@@ -30,7 +30,7 @@ There are two primary ways to access Generative AI Conversations with the Pieces
 
 Open the command palette with `⌘+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux), and enter commands such as:
 
-* `Pieces: Copilot`: Opens a clean-slate chat with Pieces Copilot.
+* `Pieces: Copilot`: Opens a clean-slate chat with Conversational Search.
 
 * `Pieces: Ask Copilot About Active File`: Provides insights for the current file open in your Sublime Text editor.
 
@@ -42,11 +42,11 @@ Read more about [what commands are available in the Pieces for Sublime Text Plug
 
 ## Contextualized Chats
 
-There are 3 levels of contextual awareness you can use when starting a conversation or adding code to an existing Copilot Chat with the Pieces Copilot.
+There are 3 levels of contextual awareness you can use when starting a conversation or adding code to an existing Copilot Chat with Conversational Search.
 
 ### Pieces: Start Conversation About The Current Selection
 
-One of the easiest ways to ask the Pieces Copilot a question about a specific class, method, function, or script is to open the right-click menu, hover over the Ask Copilot section, and select the `About Current Selection` option.
+One of the easiest ways to ask Conversational Search a question about a specific class, method, function, or script is to open the right-click menu, hover over the Ask Copilot section, and select the `About Current Selection` option.
 
 To use this feature:
 
@@ -138,11 +138,11 @@ To do this:
 
 ## Improving Code Consistency & Standardization
 
-The Pieces Copilot helps improve code quality by identifying inconsistencies and providing actionable suggestions for standardization.
+The Conversational Search helps improve code quality by identifying inconsistencies and providing actionable suggestions for standardization.
 
 ### Naming Inconsistencies
 
-If functions across your workspace use inconsistent naming patterns (e.g., `authenticateUser` in `authHandler.go` vs. `retrieveUserProfile` in `userHandler.go`), Pieces Copilot can suggest adopting a standardized naming convention for better readability and maintainability, like this:
+If functions across your workspace use inconsistent naming patterns (e.g., `authenticateUser` in `authHandler.go` vs. `retrieveUserProfile` in `userHandler.go`), Conversational Search can suggest adopting a standardized naming convention for better readability and maintainability, like this:
 
 ```c
 // authHandler.go
@@ -155,7 +155,7 @@ func authenticateUser(ctx context.Context, credentials Credentials) (User, error
 
 ### Inconsistent Error Handling
 
-If error-handling strategies differ across files (e.g., structured errors in `authService.go` vs. inconsistent handling in `userService.go`), Pieces Copilot can help unify the approach:
+If error-handling strategies differ across files (e.g., structured errors in `authService.go` vs. inconsistent handling in `userService.go`), Conversational Search can help unify the approach:
 
 ```c
 // authService.go

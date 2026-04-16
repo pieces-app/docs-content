@@ -13,7 +13,7 @@ metaDescription: Find and manage your saved snippets in the Pieces Web Extension
 The Pieces Web Extension view provides search options for locating saved materials within the Pieces Drive.
 
 <Callout type="tip">
-  Once a material is located, you can edit the saved code or text, share it, use it as context for pieces Copilot chats, and more.
+  Once a material is located, you can edit the saved code or text, share it, use it as context for Conversational Search chats, and more.
 </Callout>
 
 Here are a few different ways to locate Pieces Drive materials with the Pieces Web Extension:

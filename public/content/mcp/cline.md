@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Cline. Use SSE transport
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Cline brings your workflow context directly into VS Code. Cline is an AI coding agent extension that maintains its own MCP configuration—it does **not** read from `.vscode/mcp.json`.
+Integrating the [Pieces MCP](/products/mcp) with Cline brings your workflow context directly into VS Code. Cline is an AI coding agent extension that maintains its own MCP configuration—it does **not** read from `.vscode/mcp.json`.
 
 <Callout type="info">
   **Use SSE, not Streamable HTTP:** Cline has known compatibility issues with Streamable HTTP transport. Use the **SSE endpoint** for the most reliable connection.

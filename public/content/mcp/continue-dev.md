@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Continue.dev. Access Lon
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Continue.dev brings your workflow context directly into your editor. Continue.dev is an open-source coding assistant available as a VS Code or JetBrains extension.
+Integrating the [Pieces MCP](/products/mcp) with Continue.dev brings your workflow context directly into your editor. Continue.dev is an open-source coding assistant available as a VS Code or JetBrains extension.
 
 <Callout type="info">
   **Agent mode required:** MCP servers in Continue.dev only work in **agent mode**. They are not available in regular chat or plan modes.

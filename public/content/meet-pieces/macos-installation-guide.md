@@ -9,6 +9,8 @@ metaDescription: Get started with Pieces on macOS – install, configure, troubl
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_macos_install.webp"
 ---
 
+<install-guide-buttons />
+
 <Embed
   src="https://youtu.be/0uRNa8maMiA"
   title="How to set up Pieces on macOS"

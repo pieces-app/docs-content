@@ -3,14 +3,14 @@ title: Refactoring Code
 path: /extensions-plugins/sublime/copilot/refactoring
 visibility: PUBLIC
 status: PUBLISHED
-description: Refactoring improves code structure and maintainability without changing its behavior. The Pieces for Sublime Text Plugin simplifies this with Pieces Copilot’s Modify feature.
-metaTitle: Refactoring Code in Sublime Using Pieces Copilot
-metaDescription: Refactor and optimize your code in Sublime Text with the Pieces Copilot Modify Selection feature.
+description: Refactoring improves code structure and maintainability without changing its behavior. The Pieces for Sublime Text Plugin simplifies this with Conversational Search’s Modify feature.
+metaTitle: Refactoring Code in Sublime Using Conversational Search
+metaDescription: Refactor and optimize your code in Sublime Text with Conversational Search Modify Selection feature.
 ---
 
-## Modifying Your Code with Pieces Copilot
+## Modifying Your Code with Conversational Search
 
-The **Modify** function in Pieces Copilot allows you to enhance your selected code by making adjustments such as improving error handling, renaming functions, or adding new functionality.
+The **Modify** function in Conversational Search allows you to enhance your selected code by making adjustments such as improving error handling, renaming functions, or adding new functionality.
 
 In Sublime Text, you can modify your code via the following steps:
 
@@ -18,7 +18,7 @@ In Sublime Text, you can modify your code via the following steps:
 
 Say you want to add a missing positional argument to the `add_user` function.
 
-Simply follow these step below and Pieces Copilot will efficiently apply the necessary changes.
+Simply follow these step below and Conversational Search will efficiently apply the necessary changes.
 
 <Steps>
   <Step title="Select a Portion of Code">
@@ -38,21 +38,21 @@ Simply follow these step below and Pieces Copilot will efficiently apply the nec
   </Step>
 </Steps>
 
-Then, press `return` (macOS) or `enter` (Windows/Linux), then accept or deny the changes once the Pieces Copilot has generated the modifications accordingly.
+Then, press `return` (macOS) or `enter` (Windows/Linux), then accept or deny the changes once Conversational Search has generated the modifications accordingly.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/pieces_ai_copilot/refactoring/modify_code.gif" alt="" align="center" fullwidth="true" />
 
 ### Use Cases
 
-Pieces Copilot’s **Modify** feature can handle a variety of refactoring scenarios. Here are some everyday tasks where it can help:
+Conversational Search’s **Modify** feature can handle a variety of refactoring scenarios. Here are some everyday tasks where it can help:
 
-* **Renaming Variables or Functions Across Multiple Files:** Instead of manually searching for occurrences, just instruct Pieces Copilot to rename them. It updates references automatically, reducing the chance of a missed or broken link.
+* **Renaming Variables or Functions Across Multiple Files:** Instead of manually searching for occurrences, just instruct Conversational Search to rename them. It updates references automatically, reducing the chance of a missed or broken link.
 
-* **Updating a Deprecated API Call:** Legacy code often uses outdated methods. Instruct Pieces Copilot to replace the old API call with the new one and handle any necessary parameter or return-value changes.
+* **Updating a Deprecated API Call:** Legacy code often uses outdated methods. Instruct Conversational Search to replace the old API call with the new one and handle any necessary parameter or return-value changes.
 
-* **Adding Error Handling to a Function:** If you have a function without proper error handling, ask Pieces Copilot to wrap it in a try/catch block, or add more robust error-logging statements.
+* **Adding Error Handling to a Function:** If you have a function without proper error handling, ask Conversational Search to wrap it in a try/catch block, or add more robust error-logging statements.
 
-* **Reorganizing Code for Better Readability:** Large functions with multiple responsibilities can be split into smaller helper functions, or code blocks can be reordered for clarity. Pieces Copilot can assist by identifying logical sections and extracting them into new functions.
+* **Reorganizing Code for Better Readability:** Large functions with multiple responsibilities can be split into smaller helper functions, or code blocks can be reordered for clarity. Conversational Search can assist by identifying logical sections and extracting them into new functions.
 
 * **Converting Code Syntax:** Use “Modify” to transform class components into functional components (in React), convert promise chains into async/await, or update ES5 syntax to ES6+.
 

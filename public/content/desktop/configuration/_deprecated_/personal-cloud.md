@@ -192,7 +192,7 @@ A Pieces backup contains the following data:
 | *Snippets*              | All saved code snippets and related metadata.                     |
 | *Pieces Drive Files*    | Any files stored in Pieces Drive.                                 |
 | *User Preferences*      | Theme, UI settings, and personalization options.                  |
-| *Pieces Copilot Data*   | Recent chat history and AI context for Pieces Copilot.            |
+| *Conversational Search Data*   | Recent chat history and AI context for Conversational Search.            |
 | *Search & Tagging Data* | User-defined tags and previous searches for quick retrieval.      |
 | *Account Connections*   | Linked GitHub, Google, or Microsoft accounts (without passwords). |
 

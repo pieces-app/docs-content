@@ -45,7 +45,7 @@ How to change your LLM:
 Switching between the cloud and desktop icons allows you to browse and select from various available cloud and local models.
 
 <Callout type="tip">
-  Cloud-hosted models offer access to the latest AI capabilities, while on-device models ensure offline functionality, making Pieces Copilot adaptable to your specific workflow and environment.
+  Cloud-hosted models offer access to the latest AI capabilities, while on-device models ensure offline functionality, making Conversational Search adaptable to your specific workflow and environment.
 </Callout>
 
 Once you choose a new model, the switch is instant, allowing you to continue working smoothly with the latest model's features without restarting or refreshing anything.

@@ -13,7 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 The `ask_pieces_ltm` tool allows you to query Pieces LTM with natural language questions to retrieve context.
 
-Right now, we recommend setting up the Pieces MCP within [Cursor](/products/mcp/cursor) or [Visual Studio](/products/mcp/github-copilot).
+Right now, we recommend setting up the Pieces MCP within [Cursor](/products/mcp/cursor) or [VS Code with GitHub Copilot](/products/mcp/github-copilot).
 
 ### Basic Queries
 
@@ -39,7 +39,7 @@ To refine your queries further, consider using parameters such as time ranges, a
 
 Combine parameters for precise queries—like mixing topic keywords with a specific application name within the scope of a timeframe.
 
-Here are some examples of multi-paramater prompting:
+Here are some examples of multi-parameter prompting:
 
 1. "What JavaScript code related to API authentication did I write in VS Code yesterday?"
 
@@ -103,7 +103,7 @@ Check out these example prompts to see how to effectively combine parameters for
   <Card title="Learning Retrieval">
     * "Find recent bookmarks about Kubernetes."
 
-    * What resources did I save recently related to Python decorators?”
+    * “What resources did I save recently related to Python decorators?”
 
     * “Show notes taken about GraphQL in March.”
   </Card>

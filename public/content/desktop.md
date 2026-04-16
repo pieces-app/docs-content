@@ -88,7 +88,7 @@ Customize your Pieces Desktop App experience through *Settings*, which includes 
 
 ## Model Context Protocol (MCP) Support
 
-The Pieces suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp/get-started) through Server-Sent Events (SSEs).
+The Pieces suite, powered by the LTM-2.7 Engine through PiecesOS, also provides support for [Model Context Protocol (MCP) servers](/products/mcp) through Server-Sent Events (SSEs).
 
 With the Pieces MCP, you can thread rich workflow context through to [Cursor](/products/mcp/cursor), [GitHub Copilot](/products/mcp/github-copilot), [Goose](/products/mcp/goose), and other IDEs and productivity tools, making Pieces a platform for using long-term context in other workflows outside of just the Pieces Desktop App.
 
@@ -108,4 +108,4 @@ With the Pieces MCP, you can thread rich workflow context through to [Cursor](/p
 
 ***
 
-If Pieces Desktop isn't what you're looking for, check out [PiecesOS](/products/core-dependencies/pieces-os) to learn about the core engine powering Pieces, or explore [MCP integrations](/products/mcp/get-started) to connect Pieces to your favorite IDE or editor.
+If Pieces Desktop isn't what you're looking for, check out [PiecesOS](/products/core-dependencies/pieces-os) to learn about the core engine powering Pieces, or explore [MCP integrations](/products/mcp) to connect Pieces to your favorite IDE or editor.

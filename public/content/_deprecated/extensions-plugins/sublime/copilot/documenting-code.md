@@ -3,14 +3,14 @@ title: Documenting Code
 path: /extensions-plugins/sublime/copilot/documenting-code
 visibility: PUBLIC
 status: PUBLISHED
-description: With the Pieces Copilot in the Pieces for Sublime Text Plugin, you can easily generate comments that capture your code's functionality and intent.
-metaTitle: Documenting Code Comments with Pieces Copilot in Sublime
-metaDescription: Generate intelligent code comments in Sublime Text using Pieces Copilot for enhanced documentation.
+description: With Conversational Search in the Pieces for Sublime Text Plugin, you can easily generate comments that capture your code's functionality and intent.
+metaTitle: Documenting Code Comments with Conversational Search in Sublime
+metaDescription: Generate intelligent code comments in Sublime Text using Conversational Search for enhanced documentation.
 ---
 
-## Commenting Code Selections with Pieces Copilot
+## Commenting Code Selections with Conversational Search
 
-Pieces Copilot can review and **comment on selected code**, offering line-by-line explanations for better readability and understanding.
+Conversational Search can review and **comment on selected code**, offering line-by-line explanations for better readability and understanding.
 
 ### via Right-Click Menu
 
@@ -32,7 +32,7 @@ To add comments to your code:
   </Step>
 </Steps>
 
-Pieces Copilot will then create clear, relevant comments for the selected code, allowing you to choose to `Accept` or `Reject` the suggested comments.
+Conversational Search will then create clear, relevant comments for the selected code, allowing you to choose to `Accept` or `Reject` the suggested comments.
 
 This feature is especially helpful for keeping your code easy to read and ensuring your codebase is well-documented.
 

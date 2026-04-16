@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with JetBrains IDEs. Requires
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with JetBrains IDEs brings your workflow context directly into IntelliJ IDEA, PyCharm, WebStorm, GoLand, and other JetBrains editors. The AI Assistant can access your past work, similar code, and historical context.
+Integrating the [Pieces MCP](/products/mcp) with JetBrains IDEs brings your workflow context directly into IntelliJ IDEA, PyCharm, WebStorm, GoLand, and other JetBrains editors. The AI Assistant can access your past work, similar code, and historical context.
 
 <Callout type="info">
   **Minimum version:** JetBrains 2025.2 or later is required for MCP support. SSE has limited/deprecated support—use Streamable HTTP for best results.

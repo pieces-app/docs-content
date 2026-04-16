@@ -16,7 +16,7 @@ A prompt will appear, allowing you to either `Copy` or `Dismiss` the shareable l
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/using_snippets/sharing/gen_shareable_link.png" alt="" align="center" fullwidth="true" />
 
-When you click `Generate Shareable Link`, the Pieces Copilot will generate the link, then open a small menu with two options—`Copy` or `Dismiss`, allowing you to either copy the link or disregard the link.
+When you click `Generate Shareable Link`, Conversational Search will generate the link, then open a small menu with two options—`Copy` or `Dismiss`, allowing you to either copy the link or disregard the link.
 
 Selecting `Copy` will copy the shareable URL to your clipboard:
 

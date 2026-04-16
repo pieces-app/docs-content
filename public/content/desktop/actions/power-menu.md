@@ -41,13 +41,13 @@ For example:
 
 ### Conversational Search
 
-You can find lots of saved material and generative AI-focused actions when accessing the Power Menu from the Conversational Search view.
+You can find lots of saved material and generative AI-focused actions when accessing the Power Menu from Conversational Search view.
 
 ***
 
 | **Command**                                 | **Description**                                                                 |
 | ------------------------------------------- | ------------------------------------------------------------------------------- |
-| *Manage General Conversational Search Settings*           | Takes you to the Conversational Search settings page.                                  |
+| *Manage General Conversational Search Settings*           | Takes you to Conversational Search settings page.                                  |
 | *Manage Conversational Search LLM Runtime Configuration*  | Opens a modal for changing cloud and local LLMs.                                |
 | *Enter Focused Conversational Search*                     | Collapses the sidebar and enters Focus Mode.                                    |
 | *Launch Conversational Search in Browser*                 | Launches an instance of the Pieces Desktop App UI in your browser.              |

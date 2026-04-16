@@ -12,7 +12,7 @@ metaDescription: You can use Power Menu Actions and Keyboard Shortcuts to quickl
 
 The Pieces Desktop App provides two primary ways to quickly perform *actions* and navigate around the app:
 
-1. **Power Menu Actions**: A context-aware command palette that surfaces different options depending on the *view* you’re in (e.g., Pieces Drive or Pieces Copilot).
+1. **Power Menu Actions**: A context-aware command palette that surfaces different options depending on the *view* you’re in (e.g., Pieces Drive or Conversational Search).
 
 2. **Keyboard Shortcuts**: System or app-level keyboard shortcuts that let you instantly perform common tasks without opening any menus.
 
@@ -26,7 +26,7 @@ Here are some examples:
 
 * **Pieces Drive Actions**: Creating, editing, and organizing saved materials, etc.
 
-* **Pieces Copilot Actions**: Generative AI-related features like analyzing or refactoring code, starting new chats, etc.
+* **Conversational Search Actions**: Generative AI-related features like analyzing or refactoring code, starting new chats, etc.
 
 * **Global/App Actions**: Account management, backup and restore, settings, etc.
 

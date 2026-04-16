@@ -12,7 +12,7 @@ description: Below is a table containing every command available to use in the P
 
 ## Shortcut Table
 
-There are a number of actions related to the [Pieces Copilot](/products/extensions-plugins/sublime/copilot) and [Pieces Drive management ecosystem](/products/extensions-plugins/sublime/drive) that are accessible with shortcuts.
+There are a number of actions related to the [Conversational Search](/products/extensions-plugins/sublime/copilot) and [Pieces Drive management ecosystem](/products/extensions-plugins/sublime/drive) that are accessible with shortcuts.
 
 ***
 
@@ -43,7 +43,7 @@ Simply type `Pieces:` followed by the desired command to filter and locate it in
 | **Pieces: Get Support**                   | Access support options: file issues, join Discord, or visit the support site.                                                 |
 | **Pieces: Launch Onboarding**             | Opens the onboarding file post-installation.                                                                                  |
 | **Pieces: Reload Plugin**                 | Reloads the plugin for troubleshooting.                                                                                       |
-| **Pieces: Delete Copilot Chat**           | Deletes the current Pieces Copilot chat.                                                                                      |
+| **Pieces: Delete Copilot Chat**           | Deletes the current Conversational Search chat.                                                                                      |
 | **Pieces: Install PiecesOS**              | If PiecesOS is not found on your local machine, this command will take you the route of installing it.                        |
 | **Pieces: Open Pieces Drive**             | Opens materials found withing Pieces Drive.                                                                                   |
 | **Pieces: Enable Long-Term Memory**       | Enables the LTM-2.7 allowing you to actively capture what’s happening on your computer to grant the Copilot better answering. |

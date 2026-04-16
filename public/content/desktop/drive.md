@@ -28,4 +28,4 @@ The functionality that Pieces Drive provided is now handled by these modern feat
 
 * [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27)—Learn how the LTM system automatically captures and organizes your workflow context, eliminating the need for manual material management.
 
-These features provide the same capabilities that Pieces Drive offered, but with automatic capture, better organization, and seamless integration with Pieces Copilot and other Pieces tools.
+These features provide the same capabilities that Pieces Drive offered, but with automatic capture, better organization, and seamless integration with *Conversational Search* and other Pieces tools.

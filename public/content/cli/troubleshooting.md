@@ -58,7 +58,7 @@ Contact the [Pieces support team](https://getpieces.typeform.com/to/mCjBSIjF#doc
 
 ## Pieces-Specific Fixes
 
-Make sure to check the health and status of PiecesOS. Review the items below if you are having problems with Pieces Drive or Pieces Copilot within the Pieces CLI.
+Make sure to check the health and status of PiecesOS. Review the items below if you are having problems with Pieces Drive or Conversational Search within the Pieces CLI.
 
 ### Check PiecesOS Status
 
@@ -70,7 +70,7 @@ Check to make sure PiecesOS is running.
 
 ### Refreshing Copilot Chats
 
-You may need to restart or refresh the Pieces Copilot chat, especially if you’re using a cloud LLM and disconnect from WiFi.
+You may need to restart or refresh Conversational Search chat, especially if you’re using a cloud LLM and disconnect from WiFi.
 
 These scenarios can occasionally cause the LLM to ‘hang’—to appear as if generating a response but eventually timing out, entering an infinite response loop, or experiencing other issues.
 

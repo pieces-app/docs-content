@@ -86,30 +86,6 @@ Show only Timeline Events—workflow moments captured by LTM-2.7, including auto
 
 > Filter List menu with Work Summaries expanded showing individual summary type options
 
-### Filtering by Single-Click Summary Types
-
-Filter to show only specific single-click summary types you've generated.
-
-<Steps>
-  <Step title="Open Filter List">
-    Click the `Filter List` button at the top of Pieces Timeline.
-  </Step>
-  <Step title="Select Single-Click Summary Type">
-    Under `Work Summaries`, click a specific single-click summary type:
-    * **Day Recap**
-    * **Morning Brief**
-    * **Standup Update**
-    * **Week Recap**
-    * **What's Top of Mind**
-    * **Custom Summary**
-    * **AI Habits**
-    * **Discover**
-  </Step>
-  <Step title="View Filtered Results">
-    Timeline updates to show only events matching the selected summary type.
-  </Step>
-</Steps>
-
 ## Filtering by Sources
 
 Filter Timeline events by the applications or sources that captured them.

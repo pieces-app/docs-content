@@ -39,7 +39,7 @@ See your platform-specific update instructions on updating the Pieces Desktop Ap
 
 ## Connection Issues with Pieces Desktop
 
-You may occasionally encounter connection issues between PiecesOS and Pieces Desktop App, resulting in difficulty finding saved materials, issues generating shareable links, and hanging responses from the Pieces Copilot.
+You may occasionally encounter connection issues between PiecesOS and Pieces Desktop App, resulting in difficulty finding saved materials, issues generating shareable links, and hanging responses from Conversational Search.
 
 The quickest way to resolve this basic connection issue is to restart PiecesOS and the Pieces Desktop App, then check for updates.
 

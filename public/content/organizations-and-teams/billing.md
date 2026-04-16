@@ -46,17 +46,26 @@ The Billing page allows you to manage your organization's subscription, view bil
   </Step>
 </Steps>
 
-### Changing or Managing Your Plan
+### Changing Your Plan
 
-Update your subscription plan or apply discounts from the *Subscription Information* section.
+Click the `Change plan` button in the *Subscription Information* section to view available plans and switch your subscription to a different billing period or tier.
+
+### Applying a Discount Code
+
+Apply a discount code to your organization's active subscription. The discount takes effect at your next billing cycle.
 
 <Steps>
-  <Step title="Change Plan">
-    Click the `Change plan` button to view available plans and switch your subscription to a different billing period or tier.
+  <Step title="Click Add Discount">
+    In the *Subscription Information* section, click the `Add discount` button.
   </Step>
 
-  <Step title="Add Discount">
-    Click the `Add discount` button to apply a discount code to your subscription.
+  <Step title="Enter Your Code">
+    In the *Add Discount Code* modal, type your discount code into the input field.
+
+  </Step>
+
+  <Step title="Apply Discount">
+    Click `Apply Discount` to save. The discount takes effect at your next billing cycle and is reflected on your next invoice.
   </Step>
 </Steps>
 

@@ -10,7 +10,7 @@ metaDescription: Manage Timeline events with actions like favoriting, generating
 
 ## Event Actions and Menus
 
-All events in Pieces Timeline—including conversational searches, Timeline Events (automatically generated summaries like `Day Recap`, `Morning Brief`, `Week Recap`, and `What's Top of Mind`), and single-click summaries—appear in your Timeline and have actions available through the `three-dots menu`. Available actions include favoriting, generating titles (for conversational searches), and deleting events.
+All events in Pieces Timeline—including conversational searches, Timeline Events (automatically generated summaries like `Day Recap`, `Morning Brief`, `Week Recap`, and `What's Top of Mind`), and single-click summaries—appear in your Timeline and have actions available through the `three-dots menu`. Available actions include **Chat** (scoped Conversational Search from a summary or event), favoriting, generating titles (for conversational searches), and deleting events.
 
 Understanding which actions are available helps you manage your Timeline effectively and customize events to fit your workflow needs.
 
@@ -38,9 +38,29 @@ Open the action menu for any event to see available options based on the event t
 
 > Three-dots menu open showing available actions for a conversational search event
 
+## Chat from a summary
+
+Use **Chat** when you want **Conversational Search** focused on a specific **summary**, **Timeline Event**, or related memory—without attaching local files or folders. This is how you scope a chat to that item’s captured context.
+
+<Steps>
+  <Step title="Open the item in Timeline">
+    In [Pieces Timeline](/products/desktop/timeline), click the summary, roll-up, or event you care about so its full content appears in the main panel.
+  </Step>
+  <Step title="Open the three-dots menu">
+    Click the `three-dots menu icon` (⋮) in the event header.
+  </Step>
+  <Step title="Choose Chat">
+    Select `Chat`. Conversational Search opens with that memory in scope so your questions apply to that item.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+  For context controls that apply across *all* memories in a thread (such as sources and time ranges), use [Using Conversational Search](/products/desktop/conversational-search/using-conversational-search#filtering-your-searches). **Chat** from Timeline is for locking onto **one** summary or event at a time.
+</Callout>
+
 ## Timeline Event Actions
 
-All events in Pieces Timeline—conversational searches, Timeline Events (including automatically generated summaries like `Day Recap`, `Morning Brief`, `Week Recap`, and `What's Top of Mind`), and single-click summaries—share common actions available through the `three-dots menu`.
+All events in Pieces Timeline—conversational searches, Timeline Events (including automatically generated summaries like `Day Recap`, `Morning Brief`, `Week Recap`, and `What's Top of Mind`), and single-click summaries—share common actions available through the `three-dots menu` (including **Chat** for scoped Conversational Search, as described [above](#chat-from-a-summary)).
 
 ### Favoriting Events
 
