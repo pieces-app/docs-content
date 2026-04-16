@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Rovo Dev CLI. Access Lon
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Rovo Dev CLI brings your workflow context directly into Atlassian's AI tool. Rovo Dev CLI supports stdio, SSE, and Streamable HTTP for flexible setup.
+Integrating the [Pieces MCP](/products/mcp) with Rovo Dev CLI brings your workflow context directly into Atlassian's AI tool. Rovo Dev CLI supports stdio, SSE, and Streamable HTTP for flexible setup.
 
 ## Prerequisites
 

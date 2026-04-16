@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Zed. Zed uses stdio only
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Zed brings your workflow context directly into the Zed editor. Because Zed currently supports **stdio only** (not native HTTP), you'll use an stdio-to-HTTP bridge such as [mcp-remote](/products/mcp/mcp-remote) to connect to PiecesOS.
+Integrating the [Pieces MCP](/products/mcp) with Zed brings your workflow context directly into the Zed editor. Because Zed currently supports **stdio only** (not native HTTP), you'll use an stdio-to-HTTP bridge such as [mcp-remote](/products/mcp/mcp-remote) to connect to PiecesOS.
 
 ## Prerequisites
 

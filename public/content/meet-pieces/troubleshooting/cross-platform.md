@@ -53,7 +53,7 @@ See your specific OS page for platform-specific update instructions on updating 
 
 You may occasionally encounter connection issues with PiecesOS or your Personal Cloud, resulting in:
 
-* Pieces Copilot not generating outputs
+* Conversational Search not generating outputs
 
 * Difficulty finding saved materials
 

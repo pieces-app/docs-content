@@ -147,7 +147,7 @@ open
 
 ### ask \<your\_question\_here>
 
-Send a question to Pieces Copilot.
+Send a question to Conversational Search.
 
 ```bash
 ask ...

@@ -14,7 +14,7 @@ We regularly update and configure our plugins and extensions to work with the la
 
 The Pieces Web Extension currently [supports a range of cloud-hosted and local LLMs](/products/large-language-models) from your favorite providers, such as Anthropic, Google, OpenAI, Microsoft, and more.
 
-[Read documentation on switching your Pieces Copilot Runtime (LLM)](/products/web-extension/copilot/llm-settings#how-to-configure-your-llm-runtime) utilized by the Pieces Web Extension.
+[Read documentation on switching your Conversational Search Runtime (LLM)](/products/web-extension/copilot/llm-settings#how-to-configure-your-llm-runtime) utilized by the Pieces Web Extension.
 
 ## Opening Pieces Settings
 
@@ -66,11 +66,11 @@ Select the UI accent color used throughout the extension (Blue, Green, Purple, e
 
 ### Use Long‑Term Memory (LTM-2.7) Context by Default
 
-When checked, your saved long‑term memory is automatically included in every Pieces Copilot query without needing to re-enable LTM chat-by-chat.
+When checked, your saved long‑term memory is automatically included in every Conversational Search query without needing to re-enable LTM chat-by-chat.
 
 ### Delete All Copilot Chats…
 
-Clears all saved Pieces Copilot chat history inside the Pieces Web Extension.
+Clears all saved Conversational Search chat history inside the Pieces Web Extension.
 
 <Callout type="alert">
   This action is *not reversible.* Clearing your chat history is a permanent action.
@@ -140,7 +140,7 @@ If checked, newly visited domains are automatically added to your “recent webs
 
 ### Save Visited Websites for Context
 
-Include the page’s metadata and content whenever you save a snippet. These websites can then be referenced and added as context to future Pieces Copilot chats.
+Include the page’s metadata and content whenever you save a snippet. These websites can then be referenced and added as context to future Conversational Search chats.
 
 ### Telemetry & Diagnostics
 

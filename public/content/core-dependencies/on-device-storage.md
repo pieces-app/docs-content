@@ -3,82 +3,99 @@ title: On-Device Storage
 path: /core-dependencies/on-device-storage
 visibility: PUBLIC
 status: PUBLISHED
-description: Everything you save in Pieces lives locally first. Here’s exactly where to find it—and how to share the right files when you need help.
-metaTitle: Pieces On-Device Storage & Logs | Secure Data Guide
+description: Everything you save in Pieces lives locally first. Here's exactly where to find it—and how to back up, restore, or reset your data.
+metaTitle: On-Device Storage & Logs | Pieces Docs
 metaDescription: Learn where Pieces stores your database and logs on macOS, Windows, and Linux. Backup, restore, or delete data locally with SOC 2-certified security.
 ---
 
-## Why it Matters
+## Local-First Architecture
 
-Pieces was designed with a **local-first architecture**—which is why all processing—code analysis, secret detection, and tag generation—runs completely offline by **default**:
+Pieces stores and processes everything on your device by default—code snippets, LTM-2.7 memory, user settings, Conversational Search history, and diagnostic logs all stay local.
 
-* **What stays Local:** Snippets, tags, embeddings, LTM-2.7 memory, user settings, preferences, activity logs, diagnostic logs, and Pieces Copilot Chat history.
-
-* **When it can move to the Cloud:** Only if you explicitly enable **Personal Cloud** or use a cloud-based model provider like OpenAI. In those cases, data is handled according to the provider’s privacy policy—not ours.
-
-This architecture puts you in full control of your data, simplifies backup and restore, and minimizes your exposure to risk.
-
-Cloud features are not required, are opt-in only, are isolated per user (`<your-subdomain>.pieces.cloud`).
-
-We never use your data to train third-party models. You can delete your entire database, logs, and backups at any time by removing the `com.pieces.os` folder—more on that below.
+**When data can move to the cloud:** Only when you explicitly enable **Personal Cloud** or use a cloud-based model provider (OpenAI, Anthropic, Google). In those cases, data is handled by the provider's privacy policy.
 
 <Callout type="tip">
-  We’re **SOC 2 Type II** certified and never use your private data to train models.
+  We're **SOC 2 Type II** certified and never use your data to train models. You can delete everything at any time by removing the `com.pieces.os` folder.
 </Callout>
 
-## Where your Database Lives
+## Where Your Database Lives
 
-Pieces stores all snippet metadata, embeddings, tags, and workflow context captured by LTM-2.7 in a single folder inside the `com.pieces` directory on your machine. 
+| **Platform** | **Default path** |
+| --- | --- |
+| *macOS* | `/Users/<username>/Library/com.pieces.os/` |
+| *Windows* | `C:/Users/<username>/Documents/com.pieces.os/` |
+| *Linux* | `/home/<username>/.local/share/com.pieces.os/` |
 
-| **Platform** | **Default path\***                             |
-| ------------ | ---------------------------------------------- |
-| *macOS*      | `/Users/<username>/Library/com.pieces.os/`     |
-| *Windows*    | `C:/Users/<username>/Documents/com.pieces.os/` |
-| *Linux*      | `/home/<username>/.local/share/com.pieces.os/` |
+Inside `com.pieces.os`, the `production` folder contains your LTM-2.7 context and all other Pieces data. You can **copy**, **compress**, or **relocate** this folder to sync via OneDrive or migrate to another machine.
 
 <Callout type="tip">
   Replace `<username>` with your OS account name.
 </Callout>
 
-Inside `com.pieces.os`, you’ll see `production`, which contains several folders that store broken down LTM-2.7 context and the rest of your data.
+## Finding Your Logs
 
-You are free to **copy, compress,** or **relocate** the entire `production` folder—for example, to sync via OneDrive or to migrate to another machine.
+When opening a GitHub issue or contacting support, attaching recent logs helps diagnose problems quickly.
 
-### Finding your Logs
+| **Platform** | **Log path** |
+| --- | --- |
+| *macOS* | `/Users/<username>/Library/com.pieces.os/production/support/logs/` |
+| *Windows* | `C:/Users/<username>/Documents/com.pieces.os/production/support/logs` |
+| *Linux* | `/home/<username>/.local/share/com.pieces.os/logs/` |
 
-When you open a GitHub issue or contact **Pieces Support**, attaching the most recent logs helps us diagnose problems in *minutes* instead of *hours*.
+Logs rotate daily and are timestamped (e.g., `log-05062025`). Zip the latest two or three files and attach them to your <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> or Discord DM.
 
-**macOS:**
-```
-/Users/<username>/Library/com.pieces.os/production/support/logs/
-```
+## Create a Manual Backup
 
-**Windows:**
-```
-C:/Users/<username>/Documents/com.pieces.os/production/support/logs
-```
+<Steps>
+  <Step title="Quit all Pieces apps">
+    Close the Pieces Desktop App and PiecesOS.
+  </Step>
 
-**Linux:**
-```
-/home/<username>/.local/share/com.pieces.os/logs/
-```
+  <Step title="Copy the database folder">
+    Copy the entire `com.pieces.os` folder to your backup location (USB, NAS, or cloud storage):
 
-Logs rotate daily and are timestamped (`log-05062025`).
+    * **macOS:** `/Users/<username>/Library/com.pieces.os/`
+    * **Windows:** `C:/Users/<username>/Documents/com.pieces.os/`
+    * **Linux:** `/home/<username>/.local/share/com.pieces.os/`
+  </Step>
+</Steps>
 
-Zip the latest two or three files and drag them into your <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> or Discord DM with our engineers.
+## Restore on a New Machine
 
-## Backup, Restore, or Reset
+<Steps>
+  <Step title="Install PiecesOS">
+    Install PiecesOS on the new machine via the [Pieces Desktop App](/products/desktop/onboarding) or [manual installation](/products/core-dependencies/pieces-os/manual-installation).
+  </Step>
 
-There are several options to backup, restore or reset your database from within the `com.pieces.os` folder.
+  <Step title="Replace the database folder">
+    Replace the newly created `com.pieces.os` folder with your backup.
+  </Step>
 
-| **Task**                                           | **Quick Steps**                                                                                                                                              |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| *Create a Manual Backup*                           | Quit all Pieces apps. Copy the entire `com.pieces.*` folder to your backup location, such as a USB drive, NAS, or cloud storage.                             |
-| *Restore Database on a New Machine*                | Install Pieces OS. Replace the newly created `com.pieces.*` folder with your backup. Then, restart Pieces.                                                   |
-| *Start Fresh or Troubleshoot a Corrupted Database* | Quit Pieces. Rename the `production` folder to something else, then relaunch. Pieces will create a brand-new, empty database (keep the backup just in case). |
+  <Step title="Restart Pieces">
+    Relaunch PiecesOS and the Pieces Desktop App.
+  </Step>
+</Steps>
 
-## Need Help?<a target="_blank" href="/products/support">**​**</a>
+## Start Fresh (Reset)
 
-You can open GitHub issues for PiecesOS, the Pieces Desktop App, or any other Pieces MCP integration by <a target="_blank" href="https://github.com/pieces-app/support/issues">opening an issue in our GitHub repository.</a>
+<Steps>
+  <Step title="Quit Pieces">
+    Close the Pieces Desktop App and PiecesOS.
+  </Step>
 
-If you would prefer not to use GitHub, you can still <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>
+  <Step title="Rename the production folder">
+    Rename the `production` folder inside `com.pieces.os` to something else (e.g., `production-backup`).
+  </Step>
+
+  <Step title="Relaunch Pieces">
+    Relaunch PiecesOS. It will create a brand-new, empty database. Keep the renamed folder as a backup in case you need it.
+  </Step>
+</Steps>
+
+***
+
+## Need Help?
+
+Open a GitHub issue for PiecesOS, the Pieces Desktop App, or any MCP integration at <a target="_blank" href="https://github.com/pieces-app/support/issues">our GitHub repository</a>.
+
+You can also <a target="_blank" href="https://getpieces.typeform.com/to/mCjBSIjF#page=docs-support">leave feedback or report a bug here.</a>

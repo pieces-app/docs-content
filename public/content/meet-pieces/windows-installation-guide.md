@@ -9,6 +9,8 @@ metaDescription: Get started with Pieces on Windows – install, configure, trou
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_windows_install.png"
 ---
 
+<install-guide-buttons />
+
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/trimmed_windows_banner.png" alt="Pieces for Windows installation guide banner" align="center" fullwidth="true" />
 
 ***

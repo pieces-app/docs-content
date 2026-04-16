@@ -178,11 +178,11 @@ After the session, you can type exit and press `return`(macOS) or `enter`(Window
 
 ### Chat with the Copilot
 
-This section will walk you through how to ask [Pieces Copilot](/products/cli/copilot) its first question. You can begin in your terminal by typing `pieces ask 'How to print I love Pieces CLI in Python and Java'` and pressing `return`(macOS) or `enter`(Windows/Linux).
+This section will walk you through how to ask [Conversational Search](/products/cli/copilot) its first question. You can begin in your terminal by typing `pieces ask 'How to print I love Pieces CLI in Python and Java'` and pressing `return`(macOS) or `enter`(Windows/Linux).
 
-After typing your question and running the command, Pieces Copilot will quickly generate and display the best response for your query.
+After typing your question and running the command, Conversational Search will quickly generate and display the best response for your query.
 
-It will then prompt you to do it with the Pieces CLI running by typing `pieces run` entering the command and then entering `ask $question`, `$question` being the question you’d like to ask Pieces Copilot.
+It will then prompt you to do it with the Pieces CLI running by typing `pieces run` entering the command and then entering `ask $question`, `$question` being the question you’d like to ask Conversational Search.
 
 <Callout type="info">
   Your question must be encased in quotations or Pieces won’t capture your full question.

@@ -7,7 +7,7 @@ status: PUBLISHED
 
 ## Interactive Terminal Experience
 
-The Pieces CLI Text User Interface (TUI) provides an interactive, terminal-based experience for managing materials and interacting with Pieces Copilot.
+The Pieces CLI Text User Interface (TUI) provides an interactive, terminal-based experience for managing materials and interacting with Conversational Search.
 
 When you launch the TUI with `pieces tui`, you're greeted with the Copilot interface featuring a sidebar for navigation, chat area for conversations, and keyboard shortcuts for quick access.
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/tui/tui_general_copilot.png" alt="TUI Copilot interface with sidebar and chat" align="center" fullwidth="true" />

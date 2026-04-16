@@ -9,6 +9,8 @@ metaDescription: Get started with Pieces on Linux – install, configure, troubl
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png"
 ---
 
+<install-guide-buttons />
+
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png" alt="Pieces for Linux installation guide banner" align="center" fullwidth="true" />
 
 ***

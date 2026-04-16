@@ -4,8 +4,8 @@ path: /paid-plans
 visibility: PUBLIC
 status: PUBLISHED
 description: Get access to the most powerful cloud LLMs available today with Pieces Pro.
-metaTitle: Pieces Pro – Unlock Premium AI Models for Pieces Copilot
-metaDescription: Upgrade to Pieces Pro to access top-tier AI models from Claude, Gemini, and OpenAI and boost Pieces Copilot’s speed and accuracy instantly.
+metaTitle: Pieces Pro – Unlock Premium AI Models for Conversational Search
+metaDescription: Upgrade to Pieces Pro to access top-tier AI models from Claude, Gemini, and OpenAI and boost Conversational Search’s speed and accuracy instantly.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/paid_plans.png"
 ---
 
@@ -356,7 +356,8 @@ Browse your billing history in the *Payments* tab. Click `any entry` to view a c
 * **Check for typos** — Discount codes are usually case-sensitive. Enter the code exactly as provided.
 * **Verify expiration** — Some codes have an expiration date. Confirm your code is still valid.
 * **Plan eligibility** — Certain codes may only apply to Pieces Pro or Pieces Enterprise. Ensure the code matches the plan you're purchasing.
-* **Apply before paying** — Make sure you clicked `Apply` after entering the code. It won't auto-apply. If the discount still doesn't appear, refresh the page and re-enter the code.
+* **Apply before paying** — At checkout, make sure you clicked `Apply` after entering the code. It won't auto-apply. If the discount still doesn't appear, refresh the page and re-enter the code.
+* **Already subscribed?** — You can apply a discount code to an existing subscription from the Billing tab at [portal.pieces.app](https://portal.pieces.app). The discount takes effect at your next billing cycle. See [Manage Subscription](/products/paid-plans/manage-subscription#applying-a-discount-code) for details.
 
 ### Blank Upgrade Page or Checkout Error
 

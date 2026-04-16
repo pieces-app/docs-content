@@ -8,6 +8,8 @@ metaTitle: Download Pieces
 metaDescription: Download the Pieces Desktop Application for AI-powered workflow assistance, code management, and enhanced developer productivity.
 ---
 
+<install-guide-buttons />
+
 ## Installing the Pieces Desktop App
 
 Installation for the Pieces Desktop App is straightforward. The Pieces Desktop App installs alongside its core dependency—[PiecesOS](/products/core-dependencies/pieces-os)—which is a separate component that runs in the background to power the app's features.

@@ -37,7 +37,7 @@ We continually update and configure our MCP integrations to ensure compatibility
 | Claude 3.5 Sonnet             | Codey (PaLM2)    |
 | Claude 3.5 Haiku              | (PaLM2)          |
 
-[Read documentation on how to switch your Pieces Copilot Runtime (LLM)](/products/cli/copilot/llms-settings) utilized by the Pieces CLI.
+[Read documentation on how to switch your Conversational Search Runtime (LLM)](/products/cli/copilot/llms-settings) utilized by the Pieces CLI.
 
 ## Settings Overview
 

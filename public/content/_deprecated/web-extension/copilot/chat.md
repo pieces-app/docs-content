@@ -4,17 +4,17 @@ path: /web-extension/copilot/chat
 visibility: PUBLIC
 status: PUBLISHED
 description: Enhance your development workflow with Copilot Chats in the Pieces Web Extension—an interactive AI assistant directly in your favorite browser.
-metaTitle: Accessing Pieces Copilot Chat in Web Extension
-metaDescription: Learn how to open the Pieces Copilot chat via right‑click menus, AI quick actions, or the sidebar, and add files, code snippets, or screenshots for context‑aware assistance.
+metaTitle: Accessing Conversational Search Chat in Web Extension
+metaDescription: Learn how to open Conversational Search chat via right‑click menus, AI quick actions, or the sidebar, and add files, code snippets, or screenshots for context‑aware assistance.
 ---
 
-## Accessing the Pieces Copilot Chat in the Web Extension
+## Accessing Conversational Search Chat in the Web Extension
 
-There are several ways to open up the Pieces Copilot chat window in your browser.
+There are several ways to open up Conversational Search chat window in your browser.
 
 ### via Right-Click Context Menu
 
-The primary method of accessing Pieces Copilot, Pieces Drive, and other views is from the right-click menu.
+The primary method of accessing Conversational Search, Pieces Drive, and other views is from the right-click menu.
 
 <Steps>
   <Step title="Highlight Any Section of Text">
@@ -26,7 +26,7 @@ The primary method of accessing Pieces Copilot, Pieces Drive, and other views is
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/chat/ask_pieces_right_click.gif" alt="" align="center" fullwidth="true" />
 
-    This initiates a Pieces Copilot chat using the active code snippet as pre-loaded context for the conversation.
+    This initiates a Conversational Search chat using the active code snippet as pre-loaded context for the conversation.
   </Step>
 </Steps>
 
@@ -40,15 +40,15 @@ Clicking the `Ask Copilot` Quick Action will start a Copilot Chat with the code 
 
 ### via the Sidebar
 
-You can open up the dedicated Pieces Copilot view to locate previous chats or start new ones without context right from the sidebar.
+You can open up the dedicated Conversational Search view to locate previous chats or start new ones without context right from the sidebar.
 
 <Steps>
   <Step title="Open the Pieces Web Extension">
     Select the `Pieces` icon in the extensions within your browser.
   </Step>
 
-  <Step title="Switch to Pieces Copilot">
-    If it's not enabled by default, click the dropdown in the top left and choose Pieces Copilot to access the Copilot Chats.
+  <Step title="Switch to Conversational Search">
+    If it's not enabled by default, click the dropdown in the top left and choose Conversational Search to access the Copilot Chats.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/chat/hovering_pieces_copilot.png" alt="" align="center" fullwidth="true" />
   </Step>
@@ -82,21 +82,21 @@ You can extract code from screenshots directly in the Copilot chat menu by selec
 
 Choose the screenshot from your **Finder** (macOS) or **File Explorer** (Windows/Linux) menu, and confirm your selection.
 
-Pieces Copilot will scan the screenshot and generate the code from the image into the chat. You can then copy it, save it as a snippet, and more.
+Conversational Search will scan the screenshot and generate the code from the image into the chat. You can then copy it, save it as a snippet, and more.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/chat/extract_code_screenshot.gif" alt="" align="center" fullwidth="true" />
 
 ## AI Quick Actions
 
-Below code blocks on websites, you can find a clickable `Ask Copilot` option that will allow you to ask Pieces Copilot directly about the code.
+Below code blocks on websites, you can find a clickable `Ask Copilot` option that will allow you to ask Conversational Search directly about the code.
 
-Clicking `Ask Copilot` will open the Pieces Copilot sidebar. The code will be explained within that chat, along with its purpose and function.
+Clicking `Ask Copilot` will open Conversational Search sidebar. The code will be explained within that chat, along with its purpose and function.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/web_extension/pieces_copilot/chat/ask_copilot_QA.gif" alt="" align="center" fullwidth="true" />
 
 ## Improving Code Consistency & Standardization
 
-The Pieces Copilot Chat helps you with coding and learning tasks to increase productivity and improve your workflow.
+The Conversational Search Chat helps you with coding and learning tasks to increase productivity and improve your workflow.
 
 It achieves this by removing the need for **context-switching** (leaving your window to use generative AI).
 
@@ -117,7 +117,7 @@ func authenticateUser(ctx context.Context, credentials Credentials) (User, error
 
 ### Inconsistent Error Handling
 
-If error-handling strategies differ across web sources (e.g., structured errors in `authService.go` vs. inconsistent handling in `userService.go`), Pieces Copilot can help unify the approach:
+If error-handling strategies differ across web sources (e.g., structured errors in `authService.go` vs. inconsistent handling in `userService.go`), Conversational Search can help unify the approach:
 
 ```c
 // authService.go

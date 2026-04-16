@@ -3,14 +3,14 @@ title: Copilot Chats
 path: /desktop/configuration/copilot-chats
 visibility: PUBLIC
 status: PUBLISHED
-description: Customize your Pieces Copilot chat appearance and manage your chat history.
+description: Customize your Conversational Search chat appearance and manage your chat history.
 metaTitle: Copilot Chats Settings in Pieces Desktop
-metaDescription: Customize your Pieces Copilot chat accent color and manage your chat history by deleting all chats.
+metaDescription: Customize your Conversational Search chat accent color and manage your chat history by deleting all chats.
 ---
 
 ## Copilot Chats Settings
 
-Customize your Pieces Copilot chat appearance and manage your chat history. Configure the accent color for your chats and delete all chats when needed.
+Customize your Conversational Search chat appearance and manage your chat history. Configure the accent color for your chats and delete all chats when needed.
 
 To access Copilot Chats settings, click your `User Profile` in the top left, then hover over `Settings` and select `Copilot Chats`.
 
@@ -20,7 +20,7 @@ To access Copilot Chats settings, click your `User Profile` in the top left, the
 
 ## Accent Color
 
-Change the accent color used in your Pieces Copilot chats. The accent color affects the visual appearance of chat elements and helps personalize your chat interface.
+Change the accent color used in your Conversational Search chats. The accent color affects the visual appearance of chat elements and helps personalize your chat interface.
 
 ### Changing Accent Color
 
@@ -48,7 +48,7 @@ Change the accent color used in your Pieces Copilot chats. The accent color affe
 
 ## Delete All Copilot Chats
 
-Remove all of your Pieces Copilot chat history at once. This action permanently deletes all chats and cannot be undone.
+Remove all of your Conversational Search chat history at once. This action permanently deletes all chats and cannot be undone.
 
 ### Understanding Chat Deletion
 

@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Get started with the Pieces CLI Text User Interface (TUI) for an interactive terminal experience.
 metaTitle: Get Started with Pieces TUI
-metaDescription: Learn how to set up and use the Pieces CLI Text User Interface (TUI) for managing materials and interacting with Pieces Copilot.
+metaDescription: Learn how to set up and use the Pieces CLI Text User Interface (TUI) for managing materials and interacting with Conversational Search.
 ---
 
 <pieces-pro-cta />

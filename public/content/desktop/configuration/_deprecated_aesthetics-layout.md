@@ -56,7 +56,7 @@ There are several default layout behaviors to adjust within the **Views & Layout
 
 In this section, you can select the `Default Layout` option to determine which interface appears when Pieces Desktop first launches.
 
-For example, setting it to Pieces Copilot allows you to start with the default generative AI interface, whereas Pieces Drive sets the default interface to the saved materials view on application launch.
+For example, setting it to Conversational Search allows you to start with the default generative AI interface, whereas Pieces Drive sets the default interface to the saved materials view on application launch.
 
 ### Default List View Sort
 

@@ -21,13 +21,13 @@ To enable the LTM-2.7 Engine from PiecesOS, click the PiecesOS icon to open the 
 
 ## In This Quick Guide
 
-In this Quick Guide, you’ll use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27) to save context from a website, then prompt the Pieces Copilot to tell you what it saw.
+In this Quick Guide, you’ll use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27) to save context from a website, then prompt Conversational Search to tell you what it saw.
 
 <Card title="Want a Sneak Peak?" image="/assets/icons/platform_logos/pieces_logo.png">
   Here’s a <a target="_blank" href="https://tsavo.hashnode.dev/temporal-nano-model-breakthrough">quick read on some of the nano-models</a> we develop that layer into the data retrieval pipeline for LTM-2.7 and the coming *LTM-2.7*
 </Card>
 
-This demonstrates how Pieces can capture information from any application and make it available to you in the Pieces Copilot.
+This demonstrates how Pieces can capture information from any application and make it available to you in Conversational Search.
 
 ### Capture Context
 
@@ -45,15 +45,15 @@ With LTM enabled, Pieces captures workflow context from every actively used wind
 
 ### Prompt the Copilot
 
-Now that Pieces has captured the message, you can prompt the Pieces Copilot through the Pieces Desktop App to retrieve the secret message.
+Now that Pieces has captured the message, you can prompt Conversational Search through the Pieces Desktop App to retrieve the secret message.
 
 <Steps>
   <Step title="Open the Pieces Desktop App">
     Open the Pieces Desktop App and start a new chat or use an existing chat.
   </Step>
 
-  <Step title="Prompt the Pieces Copilot">
-    Use the following prompt with the Pieces Copilot:
+  <Step title="Prompt Conversational Search">
+    Use the following prompt with Conversational Search:
 
     ```plaintext
     What is my secret message?

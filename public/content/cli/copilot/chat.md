@@ -11,7 +11,7 @@ There are two ways to manage your Copilot chats in the Pieces CLI.
 
 ### Starting a New Copilot Chat
 
-To quickly start a conversation with Pieces Copilot:
+To quickly start a conversation with Conversational Search:
 
 <Steps>
   <Step title="Open a Terminal">
@@ -65,7 +65,7 @@ You can narrow Copilot’s focus by feeding it specific materials or files when 
   <Step title="Ask with a Material">
     Use the `-m` flag and that index when you ask: `pieces ask "Explain the data model here" -m 4`
 
-    Pieces Copilot will load material #4 as context.
+    Conversational Search will load material #4 as context.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_copilot/chat/pieces_context_chat.gif" alt="Providing material context to Copilot" align="center" fullwidth="true" />
   </Step>
@@ -73,7 +73,7 @@ You can narrow Copilot’s focus by feeding it specific materials or files when 
 
 ### via File Path
 
-Use a folder of specific file as context for Pieces Copilot by initiating the conversation at a specified path.
+Use a folder of specific file as context for Conversational Search by initiating the conversation at a specified path.
 
 <Steps>
   <Step title="Select Your File or Folder">
@@ -87,7 +87,7 @@ Use a folder of specific file as context for Pieces Copilot by initiating the co
   <Step title="Ask with a File">
     Use the `-f` flag and the path, `pieces ask "How does this component render?" -f src/components/Button.jsx`.
 
-    Pieces Copilot will read that file before answering.
+    Conversational Search will read that file before answering.
   </Step>
 
   <Step title="Provide Multiple Contexts">
@@ -146,7 +146,7 @@ The Pieces CLI supports integration with [VS Code](/products/mcp/vs-code), [Curs
 
 ### Docs
 
-The `mcp docs` command displays all of the [mcp documentation](/products/mcp/get-started) correlated with the supported development environments with the Pieces CLI and Pieces MCP.
+The `mcp docs` command displays all of the [mcp documentation](/products/mcp) correlated with the supported development environments with the Pieces CLI and Pieces MCP.
 
 ### Repair
 

@@ -27,7 +27,7 @@ Each memory item displays:
 * **Title/Description:** A concise summary of the activity (e.g., "Desktop App Documentation Updates", "SDK, Docs, & Work Ledger").
 * **Timestamp:** When the activity occurred (e.g., "10 minutes ago - 2:24pm", "Half an hour ago - 2:04pm").
 * **Date Group:** Memories are grouped by date (Today, Yesterday, Last Saturday, Last Sunday, etc.).
-* **Emoji/Icon Indicators:** Visual indicators showing the type of activity or associated apps (e.g., 😊 for conversations, 💻 for code, 📄 for documents).
+* **Icon Indicators:** Visual indicators showing the type of activity or associated apps.
 * **App Icons:** Small icons showing which applications were involved (Chrome, VS Code, Slack, etc.).
 * **Count Badge:** Number on the right indicating how many events or items are in that memory.
 
@@ -110,10 +110,10 @@ Click an activity to view its complete roll-up details:
     The full LTM Roll-Up displays in the main panel with detailed information including core tasks, key decisions, documents reviewed, and follow-up actions.
   </Step>
   <Step title="Interact with Roll-Up">
-    You can start a Conversational Chat conversation with that context, export it, edit it, or share it.
+    You can start a Conversational Search conversation with that context, export it, edit it, or share it.
   </Step>
   <Step title="Navigate Back">
-    Use the `Jump to Summary In List` button (target icon) in the roll-up header to scroll back to the activity's position in Pieces Timeline if you've navigated away.
+    Use the `Jump to Summary in Timeline` button (target icon) in the roll-up header to scroll back to the activity's position in Pieces Timeline if you've navigated away.
   </Step>
 </Steps>
 
@@ -136,7 +136,7 @@ Following these tips helps you find and access workflow activities more efficien
 * Use the search function when you remember specific keywords but not the exact date of an activity
 * Date groups make it easy to find activities from "that meeting yesterday" or "the work I did last week"
 * The emoji and app icons help you quickly scan the list visually—look for specific patterns that match what you're searching for
-* If you're looking at a roll-up and want to see where it is in your chronological history, use the `Jump to Summary In List` button
+* If you're looking at a roll-up and want to see where it is in your chronological history, use the `Jump to Summary in Timeline` button
 * Keep the Timeline Events sidebar open while working to quickly reference past context without losing your place
 
 ***

@@ -50,7 +50,7 @@ To capture useful code snippets, simply:
 
 When you save a snippet to your Pieces Cloud, it’s more than just the code that gets stored.
 
-The Pieces Copilot captures:
+The Conversational Search captures:
 
 * `Type`: Categorizes the snippet (e.g., API call, function, class) with it’s code language.
 
@@ -68,7 +68,7 @@ The Pieces Copilot captures:
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair_2/sublime/save_snippets.png" alt="" align="center" fullwidth="true" />
 
-Additionally, the Pieces Copilot **scans saved snippets for sensitive information**, such as API keys, passwords, or authentication tokens, to ensure no confidential data is accidentally stored.
+Additionally, Conversational Search **scans saved snippets for sensitive information**, such as API keys, passwords, or authentication tokens, to ensure no confidential data is accidentally stored.
 
 ## Where Saved Snippets Live
 

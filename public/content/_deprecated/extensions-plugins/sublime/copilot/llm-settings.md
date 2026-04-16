@@ -4,7 +4,7 @@ path: /extensions-plugins/sublime/copilot/llm-settings
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces for Sublime Text Plugin currently supports 16 different LLM models (which includes both cloud-based and local models).
-metaTitle: How to Switch LLMs in Pieces Copilot for Sublime
+metaTitle: How to Switch LLMs in Conversational Search for Sublime
 metaDescription: Learn how to switch LLMs in Pieces for Sublime Text to customize AI-powered coding assistance.
 ---
 

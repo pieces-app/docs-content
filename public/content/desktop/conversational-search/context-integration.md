@@ -3,9 +3,9 @@ title: Context & Project Integration
 path: /desktop/conversational-search/context-integration
 visibility: PUBLIC
 status: PUBLISHED
-description: Enable or disable Long-Term Memory context in Conversational Search to include your workflow history in conversations.
+description: Toggle LTM context, open Conversational Search scoped to a Timeline summary via Chat, and review source Timeline Events.
 metaTitle: Context & Project Integration | Conversational Search
-metaDescription: Enable or disable Long-Term Memory context in Conversational Search to include your workflow history in conversations.
+metaDescription: Control LTM context in Conversational Search, scope a chat from a Timeline summary with Chat, and verify which Timeline Events informed a response.
 ---
 
 ## Context & Project Integration
@@ -66,6 +66,18 @@ When LTM-2.7 is enabled, Conversational Search automatically includes relevant w
 * Timeline Events and summaries from your workflow
 
 When LTM-2.7 is paused or turned off, Conversational Search operates without access to this historical context, providing responses based only on the current conversation.
+
+<Card title="Want to learn more about using LTM Context?" image="/assets/icons/platform_logos/pieces_logo.png">
+  Check out the [LTM Prompting Guide](/products/quick-guides/ltm-prompting) or learn how to use [Conversational Search with LTM Context](/products/quick-guides/copilot-with-context) via these Quick Guides.
+</Card>
+
+## Scoping a chat from Timeline
+
+Conversational Search does **not** let you attach arbitrary local **files** or **folders** to a chat. To work with a **specific** captured memory—such as a workflow summary or Timeline Event—open it in [Pieces Timeline](/products/desktop/timeline), then use the **`Chat`** action on that item’s **three-dots menu** (⋮). That opens Conversational Search with that memory in scope.
+
+For the full walkthrough, see [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) on the Event Actions page.
+
+You can still narrow **which** memories are in play across a normal chat with **Sources** and **Time Ranges**; see [Filtering your searches](/products/desktop/conversational-search/using-conversational-search#filtering-your-searches).
 
 ## Related Timeline Events
 

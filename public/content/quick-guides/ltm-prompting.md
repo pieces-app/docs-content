@@ -12,10 +12,10 @@ metaDescription: Learn how to query Pieces Long-Term Memory effectively. Combine
 
 With Pieces Long-Term Memory, you can query across captured memories using natural language—like asking a colleague who was there with you. The key to great results is combining a few dimensions in your questions: when, where, what, and who.
 
-These guides show how to query LTM context using the Pieces Copilot in the Pieces Desktop App or any app with a Pieces plugin or extension.
+These guides show how to query LTM context using Conversational Search in the Pieces Desktop App or any app with a Pieces plugin or extension.
 
 <Callout type="alert">
-  For any chat, you must activate the **LTM Context** (or Long-Term Memory Context) button in the chat interface. Without it, Pieces Copilot cannot search your Long-Term Memory—even with a well-structured query.
+  For any chat, you must activate the **LTM Context** (or Long-Term Memory Context) button in the chat interface. Without it, Conversational Search cannot search your Long-Term Memory—even with a well-structured query.
 </Callout>
 
 You also need [LTM-2.7 enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) in PiecesOS.

@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Visual Studio Code. Acce
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Visual Studio Code brings your workflow context directly into your editor. With this integration, your AI assistant can access past implementations, similar code, and historical debugging context—without searching through commits or notes.
+Integrating the [Pieces MCP](/products/mcp) with Visual Studio Code brings your workflow context directly into your editor. With this integration, your AI assistant can access past implementations, similar code, and historical debugging context—without searching through commits or notes.
 
 ## Prerequisites
 

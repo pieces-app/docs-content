@@ -26,7 +26,7 @@ The easiest way to download and manage local models is directly from Conversatio
   </Step>
 
   <Step title="Click Active Model">
-    Click your active model button (e.g., `Gemini 3 Pro Preview`) in the bottom toolbar of the Conversational Search interface.
+    Click your active model button (e.g., `Gemini 3 Pro Preview`) in the bottom toolbar of Conversational Search interface.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Active model selection button in Conversational Search" align="center" fullwidth="true" />
 
@@ -82,7 +82,7 @@ To free up storage space, you can delete downloaded local models directly from t
   </Step>
 
   <Step title="Click Active Model">
-    Click your active model button (e.g., `Gemini 3 Pro Preview`) in the bottom toolbar of the Conversational Search interface.
+    Click your active model button (e.g., `Gemini 3 Pro Preview`) in the bottom toolbar of Conversational Search interface.
   </Step>
 
   <Step title="Select Manage Models">

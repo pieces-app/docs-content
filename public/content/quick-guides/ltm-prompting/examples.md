@@ -44,7 +44,7 @@ It also captures links from other content where the URL is present in the text, 
   Note that Pieces is not a search engine—it captures *memories* from your activities. It will return the URLs you viewed, interacted with, or were shared with you, but it doesn't perform web searches.
 </Callout>
 
-Use similar prompts that include a little context, so LTM knows what information to surface and return to the Pieces Copilot.
+Use similar prompts that include a little context, so LTM knows what information to surface and return to Conversational Search.
 
 <Steps>
   <Step title="Prompt #1">
@@ -68,7 +68,7 @@ When you encounter an error in your code, whether it's in your terminal, a popup
 
 * If it's a *new* error, you can use Long-Term Memory along with file or folder context to help find a solution in your codebase.
 
-One of the most powerful applications of LTM context and the Pieces Copilot is to facilitate intelligent debugging regarding your recent or active development workflow.
+One of the most powerful applications of LTM context and Conversational Search is to facilitate intelligent debugging regarding your recent or active development workflow.
 
 <Steps>
   <Step title="Prompt #1">
@@ -98,7 +98,7 @@ With access to all your activities, Pieces can help automate this process.
 
 If Pieces has access to calendar apps, the column or grid format might not be easily understood by AI, which can lead to confusing responses. You might get better results by adding your calendar apps to the list of disabled sources.
 
-Use some of these time-based example prompts to ask Pieces Copilot to provide accurate, relevant answers summarizing recent activities.
+Use some of these time-based example prompts to ask Conversational Search to provide accurate, relevant answers summarizing recent activities.
 
 <Steps>
   <Step title="Prompt #1">

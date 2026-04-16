@@ -19,9 +19,9 @@ Pieces products, including the [Pieces Desktop Application](/products/desktop), 
 
 To run any Pieces software, you will need **PiecesOS,** the backbone of the Pieces Suite. This lightweight application runs in the background of your device.
 
-It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27), [Pieces Drive,](/products/desktop/drive) and [Conversational Search](/products/desktop/conversational-search) with Pieces Copilot.
+It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pieces-os#ltm-27) and [Conversational Search](/products/desktop/conversational-search). [Pieces Drive](/products/desktop/drive) is a **legacy** material manager retained for existing workflows; LTM and [Timeline](/products/desktop/timeline) replace it for new users.
 
-**PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp/get-started), and other integrations within your development environment.
+**PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp), and other integrations within your development environment.
 
 ## Local Models
 
@@ -30,7 +30,7 @@ Pieces includes built-in local models that run directly through PiecesOS—no ex
 These models power:
 - **Long-Term Memory (LTM-2.7)** workflow processing
 - **Code enrichment** and analysis
-- **Pieces Copilot** with on-device LLMs
+- **Conversational Search** with on-device LLMs
 - **Secret detection** and security scanning
 
 All local processing happens entirely on your device through PiecesOS, ensuring privacy and offline functionality.
@@ -45,7 +45,7 @@ PiecesOS is **required** for all Pieces products, including:
 
 * Pieces Desktop App
 
-* [MCP integrations](/products/mcp/get-started) for [JetBrains IDEs](/products/mcp/jetbrains-ides), [VS Code](/products/mcp/vs-code), [Raycast](/products/mcp/raycast), and [many other tools](/products/mcp/get-started), plus [the Pieces CLI](/products/cli).
+* [MCP integrations](/products/mcp) for [JetBrains IDEs](/products/mcp/jetbrains-ides), [VS Code](/products/mcp/vs-code), [Raycast](/products/mcp/raycast), and [many other tools](/products/mcp), plus [the Pieces CLI](/products/cli).
 
 ## Why Do We Need PiecesOS?
 

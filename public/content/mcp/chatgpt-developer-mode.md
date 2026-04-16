@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with ChatGPT Developer Mode. 
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with ChatGPT Developer Mode brings your workflow context directly into ChatGPT in your browser. ChatGPT Developer Mode requires a **remote HTTPS URL**—localhost will not work. You must expose PiecesOS via [ngrok](/products/mcp/ngrok-setup) or another HTTPS proxy first.
+Integrating the [Pieces MCP](/products/mcp) with ChatGPT Developer Mode brings your workflow context directly into ChatGPT in your browser. ChatGPT Developer Mode requires a **remote HTTPS URL**—localhost will not work. You must expose PiecesOS via [ngrok](/products/mcp/ngrok-setup) or another HTTPS proxy first.
 
 <Callout type="alert">
   **Remote HTTPS required:** ChatGPT Developer Mode cannot use localhost. You must expose PiecesOS via ngrok or another HTTPS tunnel before adding the connector.

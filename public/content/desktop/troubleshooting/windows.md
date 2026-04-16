@@ -157,7 +157,7 @@ On Windows machines, Pieces writes its log files under your local AppData folder
 
 ## Checking Hardware Specifications
 
-You may need to check your system's specifications if you continue to experience issue[s, especially when trying to use local LLM](/products/core-dependencies/pieces-os/quick-menu#long-term-memory-access-control)s.
+You may need to check your system's specifications if you continue to experience issues, especially when trying to use [local LLMs](/products/core-dependencies/pieces-os/quick-menu#long-term-memory-access-control).
 
 To check your device specifications on Windows:
 

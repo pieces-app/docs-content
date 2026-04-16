@@ -14,7 +14,7 @@ metaDescription: Learn how to integrate Pieces MCP with Claude Code. Use the CLI
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Claude Code brings your workflow context directly into the Claude Code CLI and VS Code extension. Claude Code is Anthropic's developer-focused AI tool for coding tasks. Setup is simple: add Pieces via the CLI, and it's automatically available in the extension.
+Integrating the [Pieces MCP](/products/mcp) with Claude Code brings your workflow context directly into the Claude Code CLI and VS Code extension. Claude Code is Anthropic's developer-focused AI tool for coding tasks. Setup is simple: add Pieces via the CLI, and it's automatically available in the extension.
 
 ## Prerequisites
 

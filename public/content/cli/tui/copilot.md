@@ -31,7 +31,7 @@ The TUI Copilot provides a full-featured chat interface directly in your termina
 
 <Steps>
   <Step title="Type Your Message">
-    At the bottom of the chat view, you can find the message bar. When you send a message, your messages will appear in blue and Pieces Copilot will respond in green.
+    At the bottom of the chat view, you can find the message bar. When you send a message, your messages will appear in blue and Conversational Search will respond in green.
   </Step>
 
   <Step title="Read Contextual Information">
@@ -64,5 +64,5 @@ The TUI Copilot provides a full-featured chat interface directly in your termina
 
 ## TUI Copilot As a Daily Driver
 
-The TUI Copilot brings the full power of Pieces Copilot directly to your terminal, making AI assistance accessible wherever you work.
+The TUI Copilot brings the full power of Conversational Search directly to your terminal, making AI assistance accessible wherever you work.
 

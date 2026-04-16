@@ -3,14 +3,14 @@ title: Connected Applications
 path: /desktop/configuration/connected-applications
 visibility: PUBLIC
 status: PUBLISHED
-description: Access documentation and get started guides for all available Pieces integrations and extensions.
+description: Access documentation for Pieces integrations—MCP clients, CLI, Desktop, and more—from a single place in settings.
 metaTitle: Connected Applications Settings in Pieces Desktop
-metaDescription: Access documentation and get started guides for all available Pieces integrations and extensions.
+metaDescription: Access documentation for Pieces integrations—MCP, CLI, Desktop, and Obsidian—from Connected Applications in settings.
 ---
 
 ## Connected Applications Settings
 
-Access documentation and get started guides for all available Pieces integrations and extensions. Connect Pieces with your favorite IDEs, editors, and development tools to enhance your workflow with AI-powered assistance.
+Access documentation for Pieces integrations. Most editors and AI tools connect through the **Model Context Protocol (MCP)**; the [Integrations overview](/products/integrations-overview) explains how MCP and the CLI fit your workflow.
 
 To access Connected Applications settings, click your `User Profile` in the top left, then hover over `Settings` and select `Connected Applications`.
 
@@ -20,23 +20,23 @@ To access Connected Applications settings, click your `User Profile` in the top 
 
 ## Available Applications
 
-The Connected Applications page displays all available Pieces integrations and extensions. Each application includes a link to its documentation and get started guide.
+The Connected Applications page lists shortcuts to documentation for each integration. Legacy editor **plugins** are retired; use **MCP** setup guides for current IDE and AI tool integrations.
 
 <CardGroup cols={2}>
-  <Card title="JetBrains Plugin" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/extensions-plugins/jetbrains/get-started" target="_self">
-    Get started with the Pieces JetBrains plugin for IntelliJ IDEA, PyCharm, and other JetBrains IDEs.
+  <Card title="JetBrains IDEs (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp/jetbrains-ides" target="_self">
+    Connect IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains editors to Pieces via Model Context Protocol.
   </Card>
 
-  <Card title="Visual Studio Extension" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/extensions-plugins/visual-studio/get-started" target="_self">
-    Get started with the Pieces extension for Visual Studio.
+  <Card title="GitHub Copilot + Visual Studio (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp/github-copilot" target="_self">
+    Use Pieces Long-Term Memory with GitHub Copilot in Visual Studio and other supported hosts.
   </Card>
 
-  <Card title="Sublime Plugin" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/extensions-plugins/sublime/get-started" target="_self">
-    Get started with the Pieces plugin for Sublime Text.
+  <Card title="Other editors (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp" target="_self">
+    Browse all MCP clients—including editors without a dedicated guide—on the Pieces MCP documentation hub.
   </Card>
 
-  <Card title="VS Code Extension" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/extensions-plugins/visual-studio-code/get-started" target="_self">
-    Get started with the Pieces extension for Visual Studio Code.
+  <Card title="Visual Studio Code (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp/vs-code" target="_self">
+    Connect VS Code to PiecesOS with the official MCP setup guide.
   </Card>
 
   <Card title="Pieces CLI" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/cli" target="_self">
@@ -47,16 +47,16 @@ The Connected Applications page displays all available Pieces integrations and e
     Access comprehensive documentation for the Pieces Desktop App.
   </Card>
 
-  <Card title="Obsidian Plugin" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/obsidian/get-started" target="_self">
+  <Card title="Obsidian" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/obsidian/get-started" target="_self">
     Get started with the Pieces plugin for Obsidian.
   </Card>
 
-  <Card title="JupyterLab Extension" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/extensions-plugins/jupyterlab" target="_self">
-    Access comprehensive documentation for the Pieces JupyterLab extension.
+  <Card title="Jupyter & notebooks (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp" target="_self">
+    Connect AI assistants that support MCP to PiecesOS; see the MCP hub for supported clients and configuration.
   </Card>
 
-  <Card title="Raycast Extension" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/raycast" target="_self">
-    Access comprehensive documentation for the Pieces Raycast extension.
+  <Card title="Raycast (MCP)" image="/assets/icons/platform_logos/pieces_logo.png" href="/products/mcp/raycast" target="_self">
+    Set up Pieces MCP in Raycast on macOS using an stdio bridge to PiecesOS.
   </Card>
 </CardGroup>
 

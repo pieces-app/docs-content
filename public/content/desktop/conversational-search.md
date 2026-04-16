@@ -1,16 +1,16 @@
 ---
-title: Introduction to Conversational Search
+title: Conversational Search
 path: /desktop/conversational-search
 visibility: PUBLIC
 status: PUBLISHED
 description: Conversational Search is the ability to talk with your memories. Have conversations with your captured workflow context with LTM-2.7.
-metaTitle: Introduction to Conversational Search | Pieces Docs
+metaTitle: Conversational Search | Pieces Docs
 metaDescription: Conversational Search is the ability to talk with your memories. Have conversations with your captured workflow context with LTM-2.7.
 ---
 
 <Embed 
   src="https://youtu.be/Anlbmu9hCOg" 
-  title="Conversational Chat overview video demonstrating the interface, suggested prompts, and example conversations"
+  title="Conversational Search overview video demonstrating the interface, suggested prompts, and example conversations"
 />
 
 ***
@@ -27,55 +27,53 @@ You can talk with all your memories, or customize which memories to include by f
 
 ## Two Ways to Use Conversational Search
 
-### Conversational Search
+### Search Across Your Workflow
 
 Ask questions across your entire workflow history or filter by specific apps and time ranges. Access it directly from the homepage.
 
-**Use Cases:**
+* **Ask specific questions** about your memories to find information quickly
+* **Search across your workflow** to discover patterns and connections
+* **Filter by apps or dates** using Sources and Time Ranges for focused answers
 
-* **Asking specific questions** - Ask targeted questions about your memories to find specific information quickly
-* **Searching across workflow** - Search across your entire workflow context to discover patterns and connections
-* **Filtering by apps or dates** - Narrow down results using Sources and Time Ranges filters for more focused answers
-* **Having conversations** - Have natural conversations about your past work to understand decisions and context
-
-<FancyCard title="Learn More" href="/products/desktop/conversational-search/using-conversational-search" colored={false}>
-  Learn how to talk with your memories, filter searches, switch models, and work with responses.
-</FancyCard>
-
-### Starting a conversation with a Timeline Event
+### Chat from a Specific Event
 
 Ask questions about one specific memory or Timeline Event with pre-loaded context. Perfect for drilling into details of a particular workflow moment.
 
-**Use Cases:**
+* **Review decisions** — understand why past choices were made
+* **Review work sessions** — dive deep into what happened during a particular period
+* **Get details** about a specific Timeline Event, including discussions, code, and decisions
 
-* **Understanding specific decisions** - Review why specific past decisions were made by asking questions about the context and reasoning
-* **Reviewing work sessions** - Understand what happened during a particular work session by diving deep into a specific Timeline Event
-* **Asking about Timeline Events** - Get detailed information about a specific Timeline Event, including what was discussed, what code was written, or what decisions were made
+## Deep Study (Pieces Pro)
 
-<FancyCard title="Learn More" href="/products/desktop/conversational-search/chat-with-timeline-events" colored={false}>
-  Learn how to start context-specific conversations directly from your workflow memories.
+Deep Study uses your Long-Term Memory to produce **sourced, timestamped research-style reports** across apps, people, topics, and time ranges.
+
+* **Deep contextual recall** across collaborators, apps, and sessions
+* **Recaps** over days, weeks, or months
+* **Targeted queries** with people, topics, projects, and dates
+* **Actionable insights** with links to artifacts and suggested next steps
+
+Ask naturally—for example: *"Can you perform a deep study on what I've done for the last few days?"*
+
+At the bottom of the chat, click `Activate DeepStudy` (marked **PRO**). Your next prompt runs the Deep Study workflow. Deep Study requires **Long-Term Memory** to be enabled.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="Deep Study progress UI with thinking state and agent steps" align="center" fullwidth="true" />
+
+***
+
+## Explore Conversational Search
+
+<FancyCard title="Prompting Guide" href="/products/desktop/conversational-search/prompting-guide" colored={false}>
+  Write better prompts—use specific keywords, time ranges, source apps, and follow-up techniques.
 </FancyCard>
 
-***
+<FancyCard title="Scoping Your Prompt" href="/products/desktop/conversational-search/scoping-your-prompt" colored={false}>
+  Use Sources and Time Ranges filters to narrow which memories you're searching through.
+</FancyCard>
 
-## Learn More About Conversational Search
+<FancyCard title="Setting Additional Context" href="/products/desktop/conversational-search/setting-context" colored={false}>
+  Control LTM context, start chats from Timeline Events, use chat pipelines, and view source memories.
+</FancyCard>
 
-Explore these guides to master Conversational Search:
-
-<CardGroup cols={3}>
-  <Card title="Using Conversational Search" href="/products/desktop/conversational-search/using-conversational-search">
-    Learn how to talk with your memories, filter searches, switch models, and work with responses.
-  </Card>
-
-  <Card title="Context & Project Integration" href="/products/desktop/conversational-search/context-integration">
-    Add folders, files, and LTM context to your conversations for more accurate, relevant responses.
-  </Card>
-
-  <Card title="Starting a conversation with a Timeline Event" href="/products/desktop/conversational-search/chat-with-timeline-events">
-    Start context-specific conversations directly from Timeline Events with pre-loaded context.
-  </Card>
-</CardGroup>
-
-***
-
-If Conversational Search isn't what you're looking for, check out [Pieces Timeline](/products/desktop/timeline)—your central workspace for viewing [timeline events](/products/desktop/timeline/timeline-events) and generating [summaries](/products/desktop/single-click-summaries).
+<FancyCard title="Models" href="/products/desktop/conversational-search/models" colored={false}>
+  Switch between cloud and local AI models, browse the catalog, and download on-device models.
+</FancyCard>

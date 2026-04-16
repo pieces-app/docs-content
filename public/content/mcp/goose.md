@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with Goose is a powerful way to bring your daily workflow context directly into your command line or desktop interface.
+Integrating the [Pieces MCP](/products/mcp) with Goose is a powerful way to bring your daily workflow context directly into your command line or desktop interface.
 
 With this integration, you'll have a *command-line AI assistant* that knows more about your coding activities than just the current project.
 

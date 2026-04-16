@@ -7,25 +7,21 @@ description: Discover the Pieces for Sublime Text Plugin and bring the power of 
 metaTitle: Using the Pieces for Sublime Text Plugin | Pieces Docs
 metaDescription: Enhance Pieces with the Sublime Text Plugin. Save, manage, and reuse code snippets seamlessly for faster development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/sublime.png"
-_deprecated: true
-_deprecated_note: Not in nav. Use the MCP docs and CLI docs for current integration options.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/plugins_extensions/sublime.png" alt="" align="center" fullwidth="true" />
 
 ***
 
-<Callout type="info">
-  We're phasing out individual plugin docs. Use the [MCP docs](/products/mcp/get-started) and [CLI docs](/products/cli) for current integration options.
+<Callout type="alert">
+  **This plugin has been sunset** and is no longer supported. Pieces integrations now use the **Model Context Protocol (MCP)**. See the [State of Plugins](/products/extensions-plugins/state-of-plugins) page and [get started with MCP](/products/mcp).
 </Callout>
-
-***
 
 ## Pieces for Sublime Text Plugin
 
-The <a target="_blank" href="https://packagecontrol.io/packages/Pieces">Pieces for Sublime Text Plugin</a> is a powerful tool that integrates directly into the Sublime Text editor. It allows users to manage saved code snippets and access [Pieces Copilot](/products/extensions-plugins/sublime/copilot) features.
+The <a target="_blank" href="https://packagecontrol.io/packages/Pieces">Pieces for Sublime Text Plugin</a> is a powerful tool that integrates directly into the Sublime Text editor. It allows users to manage saved code snippets and access [Conversational Search](/products/extensions-plugins/sublime/copilot) features.
 
-* [Pieces Copilot:](/products/extensions-plugins/sublime/copilot) Engage in AI-driven conversations to enhance productivity by generating code, adding comments, troubleshooting, and more—all contextualized to your project by adding files and folders as context.
+* [Conversational Search:](/products/extensions-plugins/sublime/copilot) Engage in AI-driven conversations to enhance productivity by generating code, adding comments, troubleshooting, and more—all contextualized to your project by adding files and folders as context.
 
 * [Pieces Drive](/products/extensions-plugins/sublime/drive): Effortlessly save, locate, and share frequently used code snippets to the Pieces Drive—making it easier to organize your work, quickly access important pieces of code, and collaborate effectively with others.
 
@@ -41,7 +37,7 @@ The <a target="_blank" href="https://packagecontrol.io/packages/Pieces">Pieces f
 
 The Pieces for Sublime Text plugin offers developers **two main pillars of functionality**:
 
-1. **Pieces Copilot**: Offers [AI-assisted features](/products/extensions-plugins/sublime/copilot) like contextualized generative AI conversations, adding code comments, and troubleshooting code
+1. **Conversational Search**: Offers [AI-assisted features](/products/extensions-plugins/sublime/copilot) like contextualized generative AI conversations, adding code comments, and troubleshooting code
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/sublime_text/about_current_selection.png" alt="" align="center" fullwidth="true" />
 
@@ -49,9 +45,9 @@ The Pieces for Sublime Text plugin offers developers **two main pillars of funct
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/sublime_text_plugin_assets/sublime_text/save_to_pieces.png" alt="" align="center" fullwidth="true" />
 
-## Using the Pieces Copilot
+## Using Conversational Search
 
-Inside your Sublime Text Editor, Pieces Copilot enables you to perform **various actions**, such as initiating a conversation directly within the editor using your preferred LLM about a specific code snippet, fragment, or folder.
+Inside your Sublime Text Editor, Conversational Search enables you to perform **various actions**, such as initiating a conversation directly within the editor using your preferred LLM about a specific code snippet, fragment, or folder.
 
 To start, you can [initiate a conversation with the LLM of your choice](/products/extensions-plugins/sublime/copilot/chat), providing as much context as needed by adding files, folders, or even entire repositories to the conversation.
 

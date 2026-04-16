@@ -136,7 +136,7 @@ Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through o
 * **Complete Control Over Data Sharing:** Decide when and if your data is shared, so you can be confident that you maintain full ownership and control over your information.
 
 <Callout type="alert">
-  For users concerned about privacy, we strongly recommend using local models with Pieces products, so LTM-2.7, Pieces Copilot and Pieces Drive never send data through the cloud.
+  For users concerned about privacy, we strongly recommend using local models with Pieces products, so LTM-2.7, Conversational Search and Pieces Drive never send data through the cloud.
 </Callout>
 
 ## Privacy Policy Updates

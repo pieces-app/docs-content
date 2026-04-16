@@ -91,7 +91,7 @@ MCP enhances your coding and debugging experiences in several ways:
 * **Context-Rich Debugging**: Instantly retrieve logs, historical debugging notes, or team discussions directly from PiecesOS when troubleshooting within Cursor
 * **Contextual Queries**: Access historical code implementations, error resolutions, or previously encountered bugs within GitHub Copilot for quicker coding solutions
 
-For more use cases and detailed setup instructions, refer to the [MCP documentation](/products/mcp/get-started).
+For more use cases and detailed setup instructions, refer to the [MCP documentation](/products/mcp).
 
 ***
 

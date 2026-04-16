@@ -49,7 +49,7 @@ For Pieces CLI, you can save a snippet to your Pieces Drive with one command.
 
 When you save a snippet to your Pieces Drive, more than just the code is stored.
 
-The Pieces Copilot captures several different kinds of metadata:
+The Conversational Search captures several different kinds of metadata:
 
 * `Type`: Categorizes the snippet (e.g., API call, function, class) and its programming language.
 
@@ -67,7 +67,7 @@ The Pieces Copilot captures several different kinds of metadata:
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/pieces_drive/saving_snippet/saved_snippet_displayed.png" alt="Saved snippet showing metadata and details" align="center" fullwidth="true" />
 
-Furthermore, the Pieces Copilot reviews stored snippets for sensitive data, including API keys, passwords, and authentication tokens, ensuring that **no confidential information** is unintentionally saved.
+Furthermore, Conversational Search reviews stored snippets for sensitive data, including API keys, passwords, and authentication tokens, ensuring that **no confidential information** is unintentionally saved.
 
 ## Where Saved Snippets Live
 

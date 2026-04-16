@@ -3,15 +3,17 @@ title: Single-Click Summaries
 path: /desktop/single-click-summaries
 visibility: PUBLIC
 status: PUBLISHED
-description: Generate instant, contextual summaries from your workflow using preset summary types in Timeline.
-metaTitle: Single-Click Summaries | Pieces Timeline
-metaDescription: Generate instant, contextual summaries from your workflow using preset summary types in Pieces Timeline.
+description: Generate instant, contextual summaries from your workflow using preset summary types in Pieces.
+metaTitle: Single-Click Summaries | Pieces Docs
+metaDescription: Generate instant, contextual summaries from your workflow using preset summary types in Pieces Desktop.
 ---
 
 <Embed 
   src="https://youtu.be/qpQKW2T36nI" 
   title="Single-Click Summaries overview video demonstrating the summary types, generating summaries, and viewing results"
 />
+
+***
 
 ## Overview
 
@@ -21,7 +23,7 @@ Each summary type adapts dynamically to your workflow, meaning the same summary 
 
 ## Generating Summaries
 
-Generating a single-click summary lets you quickly extract insights from your workflow without writing prompts. Click any summary card on the homepage and after a few minutes, you'll see your summary in the [Pieces Timeline](/products/desktop/timeline).
+Click any summary card on the homepage and after a few minutes, you'll see your summary in the [Pieces Timeline](/products/desktop/timeline).
 
 <Callout type="tip">
   You can queue multiple unique summaries at once, but wait for the current one to finish before starting another of the same type.
@@ -29,310 +31,48 @@ Generating a single-click summary lets you quickly extract insights from your wo
 
 ### Viewing Queued Summaries
 
-Track your summaries as they generate in the Pieces Timeline. When you generate a summary, it appears under the current day in Pieces Timeline with a "Queued" status. Summaries are organized by day, and you can expand or collapse each day to view its contents.
+When you generate a summary, it appears under the current day in Pieces Timeline with a "Queued" status. Expand the day section to track progress.
 
 <Steps>
   <Step title="Open Timeline">
     Click `Show Timeline` in the top left of the main view to expand Pieces Timeline if it's not already open.
   </Step>
-  <Step title="Locate Current Day">
-    The current day section appears at the top of Pieces Timeline, below the `Filter Timeline` search bar. It shows the date (e.g., "Today, Jan 21st") with a count of items.
-  </Step>
-  <Step title="Expand Day Section">
+  <Step title="Expand Current Day">
     Click on the current day section to expand it and view all summaries, timeline activities, and other events for that day.
   </Step>
   <Step title="View Queued Summaries">
-    Queued summaries appear under the current day with a "Queued" status indicator. You can see which summaries are waiting to be processed and their position in the queue (e.g., "Queued (#3)", "Queued (#2)", "Next in queue").
-  </Step>
-  <Step title="Check Status">
-    Actively generating summaries display a loading indicator, while queued summaries show their position in the queue.
+    Queued summaries appear with a "Queued" status indicator showing their position in the queue (e.g., "Queued (#3)", "Next in queue").
   </Step>
 </Steps>
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/timeline/queued_summaries_in_timeline.png" alt="Timeline with queued Single-Click Summaries for the current day" align="center" fullwidth="true" />
 
-> Pieces Timeline showing current day expanded with queued summaries visible, including "What's Top of Mind" showing "Queued (#3)", "Day Recap" showing "Queued (#2)", and "AI Habits" showing "Next in queue"
+> Pieces Timeline showing current day expanded with queued summaries visible
 
 ### Canceling a Summary
 
-Stop any running summary generation from the Pieces Timeline. Locate the summary you want to cancel under the current day in Pieces Timeline and click the red cancel button to stop it.
+Locate the summary you want to cancel under the current day in Pieces Timeline and click the red cancel button (hovering shows `Stop Generating`).
 
-<Steps>
-  <Step title="Open Timeline">
-    Click `Show Timeline` in the top left to expand the Pieces Timeline.
-  </Step>
-  <Step title="Expand Current Day">
-    Click on the current day section to expand it and view all summaries for that day.
-  </Step>
-  <Step title="Find Queued Summary">
-    Locate the summary you want to cancel under the current day. It will show a "Queued" status indicator.
-  </Step>
-  <Step title="Cancel Generation">
-    Click the red cancel button on the right side of the summary item (hovering shows `Stop Generating`). This stops the generation process and removes it from your queue.
-  </Step>
-</Steps>
+### Viewing Completed Summaries
 
-### Completing and Viewing Summaries
-
-Access your completed summaries and view the full results. When a summary finishes generating, it remains in the day section where it was queued. Click it to view detailed insights, related activities, and links to relevant documents or commits from your workflow.
-
-<Steps>
-  <Step title="Wait for Completion">
-    When a summary finishes generating, it remains in the day section where it was queued. The summary will no longer show a "Queued" status.
-  </Step>
-  <Step title="View Summary">
-    Click the completed summary in your Pieces Timeline to view the full results. Summaries include detailed insights, related activities, and links to relevant documents or commits from your workflow.
-  </Step>
-  <Step title="Browse All Summaries">
-    Scroll through the expanded day section to view all summaries, both queued and completed, organized chronologically.
-  </Step>
-</Steps>
+When a summary finishes generating, it remains in the day section where it was queued. Click it to view detailed insights, related activities, and links to relevant documents or commits from your workflow.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/completed_summary_view_with_results.png" alt="Completed summary with insights, related activities, and document links" align="center" fullwidth="true" />
 
 > Completed summary view showing full results with insights, related activities, and links to relevant documents
 
-## Scheduling Summaries
-
-Schedule single-click summaries to run automatically at a time you choose. As long as Pieces is open and running on your computer, the summary will generate at the scheduled time and appear in your [Pieces Timeline](/products/desktop/timeline).
-
-<Callout type="info">
-  Scheduling is available for all built-in summary types except *Custom Summary*.
-</Callout>
-
-<Steps>
-  <Step title="Open Schedule Modal">
-    Hover over a summary card on the homepage and click `Schedule this summary`, or use the schedule option on the summary card. The schedule modal opens for that summary type.
-  </Step>
-  <Step title="Choose Repeat Frequency">
-    Select **Daily** to run every day, or **Weekly** to run on specific days of the week. For weekly schedules, select one or more days (e.g., Mo, Tu, We, Th, Fr for weekdays).
-  </Step>
-  <Step title="Set the Time">
-    Pick a time from the preset options (6 AM, 8 AM, 9 AM, 12 PM, 5 PM, 9 PM) or choose **Custom** to set a different time.
-  </Step>
-  <Step title="Confirm Schedule">
-    Review the summary message (e.g., "Runs weekdays at 08:00 AM") and click `Schedule` to save. The summary will run automatically at the set time whenever Pieces is open and running.
-  </Step>
-</Steps>
-
-<Callout type="info">
-  Scheduled summaries only run when Pieces is open and running on your computer. If Pieces is closed at the scheduled time, the summary will not generate.
-</Callout>
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/schedule_single_click_summary_modal.png" alt="Schedule summary modal with frequency, day, and time options" align="center" fullwidth="true" />
-
-> Schedule modal showing repeat frequency (Daily/Weekly), day selection, time options, and schedule confirmation message
-
-## Using Summary Types
-
-Learn how to use specific summary types and customize them for your workflow.
-
-### Summary Types
-
-Single-Click Summaries include preset summary types designed for common workflow needs. Each type generates insights tailored to your specific work patterns and captured activities.
-
-| **Summary Type** | **Description** |
-|------------------|-----------------|
-| **Today's Headlines** | Breaking news and headlines personalized to your professional world, based on your recent work context. |
-| **What's Top of Mind** | Identifies recurring topics and priorities from your recent workflow, ranked by importance. |
-| **Morning Brief** | Provides everything you need to kickstart your day, compiled from your recent activities. |
-| **Standup Update** | Generates a three-part update: what you did, what's next, and blockers—perfect for team standups. |
-| **Day Recap** | Compiles an end-of-day summary of your accomplishments, completed tasks, and overall activity. |
-| **Time Breakdown** | Organizes your daily work into projects with in-depth time breakdowns, showing what you worked on per project throughout the day. |
-| **Week Recap** | Provides a comprehensive overview of your week at a glance, including key activities and patterns. |
-| **Custom Summary** | Generate summaries based on specific time ranges and topics you choose. |
-| **AI Habits** | Analyzes how you interact with AI tools, showing patterns in questions asked and topics queried. |
-| **Professional Persona** | Provides work style analysis and professional summary based on your workflow patterns. |
-| **Collaboration Patterns** | Identifies who you work with and how, revealing collaboration dynamics in your workflow. |
-| **Discover** | Access additional summary options and request new summary types through a popup interface. |
-
-### Today's Headlines
-
-Takes the context of what you've been working on recently and uses *Perplexity* to find news articles and headlines related to your work. It summarizes them and delivers a bite-sized overview of what's going on in your industry—so you stay informed without leaving your workflow.
-
-### What's Top of Mind
-
-Identifies recurring topics and priorities from your recent workflow, ranked by importance. This summary helps you understand what's been occupying your attention and what matters most in your current work.
-
-<Embed 
-  src="https://youtu.be/2IzUWFMKaFE?si=qZ_ANfwQYYvWaTnp" 
-  title="What's Top of Mind summary demonstration video"
-/>
-
-### Standup Update
-
-Generates a three-part update: what you did, what's next, and blockers—perfect for team standups. Use this summary to quickly prepare for team meetings and share your progress.
-
-<Embed 
-  src="https://youtu.be/h40PvR7X4Yc?si=2YAlGq3yxPsTwClJ" 
-  title="Standup Update summary demonstration video"
-/>
-
-### Day Recap
-
-Compiles an end-of-day summary of your accomplishments, completed tasks, and overall activity. Review your day's work and track your productivity patterns.
-
-<Embed 
-  src="https://youtu.be/EAMi9jD9Hsk?si=SbaYkk7yx8kDboye" 
-  title="Day Recap summary demonstration video"
-/>
-
-### Time Breakdown
-
-Organizes your work into projects with in-depth time breakdowns, showing what you worked on per project. Time Breakdown reconstructs your billable hours from captured workstream context—categorizing activity by project and providing structured time blocks you can review, refine, and submit.
-
-<Embed 
-  src="https://youtu.be/QXlZt2cPSzE" 
-  title="Time Breakdown summary demonstration video"
-/>
-
-Tap `Discover More` from your Home Dashboard to find Time Breakdown. Choose a preset time range that matches your reporting needs:
-
-* **Last 24 Hours** — Daily timesheet submissions
-* **Last 2 Days** — Catch up on a missed day
-* **Last Week** — Weekly billing cycles or sprint reviews
-* **Last 2 Weeks** — Bi-weekly invoicing
-* **Last 30 Days** — Monthly reviews or end-of-month billing
-
-<Callout type="info">
-  Time ranges longer than 24 hours can take longer to generate—sometimes 15 minutes or more—depending on the amount of data to process.
-</Callout>
-
-Once generated, you can view, edit, copy, export, or use the Time Breakdown as context for a Pieces Copilot chat to ask follow-up questions.
-
-### Week Recap
-
-Provides a comprehensive overview of your week at a glance, including key activities and patterns. Get a high-level view of your weekly productivity and accomplishments.
-
-<Embed 
-  src="https://youtu.be/qqpF54t6nxk?si=RYYJkDd7OZocwNyL" 
-  title="Week Recap summary demonstration video"
-/>
-
-### Morning Brief
-
-Provides everything you need to kickstart your day, compiled from your recent activities. Start your day informed about what you've been working on and what's coming up.
-
-<Embed 
-  src="https://youtu.be/eJkA2sPuOhQ?si=_VgIJMCSgQDkMWGO" 
-  title="Morning Brief summary demonstration video"
-/>
-
-### Professional Persona
-
-Provides work style analysis and professional summary based on your workflow patterns. Understand your professional habits, strengths, and work patterns.
-
-<Embed 
-  src="https://youtu.be/LCK4-n1rCqA?si=r8DY7JK_GzvSxWkv" 
-  title="Professional Persona summary demonstration video"
-/>
-
-### Collaboration Patterns
-
-Identifies who you work with and how, revealing collaboration dynamics in your workflow. Discover your collaboration habits and team interaction patterns.
-
-<Embed 
-  src="https://youtu.be/0jfMafBYMhU?si=efwPxq2ErKUryKUP" 
-  title="Collaboration Patterns summary demonstration video"
-/>
-
-### AI Habits
-
-Analyzes how you interact with AI tools, showing patterns in questions asked and topics queried. Understand your AI usage patterns and how you leverage AI assistance in your workflow.
-
-<Embed 
-  src="https://youtu.be/8pic6I9YtCY?si=xmH069S1Vdx0HNdv" 
-  title="AI Habits summary demonstration video"
-/>
-
-### Using Custom Summary
-
-Generate summaries tailored to specific time periods and topics that matter to you. Custom Summary gives you full control over what gets summarized—select time ranges from your [Pieces Timeline](/products/desktop/timeline) events and optionally add a focus to narrow your summary further.
-
-<Embed 
-  src="https://youtu.be/dHzqb8NC5Sg?si=nSITYt3qb35xxBGf" 
-  title="Custom Summary demonstration video"
-/>
-
-<Steps>
-  <Step title="Open Custom Summary">
-    Click the `Custom Summary` card on the homepage. If it's not visible, tap `Discover More` to view all single-click summary options, then select `Custom Summary`.
-  </Step>
-  <Step title="Configure Parameters">
-    Set your scoping: choose a **Time Range** (e.g., last 24 hours, this week, last week), optionally scope to **Signals** (detected projects), **Applications** (VS Code, Chrome, Slack, etc.), or **Websites** to narrow the focus. Combine multiple dimensions for precise results.
-  </Step>
-  <Step title="Customize Template Identity (Optional)">
-    Give your summary a name, pick a color, and choose an icon. This helps you recognize it at a glance when it appears in your summary library.
-  </Step>
-  <Step title="Save Template (Optional)">
-    Tap `Save` to store your configuration as a reusable template. Once saved, your template lives alongside built-in options like Morning Brief and Day Recap—trigger it with a single click whenever you need it, with no reconfiguration.
-  </Step>
-  <Step title="Generate Summary">
-    Click `Generate` to start creating your custom summary.
-  </Step>
-</Steps>
-
-**Pro tip:** If you generate the same kind of summary more than twice (e.g., weekly client updates, sprint retros), save it as a template. Build it once, use it forever.
-
-### Using Discover
-
-Access additional summary options and request new summary types through Discover. Click the `Discover` summary card to open a popup displaying available summary options—you'll see the standard summary types plus additional options you haven't encountered yet, expanding your choices for generating insights.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/discover_popup.png" alt="Discover popup listing summary types and Request a Summary" align="center" fullwidth="true" />
-
-> Discover popup showing available summary options including Request a Summary
-
-### Requesting a New Summary Type
-
-Suggest new summary types to help shape future Single-Click Summary options. From the Discover popup, select `Request a Summary` to open a form where you can describe what you need.
-
-<Steps>
-  <Step title="Open Discover">
-    Click the `Discover` summary card on the homepage.
-  </Step>
-  <Step title="Select Request a Summary">
-    In the Discover popup, select `Request a Summary`.
-  </Step>
-  <Step title="Enter Artifact Name">
-    Type an artifact name (up to 50 characters) describing the summary type you want.
-  </Step>
-  <Step title="Provide Description">
-    Enter a description (up to 500 characters) explaining what this artifact should do and how it would help you.
-  </Step>
-  <Step title="Submit Request">
-    Click `Submit Request` to send your suggestion to the Pieces team.
-  </Step>
-</Steps>
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/request_a_summary_popup.png" alt="Request a Summary form with name, description, and submit" align="center" fullwidth="true" />
-
-> Request a Summary popup with Artifact Name and Description fields, and Submit Request button
-
-## Managing Your Summaries
-
-Track, view, and manage your generated summaries through the [Pieces Timeline](/products/desktop/timeline). All generated summaries appear in your Pieces Timeline, organized chronologically by day. When you generate a summary, it appears under the current day with a "Queued" status. Once complete, summaries remain in the day section where they were created, and you can browse, search, and access them anytime.
-
-<Steps>
-  <Step title="Open Timeline">
-    Click `Show Timeline` in the top left to expand the Pieces Timeline.
-  </Step>
-  <Step title="Expand Current Day">
-    Click on the current day section (e.g., "Today, Jan 21st") to expand it and view all summaries and activities for that day.
-  </Step>
-  <Step title="View Queued Summaries">
-    Queued summaries appear under the current day with a "Queued" status indicator, showing their position in the processing queue (e.g., "Queued (#3)", "Next in queue").
-  </Step>
-  <Step title="Browse Completed Summaries">
-    Once summaries finish generating, they remain in the day section. Scroll through the expanded day section to view all summaries, both queued and completed.
-  </Step>
-  <Step title="View Summary Details">
-    Click any summary in your Pieces Timeline to view the full results, including detailed insights, related activities, and links to relevant documents or commits.
-  </Step>
-  <Step title="Collapse Day Section">
-    Click the `caret icon` (dropdown arrow) at the top of the day divider to collapse the section and hide its contents.
-  </Step>
-</Steps>
-
 ***
 
-If Single-Click Summaries isn't what you're looking for, check out the [Timeline](/products/desktop/timeline)—your next-best stop for learning about how Pieces [stores memories](/products/desktop/timeline/timeline-events).
+## Explore Single-Click Summaries
+
+<FancyCard title="Default Types" href="/products/desktop/single-click-summaries/default-types" colored={false}>
+  Browse all built-in summary types—Day Recap, Standup Update, Time Breakdown, AI Habits, and more.
+</FancyCard>
+
+<FancyCard title="Customization & Templates" href="/products/desktop/single-click-summaries/customization-templates" colored={false}>
+  Create custom summaries with specific time ranges, save reusable templates, and request new summary types.
+</FancyCard>
+
+<FancyCard title="Scheduling" href="/products/desktop/single-click-summaries/scheduling" colored={false}>
+  Schedule summaries to run automatically—daily or on specific days of the week.
+</FancyCard>

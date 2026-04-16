@@ -3,9 +3,9 @@ title: Understanding Ollama
 path: /core-dependencies/ollama
 visibility: PRIVATE
 status: PUBLISHED
-description: Read about Ollama, an optional dependency which enables fully on-device generative AI capabilities between Pieces Drive and the Pieces Copilot.
+description: Read about Ollama, an optional dependency which enables fully on-device generative AI capabilities between Pieces Drive and Conversational Search.
 metaTitle: Ollama | Pieces Core Dependancies
-metaDescription: Read about Ollama, an optional dependency which enables fully on-device generative AI capabilities between Pieces Drive and the Pieces Copilot.
+metaDescription: Read about Ollama, an optional dependency which enables fully on-device generative AI capabilities between Pieces Drive and Conversational Search.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/ollama.png"
 ---
 
@@ -15,7 +15,7 @@ Ollama is an *optional* but powerful dependency that allows PiecesOS to run Larg
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/ollama_core_dependencies.png" alt="Ollama core dependency for on-device generative AI" align="center" fullwidth="true" />
 
-Unlike PiecesOS—which is required for all Pieces functionality—Ollama is only needed if you want to use local AI models with Pieces Copilot.
+Unlike PiecesOS—which is required for all Pieces functionality—Ollama is only needed if you want to use local AI models with Conversational Search.
 
 <Callout type="tip">
   Using Ollama for local generative AI is *a separate process* from how PiecesOS uses local, in-house LoRA models for processing data with the LTM-2.7 Engine.
@@ -57,7 +57,7 @@ Here’s how Ollama works alongside PiecesOS:
 
 ### Using Local vs Cloud Models
 
-PiecesOS primarily uses cloud-based AI models for Pieces Copilot.
+PiecesOS primarily uses cloud-based AI models for Conversational Search.
 
 However, users who prefer on-device AI for speed, privacy, or offline access can install Ollama to enable local models.
 

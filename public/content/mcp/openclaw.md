@@ -17,7 +17,7 @@ metaDescription: Learn how to integrate Pieces MCP with OpenClaw. OpenClaw execu
 
 ## Get Started
 
-Integrating the [Pieces MCP](/products/mcp/get-started) with OpenClaw brings your workflow context directly into this open-source continuous AI agent runtime. OpenClaw (formerly ClawdBot, formerly Moltbot) runs as a persistent Node.js service—unlike chatbots that respond to one-off prompts, it runs 24/7, executing tasks proactively via cron jobs and event listeners.
+Integrating the [Pieces MCP](/products/mcp) with OpenClaw brings your workflow context directly into this open-source continuous AI agent runtime. OpenClaw (formerly ClawdBot, formerly Moltbot) runs as a persistent Node.js service—unlike chatbots that respond to one-off prompts, it runs 24/7, executing tasks proactively via cron jobs and event listeners.
 
 With Pieces MCP connected, OpenClaw gains access to your Long-Term Memory. It can autonomously query your past work, generate standups, monitor recent activity, and surface relevant context without you asking.
 
