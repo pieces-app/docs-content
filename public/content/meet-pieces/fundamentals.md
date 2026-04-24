@@ -35,7 +35,7 @@ You can ask questions like, "*What was the link to that document I worked on las
 
 Here are some ways to take advantage of the LTM-2.7:
 
-* `Contextual Recall`: LTM-2.7 remembers the websites you visit, the work you do, and what you save. You can access this from the Pieces Desktop App or in Conversational Search inside of your IDE—just install the Pieces extension or plugin.
+* `Contextual Recall`: LTM-2.7 remembers the websites you visit, the work you do, and what you save. You can access this from the Pieces Desktop App or in Conversational Search inside your IDE via [MCP integration](/products/mcp).
 
 * `Natural Language Queries`: Ask questions about your past work, and LTM-2.7 will find the right link or file path for you. You can also ask it to summarize a webpage you visited earlier.
 

@@ -101,7 +101,7 @@ Use a folder of specific file as context for Conversational Search by initiating
 
 ## Pieces MCP
 
-The Pieces CLI bridges MCP to your development tools—no manual config editing required. Run `pieces mcp setup` from your terminal to get started.
+The Pieces CLI bridges the Model Context Protocol (MCP) to your development tools—no manual config editing required. Run `pieces mcp setup` from your terminal to get started.
 
 ### Setup
 

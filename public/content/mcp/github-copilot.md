@@ -199,9 +199,9 @@ If you’re experiencing issues integrating Pieces MCP with GitHub Copilot, foll
 
 1. **Verify PiecesOS Status**: Ensure [PiecesOS is actively running](/products/core-dependencies/pieces-os/troubleshooting) on your system. MCP integration requires PiecesOS to be operational.
 
-2. **Confirm LTM Engine Activation**: Make sure the [Long-Term Memory Engine (LTM-2.7) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for Cursor to retrieve accurate results.
+2. **Confirm LTM Engine Activation**: Make sure the [Long-Term Memory Engine (LTM-2.7) is enabled in PiecesOS](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine), as this engine aggregates context necessary for GitHub Copilot to retrieve accurate results.
 
-3. **Use Agent Mode in Chat**: Cursor must be in *Agent*, not *Ask*, to access the `ask_pieces_ltm` tool. Switch to Agent to enable full MCP integration. Make sure *not to add* the `ask_pieces_ltm` tool as context—instead, rely solely on the *Agent* chat mode.
+3. **Use Chat Participant**: In VS Code, invoke the Pieces MCP tools by mentioning `@pieces` in GitHub Copilot Chat. Ensure you're using GitHub Copilot Chat (not inline completions) for full MCP integration.
 
 4. **Single MCP Instance:** Make sure that you aren’t testing multiple instances of the Pieces MCP server in different IDEs. This cross-contamination conflict with the SSE and several MCP instances running on the same port can cause issues in different development environments.
 
