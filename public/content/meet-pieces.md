@@ -202,11 +202,11 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
     Configure preferences and start capturing context.
     
     1. Open the Desktop App
-    2. Turn on Long‑Term Memory in the PiecesOS toolbar
+    2. Turn on Long-Term Memory in the PiecesOS toolbar
     3. Work as usual—Pieces captures context automatically
     
     <Callout type="info">
-      Pro tip: See how to toggle Long‑Term Memory in the Quick Menu [here](https://docs.pieces.app/products/core-dependencies/pieces-os/quick-menu#ltm-25-engine).
+      Pro tip: See how to toggle Long-Term Memory in the Quick Menu [here](https://docs.pieces.app/products/core-dependencies/pieces-os/quick-menu#ltm-25-engine).
     </Callout>
     
     **Captured automatically:**

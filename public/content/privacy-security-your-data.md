@@ -3,156 +3,138 @@ title: Privacy, Security & Your Data
 path: /privacy-security-your-data
 visibility: PUBLIC
 status: PUBLISHED
-description: At Pieces, we believe that your trust is paramount—that's why we've built our platform with a local-first approach that keeps your code and data safely on your device by default.
+description: Pieces is built local-first and SOC 2 Type II certified—your code and context stay on your device by default. This page covers where your data lives, how security is designed, what runs offline, and the controls you have over telemetry and cloud features.
 metaTitle: Pieces Privacy & Security | Your Data
-metaDescription: Understand how Pieces handles privacy, security, and data protection to keep your AI-assisted development experience secure.
+metaDescription: How Pieces keeps your data private and secure—local-first architecture, SOC 2 Type II compliance, optional cloud features, on-device LTM processing, and full user control.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/privacy_security_your_data.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="Pieces privacy and security banner" align="center" fullwidth="true" />
-
-
-## Private and Secure
-
-Your privacy and security are our **top priorities.**
-
-Pieces is built with a local-first architecture, so your code stays on-device by default, with complete offline functionality and cloud capabilities *only if enabled.*
-
-Designed for complete user control, all cloud features are opt-in only, telemetry is clearly marked and opt-out of, and you have full control over all privacy settings.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="" align="center" fullwidth="true" />
 
 ***
 
-🛡️ *We are SOC 2 Certified & Enterprise-Ready!*
+## Local-First by Design
+Pieces runs on your device. Your code, chats, and long-term memory context never leave your machine unless you explicitly enable a cloud feature.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_compliance.png" alt="SOC 2 compliance certification badge" align="center" />
+That means full offline functionality by default, opt-in cloud integrations, clearly marked telemetry, and granular controls over everything you share.
 
-***
+<Callout type="info">
+  Pieces is **SOC 2 Type II certified** and enterprise-ready. We never use your data to train models, and you can delete everything at any time by removing the `com.pieces.os` folder.
+</Callout>
 
-## Data Storage & Control
+## Where Your Data Lives
+All Pieces data is stored in a single folder on your device—easy to back up, copy, move between machines, or delete entirely.
 
-All of your data is stored locally. When interacting with cloud-based LLMs, Pieces defaults to the model provider's Privacy Policy—like OpenAI—since we use their API to provide the model.
+The `com.pieces.os` folder holds your long-term memory context, saved materials, and logs. You can copy it to OneDrive, a USB drive, or another machine without touching any cloud service.
 
-### Where Your Data Lives
+<Tabs>
+  <TabItem title="macOS">
+    ```plaintext
+    /Users/<username>/Library/com.pieces.os/
+    ```
+  </TabItem>
 
-All Pieces data is stored on your device and can be deleted, copied, compressed, or moved between devices without relying on cloud services. This allows easy transfer, simple backup, and no cloud dependency.
+  <TabItem title="Windows">
+    ```plaintext
+    C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\
+    ```
+  </TabItem>
 
-At any time, you can find your up-to-date log files can find your log files in the following locations, depending on your platform:
-
-* macOS: `/Users/<username>/Library/com.pieces.os/`
-
-* Windows: `C:/Users/<username>/Documents/com.pieces.os/`
-
-* Linux: `/Users/<username>/Documents/com.pieces.os/`
+  <TabItem title="Linux">
+    ```plaintext
+    /home/<username>/.local/share/com.pieces.os/
+    ```
+  </TabItem>
+</Tabs>
 
 <Callout type="tip">
-  Replace \<username> with your system username.
+  Replace `<username>` with your system username. For detailed backup and migration steps, see [On-Device Storage](/products/core-dependencies/on-device-storage).
 </Callout>
 
 ## Security Architecture
+Pieces is architected so your sensitive work stays isolated from external networks whenever possible.
 
-Our system is built to run entirely on your device, ensuring your data never leaves your machine unless you choose to use cloud features.
+The core design keeps processing local, makes cloud connectivity optional, and uses per-user data isolation when cloud features are enabled.
 
-* **All Core Features Work Offline:** Our platform runs on-device, processing your *code and sensitive data locally.* This minimizes exposure to external networks and reduces unauthorized access risks.
+* **Offline-first processing** — code analysis, language detection, secret detection, and tag generation run on-device, minimizing exposure to external networks.
+* **Opt-in cloud** — no data leaves your machine unless you enable a cloud feature.
+* **Isolated user data** — each developer's data is stored in its own micro-database, preventing cross-contamination.
+* **Decentralized by default** — no centralized server holds your data, so there's no single point of failure.
 
-* **No Mandatory Cloud Connectivity:** You control your data. Cloud services are optional, and *no data is sent or stored remotely* unless you enable it.
+### What Runs Offline
+These pillars of Pieces functionality work fully offline, with cloud as an optional enhancement rather than a requirement.
 
-* **Private By Default:** Your development environment is *isolated from external servers* by default, enhancing security and reducing data breach risks.
+| **Feature**        | **Local** | **Cloud (Optional)** |
+| ------------------ | :-------: | :------------------: |
+| Code Analysis      |     ✅     |          ✅           |
+| Language Detection |     ✅     |          ✅           |
+| Secret Detection   |     ✅     |          ✅           |
+| Tag Generation     |     ✅     |          ✅           |
+| Long-Term Memory   |     ✅     |          ✅           |
+| Conversational Chat (with local models) |     ✅     |          ✅           |
 
-### Enterprise Security Features
+## Long-Term Memory Security
+The Long-Term Memory (LTM-2.7) Engine is the most context-aware part of Pieces—and the most important to keep local.
 
-We provide robust, isolated data storage and a scalable architecture designed to meet the high security demands of enterprise environments.
+By default, every LTM function runs on your device. You can pair it with a local LLM through PiecesOS for end-to-end on-device processing, so nothing about your work ever crosses the network.
 
-* **Individual User Repositories:** Each developer's data is stored separately in isolated micro-databases to prevent cross-contamination.
+* **On-device processing** — LTM runs locally by default, keeping sensitive context within your environment.
+* **Built-in local models** — download and run local LLMs directly through PiecesOS for fully offline conversations.
+* **You decide what's shared** — cloud features are opt-in per interaction, so you stay in control at every step.
 
-* **No Centralized Servers:** Our decentralized approach avoids a single point of failure, reducing the risk of large-scale breaches.
+<Callout type="alert">
+  For the strongest privacy posture, pair LTM-2.7 with a local model. This keeps Long-Term Memory, Conversational Search, and Pieces Drive fully on-device.
+</Callout>
 
-* **Dedicated Cloud Instances (If Enabled):** For those using cloud connectivity, we provide dedicated instances with high isolation, security, and enterprise-grade scalability.
+## Privacy Controls
+You have full control over what Pieces collects, stores, and sends—no dark patterns, no mandatory telemetry.
 
-### Compliance & Certifications
+Every Pieces product exposes settings for data sharing, cloud connectivity, and telemetry so you can match the tool to your team's policies.
 
-Our platform meets stringent industry standards—with SOC-2 compliance and regular security audits—ensuring you can trust our secure infrastructure.
+* **All cloud features are opt-in** — nothing is sent remotely unless you turn it on.
+* **Telemetry is anonymous and opt-out** — clearly marked, never tied to your code.
+* **Granular settings per product** — PiecesOS, the Desktop App, and each integration expose their own privacy controls.
+* **No model training on your data** — ever.
+
+## Cloud Integration (Optional)
+When you do enable cloud features, each user gets their own isolated infrastructure rather than a shared pool.
+
+This isolation makes Pieces cloud suitable for enterprise environments where tenancy and data segregation matter.
+
+* **Per-user cloud instance** — your cloud environment is dedicated to your account, not shared.
+* **Unique subdomain per user** — further isolates your data from other tenants.
+* **Independent scaling** — performance scales with your usage without affecting other users.
+* **Data isolation** — even in cloud mode, your data is segregated from every other user's.
+
+## Compliance & Certifications
+Pieces meets the standards required by enterprise security teams, with regular audits and enterprise-grade authentication.
 
 <Steps>
-  <Step title="SOC-2 Compliant Infrastructure">
-    Our systems meet the *stringent requirements* of SOC-2 compliance, a critical benchmark for security in enterprise environments. 
+  <Step title="SOC 2 Type II Certified">
+    Our systems meet the stringent requirements of SOC 2 Type II—a critical benchmark for security, availability, and confidentiality in enterprise environments.
   </Step>
 
   <Step title="Regular Security Audits">
-    We conduct frequent audits of our infrastructure to ensure that our security practices not only meet but exceed industry standards.
-
-    These audits help us identify potential vulnerabilities and *continuously improve* our systems.
+    We audit our infrastructure frequently to identify potential vulnerabilities and continuously improve our systems beyond the baseline that certifications require.
   </Step>
 
-  <Step title="Enterprise-Ready Authentication with Auth0">
-    Secure access is key to our security. Using Auth0, we ensure only *authorized* users access sensitive data, with advanced and multi-factor authentication options for extra protection.
+  <Step title="Enterprise Authentication with Auth0">
+    Access is protected through Auth0, with support for multi-factor authentication and the advanced sign-in options enterprise teams expect.
   </Step>
 </Steps>
 
-## Privacy Controls
+## Privacy Policy & Questions
+Our full privacy policy covers the details not addressed here. Reach out if you have specific concerns or need documentation for a security review.
 
-We ensure users have full control over their privacy settings, data collection, and telemetry. **All data collection is opt-out**, telemetry is anonymous, and there are *clear opt-out options* in all our products.
-
-Each Pieces product offers detailed settings for *data sharing, Cloud connectivity, and telemetry controls.*
-
-<Callout type="tip">
-  Our tools keep your data safe by processing it on your device. Tasks run locally, and we *never* use your data to train models. You can disable cloud processing anytime to keep data on your device.
-</Callout>
-
-### Available Offline Features
-
-Many of the core pillars of Pieces functionality have been designed to be offline-flexible.
+* Read our <a target="_blank" href="https://pieces.app/legal/privacy-policy">Privacy Policy</a>
+* <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">Book a call</a> with our team
+* Open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a> or join our <a target="_blank" href="https://pieces.app/discord">Discord</a>
 
 ***
 
-| **Feature**        | **Local Available** | **Cloud Optional** |
-| ------------------ | ------------------- | ------------------ |
-| Code Analysis      | ✅                   | ✅                  |
-| Language Detection | ✅                   | ✅                  |
-| Secret Detection   | ✅                   | ✅                  |
-| Tag Generation     | ✅                   | ✅                  |
+## Next Steps
+Dig deeper into how Pieces stores your data and what runs locally.
 
-***
+[On-Device Storage →](/products/core-dependencies/on-device-storage)
 
-### Cloud Integration (Optional)
-
-For users who choose to leverage cloud-based features, our platform offers secure, scalable cloud integration while keeping you in full control.
-
-* **Individual Cloud Infrastructure:** Each user gets their own dedicated cloud setup so your data remains isolated and secure.
-
-* **Unique Subdomain Per User:** Your cloud instance is accessed via a unique subdomain, further isolating your data from others.
-
-* **Independent Scaling:** Our cloud services automatically scale based on *your* usage so you get consistent performance without compromising security.
-
-* **Data Isolation:** Even when using cloud functionalities, we make sure your data remains segregated from other users’ data.
-
-### Long-Term Memory (LTM-2.7) Security
-
-Our Long-Term Memory (LTM-2.7) Engine is designed to protect your work through on-device processing and advanced local integration options.
-
-* **On-device Processing:** All LTM functions run locally by default, keeping your sensitive data within your own environment.
-
-* **Built-in Local Models:** You can download and use local LLMs directly through PiecesOS for complete on-device AI processing with added security.
-
-* **Complete Control Over Data Sharing:** Decide when and if your data is shared, so you can be confident that you maintain full ownership and control over your information.
-
-<Callout type="alert">
-  For users concerned about privacy, we strongly recommend using local models with Pieces products, so LTM-2.7, Conversational Search and Pieces Drive never send data through the cloud.
-</Callout>
-
-## Privacy Policy Updates
-
-We maintain transparency about <a target="_blank" href="https://pieces.app/legal/privacy-policy">our privacy practices</a>.
-
-For the latest updates or specific concerns, please <a target="_blank" href="https://calendar.app.google/WVUDtUfNy5Vst3sH7">contact our support team.</a>
-
-***
-
-### Support & Documentation
-
-Need help or have questions about privacy?
-
-* Visit our [Support Page](/products/support)
-
-* Join our <a target="_blank" href="https://pieces.app/discord">Discord community</a>
-
-* Open a <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a>
+[Support →](/support)
