@@ -45,32 +45,6 @@ Access additional summary options and request new summary types through Discover
 
 > Discover popup showing available summary options including Request a Summary
 
-## Requesting a New Summary Type
-
-Suggest new summary types to help shape future Single-Click Summary options. From the Discover popup, select `Request a Summary` to open a form where you can describe what you need.
-
-<Steps>
-  <Step title="Open Discover">
-    Click the `Discover` summary card on the homepage.
-  </Step>
-  <Step title="Select Request a Summary">
-    In the Discover popup, select `Request a Summary`.
-  </Step>
-  <Step title="Enter Artifact Name">
-    Type an artifact name (up to 50 characters) describing the summary type you want.
-  </Step>
-  <Step title="Provide Description">
-    Enter a description (up to 500 characters) explaining what this artifact should do and how it would help you.
-  </Step>
-  <Step title="Submit Request">
-    Click `Submit Request` to send your suggestion to the Pieces team.
-  </Step>
-</Steps>
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/single-click-summaries/request_a_summary_popup.png" alt="Request a Summary form with name, description, and submit" align="center" fullwidth="true" />
-
-> Request a Summary popup with Artifact Name and Description fields, and Submit Request button
-
 ***
 
 Want summaries to run on a schedule? See [Scheduling](/products/desktop/single-click-summaries/scheduling).

@@ -8,7 +8,7 @@ metaTitle: Billing | Pieces Docs
 metaDescription: Guide to managing organization subscriptions, seat counts, billing addresses, and payment information.
 ---
 
-## Billing
+***
 
 The Billing page allows you to manage your organization's subscription, view billing details, adjust seat counts, and add billing contact information.
 

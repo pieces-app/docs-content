@@ -9,12 +9,6 @@ metaDescription: Learn how to configure organization settings and control featur
 ---
 
 
-<Embed 
-  src="https://youtu.be/CORIPIJRKZ4" 
-  title="Organization Settings overview video demonstrating settings configuration and feature toggles"
-/>
-
-
 ***
 
 ## How to Get to Settings

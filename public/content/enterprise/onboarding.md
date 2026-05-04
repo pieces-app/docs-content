@@ -8,7 +8,7 @@ metaTitle: Onboarding Users | Enterprise | Pieces Docs
 metaDescription: Standalone enterprise onboarding guide—invite team members, get Pieces installed, and start collaborating.
 ---
 
-## Onboarding Users
+***
 
 This guide walks admins through getting their team set up with Pieces and walks team members through accepting their invitation and installing Pieces. Share this page directly with your team to get everyone onboarded.
 

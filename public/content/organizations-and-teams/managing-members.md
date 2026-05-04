@@ -8,7 +8,7 @@ metaTitle: Managing Members | Pieces Docs
 metaDescription: Comprehensive guide to managing organization members, roles, and seat allocation.
 ---
 
-## Managing Members
+***
 
 The Members tab provides a comprehensive view of all organization members, seat usage, pending invitations, and member management tools. Use this section to track membership, update roles, and manage access.
 

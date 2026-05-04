@@ -8,7 +8,7 @@ metaTitle: LTM Websites Settings | Pieces Docs
 metaDescription: Learn how to enable LTM website management and block specific websites from Long Term Memory.
 ---
 
-## LTM Websites Settings
+***
 
 The LTM Websites settings allow you to configure which websites are blocked from Long Term Memory. You must **enable** *Organization managed denied websites* in the General tab first; then use the *Websites* tab to add blocked sites. **Disable** the toggle to fully turn off organization-managed website blocking. These settings automatically sync to all team members' Pieces Desktop and PiecesOS installations.
 

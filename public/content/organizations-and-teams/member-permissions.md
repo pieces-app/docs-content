@@ -8,7 +8,7 @@ metaTitle: Member Permissions | Pieces Docs
 metaDescription: Comprehensive guide to organization member roles and permissions in Pieces.
 ---
 
-## Member Permissions
+***
 
 Understanding your role and permissions helps you know what you can do within your organization and what requires owner or admin access. Each role has specific capabilities and limitations.
 

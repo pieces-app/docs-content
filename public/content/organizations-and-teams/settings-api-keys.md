@@ -8,7 +8,7 @@ metaTitle: API Keys Settings | Pieces Docs
 metaDescription: Learn how to configure API keys for OpenAI, Anthropic, and GCP in the API Keys tab within the Models section.
 ---
 
-## API Keys Settings
+***
 
 The API Keys tab is one of two tabs within the *Models* section—the organization management area for AI configuration. From the API Keys tab, you configure credentials for model providers (OpenAI, Anthropic, GCP). These API keys automatically sync to all team members' Pieces Desktop and PiecesOS installations, enabling your team to use these services without individual configuration.
 

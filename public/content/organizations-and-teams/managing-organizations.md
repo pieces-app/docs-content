@@ -9,12 +9,6 @@ metaDescription: Comprehensive guide to managing organizations, members, billing
 ---
 
 
-<Embed 
-  src="https://youtu.be/JSZukOKGq-o?si=6AgCVOU_5CbUwsg6" 
-  title="Managing Organizations overview video demonstrating admin features, member management, billing, and settings configuration"
-/>
-
-
 ***
 
 ## Organization Home

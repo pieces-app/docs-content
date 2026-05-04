@@ -55,7 +55,7 @@ When you `share` a snippet, it’s not just the code that’s included. The snip
 
 ## What Information Gets Shared
 
-When you save a snippet to the Pieces Cloud, the code is [enriched with valuable information](/products/cli/drive/save-snippets#what-happens-when-you-save-a-snippet), such as related people, links, annotations, tags, and an automatically generated description.
+When you save a snippet to the Pieces Cloud, the code is [enriched with valuable information](/products/cli/drive/saving-materials#what-s-stored-when-you-save-a-snippet), such as related people, links, annotations, tags, and an automatically generated description.
 
 This information appears to the right of the code block when the shared snippet is open in your browser:
 

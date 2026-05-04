@@ -8,7 +8,7 @@ metaTitle: Long Term Memory Settings | Pieces Docs
 metaDescription: Learn how to configure LTM context capture, application sources, denied websites, and default models for memory processing.
 ---
 
-## Long Term Memory Settings
+***
 
 The Long Term Memory section allows you to configure context capture settings, manage which applications and websites Pieces can access, and set default models for memory processing. These settings automatically sync to all team members' Pieces Desktop and PiecesOS installations. Long Term Memory is a top-level section in the organization sidebar.
 
