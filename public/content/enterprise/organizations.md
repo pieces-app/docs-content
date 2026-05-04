@@ -8,7 +8,7 @@ metaTitle: Organizations | Enterprise | Pieces Docs
 metaDescription: Enterprise organization management—creating organizations and managing members.
 ---
 
-## Organizations
+***
 
 Organizations in Pieces let you collaborate at scale. Create organizations, invite team members, and maintain consistent settings across your enterprise.
 

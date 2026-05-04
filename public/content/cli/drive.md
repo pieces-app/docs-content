@@ -7,7 +7,7 @@ status: PUBLISHED
 
 ### Using Pieces Drive in the Pieces CLI
 
-The Pieces CLI boosts development productivity and saves time with features like [saving](/products/cli/drive/save-snippets) and [reusing](/products/cli/drive/search-reuse) materials, ensuring your important code is always accessible.
+The Pieces CLI boosts development productivity and saves time with features like [saving](/products/cli/drive/saving-materials) and [reusing](/products/cli/drive/search-reuse) materials, ensuring your important code is always accessible.
 
 ## Use Cases & Examples
 
@@ -78,7 +78,7 @@ This keeps your library up-to-date, relevant, and aligned with your project's pr
 
 Imagine you’re frequently working on projects that involve scheduling tasks at regular intervals.
 
-Instead of rewriting the same logic for each new project, [save an evergreen snippet to your Pieces Drive.](/products/cli/drive/save-materials#save-snippets)
+Instead of rewriting the same logic for each new project, [save an evergreen snippet to your Pieces Drive.](/products/cli/drive/saving-materials#how-to-save-materials)
 
 This allows you to reuse a well-crafted scheduling function across multiple applications, that is useful in a variety of scenarios:
 
@@ -106,7 +106,7 @@ func scheduleTask(interval time.Duration, task func()) {
 
 ### File System Monitoring
 
-Suppose you frequently work on projects that involve monitoring file system changes. In that case, you can [save a helpful snippet to your Pieces Drive](/products/cli/drive/save-materials#saving-snippets) that does precisely that, using generic and reusable naming conventions:
+Suppose you frequently work on projects that involve monitoring file system changes. In that case, you can [save a helpful snippet to your Pieces Drive](/products/cli/drive/saving-materials#how-to-save-materials) that does precisely that, using generic and reusable naming conventions:
 
 ```go
 package main

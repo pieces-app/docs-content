@@ -29,11 +29,11 @@ You can talk with all your memories, or customize which memories to include by f
 
 ### Search Across Your Workflow
 
-Ask questions across your entire workflow history or filter by specific apps and time ranges. Access it directly from the homepage.
+Ask questions across your entire workflow history or filter by specific apps, time ranges, and modalities. Access it directly from the homepage.
 
 * **Ask specific questions** about your memories to find information quickly
 * **Search across your workflow** to discover patterns and connections
-* **Filter by apps or dates** using Sources and Time Ranges for focused answers
+* **Filter by apps, dates, or modalities** using Sources, Time Ranges, and Modalities for focused answers
 
 ### Chat from a Specific Event
 
@@ -67,11 +67,11 @@ At the bottom of the chat, click `Activate DeepStudy` (marked **PRO**). Your nex
 </FancyCard>
 
 <FancyCard title="Scoping Your Prompt" href="/products/desktop/conversational-search/scoping-your-prompt" colored={false}>
-  Use Sources and Time Ranges filters to narrow which memories you're searching through.
+  Use Sources, Time Ranges, and Modalities filters to narrow which memories you're searching through.
 </FancyCard>
 
 <FancyCard title="Setting Additional Context" href="/products/desktop/conversational-search/setting-context" colored={false}>
-  Control LTM context, start chats from Timeline Events, use chat pipelines, and view source memories.
+  Control LTM context, start chats from Timeline Events, and view source memories.
 </FancyCard>
 
 <FancyCard title="Models" href="/products/desktop/conversational-search/models" colored={false}>

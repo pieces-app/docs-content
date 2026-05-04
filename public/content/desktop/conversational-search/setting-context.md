@@ -3,9 +3,9 @@ title: Setting Additional Context
 path: /desktop/conversational-search/setting-context
 visibility: PUBLIC
 status: PUBLISHED
-description: Control LTM context, chat from Timeline Events, use chat pipelines, and manage how Conversational Search accesses your workflow history.
+description: Control LTM context, chat from Timeline Events, and manage how Conversational Search accesses your workflow history.
 metaTitle: Setting Additional Context | Conversational Search
-metaDescription: Control LTM context, start chats from Timeline Events, use chat pipelines, and configure how Conversational Search uses your workflow history.
+metaDescription: Control LTM context, start chats from Timeline Events, and configure how Conversational Search uses your workflow history.
 ---
 
 ## LTM Context Toggle
@@ -54,22 +54,6 @@ Start context-specific chats directly from any Timeline Event. When you start a 
 > Timeline Event detail showing Start Related Chat opening Conversational Search with pre-loaded context
 
 You can also use the **three-dots menu** (⋮) on any event and choose `Chat` to scope a conversation to that item. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary).
-
-## Chat Pipelines
-
-When you start a **New Chat**, you can pick a **chat pipeline** that shapes how the model uses context:
-
-| **Pipeline** | **Type** | **Use case** |
-| --------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| *Generally discuss technical topics* | Multipurpose | General technical discussion and mixed modalities. |
-| *Ask questions about a local code base* | Project-oriented comprehension | Optimized when LTM has captured relevant IDE or repo activity. |
-| *Generate code for a local project* | Project-oriented generation | Optimized when recent workflow memories include the project. |
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/chat_pipelines.png" alt="Chat pipeline dropdown with multipurpose, comprehension, and generation options" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  You can set one of these pipelines as the default when creating new chats.
-</Callout>
 
 ## Viewing the Relevant Summaries Sidebar
 

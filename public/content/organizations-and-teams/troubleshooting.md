@@ -8,7 +8,7 @@ metaTitle: Troubleshooting Organizations & Teams | Pieces Docs
 metaDescription: Find solutions to common organization access issues and authentication problems.
 ---
 
-## Troubleshooting Organizations & Teams
+***
 
 If you encounter issues when creating, accessing, or managing organizations, use this guide to resolve common problems.
 

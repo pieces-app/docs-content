@@ -8,7 +8,7 @@ metaTitle: Features | Enterprise | Pieces Docs
 metaDescription: Enterprise features—admin controls, security, compliance, and team management.
 ---
 
-## Features
+***
 
 Pieces Enterprise includes features designed for teams and organizations at scale. Admin controls, security, and compliance options help you deploy Pieces across your engineering organization.
 

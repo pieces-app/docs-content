@@ -5,100 +5,54 @@ visibility: PUBLIC
 status: PUBLISHED
 ---
 
-***
+## Configuring the Pieces CLI
 
-## Settings and Models
+Pick which cloud model powers `ask`, set the editor that opens your config file, and manage your Pieces Cloud session. For the full command list, see the [commands reference](/products/cli/commands).
 
-Configure the Pieces CLI by changing both language models and the code editor.
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="" align="center" fullwidth="true" />
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="Available models and settings configuration" align="center" fullwidth="true" />
+> Switching between available models inside the Pieces CLI.
 
-> Available models and settings configuration interface
+## Available Cloud Models
 
-## Supported LLMs
+The Pieces CLI uses the same catalog of cloud LLMs as the rest of the Pieces Suite, with both *Free* and *Pro* tiers noted on each model.
 
-The Pieces CLI supports 26 cloud-based language models that you can switch between.
+<pieces-cloud-models />
 
-We continually update and configure our MCP integrations to ensure compatibility with the latest large language models (LLMs).
+For deeper guidance on picking the right model—and on configuring local LLMs—see [LLM Settings](/products/cli/copilot/llms-settings) and the full [Cloud Models](/products/large-language-models/cloud-models) reference.
 
-| Supported LLMs                | Supported LLMs   |
-| ----------------------------- | ---------------- |
-| Gemini-2.5 Flash Preview      | GPT-4o Mini      |
-| o4 Mini                       | Gemini-1.5 Pro   |
-| o3                            | Gemini-1.5 Flash |
-| GPT-4.1                       | GPT-4o           |
-| Gemini-2.0 Flash Lite         | Claude 3 Haiku   |
-| Gemini-2.5 Pro Experimental   | Claude 3 Sonnet  |
-| Gemini-2.5 Pro Preview        | Claude 3 Opus    |
-| Claude 3.7 Sonnet             | GPT-4 Turbo      |
-| o3 Mini                       | (Gemini)         |
-| o1                            | GPT-3.5-turbo    |
-| Gemini-2.0 Flash Experimental | GPT-4            |
-| Claude 3.5 Sonnet             | Codey (PaLM2)    |
-| Claude 3.5 Haiku              | (PaLM2)          |
+## Switch the Active Model
 
-[Read documentation on how to switch your Conversational Search Runtime (LLM)](/products/cli/copilot/llms-settings) utilized by the Pieces CLI.
+Use `pieces list models` to view every model configured for the `ask` command. The active model is highlighted, and you can pick a new one interactively from the list.
 
-## Settings Overview
+```bash
+pieces list models
+```
 
-A breakdown of each adjustable setting you can configure in the Pieces CLI, organized by section.
+The next `pieces ask "..."` you run will use the newly selected model.
 
-### List Applications
+## Set Your Code Editor
 
-View all registered applications and verify which integrations are available.
+The CLI opens its config file in whichever editor you specify—`vim`, `code`, `nano`, or anything else on your `PATH`. Run `pieces config` to print the current configuration, or `pieces config --editor <editor>` to open the file for editing.
 
-Run `list apps` to see every application you've registered. This prints a table of app names and IDs so you can verify which integrations are available.
+```bash
+pieces config
+pieces config --editor code
+```
 
-### List Models
+Edit values like `timeout: 10`, save the file, and changes take effect on your next CLI invocation.
 
-Display all language models configured for the `ask` command.
+## Account & Sync
 
-Use `list models` to display all language models you've configured for the `ask` command. The output shows each model's name and index, and which is currently active.
+`pieces login` signs you in to your Pieces Cloud account, enabling sync and access to private materials in your [Pieces Drive](/products/cli/drive). `pieces logout` clears your session—useful when switching accounts or working on a shared machine.
 
-### View Configuration
-
-Print your current IDE selection for code editing.
-
-Run `config` to print your current IDE selection for code editing.
-
-### Edit Configuration
-
-Open your config file in your preferred editor to adjust settings.
-
-Execute `config --editor <editorName>` to open your config file in the editor of your choice. Simply adjust values (for example, change `timeout: 10` to `timeout: 20`) and save—your changes take effect immediately.
-
-### Login
-
-Authenticate with your Pieces Cloud account to sync materials and access private resources.
-
-Run `login` to authenticate with your Pieces Cloud account. You'll be prompted for credentials in a web browser; once you're logged in, you can sync materials and access private resources in your [Pieces Drive](/products/cli/drive).
-
-### Logout
-
-Clear your saved credentials and end your session.
-
-Use `logout` to clear your saved credentials and end your session. This is useful when switching accounts or working on a shared machine.
-
-### Contribute
-
-Start a contribution workflow to submit improvements to the CLI.
-
-Kick off a contribution workflow with `contribute`. You'll be guided through describing your changes, and a pull-request template will open in your browser so you can submit improvements to the CLI.
-
-### Install PiecesOS
-
-Download and set up PiecesOS, which provides background services and a graphical dashboard.
-
-Run `install` to download and set up the [PiecesOS](/products/core-dependencies/pieces-os), which provides background services, like Pieces Drive, and a graphical dashboard for non-CLI related tasks.
-
-### Open PiecesOS
-
-Launch the desktop app or helper Applet.
-
-Use `open` to launch the desktop app or helper Applet. If it isn't already running, this command starts the service and brings up the GUI.
+```bash
+pieces login
+pieces logout
+```
 
 ***
 
 ## Next Steps
 
-For additional support resources, check out our [troubleshooting guide.](/products/cli/troubleshooting)
+Hit a snag? Check the [troubleshooting guide](/products/cli/troubleshooting). For a complete reference of every CLI command and flag, see [Commands](/products/cli/commands).

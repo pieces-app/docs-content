@@ -8,7 +8,7 @@ metaTitle: Inviting Members | Pieces Docs
 metaDescription: Step-by-step guide to inviting members to your organization, including single invites, multiple invites, and CSV bulk uploads.
 ---
 
-## Inviting Members
+***
 
 Add team members by sending invitations. You can invite one at a time, add multiple, or bulk upload via CSV. Each member needs an available seat.
 

@@ -61,11 +61,11 @@ Use `Start New Chat` when you want to discuss a completely different topic. Star
 
 ### Scoping a chat to one summary or event
 
-You cannot attach local files or folders to Conversational Search. To focus the assistant on **one** specific memory (for example a generated summary), open that item in [Pieces Timeline](/products/desktop/timeline), open the **three-dots menu** (⋮) on the event, and choose **`Chat`**. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary). For a broader slice of memories, use **Sources** and **Time Ranges** below.
+You cannot attach local files or folders to Conversational Search. To focus the assistant on **one** specific memory (for example a generated summary), open that item in [Pieces Timeline](/products/desktop/timeline), open the **three-dots menu** (⋮) on the event, and choose **`Chat`**. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary). For a broader slice of memories, use **Sources**, **Time Ranges**, and **Modalities** below.
 
 ## Filtering Your Searches
 
-Filter by specific apps or time ranges to narrow your search scope and get more focused answers.
+Filter by specific apps, time ranges, or modalities to narrow your search scope and get more focused answers.
 
 ### Sources Filter
 
@@ -111,9 +111,38 @@ Focus searches on specific time periods. Use this when you need information from
 
 > Time Ranges modal showing preset options and calendar view
 
+### Modalities Filter
+
+Restrict searches to specific types of captured context—what you've seen, copied, said, or scheduled. Use this when you want answers grounded in a particular *kind* of memory rather than a particular app.
+
+<Steps>
+  <Step title="Click Modalities Button">
+    Click the `Modalities` button in the *bottom toolbar* to open the **Refine by Modality** panel.
+  </Step>
+
+  <Step title="Select Modalities">
+    Check any combination of the available modalities:
+
+    - **Vision** — what you've seen (screen context captured by LTM).
+    - **Clipboard** — what you've copied and pasted.
+    - **Audio** — what you've said and heard.
+    - **Google Calendar** — events and meeting context from connected calendars.
+  </Step>
+
+  <Step title="Manage Connections">
+    Click **Manage Connections** at the bottom of the panel to enable, disable, or authorize the integrations that power each modality (for example, connecting a Google Calendar account).
+  </Step>
+
+  <Step title="Apply Filter">
+    Selected modalities apply to your current chat and all future messages until you change them.
+  </Step>
+</Steps>
+
+> Some modalities depend on connected integrations or permissions (e.g. Google Calendar, microphone access for Audio). If a modality is unavailable, open **Manage Connections** to finish setup.
+
 ### Combining Filters
 
-Use Sources and Time Ranges together for precise queries—for example, "Chrome browsing from yesterday afternoon."
+Use Sources, Time Ranges, and Modalities together for precise queries—for example, "Chrome browsing from yesterday afternoon," or "anything I copied from Slack last week," or "meetings on my Google Calendar this month."
 
 ## Working with Responses
 
@@ -246,7 +275,7 @@ This combines the keyword "Project Aurora," the application "Teams," the person 
 
 ### Use Filters Instead of Prompts
 
-If you know the exact source app or time range, use the `Sources` and `Time Ranges` filters instead of describing them in your prompt. Filters are more accurate than natural language time expressions.
+If you know the exact source app, time range, or type of memory you're looking for, use the `Sources`, `Time Ranges`, and `Modalities` filters instead of describing them in your prompt. Filters are more accurate than natural language time expressions.
 
 ## LTM Context Toggle
 
@@ -325,22 +354,6 @@ On an **active** thread (after you have sent messages), open the `⋮` menu at t
 
 <Callout type="alert">
   Pin, Refresh, and Delete appear only inside a chat that already has user input and assistant replies.
-</Callout>
-
-### Chat pipelines
-
-When you start a **New Chat**, you can pick a **chat pipeline** that shapes how the model uses context:
-
-| **Pipeline** | **Type** | **Use case** |
-| --------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| *Generally discuss technical topics* | Multipurpose | General technical discussion and mixed modalities. |
-| *Ask questions about a local code base* | Project-oriented comprehension | Optimized when LTM has captured relevant IDE or repo activity; pair with [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) if you need one memory in scope. |
-| *Generate code for a local project* | Project-oriented generation | Optimized when recent workflow memories include the project; use **Chat** on a relevant Timeline summary when you need a focused session. |
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/chat_pipelines.png" alt="Chat pipeline dropdown with multipurpose, comprehension, and generation options" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  You can set one of these pipelines as the default when creating new chats.
 </Callout>
 
 ## Deep Study (Pieces Pro)

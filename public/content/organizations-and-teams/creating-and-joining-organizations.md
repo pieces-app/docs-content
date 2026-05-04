@@ -8,7 +8,7 @@ metaTitle: Creating and Joining Organizations | Pieces Docs
 metaDescription: Step-by-step guide to creating organizations and accepting invitations to join teams in Pieces.
 ---
 
-## Creating and Joining Organizations
+***
 
 Create a new organization to start collaborating with your team, or accept an invitation to join an existing organization. Organizations allow you to share resources, manage team-wide settings, and collaborate effectively.
 

@@ -9,9 +9,9 @@ metaDescription: Learn about member features, permissions, and how to effectivel
 ---
 
 
-## Organization Member Guide
+***
 
-As a member of an organization, you can collaborate with your team, view shared resources, and participate in team activities. This guide explains what you can do as a member and how your role affects your access and permissions.
+As a member of an organization, you can collaborate with your team, view shared resources, and participate in team activities. This guide covers what you can do as a member and how your role affects your access and permissions.
 
 ## Organization Home
 

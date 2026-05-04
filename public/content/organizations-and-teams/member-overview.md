@@ -8,7 +8,7 @@ metaTitle: Member Overview | Pieces Docs
 metaDescription: Guide to using the organization Home page as a Read or Write member.
 ---
 
-## Member Overview
+***
 
 As a member of an organization, you can access the organization's Home page to get set up with Pieces, view resources, and collaborate with your team. Your view is similar to owners and admins, but with limitations on administrative features.
 

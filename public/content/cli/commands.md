@@ -7,308 +7,332 @@ status: PUBLISHED
 
 ## Pieces CLI Commands
 
-Below is a table containing all the commands available for use in the Pieces CLI.
+Reference for every command available in the Pieces CLI, grouped by what you're trying to do.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/commands/pieces_help.png" alt="" align="center" fullwidth="true" />
+
+> The `pieces help` menu listing every command and flag.
+
+## Quick Reference
+
+Run any command with the `pieces` prefix from a regular terminal (e.g., `pieces ask "..."`), or drop the prefix when you're inside `pieces run` loop mode. Type `pieces help` (or `help` inside loop mode) to view this list anytime.
+
+| Command | Description |
+| --- | --- |
+| `run` | Start the CLI in loop mode |
+| `list` | List materials in your Pieces Drive |
+| `list apps` | List registered applications |
+| `list models` | List configured AI models |
+| `create` | Create a material from clipboard |
+| `modify` | Update the current material's content |
+| `edit` | Rename or reclassify the current material |
+| `share` | Generate a shareable link for a material |
+| `delete` | Delete the current material |
+| `execute` | Run a saved bash material |
+| `ask` | Send a question to Conversational Search |
+| `search` | Fuzzy-search materials and chats |
+| `chats` | List all past conversations |
+| `chat` | Show or switch conversations |
+| `config` | View or edit CLI configuration |
+| `commit` | Commit to GitHub with an auto-generated message |
+| `login` | Log in to your Pieces account |
+| `logout` | Log out of your Pieces account |
+| `open` | Open PiecesOS or its Applet |
+| `clear` | Clear the terminal screen |
+| `version` | Show installed CLI and PiecesOS versions |
+| `help` | Display the help menu |
+| `onboarding` | Walk through first-run setup |
+| `feedback` | Send feedback to the Pieces team |
+| `contribute` | Contribute to the CLI project |
+
+## Materials
+
+Manage saved code, text, and bash materials in your Pieces Drive.
+
+<AccordionGroup>
+  <Accordion title="list">
+    List every material in your Pieces Drive (alias: `drive`).
+
+    ```bash
+    pieces list
+    ```
+  </Accordion>
+
+  <Accordion title="list apps">
+    List every application registered with PiecesOS.
+
+    ```bash
+    pieces list apps
+    ```
+  </Accordion>
+
+  <Accordion title="create">
+    Create a new material from whatever's currently on your clipboard.
+
+    ```bash
+    pieces create
+    ```
+  </Accordion>
+
+  <Accordion title="modify">
+    Replace the content of the most recently selected material.
+
+    ```bash
+    pieces modify
+    ```
+  </Accordion>
+
+  <Accordion title="edit">
+    Rename or change the classification of the most recently selected material.
+
+    ```bash
+    pieces edit
+    ```
+  </Accordion>
+
+  <Accordion title="share">
+    Generate a shareable URL for the most recently selected material. The CLI prints the URL and prompts you to open it in your browser.
+
+    ```bash
+    pieces share
+    ```
+  </Accordion>
+
+  <Accordion title="delete">
+    Delete the most recently selected material.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/commands/pieces_help.png" alt="Pieces CLI help menu" align="center" fullwidth="true" />
+    ```bash
+    pieces delete
+    ```
+  </Accordion>
 
-### Command Table
+  <Accordion title="execute">
+    Run a saved bash material directly from the terminal.
 
-You can easily access these commands through the **help menu** using the command `help` within the Pieces CLI. If you’re not within the Pieces CLI, you can use `pieces help`.
+    ```bash
+    pieces execute
+    ```
+  </Accordion>
+</AccordionGroup>
 
-When you’re within the terminal and use the `pieces run` command, you don’t have to prefix the commands with “pieces”.
+## AI & Search
 
-## Individual Commands
+Send questions to *Conversational Search*, search across your data, and pick which model responds.
 
-### run
+<AccordionGroup>
+  <Accordion title="ask">
+    Send a question to *Conversational Search*. Append flags to attach context from your Drive or local files.
 
-Start the CLI in loop mode—you only need to type flags or commands.
+    ```bash
+    pieces ask "How do I parse JSON in Python?"
+    ```
 
-```bash
-run
-```
+    Optional flags:
 
-### list
+    - `-m`, `--materials` — attach saved materials by index (e.g., `-m 1 2`)
+    - `-f`, `--file` — attach files or folders by absolute or relative path
 
-List all materials in your Pieces Drive (alias: drive).
+    ```bash
+    pieces ask "Refactor this function" -f ./src/utils.py
+    ```
+  </Accordion>
 
-```bash
-list
-```
+  <Accordion title="search">
+    Fuzzy-search materials and past chats.
 
-### list apps
+    ```bash
+    pieces search "auth middleware"
+    ```
 
-List all registered applications.
+    Optional `--mode` flags:
 
-```bash
-list apps
-```
+    - `--mode ncs` — Neural Code Search (semantic)
+    - `--mode fts` — Full-Text Search (literal)
 
-### list models
+    ```bash
+    pieces search "auth middleware" --mode ncs
+    ```
+  </Accordion>
 
-List available AI models and switch which one ask uses.
+  <Accordion title="list models">
+    Show every AI model configured for `ask`, and switch which one is active.
 
-```bash
-list models
-```
+    ```bash
+    pieces list models
+    ```
+  </Accordion>
+</AccordionGroup>
 
-### create
+## Conversations
 
-Create a new material from whatever’s on your clipboard.
+Browse, switch between, and manage your *Conversational Search* threads.
 
-```bash
-create
-```
+<AccordionGroup>
+  <Accordion title="chats">
+    List every past conversation, numbered for quick switching.
 
-### modify
+    ```bash
+    pieces chats
+    ```
+  </Accordion>
 
-Update the content of the current material.
+  <Accordion title="chat">
+    Show messages in your current conversation, or switch to another by number.
 
-```bash
-modify
-```
+    ```bash
+    pieces chat
+    pieces chat 3
+    ```
 
-### edit
+    Conversation-management flags (use inside the active chat):
 
-Change the name or classification of the current material.
+    - `-n` — start a new conversation
+    - `-d` — delete the current conversation
+    - `-r "<name>"` — rename the current conversation
 
-```bash
-edit
-```
+    ```bash
+    pieces chat -r "Project Ideas"
+    ```
+  </Accordion>
+</AccordionGroup>
 
-### share
+## Configuration
 
-To share a snippet, enter the `pieces share` command. After the snippet has been shared, its URL will appear within the terminal, and the CLI will prompt you to open the snippet in a browser.
+View and edit CLI settings, including which code editor opens your config file.
 
-```bash
-share
-```
+<AccordionGroup>
+  <Accordion title="config">
+    Print your current Pieces CLI configuration to the terminal.
 
-### delete
+    ```bash
+    pieces config
+    ```
+  </Accordion>
 
-Delete the current (or most recent) material.
+  <Accordion title="config --editor">
+    Open your config file in the editor of your choice (e.g., `vim`, `code`). Changes save immediately.
 
-```bash
-delete
-```
+    ```bash
+    pieces config --editor code
+    ```
+  </Accordion>
+</AccordionGroup>
 
-### execute
+## Account & Git
 
-Run a Pieces bash material.
+Sign in to Pieces Cloud and commit code to GitHub with an auto-generated message.
 
-```bash
-execute
-```
+<AccordionGroup>
+  <Accordion title="login">
+    Log in to your Pieces Cloud account.
 
-### clear
+    ```bash
+    pieces login
+    ```
+  </Accordion>
 
-Clear the terminal screen.
+  <Accordion title="logout">
+    Log out of your Pieces Cloud account.
 
-```bash
-clear
-```
+    ```bash
+    pieces logout
+    ```
+  </Accordion>
 
-### config
+  <Accordion title="commit">
+    Commit staged changes to GitHub with an auto-generated commit message. Add `-p` or `--push` to push immediately after.
 
-Show your current Pieces CLI configuration.
+    ```bash
+    pieces commit
+    pieces commit --push
+    ```
+  </Accordion>
+</AccordionGroup>
 
-```bash
-config
-```
+## Setup & System
 
-### config –editor \<editor\_name>
+Install the CLI, launch the loop, and access help, version, and feedback utilities.
 
-Set your preferred code editor (e.g., vim, code).
+<AccordionGroup>
+  <Accordion title="install">
+    Install the CLI with `pip` (or `conda`, if you prefer). Python must be set up correctly.
 
-```bash
-config -editor ...
-```
+    ```bash
+    pip install pieces-cli
+    ```
 
-### install
+    ```bash
+    conda install pieces-cli
+    ```
+  </Accordion>
 
-Type `pip install pieces-cli`, or if you prefer to use Conda, type `conda install pieces-cli`.
+  <Accordion title="run">
+    Start the CLI in loop mode—type commands and flags directly without the `pieces` prefix.
 
-```bash
-pip install pieces-cli
-```
+    ```bash
+    pieces run
+    ```
+  </Accordion>
 
-As long as Python is set up correctly, Pieces CLI will install.
+  <Accordion title="open">
+    Launch PiecesOS or its helper Applet.
 
-```bash
-conda install pieces-cli
-```
+    ```bash
+    pieces open
+    ```
+  </Accordion>
 
-### open
+  <Accordion title="clear">
+    Clear the terminal screen.
 
-Open PiecesOS or its helper Applet.
+    ```bash
+    pieces clear
+    ```
+  </Accordion>
 
-```bash
-open
-```
+  <Accordion title="version">
+    Display installed versions of PiecesOS and the CLI.
 
-### ask \<your\_question\_here>
+    ```bash
+    pieces version
+    ```
+  </Accordion>
 
-Send a question to Conversational Search.
+  <Accordion title="help">
+    Display the help menu—the same one shown at the top of this page.
 
-```bash
-ask ...
-```
+    ```bash
+    pieces help
+    ```
+  </Accordion>
 
-### -m, –materials
+  <Accordion title="onboarding">
+    Walk through first-run setup interactively.
 
-Attach saved items by index (e.g., -m 1 2).
+    ```bash
+    pieces onboarding
+    ```
+  </Accordion>
 
-```bash
--m ...
-```
+  <Accordion title="feedback">
+    Send feedback directly to the Pieces team.
 
-```bash
--materials ...
-```
+    ```bash
+    pieces feedback
+    ```
+  </Accordion>
 
-### -f, –file 
+  <Accordion title="contribute">
+    Open the contribution flow for the open-source CLI project.
 
-Attach files or folders (absolute or relative paths).
+    ```bash
+    pieces contribute
+    ```
+  </Accordion>
+</AccordionGroup>
 
-```bash
--f ...
-```
+***
 
-```bash
--file ...
-```
+## Next Steps
 
-### chats
-
-List all your past conversations.
-
-```bash
-chats
-```
-
-### chat
-
-Show messages in your current conversation.
-
-```bash
-chat
-```
-
-### chat  \<number>
-
-Switch to and display a specific conversation by its number.
-
-```bash
-chat ...
-```
-
-### -n
-
-Start a new conversation.
-
-```bash
--n
-```
-
-### -d
-
-Delete the conversation you’re currently in.
-
-```bash
--d
-```
-
-### -r 
-
-Rename your current conversation (e.g., -r “Project Ideas”).
-
-```bash
--r ...
-```
-
-### search 
-
-Fuzzy-search your materials and chats.
-
-```bash
-search ...
-```
-
-### –mode ncs
-
-Use Neural Code Search for your query.
-
-```bash
--mode ncs
-```
-
-### –mode fts
-
-Use Full-Text Search for your query.
-
-```bash
--mode fts
-```
-
-### commit
-
-Commit changes to GitHub and auto-generate the message; add `-p` or `–push` to push immediately.
-
-```bash
-commit ...
-```
-
-### login
-
-Log in to your Pieces Cloud account.
-
-```bash
-login
-```
-
-### logout
-
-Log out of your Pieces Cloud account.
-
-```bash
-logout
-```
-
-### version
-
-Show versions of PiecesOS and the CLI tool.
-
-```bash
-version
-```
-
-### help
-
-Display the help message.
-
-```bash
-help
-```
-
-### onboarding
-
-Walk through the initial setup process.
-
-```bash
-onboarding
-```
-
-### feedback
-
-Send feedback directly to the Pieces team.
-
-```bash
-feedback
-```
-
-### contribute
-
-Contribute code or ideas to the CLI project.
-
-```bash
-contribute
-```
+Want to see these commands in context? Read about [Conversational Search](/products/cli/copilot) for `ask`, `search`, and `chat`, [Pieces Drive](/products/cli/drive) for material commands, or the full [Configuration](/products/cli/configuration) walkthrough.

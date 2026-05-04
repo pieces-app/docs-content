@@ -8,7 +8,7 @@ metaTitle: General Settings | Pieces Docs
 metaDescription: Learn how to update organization details, configure domains, set up SSO, and manage organization deletion.
 ---
 
-## General Settings
+***
 
 The General settings tab allows you to configure basic organization information, contact details, associated domains, SSO integration, and delete your organization. These settings control fundamental aspects of your organization's identity and access.
 

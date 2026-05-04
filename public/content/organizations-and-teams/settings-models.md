@@ -8,7 +8,7 @@ metaTitle: Models Settings | Pieces Docs
 metaDescription: Learn how to manage model access, processing mode, and API keys in the Models section (organization management for AI).
 ---
 
-## Models Settings
+***
 
 The Models section is the organization management area for AI. From here you control which models are available, enable or disable providers (Google, OpenAI, etc.), configure processing mode, and set up API keys. All settings sync to team members' Pieces Desktop and PiecesOS.
 
