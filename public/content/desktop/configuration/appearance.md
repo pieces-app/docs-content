@@ -14,7 +14,7 @@ Customize the visual appearance of the Pieces Desktop App, including theme mode,
 
 To access Appearance settings, click your `User Profile` in the top left, then hover over `Settings` and select `Appearance`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/appearance/appearance_settings_overview.png" alt="Appearance settings with Theming, Fonts, and Spacing sections" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Appearance/appearance_settings_full.png" alt="Appearance settings with Theming, Fonts, and Spacing sections" align="center" fullwidth="true" />
 
 > Appearance settings showing Theming, Fonts, and Spacing sections
 

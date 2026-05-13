@@ -69,13 +69,43 @@ There, you can click once to copy the MCP endpoint, which includes the active Pi
 
 You can also do this in the Pieces Desktop App by opening the **Settings** view and clicking **Model Context Protocol (MCP).**
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop App Model Context Protocol settings" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_settings_overview.png" alt="Pieces Desktop App Model Context Protocol settings" align="center" fullwidth="true" />
 
 ## Setting Up Cursor
 
-There are two ways to set up Pieces MCP for Cursor: use the Pieces CLI for automatic configuration, or configure manually.
+There are three ways to set up Pieces MCP for Cursor: use the one-click setup in Pieces Desktop, use the Pieces CLI, or configure manually.
 
-### One-Click Install
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to Cursor is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Cursor**. Pieces automatically writes the MCP configuration to Cursor's global MCP config file.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies, a dialog appears with installation instructions. Follow the steps shown (e.g., install Node.js), then click `Retry`.
+  </Step>
+
+  <Step title="Restart Cursor">
+    Restart Cursor for the configuration changes to take effect. Once connected, a green checkmark appears next to Cursor in the MCP Connections list.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
+
+### One-Click Install Badge
 
 Install Pieces MCP in Cursor with a single click. Ensure [PiecesOS is running](/products/core-dependencies/pieces-os) and [Long-Term Memory is enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) before clicking.
 
@@ -83,7 +113,7 @@ Install Pieces MCP in Cursor with a single click. Ensure [PiecesOS is running](/
 
 <Embed src="https://www.youtube.com/watch?v=joqJbr9MV8k" />
 
-### Method 1: CLI Install (Recommended)
+### Method 2: CLI Install
 
 The Pieces CLI can automatically configure Pieces MCP for Cursor—no manual config editing required.
 
@@ -103,7 +133,7 @@ The Pieces CLI can automatically configure Pieces MCP for Cursor—no manual con
   </Step>
 </Steps>
 
-### Method 2: Manual Configuration (Global MCP)
+### Method 3: Manual Configuration (Global MCP)
 
 To set up the Pieces MCP, you can edit the `.json` settings configuration file from within **Cursor Settings.**
 

@@ -1,10 +1,10 @@
 ---
-title: Starting a conversation with a Timeline Event
+title: Chat from a Timeline Event
 path: /desktop/conversational-search/chat-with-timeline-events
 visibility: PUBLIC
 status: PUBLISHED
 description: Start context-specific conversations directly from Timeline Events in the memories sidebar with pre-loaded context.
-metaTitle: Starting a conversation with a Timeline Event | Conversational Search
+metaTitle: Chat from a Timeline Event | Conversational Search
 metaDescription: Start context-specific conversations directly from Timeline Events in the memories sidebar with pre-loaded context.
 ---
 
@@ -36,7 +36,7 @@ Start a context-specific conversation from any Timeline Event using the `Start R
 
 ### Asking Questions with Pre-Loaded Context
 
-When Conversational Search opens with a Timeline Event, you'll see an information card displaying the event's details, including its title, description, timestamp, and related participants. The input field will show a placeholder like "Ask about '[Event Name]'..." indicating that the conversation is scoped to that specific event. Type your question or click any suggested prompts that appear. The conversation already has full context from that Timeline Event, including core tasks, key decisions, documents reviewed, and follow-up actions.
+When Conversational Search opens with a Timeline Event, you'll see an information card displaying the event's details, including its title, description, timestamp, and related participants. The input field will show a placeholder like "Ask about '[Event Name]'..." indicating that the conversation is scoped to that specific event. Type your question or click any suggested chats that appear. The conversation already has full context from that Timeline Event, including core tasks, key decisions, documents reviewed, and follow-up actions.
 
 **Example questions:**
 * "Why did we make that decision?"
@@ -74,4 +74,4 @@ Use starting a conversation with a Timeline Event when you want to dive deep int
 
 Now that you know how to start context-specific chats from memories, learn how to use Conversational Search for broader workflow questions.
 
-[Using Conversational Search →](/products/desktop/conversational-search/using-conversational-search)
+[Talk with Your Memories →](/products/desktop/conversational-search/using-conversational-search)

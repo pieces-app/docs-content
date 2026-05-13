@@ -1,65 +1,55 @@
 ---
-title: Models
+title: Choose a Model
 path: /desktop/conversational-search/models
 visibility: PUBLIC
 status: PUBLISHED
-description: Switch between cloud and local AI models, browse the model catalog, download on-device models, and configure chat appearance.
-metaTitle: Models | Conversational Search
-metaDescription: Switch between cloud and local AI models in Pieces Conversational Search, browse the catalog, and download on-device models.
+description: Switch between cloud AI models using the streamlined Fast, Balanced, and Extra Thinking modes.
+metaTitle: Choose a Model | Conversational Search
+metaDescription: Switch between AI models in Pieces Conversational Search using Fast, Balanced, or Extra Thinking modes from Claude, Gemini, and GPT.
 ---
 
 ## Model Selection
 
-Switch between cloud and local models based on your needs. Use cloud models (Claude, GPT, Gemini) for faster responses and advanced reasoning. Use local models for complete privacy and offline capability.
+Click the model button in the bottom toolbar to choose your AI model. Pieces offers a streamlined selection process with three modes for each provider:
+
+| Mode | Speed | Quality | Best For |
+| --- | --- | --- | --- |
+| **Fast** | Fastest | Good | Quick questions, simple lookups, code completion, rapid iteration |
+| **Balanced** | Moderate | Better | General tasks, summaries, explanations, everyday coding help |
+| **Extra Thinking** | Slower | Best | Complex reasoning, debugging, architecture decisions, multi-step analysis |
+
+<Callout type="tip">
+  Start with **Fast** for most tasks—it handles the majority of questions well. Switch to **Extra Thinking** when you need deeper analysis or the Fast response isn't sufficient.
+</Callout>
 
 <Steps>
   <Step title="Open Model Selector">
     Click the `model button` in the *bottom toolbar* to open the model selector.
   </Step>
 
-  <Step title="Choose a Model">
-    You'll see Recent models you've used, Suggested models for your current task, or click `All Models` to see everything available.
+  <Step title="Choose a Provider">
+    Under *Built-In Models*, hover over **Claude**, **Gemini**, or **GPT** to see the available modes.
   </Step>
 
-  <Step title="Switch Models">
-    When you switch models, your chat history stays intact, and new messages will use the selected model.
+  <Step title="Select a Mode">
+    Click **Fast**, **Balanced**, or **Extra Thinking** based on your task.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Model selector dropdown with recent, suggested, and all models options" align="center" fullwidth="true" />
+Your chat history stays intact when you switch models—new messages use the selected model while previous responses remain unchanged.
 
-> Model selector dropdown
+## Cloud Models
 
-## LLM Runtime Modal
-
-Click the active model control (for example the model name in the bottom toolbar) to open the **LLM runtime** modal. There you can enter API keys if needed, switch models, and open the full catalog of [local and cloud-hosted models served through Pieces](/products/core-dependencies/pieces-os#local-vs-cloud-models).
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="LLM runtime modal listing cloud and local models in Conversational Search" align="center" fullwidth="true" />
+Pieces connects to cloud models from OpenAI, Anthropic, and Google. Cloud models offer faster responses and advanced reasoning capabilities.
 
 <Callout type="info">
-  Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5.2 Pro/GPT-5.2, Anthropic Claude 4.5 Opus, Google Gemini 3 Pro Preview). To unlock premium models, see [Pieces Pro](/paid-plans).
+  Some cloud models are available to Pieces Pro users only. To unlock premium models, see [Pieces Pro](/paid-plans).
 </Callout>
 
-Cloud models from OpenAI, Anthropic, and Google (and others) are listed on the [Cloud Models](/products/large-language-models/cloud-models) page. For on-device options and privacy, use local models; the full catalog for the Desktop App is in [supported local and cloud models](/products/core-dependencies/local-models/supported-models).
-
-## Browse and Download Local Models
-
-Open the LLM runtime modal, open **All Models**, then scroll to find local models. Select a model to download it on demand through PiecesOS; once downloaded, you can run it entirely on your device.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/scrolling_through_llms.gif" alt="Scrolling the All Models list to browse and download local models" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  Local models run through PiecesOS on your device for privacy and offline use.
-</Callout>
-
-## Chat Appearance and Defaults
-
-In the LLM runtime area, open the `Settings` gear to set a chat accent color and choose whether **LTM context** is on by default for **new** chats.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="Conversational Search appearance settings with accent color and LTM default toggle" align="center" fullwidth="true" />
-
-You can also use `cmd+shift+t` (macOS) or `ctrl+shift+t` (Windows/Linux) to toggle the Desktop App *Dark/Bright* theme.
+For a full list of available cloud models, see [Cloud Models](/products/large-language-models/cloud-models).
 
 ***
 
-For detailed model configuration and management, see [Configuration > Models](/products/desktop/configuration/models).
+## Next Steps
+
+Learn how to [filter your searches](/products/desktop/conversational-search/scoping-your-prompt) by Apps, Time, and Modality to scope which memories are used in your conversations.

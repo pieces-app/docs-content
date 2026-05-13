@@ -3,7 +3,7 @@ title: Default Summary Types
 path: /desktop/single-click-summaries/default-types
 visibility: PUBLIC
 status: PUBLISHED
-description: Explore all built-in Single-Click Summary types—from Day Recap and Standup Update to AI Habits and Collaboration Patterns.
+description: Explore all built-in Single-Click Summary types—from Day Recap and Standup Update to Meeting Prep, AI Habits, and Collaboration Patterns.
 metaTitle: Default Summary Types | Single-Click Summaries
 metaDescription: Explore all built-in Single-Click Summary types in Pieces, including Day Recap, Standup Update, Time Breakdown, and more.
 ---
@@ -18,6 +18,7 @@ Single-Click Summaries include preset summary types designed for common workflow
 | **What's Top of Mind** | Identifies recurring topics and priorities from your recent workflow, ranked by importance. |
 | **Morning Brief** | Provides everything you need to kickstart your day, compiled from your recent activities. |
 | **Standup Update** | Generates a three-part update: what you did, what's next, and blockers—perfect for team standups. |
+| **Meeting Prep** | Adds prep events to your Google Calendar based on upcoming meetings, giving you time to review context and prepare. |
 | **Day Recap** | Compiles an end-of-day summary of your accomplishments, completed tasks, and overall activity. |
 | **Time Breakdown** | Organizes your daily work into projects with in-depth time breakdowns, showing what you worked on per project throughout the day. |
 | **Week Recap** | Provides a comprehensive overview of your week at a glance, including key activities and patterns. |
@@ -45,6 +46,15 @@ Generates a three-part update: what you did, what's next, and blockers—perfect
 <Embed 
   src="https://youtu.be/h40PvR7X4Yc?si=2YAlGq3yxPsTwClJ" 
   title="Standup Update summary demonstration video"
+/>
+
+## Meeting Prep
+
+Adds prep events to your Google Calendar based on your upcoming meetings. Meeting Prep analyzes your captured workflow context—recent documents, conversations, and activities related to each meeting's attendees and topics—and creates calendar events that give you time to review relevant context before you join.
+
+<Embed 
+  src="https://youtu.be/4x_gg0ISvXw" 
+  title="Meeting Prep summary demonstration video"
 />
 
 ## Day Recap

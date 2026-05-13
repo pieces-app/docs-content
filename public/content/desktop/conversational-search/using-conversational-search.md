@@ -1,30 +1,48 @@
 ---
-title: Using Conversational Search
+title: Talk with Your Memories
 path: /desktop/conversational-search/using-conversational-search
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn how to talk with your memories, filter searches, switch models, and work with responses in Conversational Search.
-metaTitle: Using Conversational Search | Pieces Docs
+metaTitle: Talk with Your Memories | Pieces Docs
 metaDescription: Learn how to talk with your memories, filter searches, switch models, and work with responses in Conversational Search.
 ---
 
-***Conversational Search*** is the ability to talk with your memories. You can have conversations with your captured workflow context—ask specific questions, search through your memories, and filter by apps or time ranges to customize which memories you're talking with. All responses are powered by [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27).
+***Conversational Search*** is the ability to talk with your memories through **Agentic Chats**. Powered by [Agentic Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27), the agent reasons across your artificial memory in multiple turns, following threads, cross-referencing context, and building toward complete answers instead of guessing in one shot.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/landing_overview_conversational_chat_and_examples.png" alt="Conversational Search interface with suggested prompts, chat input, model selector" align="center" fullwidth="true" />
+Ask specific questions, search through your memories, and filter by apps or time ranges to customize which memories you're talking with. The agent can search your memories, the web, your calendar, local files, and browser history to build complete answers.
 
-> Full Conversational Search interface on homepage showing suggested prompts, chat input, model selector, and bottom toolbar
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/homepage_conversational_search.png" alt="Conversational Search interface with suggested chats, recent chats, chat input, and model selector" align="center" fullwidth="true" />
+
+> Full Conversational Search interface on homepage showing suggested chats, recent chats, chat input, model selector, and bottom toolbar
 
 ## Talking with Your Memories
 
 Have conversations with your captured workflow context. Ask specific questions about your past work, decisions, or activities.
 
-### Suggested Prompts
+### Suggested Chats
 
-Suggested prompts appear as clickable buttons based on your recent workflow. Click any prompt to instantly start that conversation. Responses include Related Timeline Events cards showing which memories were used as sources.
+Personalized chat suggestions appear on the homepage under *Suggested Chats for You*, generated from your recent workflow activity. Click any suggestion to instantly start that conversation. Responses include Related Timeline Events cards showing which memories were used as sources.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/clicking_on_sample_prompt.gif" alt="Clicking suggested prompt showing response with Related Timeline Events cards" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/clicking_on_sample_prompt.gif" alt="Clicking a suggested chat showing response with Related Timeline Events cards" align="center" fullwidth="true" />
 
-> Clicking a suggested prompt, showing the complete flow from click to response with Related Timeline Events cards
+> Clicking a suggested chat, showing the complete flow from click to response with Related Timeline Events cards
+
+### Resume Recent Chats
+
+Continue where you left off with your most recent conversations.
+
+<Steps>
+  <Step title="Find Resume Recent Chats">
+    Look below the *Suggested Chats* section on the homepage.
+  </Step>
+  <Step title="Click a Chat Card">
+    Click any card showing a conversation title and timestamp.
+  </Step>
+  <Step title="Continue Your Conversation">
+    The chat opens with full history and context intact—type a follow-up question to continue.
+  </Step>
+</Steps>
 
 ### Asking Your Own Questions
 
@@ -59,96 +77,117 @@ Type your own questions to have conversations with your memories about specific 
 
 Use `Start New Chat` when you want to discuss a completely different topic. Starting a new chat ensures better results when switching topics since Conversational Search uses relevant memory context across the entire conversation.
 
+### Adding Files and Folders as Context
+
+Attach local files or folders to give Conversational Search additional context beyond your LTM memories.
+
+<Steps>
+  <Step title="Click the + Button">
+    Click the `+` button to the left of the chat input field.
+  </Step>
+  <Step title="Select Files or Folders">
+    Browse and select files or folders from your device. Alternatively, drag and drop files directly into the chat input area.
+  </Step>
+  <Step title="Verify Context Chips">
+    Attached items appear as context chips above the input field.
+  </Step>
+  <Step title="Ask Your Question">
+    Type your question—the agent uses the file contents alongside your LTM memories when generating responses.
+  </Step>
+</Steps>
+
 ### Scoping a chat to one summary or event
 
-You cannot attach local files or folders to Conversational Search. To focus the assistant on **one** specific memory (for example a generated summary), open that item in [Pieces Timeline](/products/desktop/timeline), open the **three-dots menu** (⋮) on the event, and choose **`Chat`**. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary). For a broader slice of memories, use **Sources**, **Time Ranges**, and **Modalities** below.
+To focus the assistant on **one** specific memory (for example a generated summary), open that item in [Pieces Timeline](/products/desktop/timeline), open the **three-dots menu** (⋮) on the event, and choose **`Chat`**. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary). For a broader slice of memories, use the **Filter By...** menu below to scope by Apps, Time, or Modality.
 
 ## Filtering Your Searches
 
-Filter by specific apps, time ranges, or modalities to narrow your search scope and get more focused answers.
+Filter which memories are used when answering your questions.
 
-### Sources Filter
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_results_by_menu.png" alt="Filter Results By menu showing Apps, Time, and Modality filter options" align="center" fullwidth="true" />
 
-Limit searches to memories from specific applications. Use this when you want answers based only on specific apps.
+> Filter Results By menu showing Apps, Time, and Modality filter options
 
 <Steps>
-  <Step title="Click Sources Button">
-    Click the `Sources` button in the *bottom toolbar* to open the filter modal.
+  <Step title="Open the Filter Menu">
+    Click the `Filter By...` button (filter icon) in the *bottom toolbar*.
   </Step>
-
-  <Step title="Select Apps">
-    Check the apps you want to include. You can select multiple apps at once.
+  <Step title="Choose a Filter Category">
+    Hover over **Apps**, **Time**, or **Modality** to see available options.
   </Step>
-
-  <Step title="Apply Filter">
-    Selected sources apply to your current chat and all future messages until you change them.
+  <Step title="Select Your Filters">
+    Check the options you want to include. You can combine multiple filters.
+  </Step>
+  <Step title="Ask Your Question">
+    Type your question—results will only include memories matching your filters.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_sources.png" alt="Sources filter modal with app checkboxes, Chrome and VS Code selected" align="center" fullwidth="true" />
+### Filter by Apps
 
-> Sources filter modal showing list of apps with checkboxes, with Chrome and VS Code selected
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_by_apps.png" alt="Filter by Apps submenu showing available applications" align="center" fullwidth="true" />
 
-### Time Ranges Filter
-
-Focus searches on specific time periods. Use this when you need information from a specific period.
+> Filter by Apps submenu showing available applications to include in your search
 
 <Steps>
-  <Step title="Click Time Ranges Button">
-    Click the `Time Ranges` button in the *bottom toolbar* to open the filter modal.
+  <Step title="Hover Over Apps">
+    In the filter menu, hover over **Apps**.
   </Step>
-
-  <Step title="Select Time Range">
-    Choose from 31+ preset options (e.g., "Yesterday", "This week", "Last month") or use the calendar view for custom date ranges. You can select multiple ranges at once.
-  </Step>
-
-  <Step title="Apply Filter">
-    Selected time ranges apply to your current chat and all future messages until you change them.
+  <Step title="Check Applications">
+    Select the applications you want to include (e.g., Chrome, VS Code, Slack, Teams).
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_time.png" alt="Time Ranges modal showing preset options and calendar view" align="center" fullwidth="true" />
-
-> Time Ranges modal showing preset options and calendar view
-
-### Modalities Filter
-
-Restrict searches to specific types of captured context—what you've seen, copied, said, or scheduled. Use this when you want answers grounded in a particular *kind* of memory rather than a particular app.
+### Filter by Time
 
 <Steps>
-  <Step title="Click Modalities Button">
-    Click the `Modalities` button in the *bottom toolbar* to open the **Refine by Modality** panel.
+  <Step title="Hover Over Time">
+    In the filter menu, hover over **Time**.
   </Step>
-
-  <Step title="Select Modalities">
-    Check any combination of the available modalities:
-
-    - **Vision** — what you've seen (screen context captured by LTM).
-    - **Clipboard** — what you've copied and pasted.
-    - **Audio** — what you've said and heard.
-    - **Google Calendar** — events and meeting context from connected calendars.
-  </Step>
-
-  <Step title="Manage Connections">
-    Click **Manage Connections** at the bottom of the panel to enable, disable, or authorize the integrations that power each modality (for example, connecting a Google Calendar account).
-  </Step>
-
-  <Step title="Apply Filter">
-    Selected modalities apply to your current chat and all future messages until you change them.
+  <Step title="Choose a Preset or Custom Range">
+    Select a preset (Yesterday, This week, Last month) or click **Custom** to set a specific date range.
   </Step>
 </Steps>
 
-> Some modalities depend on connected integrations or permissions (e.g. Google Calendar, microphone access for Audio). If a modality is unavailable, open **Manage Connections** to finish setup.
+### Modality
+
+Restrict searches to specific types of captured context—the method by which a memory was formed. Hover over **Modality** to see the available types:
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_by_modality.png" alt="Filter by Modality submenu showing Vision, Clipboard, Audio, and Google Calendar options" align="center" fullwidth="true" />
+
+> Filter by Modality submenu showing Vision, Clipboard, Audio, and Google Calendar options
+
+* **Vision** — What you’ve seen (screen context captured by LTM).
+* **Clipboard** — What you’ve copied and pasted.
+* **Audio** — What you’ve said and heard.
+* **Google Calendar** — Events and meeting context from connected calendars.
+
+Click **Manage Connections** at the bottom of the Modality panel to enable, disable, or authorize integrations.
 
 ### Combining Filters
 
-Use Sources, Time Ranges, and Modalities together for precise queries—for example, "Chrome browsing from yesterday afternoon," or "anything I copied from Slack last week," or "meetings on my Google Calendar this month."
+Combine Apps, Time, and Modality filters for precise queries—for example, "Chrome browsing from yesterday afternoon," or "anything I copied from Slack last week," or "meetings on my Google Calendar this month."
 
 ## Working with Responses
 
 ### Ask Follow-Up About Selected Text
 
-Highlight any text in an AI response and click `Ask follow-up` to add it as context for your next message. The selected text appears in a context box above the chat input—type your follow-up question and send. The box can be dismissed with the `X` icon if you change your mind.
+Highlight text from a response to ask follow-up questions about it.
+
+<Steps>
+  <Step title="Highlight Text">
+    Click and drag to select any text in an AI response.
+  </Step>
+  <Step title="Click Ask Follow-Up">
+    Click the `Ask follow-up` button that appears.
+  </Step>
+  <Step title="Review the Context Box">
+    The selected text appears in a context box above the chat input.
+  </Step>
+  <Step title="Type Your Follow-Up">
+    Type your follow-up question and press Enter to send. Click the `X` icon to dismiss if you change your mind.
+  </Step>
+</Steps>
 
 ### Response Toolbar Actions
 
@@ -176,47 +215,45 @@ Cards appear below responses showing which source Timeline Events were used to g
 
 ## Model Selection
 
-Switch between cloud and local models based on your needs. Use cloud models (Claude, GPT, Gemini) for faster responses and advanced reasoning. Use local models (o3, o1) for complete privacy and offline capability.
+Browse and switch models directly from chat, without navigating to Settings. The model picker shows inline descriptions and capabilities so you can choose the right model for your task.
+
+| Mode | Speed | Quality | Best For |
+| --- | --- | --- | --- |
+| **Fast** | Fastest | Good | Quick questions, simple lookups, code completion |
+| **Balanced** | Moderate | Better | General tasks, summaries, explanations |
+| **Extra Thinking** | Slower | Best | Complex reasoning, debugging, multi-step analysis |
 
 <Steps>
   <Step title="Open Model Selector">
-    Click the `model button` in the *bottom toolbar* to open the model selector.
+    Click the `model button` in the *bottom toolbar* to open the model inventory.
   </Step>
 
-  <Step title="Choose a Model">
-    You'll see Recent models you've used, Suggested models for your current task, or click `All Models` to see everything available.
+  <Step title="Browse Built-In Models">
+    Under *Built-In Models*, you'll see **Claude**, **Gemini**, and **GPT**. Hover over any provider to see available modes.
   </Step>
 
-  <Step title="Switch Models">
-    When you switch models, your chat history stays intact, and new messages will use the selected model.
+  <Step title="Choose a Provider and Mode">
+    Under *Built-In Models*, hover over **Claude**, **Gemini**, or **GPT** to see Fast, Balanced, and Extra Thinking modes.
+  </Step>
+
+  <Step title="Select a Model">
+    Click your choice. The model switches immediately for your next message.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/model_selection_in_desktop_app.png" alt="Model selector dropdown with recent, suggested, and all models options" align="center" fullwidth="true" />
+Your chat history stays intact when you switch models. New messages use the selected model while previous responses remain unchanged.
 
-> Model selector dropdown 
+### All Models
 
-### LLM runtime modal
+Click `All Models` to browse the full catalog, including cloud models, local models (via Ollama), BYOK configurations, and enterprise deployments. Local models run entirely on your device through PiecesOS for privacy and offline use.
 
-Click the active model control (for example the model name in the bottom toolbar) to open the **LLM runtime** modal. There you can enter API keys if needed, switch models, and open the full catalog of [local and cloud-hosted models served through Pieces](/products/core-dependencies/pieces-os#local-vs-cloud-models).
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/new_list_of_models_cloud.webp" alt="LLM runtime modal listing cloud and local models in Conversational Search" align="center" fullwidth="true" />
+The unified model inventory works across all providers: OpenAI, Anthropic, Google, AWS Bedrock, Azure, OpenRouter, on-device models, and more.
 
 <Callout type="info">
-  Some cloud models are available to Pieces Pro users only (for example: OpenAI GPT-5.2 Pro/GPT-5.2, Anthropic Claude 4.5 Opus, Google Gemini 3 Pro Preview). To unlock premium models, see [Pieces Pro](/paid-plans).
+  Some cloud models are available to Pieces Pro users only. To unlock premium models, see [Pieces Pro](/paid-plans).
 </Callout>
 
-Cloud models from OpenAI, Anthropic, and Google (and others) are listed on the [Cloud Models](/products/large-language-models/cloud-models) page. For on-device options and privacy, use local models; the full catalog for the Desktop App is in [supported local and cloud models](/products/core-dependencies/local-models/supported-models).
-
-### Browse and download local models
-
-Open the LLM runtime modal, open **All Models**, then scroll to find local models. Select a model to download it on demand through PiecesOS; once downloaded, you can run it entirely on your device.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Desktop%20App/scrolling_through_llms.gif" alt="Scrolling the All Models list to browse and download local models" align="center" fullwidth="true" />
-
-<Callout type="tip">
-  Local models run through PiecesOS on your device for privacy and offline use.
-</Callout>
+For detailed model configuration, see [Choose a Model](/products/desktop/conversational-search/models).
 
 ### Reset a conversation
 
@@ -228,7 +265,7 @@ When you need a clean slate, use **Chat Options** on an active thread to reset t
 
 In the LLM runtime area, open the `Settings` gear to set a chat accent color and choose whether **LTM context** is on by default for **new** chats.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Aesthetics/changing_colors.png" alt="Conversational Search appearance settings with accent color and LTM default toggle" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Appearance/appearance_settings.png" alt="Conversational Search appearance settings with accent color and LTM default toggle" align="center" fullwidth="true" />
 
 You can also use `cmd+shift+t` (macOS) or `ctrl+shift+t` (Windows/Linux) to toggle the Desktop App *Dark/Bright* theme.
 
@@ -275,7 +312,7 @@ This combines the keyword "Project Aurora," the application "Teams," the person 
 
 ### Use Filters Instead of Prompts
 
-If you know the exact source app, time range, or type of memory you're looking for, use the `Sources`, `Time Ranges`, and `Modalities` filters instead of describing them in your prompt. Filters are more accurate than natural language time expressions.
+If you know the exact source app, time range, or type of memory you're looking for, use the `Filter By...` menu to scope by Apps, Time, or Modality instead of describing them in your prompt. Filters are more accurate than natural language time expressions.
 
 ## LTM Context Toggle
 
@@ -340,13 +377,34 @@ Click the search field labeled `Find chats…` at the top of the Conversational 
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/pieces_copilot/searching_chats_yellow_syntax.png" alt="Chat search results with highlighted terms and exact match labels" align="center" fullwidth="true" />
 
-## Input field, quick actions, and chat options
+## Chat Input & Bottom Toolbar
 
-The input area supports rich prompts: paste code, drop an image, or ask a technical question. Use the quick-action (chat bubble) menu beside the field for shortcuts (for example toggling LTM-related options). On the right, tools can insert a fenced code block or extract code from a screenshot via the file picker.
+The chat input area includes a text field where you type your questions, along with a toolbar below it with the following controls (left to right):
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Interacting/gif_of_running_through_all_options.gif" alt="Quick actions and tools beside the Conversational Search input field" align="center" fullwidth="true" />
+* **`+` (Add Context)** — Attach local files or folders to the conversation. You can also drag and drop files directly into the input area.
+* **`Filter By...`** — Open the [filter menu](#filtering-your-searches) to scope by Apps, Time, or Modality.
+* **Model selector** — Shows the active model (e.g., `Claude · Fast`). Click to switch between cloud and local models.
+* **Reflection Mode (lotus icon)** — Toggle the agent’s ability to reflect on its own reasoning and self-correct in real time. See [Reflection Mode](#reflection-mode).
+* **`Send`** — Send your message. You can also press `Enter`.
 
-To scope the whole chat to **one** captured summary or event, use **`Chat`** on that item’s three-dots menu in Timeline—not the input shortcuts. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) and [Scoping a chat from Timeline](/products/desktop/conversational-search/context-integration#scoping-a-chat-from-timeline).
+To scope the whole chat to **one** captured summary or event, use **`Chat`** on that item’s three-dots menu in Timeline. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) and [Scoping a chat from Timeline](/products/desktop/conversational-search/context-integration#scoping-a-chat-from-timeline).
+
+### Queue Up Your Next Message
+
+Type your next message while the agent is still responding. Queued messages send automatically when the current response finishes.
+
+<Steps>
+  <Step title="Type While Waiting">
+    While the agent is generating a response, type your follow-up question in the input field.
+  </Step>
+  <Step title="Queue or Interrupt">
+    Press `Enter` to queue the message for automatic sending, or click `Send` to **stop the current response** and immediately send your new message instead.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+  Interrupting is useful when you realize mid-response that you want to steer the agent in a different direction, especially during longer agentic chats where the agent is doing multi-step work.
+</Callout>
 
 ### Chat options menu
 
@@ -356,49 +414,34 @@ On an **active** thread (after you have sent messages), open the `⋮` menu at t
   Pin, Refresh, and Delete appear only inside a chat that already has user input and assistant replies.
 </Callout>
 
-## Deep Study (Pieces Pro)
+### Token Usage per Conversation
 
-Deep Study uses your Long-Term Memory to produce **sourced, timestamped research-style reports** across apps, people, topics, and time ranges.
+Track how many tokens each conversation consumes. Every chat shows cumulative token usage broken down by **input**, **output**, **reasoning**, and **cache**. Both LLM calls and tool calls are counted, giving you full visibility into the true cost of agentic work.
 
-* **Deep contextual recall** across collaborators, apps, and sessions
-* **Recaps** over days, weeks, or months
-* **Targeted queries** with people, topics, projects, and dates
-* **Actionable insights** with links to artifacts and suggested next steps
+<Steps>
+  <Step title="Open Token Stats">
+    In an active chat, look for the token usage indicator in the chat header or response toolbar.
+  </Step>
+  <Step title="View Breakdown">
+    Click to expand the breakdown showing input tokens (your prompts), output tokens (responses), reasoning tokens (agent thinking), and cached tokens (reused context).
+  </Step>
+</Steps>
 
-Ask naturally—for example: *"Can you perform a deep study on what I've done for the last few days?"*
+Token tracking helps you:
 
-### How to activate Deep Study (Pro)
+* **Manage API usage** if you're on a metered plan or using BYOK
+* **Compare model efficiency** by seeing which models use more tokens for similar tasks
+* **Understand agentic costs** since multi-turn reasoning and tool calls add up
 
-At the bottom of the chat, click `Activate DeepStudy` (marked **PRO**). Your **next** prompt runs the Deep Study workflow. Deep Study requires **Long-Term Memory** to be enabled.
+## Reflection Mode
 
-### What to expect
+Reflection Mode enables the agent to reflect on its own reasoning and self-correct in real time. When enabled, the agent produces higher-quality responses by evaluating its logic as it generates answers, catching errors and refining its output before delivering it to you.
 
-* **Duration:** Often on the order of 10–20 minutes depending on how much recent context is included.
-* **Progress:** After you submit a deep-study prompt, you’ll see progress and a `Thinking` state; expand sections to inspect intermediate agent steps.
+### Enabling Reflection Mode
 
-### Model used for Deep Study
+Toggle Reflection Mode using the `lotus icon` in the *bottom toolbar*, next to the model selector. Hover over the icon to see the tooltip: *"Enable Reflection Mode — Agent will reflect on its own reasoning and self-correct in real time."*
 
-Deep Study runs on a **dedicated cloud model** managed by Pieces (currently a Google model; subject to change). Your per-chat model choice applies to normal replies; Deep Study always uses its own runtime.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="Deep Study progress UI with thinking state and agent steps" align="center" fullwidth="true" />
-
-### Example prompts
-
-```text
-Perform a deep study of what I worked on last week related to WebSocket errors.
-```
-
-```text
-Tell me everything I did with [PERSON NAME] over the last 3 months.
-```
-
-```text
-What did I accomplish related to [TOPIC] in [MONTH]?
-```
-
-```text
-When was the last time I worked on [PROJECT/FILE]?
-```
+When Reflection Mode is active, the agent automatically engages deeper research and analysis based on the complexity of your prompt—no manual activation required. Complex questions about your workflow history, multi-step investigations, and cross-app analysis all benefit from Reflection Mode.
 
 <Card title="Hey!" image="/assets/icons/platform_logos/pieces_logo.png">
   For LTM-specific prompting patterns, see the [LTM Prompting Guide](/products/quick-guides/ltm-prompting) and [examples](/products/quick-guides/ltm-prompting/examples).

@@ -1,50 +1,54 @@
 ---
-title: Scoping Your Prompt
+title: Filter by Apps, Time & Modality
 path: /desktop/conversational-search/scoping-your-prompt
 visibility: PUBLIC
 status: PUBLISHED
-description: Use Sources, Time Ranges, and Modalities filters to narrow which memories Conversational Search draws from when answering your questions.
-metaTitle: Scoping Your Prompt | Conversational Search
-metaDescription: Narrow your Conversational Search results using Sources, Time Ranges, and Modalities filters to get more focused, accurate answers.
+description: Use the Filter By menu to narrow which memories Conversational Search draws from—by Apps, Time, or Modality.
+metaTitle: Filter by Apps, Time & Modality | Conversational Search
+metaDescription: Narrow your Conversational Search results using the Filter By menu to scope by Apps, Time, and Modality for more focused answers.
 ---
 
-## Scoping Your Prompt
+## Filter by Apps, Time & Modality
 
-Filter by specific apps, time ranges, or modalities to narrow your search scope and get more focused answers. Filters control *which memories* Conversational Search draws from when answering your questions.
+Click the `Filter By...` button (filter icon) in the *bottom toolbar* to open the filter menu. The menu has three categories, each with its own sub-menu of options. Filters control *which memories* Conversational Search draws from when answering your questions.
 
-## Sources Filter
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_results_by_menu.png" alt="Filter Results By menu showing Apps, Time, and Modality filter options" align="center" fullwidth="true" />
 
-Limit searches to memories from specific applications. Use this when you want answers based only on specific apps.
+> Filter Results By menu showing Apps, Time, and Modality filter options
+
+## Apps
+
+Limit searches to memories from specific applications. Hover over **Apps** to see a list of detected applications and check the ones you want to include.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_by_apps.png" alt="Filter by Apps submenu showing available applications" align="center" fullwidth="true" />
+
+> Filter by Apps submenu showing available applications to include in your search
 
 <Steps>
-  <Step title="Click Sources Button">
-    Click the `Sources` button in the *bottom toolbar* to open the filter modal.
+  <Step title="Open the Filter Menu">
+    Click the `Filter By...` button in the *bottom toolbar*.
   </Step>
 
   <Step title="Select Apps">
-    Check the apps you want to include. You can select multiple apps at once.
+    Hover over **Apps** to expand the sub-menu. Check the apps you want to include (e.g., Chrome, VS Code, Slack). You can select multiple apps at once.
   </Step>
 
   <Step title="Apply Filter">
-    Selected sources apply to your current chat and all future messages until you change them.
+    Selected apps apply to your current chat and all future messages until you change them.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_sources.png" alt="Sources filter modal with app checkboxes, Chrome and VS Code selected" align="center" fullwidth="true" />
+## Time
 
-> Sources filter modal showing list of apps with checkboxes, with Chrome and VS Code selected
-
-## Time Ranges Filter
-
-Focus searches on specific time periods. Use this when you need information from a specific period.
+Focus searches on specific time periods. Hover over **Time** to choose from preset options or select a custom date range.
 
 <Steps>
-  <Step title="Click Time Ranges Button">
-    Click the `Time Ranges` button in the *bottom toolbar* to open the filter modal.
+  <Step title="Open the Filter Menu">
+    Click the `Filter By...` button in the *bottom toolbar*.
   </Step>
 
   <Step title="Select Time Range">
-    Choose from 31+ preset options (e.g., "Yesterday", "This week", "Last month") or use the calendar view for custom date ranges. You can select multiple ranges at once.
+    Hover over **Time** to expand the sub-menu. Choose from preset options (e.g., "Yesterday", "This week", "Last month") or use the calendar view for custom date ranges. You can select multiple ranges at once.
   </Step>
 
   <Step title="Apply Filter">
@@ -52,49 +56,35 @@ Focus searches on specific time periods. Use this when you need information from
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_search_filter_time.png" alt="Time Ranges modal showing preset options and calendar view" align="center" fullwidth="true" />
+## Modality
 
-> Time Ranges modal showing preset options and calendar view
+Restrict searches to specific types of captured context—the method by which a memory was formed. Hover over **Modality** to see the available types:
 
-## Modalities Filter
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/conversational-search/filter_by_modality.png" alt="Filter by Modality submenu showing Vision, Clipboard, Audio, and Google Calendar options" align="center" fullwidth="true" />
 
-Restrict searches to specific types of captured context—what you've seen, copied, said, or scheduled. Use this when you want answers grounded in a particular *kind* of memory rather than a particular app.
+> Filter by Modality submenu showing Vision, Clipboard, Audio, and Google Calendar options
 
-<Steps>
-  <Step title="Click Modalities Button">
-    Click the `Modalities` button in the *bottom toolbar* to open the **Refine by Modality** panel.
-  </Step>
+* **Vision** — What you've seen (screen context captured by LTM).
+* **Clipboard** — What you've copied and pasted.
+* **Audio** — What you've said and heard.
+* **Google Calendar** — Events and meeting context from connected calendars.
 
-  <Step title="Select Modalities">
-    Check any combination of the available modalities:
+Click **Manage Connections** at the bottom of the Modality panel to enable, disable, or authorize the integrations that power each modality (for example, connecting a Google Calendar account).
 
-    - **Vision** — what you've seen (screen context captured by LTM).
-    - **Clipboard** — what you've copied and pasted.
-    - **Audio** — what you've said and heard.
-    - **Google Calendar** — events and meeting context from connected calendars.
-  </Step>
-
-  <Step title="Manage Connections">
-    Click **Manage Connections** at the bottom of the panel to enable, disable, or authorize the integrations that power each modality (for example, connecting a Google Calendar account).
-  </Step>
-
-  <Step title="Apply Filter">
-    Selected modalities apply to your current chat and all future messages until you change them.
-  </Step>
-</Steps>
-
-> Some modalities depend on connected integrations or permissions (e.g. Google Calendar, microphone access for Audio). If a modality is unavailable, open **Manage Connections** to finish setup.
+<Callout type="info">
+  Some modalities depend on connected integrations or permissions (e.g., Google Calendar, microphone access for Audio). If a modality is unavailable, open **Manage Connections** to finish setup.
+</Callout>
 
 ## Combining Filters
 
-Use Sources, Time Ranges, and Modalities together for precise queries—for example, "Chrome browsing from yesterday afternoon," or "anything I copied from Slack last week," or "meetings on my Google Calendar this month."
+Combine Apps, Time, and Modality filters for precise queries—for example, "Chrome browsing from yesterday afternoon," or "anything I copied from Slack last week," or "meetings on my Google Calendar this month."
 
 ## Scoping a Chat to One Event
 
 To focus the assistant on **one** specific memory or summary, open that item in [Pieces Timeline](/products/desktop/timeline), open the **three-dots menu** (⋮), and choose **`Chat`**. This opens Conversational Search with that event's context pre-loaded. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) for details.
 
-For broader scoping across many memories, use **Sources**, **Time Ranges**, and **Modalities** above.
+For broader scoping across many memories, use the `Filter By...` menu above.
 
 ***
 
-Learn how to set additional context for your conversations in [Setting Additional Context](/products/desktop/conversational-search/setting-context).
+Learn how to set additional context for your conversations in [Add Context to Your Chats](/products/desktop/conversational-search/setting-context).

@@ -45,21 +45,47 @@ From the toolbar, you can:
 
 * **Chat** — Start a [Conversational Search](/products/desktop/conversational-search) conversation with roll-up context loaded
 * **Export** — Download as `PDF`, `Markdown`, or `Plain Text`
-* **Edit** — Open markdown editor to customize content
+* **Edit** — Open markdown editor to customize content, or use *Edit with AI* for prompt-based changes
 * **More menu** — Copy or Delete
 * **macOS Share** — Share to AirDrop, Mail, Messages, etc.
 
 ## Editing Roll-Ups
 
+You can edit any roll-up manually or use AI to suggest changes for you.
+
+### Manual Editing
+
 <Steps>
   <Step title="Click Edit">
-    Click the `Edit` button in the roll-up toolbar.
+    Click the `Edit` button in the roll-up toolbar, or click the three-dot menu at the top of the summary and select `Edit`.
   </Step>
   <Step title="Modify Content">
     Use the markdown editor toolbar for formatting: **Bold**, *Italic*, Link, Code Block.
   </Step>
   <Step title="Save Changes">
     Click `Save and Exit` to apply changes or `Cancel and Exit` to discard them.
+  </Step>
+</Steps>
+
+### Edit with AI
+
+Instead of making manual changes, you can describe what you'd like changed and let AI rewrite the content for you.
+
+<Steps>
+  <Step title="Enter Edit Mode">
+    Click the three-dot menu at the top of the summary and select `Edit`.
+  </Step>
+  <Step title="Open Edit with AI">
+    Click the `Edit with AI` button in the top-right corner of the editor toolbar.
+  </Step>
+  <Step title="Describe Your Changes">
+    Type a prompt into the "Describe changes you want to make..." field. You can also highlight a specific section first to scope the edit to just that part.
+  </Step>
+  <Step title="Review Proposed Changes">
+    Pieces generates suggested edits and displays them in a *Proposed Changes* panel marked "Review Required."
+  </Step>
+  <Step title="Accept or Dismiss">
+    Click `Accept` to apply the suggested changes, or `Dismiss` to discard them and keep the original content.
   </Step>
 </Steps>
 

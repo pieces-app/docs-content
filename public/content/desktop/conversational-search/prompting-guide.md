@@ -1,10 +1,10 @@
 ---
-title: Prompting Guide
+title: Write Better Prompts
 path: /desktop/conversational-search/prompting-guide
 visibility: PUBLIC
 status: PUBLISHED
 description: Write better prompts for Conversational Search—use specific keywords, time ranges, source apps, and follow-up techniques.
-metaTitle: Prompting Guide | Conversational Search
+metaTitle: Write Better Prompts | Conversational Search
 metaDescription: Learn effective prompting techniques for Pieces Conversational Search, including keywords, time ranges, app sources, and follow-up strategies.
 ---
 
@@ -51,7 +51,7 @@ This combines the keyword "Project Aurora," the application "Teams," the person 
 
 ## Use Filters Instead of Prompts
 
-If you know the exact source app or time range, use the `Sources` and `Time Ranges` filters instead of describing them in your prompt. Filters are more accurate than natural language time expressions. See [Scoping Your Prompt](/products/desktop/conversational-search/scoping-your-prompt) for details.
+If you know the exact source app or time range, use the `Sources` and `Time Ranges` filters instead of describing them in your prompt. Filters are more accurate than natural language time expressions. See [Filter by Apps, Time & Modality](/products/desktop/conversational-search/scoping-your-prompt) for details.
 
 ## Example Prompts
 
@@ -87,4 +87,4 @@ If you know the exact source app or time range, use the `Sources` and `Time Rang
 
 ***
 
-Learn how to scope your searches with filters in [Scoping Your Prompt](/products/desktop/conversational-search/scoping-your-prompt).
+Learn how to scope your searches with filters in [Filter by Apps, Time & Modality](/products/desktop/conversational-search/scoping-your-prompt).

@@ -1,7 +1,7 @@
 ---
 title: Models
 path: /desktop/configuration/models
-visibility: PUBLIC
+visibility: PRIVATE
 status: PUBLISHED
 description: Manage AI models and model preferences.
 metaTitle: Models Settings in Pieces Desktop
@@ -248,7 +248,7 @@ The free plan includes:
 | Local models (Ollama) | Full access, no limits | Full access, no limits |
 | Cloud / premium models | Limited usage | Unlimited access |
 | Long-term memory | Standard | Infinite |
-| Deep Study reports | — | ✓ |
+| Reflection Mode | ✓ | ✓ |
 
 For pricing and upgrade options, see [Pieces Pro](/products/paid-plans).
 

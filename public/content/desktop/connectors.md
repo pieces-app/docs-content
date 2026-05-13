@@ -1,7 +1,7 @@
 ---
 title: Connectors
 path: /desktop/connectors
-visibility: PRIVATE
+visibility: PUBLIC
 status: PUBLISHED
 description: Connect external services like Google Calendar to give Pieces richer context about your work and let Conversational Search take actions on your behalf.
 metaTitle: Connectors | Pieces Desktop

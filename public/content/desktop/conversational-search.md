@@ -10,7 +10,7 @@ metaDescription: Conversational Search is the ability to talk with your memories
 
 <Embed 
   src="https://youtu.be/Anlbmu9hCOg" 
-  title="Conversational Search overview video demonstrating the interface, suggested prompts, and example conversations"
+  title="Conversational Search overview video demonstrating the interface, suggested chats, and example conversations"
 />
 
 ***
@@ -21,21 +21,23 @@ metaDescription: Conversational Search is the ability to talk with your memories
 
 You can talk with all your memories, or customize which memories to include by filtering by specific apps and time ranges. Ask specific questions about your past work, and Conversational Search provides contextual answers based on your actual workflow history, powered by [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) with access to up to 9 months of captured memories.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Home view with Conversational Search, suggested prompts, and Start New Chat" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Home view with Conversational Search, suggested chats, recent chats, and Start New Chat" align="center" fullwidth="true" />
 
-> Homepage showing Conversational Search section with suggested prompts and Start New Chat button
+> Homepage showing Conversational Search section with suggested chats, recent chats, and Start New Chat
 
-## Two Ways to Use Conversational Search
+## The Conversational Search Homepage
 
-### Search Across Your Workflow
+When you open Conversational Search, the homepage gives you three ways to get started:
 
-Ask questions across your entire workflow history or filter by specific apps, time ranges, and modalities. Access it directly from the homepage.
+* **Suggested Chats for You** — Pieces generates personalized conversation starters based on your recent workflow activity. Click any suggestion to jump straight into a focused chat.
+* **Resume Recent Chats** — Pick up where you left off with your most recent conversations, displayed as scrollable cards showing the chat title and memory count.
+* **Start New Chat** — Type a question into the input field at the bottom to begin a brand new conversation with your memories.
 
-* **Ask specific questions** about your memories to find information quickly
-* **Search across your workflow** to discover patterns and connections
-* **Filter by apps, dates, or modalities** using Sources, Time Ranges, and Modalities for focused answers
+## Filter by Apps, Time & Modality
 
-### Chat from a Specific Event
+Click the `Filter By...` button in the bottom toolbar to scope which memories are included. Filter by **Apps** (e.g., Chrome, VS Code), **Time** (presets like "Yesterday" or custom ranges), or **Modality** (Vision, Clipboard, Audio, Google Calendar).
+
+## Chat from a Specific Event
 
 Ask questions about one specific memory or Timeline Event with pre-loaded context. Perfect for drilling into details of a particular workflow moment.
 
@@ -43,37 +45,28 @@ Ask questions about one specific memory or Timeline Event with pre-loaded contex
 * **Review work sessions** — dive deep into what happened during a particular period
 * **Get details** about a specific Timeline Event, including discussions, code, and decisions
 
-## Deep Study (Pieces Pro)
+## Reflection Mode
 
-Deep Study uses your Long-Term Memory to produce **sourced, timestamped research-style reports** across apps, people, topics, and time ranges.
+Reflection Mode enables the agent to reflect on its own reasoning and self-correct in real time. When enabled, the agent produces higher-quality responses by evaluating its logic as it generates answers, catching errors and refining its output before delivering it to you.
 
-* **Deep contextual recall** across collaborators, apps, and sessions
-* **Recaps** over days, weeks, or months
-* **Targeted queries** with people, topics, projects, and dates
-* **Actionable insights** with links to artifacts and suggested next steps
-
-Ask naturally—for example: *"Can you perform a deep study on what I've done for the last few days?"*
-
-At the bottom of the chat, click `Activate DeepStudy` (marked **PRO**). Your next prompt runs the Deep Study workflow. Deep Study requires **Long-Term Memory** to be enabled.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/ltm_27_rework_gifs/deep_study_demo_with_agentic_progress_meter.webp" alt="Deep Study progress UI with thinking state and agent steps" align="center" fullwidth="true" />
+Toggle Reflection Mode on or off using the `lotus icon` in the *bottom toolbar* next to the model selector. Deep research and analysis activate dynamically when needed based on the complexity of your prompt—no manual activation required.
 
 ***
 
 ## Explore Conversational Search
 
-<FancyCard title="Prompting Guide" href="/products/desktop/conversational-search/prompting-guide" colored={false}>
-  Write better prompts—use specific keywords, time ranges, source apps, and follow-up techniques.
+<FancyCard title="Filter by Apps, Time & Modality" href="/products/desktop/conversational-search/scoping-your-prompt" colored={false}>
+  Use Apps, Time, and Modality filters to narrow which memories you're searching through.
 </FancyCard>
 
-<FancyCard title="Scoping Your Prompt" href="/products/desktop/conversational-search/scoping-your-prompt" colored={false}>
-  Use Sources, Time Ranges, and Modalities filters to narrow which memories you're searching through.
-</FancyCard>
-
-<FancyCard title="Setting Additional Context" href="/products/desktop/conversational-search/setting-context" colored={false}>
+<FancyCard title="Add Context to Your Chats" href="/products/desktop/conversational-search/setting-context" colored={false}>
   Control LTM context, start chats from Timeline Events, and view source memories.
 </FancyCard>
 
-<FancyCard title="Models" href="/products/desktop/conversational-search/models" colored={false}>
+<FancyCard title="Choose a Model" href="/products/desktop/conversational-search/models" colored={false}>
   Switch between cloud and local AI models, browse the catalog, and download on-device models.
+</FancyCard>
+
+<FancyCard title="Write Better Prompts" href="/products/desktop/conversational-search/prompting-guide" colored={false}>
+  Use specific keywords, time ranges, source apps, and follow-up techniques for better results.
 </FancyCard>

@@ -21,9 +21,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 PiecesOS powers three core capabilities:
 
-### Long-Term Memory (LTM-2.7)
+### Agentic Long-Term Memory (LTM-2.7)
 
-The [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) continuously captures workflow context—code you copy, screens you view, audio you hear—and stores it **locally on your device**. This memory powers [Timeline](/products/desktop/timeline), [Conversational Search](/products/desktop/conversational-search), and [MCP integrations](/products/mcp) with real context from your day.
+The [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) continuously captures workflow context—code you copy, screens you view, audio you hear—and stores it **locally on your device**. This memory powers [Timeline](/products/desktop/timeline), [Conversational Search](/products/desktop/conversational-search) (Agentic Chats), and [Single-Click Summaries](/products/desktop/single-click-summaries) (Agentic Summaries) with real context from your day.
+
+The agent reasons across your memory in multiple turns, following threads, cross-referencing context, and building complete answers instead of one-shot guesses. It can search your memories, the web, your calendar, local files, and browser history automatically.
 
 ### Local & Cloud AI Models
 
@@ -53,8 +55,8 @@ PiecesOS installs automatically with the [Pieces Desktop App](/products/desktop/
 
 ## Explore PiecesOS
 
-<FancyCard title="LTM-2.7 Engine" href="/products/core-dependencies/pieces-os/long-term-memory" colored={false}>
-  Enable, pause, and control the Long-Term Memory Engine from the Quick Menu—including Audio and Access Control.
+<FancyCard title="Agentic LTM Engine" href="/products/core-dependencies/pieces-os/long-term-memory" colored={false}>
+  Learn about Agentic Long-Term Memory, the agent toolbox, and how to enable, pause, and control memory capture.
 </FancyCard>
 
 <FancyCard title="Quick Menu" href="/products/core-dependencies/pieces-os/quick-menu" colored={false}>
