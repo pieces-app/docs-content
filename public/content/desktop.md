@@ -68,11 +68,11 @@ Generate instant, contextual summaries from your workflow using preset summary t
 
 ## Conversational Search
 
-Use [Conversational Search](/products/desktop/conversational-search) as your main chat interface, where you'll find suggested prompts to help you get started. Query your workflow memories and get AI-powered insights about your past activities.
+Use [Conversational Search](/products/desktop/conversational-search) as your main chat interface, where you'll find suggested chats to help you get started. Query your workflow memories and get AI-powered insights about your past activities.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Conversational Search interface with chat and suggested prompts" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Conversational Search interface with suggested chats and recent chats" align="center" fullwidth="true" />
 
-> Conversational Search interface showing chat interface and suggested prompts
+> Conversational Search interface showing suggested chats and recent chats
 
 <FancyCard title="Learn More" href="/products/desktop/conversational-search" colored={false}>
   Learn how to use Conversational Search, integrate context, and chat with timeline events.

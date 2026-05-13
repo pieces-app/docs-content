@@ -1,5 +1,5 @@
 ---
-title: Context & Project Integration
+title: Use LTM Context in Chats
 path: /desktop/conversational-search/context-integration
 visibility: PUBLIC
 status: PUBLISHED
@@ -73,7 +73,7 @@ When LTM-2.7 is paused or turned off, Conversational Search operates without acc
 
 ## Scoping a chat from Timeline
 
-Conversational Search does **not** let you attach arbitrary local **files** or **folders** to a chat. To work with a **specific** captured memory—such as a workflow summary or Timeline Event—open it in [Pieces Timeline](/products/desktop/timeline), then use the **`Chat`** action on that item’s **three-dots menu** (⋮). That opens Conversational Search with that memory in scope.
+You can attach local **files** or **folders** to a chat using the `+` button or by dragging them into the input area (see [Adding Files and Folders as Context](/products/desktop/conversational-search/using-conversational-search#adding-files-and-folders-as-context)). To scope a chat to a **specific** captured memory—such as a workflow summary or Timeline Event—open it in [Pieces Timeline](/products/desktop/timeline), then use the **`Chat`** action on that item’s **three-dots menu** (⋮). That opens Conversational Search with that memory in scope.
 
 For the full walkthrough, see [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary) on the Event Actions page.
 

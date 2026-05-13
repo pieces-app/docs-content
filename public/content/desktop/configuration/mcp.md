@@ -14,7 +14,7 @@ Access server URLs and documentation for integrating Pieces Long-Term Memory wit
 
 To access MCP settings, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/mcp/mcp_settings_overview.png" alt="Model Context Protocol settings showing server URLs and documentation" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_settings_overview.png" alt="Model Context Protocol settings showing server URLs and documentation" align="center" fullwidth="true" />
 
 > Model Context Protocol (MCP) settings showing server URLs and View Documentation option
 
@@ -92,6 +92,67 @@ MCP enhances your coding and debugging experiences in several ways:
 * **Contextual Queries**: Access historical code implementations, error resolutions, or previously encountered bugs within GitHub Copilot for quicker coding solutions
 
 For more use cases and detailed setup instructions, refer to the [MCP documentation](/products/mcp).
+
+## MCP Connections
+
+Connect Pieces to supported MCP clients with one click. Pieces writes to each client's global or user-level MCP config and, when supported, also creates the matching global rule or skill file automatically.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_connections_section.png" alt="MCP Connections section showing supported clients with Connect buttons" align="center" fullwidth="true" />
+
+> MCP Connections section showing supported clients with one-click Connect buttons
+
+<Callout type="info">
+  Some MCP clients may need to be restarted or reopened before configuration changes appear.
+</Callout>
+
+The MCP Connections section shows your connection status (e.g., "Connected 4 of 6") and a `Refresh Connections` button to update the status.
+
+### Supported Clients
+
+| Client | Description |
+| --- | --- |
+| **Claude Desktop** | Connect Pieces to Claude Desktop for memory-backed conversations |
+| **Cursor** | Connect Pieces to Cursor so your IDE has access to long-term memory |
+| **GitHub Copilot** | Connect Pieces to GitHub Copilot for context-aware code suggestions |
+| **Codex** | Connect Pieces to Codex so both the CLI and IDE extension can connect to your memory via MCP |
+| **Google Gemini CLI** | Connect Pieces to Google Gemini CLI so terminal-based workflows can use MCP-backed context |
+| **Antigravity** | Connect Pieces to Antigravity so its agent panel can access your long-term memory over MCP |
+| **Claude Code** | Connect Pieces to Claude Code so terminal-based workflows can use long-term memory context |
+| **OpenClaw** | OpenClaw setup is documented separately for now. Click `View Docs` to open the setup guide |
+
+### Connecting a Client
+
+<Steps>
+  <Step title="Open MCP Settings">
+    Click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+  <Step title="Scroll to MCP Connections">
+    Find the *MCP Connections* section below the Available Servers and View Documentation sections.
+  </Step>
+  <Step title="Click Connect">
+    Click the `Connect` button next to the client you want to configure. Pieces automatically writes the MCP configuration to that client's config file.
+  </Step>
+  <Step title="Restart the Client">
+    Restart or reopen the MCP client for the configuration changes to take effect.
+  </Step>
+</Steps>
+
+### Managing Connected Clients
+
+Once connected, a green checkmark appears next to the client name. To disconnect or reconfigure:
+
+<Steps>
+  <Step title="Click the Three-Dot Menu">
+    Click the `⋮` menu next to a connected client.
+  </Step>
+  <Step title="Choose an Action">
+    Select **Disconnect** to remove the configuration, or **Reconfigure** to update settings.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+  OpenClaw requires manual configuration. If your OpenClaw instance is remote (e.g., a homelab server), you'll need to set up tunneling. Click `View Docs` next to OpenClaw to see the setup guide.
+</Callout>
 
 ***
 

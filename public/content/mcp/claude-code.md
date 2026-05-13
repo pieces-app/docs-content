@@ -38,9 +38,39 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting Up Claude Code
 
-There are two ways to set up Pieces MCP for Claude Code: use the Pieces CLI for automatic configuration, or add the server manually via the Claude CLI.
+There are three ways to set up Pieces MCP for Claude Code: use the one-click setup in Pieces Desktop, use the Pieces CLI, or add the server manually via the Claude CLI.
 
-### Method 1: CLI Install (Recommended)
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to Claude Code is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Claude Code**. Pieces automatically writes the MCP configuration.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies, a dialog appears with installation instructions. Follow the steps shown, then click `Retry`.
+  </Step>
+
+  <Step title="Verify Connection">
+    Once connected, a green checkmark appears next to Claude Code in the MCP Connections list. The configuration is now available in both the Claude Code CLI and VS Code extension.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
+
+### Method 1: CLI Install
 
 The Pieces CLI can automatically configure Pieces MCP for Claude Code—no manual config editing required.
 

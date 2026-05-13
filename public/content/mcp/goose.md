@@ -67,7 +67,7 @@ There, you can copy the SSE endpoint with one click, which includes the active P
 
 You can also find this in the Pieces Desktop App by opening the [Settings](/products/desktop/configuration) view and clicking **Model Context Protocol (MCP)**.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop app MCP settings" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_settings_overview.png" alt="Pieces Desktop app MCP settings" align="center" fullwidth="true" />
 
 ## Setting Up Goose with Pieces MCP
 

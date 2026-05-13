@@ -1,14 +1,14 @@
 ---
-title: Conversational Search in Other Environments
+title: Use Conversational Search in IDEs
 path: /desktop/conversational-search/multiple-environments
 visibility: PUBLIC
 status: PUBLISHED
 description: Use Conversational Search across IDEs and tools—primarily via MCP—with Long-Term Memory and PiecesOS.
-metaTitle: Conversational Search in multiple environments | Pieces Docs
+metaTitle: Use Conversational Search in IDEs | Pieces Docs
 metaDescription: Use Conversational Search across MCP-enabled IDEs and productivity tools with PiecesOS and Long-Term Memory context.
 ---
 
-## Using Conversational Search in IDEs
+## Use Conversational Search in IDEs
 
 Pieces connects to popular IDEs, editors, and productivity tools—most often through **Model Context Protocol (MCP)**—so you can use the same workflow in the environment you prefer.
 
@@ -69,4 +69,4 @@ Where a Flutter applet is not available (for example some editors or the CLI), t
 
 Return to the Desktop-focused guides when you configure memory, context, and models in the app:
 
-[Using Conversational Search →](/products/desktop/conversational-search/using-conversational-search)
+[Talk with Your Memories →](/products/desktop/conversational-search/using-conversational-search)

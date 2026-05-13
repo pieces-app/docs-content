@@ -55,7 +55,7 @@ Use **Chat** when you want **Conversational Search** focused on a specific **sum
 </Steps>
 
 <Callout type="tip">
-  For context controls that apply across *all* memories in a thread (such as sources and time ranges), use [Using Conversational Search](/products/desktop/conversational-search/using-conversational-search#filtering-your-searches). **Chat** from Timeline is for locking onto **one** summary or event at a time.
+  For context controls that apply across *all* memories in a thread (such as sources and time ranges), use [Talk with Your Memories](/products/desktop/conversational-search/using-conversational-search#filtering-your-searches). **Chat** from Timeline is for locking onto **one** summary or event at a time.
 </Callout>
 
 ## Timeline Event Actions

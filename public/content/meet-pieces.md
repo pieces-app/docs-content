@@ -9,7 +9,7 @@ metaDescription: Get started on Windows, macOS, Linux. Troubleshoot, configure, 
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png" alt="Getting to Know Pieces banner" align="center" fullwidth="true" />
+<Embed src="https://www.youtube.com/watch?v=dUr1lRM_TYk" alt="Getting to Know Pieces banner" align="center" fullwidth="true" />
 
 
 ## Introducing Pieces

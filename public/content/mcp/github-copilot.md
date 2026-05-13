@@ -65,7 +65,7 @@ There, you can copy the SSE endpoint with one click, which includes the active P
 
 You can also do this in the Pieces Desktop App by opening the **Settings** view and clicking **Model Context Protocol (MCP).**
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/mcp_pfd_new.png" alt="Pieces Desktop MCP configuration view" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_settings_overview.png" alt="Pieces Desktop MCP configuration view" align="center" fullwidth="true" />
 
 ## Setting Up GitHub Copilot
 
@@ -74,6 +74,36 @@ You can now use the Pieces MCP with both Visual Studio Code and Visual Studio Co
 Follow the steps below to get started—or watch the video below for a set-up tutorial and live demo.
 
 <Embed src="https://www.youtube.com/watch?v=QT9J8XSKMM8" />
+
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to GitHub Copilot is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **GitHub Copilot**. Pieces automatically writes the MCP configuration to VS Code's settings.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies, a dialog appears with installation instructions. Follow the steps shown, then click `Retry`.
+  </Step>
+
+  <Step title="Restart VS Code">
+    Restart Visual Studio Code for the configuration changes to take effect. Once connected, a green checkmark appears next to GitHub Copilot in the MCP Connections list.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
 
 ### via Visual Studio Code UI
 

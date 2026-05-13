@@ -14,7 +14,7 @@ Manage long-term memory preferences and data. Configure the Long-Term Memory Eng
 
 To access Long-Term Memory settings, click your `User Profile` in the top left, then hover over `Settings` and select `Long-Term Memory`.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/long-term-memory/long-term_memory_settings.png" alt="Long-Term Memory settings with Memory Formation, Performance, and Stored Data" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/LTM/ltm_settings_overview.png" alt="Long-Term Memory settings with Memory Formation, Performance, and Stored Data" align="center" fullwidth="true" />
 
 > Long-Term Memory settings showing Memory Formation, Performance, and Stored Data sections
 
@@ -65,6 +65,34 @@ Manage which applications the Long-Term Memory Engine interacts with. This allow
     Enable or disable specific applications that you want Long-Term Memory to capture data from. Applications that are enabled will have their workflow context captured and indexed.
   </Step>
 </Steps>
+
+### Proactive App Deny List
+
+Block applications from Long-Term Memory **before** Pieces ever captures data from them. This is useful for applications that handle sensitive information, such as password managers, banking apps, healthcare portals, or HR systems.
+
+Unlike standard App Access Control, which manages apps Pieces has already seen, the deny list lets you preemptively block any app on your system so Pieces never captures data from it in the first place.
+
+<Steps>
+  <Step title="Open App Access Control">
+    In *Memory Formation*, click the dropdown or icon next to "App Access Control".
+  </Step>
+
+  <Step title="Find the Add to Deny List Option">
+    Look for the option to add applications to the deny list. This shows all applications on your system, not just ones Pieces has seen.
+  </Step>
+
+  <Step title="Search for an Application">
+    Use the search field to find the application you want to block by name.
+  </Step>
+
+  <Step title="Add to Deny List">
+    Click the application to add it to your deny list. Pieces will never capture data from this application.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+  Add sensitive applications to the deny list proactively. Common candidates include password managers (1Password, Bitwarden), banking apps, healthcare portals, and any application where you handle confidential information.
+</Callout>
 
 ### System Permissions
 
@@ -221,37 +249,57 @@ Unload local machine learning models and resources from memory to free up system
 
 ## Stored Data
 
-Manage and clear persisted data captured by the Long-Term Memory Engine.
+Manage and clear persisted data captured by the Long-Term Memory Engine with granular control over time, modality, and application source.
 
 ### Clearing Long-Term Memory Data
 
-Remove persisted data captured by the Long-Term Memory Engine for a specific time range. This allows you to clear workflow context while keeping the engine enabled.
+Remove persisted data captured by the Long-Term Memory Engine. You can scope deletions by time period, capture modality, and specific applications for precise control over what gets removed.
 
 <Steps>
   <Step title="Open Long-Term Memory Settings">
     Click your `User Profile` in the top left, then hover over `Settings` and select `Long-Term Memory`.
   </Step>
 
-  <Step title="Locate Clear LTM Data">
-    Scroll down to the *Stored Data* section, find the "Clear LTM Data..." option.
-  </Step>
-
-  <Step title="Click Trash Icon">
-    Click the `Trash Icon` next to "Clear LTM Data..." to open the clearing options.
+  <Step title="Open Manage Data">
+    In the *Stored Data* section, click `Manage Data` to open the data management panel.
   </Step>
 
   <Step title="Select Time Range">
-    Choose the time range for the data you want to clear (e.g., last 7 days, last 30 days, all time).
+    Choose a time period: **Last hour**, **Today**, **This week**, or set a **Custom** date range.
   </Step>
 
-  <Step title="Confirm Clearing">
-    Confirm the clearing action when prompted. The selected Long-Term Memory Engine data will be permanently removed.
+  <Step title="Filter by Modality (Optional)">
+    Scope the deletion to specific capture types:
+    * **Vision** - Screen context (what you saw)
+    * **Clipboard** - Copied and pasted content
+    * **Audio** - Meeting and conversation transcripts
+  </Step>
+
+  <Step title="Filter by Application (Optional)">
+    Select a specific application to clear data from only that source while leaving other memories intact.
+  </Step>
+
+  <Step title="Review and Confirm">
+    Review your selection and confirm the deletion. The summary shows exactly what will be removed, for example: "Everything captured by vision from Slack today."
   </Step>
 </Steps>
 
 <Callout type="alert">
-  Clearing Long-Term Memory data is a permanent action that cannot be undone. This will remove workflow context captured during the selected time range.
+  Clearing Long-Term Memory data is permanent and cannot be undone. Review your filters carefully before confirming.
 </Callout>
+
+### Combining Filters
+
+Combine time, modality, and application filters for surgical deletions:
+
+| Example | Filters Used |
+| --- | --- |
+| Clear all clipboard data from the last hour | Time: Last hour, Modality: Clipboard |
+| Remove Slack vision captures from today | Time: Today, Modality: Vision, App: Slack |
+| Delete all audio from last week | Time: This week, Modality: Audio |
+| Wipe everything from one app | App: (specific app), Time: All time |
+
+This granular control lets you remove sensitive data without affecting the rest of your memory.
 
 ***
 

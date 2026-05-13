@@ -18,6 +18,32 @@ The primary control point for LTM is the **[PiecesOS Quick Menu](/products/core-
 
 ***
 
+## Agentic Long-Term Memory
+
+**Agentic LTM** powers a new generation of [Conversational Search](/products/desktop/conversational-search) (Agentic Chats) and [Single-Click Summaries](/products/desktop/single-click-summaries) (Agentic Summaries). Instead of answering questions in one shot, the agent now reasons across your artificial memory in **multiple turns**: following threads, cross-referencing context, and building toward complete answers.
+
+### Multi-Turn Reasoning
+
+When an initial fetch from your LTM leaves a gap, the agent recognizes it and goes back for more. It cross-references context from summaries, conversations, events, and people, building on prior turns within the same conversation so follow-ups feel like a real dialogue.
+
+### What the Agent Can Access
+
+During any chat or summary, the agent can autonomously:
+
+* **Search your memories** across summaries, events, and captured context
+* **Search the web** for real-time information with citations
+* **Read your calendar** and manage events (requires [Google Calendar connector](/products/desktop/connectors/google-calendar))
+* **Access local files** on your machine when relevant to your question
+* **Check your browser history** for recently visited pages and bookmarks
+
+The agent decides what to access based on your question. You don't need to configure anything—it gathers evidence automatically and builds answers from multiple sources.
+
+### What This Enables
+
+The agentic foundation powers features like [Meeting Prep](/products/desktop/single-click-summaries/default-types#meeting-prep) (summaries that take action on your behalf), [Reflection Mode](/products/desktop/conversational-search/using-conversational-search#reflection-mode) (metacognition for the agent), and deeper multi-step investigations in chat.
+
+***
+
 ## Enabling, Pausing & Disabling LTM
 
 ### Enabling LTM

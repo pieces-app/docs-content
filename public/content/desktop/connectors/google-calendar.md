@@ -1,7 +1,7 @@
 ---
 title: Google Calendar Connector
 path: /desktop/connectors/google-calendar
-visibility: PRIVATE
+visibility: PUBLIC
 status: PUBLISHED
 description: Connect your Google Calendar to Pieces so Conversational Search can read your schedule and create, update, and cancel events on your behalf.
 metaTitle: Google Calendar Connector | Pieces Connectors
@@ -70,16 +70,71 @@ Example prompts:
 * *"Summarize what I worked on during yesterday's 1:1 with Alice."*
 * *"Move my 3pm to Friday morning and let the attendees know."*
 
-## Disconnecting Google Calendar
+## Managing Connected Accounts
 
-Revoke access at any time from the same settings pane.
+You can connect multiple Google accounts and manage them from the connector's management screen.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Connectors/google_calendar_manage_modal.png" alt="Google Calendar Manage modal showing connected accounts and add account option" align="center" fullwidth="true" />
+
+> Google Calendar Manage modal showing connected accounts, reconnect options, and add account button
 
 <Steps>
   <Step title="Open Connectors Settings">
     In the Pieces Desktop App, open `Settings` and select `Connectors`.
   </Step>
-  <Step title="Disconnect">
-    Click `Disconnect` next to *Google Calendar*. Pieces revokes the OAuth token and stops accessing your calendar.
+  <Step title="Click Manage">
+    Click the `Manage` button next to *Google Calendar* to open the management modal.
+  </Step>
+  <Step title="View Connected Accounts">
+    The modal shows your **Connected Accounts** count and lists each linked account. You can also see accounts under **Needs Attention** if they've been disconnected and require reconnection.
+  </Step>
+</Steps>
+
+### Adding Another Account
+
+Connect additional Google accounts to access multiple calendars.
+
+<Steps>
+  <Step title="Open the Manage Modal">
+    Click `Manage` next to *Google Calendar* in Connectors settings.
+  </Step>
+  <Step title="Click Add Account">
+    Click `+ Add account` in the Connected Accounts section.
+  </Step>
+  <Step title="Authorize the New Account">
+    Complete the OAuth flow for the additional Google account.
+  </Step>
+</Steps>
+
+### Reconnecting a Disconnected Account
+
+If an account appears under **Needs Attention**, you can reconnect it.
+
+<Steps>
+  <Step title="Open the Manage Modal">
+    Click `Manage` next to *Google Calendar* in Connectors settings.
+  </Step>
+  <Step title="Find the Disconnected Account">
+    Look under **Needs Attention** for accounts showing "Disconnected" status.
+  </Step>
+  <Step title="Click Reconnect">
+    Click the `Reconnect` button next to the account to re-authorize access.
+  </Step>
+</Steps>
+
+### Disconnecting an Account
+
+Remove access for a specific Google account.
+
+<Steps>
+  <Step title="Open the Manage Modal">
+    Click `Manage` next to *Google Calendar* in Connectors settings.
+  </Step>
+  <Step title="Find the Account">
+    Locate the account you want to disconnect in the Connected Accounts list or Needs Attention section.
+  </Step>
+  <Step title="Click the Delete Icon">
+    Click the `trash icon` next to the account to disconnect it. Pieces revokes the OAuth token and stops accessing that account's calendar.
   </Step>
 </Steps>
 
@@ -98,5 +153,5 @@ The current release of the *Google Calendar* connector has the following limitat
 Learn more about how *Google Calendar* integrates with the rest of Pieces:
 
 * [Conversational Search](/products/desktop/conversational-search) — where the *Google Calendar* connector is surfaced.
-* [Setting Additional Context](/products/desktop/conversational-search/setting-context) — combine calendar data with LTM context and chat pipelines.
+* [Add Context to Your Chats](/products/desktop/conversational-search/setting-context) — combine calendar data with LTM context.
 * [Connectors Overview](/products/desktop/connectors) — see every available connector.

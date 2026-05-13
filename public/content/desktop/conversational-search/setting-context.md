@@ -1,10 +1,10 @@
 ---
-title: Setting Additional Context
+title: Add Context to Your Chats
 path: /desktop/conversational-search/setting-context
 visibility: PUBLIC
 status: PUBLISHED
 description: Control LTM context, chat from Timeline Events, and manage how Conversational Search accesses your workflow history.
-metaTitle: Setting Additional Context | Conversational Search
+metaTitle: Add Context to Your Chats | Conversational Search
 metaDescription: Control LTM context, start chats from Timeline Events, and configure how Conversational Search uses your workflow history.
 ---
 

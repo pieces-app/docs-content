@@ -42,9 +42,41 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting Up OpenAI Codex CLI
 
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to Codex is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Codex**. Pieces automatically writes the MCP configuration to Codex's config file, enabling both the CLI and IDE extension.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies, a dialog appears with installation instructions. Follow the steps shown, then click `Retry`.
+  </Step>
+
+  <Step title="Verify Connection">
+    Once connected, a green checkmark appears next to Codex in the MCP Connections list. Start a new Codex session to use Pieces MCP.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
+
+### Manual Configuration
+
 Codex stores its MCP configuration in `~/.codex/config.toml`. The file format is **TOML**, not JSON.
 
-### Config File Location
+#### Config File Location
 
 | Scope | Path |
 |-------|------|

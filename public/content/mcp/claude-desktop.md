@@ -51,7 +51,37 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting up Pieces MCP for Claude Desktop
 
-There are **two methods** to set up the Pieces MCP for Claude Desktop. Configure the server connection manually, or use the [Pieces CLI](/products/cli) to configure Claude Desktop automatically:
+There are **three methods** to set up the Pieces MCP for Claude Desktop: use the one-click setup in Pieces Desktop, configure manually, or use the Pieces CLI.
+
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to Claude Desktop is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Claude Desktop**. Pieces automatically writes the MCP configuration to Claude Desktop's config file.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies (like Node.js/npx), a dialog appears with installation instructions. Install the missing dependencies using the provided commands, then click `Retry`.
+  </Step>
+
+  <Step title="Restart Claude Desktop">
+    Fully quit and reopen Claude Desktop for the configuration changes to take effect. Once connected, a green checkmark appears next to Claude Desktop in the MCP Connections list.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
 
 ### Method 1: Manual Configuration (Direct MCP Command)
 
@@ -142,7 +172,7 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
   </Step>
 </Steps>
 
-### Method 2: Using the Pieces CLI to Configure Automatically
+### Method 2: Using the Pieces CLI
 
 This method uses the Pieces CLI to automatically set up and configure Pieces MCP for Claude Desktop.
 

@@ -42,9 +42,41 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting Up Google Gemini CLI
 
+### One-Click Setup via Pieces Desktop (Recommended)
+
+The fastest way to connect Pieces MCP to Google Gemini CLI is through the MCP Connections feature in Pieces Desktop.
+
+<Steps>
+  <Step title="Open MCP Settings">
+    In Pieces Desktop, click your `User Profile` in the top left, then hover over `Settings` and select `MCP`.
+  </Step>
+
+  <Step title="Find MCP Connections">
+    Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
+  </Step>
+
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Google Gemini CLI**. Pieces automatically writes the MCP configuration to Gemini's settings file.
+  </Step>
+
+  <Step title="Handle Missing Dependencies (if prompted)">
+    If Pieces detects missing dependencies, a dialog appears with installation instructions. Follow the steps shown, then click `Retry`.
+  </Step>
+
+  <Step title="Start a New Session">
+    Once connected, a green checkmark appears next to Google Gemini CLI in the MCP Connections list. Start a new `gemini` session to use Pieces MCP.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
+</Callout>
+
+### Manual Configuration
+
 Gemini CLI stores its MCP configuration in `~/.gemini/settings.json`. Workspace settings override user settings.
 
-### Config File Location
+#### Config File Location
 
 | Scope | Path |
 |-------|------|
