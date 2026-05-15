@@ -117,9 +117,9 @@ Choose which applications LTM can monitor. Disable specific apps (like password 
 Grant or revoke accessibility and screen recording permissions on macOS, Windows, or Linux to control LTM's ability to capture screen and application context.
 
 ### Clear Stored Data
-Remove captured LTM data for specific time ranges (last 7 days, last 30 days, or all time) without disabling the engine.
+Remove captured LTM data without disabling the engine. You can scope deletions by **time period** (last hour, today, this week, or a custom range), by **modality** (vision, clipboard, or audio), and by **app source**, or combine all three to clear data precisely.
 
-See [LTM Configuration](/products/desktop/configuration/long-term-memory) for step-by-step guides.
+See [Clearing Long-Term Memory Data](/products/desktop/configuration/long-term-memory#clearing-long-term-memory-data) for the full walkthrough.
 
 ## How AI Tools Access LTM
 
