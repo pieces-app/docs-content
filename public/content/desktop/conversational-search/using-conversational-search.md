@@ -24,6 +24,8 @@ Have conversations with your captured workflow context. Ask specific questions a
 
 Personalized chat suggestions appear on the homepage under *Suggested Chats for You*, generated from your recent workflow activity. Click any suggestion to instantly start that conversation. Responses include Related Timeline Events cards showing which memories were used as sources.
 
+To regenerate the list with new prompts based on your latest activity, click the `Refresh suggestions` button (the circular refresh icon) to the right of the *Suggested Chats* grid.
+
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/clicking_on_sample_prompt.gif" alt="Clicking a suggested chat showing response with Related Timeline Events cards" align="center" fullwidth="true" />
 
 > Clicking a suggested chat, showing the complete flow from click to response with Related Timeline Events cards
@@ -40,9 +42,11 @@ Continue where you left off with your most recent conversations.
     Click any card showing a conversation title and timestamp.
   </Step>
   <Step title="Continue Your Conversation">
-    The chat opens with full history and context intact—type a follow-up question to continue.
+    The chat opens with full history and context intact, type a follow-up question to continue.
   </Step>
 </Steps>
+
+To browse the full chat history beyond the most recent two cards, click the `Reveal previous chats in timeline` button (the panel icon) on the right side of the *Resume Recent Chats* row. This opens your chat history in the Timeline, where every prior conversation is searchable and resumable.
 
 ### Asking Your Own Questions
 

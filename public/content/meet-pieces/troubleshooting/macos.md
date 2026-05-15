@@ -139,6 +139,11 @@ Once you’ve determined your CPU architecture, [download the correct installati
 
 PiecesOS requires specific macOS permissions to function properly. If features like *Long-Term Memory* or *Live Context* aren't working as expected, the most common cause is missing system permissions.
 
+<Embed
+  src="https://youtu.be/0uRNa8maMiA"
+  title="Granting macOS permissions for Pieces"
+/>
+
 ### Screen & System Audio Recording
 
 PiecesOS needs *Screen & System Audio Recording* permission to capture on-screen context for features like *Long-Term Memory* and *Live Context*.

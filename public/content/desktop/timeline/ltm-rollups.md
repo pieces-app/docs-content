@@ -69,25 +69,62 @@ You can edit any roll-up manually or use AI to suggest changes for you.
 
 ### Edit with AI
 
-Instead of making manual changes, you can describe what you'd like changed and let AI rewrite the content for you.
+Instead of making manual changes, you can describe what you'd like changed and let AI rewrite the content for you. Edit with AI supports two modes: **inline edits** that target a specific section, and **whole-summary rewrites** that rework the entire summary in one pass.
+
+#### Inline Edits with Diff Review
+
+Highlight a specific section to scope an edit to just that part. The rest of the summary stays untouched.
+
+<Steps>
+  <Step title="Enter Edit Mode">
+    Click the three-dot menu at the top of the summary and select `Edit`.
+  </Step>
+  <Step title="Highlight a Section">
+    Select the range of text you want to revise.
+  </Step>
+  <Step title="Open Edit with AI">
+    Click the `Edit with AI` button in the top-right corner of the editor toolbar.
+  </Step>
+  <Step title="Describe Your Changes">
+    Type a prompt into the *Describe changes you want to make...* field describing how you want the highlighted text revised.
+  </Step>
+  <Step title="Review the Diff">
+    Pieces generates the suggested revision and displays it in a *Proposed Changes* diff view marked *Review Required*, so you can see exactly what would change.
+  </Step>
+  <Step title="Accept or Dismiss">
+    Click `Accept` to apply the change, or `Dismiss` to discard it and keep the original text.
+  </Step>
+</Steps>
+
+#### Whole-Summary Rewrites
+
+Skip the highlight step to rework the entire summary with one prompt. Useful for changing audience, tone, or format without rewriting from scratch.
 
 <Steps>
   <Step title="Enter Edit Mode">
     Click the three-dot menu at the top of the summary and select `Edit`.
   </Step>
   <Step title="Open Edit with AI">
-    Click the `Edit with AI` button in the top-right corner of the editor toolbar.
+    Click the `Edit with AI` button in the top-right corner of the editor toolbar without selecting any text.
   </Step>
-  <Step title="Describe Your Changes">
-    Type a prompt into the "Describe changes you want to make..." field. You can also highlight a specific section first to scope the edit to just that part.
+  <Step title="Describe the Rewrite">
+    Type a prompt describing the change you want. Common examples:
+
+    * `Make this shorter and Slack-ready`
+    * `Rewrite this for an executive audience`
+    * `Convert this into a checklist`
   </Step>
-  <Step title="Review Proposed Changes">
-    Pieces generates suggested edits and displays them in a *Proposed Changes* panel marked "Review Required."
+  <Step title="Review the Diff">
+    Pieces generates the rewritten summary and displays it in a *Proposed Changes* diff view marked *Review Required*.
   </Step>
   <Step title="Accept or Dismiss">
-    Click `Accept` to apply the suggested changes, or `Dismiss` to discard them and keep the original content.
+    Click `Accept` to apply the rewrite, or `Dismiss` to keep the original.
   </Step>
 </Steps>
+
+<Callout type="info">
+  Rewrites stay grounded in the same underlying memories that generated the original summary. Pieces reframes what's already captured rather than inventing new content.
+</Callout>
 
 ## Privacy Control
 

@@ -30,13 +30,15 @@ When an initial fetch from your LTM leaves a gap, the agent recognizes it and go
 
 During any chat or summary, the agent can autonomously:
 
-* **Search your memories** across summaries, events, and captured context
-* **Search the web** for real-time information with citations
-* **Read your calendar** and manage events (requires [Google Calendar connector](/products/desktop/connectors/google-calendar))
-* **Access local files** on your machine when relevant to your question
-* **Check your browser history** for recently visited pages and bookmarks
+* **Search your memories** across summaries, events, people, hints, and captured sources
+* **Search the web** for real-time information with citations (powered by Perplexity)
+* **Read your calendar** and create, update, or delete events (requires [Google Calendar connector](/products/desktop/connectors/google-calendar))
+* **Search local files** by path, grep file contents, and read files from your machine
+* **Look up browser history**, bookmarks, and recent activity across your browsers
+* **Reference your user persona**, the Pieces-generated profile describing who you are and the kinds of things you work on
+* **Compute time ranges** by parsing natural language like *"last Tuesday"* or *"this quarter"* into precise queries
 
-The agent decides what to access based on your question. You don't need to configure anything—it gathers evidence automatically and builds answers from multiple sources.
+The agent decides what to access based on your question. You don't need to configure anything, it gathers evidence automatically and builds answers from multiple sources.
 
 ### What This Enables
 

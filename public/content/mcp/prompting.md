@@ -11,7 +11,9 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Prompting Guide
 
-The `ask_pieces_ltm` tool allows you to query Pieces LTM with natural language questions to retrieve context.
+The Pieces MCP server exposes a set of tools that let your agent query Long-Term Memory with natural-language questions and traverse the Pieces memory graph across summaries, events, people, and captured sources. Some tools also help the agent move between memory context and your local file system so it can connect what you have worked on to what is on disk.
+
+The primary entry point is the `ask_pieces_ltm` tool, which most agents call automatically when a prompt needs personal context from your workflow. You do not need to invoke tools directly, your client decides which tools to call based on your prompt.
 
 Right now, we recommend setting up the Pieces MCP within [Cursor](/products/mcp/cursor) or [VS Code with GitHub Copilot](/products/mcp/github-copilot).
 
