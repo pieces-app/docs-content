@@ -13,6 +13,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Choose your installation method below. AppInstaller is recommended for most users.
 
+<Embed
+  src="https://youtu.be/6id1lYdpIzA"
+  title="Installing Pieces on Windows"
+/>
+
 <InstallMethodGroup>
   <InstallMethodCard title="AppInstaller" href="/products/meet-pieces/windows-installation-guide/appinstaller" recommended={true}>
     Installs Pieces Desktop and PiecesOS with automatic updates.
