@@ -13,6 +13,11 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 Pieces for macOS is available via **DMG** (recommended), **PKG**, or **Homebrew**. All methods support both Apple Silicon and Intel Macs.
 
+<Embed
+  src="https://youtu.be/dO_UV6YLqqo"
+  title="Installing Pieces on macOS"
+/>
+
 <InstallMethodGroup>
   <InstallMethodCard title="DMG" href="/products/meet-pieces/macos-installation-guide/dmg" recommended={true}>
     Disk image for Apple Silicon and Intel Macs.
