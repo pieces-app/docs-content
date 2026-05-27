@@ -116,4 +116,4 @@ If you no longer need local AI models or wish to remove the Ollama wrapper from 
 
 ## Next Steps
 
-You can read documentation about what [local LLMs are currently available](/products/core-dependencies/ollama/supported-models) on Ollama and are supported by PiecesOS, or [click here for troubleshooting](/products/core-dependencies/ollama/troubleshooting) if you’re experiencing installation issue.
+You can read documentation about what [local LLMs are currently available](/products/core-dependencies/ollama/supported-models) on Ollama and are supported by PiecesOS, or the [Ollama troubleshooting guide](/products/core-dependencies/ollama/troubleshooting) if you’re experiencing installation issue.

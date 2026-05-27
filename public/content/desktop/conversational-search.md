@@ -3,9 +3,9 @@ title: Conversational Search
 path: /desktop/conversational-search
 visibility: PUBLIC
 status: PUBLISHED
-description: Conversational Search is the ability to talk with your memories. Have conversations with your captured workflow context with LTM-2.7.
+description: Chat with workflow context captured by Long-Term Memory in the Pieces Desktop App.
 metaTitle: Conversational Search | Pieces Docs
-metaDescription: Conversational Search is the ability to talk with your memories. Have conversations with your captured workflow context with LTM-2.7.
+metaDescription: Use Conversational Search in Pieces Desktop to ask questions about captured workflow context, with optional filters and file attachments.
 ---
 
 <Embed 
@@ -15,58 +15,70 @@ metaDescription: Conversational Search is the ability to talk with your memories
 
 ***
 
-## What Is Conversational Search?
+## Overview
 
-**Conversational Search** is the ability to talk with your memories. It's your AI-powered interface for having conversations with your captured workflow context—including code you've written, conversations you've had, and decisions you've made.
+**Conversational Search** is the chat interface in the Pieces Desktop App. You ask questions about past work, and responses draw on context captured by the [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/long-term-memory) Engine.
 
-You can talk with all your memories, or customize which memories to include by filtering by specific apps and time ranges. Ask specific questions about your past work, and Conversational Search provides contextual answers based on your actual workflow history, powered by [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os#ltm-27) with access to up to 9 months of captured memories.
+You can include all captured memories or limit scope by app, time range, and modality. You can also attach local files and folders. Chats are saved to [Pieces Timeline](/products/desktop/timeline) so you can open them again later.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/conversational_chat_view.png" alt="Home view with Conversational Search, suggested chats, recent chats, and Start New Chat" align="center" fullwidth="true" />
 
-> Homepage showing Conversational Search section with suggested chats, recent chats, and Start New Chat
+> Conversational Search homepage with suggested chats, recent chats, and Start New Chat
 
-## The Conversational Search Homepage
+## Getting Started on the Homepage
 
-When you open Conversational Search, the homepage gives you three ways to get started:
+When you open Conversational Search from the Desktop App home view, you have three entry points:
 
-* **Suggested Chats for You** — Pieces generates personalized conversation starters based on your recent workflow activity. Click any suggestion to jump straight into a focused chat.
-* **Resume Recent Chats** — Pick up where you left off with your most recent conversations, displayed as scrollable cards showing the chat title and memory count.
-* **Start New Chat** — Type a question into the input field at the bottom to begin a brand new conversation with your memories.
+* **Suggested Chats for You** — Conversation starters based on recent activity. Click one to open a thread; responses include Related Timeline Events showing which memories were used.
+* **Resume Recent Chats** — Cards for your latest threads. Click any card to continue with full history intact.
+* **Start New Chat** — Type in the input at the bottom and press `Enter` to ask your own question.
 
-## Filter by Apps, Time & Modality
+<Callout type="tip">
+  Click `Refresh suggestions` (circular icon beside the suggestions grid) to regenerate prompts from your latest activity. Click `Reveal previous chats in timeline` (panel icon on the *Resume Recent Chats* row) to open older threads in [Pieces Timeline](/products/desktop/timeline).
+</Callout>
 
-Click the `Filter By...` button in the bottom toolbar to scope which memories are included. Filter by **Apps** (e.g., Chrome, VS Code), **Time** (presets like "Yesterday" or custom ranges), or **Modality** (Vision, Clipboard, Audio, Google Calendar).
+**Example questions:**
 
-## Chat from a Specific Event
+* "Why did we choose PostgreSQL over MySQL for the auth project?"
+* "What was the blocker I hit last Tuesday afternoon?"
+* "What did Sarah and I discuss about the API redesign in Teams?"
 
-Ask questions about one specific memory or Timeline Event with pre-loaded context. Perfect for drilling into details of a particular workflow moment.
+## While You Chat
 
-* **Review decisions** — understand why past choices were made
-* **Review work sessions** — dive deep into what happened during a particular period
-* **Get details** about a specific Timeline Event, including discussions, code, and decisions
+The bottom toolbar controls how each conversation runs:
 
-## Reflection Mode
+| Control | What it does |
+| --- | --- |
+| `+` | Attach files or folders (or drag and drop into the input) |
+| `Filter By...` | Limit memories by app, time, or modality |
+| Model selector | Pick a cloud model mode (Fast, Balanced, or Extra Thinking) |
+| `lotus icon` | Toggle *Reflection Mode* for deeper reasoning on hard questions |
+| `Send` | Send a message (`Enter` queues a follow-up while the agent is still responding) |
 
-Reflection Mode enables the agent to reflect on its own reasoning and self-correct in real time. When enabled, the agent produces higher-quality responses by evaluating its logic as it generates answers, catching errors and refining its output before delivering it to you.
+On active threads, the `⋮` menu at the top lets you **Pin**, **Refresh**, or **Delete** the chat. Token usage appears in the chat header so you can see input, output, reasoning, and cache totals for metered or BYOK plans.
 
-Toggle Reflection Mode on or off using the `lotus icon` in the *bottom toolbar* next to the model selector. Deep research and analysis activate dynamically when needed based on the complexity of your prompt—no manual activation required.
+To scope a chat to **one** Timeline Event or summary, open that item in Timeline and choose `Chat` from the three-dots menu (⋮). See [Add Context to Your Chats](/products/desktop/conversational-search/setting-context).
 
 ***
 
 ## Explore Conversational Search
 
 <FancyCard title="Filter by Apps, Time & Modality" href="/products/desktop/conversational-search/scoping-your-prompt" colored={false}>
-  Use Apps, Time, and Modality filters to narrow which memories you're searching through.
+  Use the Filter By menu to narrow which memories the agent can use in a thread.
 </FancyCard>
 
 <FancyCard title="Add Context to Your Chats" href="/products/desktop/conversational-search/setting-context" colored={false}>
-  Control LTM context, start chats from Timeline Events, and view source memories.
+  Attach files, start chats from Timeline Events, and review source memories in the Relevant Summaries sidebar.
 </FancyCard>
 
 <FancyCard title="Choose a Model" href="/products/desktop/conversational-search/models" colored={false}>
-  Switch between cloud and local AI models, browse the catalog, and download on-device models.
+  Switch between Fast, Balanced, and Extra Thinking modes for Claude, Gemini, and GPT.
 </FancyCard>
 
 <FancyCard title="Write Better Prompts" href="/products/desktop/conversational-search/prompting-guide" colored={false}>
-  Use specific keywords, time ranges, source apps, and follow-up techniques for better results.
+  Use keywords, time ranges, app names, and follow-ups to get sharper answers.
 </FancyCard>
+
+***
+
+If Conversational Search is not what you need, explore [Pieces Timeline](/products/desktop/timeline) to browse captured events and summaries, or [Single-Click Summaries](/products/desktop/single-click-summaries) for one-click workflow reports.

@@ -57,4 +57,4 @@ Scroll or search until you find both `Pieces` and `PiecesOS`. Right-click on the
 
 ## Additional Resources
 
-Click here for additional [documentation on troubleshooting](/products/meet-pieces/troubleshooting/macos) or reach out to [support](/products/support).
+See the [macOS troubleshooting guide](/products/meet-pieces/troubleshooting/macos) or reach out to [support](/products/support) for help.

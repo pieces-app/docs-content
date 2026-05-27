@@ -25,18 +25,30 @@ That means full offline functionality by default, opt-in cloud integrations, cle
 ## Where Your Data Lives
 All Pieces data is stored in a single folder on your device—easy to back up, copy, move between machines, or delete entirely.
 
-The `com.pieces.os` folder holds your long-term memory context, saved materials, and logs. You can copy it to OneDrive, a USB drive, or another machine without touching any cloud service.
+Pieces stores data in `com.pieces.os` (PiecesOS: LTM, engine data, logs) and, on macOS and Windows, `com.pieces.pfd` (Desktop App settings and logs). You can copy these folders to OneDrive, a USB drive, or another machine without using cloud backup.
 
 <Tabs>
   <TabItem title="macOS">
+    **PiecesOS:**
     ```plaintext
     /Users/<username>/Library/com.pieces.os/
+    ```
+
+    **Desktop App:**
+    ```plaintext
+    /Users/<username>/Library/com.pieces.pfd/
     ```
   </TabItem>
 
   <TabItem title="Windows">
+    **PiecesOS:**
     ```plaintext
     C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\
+    ```
+
+    **Desktop App:**
+    ```plaintext
+    C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for Developers\com.pieces.pfd\
     ```
   </TabItem>
 

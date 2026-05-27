@@ -55,6 +55,25 @@ Start context-specific chats directly from any Timeline Event. When you start a 
 
 You can also use the **three-dots menu** (⋮) on any event and choose `Chat` to scope a conversation to that item. See [Chat from a summary](/products/desktop/timeline/event-actions#chat-from-a-summary).
 
+## Attach Files and Folders
+
+Add local files or folders so Conversational Search can use their contents alongside LTM memories.
+
+<Steps>
+  <Step title="Click the + Button">
+    Click the `+` button to the left of the chat input field.
+  </Step>
+  <Step title="Select or Drag Files">
+    Browse and select files or folders, or drag and drop them into the input area.
+  </Step>
+  <Step title="Verify Context Chips">
+    Attached items appear as context chips above the input field.
+  </Step>
+  <Step title="Ask Your Question">
+    Type your question. The agent uses file contents together with your captured memories.
+  </Step>
+</Steps>
+
 ## Viewing the Relevant Summaries Sidebar
 
 After receiving a response, see exactly which Timeline Events were used to generate it.
