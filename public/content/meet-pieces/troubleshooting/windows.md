@@ -159,22 +159,22 @@ Before installing, ensure your Windows system is fully updated:
 
 ## Accessing Pieces Logs
 
-On Windows machines, Pieces writes its log files under your local AppData folder. You'll find two separate folders depending on which component you're using:
+On Windows, PiecesOS and the Desktop App store logs under separate folders in AppData. See [On-Device Storage](/products/core-dependencies/on-device-storage#finding-your-logs) for backup and database paths.
 
-* **Pieces OS (POS) logs**:
+* **PiecesOS logs:**
 
 ```plaintext
 C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support
 ```
 
-- **Pieces Desktop (PFD) logs**:
+* **Desktop App logs:**
 
 ```plaintext
-C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.pfd\production\Support
+C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for Developers\com.pieces.pfd\production\logs
 ```
 
 <Callout type="alert">
-  Replace \<USERNAME> with your Windows account name
+  Replace \<USERNAME> with your Windows account name.
 </Callout>
 
 ## Checking Hardware Specifications

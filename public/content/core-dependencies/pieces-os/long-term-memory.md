@@ -42,7 +42,7 @@ The agent decides what to access based on your question. You don't need to confi
 
 ### What This Enables
 
-The agentic foundation powers features like [Meeting Prep](/products/desktop/single-click-summaries/default-types#meeting-prep) (summaries that take action on your behalf), [Reflection Mode](/products/desktop/conversational-search/using-conversational-search#reflection-mode) (metacognition for the agent), and deeper multi-step investigations in chat.
+The agentic foundation powers features like [Meeting Prep](/products/desktop/single-click-summaries/default-types#meeting-prep) (summaries that take action on your behalf), [Reflection Mode](/products/desktop/conversational-search#reflection-mode) (metacognition for the agent), and deeper multi-step investigations in chat.
 
 ***
 

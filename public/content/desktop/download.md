@@ -58,7 +58,7 @@ For detailed instructions, refer to our comprehensive [Windows installation and 
   *Windows 10 (1809) or higher*
 </Card>
 
-If you want alternative installation methods (`.exe`, WinGet), [click here.](/products/desktop/troubleshooting/windows#alternative-installation-methods)
+For alternative installation methods (`.exe`, WinGet), see [Windows alternative installers](/products/desktop/troubleshooting/windows#alternative-installation-methods).
 
 ### Linux
 

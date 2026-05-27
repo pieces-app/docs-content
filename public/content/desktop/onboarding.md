@@ -112,7 +112,7 @@ Conversational Search lets you ask questions about your workflow and get context
 
 ### Accessing Conversational Search
 
-Access Conversational Search directly from the homepage to ask questions about your workflow, with LTM providing context from your captured memories. You can switch between cloud-hosted and local models using the model selector in the chat interface.
+Access Conversational Search directly from the homepage to ask questions about your workflow, with LTM providing context from your captured memories. Switch models from the [chat model selector](/products/desktop/conversational-search/models).
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/conversational-search/using-conversational-search/conversational_chat_with_sample_question.png" alt="Typing a question into Conversational Search" align="center" fullwidth="true" />
 

@@ -36,7 +36,7 @@ Snap is the recommended installation method for Ubuntu users. It provides automa
   Then, type `pieces-for-developers` to launch the application directly from your terminal.
 </Card>
 
-Click here for documentation [on determining your OS version.](/products/meet-pieces/troubleshooting/linux#checking-ubuntu-version)
+See our guide on [determining your OS version].(/products/meet-pieces/troubleshooting/linux#checking-ubuntu-version)
 
 ### Connect System Interfaces
 

@@ -30,7 +30,7 @@ The Pieces CLI offers users a straightforward way to manage and utilize saved co
 </CardGroup>
 
 <Card title="Learn More with Quick Guides" image="/assets/icons/platform_logos/pieces_logo.png">
-  Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.7) Memory Engine and Conversational Search. [Click here to get started.](/products/quick-guides/overview)
+  Pieces Quick Guides help you quickly understand and utilize powerful features like the Long-Term (LTM-2.7) Memory Engine and Conversational Search. [Get started with Quick Guides.](/products/quick-guides/overview)
 </Card>
 
 This software is designed to offer **two main features**: AI Assistance with Conversational Search and material management within the Pieces Drive.

@@ -64,7 +64,7 @@ The DMG installer is the recommended method for installing Pieces on macOS. Choo
 | *RAM (Cloud Mode)* | 8 GB total system RAM with 1 GB free                                          | 16 GB total system RAM or more       | Applies when PiecesOS is running in cloud mode.                  |
 | *Disk Space*       | 2 GB minimum (1 GB for PiecesOS + 0.5–1 GB for data), with at least 4 GB free | 8 GB with at least 6 GB free or more | Ensure additional free space for data storage and future growth. |
 
-Click here for a quick guide on [determining your OS type](/products/meet-pieces/troubleshooting/macos#checking-os-version), and here for [how to check your device's CPU architecture](/products/meet-pieces/troubleshooting/macos#checking-cpu-type).
+See our guide on [determining your OS type](/products/meet-pieces/troubleshooting/macos#checking-os-version), and here for [how to check your device's CPU architecture](/products/meet-pieces/troubleshooting/macos#checking-cpu-type).
 
 ## Next Steps
 

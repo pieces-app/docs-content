@@ -148,7 +148,7 @@ You can remove PiecesOS and the Pieces Desktop App using Flatpak commands. The p
 </Steps>
 
 <Callout type="info">
-  Flatpak stores app data separately from your personal Pieces data. The commands above remove Flatpak-managed state (settings, cache). Your actual Pieces data in `~/Documents/com.pieces.os` and `~/Documents/com.pieces.pfd` is preserved and must be deleted manually if desired.
+  Flatpak stores app data separately from your personal Pieces data. The commands above remove Flatpak-managed state (settings, cache). Your actual Pieces data in `~/.local/share/com.pieces.os/` is preserved and must be deleted manually if desired. See [On-Device Storage](/products/core-dependencies/on-device-storage) for paths on all platforms.
 </Callout>
 
 ### Troubleshooting

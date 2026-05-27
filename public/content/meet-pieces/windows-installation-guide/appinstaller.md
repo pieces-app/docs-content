@@ -50,7 +50,7 @@ The AppInstaller method is the recommended way to install Pieces on Windows. It 
 | *RAM (Cloud Mode)* | 8 GB total system RAM with 1 GB free                                          | 16 GB total system RAM or more       | Applies when PiecesOS is running in cloud mode.                  |
 | *Disk Space*       | 2 GB minimum (1 GB for PiecesOS + 0.5–1 GB for data), with at least 4 GB free | 8 GB with at least 6 GB free or more | Ensure additional free space for data storage and future growth. |
 
-Click here for a quick guide on [determining your OS version](/products/meet-pieces/troubleshooting/windows#checking-windows-version).
+See our guide on [determining your OS version](/products/meet-pieces/troubleshooting/windows#checking-windows-version).
 
 <Callout type="alert">
   **Don't install** Pieces or PiecesOS to **OneDrive** or other **cloud-synced** folders (Dropbox, Google Drive, etc.)—sync can interfere with installs and updates. Use the **default path** on a local drive.

@@ -13,9 +13,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 **PiecesOS** is a background service that runs on your machine. It orchestrates local data processing, manages on-device machine learning models, and serves as the bridge between your workflow and every Pieces product—including the [Pieces Desktop App](/products/desktop/onboarding), [MCP integrations](/products/mcp), and the [CLI](/products/cli).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/piecesos_bridging_all_products.png" alt="PiecesOS bridging all Pieces products and services" align="center" fullwidth="true" />
-
-> PiecesOS bridging all Pieces products and services
+<piecesos-bridge-diagram />
 
 ## What PiecesOS Does
 

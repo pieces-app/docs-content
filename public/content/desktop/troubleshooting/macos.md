@@ -30,7 +30,7 @@ If you're having trouble installing the Pieces Desktop App using the recommended
 Our `.pkg` files install both PiecesOS and the Pieces Desktop App in a single guided sequence.
 
 <Callout type="alert">
-  If you’re not sure which installer you need based on your device’s CPU, [click here.](/products/desktop/troubleshooting/macos#checking-cpu-type)
+  Not sure which installer you need? See [how to check your CPU type](/products/desktop/troubleshooting/macos#checking-cpu-type)
 </Callout>
 
 <CardGroup cols={2}>
