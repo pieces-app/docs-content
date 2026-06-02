@@ -35,4 +35,4 @@ Pieces for Linux is available via **Snap** (recommended for Ubuntu) or **Flatpak
 
 ## Additional Resources
 
-Click here for additional [documentation on troubleshooting](/products/meet-pieces/troubleshooting/linux) or reach out to [support.](/products/support)
+See the [Linux troubleshooting guide](/products/meet-pieces/troubleshooting/linux) or reach out to [support](/products/support) for help.

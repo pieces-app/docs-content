@@ -41,9 +41,10 @@ We read every report, reply to GitHub issues directly, and our founders regularl
 </Callout>
 
 ## Finding Your Logs
-Your PiecesOS logs live in a per-platform application folder. Share the whole `Support` folder when filing a bug to help us diagnose it quickly.
 
-Zip the folder before attaching it to a GitHub issue or sending it to support—logs are plain text, but zipping keeps everything in order.
+PiecesOS and the Desktop App store logs in separate folders on some platforms. Zip the latest two or three log files before attaching them to a GitHub issue or sending them to support.
+
+For database paths, manual backups, and cloud restore, see [On-Device Storage](/products/core-dependencies/on-device-storage).
 
 <Tabs>
   <TabItem title="macOS">
@@ -51,7 +52,7 @@ Zip the folder before attaching it to a GitHub issue or sending it to support—
     Open Finder, press `⌘+shift+g`, and paste the path below:
 
     ```plaintext
-    ~/Library/com.pieces.os/production/support/
+    ~/Library/com.pieces.os/production/Support/logs/
     ```
 
     <Callout type="tip">
@@ -67,8 +68,14 @@ Zip the folder before attaching it to a GitHub issue or sending it to support—
     ### Windows
     Press `Win+R` to open the Run dialog, then paste:
 
+    **PiecesOS:**
     ```powershell
     C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support
+    ```
+
+    **Desktop App:**
+    ```powershell
+    C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for Developers\com.pieces.pfd\production\logs
     ```
 
     <Callout type="tip">

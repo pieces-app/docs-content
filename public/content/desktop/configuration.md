@@ -13,8 +13,8 @@ metaDescription: Customize Pieces with settings for visuals, Pieces Timeline enr
 Open Settings from the home view to adjust account and cloud behaviors, check your application versions, change views and layouts, and more.
 
 <Steps>
-  <Step title="Click Profile Picture">
-    Click your profile picture in the top left of the home view.
+  <Step title="Open User Profile">
+    Click your `User Profile` in the top left of the home view.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/settings_dropdown_open.png" alt="Profile menu open with Settings and quick category options" align="center" fullwidth="true" />
   </Step>
@@ -24,7 +24,7 @@ Open Settings from the home view to adjust account and cloud behaviors, check yo
   </Step>
 
   <Step title="Choose Navigation Method">
-    You can either select one of the quick options (Account, Long-Term Memory, Models, MCP, Appearance, Troubleshooting) to jump directly to that category, or select `All` at the top of the quick options to open the full Settings view with all categories. You can also select `Log Out` at the bottom of the menu to sign out of your account.
+    You can either select one of the quick options (Account, Long-Term Memory, MCP, Connectors, Appearance, Troubleshooting) to jump directly to that category, or select `All` at the top of the quick options to open the full Settings view with all categories. You can also select `Log Out` at the bottom of the menu to sign out of your account.
   </Step>
 
   <Step title="Understand the Layout">
@@ -79,16 +79,16 @@ Manage long-term memory preferences and data. Configure the Long-Term Memory Eng
   Configure the Long-Term Memory Engine, manage app access control, system permissions, and optimize performance.
 </FancyCard>
 
-## Models
+## Connectors
 
-Manage AI models and model preferences. Configure processing modes, set up local model runtime with Ollama, and control which AI models are available for use in Pieces.
+Link external services such as Google Calendar so Pieces can read calendar context and take actions on your behalf. Manage connections from the Connectors tab in Settings.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/models/models_settings_overview.png" alt="Models settings with capabilities, local runtime, and model management" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/connectors/connectors_settings_pane.png" alt="Connectors settings showing Google Calendar and upcoming integrations" align="center" fullwidth="true" />
 
-> Models settings showing Model Capabilities, Local Model Runtime, and Model Management sections
+> Connectors settings showing connected and available integrations
 
-<FancyCard title="Learn More" href="/products/desktop/configuration/models" colored={false}>
-  Configure processing modes, set up Ollama for local models, and enable or disable specific AI models.
+<FancyCard title="Learn More" href="/products/desktop/connectors" colored={false}>
+  Connect Google Calendar, authorize services, and learn how calendar context appears in summaries.
 </FancyCard>
 
 ## Model Context Protocol (MCP)

@@ -24,15 +24,11 @@ You can also open the **Power Menu**, type ‘settings’ in the search field, a
 
 ## Understanding the Settings Layout
 
-When you open **Settings**, you’ll find several configuration categories on the left side and an `All` tab at the top.
+When you open **Settings**, you'll see categories in the left sidebar and an `All` tab at the top.
 
-Click any category to reveal its associated options in the main panel.
+In Pieces 6.0, the sidebar includes **Account**, **Long-Term Memory**, **MCP**, **Connectors**, **Appearance**, and **Troubleshooting**. Click any category to show its options, or select `All` to view every setting at once.
 
-* `Categories`: Organized for quick navigation.
-
-* `All`**:** Displays every setting in one place.
-
-You can review each section individually or see everything at once by selecting `All`**.**
+From your profile menu, quick paths jump directly to **LTM-2.7**, **LTM Sources**, **LTM Audio**, or full **Settings**.
 
 ### Account & Integrations
 
@@ -74,35 +70,21 @@ The [Long-Term Memory](/products/desktop/configuration/long-term-memory) setting
 
 * `Clear LTM Data`: Remove persisted data captured by the Long-Term Memory Engine.
 
-### Models
+### Model Context Protocol (MCP)
 
-The [Models](/products/desktop/configuration/models) settings allow you to configure processing modes, set up local model runtime with Ollama, and control which AI models are available for use in Pieces.
+The [MCP](/products/desktop/configuration/mcp) tab shows server URLs and setup links for integrating Pieces with Cursor, GitHub Copilot, Goose, and other MCP-compatible tools.
 
-* `Processing Mode`: Choose between Cloud, Local, or Blended processing modes.
+### Connectors
 
-* `Ollama Status`: Check if Ollama is installed, activated, and ready for local model processing.
+[Connectors](/products/desktop/connectors) link external services (such as Google Calendar) so Pieces can read calendar context and perform actions on your behalf.
 
-* `Model Management`: Enable or disable specific AI models from different providers (OpenAI, Anthropic, Google, Microsoft, Meta, IBM, etc.).
+* `Connect`: Authorize a service from the Connectors pane.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/Pieces%20Copilot/processing_mode.png" alt="Processing mode selection for ML in Settings" align="center" fullwidth="true" />
+* `Status`: See which connectors are connected.
 
-### Views & Layouts
+### Models (in chat)
 
-[Views & Layouts](/products/desktop/configuration/views-layouts) controls how you see content in Pieces.
-
-You can set a `Default Layout`, choose how items are sorted in list or gallery views, and select a `Default Search Mode` like `Neural Code Search (NCS)`.
-
-You’ll also find options for `Confirmation Settings` (for specific actions), toggles for usage or metrics summaries, and a `Default Toolbar` for newly saved snippets.
-
-* `Default Layout`: Choose your preferred view on launch.
-
-* `Default Search Mode`: Select how you search by default.
-
-* `Confirmation Settings`: Control dialog prompts.
-
-* `Default Toolbar`: Assign a default toolbar to new snippets.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Drive/Workstream%20Activity/views_layouts_changing_workstream_view.png" alt="Changing Workstream Activity view layout" align="center" fullwidth="true" />
+In Pieces 6.0, you choose AI models from the picker in [Conversational Search](/products/desktop/conversational-search/models), not from a top-level Settings category. For Ollama setup and processing modes, see [Models settings](/products/desktop/configuration/models) if your build still exposes that page.
 
 ### Appearance
 

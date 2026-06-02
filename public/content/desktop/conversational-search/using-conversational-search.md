@@ -8,6 +8,10 @@ metaTitle: Talk with Your Memories | Pieces Docs
 metaDescription: Learn how to talk with your memories, filter searches, switch models, and work with responses in Conversational Search.
 ---
 
+<Callout type="info">
+  Use [Conversational Search](/products/desktop/conversational-search) and its subpages ([Filter by Apps, Time & Modality](/products/desktop/conversational-search/scoping-your-prompt), [Add Context](/products/desktop/conversational-search/setting-context), [Choose a Model](/products/desktop/conversational-search/models), [Write Better Prompts](/products/desktop/conversational-search/prompting-guide)) for current documentation.
+</Callout>
+
 ***Conversational Search*** is the ability to talk with your memories through **Agentic Chats**. Powered by [Agentic Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27), the agent reasons across your artificial memory in multiple turns, following threads, cross-referencing context, and building toward complete answers instead of guessing in one shot.
 
 Ask specific questions, search through your memories, and filter by apps or time ranges to customize which memories you're talking with. The agent can search your memories, the web, your calendar, local files, and browser history to build complete answers.

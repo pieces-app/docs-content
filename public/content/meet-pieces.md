@@ -14,7 +14,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Introducing Pieces
 
-This documentation is designed to provide a high-level overview of <a target="_blank" href="/products/meet-pieces/fundamentals">Pieces' features and functionalities</a>, with a quick-start and troubleshooting guides for <a target="_blank" href="/products/meet-pieces/macos-installation-guide">macOS</a>, <a target="_blank" href="/products/meet-pieces/windows-installation-guide">Windows</a>, and <a target="_blank" href="/products/meet-pieces/linux-installation-guide">Linux</a> to help you get started with Pieces as quickly as possible.
+This documentation provides a high-level overview of the [Pieces Desktop App](/products/desktop) and [PiecesOS](/products/core-dependencies/pieces-os), with quick-start and troubleshooting guides for <a target="_blank" href="/products/meet-pieces/macos-installation-guide">macOS</a>, <a target="_blank" href="/products/meet-pieces/windows-installation-guide">Windows</a>, and <a target="_blank" href="/products/meet-pieces/linux-installation-guide">Linux</a> to help you get started as quickly as possible.
 
 Let’s answer a few basic questions:
 
@@ -24,11 +24,11 @@ At its core, Pieces is an all-in-one productivity tool that helps you work *smar
 
 There are **\[3]** core pillars of Pieces functionality:
 
-1. [Long-Term Memory Engine (LTM-2.7)](/products/meet-pieces/fundamentals#ltm-27): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.7 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
+1. [Long-Term Memory Engine (LTM-2.7)](/products/core-dependencies/pieces-os/long-term-memory): A powerful, AI-powered live context framework that understands what you’re working on across your entire development workflow. The LTM-2.7 helps by outsourcing the burden of memory and retrieval from the developer to AI to maximize space for creativity driven by human intent.
 
 2. [Pieces Timeline](/products/desktop/timeline): Your central workspace for accessing workflow context captured by Long-Term Memory. Generate summaries, review past activities, browse captured memories, and interact with your workflow history—all in one place.
 
-3. [Conversational Search](/products/meet-pieces/fundamentals#pieces-copilot): An intelligent assistant that helps with answering questions, generating content, and providing guidance while utilizing a LLM of your choice—with an adjustable context window ranging from conversation-only to entire project folders.
+3. [Conversational Search](/products/desktop/conversational-search): An intelligent assistant that helps with answering questions about your workflow, generating content, and providing guidance using the model you choose—with filters for apps, time ranges, and modalities, plus optional file and folder context.
 
 ### Who is Pieces For?
 
@@ -206,7 +206,7 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
     3. Work as usual—Pieces captures context automatically
     
     <Callout type="info">
-      Pro tip: See how to toggle Long-Term Memory in the Quick Menu [here](https://docs.pieces.app/products/core-dependencies/pieces-os/quick-menu#ltm-25-engine).
+      Pro tip: See how to toggle Long-Term Memory in the [Quick Menu](/products/core-dependencies/pieces-os/quick-menu).
     </Callout>
     
     **Captured automatically:**

@@ -55,4 +55,4 @@ Two applications will appear—**Pieces Desktop** and **PiecesOS**. Click the th
 
 ## Additional Resources
 
-Click here for additional [documentation on troubleshooting](/products/meet-pieces/troubleshooting/windows) or reach out to [support](/products/support).
+See the [Windows troubleshooting guide](/products/meet-pieces/troubleshooting/windows) or reach out to [support](/products/support) for help.
