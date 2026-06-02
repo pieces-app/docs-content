@@ -162,24 +162,23 @@ An outdated operating system can prevent PiecesOS from running. Minimum requirem
 
 ## Windows: Controlled Folder Access
 
-If you've enabled Controlled Folder Access (CFA), PiecesOS may fail to launch because it writes data to the Documents folder. Add the PiecesOS executable path to your CFA allowlist, or disable CFA if it's not required.
+If you've enabled Controlled Folder Access (CFA), PiecesOS may fail to launch if Windows blocks writes under AppData. Add the PiecesOS executable to your CFA allowlist, or disable CFA if it's not required.
 
 ## Finding Pieces Logs
 
-Attach recent logs when opening a GitHub issue or contacting support—it helps diagnose problems in minutes.
+Attach recent logs when opening a GitHub issue or contacting support. It helps diagnose problems in minutes.
 
-**PiecesOS logs:**
+See [Finding Your Logs](/products/core-dependencies/on-device-storage#finding-your-logs) for the full path table, or use these quick references:
 
-| **Platform** | **Path** |
+| **Platform** | **PiecesOS logs** |
 | --- | --- |
-| *macOS* | `/Users/<username>/Library/com.pieces.os/production/support/logs/` |
-| *Windows* | `C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\` |
+| *macOS* | `/Users/<username>/Library/com.pieces.os/production/Support/logs/` |
+| *Windows* | `C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support\` |
 | *Linux* | `/home/<username>/.local/share/com.pieces.os/logs/` |
 
-**Pieces Desktop logs (Windows):**
-```
-C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces Desktop\com.pieces.os\production\
-```
+**Desktop App logs (Windows):** `C:\Users\<username>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for Developers\com.pieces.pfd\production\logs\`
+
+**Desktop App logs (macOS):** `/Users/<username>/Library/com.pieces.pfd/production/logs/`
 
 <Callout type="tip">
   Replace `<username>` with your OS account name. Zip the latest two or three log files and attach them to your <a target="_blank" href="https://github.com/pieces-app/support/issues">GitHub issue</a>.

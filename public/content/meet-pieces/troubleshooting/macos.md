@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your macOS device.
 metaTitle: Issues | macOS
-metaDescription: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your Windows issues.
+metaDescription: Learn what troubleshooting steps to take if PiecesOS or the Pieces Desktop App is not working as expected on your Mac.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_macOS.png"
 ---
 
@@ -26,7 +26,7 @@ You can also find information below on how to determine your Apple device's CPU 
 If you’re experiencing difficulties installing PiecesOS or the Pieces Desktop App, you can manually install both software by downloading the standalone files or using terminal commands.
 
 <Callout type="alert">
-  If you’re unsure which `.dmg` or `.pkg` you need based on your device’s CPU, [click here.](/products/meet-pieces/troubleshooting/macos#checking-cpu-type)
+  Not sure which installer you need? See [how to check your CPU type](/products/meet-pieces/troubleshooting/macos#checking-cpu-type).
 </Callout>
 
 ### via DMG Files

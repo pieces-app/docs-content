@@ -143,13 +143,13 @@ To decide which apps PiecesOS has access to, you can [easily enable and disable 
 
 ## Accessing Pieces Logs
 
-On Windows machines, Pieces writes its log files under your local AppData folder. You’ll find two separate folders depending on which component you’re using:
+On Windows, PiecesOS and the Desktop App store logs under separate folders in AppData. See [On-Device Storage](/products/core-dependencies/on-device-storage#finding-your-logs) for backup and database paths.
 
-* **Pieces OS (POS) logs**:\
+* **PiecesOS logs:**\
   `C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support`
 
-- **Pieces Desktop (PFD) logs**:\
-  `C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.pfd\production\Support`
+* **Desktop App logs:**\
+  `C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for Developers\com.pieces.pfd\production\logs`
 
 <Callout type="alert">
   Replace \<USERNAME> with your Windows account name.

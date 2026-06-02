@@ -49,12 +49,12 @@ You can also manually check for updates by hovering over your username in the to
 
 ## Uninstalling
 
-On your macOS device, navigate to **Finder**, then select **Applications**.
-
-Scroll or search until you find both `Pieces` and `PiecesOS`. Right-click on these two applications and select `Move to Trash`.
+To quickly remove the applications, open **Finder** → **Applications** and drag both `Pieces` and `PiecesOS` to the Trash.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/macos/macos_how_to_uninstall_pfd.gif" alt="Uninstalling Pieces from macOS Applications folder" align="center" fullwidth="true" />
 
+For a complete uninstall that removes all data, preferences, and caches, see the [Complete Uninstall Guide](/products/meet-pieces/macos-installation-guide/uninstall).
+
 ## Additional Resources
 
-Click here for additional [documentation on troubleshooting](/products/meet-pieces/troubleshooting/macos) or reach out to [support](/products/support).
+See the [macOS troubleshooting guide](/products/meet-pieces/troubleshooting/macos) or reach out to [support](/products/support) for help.

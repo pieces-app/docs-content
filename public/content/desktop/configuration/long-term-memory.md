@@ -260,8 +260,8 @@ Remove persisted data captured by the Long-Term Memory Engine. You can scope del
     Click your `User Profile` in the top left, then hover over `Settings` and select `Long-Term Memory`.
   </Step>
 
-  <Step title="Open Manage Data">
-    In the *Stored Data* section, click `Manage Data` to open the data management panel.
+  <Step title="Open Clear Long-Term Memory Data">
+    In the *Stored Data* section, click `Clear Long-Term Memory Data...` to open the data management panel.
   </Step>
 
   <Step title="Select Time Range">
