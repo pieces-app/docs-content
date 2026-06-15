@@ -9,6 +9,10 @@ metaDescription: Learn about PiecesOS, the background service that powers Long-T
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/pieces_os.png"
 ---
 
+<Callout type="alert">
+  **Action required:** Cloud services no longer work on PiecesOS versions prior to 12.4.0 (deprecated June 5th 2026). Update to 12.4.0 or later to restore Chat, Work Summaries, and Single Click Summaries.
+</Callout>
+
 ## What is PiecesOS?
 
 **PiecesOS** is a background service that runs on your machine. It orchestrates local data processing, manages on-device machine learning models, and serves as the bridge between your workflow and every Pieces product—including the [Pieces Desktop App](/products/desktop/onboarding), [MCP integrations](/products/mcp), and the [CLI](/products/cli).
