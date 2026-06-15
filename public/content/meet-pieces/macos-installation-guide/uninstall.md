@@ -8,15 +8,13 @@ metaTitle: Complete Uninstall Guide | macOS
 metaDescription: Learn how to completely uninstall Pieces from macOS, including removing all application data, preferences, caches, and saved content.
 ---
 
-## Complete Uninstall Guide
-
 This guide walks you through completely removing Pieces from your Mac, including all application data, saved snippets, and Long-Term Memory.
 
 <Callout type="warning">
   This process permanently deletes all your saved snippets, conversations, and Long-Term Memory data. If you want to preserve this data, see [backing up your data](/products/privacy-security-your-data#local-backup) before proceeding.
 </Callout>
 
-## Complete Uninstall
+## Uninstall Steps
 
 To remove Pieces and all associated data:
 
