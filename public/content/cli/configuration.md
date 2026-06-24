@@ -4,6 +4,7 @@ path: /cli/configuration
 visibility: PUBLIC
 status: PUBLISHED
 description: Configure the Pieces CLI—select cloud models for ask, set your config editor, and manage your Pieces Cloud session.
+metaTitle: Configure Pieces CLI Settings | Pieces Docs
 metaDescription: Configure Pieces CLI settings—cloud models for ask, config editor, and Pieces Cloud session management.
 ---
 

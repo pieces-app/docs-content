@@ -4,6 +4,7 @@ path: /cli/copilot/llms-settings
 visibility: PUBLIC
 status: PUBLISHED
 description: Switch cloud models for Pieces CLI ask—choose the right LLM for speed, reasoning, or longer context in your terminal.
+metaTitle: CLI LLM Settings & Model Switching | Pieces Docs
 metaDescription: Switch cloud models for Pieces CLI ask—pick the right LLM for speed, reasoning, or longer context in the CLI.
 ---
 

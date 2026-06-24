@@ -4,7 +4,7 @@ path: /cli/tui/workstream
 visibility: PUBLIC
 status: PUBLISHED
 description: Access and manage your workstream activities directly in the terminal with the Pieces TUI workstream view.
-metaTitle: "TUI Workstream Activities: Terminal-Based Workflow Management"
+metaTitle: TUI Workstream Activities Guide | Pieces Docs
 metaDescription: Learn how to view, edit, and manage your workstream activities using the Pieces TUI workstream interface in your terminal.
 ---
 

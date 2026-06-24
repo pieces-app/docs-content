@@ -219,7 +219,7 @@ By installing PiecesOS, you enable the full functionality of the desktop app and
 
 ## Private by Design, Local by Default
 
-Read more about privacy [here](/products/privacy-security-your-data).
+Read more in our [privacy & security guide](/products/privacy-security-your-data).
 
 <CardGroup cols={2}>
   <Card title="End-to-end control">
