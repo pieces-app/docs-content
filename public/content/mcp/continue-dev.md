@@ -3,8 +3,8 @@ title: Pieces MCP + Continue.dev Integration
 path: /mcp/continue-dev
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Continue.dev lets you use Pieces Long-Term Memory directly in VS Code or JetBrains IDEs via the open-source Continue.dev extension, in agent mode.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Continue.dev
+description: Set up Pieces MCP with Continue.dev to use Long-Term Memory in VS Code or JetBrains via the open-source extension's agent mode.
+metaTitle: Pieces MCP + Continue.dev | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Continue.dev. Access Long-Term Memory in agent mode for enhanced, context-aware productivity.
 ---
 

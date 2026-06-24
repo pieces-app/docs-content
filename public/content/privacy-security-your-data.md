@@ -3,13 +3,13 @@ title: Privacy, Security & Your Data
 path: /privacy-security-your-data
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is built local-first and SOC 2 Type II certified—your code and context stay on your device by default. This page covers where your data lives, how security is designed, what runs offline, and the controls you have over telemetry and cloud features.
+description: Pieces is local-first and SOC 2 Type II certified—your data stays on-device. Learn about security, offline capabilities, and telemetry controls.
 metaTitle: Pieces Privacy & Security | Your Data
 metaDescription: How Pieces keeps your data private and secure—local-first architecture, SOC 2 Type II compliance, optional cloud features, on-device LTM processing, and full user control.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/privacy_security_your_data.png"
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/privacy_and_security/soc_secure_private.png" alt="SOC 2 Type II certified security badge for Pieces" align="center" fullwidth="true" />
 
 ***
 

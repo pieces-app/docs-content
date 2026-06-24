@@ -3,8 +3,8 @@ title: Ollama | Troubleshooting
 path: /core-dependencies/ollama/troubleshooting
 visibility: PRIVATE
 status: PUBLISHED
-description: Read documentation on basic Ollama troubleshooting steps below if you're experiencing connectivity issues between the Ollama client and PiecesOS. You can also find minimum and recommended device specifications for running local LLMs below.
-metaTitle: Troubleshooting Ollama
+description: Fix Ollama connectivity issues with PiecesOS—basic troubleshooting steps plus minimum and recommended specs for running local LLMs.
+metaTitle: Troubleshoot Ollama Issues for Pieces | Fix Guide
 metaDescription: Read documentation on basic Ollama troubleshooting steps below if you're experiencing connectivity issues between the Ollama client and PiecesOS.
 ---
 

@@ -4,7 +4,7 @@ path: /desktop/connectors
 visibility: PUBLIC
 status: PUBLISHED
 description: Connect external services like Google Calendar to give Pieces richer context about your work and let Conversational Search take actions on your behalf.
-metaTitle: Connectors | Pieces Desktop
+metaTitle: External Integrations & Connectors | Pieces Desktop
 metaDescription: Connect external services to give Pieces more context about your work, and let Conversational Search read from—and take actions in—tools like Google Calendar.
 ---
 
@@ -30,7 +30,7 @@ Access *Connectors* from the Pieces Desktop App settings.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/connectors/connectors_settings_pane.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/connectors/connectors_settings_pane.png" alt="Connectors pane in Pieces Desktop Settings showing Google Calendar and upcoming integrations" align="center" fullwidth="true" />
 
 > The Connectors pane in Pieces Desktop Settings, showing Google Calendar connected with four additional integrations available soon
 

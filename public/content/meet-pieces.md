@@ -3,7 +3,7 @@ title: Getting to Know Pieces
 path: /meet-pieces
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is an AI-enabled productivity tool designed to increase developer efficiency through personalized workflow assistance across the entire toolchain, featuring a dedicated desktop application and MCP integrations with Cursor, GitHub Copilot, and more.
+description: Pieces is an on-device AI tool that captures and recalls your workflow context—with a desktop app and MCP integrations for your favorite tools.
 metaTitle: Getting to Know Pieces | Pieces Docs
 metaDescription: Get started on Windows, macOS, Linux. Troubleshoot, configure, and make the most of Pieces–documentation for new users, developers, and admins for all Pieces OS.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces.png"

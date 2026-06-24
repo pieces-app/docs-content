@@ -4,7 +4,7 @@ path: /mcp/openai-codex-cli
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with OpenAI Codex CLI lets you use Pieces Long-Term Memory directly from the Codex command-line agent.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with OpenAI Codex CLI
+metaTitle: Pieces MCP + OpenAI Codex CLI | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with OpenAI Codex CLI. Use TOML config format for MCP server setup. Requires Codex 0.2.0+.
 ---
 

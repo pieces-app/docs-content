@@ -3,7 +3,7 @@ title: Material Enrichment & Saved Metadata
 path: /desktop/drive/enrichment-and-metadata
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to edit materials saved in your Pieces Drive, adjust their metadata, and transform them into different languages while keeping an eye out for secure data.
+description: Edit materials in your Pieces Drive—adjust metadata, transform code into other languages, and manage sensitive data detection.
 metaTitle: Material enrichment & saved metadata in Pieces Drive | Pieces Docs
 metaDescription: Enhance and organize your saved code snippets in Pieces Drive with automatic enrichment, metadata, and intuitive editing features.
 ---

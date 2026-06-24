@@ -4,7 +4,7 @@ path: /enterprise
 visibility: PUBLIC
 status: PUBLISHED
 description: Enterprise documentation for organizations, onboarding, and features.
-metaTitle: Enterprise | Pieces Docs
+metaTitle: Pieces for Enterprise | Deployment & Features
 metaDescription: Enterprise documentation—organizations, onboarding users, features, and admin controls.
 ---
 

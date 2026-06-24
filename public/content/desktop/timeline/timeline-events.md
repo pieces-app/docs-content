@@ -4,7 +4,7 @@ path: /desktop/timeline/timeline-events
 visibility: PUBLIC
 status: PUBLISHED
 description: Browse and search your chronological list of captured activities and conversations in the Timeline Events sidebar.
-metaTitle: Timeline Events | Timeline
+metaTitle: Browse and Filter Timeline Events | Pieces Desktop
 metaDescription: Browse and search your chronological list of captured activities and conversations in the Timeline Events sidebar.
 ---
 

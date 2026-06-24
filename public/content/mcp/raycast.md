@@ -4,7 +4,7 @@ path: /mcp/raycast
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Raycast lets you use Pieces Long-Term Memory in the Raycast macOS launcher via an stdio-to-HTTP bridge.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Raycast
+metaTitle: Pieces MCP + Raycast | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Raycast. Raycast supports stdio only—use mcp-remote bridge to connect to PiecesOS. macOS only.
 ---
 

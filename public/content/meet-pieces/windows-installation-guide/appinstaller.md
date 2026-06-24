@@ -4,7 +4,7 @@ path: /meet-pieces/windows-installation-guide/appinstaller
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Windows using the AppInstaller. The recommended method with automatic PiecesOS installation.
-metaTitle: AppInstaller | Windows
+metaTitle: Install Pieces via AppInstaller on Windows | Pieces Docs
 metaDescription: Install Pieces via AppInstaller on Windows. The recommended method that automatically installs PiecesOS alongside the Desktop App.
 ---
 

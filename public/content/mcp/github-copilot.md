@@ -3,8 +3,8 @@ title:  Pieces MCP + GitHub Copilot
 path: /mcp/github-copilot
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP (Model Context Protocol) integration with GitHub Copilot allows you to leverage Pieces Long-Term Memory (LTM) directly within the Visual Studio Code editor, enhancing your coding workflow with seamless contextual information retrieval.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with GitHub Copilot
+description: Connect Pieces MCP to GitHub Copilot for Long-Term Memory access directly in VS Code—get context-aware AI assistance as you code.
+metaTitle: Pieces MCP + GitHub Copilot | Setup Guide
 metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) with GitHub Copilot. Access Long-Term Memory within your IDE for enhanced, context-aware productivity.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/github_mcp.png"
 ---

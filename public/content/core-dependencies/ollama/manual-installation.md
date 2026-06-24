@@ -4,7 +4,7 @@ path: /core-dependencies/ollama/manual-installation
 visibility: PRIVATE
 status: PUBLISHED
 description: Read documentation on manually installing Ollama outside of the Pieces Desktop App for use with PiecesOS.
-metaTitle: Ollama | Manual Installation
+metaTitle: Manually Install Ollama for Pieces | Setup Guide
 metaDescription: Read documentation on manually installing Ollama outside of the Pieces Desktop App for use with PiecesOS.
 ---
 

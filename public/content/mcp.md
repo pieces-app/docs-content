@@ -3,7 +3,7 @@ title: Pieces MCP Server
 path: /mcp
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn about Model Context Protocol (MCP) tools and discover how Pieces integrates the Long-Term Memory Engine (LTM-2.7) into your favorite IDEs and code editors.
+description: Discover how Pieces integrates Long-Term Memory into your favorite IDEs and editors via the Model Context Protocol (MCP).
 metaTitle: Pieces Model Context Protocol (MCP) Server | Pieces Docs
 metaDescription: Learn how Pieces Model Context Protocol (MCP) provides relevant workflow context to various IDE integrations. Explore the benefits of MCP for users and teams.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/mcp.png"

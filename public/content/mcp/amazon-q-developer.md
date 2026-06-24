@@ -3,8 +3,8 @@ title: Pieces MCP + Amazon Q Developer Integration
 path: /mcp/amazon-q-developer
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Amazon Q Developer lets you use Pieces Long-Term Memory in the Amazon Q CLI and IDE plugin for enhanced, context-aware productivity.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Amazon Q Developer
+description: Connect Pieces MCP to Amazon Q Developer for Long-Term Memory in the Amazon Q CLI and IDE plugin—context-aware AI assistance.
+metaTitle: Pieces MCP + Amazon Q Developer | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Amazon Q Developer. Access Long-Term Memory in CLI and IDE for enhanced productivity.
 ---
 

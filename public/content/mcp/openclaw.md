@@ -3,8 +3,8 @@ title: Pieces MCP + OpenClaw Integration
 path: /mcp/openclaw
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with OpenClaw lets you use Pieces Long-Term Memory in the open-source self-hosted AI agent that runs 24/7 and connects to messaging platforms.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with OpenClaw
+description: Connect Pieces MCP to OpenClaw for Long-Term Memory in the open-source self-hosted AI agent that runs 24/7 on messaging platforms.
+metaTitle: Pieces MCP + OpenClaw | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with OpenClaw. OpenClaw executes MCP tools via MCPorter. Automate standups, meeting prep, and more.
 ---
 

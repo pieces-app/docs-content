@@ -4,12 +4,12 @@ path: /support
 visibility: PUBLIC
 status: PUBLISHED
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/support/pieces_support.png"
-description: Get help with Pieces—book a call with our engineers, open a GitHub issue, join our Discord, or send feedback. This page also shows where to find your logs on macOS, Windows, and Linux.
-metaTitle: Pieces Support & Help Center
+description: Get help with Pieces—book a call, open a GitHub issue, join Discord, or send feedback. Find your logs on macOS, Windows, and Linux.
+metaTitle: Get Help with Pieces | Support & Contact Center
 metaDescription: Reach the Pieces team for live support, report bugs on GitHub, share feedback, or locate your PiecesOS logs on macOS, Windows, and Linux.
 ---
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/support/support_banner.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cdn_migrate_repair/support/support_banner.png" alt="Pieces support banner" align="center" fullwidth="true" />
 
 ***
 
@@ -59,7 +59,7 @@ For database paths, manual backups, and cloud restore, see [On-Device Storage](/
       If the `Library` folder is hidden, press `⌘+shift+.` (period) in Finder to toggle hidden files.
     </Callout>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/mac_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/mac_support.png" alt="Locating Pieces log files on macOS" align="center" fullwidth="true" />
 
     > Locating Pieces log files on macOS
   </TabItem>
@@ -82,7 +82,7 @@ For database paths, manual backups, and cloud restore, see [On-Device Storage](/
       Replace `<username>` with your system username. If `AppData` is hidden, enable `View → Show → Hidden items` in File Explorer.
     </Callout>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/windows_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/windows_support.png" alt="Locating Pieces log files on Windows" align="center" fullwidth="true" />
 
     > Locating Pieces log files on Windows
   </TabItem>
@@ -99,7 +99,7 @@ For database paths, manual backups, and cloud restore, see [On-Device Storage](/
       In most file managers, press `ctrl+h` to toggle hidden files so you can see the `.local` directory.
     </Callout>
 
-    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/linux_support.png" alt="" align="center" fullwidth="true" />
+    <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/support/linux_support.png" alt="Locating Pieces log files on Linux" align="center" fullwidth="true" />
 
     > Locating Pieces log files on Linux
   </TabItem>

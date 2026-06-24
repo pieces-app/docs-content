@@ -3,7 +3,7 @@ title: What is PiecesOS?
 path: /core-dependencies/pieces-os
 visibility: PUBLIC
 status: PUBLISHED
-description: PiecesOS is the background service that powers the entire Pieces ecosystem—running local AI models, managing Long-Term Memory, and connecting your tools via MCP.
+description: PiecesOS is the background service powering Pieces—running local AI models, managing Long-Term Memory, and connecting tools via MCP.
 metaTitle: What is PiecesOS? | Pieces Docs
 metaDescription: Learn about PiecesOS, the background service that powers Long-Term Memory, on-device AI, and MCP integrations across the Pieces ecosystem.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/pieces_os.png"

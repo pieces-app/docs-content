@@ -4,7 +4,7 @@ path: /mcp/prompting
 visibility: PUBLIC
 status: PUBLISHED
 description: A straightforward guide on using different prompting techniques to retrieve and manage useful, relevant workflow context using Pieces MCP integrations.
-metaTitle: Pieces MCP Prompting
+metaTitle: Effective MCP Prompting Techniques | Pieces Docs
 metaDescription: Master effective prompting for Pieces MCP. Learn to craft precise queries that leverage context-driven AI responses, optimizing your coding workflow instantly.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/mcp.png"
 ---

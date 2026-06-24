@@ -4,7 +4,7 @@ path: /meet-pieces/macos-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for macOS. Choose your preferred installation method - DMG, PKG, or Homebrew.
-metaTitle: Get started | MacOS
+metaTitle: Install Pieces on macOS | Complete Setup Guide
 metaDescription: Get started with Pieces on macOS – install via DMG, PKG, or Homebrew, then configure and optimize your setup for AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_macos_install.webp"
 ---

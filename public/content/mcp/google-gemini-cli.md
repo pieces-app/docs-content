@@ -4,7 +4,7 @@ path: /mcp/google-gemini-cli
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Google Gemini CLI lets you use Pieces Long-Term Memory directly from the Gemini command-line agent.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Google Gemini CLI
+metaTitle: Pieces MCP + Google Gemini CLI | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Google Gemini CLI. Use httpUrl for Streamable HTTP or url for SSE.
 ---
 

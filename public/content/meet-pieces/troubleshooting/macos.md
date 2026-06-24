@@ -4,7 +4,7 @@ path: /meet-pieces/troubleshooting/macos
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your macOS device.
-metaTitle: Issues | macOS
+metaTitle: Troubleshoot Pieces on macOS | Common Fixes
 metaDescription: Learn what troubleshooting steps to take if PiecesOS or the Pieces Desktop App is not working as expected on your Mac.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_macOS.png"
 ---

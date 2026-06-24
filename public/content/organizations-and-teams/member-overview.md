@@ -4,7 +4,7 @@ path: /desktop/organizations-and-teams/member-overview
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn how to navigate your organization dashboard and collaborate with your team as a member.
-metaTitle: Member Overview | Pieces Docs
+metaTitle: Team Member Overview & Roles | Pieces Docs
 metaDescription: Guide to using the organization Home page as a Read or Write member.
 ---
 

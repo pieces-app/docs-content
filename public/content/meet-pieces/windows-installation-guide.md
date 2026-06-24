@@ -4,7 +4,7 @@ path: /meet-pieces/windows-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Windows. Choose your preferred installation method - AppInstaller, EXE, or WinGet.
-metaTitle: Get Started | Windows
+metaTitle: Install Pieces on Windows | Complete Setup Guide
 metaDescription: Get started with Pieces on Windows – install via AppInstaller, EXE, or WinGet, then configure and optimize your setup for AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_windows_install.png"
 ---

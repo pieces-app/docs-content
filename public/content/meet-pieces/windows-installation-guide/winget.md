@@ -4,7 +4,7 @@ path: /meet-pieces/windows-installation-guide/winget
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Windows using WinGet. A one-command install for developers who prefer package managers.
-metaTitle: WinGet Installation | Windows
+metaTitle: Install Pieces with WinGet on Windows | Pieces Docs
 metaDescription: Install Pieces via WinGet on Windows. One command to install Pieces without leaving your terminal.
 ---
 

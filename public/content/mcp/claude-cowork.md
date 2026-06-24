@@ -3,8 +3,8 @@ title: Pieces MCP + Claude Cowork Integration
 path: /mcp/claude-cowork
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Claude Cowork lets you use Pieces Long-Term Memory in Anthropic's autonomous task automation agent. Cowork shares Claude Desktop's MCP configuration.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Cowork
+description: Set up Pieces MCP with Claude Cowork for Long-Term Memory in Anthropic's autonomous agent. Uses Claude Desktop's MCP config.
+metaTitle: Pieces MCP + Claude Cowork | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Claude Cowork. Use the same config as Claude Desktop. Pro/Max/Team/Enterprise plans. Research preview.
 ---
 

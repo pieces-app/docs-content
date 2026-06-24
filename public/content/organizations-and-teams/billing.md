@@ -4,7 +4,7 @@ path: /desktop/organizations-and-teams/billing
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn how to manage your organization's subscription, update seat counts, and configure billing information.
-metaTitle: Billing | Pieces Docs
+metaTitle: Manage Billing & Subscriptions | Pieces Teams
 metaDescription: Guide to managing organization subscriptions, seat counts, billing addresses, and payment information.
 ---
 

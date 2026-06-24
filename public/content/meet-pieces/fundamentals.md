@@ -4,7 +4,7 @@ path: /meet-pieces/fundamentals
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn about the [3] core features of Pieces, available for use within the Pieces Desktop App and any supported browser or IDE integration.
-metaTitle: Pieces Fundamentals
+metaTitle: Pieces Fundamentals | How Long-Term Memory Works
 metaDescription: Learn about the [3] core features of Pieces, available for use within the Pieces Desktop App and any supported browser or IDE integration.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_fundamentals.png"
 ---

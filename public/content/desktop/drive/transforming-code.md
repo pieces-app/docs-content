@@ -3,7 +3,7 @@ title: Transforming & Translating Code
 path: /desktop/drive/transforming-code
 visibility: PUBLIC
 status: PUBLISHED
-description: You can use the Code Transformation feature when editing saved materials to intelligently optimize and translate code into other languages or to fit different use cases.
+description: Use Code Transformation to optimize and translate saved materials into other languages or adapt them for different use cases.
 metaTitle: Transform & translate code in Pieces Drive | Pieces Docs
 metaDescription: Leverage the code transformation feature to intelligently optimize, adapt, and translate saved code snippets into different programming languages or tailored use cases..
 ---

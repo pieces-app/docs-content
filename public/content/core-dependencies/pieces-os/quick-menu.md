@@ -4,7 +4,7 @@ path: /core-dependencies/pieces-os/quick-menu
 visibility: PUBLIC
 status: PUBLISHED
 description: Manage PiecesOS settings, LTM, MCP, ML processing, and updates from the menu bar or system tray.
-metaTitle: Quick Menu | PiecesOS
+metaTitle: Access the PiecesOS Quick Menu | System Tray Guide
 metaDescription: Use the PiecesOS Quick Menu to manage Long-Term Memory, MCP integrations, ML processing, updates, and more from your menu bar or system tray.
 ---
 

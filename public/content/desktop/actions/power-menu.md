@@ -3,7 +3,7 @@ title: Power Menu Actions
 path: /desktop/actions/power-menu
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is designed to keep you in the flow. Below is a comprehensive list of actions available within the Power Menu and their associated shortcuts to help you quickly access common tasks.
+description: Explore all Power Menu actions and keyboard shortcuts in Pieces Desktop to quickly access common tasks and stay in the flow.
 metaTitle: Power-Menu | Pieces Desktop App
 metaDescription: See a comprehensive list of actions within the Power Menu and their associated shortcuts to help you quickly access common tasks.
 ---

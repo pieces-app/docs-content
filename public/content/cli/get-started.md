@@ -4,7 +4,7 @@ path: /cli/get-started
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces CLI is a flexible command-line interface for Pieces that integrates smoothly with your development environment.
-metaTitle: Get Started with Pieces CLI
+metaTitle: Get Started with Pieces CLI | Installation & Setup
 metaDescription: Get Started with Pieces CLI, a flexible command-line interface for Pieces.
 ---
 

@@ -38,7 +38,7 @@ When you launch PiecesOS for the first time (or after signing out), it will prom
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_sign_in.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_sign_in.png" alt="PiecesOS Quick Menu sign-in prompt on macOS" align="center" fullwidth="true" />
 
 > The PiecesOS Quick Menu sign-in prompt on macOS
 

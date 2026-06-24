@@ -3,8 +3,8 @@ title: Troubleshooting
 path: /meet-pieces/troubleshooting
 visibility: PUBLIC
 status: PUBLISHED
-description: If the Pieces Desktop App isn't working properly, start here. This page explains our troubleshooting documentation and guides you to the right solution for your issue.
-metaTitle: Troubleshooting | Pieces Docs
+description: Pieces not working properly? Start here for troubleshooting guides, common fixes, and step-by-step solutions by platform.
+metaTitle: Troubleshooting Pieces | Common Issues & Fixes
 metaDescription: Having issues with the Pieces Desktop App? Start here for troubleshooting guides and solutions to quickly resolve common problems
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_default_pieces_OG.png"
 ---

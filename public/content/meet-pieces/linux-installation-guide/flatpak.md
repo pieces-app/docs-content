@@ -4,7 +4,7 @@ path: /meet-pieces/linux-installation-guide/flatpak
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Linux using Flatpak. A universal package format for Fedora, Arch, Linux Mint, and other distributions.
-metaTitle: Flatpak Installation | Linux
+metaTitle: Install Pieces via Flatpak on Linux | Pieces Docs
 metaDescription: Install Pieces via Flatpak on Fedora, Arch, Linux Mint and other distros. Sandboxed installation with manual PiecesOS management.
 ---
 

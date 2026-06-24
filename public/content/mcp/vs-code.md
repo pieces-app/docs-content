@@ -3,8 +3,8 @@ title: Pieces MCP + VS Code Integration
 path: /mcp/vs-code
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Visual Studio Code lets you use Pieces Long-Term Memory directly in your editor, enhancing your coding workflow with context-aware AI assistance.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with VS Code
+description: Set up Pieces MCP with VS Code to access Long-Term Memory directly in your editor for context-aware AI coding assistance.
+metaTitle: Pieces MCP + VS Code | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Visual Studio Code. Access Long-Term Memory within your editor for enhanced, context-aware productivity.
 ---
 

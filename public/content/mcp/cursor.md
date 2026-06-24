@@ -3,8 +3,8 @@ title: Pieces MCP + Cursor Integration
 path: /mcp/cursor
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with Cursor lets you use Pieces Long-Term Memory directly in the Cursor IDE, improving your coding workflow with easy context retrieval.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Cursor
+description: Connect Pieces MCP to Cursor for Long-Term Memory access directly in the IDE—get context-aware AI assistance as you code.
+metaTitle: Pieces MCP + Cursor | Setup Guide
 metaDescription: Read documentation on integrating Pieces Model Context Protocol (MCP) with Cursor. Learn how to enhance your developer workflow by leveraging Long-Term Memory.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/cursor_mcp.png"
 ---
