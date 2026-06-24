@@ -38,13 +38,13 @@ There are several views available within the **Power Menu** at any given point.
 
 If you want more information, click the titles of the views below to read more specific documentation on them:
 
-* [Conversational Chat](/products/desktop/conversational-chat) **/** [Pieces Drive](/products/desktop/drive)**:** Depending on which view you're currently in, one of these buttons will display—or both, if in another view.
+* [Conversational Search](/products/desktop/conversational-search): Quick-access buttons in the Power Menu let you jump between views depending on where you are in the app.
 
 * [Settings](/products/desktop/navigation/settings)**:** The master settings window.
 
 * [Updates & Upcoming](/products/desktop/navigation/updates)**:** View release notes for upcoming features and past releases.
 
-* [Global Search](/products/desktop/navigation/global-search)**:** Search your Pieces Drive for specific saved materials.
+* [Global Search](/products/desktop/navigation/global-search)**:** Search saved materials across your workflow.
 
 ### via Power Menu — Find Action
 
@@ -68,7 +68,7 @@ This view contains several different buckets of configurable options: [Account](
 
 **Focus Mode** allows you to concentrate on your current task by minimizing distractions.
 
-You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of Conversational Search or Pieces Drive view, near the sidebar.
+You can toggle Focus Mode by clicking the `Focus Mode` button located in the upper left of the Conversational Search view, near the sidebar.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Pieces%20Copilot/Configure/toggling_sidebar_in_copilot.gif" alt="Toggling Focus Mode to hide or show the sidebar" align="center" fullwidth="true" />
 

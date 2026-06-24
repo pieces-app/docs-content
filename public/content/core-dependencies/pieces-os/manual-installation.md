@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Download and install PiecesOS as a standalone service for macOS, Windows, or Linux—for use with MCP integrations or without the Pieces Desktop App.
 metaTitle: Manual Installation | PiecesOS
-metaDescription: Download and install PiecesOS manually on macOS, Windows, or Linux. Includes system requirements, download links, Homebrew and Snap instructions, and uninstall steps.
+metaDescription: Manually install PiecesOS on macOS, Windows, or Linux—requirements, download links, Homebrew and Snap options, and uninstall steps.
 ---
 
 ## When to Install Manually

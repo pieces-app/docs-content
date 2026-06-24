@@ -3,6 +3,7 @@ title: Searching & Filtering Materials
 path: /desktop/drive/search-and-filter
 visibility: PUBLIC
 status: PUBLISHED
+noindex: true
 description: Learn how to find materials from your Pieces Drive using basic and advanced filtering techniques.
 metaTitle: Search & filter code snippets in Pieces Drive | Pieces Docs
 metaDescription: Easily search and filter saved code snippets in Pieces Drive using powerful search, filters, and language-based sorting for quick access.

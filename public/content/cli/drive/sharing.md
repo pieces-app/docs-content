@@ -3,7 +3,9 @@ title: Sharing Snippets
 path: /cli/drive/sharing
 visibility: PUBLIC
 status: PUBLISHED
-description: Share saved snippets from the Pieces CLI with teammates and collaborators, even if they don't have a Pieces account.
+description: Share saved materials via the CLI—generate shareable links for snippets directly from your terminal.
+noindex: true
+metaDescription: Share saved materials from the Pieces CLI—generate shareable links for snippets from your terminal.
 ---
 
 ## How to Share a Saved Snippet

@@ -3,7 +3,8 @@ title: Generative AI Conversations
 path: /cli/copilot/chat
 visibility: PUBLIC
 status: PUBLISHED
-description: Start and manage Copilot chat sessions in the Pieces CLI—resume conversations, switch threads, and review chat history.
+description: Start multi-turn Conversational Search chats in the terminal—attach context, switch models, and continue conversations from the CLI.
+metaDescription: Start multi-turn CLI chats with Conversational Search—attach context, switch models, and continue from the terminal.
 ---
 
 ## Accessing Copilot Chat in your Terminal

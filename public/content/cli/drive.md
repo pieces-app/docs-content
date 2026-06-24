@@ -3,7 +3,9 @@ title: Pieces Drive
 path: /cli/drive
 visibility: PUBLIC
 status: PUBLISHED
-description: Use Pieces Drive from the CLI to save, search, edit, and share code snippets and developer materials in your terminal.
+description: Save, search, edit, and share materials from the CLI—manage saved context directly from your terminal.
+noindex: true
+metaDescription: Save, search, edit, and share materials from the Pieces CLI—manage saved context from your terminal.
 ---
 
 ### Using Pieces Drive in the Pieces CLI

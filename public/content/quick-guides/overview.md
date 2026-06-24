@@ -3,7 +3,7 @@ title: Introduction to Pieces Quick Guides
 path: /quick-guides/overview
 visibility: PUBLIC
 status: PUBLISHED
-description: Welcome to Pieces! 👋 Here, you can explore these curated Quick Guides to unlock full productivity potential through AI-driven context-aware workflows with Pieces.
+description: Explore curated Quick Guides to get the most out of Pieces—AI-driven, context-aware workflows for everyday productivity.
 metaTitle: Quick Guides for Using Pieces | Pieces Docs
 metaDescription: Explore quick guides to get started with Pieces. Learn prompts, workflows and more to maximize your Pieces experience.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/quick_guides/quick_guides.png"

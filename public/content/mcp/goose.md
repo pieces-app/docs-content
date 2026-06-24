@@ -3,9 +3,9 @@ title: Pieces MCP + Goose Integration
 path: /mcp/goose
 visibility: PUBLIC
 status: PUBLISHED
-description: Set up Pieces MCP with Goose to access Long-Term Memory directly in the Goose CLI, adding deep context awareness to your coding workflow.
+description: Set up Pieces MCP with Goose to access Long-Term Memory in the Goose CLI, adding deep context awareness to your workflow.
 metaTitle: Pieces MCP + Goose | Setup Guide
-metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) with Goose. Access Long-Term Memory within your IDE for enhanced, context-aware productivity.
+metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) with Goose. Access Long-Term Memory in the Goose CLI for enhanced, context-aware productivity.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/goose_mcp.png"
 ---
 

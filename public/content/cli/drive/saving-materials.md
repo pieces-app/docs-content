@@ -3,7 +3,9 @@ title: Saving Materials
 path: /cli/drive/saving-materials
 visibility: PUBLIC
 status: PUBLISHED
-description: Save code snippets and materials to Pieces Drive with the CLI create command—build a reusable library from your terminal.
+description: Save snippets and materials from the CLI—capture context from your terminal workflow in one command.
+noindex: true
+metaDescription: Save snippets and materials from the Pieces CLI in one command—capture context from your terminal workflow.
 ---
 
 ## Saving Code Snippets to Pieces Drive

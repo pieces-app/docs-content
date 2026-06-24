@@ -80,7 +80,7 @@ Because LTM captures context from multiple sources (IDE, browser, terminal, meet
 ### Privacy-First Design
 
 All Long-Term Memory processing happens **on your device**. Your workflow context never leaves your machine unless you explicitly choose to:
-- Share materials via [Pieces Drive (legacy)](/products/desktop/drive)
+- Share materials explicitly when you choose to
 - Use cloud models in [Conversational Search](/products/desktop/conversational-search)
 - Enable cloud sync (optional)
 

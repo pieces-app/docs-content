@@ -3,6 +3,7 @@ title: Saving & Organizing Materials
 path: /desktop/drive/save-and-organize
 visibility: PUBLIC
 status: PUBLISHED
+noindex: true
 description: Learn about bringing new code snippets into Pieces Drive, keeping them tidy, and maintaining context and clarity as your library expands.
 metaTitle: Save & organize code snippets with Pieces Drive | Pieces Docs
 metaDescription: Learn how to save, organize, and manage code snippets in Pieces Drive while maintaining context and clarity as your library grows.
