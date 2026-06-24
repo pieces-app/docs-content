@@ -3,9 +3,9 @@ title:  Pieces MCP + GitHub Copilot
 path: /mcp/github-copilot
 visibility: PUBLIC
 status: PUBLISHED
-description: Connect Pieces MCP to GitHub Copilot for Long-Term Memory access directly in VS Code—get context-aware AI assistance as you code.
+description: Connect Pieces MCP to GitHub Copilot for Long-Term Memory in VS Code—get context-aware AI assistance as you code.
 metaTitle: Pieces MCP + GitHub Copilot | Setup Guide
-metaDescription: Discover how to integrate Pieces Model Context Protocol (MCP) with GitHub Copilot. Access Long-Term Memory within your IDE for enhanced, context-aware productivity.
+metaDescription: Integrate Pieces MCP with GitHub Copilot for Long-Term Memory in VS Code—context-aware AI coding assistance.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/github_mcp.png"
 ---
 

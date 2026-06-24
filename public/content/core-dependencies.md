@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: PiecesOS powers the Pieces ecosystem—Desktop App, MCP integrations, and on-device AI. Learn about core dependencies and local model setup.
 metaTitle: Core Dependencies for Pieces | PiecesOS & Ollama Guide
-metaDescription: Learn about PiecesOS, the core dependency that powers the Pieces Desktop App and the entire Pieces suite of MCP integrations, including built-in local models for on-device AI.
+metaDescription: PiecesOS powers the Desktop App and MCP integrations with built-in local models for on-device AI. Learn setup and dependencies.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="Core dependencies overview banner" align="center" fullwidth="true" />

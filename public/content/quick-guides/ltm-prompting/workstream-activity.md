@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Use the Workstream Activity timeline to capture, filter, and share LTM summaries or add them as context for chats.
 metaTitle: Workstream Activity View use cases and examples | Pieces Docs
-metaDescription: The Workstream Activity view is a timeline of LTM summaries that let you capture, filter, and share workflow memories or add them as context for Conversational Search chats.
+metaDescription: Workstream Activity is a timeline of LTM summaries—capture, filter, share workflow memories, or add them as chat context.
 ---
 
 The [Pieces Workstream Activity view](/products/quick-guides/ltm-prompting/workstream-activity) provides summaries of all activities captured in 20 minute blocks, called *LTM Roll-Ups.*

@@ -3,6 +3,7 @@ title: Sharing Saved Materials
 path: /desktop/drive/sharing
 visibility: PUBLIC
 status: PUBLISHED
+noindex: true
 description: Share your saved materials through the cloud to developers & colleagues, even if they don't have a Pieces account.
 metaTitle: Share saved code snippets in Pieces Drive | Pieces Docs
 metaDescription: Easily generate and copy unique shareable links for your saved materials in Pieces Drive, enabling seamless collaboration and code sharing with your team.

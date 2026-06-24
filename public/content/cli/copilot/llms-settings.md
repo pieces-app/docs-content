@@ -3,7 +3,8 @@ title: LLM Settings
 path: /cli/copilot/llms-settings
 visibility: PUBLIC
 status: PUBLISHED
-description: Switch between cloud-hosted LLM models in the Pieces CLI and configure the runtime that powers ask and Copilot.
+description: Switch cloud models for Pieces CLI ask—choose the right LLM for speed, reasoning, or longer context in your terminal.
+metaDescription: Switch cloud models for Pieces CLI ask—pick the right LLM for speed, reasoning, or longer context in the CLI.
 ---
 
 ## Switching LLMs

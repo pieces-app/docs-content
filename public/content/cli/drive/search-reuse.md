@@ -3,7 +3,9 @@ title: Search & Reuse
 path: /cli/drive/search-reuse
 visibility: PUBLIC
 status: PUBLISHED
-description: Search and filter saved materials in Pieces Drive from the CLI, then reuse snippets without context-switching.
+description: Search and filter saved materials from the CLI—find snippets fast and reuse them in your workflow.
+noindex: true
+metaDescription: Search and filter saved materials from the Pieces CLI—find snippets fast and reuse them in your workflow.
 ---
 
 ## Locate Materials in Pieces Drive

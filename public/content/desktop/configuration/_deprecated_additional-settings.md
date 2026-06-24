@@ -3,9 +3,9 @@ title: Additional Settings
 path: /desktop/configuration/additional-settings
 visibility: PUBLIC
 status: PUBLISHED
-description: There are several configurable behaviors and adjustable settings within the main Settings view that offer deeper configuration choices to help you align the app with your workflow.
+description: Configurable behaviors and settings in the main Settings view to align the Pieces Desktop App with your workflow.
 metaTitle: Configuring Additional Settings | Pieces Docs
-metaDescription: There are several configurable behaviors and adjustable settings within the main Settings view that offer deeper configuration choices to help you align the app with your workflow.
+metaDescription: Configurable behaviors and settings in the main Settings view to align the Pieces Desktop App with your workflow.
 ---
 
 ## Accessing Settings

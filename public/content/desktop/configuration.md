@@ -3,7 +3,7 @@ title: Configuration
 path: /desktop/configuration
 visibility: PUBLIC
 status: PUBLISHED
-description: In the Pieces Desktop App, you can customize everything from visuals and aesthetics to Pieces Timeline enrichment and Conversational Search models to fit your preferences and workflow.
+description: Customize the Pieces Desktop App—appearance, Timeline enrichment, Conversational Search models, and more to fit your workflow.
 metaTitle: Configuring Pieces Desktop Application
 metaDescription: Customize Pieces with settings for visuals, Pieces Timeline enrichment, and Conversational Search models to optimize your workflow.
 ---

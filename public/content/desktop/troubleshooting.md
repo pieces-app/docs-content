@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Pieces Desktop not working as expected? Start here for troubleshooting guides and step-by-step solutions for common issues.
 metaTitle: Troubleshooting | Pieces Desktop App
-metaDescription: If the Pieces Desktop App isn't working as expected, start here. This page explains our troubleshooting documentation and guides you to the right solution for your issue.
+metaDescription: Troubleshoot the Pieces Desktop App—start here for guides and step-by-step solutions to common issues.
 ---
 
 ## Using the Guides

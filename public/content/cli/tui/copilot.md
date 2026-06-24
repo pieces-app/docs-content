@@ -3,7 +3,8 @@ title: TUI Copilot
 path: /cli/tui/copilot
 visibility: PUBLIC
 status: PUBLISHED
-description: Use the TUI Copilot chat interface in your terminal—browse chat history, send prompts, and manage conversations with keyboard shortcuts.
+description: Use Copilot inside the Pieces TUI—run conversational search, browse responses, and manage chats in an interactive terminal UI.
+metaDescription: Use Copilot in the Pieces TUI—run conversational search, browse responses, and manage chats in an interactive terminal.
 ---
 
 ## Getting Started with TUI Copilot

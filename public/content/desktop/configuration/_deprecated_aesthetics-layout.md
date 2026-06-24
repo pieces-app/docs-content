@@ -3,9 +3,9 @@ title: Aesthetics & Layouts
 path: /desktop/configuration/aesthetics-layout
 visibility: PUBLIC
 status: PUBLISHED
-description: The Views & Layouts and Aesthetics settings allow users to adjust the visual appearance of the app, including dark and light-themed UI modes, accent colors, and UI scaling.
+description: Adjust the app's visual appearance—dark and light UI modes, accent colors, and UI scaling—in Views & Layouts and Aesthetics settings.
 metaTitle: Configuring Aesthetics & Layouts Settings | Pieces Docs
-metaDescription: The Views & Layouts and Aesthetics settings allow users to adjust the visual appearance of the app, including dark and light-themed UI modes, accent colors, and UI scaling.
+metaDescription: Adjust the app's visual appearance—dark and light UI modes, accent colors, and UI scaling—in Views & Layouts and Aesthetics settings.
 ---
 
 ## Accessing Settings

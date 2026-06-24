@@ -3,7 +3,9 @@ title: Edit & Update
 path: /cli/drive/edit-and-update
 visibility: PUBLIC
 status: PUBLISHED
-description: Edit and update saved snippets in Pieces Drive from the terminal—keep your CLI material library current.
+description: Edit saved materials from the CLI—update titles, tags, and content without leaving your shell.
+noindex: true
+metaDescription: Edit saved materials from the Pieces CLI—update titles, tags, and content without leaving your shell.
 ---
 
 ## Editing

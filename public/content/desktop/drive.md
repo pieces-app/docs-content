@@ -3,6 +3,7 @@ title: Introduction to Pieces Drive
 path: /desktop/drive
 visibility: PUBLIC
 status: PUBLISHED
+noindex: true
 description: Save, access, edit, and reuse materials saved to the Pieces Drive. 
 metaTitle: Introduction to Pieces Drive | Pieces Docs
 metaDescription: Discover Pieces Drive – your all-in-one workspace in Pieces for saving, managing, and accessing code snippets and dev materials.
