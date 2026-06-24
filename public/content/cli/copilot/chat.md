@@ -4,6 +4,7 @@ path: /cli/copilot/chat
 visibility: PUBLIC
 status: PUBLISHED
 description: Start multi-turn Conversational Search chats in the terminal—attach context, switch models, and continue conversations from the CLI.
+metaTitle: CLI Copilot Chat & Conversations | Pieces Docs
 metaDescription: Start multi-turn CLI chats with Conversational Search—attach context, switch models, and continue from the terminal.
 ---
 

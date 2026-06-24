@@ -4,6 +4,7 @@ path: /cli/tui
 visibility: PUBLIC
 status: PUBLISHED
 description: Launch the Pieces CLI Text User Interface with pieces tui—an interactive terminal for Copilot and workstream activities.
+metaTitle: Pieces CLI Text User Interface (TUI) | Pieces Docs
 metaDescription: Launch the Pieces CLI TUI with pieces tui—an interactive terminal for Copilot and workstream activities.
 ---
 

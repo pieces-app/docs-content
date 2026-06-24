@@ -4,6 +4,7 @@ path: /cli/tui/copilot
 visibility: PUBLIC
 status: PUBLISHED
 description: Use Copilot inside the Pieces TUI—run conversational search, browse responses, and manage chats in an interactive terminal UI.
+metaTitle: TUI Copilot Chat in the Terminal | Pieces Docs
 metaDescription: Use Copilot in the Pieces TUI—run conversational search, browse responses, and manage chats in an interactive terminal.
 ---
 

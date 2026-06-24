@@ -4,6 +4,7 @@ path: /cli/copilot
 visibility: PUBLIC
 status: PUBLISHED
 description: Use Conversational Search in the terminal with pieces ask—query saved materials and get AI answers without leaving your shell.
+metaTitle: CLI Conversational Search & Ask | Pieces Docs
 metaDescription: Run Conversational Search in the terminal with pieces ask—query saved materials and get AI answers in your shell.
 ---
 

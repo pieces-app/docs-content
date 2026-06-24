@@ -4,7 +4,7 @@ path: /paid-plans
 visibility: PUBLIC
 status: PUBLISHED
 description: Get access to the most powerful cloud LLMs available today with Pieces Pro.
-metaTitle: Pieces Pro – Unlock Premium AI Models for Conversational Search
+metaTitle: Pieces Pro — Premium AI Models | Pieces Docs
 metaDescription: Upgrade to Pieces Pro to access top-tier AI models from Claude, Gemini, and OpenAI and boost Conversational Search’s speed and accuracy instantly.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/paid_plans.png"
 ---

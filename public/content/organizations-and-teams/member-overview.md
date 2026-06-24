@@ -5,7 +5,7 @@ visibility: PUBLIC
 status: PUBLISHED
 description: Learn how to navigate your organization dashboard and collaborate with your team as a member.
 metaTitle: Team Member Overview & Roles | Pieces Docs
-metaDescription: Guide to using the organization Home page as a Read or Write member.
+metaDescription: Guide to using the organization Home page as a Read or Write member in Pieces team workspaces.
 ---
 
 ***

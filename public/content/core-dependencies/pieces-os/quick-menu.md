@@ -99,7 +99,7 @@ Quick access to documentation, support, and community links.
     * <a target="_blank" href="https://discord.com/invite/ubn8JFAXQ7">Discord</a>
     * <a target="_blank" href="https://x.com/getpieces">X</a>
     * <a target="_blank" href="https://www.linkedin.com/company/getpieces">LinkedIn</a>
-    * <a target="_blank" href="http://github.com/pieces-app">GitHub</a>
+    * <a target="_blank" href="https://github.com/pieces-app">GitHub</a>
     * <a target="_blank" href="https://www.youtube.com/@getpieces">YouTube</a>
   </TabItem>
 </Tabs>
