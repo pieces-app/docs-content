@@ -3,6 +3,7 @@ title: Text User Interface (TUI)
 path: /cli/tui
 visibility: PUBLIC
 status: PUBLISHED
+description: Launch the Pieces CLI Text User Interface with pieces tui—an interactive terminal for Copilot, Drive, and workstream activities.
 ---
 
 ## Interactive Terminal Experience

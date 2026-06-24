@@ -3,6 +3,7 @@ title: Edit & Update
 path: /cli/drive/edit-and-update
 visibility: PUBLIC
 status: PUBLISHED
+description: Edit and update saved snippets in Pieces Drive from the terminal—keep your CLI material library current.
 ---
 
 ## Editing

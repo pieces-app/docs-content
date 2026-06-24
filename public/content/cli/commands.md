@@ -3,6 +3,7 @@ title: Commands
 path: /cli/commands
 visibility: PUBLIC
 status: PUBLISHED
+description: Complete reference for every Pieces CLI command—materials, Drive, Copilot, cloud models, PiecesOS, and configuration flags.
 ---
 
 ## Pieces CLI Commands

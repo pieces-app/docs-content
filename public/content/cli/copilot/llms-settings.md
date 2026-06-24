@@ -3,11 +3,12 @@ title: LLM Settings
 path: /cli/copilot/llms-settings
 visibility: PUBLIC
 status: PUBLISHED
+description: Switch between cloud-hosted LLM models in the Pieces CLI and configure the runtime that powers ask and Copilot.
 ---
 
 ## Switching LLMs
 
-The Pieces CLI currently supports 19 different cloud-hosted LLM models.
+The Pieces CLI supports multiple cloud-hosted LLM models.
 
 ## How To Configure Your LLM Runtime
 
@@ -37,7 +38,7 @@ Once you’ve chosen a new model, the switch is instant. You can continue your w
 
 ### Available LLMs
 
-Pieces CLI supports 26 cloud-hosted LLM models, allowing you to choose from a variety of options to meet your needs.
+Pieces CLI supports cloud-hosted LLM models, allowing you to choose from a variety of options to meet your needs.
 
 | Supported LLMs                | Supported LLMs   |
 | ----------------------------- | ---------------- |
