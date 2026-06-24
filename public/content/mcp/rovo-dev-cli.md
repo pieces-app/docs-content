@@ -4,7 +4,7 @@ path: /mcp/rovo-dev-cli
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Rovo Dev CLI (Atlassian's AI tool) lets you use Pieces Long-Term Memory directly from the command line.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Rovo Dev CLI
+metaTitle: Pieces MCP + Rovo Dev CLI | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Rovo Dev CLI. Access Long-Term Memory for enhanced, context-aware productivity.
 ---
 

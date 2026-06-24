@@ -4,7 +4,7 @@ path: /mcp/zed
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Zed lets you use Pieces Long-Term Memory in the Zed editor using an stdio-to-HTTP bridge, enhancing your coding workflow with context-aware AI assistance.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Zed
+metaTitle: Pieces MCP + Zed | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Zed. Zed uses stdio only—connect via mcp-remote bridge to access Long-Term Memory.
 ---
 

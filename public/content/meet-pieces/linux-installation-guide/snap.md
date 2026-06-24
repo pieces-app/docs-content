@@ -4,7 +4,7 @@ path: /meet-pieces/linux-installation-guide/snap
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Linux using Snap. The recommended method for Ubuntu users with automatic updates and system integration.
-metaTitle: Snap Installation | Linux
+metaTitle: Install Pieces on Linux with Snap | Pieces Docs
 metaDescription: Install Pieces via Snap on Ubuntu. One-command install with automatic updates, system interfaces, and easy management.
 ---
 

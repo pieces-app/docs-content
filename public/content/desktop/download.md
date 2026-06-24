@@ -4,7 +4,7 @@ path: /desktop/download
 visibility: PUBLIC
 status: PUBLISHED
 description: Find download links for the Pieces Desktop App and links to OS-specific and method-specific installation guides.
-metaTitle: Download Pieces
+metaTitle: Download Pieces Desktop App | All Platforms
 metaDescription: Download the Pieces Desktop Application for AI-powered workflow assistance, code management, and enhanced developer productivity.
 ---
 

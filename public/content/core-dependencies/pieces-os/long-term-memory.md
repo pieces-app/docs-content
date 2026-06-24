@@ -4,7 +4,7 @@ path: /core-dependencies/pieces-os/long-term-memory
 visibility: PUBLIC
 status: PUBLISHED
 description: Enable, pause, and control the Long-Term Memory (LTM-2.7) Engine directly from PiecesOS—including Audio ingestion and per-app Access Control.
-metaTitle: LTM-2.7 Engine | PiecesOS
+metaTitle: Long-Term Memory Engine (LTM-2.7) | PiecesOS Docs
 metaDescription: Learn how to enable, pause, disable, and configure the Long-Term Memory (LTM-2.7) Engine from the PiecesOS Quick Menu, including Audio and Access Control.
 ---
 

@@ -4,7 +4,7 @@ path: /mcp/windsurf
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Windsurf lets you use Pieces Long-Term Memory directly in the Windsurf IDE, enhancing your coding workflow with context-aware AI assistance via Cascade.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Windsurf
+metaTitle: Pieces MCP + Windsurf | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Windsurf. Access Long-Term Memory within Cascade for enhanced, context-aware productivity.
 ---
 

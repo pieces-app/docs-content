@@ -4,7 +4,7 @@ path: /meet-pieces/macos-installation-guide/pkg
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for macOS using the PKG installer. An alternative method with a guided installation wizard.
-metaTitle: PKG Installation | macOS
+metaTitle: Install Pieces with PKG on macOS | Pieces Docs
 metaDescription: Install Pieces via PKG on macOS. Download for Apple Silicon or Intel and follow the installation wizard.
 ---
 

@@ -3,7 +3,7 @@ title: Long-Term Memory Prompting Guide
 path: /quick-guides/ltm-prompting
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to query Pieces Long-Term Memory effectively using time, source, gesture, topic, and people—plus best practices and example prompts for the Workstream Activity view.
+description: Query Pieces Long-Term Memory effectively using time, source, topic, and people filters—with best practices and example prompts.
 metaTitle: Long-Term Memory prompting guide | Pieces Docs
 metaDescription: Learn how to query Pieces Long-Term Memory effectively. Combine time, source, topic, and more for better results. Includes example prompts and best practices.
 ---

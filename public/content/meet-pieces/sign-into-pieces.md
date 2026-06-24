@@ -3,7 +3,7 @@ title: Getting Started with Sign-In
 path: /meet-pieces/sign-into-pieces
 visibility: PUBLIC
 status: PUBLISHED
-description: Everything you need to know about signing in to Pieces, including step-by-step instructions, troubleshooting common issues, and understanding our new security requirements.
+description: Sign in to Pieces—step-by-step instructions, troubleshooting common auth issues, and understanding security requirements.
 metaTitle: "Sign In to Pieces: Authentication Guide & Troubleshooting"
 metaDescription: Learn how to sign in to Pieces Desktop App. Step-by-step guide for new and existing users, platform instructions, and troubleshooting common sign-in issues.
 ---

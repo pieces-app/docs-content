@@ -4,7 +4,7 @@ path: /mcp/cline
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Cline lets you use Pieces Long-Term Memory in VS Code via the Cline extension, an AI coding agent that supports MCP.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Cline
+metaTitle: Pieces MCP + Cline | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Cline. Use SSE transport for reliable connection—Streamable HTTP has known compatibility issues.
 ---
 

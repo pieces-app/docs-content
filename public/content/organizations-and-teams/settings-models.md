@@ -4,7 +4,7 @@ path: /desktop/organizations-and-teams/settings-models
 visibility: PUBLIC
 status: PUBLISHED
 description: Organization management for AI—control model access, processing mode, and API keys. Models is the parent section; API Keys is a tab within it.
-metaTitle: Models Settings | Pieces Docs
+metaTitle: Configure AI Models for Teams | Pieces Settings
 metaDescription: Learn how to manage model access, processing mode, and API keys in the Models section (organization management for AI).
 ---
 

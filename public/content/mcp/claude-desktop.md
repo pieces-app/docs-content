@@ -4,7 +4,7 @@ path: /mcp/claude-desktop
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Claude Desktop and Claude Code lets you use Pieces Long-Term Memories captured by PiecesOS without any third-party applications.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Desktop & Claude Code
+metaTitle: Pieces MCP + Claude Desktop & Code | Setup Guide
 metaDescription: Discover different ways to configure the Pieces MCP to provide your workflow context to Claude Desktop and Claude Code, allowing you to work smarter.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/MCP/claude_desktop_mcp.jpg"
 ---

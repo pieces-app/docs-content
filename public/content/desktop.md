@@ -4,7 +4,7 @@ path: /desktop
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces Desktop Application features a set of AI tools designed to help users and knowledge workers make smart choices every day.
-metaTitle: Pieces Desktop Application
+metaTitle: Pieces Desktop App | Features & Documentation
 metaDescription: Boost productivity with the Pieces Desktop App – AI-powered tools that use workflow context to enhance decision-making with generative AI.
 ---
 

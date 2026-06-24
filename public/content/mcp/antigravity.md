@@ -4,7 +4,7 @@ path: /mcp/antigravity
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Antigravity lets you use Pieces Long-Term Memory directly in the Antigravity agent panel.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Antigravity
+metaTitle: Pieces MCP + Antigravity | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Antigravity. Connect your long-term memory to the Antigravity agent panel for context-aware assistance.
 ---
 

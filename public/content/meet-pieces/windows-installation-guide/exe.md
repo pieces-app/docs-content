@@ -4,7 +4,7 @@ path: /meet-pieces/windows-installation-guide/exe
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Windows using the EXE installer. A traditional installer for environments where AppInstaller isn't available.
-metaTitle: EXE Installation | Windows
+metaTitle: Install Pieces on Windows with EXE | Pieces Docs
 metaDescription: Install Pieces via EXE on Windows. A traditional installer with full control over the installation process.
 ---
 

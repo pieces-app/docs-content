@@ -4,7 +4,7 @@ path: /meet-pieces/troubleshooting/linux
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your Linux device.
-metaTitle: Issues | Linux
+metaTitle: Troubleshoot Pieces on Linux | Common Fixes
 metaDescription: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your Linux device.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_linux.png"
 ---

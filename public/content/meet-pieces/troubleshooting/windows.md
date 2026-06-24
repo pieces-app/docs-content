@@ -4,7 +4,7 @@ path: /meet-pieces/troubleshooting/windows
 visibility: PUBLIC
 status: PUBLISHED
 description: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your Windows issues.
-metaTitle: Issues | Windows
+metaTitle: Troubleshoot Pieces on Windows | Common Fixes
 metaDescription: Learn about what troubleshooting steps to take if PiecesOS or the Pieces Desktop App isn’t working as expected on your Windows issues.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_troubleshooting_windows.png"
 ---

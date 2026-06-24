@@ -10,7 +10,7 @@ description: Configure the Pieces CLI—select cloud models for ask, set your co
 
 Pick which cloud model powers `ask`, set the editor that opens your config file, and manage your Pieces Cloud session. For the full command list, see the [commands reference](/products/cli/commands).
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/configuration/available_models.png" alt="Pieces CLI showing available cloud models for the ask command" align="center" fullwidth="true" />
 
 > Switching between available models inside the Pieces CLI.
 

@@ -3,8 +3,8 @@ title: Pieces Timeline
 path: /desktop/timeline
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces Timeline is your central workspace for viewing all workflow events, summaries, and conversational searches captured by the Long-Term Memory (LTM-2.7) Engine.
-metaTitle: Pieces Timeline | Pieces Docs
+description: Pieces Timeline shows all workflow events, summaries, and searches captured by the Long-Term Memory Engine in one workspace.
+metaTitle: Activity Timeline & Workstream History | Pieces Desktop
 metaDescription: Access your workflow history, view summaries, and manage timeline events in Pieces Timeline—your central workspace for captured workflow context.
 ---
 

@@ -3,8 +3,8 @@ title: Tunneling
 path: /mcp/ngrok-setup
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to expose PiecesOS via ngrok to get a public HTTPS URL for MCP integrations that require remote access, such as ChatGPT Developer Mode and remote OpenClaw.
-metaTitle: Tunneling | Pieces Docs
+description: Expose PiecesOS via ngrok for a public HTTPS URL—required by MCP integrations like ChatGPT Developer Mode and remote OpenClaw.
+metaTitle: Set Up Remote MCP Access with ngrok Tunneling | Pieces
 metaDescription: Step-by-step guide to set up ngrok with PiecesOS for remote MCP access. Required for ChatGPT Developer Mode and other integrations that need HTTPS.
 ---
 

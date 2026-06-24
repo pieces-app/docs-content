@@ -4,7 +4,7 @@ path: /desktop/onboarding
 visibility: PUBLIC
 status: PUBLISHED
 description: The Onboarding feature guides you through the initial stages of the Pieces Desktop App and sets you on your way to using the Long-Term Memory (LTM-2.7) Engine.
-metaTitle: Pieces Onboarding
+metaTitle: Getting Started with Pieces Desktop | Onboarding Guide
 metaDescription: Get up and running with the Pieces Desktop App with this guided LTM + Conversational Search onboarding experience.
 ---
 

@@ -4,7 +4,7 @@ path: /meet-pieces/macos-installation-guide/dmg
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for macOS using the DMG installer. The recommended method with support for both Apple Silicon and Intel Macs.
-metaTitle: DMG Installation | macOS
+metaTitle: Install Pieces on macOS with DMG | Pieces Docs
 metaDescription: Install Pieces via DMG on macOS. Download for Apple Silicon (M1/M2/M3/M4) or Intel, drag to Applications, and start using Pieces.
 ---
 

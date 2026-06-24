@@ -4,7 +4,7 @@ path: /cli/tui/get-started
 visibility: PUBLIC
 status: PUBLISHED
 description: Get started with the Pieces CLI Text User Interface (TUI) for an interactive terminal experience.
-metaTitle: Get Started with Pieces TUI
+metaTitle: Get Started with Pieces TUI | Terminal Interface Guide
 metaDescription: Learn how to set up and use the Pieces CLI Text User Interface (TUI) for managing materials and interacting with Conversational Search.
 ---
 

@@ -4,7 +4,7 @@ path: /mcp/claude-code
 visibility: PUBLIC
 status: PUBLISHED
 description: The Pieces MCP integration with Claude Code lets you use Pieces Long-Term Memory in the Claude Code CLI and VS Code extension via simple CLI commands.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with Claude Code
+metaTitle: Pieces MCP + Claude Code | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with Claude Code. Use the CLI to add Pieces LTM—automatically available in the VS Code extension.
 ---
 

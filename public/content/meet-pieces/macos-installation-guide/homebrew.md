@@ -4,7 +4,7 @@ path: /meet-pieces/macos-installation-guide/homebrew
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for macOS using Homebrew. A one-command install for developers who prefer package managers.
-metaTitle: Homebrew Installation | macOS
+metaTitle: Install Pieces with Homebrew on macOS | Pieces Docs
 metaDescription: Install Pieces via Homebrew on macOS. One command to install both Pieces Desktop and PiecesOS.
 ---
 

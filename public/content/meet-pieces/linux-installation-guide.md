@@ -4,7 +4,7 @@ path: /meet-pieces/linux-installation-guide
 visibility: PUBLIC
 status: PUBLISHED
 description: Install Pieces for Linux via Snap or Flatpak. Choose the installation method that works best for your distribution.
-metaTitle: Get started | Linux
+metaTitle: Install Pieces on Linux | Complete Setup Guide
 metaDescription: Get started with Pieces on Linux – install via Snap or Flatpak, then configure and optimize your setup for AI-powered development.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/meet_pieces/meet_pieces_linux_install.png"
 ---

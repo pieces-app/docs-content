@@ -3,8 +3,8 @@ title: Pieces MCP + JetBrains IDEs Integration
 path: /mcp/jetbrains-ides
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, GoLand, etc.) lets you use Pieces Long-Term Memory directly in your IDE via the AI Assistant.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with JetBrains IDEs
+description: Set up Pieces MCP with JetBrains IDEs—IntelliJ, PyCharm, WebStorm, GoLand—for Long-Term Memory access via the AI Assistant.
+metaTitle: Pieces MCP + JetBrains IDEs | Setup Guide
 metaDescription: Learn how to integrate Pieces MCP with JetBrains IDEs. Requires JetBrains 2025.2+ with AI Assistant. Access Long-Term Memory for enhanced productivity.
 ---
 

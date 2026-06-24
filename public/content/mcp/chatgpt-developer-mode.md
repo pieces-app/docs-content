@@ -3,8 +3,8 @@ title: Pieces MCP + ChatGPT Developer Mode Integration
 path: /mcp/chatgpt-developer-mode
 visibility: PUBLIC
 status: PUBLISHED
-description: The Pieces MCP integration with ChatGPT Developer Mode lets you use Pieces Long-Term Memory in ChatGPT via the Connectors UI. Requires a remote HTTPS URL—localhost will not work.
-metaTitle: Integrate Pieces Model Context Protocol (MCP) with ChatGPT Developer Mode
+description: Connect Pieces MCP to ChatGPT Developer Mode for Long-Term Memory via the Connectors UI. Requires ngrok or a remote HTTPS URL.
+metaTitle: Pieces MCP + ChatGPT Developer Mode | Setup
 metaDescription: Learn how to integrate Pieces MCP with ChatGPT Developer Mode. Requires ngrok or HTTPS proxy—ChatGPT needs a remote URL. Pro/Plus/Business/Enterprise/Education plans.
 ---
 

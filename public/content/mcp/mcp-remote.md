@@ -3,8 +3,8 @@ title: MCP Bridge
 path: /mcp/mcp-remote
 visibility: PUBLIC
 status: PUBLISHED
-description: Learn how to use the mcp-remote stdio bridge to connect stdio-only MCP clients to PiecesOS, enabling Pieces Long-Term Memory in Raycast, Zed, Claude Cowork, and more.
-metaTitle: MCP Bridge | Pieces Docs
+description: Use the mcp-remote bridge to connect stdio-only MCP clients to PiecesOS, enabling Long-Term Memory in Raycast, Zed, Claude Cowork, and more.
+metaTitle: Set Up the MCP Remote Bridge | Pieces Docs
 metaDescription: Use mcp-remote to connect stdio-only MCP clients to PiecesOS. Step-by-step guide for Raycast, Zed, Claude Cowork, OpenClaw, and remote setups.
 ---
 

@@ -10,7 +10,7 @@ description: Complete reference for every Pieces CLI command—materials, Drive,
 
 Reference for every command available in the Pieces CLI, grouped by what you're trying to do.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/commands/pieces_help.png" alt="" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/cli_assets/commands/pieces_help.png" alt="The pieces help menu listing every command and flag" align="center" fullwidth="true" />
 
 > The `pieces help` menu listing every command and flag.
 
