@@ -37,7 +37,7 @@ There are **\[2]** primary prerequisites for integrating Pieces with Goose as an
   </Step>
 
   <Step title="Install Goose">
-    If you haven't installed Goose yet, follow the <a target="_blank" href="https://block.github.io/goose/docs/getting-started/installation/">installation instructions</a>.
+    If you haven't installed Goose yet, follow the <a target="_blank" href="https://goose-docs.ai/docs/getting-started/installation">installation instructions</a>.
   </Step>
 </Steps>
 
@@ -78,7 +78,7 @@ Make sure you have the latest version of Goose installed to ensure compatibility
 <Callout type="alert">
   You will need to go through additional set-up steps (such as setting up your LLM provider) which involves setting up your host, choosing your model, using your API key, and more.
 
-  Read the <a target="_blank" href="https://block.github.io/goose/docs/getting-started/installation/">official, open-source documentation</a> on completing these set-up steps.
+  Read the <a target="_blank" href="https://goose-docs.ai/docs/getting-started/installation">official, open-source documentation</a> on completing these set-up steps.
 </Callout>
 
 ### via CLI

@@ -10,7 +10,7 @@ metaDescription: Use mcp-remote to connect stdio-only MCP clients to PiecesOS. S
 
 ## MCP Bridge
 
-Many MCP clients—including Raycast, Zed, and Claude Cowork—only support **stdio** (standard input/output) connections. PiecesOS exposes its MCP server over **HTTP** and **SSE**. The [mcp-remote](https://www.npmjs.com/package/mcp-remote) bridge translates between these protocols so stdio-only clients can connect to PiecesOS and use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27).
+Many MCP clients—including Raycast, Zed, and Claude Cowork—only support **stdio** (standard input/output) connections. PiecesOS exposes its MCP server over **HTTP** and **SSE**. The [mcp-remote](https://github.com/geelen/mcp-remote) bridge translates between these protocols so stdio-only clients can connect to PiecesOS and use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27).
 
 <Callout type="tip">
   The easiest way to bridge MCP is with the Pieces CLI—run `pieces mcp setup` and select your platform. Use manual setup below only for clients not supported by the CLI or when you need custom config (e.g., remote URLs).

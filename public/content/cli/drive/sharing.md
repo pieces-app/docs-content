@@ -3,6 +3,7 @@ title: Sharing Snippets
 path: /cli/drive/sharing
 visibility: PUBLIC
 status: PUBLISHED
+description: Share saved snippets from the Pieces CLI with teammates and collaborators, even if they don't have a Pieces account.
 ---
 
 ## How to Share a Saved Snippet

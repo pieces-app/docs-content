@@ -3,6 +3,7 @@ title: Troubleshooting
 path: /cli/troubleshooting
 visibility: PUBLIC
 status: PUBLISHED
+description: Fix common Pieces CLI issues—update the CLI, restart PiecesOS, resolve auth errors, and locate logs on macOS, Windows, and Linux.
 ---
 
 ***
