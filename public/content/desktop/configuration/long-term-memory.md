@@ -249,60 +249,16 @@ Unload local machine learning models and resources from memory to free up system
 
 ## Stored Data
 
-Manage and clear persisted data captured by the Long-Term Memory Engine with granular control over time, modality, and application source.
+Manage and clear data captured by the Long-Term Memory Engine. In the *Stored Data* section, click `Clear Long-Term Memory Data...` to open the panel, where you can scope deletions by time period, capture method, and application source.
 
-### Clearing Long-Term Memory Data
-
-Remove persisted data captured by the Long-Term Memory Engine. You can scope deletions by time period, capture modality, and specific applications for precise control over what gets removed.
-
-<Steps>
-  <Step title="Open Long-Term Memory Settings">
-    Click your `User Profile` in the top left, then hover over `Settings` and select `Long-Term Memory`.
-  </Step>
-
-  <Step title="Open Clear Long-Term Memory Data">
-    In the *Stored Data* section, click `Clear Long-Term Memory Data...` to open the data management panel.
-  </Step>
-
-  <Step title="Select Time Range">
-    Choose a time period: **Last hour**, **Today**, **This week**, or set a **Custom** date range.
-  </Step>
-
-  <Step title="Filter by Modality (Optional)">
-    Scope the deletion to specific capture types:
-    * **Vision** - Screen context (what you saw)
-    * **Clipboard** - Copied and pasted content
-    * **Audio** - Meeting and conversation transcripts
-  </Step>
-
-  <Step title="Filter by Application (Optional)">
-    Select a specific application to clear data from only that source while leaving other memories intact.
-  </Step>
-
-  <Step title="Review and Confirm">
-    Review your selection and confirm the deletion. The summary shows exactly what will be removed, for example: "Everything captured by vision from Slack today."
-  </Step>
-</Steps>
+Clearing data is a PiecesOS capability. For the full walkthrough of the `Time Periods`, `Modalities`, and `App Sources` controls, see [Clearing Stored LTM Data](/products/core-dependencies/pieces-os/long-term-memory#clearing-stored-ltm-data).
 
 <Callout type="alert">
-  Clearing Long-Term Memory data is permanent and cannot be undone. Review your filters carefully before confirming.
+  Clearing Long-Term Memory data is permanent and cannot be undone. Review the summary line before you confirm.
 </Callout>
-
-### Combining Filters
-
-Combine time, modality, and application filters for surgical deletions:
-
-| Example | Filters Used |
-| --- | --- |
-| Clear all clipboard data from the last hour | Time: Last hour, Modality: Clipboard |
-| Remove Slack vision captures from today | Time: Today, Modality: Vision, App: Slack |
-| Delete all audio from last week | Time: This week, Modality: Audio |
-| Wipe everything from one app | App: (specific app), Time: All time |
-
-This granular control lets you remove sensitive data without affecting the rest of your memory.
 
 ***
 
 ## Next Steps
 
-Now that you understand how to manage Long-Term Memory settings, learn about [Models](/products/desktop/configuration/models) to configure AI models and processing modes, or explore [Conversational Search](/products/desktop/conversational-search) to query your workflow memories and get AI-powered insights.
+Now that you understand how to manage Long-Term Memory settings, learn how to [Choose a Model](/products/desktop/conversational-search/models) to switch between model families and modes, or explore [Conversational Search](/products/desktop/conversational-search) to query your workflow memories.

@@ -623,4 +623,4 @@ Enable or disable anonymous telemetry and crash data collection. Building next-g
 
 ## Next Steps
 
-Now that you understand how to manage your account, learn about [Long-Term Memory](/products/desktop/configuration/long-term-memory) to configure memory preferences, or explore [Models](/products/desktop/configuration/models) to manage AI models and model preferences.
+Now that you understand how to manage your account, learn about [Long-Term Memory](/products/desktop/configuration/long-term-memory) to configure memory preferences, or explore [Choose a Model](/products/desktop/conversational-search/models) to switch between model families and modes.

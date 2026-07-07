@@ -82,4 +82,4 @@ Deleting all Copilot chats permanently removes your entire chat history. This in
 
 ## Next Steps
 
-Now that you understand how to customize Copilot Chats, learn about [Models](/products/desktop/configuration/models) settings to configure processing modes and manage AI models, or explore [Model Context Protocol (MCP)](/products/desktop/configuration/mcp) to integrate Pieces with other tools.
+Now that you understand how to customize Copilot Chats, learn about [Choose a Model](/products/desktop/conversational-search/models) to switch between model families and modes, or explore [Model Context Protocol (MCP)](/products/desktop/configuration/mcp) to integrate Pieces with other tools.

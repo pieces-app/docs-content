@@ -36,7 +36,7 @@ The Features settings tab allows you to control organization-wide feature toggle
 
 ## Feature Categories
 
-Configure organization-wide features organized by category. All feature settings automatically sync to team members' Pieces Desktop and PiecesOS installations. Model access, processing mode, and API keys are configured in the [Models](/products/organizations-and-teams/settings-models) section (organization management for AI).
+Configure organization-wide features organized by category. All feature settings automatically sync to team members' Pieces Desktop and PiecesOS installations. Model access and API keys are configured in the [Models](/products/organizations-and-teams/settings-models) section (organization management for AI).
 
 ### External Cloud
 
@@ -82,4 +82,4 @@ Configure analytics and reporting features for your organization.
 
 ## Next Steps
 
-Now that you understand features settings, explore [Models and API Keys](/products/organizations-and-teams/settings-models) to configure AI providers and processing mode, or check out [Long Term Memory](/products/organizations-and-teams/settings-ltm-sources) to configure context capture and default models.
+Now that you understand features settings, explore [Models and API Keys](/products/organizations-and-teams/settings-models) to configure AI providers and BYOK, or check out [Long Term Memory](/products/organizations-and-teams/settings-ltm-sources) to configure context capture and default models.

@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Basic Troubleshooting
 
-Find links to detailed sections on specific troubleshooting steps as well as information on choosing between cloud and local models, system requirements, and more.
+Find links to detailed sections on specific troubleshooting steps as well as information on system requirements and more.
 
 <on-device-storage />
 

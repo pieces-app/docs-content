@@ -16,13 +16,11 @@ Pick which cloud model powers `ask`, set the editor that opens your config file,
 
 > Switching between available models inside the Pieces CLI.
 
-## Available Cloud Models
+## Available Models
 
-The Pieces CLI uses the same catalog of cloud LLMs as the rest of the Pieces Suite, with both *Free* and *Pro* tiers noted on each model.
+The Pieces CLI uses the same models as the rest of the Pieces Suite. Choose from four model families—**Claude**, **Gemini**, **Grok**, and **ChatGPT**—each available in Fast, Balanced, and Extra Thinking modes. Every family and mode is available on both Free and Pro.
 
-<pieces-cloud-models />
-
-For deeper guidance on picking the right model—and on configuring local LLMs—see [LLM Settings](/products/cli/copilot/llms-settings) and the full [Cloud Models](/products/large-language-models/cloud-models) reference.
+For deeper guidance on picking the right model, see [LLM Settings](/products/cli/copilot/llms-settings) and [Choose a Model](/products/desktop/conversational-search/models).
 
 ## Switch the Active Model
 

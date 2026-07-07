@@ -48,7 +48,7 @@ You can find lots of saved material and generative AI-focused actions when acces
 | **Command**                                 | **Description**                                                                 |
 | ------------------------------------------- | ------------------------------------------------------------------------------- |
 | *Manage General Conversational Search Settings*           | Takes you to Conversational Search settings page.                                  |
-| *Manage Conversational Search LLM Runtime Configuration*  | Opens a modal for changing cloud and local LLMs.                                |
+| *Manage Conversational Search LLM Runtime Configuration*  | Opens a modal for changing the AI model.                                       |
 | *Enter Focused Conversational Search*                     | Collapses the sidebar and enters Focus Mode.                                    |
 | *Launch Conversational Search in Browser*                 | Launches an instance of the Pieces Desktop App UI in your browser.              |
 | *New Conversational Search Conversation with LTM Context* | Starts a new Conversational Search with LTM enabled.                              |

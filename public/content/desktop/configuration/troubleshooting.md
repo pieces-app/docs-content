@@ -279,4 +279,4 @@ Access common resources and documentation quickly:
 
 ## Next Steps
 
-Now that you understand how to access troubleshooting resources, learn about [Account](/products/desktop/configuration/account) settings to manage your account and cloud settings, or explore [Models](/products/desktop/configuration/models) to configure AI models and processing modes.
+Now that you understand how to access troubleshooting resources, learn about [Account](/products/desktop/configuration/account) settings to manage your account and cloud settings, or explore [Choose a Model](/products/desktop/conversational-search/models) to switch between model families and modes.

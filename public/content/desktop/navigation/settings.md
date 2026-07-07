@@ -84,7 +84,7 @@ The [MCP](/products/desktop/configuration/mcp) tab shows server URLs and setup l
 
 ### Models (in chat)
 
-In Pieces 6.0, you choose AI models from the picker in [Conversational Search](/products/desktop/conversational-search/models), not from a top-level Settings category. For Ollama setup and processing modes, see [Models settings](/products/desktop/configuration/models) if your build still exposes that page.
+In Pieces 6.0, you choose AI models from the picker in [Conversational Search](/products/desktop/conversational-search/models), not from a top-level Settings category.
 
 ### Appearance
 

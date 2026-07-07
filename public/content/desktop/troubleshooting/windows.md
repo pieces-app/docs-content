@@ -157,7 +157,7 @@ On Windows, PiecesOS and the Desktop App store logs under separate folders in Ap
 
 ## Checking Hardware Specifications
 
-You may need to check your system's specifications if you continue to experience issues, especially when trying to use [local LLMs](/products/core-dependencies/pieces-os/quick-menu#long-term-memory-access-control).
+You may need to check your system's specifications if you continue to experience issues, especially when running the [Long-Term Memory Engine](/products/core-dependencies/pieces-os/quick-menu#long-term-memory-access-control).
 
 To check your device specifications on Windows:
 

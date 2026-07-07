@@ -78,8 +78,7 @@ Your account and subscription tier determine what PiecesOS can do across all int
 
 | Feature | Free | Pieces Pro |
 | --- | --- | --- |
-| *Local LLMs* | ✓ | ✓ |
-| *Cloud LLMs* (GPT-4o, Claude, Gemini) | Limited | Unlimited |
+| *AI models* (Claude, Gemini, Grok, ChatGPT) | Limited usage | Unlimited |
 | *Long-Term Memory (LTM)* | ✓ | ✓ |
 | *Pieces Cloud sync & backup* | ✓ | ✓ |
 | *MCP Server* | ✓ | ✓ |

@@ -56,12 +56,6 @@ Find the SSE endpoint URL for creating your own Pieces MCP instances, plus links
 
 ## Settings
 
-### ML Processing
-
-Control how PiecesOS handles AI model inference. Switch between **Blended Mode** (local + cloud) and **Local Mode** (fully on-device, no cloud). Fine-tune enrichment levels per application.
-
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/new_pos_media/ml_blending.png" alt="ML processing mode selection between Blended and Local" align="center" fullwidth="true" />
-
 ### Optimize Memory Usage
 
 Adjusts memory allocation for PiecesOS to reduce resource consumption while maintaining performance.

@@ -39,7 +39,7 @@ If you installed PiecesOS to **OneDrive**, **iCloud Drive**, or another synced f
   </TabItem>
 
   <TabItem title="Windows">
-    Check your device specs if you're experiencing issues, especially with local LLMs:
+    Check your device specs if you're experiencing issues, especially when running PiecesOS and the Long-Term Memory Engine:
 
     <Steps>
       <Step title="Open the Run dialog">

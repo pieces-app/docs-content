@@ -65,7 +65,7 @@ Conversational Search, available in the Pieces Desktop App, any IDE, or browser 
 
 * `Content Generation`: Create content based on what you need, either by asking directly or using context from your current work.
 
-* `LLM Flexibility`: Switch between local models for privacy and speed, or cloud models for more advanced features.
+* `LLM Flexibility`: Switch between model families—Claude, Gemini, Grok, and ChatGPT—and choose Fast, Balanced, or Extra Thinking modes.
 
 ## Timeline
 
