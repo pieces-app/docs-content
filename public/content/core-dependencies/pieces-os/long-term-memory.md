@@ -148,10 +148,48 @@ Click any listed source to open a window where you can **disable** it for that a
 
 ***
 
+## Clearing Stored LTM Data
+
+Long-Term Memory data is stored locally by PiecesOS. You can remove it with granular control over time period, capture method, and application source.
+
+Open the panel from the Pieces Desktop App: click your `User Profile` in the top left, hover over `Settings`, and select `Long-Term Memory`. In the *Stored Data* section, click `Clear Long-Term Memory Data...`.
+
+<Steps>
+  <Step title="Set the time period">
+    Open the `Time Periods` dropdown (default `All Time`) and choose what to clear: `Last hour`, `Today`, `This week`, or a custom range.
+  </Step>
+  <Step title="Set the modality">
+    Open the `Modalities` dropdown (default `All Modalities`) to clear by capture method: `Vision`, `Clipboard`, or `Audio`.
+  </Step>
+  <Step title="Set the app source">
+    Open the `App Sources` dropdown (default `All Sources`) to clear data from specific applications only.
+  </Step>
+  <Step title="Review and clear">
+    The summary line updates with your selection—for example, "Clearing all events for all sources during all time. This action cannot be undone." Click `Clear Data` to confirm, or `Cancel` to back out.
+  </Step>
+</Steps>
+
+<Callout type="alert">
+  Clearing Long-Term Memory data is permanent and cannot be undone. Review the summary line before you click `Clear Data`.
+</Callout>
+
+### Combining Filters
+
+Combine the three filters for precise deletions:
+
+| **Goal** | **Time Periods** | **Modalities** | **App Sources** |
+| --- | --- | --- | --- |
+| Clear all clipboard data from the last hour | `Last hour` | `Clipboard` | `All Sources` |
+| Remove Slack vision captures from today | `Today` | `Vision` | Slack |
+| Delete all audio from this week | `This week` | `Audio` | `All Sources` |
+| Wipe everything from one app | `All Time` | `All Modalities` | (specific app) |
+
+***
+
 ## Next Steps
 
 <FancyCard title="LTM Settings (Desktop App)" href="/products/desktop/configuration/long-term-memory" colored={false}>
-  Configure app access control, system permissions, LTM Audio, performance options, and clear stored data from the full settings panel.
+  Configure app access control, system permissions, LTM Audio, and performance options from the full settings panel.
 </FancyCard>
 
 <FancyCard title="Privacy & On-Device Storage" href="/products/core-dependencies/on-device-storage" colored={false}>
@@ -159,5 +197,5 @@ Click any listed source to open a window where you can **disable** it for that a
 </FancyCard>
 
 <FancyCard title="PiecesOS Quick Menu" href="/products/core-dependencies/pieces-os/quick-menu" colored={false}>
-  Everything else you can do from the Quick Menu—updates, MCP settings, ML processing, and more.
+  Everything else you can do from the Quick Menu—updates, MCP settings, memory optimization, and more.
 </FancyCard>

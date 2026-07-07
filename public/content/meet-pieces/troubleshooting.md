@@ -37,14 +37,12 @@ Click one of the links below to get started troubleshooting on your device—or 
 
 ## Cross-Platform Issues
 
-This cross-platform troubleshooting documentation covers the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, best practices for running local LLMs, model selection for your hardware, and solutions for crashes due to limited resources or GPU compatibility.
+This cross-platform troubleshooting documentation covers the Pieces Desktop App and PiecesOS, including updates, connectivity, system requirements, and solutions for crashes due to limited resources or GPU compatibility.
 
 <Card title="macOS + Windows + Linux" image="/assets/icons/platform_logos/pieces_logo.png">
   Use the Cross-Platform page if you’re not sure where to begin or if your issue isn’t clearly related to your operating system.
 
   On the [Cross-Platform troubleshooting guide](/products/meet-pieces/troubleshooting/cross-platform), you’ll find:
-
-  * [Tips on handling local LLM crashes due to hardware-related issues](/products/meet-pieces/troubleshooting/cross-platform#local-model-crashing)
 
   * [Guidance on working with Vulkan-based GPUs](/products/meet-pieces/troubleshooting/cross-platform#vulkan-based-gpus)
 

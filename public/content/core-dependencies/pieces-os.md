@@ -3,9 +3,9 @@ title: What is PiecesOS?
 path: /core-dependencies/pieces-os
 visibility: PUBLIC
 status: PUBLISHED
-description: PiecesOS is the background service powering Pieces—running local AI models, managing Long-Term Memory, and connecting tools via MCP.
+description: PiecesOS is the background service powering Pieces—capturing on-device memory, coordinating AI models, and connecting tools via MCP.
 metaTitle: What is PiecesOS? | Pieces Docs
-metaDescription: Learn about PiecesOS, the background service that powers Long-Term Memory, on-device AI, and MCP integrations across the Pieces ecosystem.
+metaDescription: Learn about PiecesOS, the background service that powers Long-Term Memory, on-device capture, and MCP integrations across the Pieces ecosystem.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/core_dependencies/pieces_os.png"
 ---
 
@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## What is PiecesOS?
 
-**PiecesOS** is a background service that runs on your machine. It orchestrates local data processing, manages on-device machine learning models, and serves as the bridge between your workflow and every Pieces product—including the [Pieces Desktop App](/products/desktop/onboarding), [MCP integrations](/products/mcp), and the [CLI](/products/cli).
+**PiecesOS** is a background service that runs on your machine. It orchestrates on-device data capture and storage, coordinates AI model requests, and serves as the bridge between your workflow and every Pieces product—including the [Pieces Desktop App](/products/desktop/onboarding), [MCP integrations](/products/mcp), and the [CLI](/products/cli).
 
 <piecesos-bridge-diagram />
 
@@ -29,9 +29,9 @@ The [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) con
 
 The agent reasons across your memory in multiple turns, following threads, cross-referencing context, and building complete answers instead of one-shot guesses. It can search your memories, the web, your calendar, local files, and browser history automatically.
 
-### Local & Cloud AI Models
+### AI Models
 
-PiecesOS manages AI model inference for all Pieces products. Run models **entirely on-device** for privacy, use **cloud models** (OpenAI, Anthropic, Google) for speed, or use **blended mode** for a mix of both. Configure your processing mode from the [Quick Menu](/products/core-dependencies/pieces-os/quick-menu#ml-processing).
+PiecesOS coordinates AI model requests for all Pieces products. Choose from four model families—Claude, Gemini, Grok, and ChatGPT—each available in Fast, Balanced, and Extra Thinking modes. See [Choose a Model](/products/desktop/conversational-search/models) to pick a family and mode.
 
 ### MCP Support
 
@@ -43,10 +43,10 @@ The [Model Context Protocol (MCP)](/products/mcp) is an open framework that lets
 
 ## Privacy & Local-First Design
 
-All data captured by PiecesOS is stored **locally on your device**. Nothing leaves your machine unless you explicitly enable cloud features. PiecesOS applies on-device ML to filter out sensitive information and secrets.
+All data captured by PiecesOS is stored **locally on your device**. Capture, indexing, and storage happen on-device, and PiecesOS applies on-device ML to filter out sensitive information and secrets.
 
 <Callout type="info">
-  Processing depends on your model choice: **Local** runs entirely on-device. **Blended** and **Cloud** send context to cloud providers. We're **SOC 2 Type II** certified and never use your data to train models. [Learn more about privacy and on-device storage.](/products/core-dependencies/on-device-storage)
+  AI features that need a large language model run in the cloud, where only the scoped context for that request is sent—the rest of your data stays on your machine. We're **SOC 2 Type II** certified and never use your data to train models. [Learn more about privacy and on-device storage.](/products/core-dependencies/on-device-storage)
 </Callout>
 
 ## Installing PiecesOS

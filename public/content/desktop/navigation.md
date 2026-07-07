@@ -62,7 +62,7 @@ Included at the very end of the scrollable **Find Actions** list are links to ot
 
 The **Settings** view is the only page from which the **Power Menu** cannot be accessed.
 
-This view contains several different buckets of configurable options: [Account](/products/desktop/configuration/account), [Long-Term Memory](/products/desktop/configuration/long-term-memory), [Models](/products/desktop/configuration/models), [Model Context Protocol (MCP)](/products/desktop/configuration/mcp), [Appearance](/products/desktop/configuration/appearance), and [Troubleshooting](/products/desktop/configuration/troubleshooting).
+This view contains several different buckets of configurable options: [Account](/products/desktop/configuration/account), [Long-Term Memory](/products/desktop/configuration/long-term-memory), [Models](/products/desktop/conversational-search/models), [Model Context Protocol (MCP)](/products/desktop/configuration/mcp), [Appearance](/products/desktop/configuration/appearance), and [Troubleshooting](/products/desktop/configuration/troubleshooting).
 
 ## Focus Mode
 

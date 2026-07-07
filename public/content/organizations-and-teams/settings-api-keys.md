@@ -137,4 +137,4 @@ View, edit, and remove existing API key configurations.
 
 ## Next Steps
 
-Now that you understand API keys settings, explore [Models Settings](/products/organizations-and-teams/settings-models) to configure processing mode and model access, or check out [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide feature toggles.
+Now that you understand API keys settings, explore [Models Settings](/products/organizations-and-teams/settings-models) to configure model access and BYOK, or check out [Features Settings](/products/organizations-and-teams/settings-features) to configure team-wide feature toggles.

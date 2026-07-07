@@ -3,10 +3,10 @@ title: Privacy, Security & Your Data
 path: /privacy-security-your-data
 visibility: PUBLIC
 status: PUBLISHED
-description: Pieces is local-first and SOC 2 Type II certified—your data stays on-device. Learn about security design, offline capabilities, and telemetry controls.
+description: Pieces is local-first and SOC 2 Type II certified—your data is stored on your device. Learn about security design, model-training policy, and how cloud AI features handle your data.
 metaTitle: Pieces Privacy & Security | Your Data
 canonicalUrl: https://docs.pieces.app/products/privacy-security-your-data
-metaDescription: How Pieces keeps your data private—local-first architecture, SOC 2 Type II compliance, optional cloud features, and on-device processing.
+metaDescription: How Pieces keeps your data private—local-first storage, SOC 2 Type II compliance, scoped cloud AI requests, and never training on your data.
 ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/og_images/pieces_more/privacy_security_your_data.png"
 ---
 
@@ -15,9 +15,9 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 ***
 
 ## Local-First by Design
-Pieces runs on your device. Your code, chats, and long-term memory context never leave your machine unless you explicitly enable a cloud feature.
+**Your data stays on your machine.** Pieces captures and stores your code, chats, and long-term memory context locally on your device—there is no continuous sync and no bulk upload to our cloud.
 
-That means full offline functionality by default, opt-in cloud integrations, clearly marked telemetry, and granular controls over everything you share.
+AI features that need a large language model (like chat) run in the cloud by default, since Pieces no longer ships local models. When you use one, only a scoped, per-request slice of context is sent to the model—the rest of your data never leaves your machine. Telemetry is clearly marked, and you keep granular control over everything you share.
 
 <Callout type="info">
   Pieces is **SOC 2 Type II certified** and enterprise-ready. We never use your data to train models, and you can delete everything at any time by removing the `com.pieces.os` folder.
@@ -65,38 +65,41 @@ Pieces stores data in `com.pieces.os` (PiecesOS: LTM, engine data, logs) and, on
 </Callout>
 
 ## Security Architecture
-Pieces is architected so your sensitive work stays isolated from external networks whenever possible.
+Pieces keeps your data on your device and limits what reaches the network.
 
-The core design keeps processing local, makes cloud connectivity optional, and uses per-user data isolation when cloud features are enabled.
+Capture, indexing, and storage run on-device, your data is isolated per user, and AI features send only the context required for a single request.
 
-* **Offline-first processing** — code analysis, language detection, secret detection, and tag generation run on-device, minimizing exposure to external networks.
-* **Opt-in cloud** — no data leaves your machine unless you enable a cloud feature.
+* **On-device processing** — code analysis, language detection, secret detection, and tag generation run on your machine.
+* **Scoped cloud requests** — when you use an AI feature, only the relevant context for that request is sent to a model.
 * **Isolated user data** — each developer's data is stored in its own micro-database, preventing cross-contamination.
 * **Decentralized by default** — no centralized server holds your data, so there's no single point of failure.
 
-### What Runs Offline
-These pillars of Pieces functionality work fully offline, with cloud as an optional enhancement rather than a requirement.
+### What Runs On-Device vs. Cloud
+Pieces captures and stores your data on-device. AI features that need a large language model run in the cloud, since Pieces no longer ships local models.
 
-| **Feature**        | **Local** | **Cloud (Optional)** |
-| ------------------ | :-------: | :------------------: |
-| Code Analysis      |     ✅     |          ✅           |
-| Language Detection |     ✅     |          ✅           |
-| Secret Detection   |     ✅     |          ✅           |
-| Tag Generation     |     ✅     |          ✅           |
-| Long-Term Memory   |     ✅     |          ✅           |
-| Conversational Chat (with local models) |     ✅     |          ✅           |
+| **Capability** | **On-Device** | **Cloud** |
+| --- | :---: | :---: |
+| Data capture & indexing | ✅ | — |
+| Long-Term Memory storage | ✅ | — |
+| Code analysis | ✅ | — |
+| Language detection | ✅ | — |
+| Secret detection | ✅ | — |
+| Tag & metadata generation | ✅ | — |
+| Conversational chat / LLM querying | — | ✅ |
+| AI enrichment (cloud LLMs) | — | ✅ |
+| Backup & restore (user-initiated) | — | ✅ |
+
+Your memory data stays on your local disk. When you use chat or another AI feature, the request runs in the cloud and only the relevant, scoped context is sent for that request. Cloud backup and restore happen only when you start them.
 
 ## Long-Term Memory Security
-The Long-Term Memory (LTM-2.7) Engine is the most context-aware part of Pieces—and the most important to keep local.
+The Long-Term Memory (LTM-2.7) Engine is the most context-aware part of Pieces, and your memory data stays on your local disk.
 
-By default, every LTM function runs on your device. You can pair it with a local LLM through PiecesOS for end-to-end on-device processing, so nothing about your work ever crosses the network.
+* **Local storage** — captured context is stored on your device, not in a central cloud.
+* **Scoped enrichment** — when you use an AI feature, only the minimum relevant context is sent to cloud LLMs for that request; the rest of your memory stays local.
+* **No bulk upload** — Pieces never continuously syncs or uploads your memory. Data leaves only as scoped, per-request context when you actively use an AI feature.
 
-* **On-device processing** — LTM runs locally by default, keeping sensitive context within your environment.
-* **Built-in local models** — download and run local LLMs directly through PiecesOS for fully offline conversations.
-* **You decide what's shared** — cloud features are opt-in per interaction, so you stay in control at every step.
-
-<Callout type="alert">
-  For the strongest privacy posture, pair LTM-2.7 with a local model. This keeps Long-Term Memory, Conversational Search, and Pieces Drive fully on-device.
+<Callout type="info">
+  Need tighter control over where data is processed? Bring your own keys (BYOK) through your organization—see [BYOK & Org Models](/products/organizations-and-teams/settings-models).
 </Callout>
 
 ## Privacy Controls
@@ -104,15 +107,26 @@ You have full control over what Pieces collects, stores, and sends—no dark pat
 
 Every Pieces product exposes settings for data sharing, cloud connectivity, and telemetry so you can match the tool to your team's policies.
 
-* **All cloud features are opt-in** — nothing is sent remotely unless you turn it on.
+* **AI processing runs in the cloud** — data is sent only as scoped, per-request context when you use an AI feature, never in bulk.
+* **User-initiated actions stay in your control** — backup and restore run only when you start them.
 * **Telemetry is anonymous and opt-out** — clearly marked, never tied to your code.
 * **Granular settings per product** — PiecesOS, the Desktop App, and each integration expose their own privacy controls.
-* **No model training on your data** — ever.
 
-## Cloud Integration (Optional)
-When you do enable cloud features, each user gets their own isolated infrastructure rather than a shared pool.
+## Data Ownership & Model Training
+Your data is never used to train any model at Pieces.
 
-This isolation makes Pieces cloud suitable for enterprise environments where tenancy and data segregation matter.
+Our nanomodels are trained on synthetic datasets generated using non-user-derived *Oracle models*. This lets Pieces improve performance without inspecting, storing, or training on real user inputs or behaviors.
+
+This applies to all product components, including Long-Term Memory, Copilot interactions, context injection, and metadata generation.
+
+## Cloud Access & Data Transfer
+When you use a cloud feature—such as LLM querying or backup and restore—Pieces sends only the minimum required, contextually relevant data.
+
+* **Scoped to your prompt** — data sent to cloud models (for example, Claude or ChatGPT) is pre-filtered and limited to your immediate prompt. Pieces does not transmit unrelated memory or history.
+* **No bulk export** — Pieces never sends full memory logs or raw content archives to any third-party service.
+* **Encrypted, temporary backups** — backup and restore, when you start them, zip and encrypt your local database and transmit it for temporary storage. There is no persistent cloud sync or continuous upload.
+
+When you enable cloud features, each user gets isolated infrastructure rather than a shared pool, which suits enterprise environments where tenancy and data segregation matter.
 
 * **Per-user cloud instance** — your cloud environment is dedicated to your account, not shared.
 * **Unique subdomain per user** — further isolates your data from other tenants.

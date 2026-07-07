@@ -15,7 +15,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## Basic Troubleshooting
 
-Find links to detailed sections on specific troubleshooting steps as well as information on choosing between cloud and local models, system requirements, and more.
+Find links to detailed sections on specific troubleshooting steps as well as information on system requirements and more.
 
 <on-device-storage />
 
@@ -85,97 +85,11 @@ Platform-specific solutions are detailed on their respective OS pages:
 
 * [Linux](/products/meet-pieces/troubleshooting/linux#common-installation-issues)
 
-## Using Local Models
-
-Running Pieces software with local LLMs can offer greater privacy, faster responses (when properly configured), and independence from cloud dependencies.
-
-Local models are served directly through PiecesOS, allowing users to efficiently deploy and manage on-device language models tailored to their needs.
-
-However, local models often require robust hardware configurations and careful optimization to run smoothly.
-
-Older devices, regardless of operating system, may struggle to meet the hardware demands of these LLMs.
-
-### Minimum System Requirements
-
-Local models demand more from your system than their cloud-hosted counterparts.
-
-To ensure a stable, responsive experience—make sure your device fits these general minimum device specifications.
-
-<Steps>
-  <Step title="Operating System">
-    Local models are supported on macOS, Windows, and Linux devices—but you need to make sure your operating system is running at the correct minimum version to avoid compatibility issues.
-
-    * **macOS:** macOS 13.0 (Ventura) or higher
-
-    * **Windows:** Windows 10 or higher
-
-    * **Linux:** Ubuntu 22+ or higher
-  </Step>
-
-  <Step title="RAM">
-    Your system should have a minimum amount of RAM depending on the local model you’re trying to run. More RAM may further improve performance and reduce bottlenecks.
-
-    * **3B Models:** 8GB of RAM
-
-    * **7B Models:** 16GB of RAM
-
-    * **13B Models:** 32GB of RAM
-  </Step>
-
-  <Step title="CPU">
-    If your system doesn’t have a dedicated or otherwise capable GPU, running a CPU-tuned model may be in your best interests.
-
-    * **Recommended:** Any modern CPU with at least 4 cores
-
-    * **13B Models:** Any modern CPU with at least 8 cores
-  </Step>
-
-  <Step title="GPU">
-    While you don't need a GPU to run a local model as long as the LLM is CPU-tuned, a GPU can significantly speed up inference and the training of custom models.
-
-    * **Recommended:** Any modern GPU with at least 6GB of VRAM
-  </Step>
-
-  <Step title="Disk Space">
-    Local large language models can occupy significant disk space, so ensure you have enough capacity for both the core installation and any custom models you plan to download.
-
-    * **Minimum:** At least 12GB of free storage space for base models.
-
-    * **Additional Storage:** Required for larger models with additional dependencies
-  </Step>
-</Steps>
-
-### Minimum System Requirements for Pieces Software
+## System Requirements
 
 Your device, regardless of platform, should meet the following basic system specifications for using Pieces software.
 
 <pos-pfd-system-reqs />
-
-### Choosing the Right Model
-
-Select a model that matches your system’s capabilities and performance limitations, especially if you’re running an older or weaker device.
-
-* **Lightweight Models:** Opt for smaller or **quantized models** if you’re using older hardware or have limited VRAM. Quantized models are optimized to reduce memory usage, making them easier to run without significantly impacting output quality for general tasks.
-
-* **GPU-Tuned Models:** If you have a strong GPU with enough VRAM, GPU-accelerated models often run faster and produce results more efficiently.
-
-* **CPU-Tuned Models:** If you lack a dedicated GPU or have low GPU memory, CPU-tuned models are a fallback option. Although slower, they can still provide consistent performance.
-
-### Local Model Crashing
-
-If you are running into ‘hanging’ or crashing issues when attempting to power Pieces using a local LLM, it may be because of your system’s hardware.
-
-Insufficient system resources, like RAM or VRAM may cause hiccups, slowdowns, and other glitches.
-
-There are a few options available to you for troubleshooting:
-
-1. **Check Hardware:** Verify that you have sufficient RAM, VRAM, and CPU headroom as recommended by the model.
-
-2. **Update Drivers:** Run `vulkaninfo` (or a similar tool) to check for GPU or Vulkan-related errors, if you have a Vulkan-based GPU. Update your GPU drivers if you detect compatibility issues.
-
-3. **Model Switching:** If you experience crashes or slowdowns, try switching to a less resource-intensive local model. Reducing complexity can stabilize performance.
-
-If you’ve tried all of these troubleshooting steps but are still experiencing crashes, hanging-time, or other instabilities, you may need to switch to a cloud-based LLM.
 
 ## Vulkan-based GPUs
 

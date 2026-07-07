@@ -50,7 +50,7 @@ Toggle organization-wide features that sync to team members' Pieces Desktop and 
 
 Model access, API keys, and Long Term Memory settings are managed from separate sections in the sidebar:
 
-* **Models** — Organization management for AI configuration. Click `Models` in the sidebar to access the Models tab (allow-lists, processing mode) and the API Keys tab (OpenAI, Anthropic, GCP credentials).
+* **Models** — Organization management for AI configuration. Click `Models` in the sidebar to access the Models tab (allow-lists, BYOK) and the API Keys tab (OpenAI, Anthropic, GCP credentials).
 * **Long Term Memory** — Manage context capture settings, application sources, denied websites, and default models for memory processing. Click `Long Term Memory` in the sidebar to access.
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/settings-models" colored={false}>

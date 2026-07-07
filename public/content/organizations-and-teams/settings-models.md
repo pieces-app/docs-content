@@ -3,14 +3,16 @@ title: Models Settings
 path: /desktop/organizations-and-teams/settings-models
 visibility: PUBLIC
 status: PUBLISHED
-description: Organization management for AI—control model access, processing mode, and API keys. Models is the parent section; API Keys is a tab within it.
+description: Organization management for AI—control model access and API keys (BYOK). Models is the parent section; API Keys is a tab within it.
 metaTitle: Configure AI Models for Teams | Pieces Settings
-metaDescription: Learn how to manage model access, processing mode, and API keys in the Models section (organization management for AI).
+metaDescription: Learn how to manage model access and API keys (BYOK) in the Models section (organization management for AI).
 ---
 
 ***
 
-The Models section is the organization management area for AI. From here you control which models are available, enable or disable providers (Google, OpenAI, etc.), configure processing mode, and set up API keys. All settings sync to team members' Pieces Desktop and PiecesOS.
+The Models section is the organization management area for AI. From here you control which models are available, enable or disable providers (Google, OpenAI, etc.), and set up API keys. All settings sync to team members' Pieces Desktop and PiecesOS.
+
+With BYOK enabled, your organization chooses exactly which models are available—pick and choose specific models per provider through the allow-list, and manage credentials in the API Keys tab. These organization-level controls live here so members get a consistent, governed model set.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="Models page with provider sections, model lists, and toggles" align="center" fullwidth="true" />
 
@@ -89,28 +91,6 @@ With the allow-list and provider toggles configured, choose which specific model
     A save reminder appears at the bottom of the page. Click `Save` to apply.
   </Step>
 </Steps>
-
-## Setting Organization-Wide Processing Mode
-
-Control whether your organization uses local, cloud, or blended processing for AI features.
-
-<Steps>
-  <Step title="Enable Organization Managed Processing Mode">
-    On the Models page, find the *Organization Managed Processing Mode* toggle and turn it **on**.
-  </Step>
-  <Step title="Choose Processing Mode">
-    Use the *Organization-Wide Processing Mode* dropdown to select:
-    * **BLENDED** — Mix of local and cloud (recommended)
-    * **Local** — Process locally only (limits features)
-  </Step>
-  <Step title="Save">
-    A save reminder appears at the bottom of the page. Click `Save` to apply. The chosen mode applies to all organization members.
-  </Step>
-</Steps>
-
-<Callout type="tip">
-  Blended mode is recommended. Local-only mode severely limits AI features.
-</Callout>
 
 ## Adding API Keys for Providers
 

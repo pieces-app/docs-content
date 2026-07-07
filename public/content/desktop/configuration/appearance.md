@@ -165,4 +165,4 @@ Adjust the spacing and layout density of the Pieces interface. Choose between Ti
 
 ## Next Steps
 
-Now that you understand how to customize Appearance, learn about [Models](/products/desktop/configuration/models) to configure AI models and processing modes, or explore [Troubleshooting](/products/desktop/configuration/troubleshooting) to access support resources and view app information.
+Now that you understand how to customize Appearance, learn about [Choose a Model](/products/desktop/conversational-search/models) to switch between model families and modes, or explore [Troubleshooting](/products/desktop/configuration/troubleshooting) to access support resources and view app information.

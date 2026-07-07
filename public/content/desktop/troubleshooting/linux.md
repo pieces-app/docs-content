@@ -93,7 +93,7 @@ To determine your GPU type and find other important information, run `lspci | gr
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/lscpi_UBUNTU.png" alt="Terminal output of lspci showing GPU on Ubuntu" align="center" fullwidth="true" />
 
-Confirm that your CPU, GPU, and memory resources are sufficient for running PiecesOS and local AI models, if applicable.
+Confirm that your CPU, GPU, and memory resources are sufficient for running PiecesOS.
 
 ### Checking Ubuntu Version
 

@@ -179,7 +179,7 @@ C:\Users\<USERNAME>\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces for 
 
 ## Checking Hardware Specifications
 
-It may be necessary to verify your system’s specifications if you experience ongoing issues, especially when attempting to utilize local LLMs.
+It may be necessary to verify your system’s specifications if you experience ongoing issues, especially when running PiecesOS and the Long-Term Memory Engine.
 
 To check your device specifications on Windows:
 

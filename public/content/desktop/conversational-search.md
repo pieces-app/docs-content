@@ -51,7 +51,7 @@ The bottom toolbar controls how each conversation runs:
 | --- | --- |
 | `+` | Attach files or folders (or drag and drop into the input) |
 | `Filter By...` | Limit memories by app, time, or modality |
-| Model selector | Pick a cloud model mode (Fast, Balanced, or Extra Thinking) |
+| Model selector | Pick a model family and mode (Fast, Balanced, or Extra Thinking) |
 | `lotus icon` | Toggle *Reflection Mode* for deeper reasoning on hard questions |
 | `Send` | Send a message (`Enter` queues a follow-up while the agent is still responding) |
 
@@ -72,7 +72,7 @@ To scope a chat to **one** Timeline Event or summary, open that item in Timeline
 </FancyCard>
 
 <FancyCard title="Choose a Model" href="/products/desktop/conversational-search/models" colored={false}>
-  Switch between Fast, Balanced, and Extra Thinking modes for Claude, Gemini, and GPT.
+  Switch between model families—Claude, Gemini, Grok, and ChatGPT—using Fast, Balanced, and Extra Thinking modes.
 </FancyCard>
 
 <FancyCard title="Write Better Prompts" href="/products/desktop/conversational-search/prompting-guide" colored={false}>

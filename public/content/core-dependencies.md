@@ -3,9 +3,9 @@ title: Core Dependencies
 path: /core-dependencies
 visibility: PUBLIC
 status: PUBLISHED
-description: PiecesOS powers the Pieces ecosystem—Desktop App, MCP integrations, and on-device AI. Learn about core dependencies and local model setup.
-metaTitle: Core Dependencies for Pieces | PiecesOS & Ollama Guide
-metaDescription: PiecesOS powers the Desktop App and MCP integrations with built-in local models for on-device AI. Learn setup and dependencies.
+description: PiecesOS powers the Pieces ecosystem—Desktop App, MCP integrations, and on-device memory. Learn about core dependencies and how PiecesOS works.
+metaTitle: Core Dependencies for Pieces | PiecesOS Guide
+metaDescription: PiecesOS powers the Desktop App and MCP integrations, capturing and storing your context on-device. Learn setup and dependencies.
 ---
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/core_dependencies.png" alt="Core dependencies overview banner" align="center" fullwidth="true" />
@@ -23,23 +23,22 @@ It powers the [Long-Term Memory (LTM-2.7) Engine](/products/core-dependencies/pi
 
 **PiecesOS**: The backbone of the Pieces suite, managing local memory, AI-driven workflow enhancements, [Pieces MCP](/products/mcp), and other integrations within your development environment.
 
-## Local Models
+## On-Device Processing
 
-Pieces includes built-in local models that run directly through PiecesOS—no external dependencies required.
+PiecesOS runs directly on your device and powers core Pieces capabilities without sending your data to the cloud:
 
-These models power:
-- **Long-Term Memory (LTM-2.7)** workflow processing
+- **Long-Term Memory (LTM-2.7)** workflow capture and processing
 - **Code enrichment** and analysis
-- **Conversational Search** with on-device LLMs
 - **Secret detection** and security scanning
+- **Metadata and tag generation**
 
-All local processing happens entirely on your device through PiecesOS, ensuring privacy and offline functionality.
+Capture, indexing, and storage happen entirely on your device through PiecesOS. AI features that need a large language model—like [Conversational Search](/products/desktop/conversational-search)—send only scoped, relevant context to a cloud model for that request.
 
 ## What Does PiecesOS Do?
 
-PiecesOS is a lightweight service that handles everything from local model management and context storage to advanced local inference for AI-assisted workflows.
+PiecesOS is a lightweight service that handles everything from on-device context capture and storage to coordinating AI-assisted workflows.
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/pfd_x_piecesos_and_ollama.png" alt="Pieces Desktop App, PiecesOS, and local models architecture" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/pfd_x_piecesos_and_ollama.png" alt="Pieces Desktop App and PiecesOS architecture" align="center" fullwidth="true" />
 
 PiecesOS is **required** for all Pieces products, including:
 
@@ -53,17 +52,13 @@ Pieces is designed with **speed and efficiency** in mind, so PiecesOS acts as th
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_dependencies_assets/figma_mockups/performance_privacy_flexibility.png" alt="PiecesOS performance, privacy, and flexibility benefits" align="center" fullwidth="true" />
 
-Our focus on **security and flexibility** is why we've built local models directly into PiecesOS—users can work entirely with on-device generative AI, and by offloading most operations locally, the user experience benefits from:
-
-* **Instant AI-powered assistance** without cloud latency.
+Our focus on **security and flexibility** is why PiecesOS does as much as possible on your device. By keeping capture and storage local, the user experience benefits from:
 
 * **100% local memory storage** with full control over data.
 
-* **Offline functionality**, ensuring a seamless experience even when disconnected from the internet.
+* **Scoped cloud requests**, so only the relevant context for a given prompt is ever sent to an AI model.
 
 * **Lightweight, background operation**, consuming minimal system resources.
-
-Local models are built into PiecesOS automatically, providing on-device AI capabilities without any additional setup or installation.
 
 This is especially useful in enterprise settings where strong device security is important.
 
@@ -71,6 +66,6 @@ This is especially useful in enterprise settings where strong device security is
 
 | **Dependency** | **Purpose**                                                           | **Required?**                                   |
 | -------------- | --------------------------------------------------------------------- | ----------------------------------------------- |
-| *PiecesOS*     | Manages memory, developer material storage, and MCP client communication. Includes built-in local models for on-device AI. | Yes — this is required for all Pieces products. |
+| *PiecesOS*     | Manages memory, developer material storage, and MCP client communication, capturing and storing your context on-device. | Yes — this is required for all Pieces products. |
 
 ***

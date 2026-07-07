@@ -236,12 +236,12 @@ Browse and switch models directly from chat, without navigating to Settings. The
     Click the `model button` in the *bottom toolbar* to open the model inventory.
   </Step>
 
-  <Step title="Browse Built-In Models">
-    Under *Built-In Models*, you'll see **Claude**, **Gemini**, and **GPT**. Hover over any provider to see available modes.
+  <Step title="Choose a Family">
+    Hover over a model family—**Claude**, **Gemini**, **Grok**, or **ChatGPT**—to see its available modes.
   </Step>
 
-  <Step title="Choose a Provider and Mode">
-    Under *Built-In Models*, hover over **Claude**, **Gemini**, or **GPT** to see Fast, Balanced, and Extra Thinking modes.
+  <Step title="Choose a Mode">
+    Pick **Fast**, **Balanced**, or **Extra Thinking** for that family.
   </Step>
 
   <Step title="Select a Model">
@@ -249,17 +249,7 @@ Browse and switch models directly from chat, without navigating to Settings. The
   </Step>
 </Steps>
 
-Your chat history stays intact when you switch models. New messages use the selected model while previous responses remain unchanged.
-
-### All Models
-
-Click `All Models` to browse the full catalog, including cloud models, local models (via Ollama), BYOK configurations, and enterprise deployments. Local models run entirely on your device through PiecesOS for privacy and offline use.
-
-The unified model inventory works across all providers: OpenAI, Anthropic, Google, AWS Bedrock, Azure, OpenRouter, on-device models, and more.
-
-<Callout type="info">
-  Some cloud models are available to Pieces Pro users only. To unlock premium models, see [Pieces Pro](/paid-plans).
-</Callout>
+Your chat history stays intact when you switch models. New messages use the selected model while previous responses remain unchanged. Every family and mode is available on all plans.
 
 For detailed model configuration, see [Choose a Model](/products/desktop/conversational-search/models).
 
@@ -391,7 +381,7 @@ The chat input area includes a text field where you type your questions, along w
 
 * **`+` (Add Context)** — Attach local files or folders to the conversation. You can also drag and drop files directly into the input area.
 * **`Filter By...`** — Open the [filter menu](#filtering-your-searches) to scope by Apps, Time, or Modality.
-* **Model selector** — Shows the active model (e.g., `Claude · Fast`). Click to switch between cloud and local models.
+* **Model selector** — Shows the active model (e.g., `Claude · Fast`). Click to switch between model families and modes.
 * **Reflection Mode (lotus icon)** — Toggle the agent’s ability to reflect on its own reasoning and self-correct in real time. See [Reflection Mode](#reflection-mode).
 * **`Send`** — Send your message. You can also press `Enter`.
 
@@ -444,6 +434,8 @@ Token tracking helps you:
 ## Reflection Mode
 
 Reflection Mode enables the agent to reflect on its own reasoning and self-correct in real time. When enabled, the agent produces higher-quality responses by evaluating its logic as it generates answers, catching errors and refining its output before delivering it to you.
+
+Reflection Mode is powered by the **Agent Harness**—the framework that lets the agent reason across multiple turns, cross-reference your context, and refine its output before responding.
 
 ### Enabling Reflection Mode
 

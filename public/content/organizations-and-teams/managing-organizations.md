@@ -61,14 +61,14 @@ Manage your organization's subscription, update seat counts, view billing inform
 
 ## Models (Organization Management for AI)
 
-The Models section is the organization management area for AI configuration. It appears as a top-level item in the sidebar with two tabs: *Models* (general settings, allow-lists, processing mode) and *API Keys* (OpenAI, Anthropic, GCP credentials).
+The Models section is the organization management area for AI configuration. It appears as a top-level item in the sidebar with two tabs: *Models* (general settings, allow-lists, BYOK) and *API Keys* (OpenAI, Anthropic, GCP credentials).
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/organizations-and-teams/new_media03-01-26/models_overview.png" alt="Models section with general settings and API keys configuration" align="center" fullwidth="true" />
 
 > Models section showing general settings and API keys configuration
 
 <FancyCard title="Learn More" href="/products/organizations-and-teams/settings-models" colored={false}>
-  Configure model allow-lists, processing mode, and API keys for your organization.
+  Configure model allow-lists, BYOK, and API keys for your organization.
 </FancyCard>
 
 ## Long Term Memory

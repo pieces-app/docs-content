@@ -93,18 +93,17 @@ Compare Free and Pieces Pro to see which plan fits your workflow.
 
 ### Free Plan — Model Access
 
-The free plan includes full access to local models (Ollama) with no usage limits, plus limited usage of select cloud models. You can use on-device models like Llama, Gemma, and Phi for private, offline use. Cloud model usage is capped—upgrade to Pro for unlimited access to premium LLMs.
+Every model family and mode is available on both Free and Pro. The free plan includes limited usage of AI models, while Pieces Pro unlocks unlimited usage—upgrade when you want to remove the caps.
 
 | **Feature** | **Free** | **Pieces Pro** |
 |-------------|----------|----------------|
-| Cloud / premium AI models | Limited usage | Unlimited access |
-| Local models (Ollama) | Full access, no limits | Full access, no limits |
+| AI models (all families) | Limited usage | Unlimited access |
 | Long-term memory | Rolling window (time-bound) | Unlimited (up to 9 months) |
 | AI-powered code generation | Basic | Advanced |
 | Support | Community | Priority |
 | Cloud backup | Limited | Full |
 
-For details on which models are available on each plan, see [Models](/products/desktop/configuration/models#free-vs-pro-model-access).
+For how to choose a model, see [Choose a Model](/products/desktop/conversational-search/models).
 
 ## Frequently Asked Questions
 
@@ -118,7 +117,7 @@ For details on which models are available on each plan, see [Models](/products/d
   </Accordion>
 
   <Accordion title="What are the limits on premium model usage?">
-    The free plan includes limited usage of select cloud models to get started. Pro offers unlimited access to premium LLMs including GPT-5, Claude, Gemini, and thinking models. [See the full model list](/products/large-language-models/cloud-models) for details on which models are Free vs Pro.
+    The free plan includes limited usage of AI models to get started. Pro offers unlimited usage across all model families and modes. [See Choose a Model](/products/desktop/conversational-search/models) for how to pick a family and mode.
   </Accordion>
 
   <Accordion title="Does upgrading to Pro create better memories?">
@@ -134,31 +133,17 @@ Unlimited access to *premium LLMs, infinite long-term memory,* and *priority sup
 
 ### Premium AI Models
 
-Experience faster, more accurate AI assistance with top-tier cloud LLMs from leading providers.
+Pieces offers four model families, each available in Fast, Balanced, and Extra Thinking modes:
 
-| **OpenAI**    | **Anthropic**        | **Google**                  | **Perplexity**              |
-| ------------- | -------------------- | --------------------------- | --------------------------- |
-| GPT-5.2 Pro   | Claude 4.6 Opus      | Gemini 3.1 Pro Preview      | Sonar Deep Research         |
-| GPT-5.2       | Claude 4.6 Sonnet    | Gemini 3.1 Flash Lite Preview| Sonar Reasoning Pro         |
-| GPT-5.1       | Claude 4.5 Opus      | Gemini 3 Pro Preview        | Sonar Pro                   |
-| GPT-5 Thinking| Claude 4.5 Sonnet    | Gemini 3 Flash Preview      |                             |
-| GPT-5          | Claude 4.5 Haiku    | Gemini 2.5 Pro              |                             |
-| GPT-5 Fast    | Claude 4 Sonnet      | Gemini 2.5 Flash            |                             |
-| o1 Pro        | Claude 3.7 Sonnet   | Gemini 2.5 Flash Lite       |                             |
-| o4 Mini       | Claude 3.5 Sonnet   | Gemini 2 Flash Lite         |                             |
-| o3 Pro        | Claude 3.5 Haiku    |                             |                             |
-| o3 Mini       |                      |                             |                             |
-| o3            |                      |                             |                             |
-| o1            |                      |                             |                             |
-| GPT-4.1       |                      |                             |                             |
-| GPT-4.1 Mini  |                      |                             |                             |
-| GPT-4o        |                      |                             |                             |
-| GPT-4o Mini   |                      |                             |                             |
-| GPT-4 Turbo   |                      |                             |                             |
-| GPT-4         |                      |                             | Sonar                       |
+* **Claude**
+* **Gemini**
+* **Grok**
+* **ChatGPT**
+
+Real-time web search is powered by Perplexity. Every family and mode is available on both Free and Pro—Pro removes the usage caps.
 
 <Callout type="tip">
-  Model availability may vary by plan and region. See the latest list on the <a target="_blank" href="/products/large-language-models/cloud-models">Cloud Models</a> page.
+  To pick a family and mode, see [Choose a Model](/products/desktop/conversational-search/models).
 </Callout>
 
 ## Upgrading to Pieces Pro
