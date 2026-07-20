@@ -94,7 +94,7 @@ To manually update both PiecesOS and the Pieces Desktop App, run:
 flatpak update -y com.pieces.os com.pieces.pfd
 ```
 
-You can also check for updates within the Pieces Desktop App by hovering over your username in the top left, then hovering over `Update` and selecting `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
+You can also check for updates from the Desktop App by clicking your profile in the top-left corner and selecting `Check for Updates`. Both apps update together.
 
 <Callout type="tip">
   Some desktop environments (like GNOME Software or KDE Discover) can manage Flatpak updates through their graphical interface. Look for Pieces in your software center to update from there.

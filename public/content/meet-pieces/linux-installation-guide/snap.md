@@ -44,11 +44,17 @@ After installing via Snap, run `pieces-os.doctor` in your terminal. The script o
 
 ### Updating
 
-The Pieces Desktop App automatically downloads and installs new updates.
+Update both packages with Snap:
 
-You can also manually check for updates by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
+```bash
+sudo snap refresh pieces-os pieces-for-developers
+```
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started_linux/checking_pieces_desktop_app_for_pieces_os_updates.gif" alt="Checking for PiecesOS updates in the Pieces Desktop App on Linux" align="center" fullwidth="true" />
+You can also check for updates from the Desktop App by clicking your profile in the top-left corner and selecting `Check for Updates`. Both apps update together.
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="" align="center" fullwidth="true" />
+
+> Running `snap refresh` to update Pieces on Linux
 
 ### Uninstalling
 

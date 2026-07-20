@@ -52,52 +52,40 @@ A singular brew command, `brew install—- cask pieces`, automatically manages i
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date MCP integrations, the desktop app, or PiecesOS.
+Many issues can stem from out-of-date MCP integrations, the desktop app, or PiecesOS. When you check for updates from either the Desktop App or the PiecesOS Quick Menu, both apps update together.
 
-### Updating PiecesOS
+### From the Desktop App
 
 <Steps>
-  <Step title="Ensure PiecesOS is Running">
-    Make sure PiecesOS is running—look for the **Pieces Icon** in your system tray (menu bar).
+  <Step title="Open the profile menu">
+    Click your profile or username in the top-left corner of the Pieces Desktop App.
   </Step>
-  <Step title="Check for and Install Updates">
-    Check for available updates and install them if prompted.
+  <Step title="Check for Updates">
+    Click `Check for Updates` in the dropdown menu.
+  </Step>
+  <Step title="Install if prompted">
+    If an update is available, follow the on-screen prompt to install it, then restart when complete.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="PiecesOS Quick Menu showing check for updates option" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/updating_pieces_via_desktop.png" alt="" align="center" fullwidth="true" />
 
-### Updating the Pieces Desktop App
+> Profile menu in the Pieces Desktop App with `Check for Updates`
 
-Updating the Pieces Desktop App on macOS can be done directly from the app:
+### From the PiecesOS Quick Menu
 
 <Steps>
-  <Step title="Open the Pieces Desktop App">
-    Launch the Pieces Desktop App.
+  <Step title="Open the Quick Menu">
+    Click the Pieces icon in your menu bar.
   </Step>
-
-  <Step title="Click Your Username">
-    Click your username in the top left of the app.
-  </Step>
-
-  <Step title="Hover Over Update">
-    Hover over `Update` in the dropdown menu.
-  </Step>
-
-  <Step title="Select Component to Update">
-    Click on either `Desktop App` or `PiecesOS` from the Update submenu to check for and install updates for that component.
-  </Step>
-
-  <Step title="Restart App">
-    Restart the app when the update completes.
-
-    <Callout type="info">
-      You may also see an update notification automatically when you open either of the apps.
-    </Callout>
+  <Step title="Check for updates">
+    Click `You're up to date` to trigger a check. If an update is available, follow the prompt to install.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/desktop/configuration/troubleshooting/update_PFD_POS_dropdown.png" alt="Pieces Desktop App update dropdown menu on macOS" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_check_for_updates.png" alt="" align="center" fullwidth="true" />
+
+> PiecesOS Quick Menu showing your current version and update status
 
 ## Common Installation Issues
 
