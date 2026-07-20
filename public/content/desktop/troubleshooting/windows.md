@@ -47,37 +47,29 @@ If you’re experiencing difficulties installing the Pieces Desktop App, you can
 
 ## Versions & Updates
 
-Many issues can stem from out-of-date MCP integrations or the Desktop App itself.
+Many issues can stem from out-of-date MCP integrations or the Desktop App itself. When you check for updates from either the Desktop App or the PiecesOS Quick Menu, both apps update together.
 
-### Updating the Pieces Desktop App
-
-Updating the Pieces Desktop App on Windows (and macOS) can be done directly within the application:
+### From the Desktop App
 
 <Steps>
-  <Step title="Open the Pieces Desktop App">
-    Press the `Windows Icon` and search for Pieces Desktop, open it
+  <Step title="Open the profile menu">
+    Click your profile or username in the top-left corner of the Pieces Desktop App.
   </Step>
-
-  <Step title="Click Your User Profile">
-    Click your `User Profile` in the top left of the main app view
+  <Step title="Check for Updates">
+    Click `Check for Updates` in the dropdown menu.
   </Step>
-
-  <Step title="Hover Over Update">
-    Hover over `Update` in the dropdown menu that appears
-  </Step>
-
-  <Step title="Select Component to Update">
-    Click on either `Desktop App` or `PiecesOS` from the Update submenu to check for and install updates for that component
-  </Step>
-
-  <Step title="Update Pieces">
-    If prompted, click `Download Update` to install available updates.
+  <Step title="Install if prompted">
+    If an update is available, follow the on-screen prompt to install it, then restart when complete.
   </Step>
 </Steps>
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Troubleshooting/Windows/updating_pieces_desktop.png" alt="Checking for Pieces Desktop App updates on Windows" align="center" fullwidth="true" />
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/windows_updating_pieces_via_desktop.png" alt="" align="center" fullwidth="true" />
 
-You can also select `Check for PiecesOS Updates` from the same menu as an alternative to doing so from the PiecesOS system window in your taskbar.
+> Profile menu in the Pieces Desktop App with `Check for Updates`
+
+### From the PiecesOS Quick Menu
+
+Click the Pieces icon in your system tray and click `You're up to date` to trigger a check. If an update is available, follow the prompt to install.
 
 ## Common Installation Issues
 

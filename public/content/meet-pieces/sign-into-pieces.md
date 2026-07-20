@@ -101,50 +101,28 @@ To use the new sign-in features, you must update both PiecesOS and the Pieces De
   You must update to version 15.0.0 or later to use the Pieces Suite. Both PiecesOS and the Desktop App must be updated for sign-in to work properly.
 </Callout>
 
-### Update PiecesOS
+### Update Pieces
 
-PiecesOS runs in the background and powers all Pieces features.
-
-<Steps>
-  <Step title="Find PiecesOS">
-    Check your menu bar (Mac) or system tray (Windows/Linux) for the PiecesOS icon.
-  </Step>
-
-  <Step title="Open Update Options">
-    Right-click the icon and select `You're up to date`—this will trigger an automatic check for updates.
-  </Step>
-
-  <Step title="Install Update">
-    If an update is available, click `Update Now`.
-  </Step>
-
-  <Step title="Wait for Restart">
-    PiecesOS will restart automatically when complete.
-  </Step>
-</Steps>
-
-### Update Pieces Desktop App
-
-After updating PiecesOS, update the desktop app:
+When you check for updates, both PiecesOS and the Desktop App update together.
 
 <Steps>
-  <Step title="Open Pieces">
-    Launch the Pieces Desktop App.
+  <Step title="Open the profile menu">
+    Launch the Pieces Desktop App and click your profile in the top-left corner.
   </Step>
 
   <Step title="Check for Updates">
-    Click your profile icon (right side of the search bar) and select `Check for Desktop App Updates`.
+    Click `Check for Updates` in the dropdown menu.
   </Step>
 
   <Step title="Install Update">
-    Click `Update` when prompted to download and install the latest version.
+    If an update is available, follow the on-screen prompt to install it.
   </Step>
 
-  <Step title="Restart App">
-    Restart the app when the update completes.
+  <Step title="Restart">
+    Restart when the update completes.
 
     <Callout type="info">
-      You may also see an update notification automatically when you open either of the apps.
+      You can also check for updates from the PiecesOS Quick Menu by clicking `You're up to date` in your menu bar (Mac) or system tray (Windows).
     </Callout>
   </Step>
 </Steps>

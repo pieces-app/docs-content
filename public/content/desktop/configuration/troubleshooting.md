@@ -176,7 +176,7 @@ Manually check if a new version of PiecesOS is available. Updates may include bu
   </Step>
 
   <Step title="Click Check for Updates">
-    Click the `Check for PiecesOS Updates` link (server rack with refresh arrow icon) to manually trigger an update check. If an update is available, you'll be prompted to install it.
+    Click the `Check for Updates` link to manually trigger an update check. If an update is available, you'll be prompted to install it. Both PiecesOS and the Desktop App update together.
   </Step>
 </Steps>
 
@@ -240,7 +240,7 @@ Manually check if a new version of the Pieces Desktop App is available. Updates 
   </Step>
 
   <Step title="Click Check for Updates">
-    Click the `Check for Desktop App Updates` link to manually trigger an update check. If an update is available, you'll be prompted to install it.
+    Click the `Check for Updates` link to manually trigger an update check. If an update is available, you'll be prompted to install it. Both PiecesOS and the Desktop App update together.
   </Step>
 </Steps>
 

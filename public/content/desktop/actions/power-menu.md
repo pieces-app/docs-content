@@ -109,8 +109,7 @@ Manage your account, cloud integrations, backups, and updates with these command
 | *Toggle Light Mode*                    | Switch the user interface between light and dark themes.                 |
 | *Manage Accounts & Cloud Integrations* | Connect or configure your Pieces Cloud and linked accounts.              |
 | *Manage Early Access Program*          | Enroll in or manage beta features of Pieces.              |
-| *Check for Desktop App Updates*        | Manually verify if a new version of the Pieces desktop app is available. |
-| *Check for Pieces OS Updates*          | Inspect whether Pieces OS has an update ready.                           |
+| *Check for Updates*                    | Check for and install updates to both the Desktop App and PiecesOS.      |
 | *Manage In-App Notifications*          | Configure or silence various in-app alerts and messages.                 |
 | *Manage Pieces Drive Action Toolbar*   | Customize toolbar actions for Pieces Drive integrations.                 |
 | *Turn Long-Term Memory Engine Off*     | Disable the memory engine that stores historical snippet context.        |

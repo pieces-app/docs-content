@@ -39,11 +39,44 @@ Choose your installation method below. AppInstaller is recommended for most user
 
 ## Updating
 
-The Pieces Desktop App **automatically downloads and installs new updates**.
+Pieces automatically downloads and installs updates. When you check for updates from either the Desktop App or the PiecesOS Quick Menu, both apps update together.
 
-You can also manually check for updates by hovering over your username in the top left, then hovering over `Update` and selecting either `Check for Desktop App Updates` or `Check for PiecesOS Updates`.
+### From the Desktop App
 
-<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/get_started/windows/windows_check_pfd_for_updates.gif" alt="Checking for updates in the Pieces Desktop App on Windows" align="center" fullwidth="true" />
+<Steps>
+  <Step title="Open the profile menu">
+    Click your profile or username in the top-left corner of the Pieces Desktop App.
+  </Step>
+  <Step title="Check for Updates">
+    Click `Check for Updates` in the dropdown menu.
+  </Step>
+  <Step title="Install if prompted">
+    If an update is available, follow the on-screen prompt to install it, then restart when complete.
+  </Step>
+</Steps>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/windows_updating_pieces_via_desktop.png" alt="" align="center" fullwidth="true" />
+
+> Profile menu in the Pieces Desktop App with `Check for Updates`
+
+### From the PiecesOS Quick Menu
+
+<Steps>
+  <Step title="Open the Quick Menu">
+    Click the Pieces icon in your system tray.
+  </Step>
+  <Step title="Check for updates">
+    Click `You're up to date` to trigger a check. If an update is available, follow the prompt to install.
+  </Step>
+</Steps>
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/windows_updating_pieces_via_pos.png" alt="" align="center" fullwidth="true" />
+
+> PiecesOS Quick Menu showing your current version and update status
+
+<Callout type="tip">
+  Pieces often downloads updates automatically and notifies you when a new version is ready. Use either method above to check manually.
+</Callout>
 
 ## Uninstalling
 

@@ -33,6 +33,28 @@ Pieces for Linux is available via **Snap** (recommended for Ubuntu) or **Flatpak
   Check your session with `echo $XDG_SESSION_TYPE` (`wayland` or `x11`). On **Wayland**, use `pieces-os.doctor` to wire up interfaces; labels in **Settings → System** vary by distro.
 </Callout>
 
+## Updating
+
+On Linux, update PiecesOS and the Desktop App using your package manager. Both packages update together.
+
+### Snap
+
+```bash
+sudo snap refresh pieces-os pieces-for-developers
+```
+
+<Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/meet_pieces_assets/meet_pieces/troubleshooting/linux/snap_refresh_POS.gif" alt="" align="center" fullwidth="true" />
+
+> Running `snap refresh` to update Pieces on Linux
+
+### Flatpak
+
+```bash
+flatpak update -y com.pieces.os com.pieces.pfd
+```
+
+You can also check for updates from the Desktop App by clicking your profile in the top-left corner and selecting `Check for Updates`.
+
 ## Additional Resources
 
 See the [Linux troubleshooting guide](/products/meet-pieces/troubleshooting/linux) or reach out to [support](/products/support) for help.
