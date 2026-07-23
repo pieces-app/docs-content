@@ -27,12 +27,24 @@ Single-Click Summaries include preset summary types designed for common workflow
 | **Collaboration Patterns** | Identifies who you work with and how, revealing collaboration dynamics in your workflow. |
 
 ## Today's Headlines
+*Personalized industry news based on your recent work context.*
 
-Takes the context of what you've been working on recently and uses *Perplexity* to find news articles and headlines related to your work. It summarizes them and delivers a bite-sized overview of what's going on in your industry—so you stay informed without leaving your workflow.
+Uses *Perplexity* to find news articles and headlines related to what you've been working on, delivering a bite-sized overview of your industry—so you stay informed without leaving your workflow.
+
+**When to use:**
+- **Start your day informed** — Catch up on industry trends relevant to your projects
+- **Prepare for client calls** — Have talking points ready from current news
+- **Stay current passively** — No extra research needed
 
 ## What's Top of Mind
+*Recurring topics and priorities from your recent workflow, ranked by importance.*
 
-Identifies recurring topics and priorities from your recent workflow, ranked by importance. This summary helps you understand what's been occupying your attention and what matters most in your current work.
+Helps you understand what's been occupying your attention and what matters most in your current work—surfacing themes you might not have noticed.
+
+**When to use:**
+- **Prioritize your day** — See what actually needs attention first
+- **Identify focus drains** — Spot what's consuming your mental energy
+- **Reset after distractions** — Get back on track quickly
 
 <Embed 
   src="https://youtu.be/2IzUWFMKaFE?si=qZ_ANfwQYYvWaTnp" 
@@ -40,8 +52,14 @@ Identifies recurring topics and priorities from your recent workflow, ranked by 
 />
 
 ## Standup Update
+*Three-part update: what you did, what's next, and blockers.*
 
-Generates a three-part update: what you did, what's next, and blockers—perfect for team standups. Use this summary to quickly prepare for team meetings and share your progress.
+Generates a ready-to-share standup format perfect for team meetings. Copy it directly into Slack, Teams, or your standup bot.
+
+**When to use:**
+- **Daily standups** — Walk in prepared with your update written
+- **Manager check-ins** — Share progress without scrambling to remember
+- **Async updates** — Post status updates in Slack or Teams
 
 <Embed 
   src="https://youtu.be/h40PvR7X4Yc?si=2YAlGq3yxPsTwClJ" 
@@ -49,8 +67,14 @@ Generates a three-part update: what you did, what's next, and blockers—perfect
 />
 
 ## Meeting Prep
+*Adds prep events to your Google Calendar based on upcoming meetings.*
 
-Adds prep events to your Google Calendar based on your upcoming meetings. Meeting Prep analyzes your captured workflow context—recent documents, conversations, and activities related to each meeting's attendees and topics—and creates calendar events that give you time to review relevant context before you join.
+Analyzes your captured workflow context—recent documents, conversations, and activities related to each meeting's attendees and topics—and creates calendar events that give you time to review before you join.
+
+**When to use:**
+- **Block prep time** — Get calendar events for meeting preparation
+- **Review context** — See relevant docs and notes before important meetings
+- **Recall history** — Remember past conversations with attendees
 
 <Embed 
   src="https://youtu.be/4x_gg0ISvXw" 
@@ -58,8 +82,14 @@ Adds prep events to your Google Calendar based on your upcoming meetings. Meetin
 />
 
 ## Day Recap
+*Concise summary of your accomplishments, blockers, and feedback from today's activity.*
 
-Compiles an end-of-day summary of your accomplishments, completed tasks, and overall activity. Review your day's work and track your productivity patterns.
+Compiles an end-of-day summary ready to share or save—so you have a clear record of what you got done.
+
+**When to use:**
+- **Log off for the day** — Wrap up with a clear record of what you accomplished
+- **Tomorrow's standup** — Have yesterday's wins and blockers ready to share
+- **Check in with your manager** — Show concrete progress without digging through tickets
 
 <Embed 
   src="https://youtu.be/EAMi9jD9Hsk?si=SbaYkk7yx8kDboye" 
@@ -67,8 +97,14 @@ Compiles an end-of-day summary of your accomplishments, completed tasks, and ove
 />
 
 ## Time Breakdown
+*Organizes your work into projects with in-depth time breakdowns.*
 
-Organizes your work into projects with in-depth time breakdowns, showing what you worked on per project. Time Breakdown reconstructs your billable hours from captured workstream context—categorizing activity by project and providing structured time blocks you can review, refine, and submit.
+Reconstructs your billable hours from captured workstream context—categorizing activity by project and providing structured time blocks you can review, refine, and submit.
+
+**When to use:**
+- **Fill out your timesheet** — Accurate hours without manual tracking
+- **Invoice clients** — Billable hours organized by project
+- **Review where time went** — See what you actually worked on
 
 <Embed 
   src="https://youtu.be/QXlZt2cPSzE" 
@@ -90,8 +126,14 @@ Tap `Discover More` from your Home Dashboard to find Time Breakdown. Choose a pr
 Once generated, you can view, edit, copy, export, or use the Time Breakdown as context for a [Conversational Search](/products/desktop/conversational-search) chat to ask follow-up questions.
 
 ## Week Recap
+*Comprehensive overview of your week at a glance.*
 
-Provides a comprehensive overview of your week at a glance, including key activities and patterns. Get a high-level view of your weekly productivity and accomplishments.
+Provides a high-level view of your weekly productivity, accomplishments, and patterns—so you can wrap up the week informed.
+
+**When to use:**
+- **Friday wrap-up** — End the week with a clear picture of what you did
+- **Weekly team reviews** — Come prepared with your week's highlights
+- **Plan next week** — Reflect on what happened before deciding what's next
 
 <Embed 
   src="https://youtu.be/qqpF54t6nxk?si=RYYJkDd7OZocwNyL" 
@@ -99,8 +141,14 @@ Provides a comprehensive overview of your week at a glance, including key activi
 />
 
 ## Morning Brief
+*Everything you need to kickstart your day, compiled from your recent activities.*
 
-Provides everything you need to kickstart your day, compiled from your recent activities. Start your day informed about what you've been working on and what's coming up.
+Starts your day informed about what you've been working on and what's coming up—no digging through emails or notes.
+
+**When to use:**
+- **Start your workday** — Jump in with full context
+- **Return from time off** — Get back up to speed quickly
+- **Review your plate** — See what's on deck today
 
 <Embed 
   src="https://youtu.be/eJkA2sPuOhQ?si=_VgIJMCSgQDkMWGO" 
@@ -108,8 +156,14 @@ Provides everything you need to kickstart your day, compiled from your recent ac
 />
 
 ## Professional Persona
+*Work style analysis and professional summary based on your workflow patterns.*
 
-Provides work style analysis and professional summary based on your workflow patterns. Understand your professional habits, strengths, and work patterns.
+Surfaces your professional habits, strengths, and work patterns—giving you language for how you actually work.
+
+**When to use:**
+- **Update LinkedIn or resume** — Get accurate descriptions of your work style
+- **Performance reviews** — Have concrete examples of your strengths
+- **Self-reflection** — Understand how you work best
 
 <Embed 
   src="https://youtu.be/LCK4-n1rCqA?si=r8DY7JK_GzvSxWkv" 
@@ -117,8 +171,14 @@ Provides work style analysis and professional summary based on your workflow pat
 />
 
 ## Collaboration Patterns
+*Identifies who you work with and how, revealing collaboration dynamics.*
 
-Identifies who you work with and how, revealing collaboration dynamics in your workflow. Discover your collaboration habits and team interaction patterns.
+Discovers your collaboration habits and team interaction patterns—showing your working relationships at a glance.
+
+**When to use:**
+- **Identify key collaborators** — See who you've been working with on a project
+- **Prepare for 1:1s** — Review your recent interactions with a teammate
+- **Understand your footprint** — See your collaboration patterns across the team
 
 <Embed 
   src="https://youtu.be/0jfMafBYMhU?si=efwPxq2ErKUryKUP" 
@@ -126,8 +186,14 @@ Identifies who you work with and how, revealing collaboration dynamics in your w
 />
 
 ## AI Habits
+*Analyzes how you interact with AI tools, showing patterns in questions and topics.*
 
-Analyzes how you interact with AI tools, showing patterns in questions asked and topics queried. Understand your AI usage patterns and how you leverage AI assistance in your workflow.
+Helps you understand your AI usage patterns and how you leverage AI assistance in your workflow.
+
+**When to use:**
+- **Reflect on AI usage** — See how you've been using AI tools
+- **Identify common topics** — Spot what you ask AI about most
+- **Optimize your workflow** — Find opportunities to use AI more effectively
 
 <Embed 
   src="https://youtu.be/8pic6I9YtCY?si=xmH069S1Vdx0HNdv" 
