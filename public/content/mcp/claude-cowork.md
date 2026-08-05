@@ -46,9 +46,20 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Connecting Pieces MCP to Claude Cowork
 
-Cowork uses the **same MCP configuration as Claude Desktop**. You have two options:
+Cowork uses the **same connection as Claude Desktop**. Prefer one-click setup in Pieces Desktop, where Pieces saves Claude Desktop's settings for you and you do not need to install anything else.
 
-### Option 1: Via Connectors UI (Pro/Max/Team/Enterprise, for remote URLs)
+### Option 1: One-Click via Pieces Desktop (Recommended for local use)
+
+<Steps>
+  <Step title="Connect Claude Desktop">
+    In Pieces Desktop, open `Settings` → `MCP`, then click `Connect` next to **Claude Desktop**. Follow the [Claude Desktop guide](/products/mcp/claude-desktop) if you need the full walkthrough (including Linux quit-first and restart prompts).
+  </Step>
+  <Step title="Restart Claude Desktop">
+    Use `Restart Claude Desktop now` when prompted so Cowork picks up the shared connection.
+  </Step>
+</Steps>
+
+### Option 2: Via Connectors UI (Pro/Max/Team/Enterprise, for remote URLs)
 
 For remote access, you need a public HTTPS URL. Set up [ngrok](/products/mcp/ngrok-setup) or another tunnel first.
 
@@ -73,13 +84,11 @@ For remote access, you need a public HTTPS URL. Set up [ngrok](/products/mcp/ngr
   </Step>
 </Steps>
 
-### Option 2: Via JSON Config with stdio Bridge (recommended for local use)
+### Option 3: Advanced (manual config file)
 
-<Callout type="info">
-  **Recommended when PiecesOS and Claude Desktop are on the same machine.** Uses the localhost URL via an mcp-remote bridge.
-</Callout>
+Use this only if you cannot use one-click `Connect` and need to edit Claude's settings file by hand. See [Advanced Configuration](/products/mcp/mcp-remote) for details.
 
-Install `mcp-remote` globally with a pinned version for security:
+Install the helper package with a pinned version:
 
 ```bash
 npm install -g mcp-remote@0.1.38
@@ -100,7 +109,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
 }
 ```
 
-See the [Claude Desktop guide](/products/mcp/claude-desktop) and [MCP Bridge](/products/mcp/mcp-remote) for full details.
+See the [Claude Desktop guide](/products/mcp/claude-desktop) and [Advanced Configuration](/products/mcp/mcp-remote) for full details.
 
 ## Using Pieces Tools in Claude Cowork
 

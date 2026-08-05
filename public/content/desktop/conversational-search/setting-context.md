@@ -26,7 +26,7 @@ Control whether Conversational Search includes Long-Term Memory context in your 
     Hover over `LTM-2.7` in the dropdown menu that appears.
   </Step>
   <Step title="Toggle LTM">
-    To keep LTM active, ensure it is not paused or turned off. To disable, select a pause duration (15 minutes, 1 hour, 6 hours, 12 hours, or 24 hours) or choose `Turn Off`. When paused or off, Conversational Search will not include workflow history context.
+    To keep LTM active, ensure it is not paused or turned off. To pause temporarily, choose a custom duration (minutes, hours, or days), and Pieces shows a **Paused until** time. Alternatively, choose `Turn Off`. When paused or off, Conversational Search will not include workflow history context. Full details: [Pausing LTM](/products/core-dependencies/pieces-os/long-term-memory#pausing-or-disabling-ltm).
   </Step>
 </Steps>
 

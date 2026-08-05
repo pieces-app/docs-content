@@ -20,7 +20,7 @@ Each roll-up contains structured information about your workflow period:
 
 * **Core Tasks & Projects** — What you worked on and problems solved
 * **Key Decisions & Discussions** — Important conversations and choices made
-* **Documents & Code Reviewed** — Files and links you accessed (with deep links)
+* **Documents & Code Reviewed** — Files and links you accessed (with deep links), based on files you had open and sites you visited during the window
 * **Follow-Up Actions** — What still needs attention
 
 Roll-ups created through Model Context Protocol (MCP) integrations display a "Formed with MCP" indicator.

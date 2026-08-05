@@ -22,7 +22,7 @@ The **Quick Menu** is a lightweight popover for interacting with PiecesOS, locat
 | --------------------------------- | -------------------------------------------------------------------------- |
 | *Account* | Log in or log out of your Pieces account |
 | *Version* | Check for and install PiecesOS updates |
-| *Long-Term Memory Engine* | Enable, pause, or disable LTM |
+| *Long-Term Memory Engine* | Enable, pause (custom duration with **Paused until**), or disable LTM |
 | *Long-Term Memory Access Control* | Choose which apps LTM captures data from |
 | *MCP Servers* | View the SSE endpoint URL and MCP documentation links |
 | *Settings* | Launch on login, enabled apps, ML processing, telemetry, memory optimization |
@@ -42,11 +42,11 @@ Below your account, the Quick Menu displays your current PiecesOS version. If an
 
 ## Long-Term Memory
 
-Toggle the [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) on or off, manage [Audio ingestion](/products/core-dependencies/pieces-os/long-term-memory#ltm-audio), and control which apps LTM captures data from via [Access Control](/products/core-dependencies/pieces-os/long-term-memory#long-term-memory-access-control).
+Toggle the [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) on or off, pause capture for a custom duration (with a **Paused until** label), manage [Audio ingestion](/products/core-dependencies/pieces-os/long-term-memory#ltm-audio), and control which apps LTM captures data from via [Access Control](/products/core-dependencies/pieces-os/long-term-memory#long-term-memory-access-control).
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/core-dependencies/quick-menu_turn_off_ltm.png" alt="Toggling LTM engine on or off in the Quick Menu" align="center" fullwidth="true" />
 
-For the full breakdown—pausing, disabling, Audio setup, per-app toggles—see the [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) page.
+For all pause options, the **Paused until** label, Audio setup, and per-app toggles, see the [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory) page.
 
 ## MCP Servers
 

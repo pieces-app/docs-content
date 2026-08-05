@@ -66,33 +66,43 @@ The agentic foundation powers features like [Meeting Prep](/products/desktop/sin
 
 ### Pausing or Disabling LTM
 
-When LTM is active, the Quick Menu shows a green `On` button. Click it to open a dropdown with timed pause options or a full disable:
+When LTM is active, the Quick Menu shows a green `On` button. Click it to pause or turn capture off. You can pause *LTM-2.7* and *LTM Audio* for any length of time, from a few minutes to several days, instead of only fixed presets.
+
+Pieces shows a clear **Paused until** label so you always know when capture resumes. Use this for a confidential call, a stretch of personal browsing, or a few days off.
 
 | Option | Effect |
 | --- | --- |
-| *Pause for 15 minutes* | Temporarily stops capture; resumes automatically |
-| *Pause for 1 hour* | Temporarily stops capture; resumes automatically |
-| *Pause for 6 hours* | Temporarily stops capture; resumes automatically |
-| *Pause for 24 hours* | Temporarily stops capture; resumes automatically |
+| *Custom pause* | Pause for a duration you choose (minutes, hours, or days); resumes automatically at the *Paused until* time |
 | *Turn Off* | Fully disables LTM until you re-enable it manually |
 
 <Callout type="tip">
-  Use timed pauses when you want a temporary break—for example, during a private call or a personal browsing session—without losing your LTM context history.
+  Use a timed pause for a temporary break, such as a private call or personal browsing, instead of turning LTM off entirely.
 </Callout>
 
-You can also toggle LTM from within the Pieces Desktop App:
+You can pause from:
+
+* The **PiecesOS Quick Menu**
+* The **user popover** in Pieces Desktop (`User Profile` → hover `LTM-2.7`)
+* **Settings** → `Long-Term Memory` in Pieces Desktop
 
 <Steps>
   <Step title="Open your profile">
-    Click your `User Profile` in the top left.
+    Click your `User Profile` in the top left of the Pieces Desktop App.
   </Step>
 
-  <Step title="Navigate to LTM settings">
-    Hover over `Settings` and select `Long-Term Memory`.
+  <Step title="Pause or open LTM settings">
+    Hover over `LTM-2.7` to choose a pause duration, or hover over `Settings` and select `Long-Term Memory` for full controls.
   </Step>
 </Steps>
 
 For a full breakdown of every toggle and option in that settings panel, see [LTM Settings](/products/desktop/configuration/long-term-memory).
+
+### When Capture Stops Automatically
+
+Capture slows down when you step away:
+
+* When your **screen is locked**, Pieces stops capturing entirely.
+* When you go **idle**, Pieces captures less often instead of sampling at full rate, so an unattended laptop isn't recording a screen nobody is looking at.
 
 ***
 

@@ -123,6 +123,12 @@ This section will display your Ubuntu version information.
 
 If you encounter persistent installation issues, consult online forums or community guides related to snap and Ubuntu-specific troubleshooting steps.
 
+## Claude Desktop MCP on Linux
+
+Pieces supports Snap and Flatpak installs. For the Claude Desktop MCP connection from Desktop `Settings` → `MCP`, Claude only needs to point at the PiecesOS executable—no additional install is required.
+
+Quit Claude Desktop before `Connect` if it is running, then use `Restart Claude Desktop now` when prompted. Full steps: [Claude Desktop](/products/mcp/claude-desktop).
+
 ## Restart & Retry
 
 If you've updated components, checked the hardware, and adjusted configurations without success, try restarting your machine and then try again.

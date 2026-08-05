@@ -44,6 +44,29 @@ Toggle the Long-Term Memory Engine on or off to control whether Pieces captures 
   The Long-Term Memory Engine helps Pieces understand your workflow patterns and provide more contextual suggestions in Conversational Search. When disabled, Pieces won't capture or use workflow context.
 </Callout>
 
+### Pausing Capture
+
+Pause *LTM-2.7* and *LTM Audio* for a custom duration: minutes, hours, or days. Pieces shows a **Paused until** label so you know exactly when capture resumes.
+
+You can pause from:
+
+* This *Long-Term Memory* settings page
+* Your `User Profile` popover (hover `LTM-2.7`)
+* The [PiecesOS Quick Menu](/products/core-dependencies/pieces-os/quick-menu)
+
+<Steps>
+  <Step title="Open pause controls">
+    Click your `User Profile`, hover over `LTM-2.7`, and choose a pause duration. Alternatively, open `Settings` → `Long-Term Memory` and pause from *Memory Formation*.
+  </Step>
+  <Step title="Confirm Paused until">
+    Check the **Paused until** indicator so you know when capture will pick back up automatically.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+  Capture also stops while your screen is locked, and slows when you go idle. For the full pause behavior, see [LTM-2.7 Engine](/products/core-dependencies/pieces-os/long-term-memory#pausing-or-disabling-ltm).
+</Callout>
+
 ### App Access Control
 
 Manage which applications the Long-Term Memory Engine interacts with. This allows you to control what data sources Pieces uses when capturing workflow context.

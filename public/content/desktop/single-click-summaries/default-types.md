@@ -54,7 +54,7 @@ Helps you understand what's been occupying your attention and what matters most 
 ## Standup Update
 *Three-part update: what you did, what's next, and blockers.*
 
-Generates a ready-to-share standup format perfect for team meetings. Copy it directly into Slack, Teams, or your standup bot.
+Generates a ready-to-share standup format perfect for team meetings. Copy it directly into Slack, Teams, or your standup bot. You can run Standup Update at the same time as other summaries, such as *Day Recap* or *Meeting Prep*.
 
 **When to use:**
 - **Daily standups** — Walk in prepared with your update written
@@ -71,6 +71,8 @@ Generates a ready-to-share standup format perfect for team meetings. Copy it dir
 
 Analyzes your captured workflow context—recent documents, conversations, and activities related to each meeting's attendees and topics—and creates calendar events that give you time to review before you join.
 
+Hover attendee names for [persona cards](/products/desktop/single-click-summaries#people-tags--anchors): who they are, how to reach them, and how you've worked together.
+
 **When to use:**
 - **Block prep time** — Get calendar events for meeting preparation
 - **Review context** — See relevant docs and notes before important meetings
@@ -84,7 +86,7 @@ Analyzes your captured workflow context—recent documents, conversations, and a
 ## Day Recap
 *Concise summary of your accomplishments, blockers, and feedback from today's activity.*
 
-Compiles an end-of-day summary ready to share or save—so you have a clear record of what you got done.
+Compiles an end-of-day summary ready to share or save, so you have a clear record of what you got done. Day Recap cites the files you had open and sites you visited, with clickable file references when available.
 
 **When to use:**
 - **Log off for the day** — Wrap up with a clear record of what you accomplished
@@ -173,7 +175,7 @@ Surfaces your professional habits, strengths, and work patterns—giving you lan
 ## Collaboration Patterns
 *Identifies who you work with and how, revealing collaboration dynamics.*
 
-Discovers your collaboration habits and team interaction patterns—showing your working relationships at a glance.
+Discovers your collaboration habits and team interaction patterns, showing your working relationships at a glance. People named in the summary support the same [persona hover cards](/products/desktop/single-click-summaries#people-tags--anchors) as other summary types.
 
 **When to use:**
 - **Identify key collaborators** — See who you've been working with on a project

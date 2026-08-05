@@ -147,16 +147,18 @@ Explore how quickly MCP enhances your productivity by delivering deep, personali
 
 To begin using Pieces MCP, [install and launch PiecesOS](/products/core-dependencies/pieces-os/manual-installation) on your system, then follow our integration documentation for setting up the MCP server within your favorite IDE or tool:
 
-### One-Click Install (Cursor & VS Code)
+### One-Click Install
 
-If you use Cursor or VS Code, install Pieces MCP with a single click. Ensure [PiecesOS is running](/products/core-dependencies/pieces-os) and [Long-Term Memory is enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) first.
+If you use Cursor, VS Code, or Claude Desktop, connect Pieces with one click from Pieces Desktop (`Settings` → `MCP` → `MCP Connections`). Ensure [PiecesOS is running](/products/core-dependencies/pieces-os) and [Long-Term Memory is enabled](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) first.
+
+For **Claude Desktop**, Pieces includes everything needed to connect; no extra software to install. See [Claude Desktop](/products/mcp/claude-desktop) for the restart prompt and Linux Snap/Flatpak notes.
 
 <mcp-install-badges platforms="cursor,vscode" />
 
 ### Setup Tools
 
-* [mcp-remote Stdio Bridge](/products/mcp/mcp-remote) — Connect stdio-only clients to PiecesOS
-* [ngrok Setup](/products/mcp/ngrok-setup) — Expose PiecesOS for remote MCP access
+* [Advanced Configuration](/products/mcp/mcp-remote): manual setup for apps that need a helper connection (Raycast, Zed, OpenClaw, and similar). Claude Desktop one-click does not need this.
+* [ngrok Setup](/products/mcp/ngrok-setup): share PiecesOS for remote access
 
 ### Platform Integrations
 
