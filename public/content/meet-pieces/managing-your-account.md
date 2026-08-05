@@ -74,14 +74,19 @@ You can also sign out from inside the Pieces Desktop App—click your `User Prof
 
 ## What Your Account Unlocks
 
-Your account and subscription tier determine what PiecesOS can do across all integrations and tools:
+Your Pieces account connects your tools and preferences across devices. **Pieces Pro** includes:
 
-| Feature | Free | Pieces Pro |
-| --- | --- | --- |
-| *AI models* (Claude, Gemini, Grok, ChatGPT) | Limited usage | Unlimited |
-| *Long-Term Memory (LTM)* | ✓ | ✓ |
-| *Pieces Cloud sync & backup* | ✓ | ✓ |
-| *MCP Server* | ✓ | ✓ |
+| Feature | With Pieces Pro |
+| --- | --- |
+| *AI models* (Claude, Gemini, ChatGPT) | Unlimited usage |
+| *Long-Term Memory* | Capture and search memories |
+| *MCP Server* | ✓ |
+
+Without Pro, Pieces no longer forms new memories. You can still browse existing memories, use them with Pieces MCP, use Pieces Drive, and sync with Pieces Cloud.
+
+<Callout type="tip">
+  LTM capture and memory search via Conversational Search require Pieces Pro, though your existing memories remain accessible on your device. Existing users have full access through August 16, 2026 and may qualify for a discount. Manage your plan in [Account settings](/products/desktop/configuration/account).
+</Callout>
 
 <Callout type="tip">
   Your subscription is tied to your account, not to a specific device. Sign in on any machine and your plan applies everywhere.

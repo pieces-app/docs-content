@@ -278,6 +278,10 @@ Access troubleshooting resources for organization-related issues.
 
 Manage your Pieces Pro subscription, view your plan details, update payment methods, and access billing information. Your subscription status, renewal dates, and payment history are all accessible from this section.
 
+<Callout type="tip">
+  LTM capture and memory search via Conversational Search require Pieces Pro, though your existing memories remain accessible on your device. See [Managing Your Account](/products/meet-pieces/managing-your-account) for plan details.
+</Callout>
+
 ### Viewing Your Subscriptions
 
 See all of your active and canceled subscriptions, including plan types, status, and renewal information.
@@ -327,7 +331,9 @@ See all of your active and canceled subscriptions, including plan types, status,
 
 ### Refreshing Subscription Status
 
-Manually refresh your subscription status if it doesn't appear up to date.
+Plan changes sync to PiecesOS within moments. If your subscription status doesn't update within a few minutes, sign out and sign back in. If it still doesn't refresh, visit the [Support page](/products/support).
+
+You can also refresh it manually:
 
 <Steps>
   <Step title="Open Account Settings">
