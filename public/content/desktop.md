@@ -80,7 +80,7 @@ Use [Conversational Search](/products/desktop/conversational-search) as your mai
 
 ## Configuration
 
-Customize your Pieces Desktop App through *Settings*: **Account** (profile, Personal Cloud, backup, telemetry), **Long-Term Memory**, **MCP**, **Connectors**, **Appearance**, and **Troubleshooting**. Choose models from the Conversational Search chat picker; see [Models in chat](/products/desktop/conversational-search/models) for cloud vs local selection.
+Customize your Pieces Desktop App through `Settings`: **Account** (profile, Personal Cloud, backup, telemetry), **Long-Term Memory**, **MCP**, **Connectors**, **Appearance**, and **Troubleshooting**. Choose models from the Conversational Search chat picker; see [Models in chat](/products/desktop/conversational-search/models) for model families and modes.
 
 <FancyCard title="Learn More" href="/products/desktop/configuration" colored={false}>
   Explore all configuration options to customize your Pieces Desktop experience.

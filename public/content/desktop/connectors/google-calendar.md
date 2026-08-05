@@ -68,7 +68,7 @@ Beyond direct calendar management, Pieces uses your calendar to enrich answers.
 
 Once connected, your calendar events flow into [Single-Click Summaries](/products/desktop/single-click-summaries) that use workflow context, including *Morning Brief*, *Standup Update*, and *Day Recap*. These summaries reflect what was actually on your schedule rather than what happened to be visible on your screen.
 
-The *Google Calendar* connector is also the foundation for [Meeting Prep](/products/desktop/single-click-summaries/default-types#meeting-prep), a summary type that looks ahead at your upcoming meetings, cross-references each event with your Long-Term Memory, and generates a structured pre-read.
+The *Google Calendar* connector is also the foundation for [Meeting Prep](/products/desktop/single-click-summaries/default-types#meeting-prep), a summary type that looks ahead at your upcoming meetings, cross-references each event with your Long-Term Memory, and generates a structured pre-read. In summary results, hover attendee names for [persona cards](/products/desktop/single-click-summaries#people-tags--anchors).
 
 Example prompts:
 

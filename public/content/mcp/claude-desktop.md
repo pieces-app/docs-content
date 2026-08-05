@@ -51,11 +51,13 @@ Follow the instructions below for a detailed guide on setting up and configuring
 
 ## Setting up Pieces MCP for Claude Desktop
 
-There are **three methods** to set up the Pieces MCP for Claude Desktop: use the one-click setup in Pieces Desktop, configure manually, or use the Pieces CLI.
+Connecting Claude Desktop used to mean installing extra tools on your machine. Pieces now includes everything you need on macOS, Windows, and Linux. Pick Claude Desktop, click `Connect`, and Pieces writes the setup for you.
+
+The recommended path is one-click setup in Pieces Desktop. Advanced options (Pieces CLI or editing a config file by hand) are below if you need them.
 
 ### One-Click Setup via Pieces Desktop (Recommended)
 
-The fastest way to connect Pieces MCP to Claude Desktop is through the MCP Connections feature in Pieces Desktop.
+Connect Claude Desktop from *MCP Connections* in Pieces Desktop. Pieces configures Claude for you using a connection helper that ships inside PiecesOS; nothing else to install.
 
 <Steps>
   <Step title="Open MCP Settings">
@@ -66,29 +68,33 @@ The fastest way to connect Pieces MCP to Claude Desktop is through the MCP Conne
     Scroll down to the *MCP Connections* section. You'll see a list of supported clients with `Connect` buttons.
   </Step>
 
-  <Step title="Click Connect">
-    Click the `Connect` button next to **Claude Desktop**. Pieces automatically writes the MCP configuration to Claude Desktop's config file.
+  <Step title="Quit Claude Desktop if it is running (Linux)">
+    On Linux, especially Snap or Flatpak installs, quit Claude Desktop before connecting. If Claude is still running, it can overwrite the settings Pieces just saved. Pieces notices when Claude Desktop is already open and walks you through quitting first.
   </Step>
 
-  <Step title="Handle Missing Dependencies (if prompted)">
-    If Pieces detects missing dependencies (like Node.js/npx), a dialog appears with installation instructions. Install the missing dependencies using the provided commands, then click `Retry`.
+  <Step title="Click Connect">
+    Click the `Connect` button next to **Claude Desktop**. Pieces saves the connection settings for you. You do not need to install anything else.
   </Step>
 
   <Step title="Restart Claude Desktop">
-    Fully quit and reopen Claude Desktop for the configuration changes to take effect. Once connected, a green checkmark appears next to Claude Desktop in the MCP Connections list.
+    When the new settings need a restart, Pieces shows a *Restart Claude Desktop* prompt. Click `Restart Claude Desktop now` to relaunch Claude, or `Got it` if you will restart yourself. Once connected, a green checkmark appears next to Claude Desktop in the MCP Connections list.
   </Step>
 </Steps>
+
+<Callout type="tip">
+  Snap and Flatpak installs are supported. As long as Claude Desktop points at the PiecesOS executable, the MCP connection works with no additional install.
+</Callout>
 
 <Callout type="info">
   To disconnect later, click the `⋮` menu next to the connected client and select **Disconnect**, or click the red `✕` next to the connection entry.
 </Callout>
 
-### Method 1: Manual Configuration (Direct MCP Command)
+### Advanced: Manual Configuration (Direct MCP Command)
 
-This method involves editing Claude Desktop’s MCP configuration file to point directly to a CLI command that starts the Pieces MCP server.
+This method edits Claude Desktop’s MCP configuration file to point at a CLI command that starts the Pieces MCP server. Use one-click setup above unless you need a custom path.
 
 <Callout type="info">
-  With this method, the Claude MCP config points to the Pieces CLI executable and runs `pieces mcp start` whenever Claude starts. This is different from using the CLI to configure Claude directly (Method 2).
+  With this method, the Claude MCP config points to the Pieces CLI executable and runs `pieces mcp start` whenever Claude starts. This is different from using the CLI to configure Claude directly (the next advanced method).
 </Callout>
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/mcp_documentation/pieces_mcp_claude_desktop/claude_manual_config.png" alt="Claude Desktop manual MCP configuration process" align="center" fullwidth="true" />
@@ -172,7 +178,7 @@ This method involves editing Claude Desktop’s MCP configuration file to point 
   </Step>
 </Steps>
 
-### Method 2: Using the Pieces CLI
+### Advanced: Using the Pieces CLI
 
 This method uses the Pieces CLI to automatically set up and configure Pieces MCP for Claude Desktop.
 
@@ -263,15 +269,21 @@ If you're experiencing issues integrating [Pieces MCP](/products/mcp) with Claud
 2. **Confirm LTM Engine Activation**\
    [Long-Term Memory (LTM-2.7)](/products/core-dependencies/pieces-os/quick-menu#ltm-2-engine) must be enabled in PiecesOS.
 
-3. **Single MCP Instance**\
+3. **Restart Claude Desktop**\
+   After one-click Connect, use `Restart Claude Desktop now` in the Pieces prompt (or fully quit and reopen Claude) so the new config loads.
+
+4. **Linux: Quit Claude Before Connecting**\
+   If Connect fails or the connection disappears on Linux, quit Claude Desktop completely, connect again from *MCP Connections*, then restart Claude. See [Linux troubleshooting](/products/meet-pieces/troubleshooting/linux) for Snap and Flatpak notes.
+
+5. **Single MCP Instance**\
    Avoid running multiple Pieces MCP instances in different apps simultaneously.
 
-4. **Check MCP Server Status in Claude**\
+6. **Check MCP Server Status in Claude**\
    Use the Developer Console (`Ctrl+Shift+I`) to confirm connection messages.
 
-5. **Review Configuration**\
-   If using *Method 1*, ensure your JSON paths are correct.\
-   If using *Method 2*, rerun:
+7. **Review Advanced Configuration**\
+   If you used a manual JSON edit, ensure paths are correct.\
+   If you used the Pieces CLI, rerun:
 
    ```powershell
    pieces mcp setup

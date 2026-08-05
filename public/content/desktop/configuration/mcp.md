@@ -95,14 +95,16 @@ For more use cases and detailed setup instructions, refer to the [MCP documentat
 
 ## MCP Connections
 
-Connect Pieces to supported MCP clients with one click. Pieces writes to each client's global or user-level MCP config and, when supported, also creates the matching global rule or skill file automatically.
+Connect Pieces to supported apps with one click. Pieces saves each app's connection settings for you and, when supported, also creates the matching rule or skill file automatically.
+
+Most apps connect with a simple local link. **Claude Desktop** is different: Pieces includes the connector it needs, so you can connect without installing anything extra.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/desktop_app_assets/desktop_app_MAIN/new_media/Settings/MCP/mcp_connections_section.png" alt="MCP Connections section showing supported clients with Connect buttons" align="center" fullwidth="true" />
 
 > MCP Connections section showing supported clients with one-click Connect buttons
 
 <Callout type="info">
-  Some MCP clients may need to be restarted or reopened before configuration changes appear.
+  Some apps may need to be restarted or reopened before the new settings appear. For Claude Desktop, Pieces shows a *Restart Claude Desktop* prompt with a `Restart Claude Desktop now` button when a restart is required.
 </Callout>
 
 The MCP Connections section shows your connection status (e.g., "Connected 4 of 6") and a `Refresh Connections` button to update the status.
@@ -111,7 +113,7 @@ The MCP Connections section shows your connection status (e.g., "Connected 4 of 
 
 | Client | Description |
 | --- | --- |
-| **Claude Desktop** | Connect Pieces to Claude Desktop for memory-backed conversations |
+| **Claude Desktop** | Connect Pieces to Claude Desktop for access to all of your Personal Memories without any additional installation |
 | **Cursor** | Connect Pieces to Cursor so your IDE has access to long-term memory |
 | **GitHub Copilot** | Connect Pieces to GitHub Copilot for context-aware code suggestions |
 | **Codex** | Connect Pieces to Codex so both the CLI and IDE extension can connect to your memory via MCP |
@@ -129,13 +131,20 @@ The MCP Connections section shows your connection status (e.g., "Connected 4 of 
   <Step title="Scroll to MCP Connections">
     Find the *MCP Connections* section below the Available Servers and View Documentation sections.
   </Step>
+  <Step title="Quit Claude Desktop if needed">
+    When connecting **Claude Desktop** on Linux, quit Claude Desktop first if it is already running so Pieces can write the config safely.
+  </Step>
   <Step title="Click Connect">
     Click the `Connect` button next to the client you want to configure. Pieces automatically writes the MCP configuration to that client's config file.
   </Step>
   <Step title="Restart the Client">
-    Restart or reopen the MCP client for the configuration changes to take effect.
+    Restart or reopen the MCP client for the configuration changes to take effect. For Claude Desktop, use `Restart Claude Desktop now` when the prompt appears.
   </Step>
 </Steps>
+
+<Callout type="tip">
+  For the full Claude Desktop flow, including Snap and Flatpak notes, see [Pieces MCP + Claude Desktop](/products/mcp/claude-desktop).
+</Callout>
 
 ### Managing Connected Clients
 

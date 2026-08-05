@@ -3,17 +3,21 @@ title: MCP Bridge
 path: /mcp/mcp-remote
 visibility: PUBLIC
 status: PUBLISHED
-description: Use the mcp-remote bridge to connect stdio-only MCP clients to PiecesOS, enabling Long-Term Memory in Raycast, Zed, Claude Cowork, and more.
-metaTitle: Set Up the MCP Remote Bridge | Pieces Docs
-metaDescription: Use mcp-remote to connect stdio-only MCP clients to PiecesOS. Step-by-step guide for Raycast, Zed, Claude Cowork, OpenClaw, and remote setups.
+description: Connect apps that need a helper setup to PiecesOS so they can use Long-Term Memory, such as Raycast, Zed, and OpenClaw.
+metaTitle: Advanced MCP Configuration | Pieces Docs
+metaDescription: Manual setup for apps that need a helper connection to PiecesOS. Step-by-step for Raycast, Zed, OpenClaw, and remote setups.
 ---
 
 ## MCP Bridge
 
-Many MCP clients—including Raycast, Zed, and Claude Cowork—only support **stdio** (standard input/output) connections. PiecesOS exposes its MCP server over **HTTP** and **SSE**. The [mcp-remote](https://github.com/geelen/mcp-remote) bridge translates between these protocols so stdio-only clients can connect to PiecesOS and use [Pieces Long-Term Memory](/products/core-dependencies/pieces-os#ltm-27).
+Some apps, including Raycast, Zed, and OpenClaw, need a small helper to talk to Pieces. This page covers that advanced, manual setup. Use it when your app is not available in one-click Connect.
 
 <Callout type="tip">
-  The easiest way to bridge MCP is with the Pieces CLI—run `pieces mcp setup` and select your platform. Use manual setup below only for clients not supported by the CLI or when you need custom config (e.g., remote URLs).
+  **Claude Desktop** does not need this page for the usual setup. Use one-click `Connect` in Pieces Desktop (`Settings` → `MCP`), where Pieces includes the connection helper and saves the settings for you. See [Claude Desktop](/products/mcp/claude-desktop).
+</Callout>
+
+<Callout type="tip">
+  For other apps, the easiest path is often the Pieces CLI: run `pieces mcp setup` and select your platform. Use the manual steps below only when your app is not listed or you need a custom address (for example, a remote URL).
 </Callout>
 
 ## Easiest Option: Pieces CLI
@@ -125,7 +129,7 @@ PiecesOS exposes two endpoints. For `mcp-remote`, use the **SSE** endpoint—it 
   </TabItem>
 
   <TabItem title="Claude Cowork">
-    Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows):
+    Prefer one-click `Connect` for [Claude Desktop](/products/mcp/claude-desktop), since Cowork shares that setup. Use the steps below only for advanced manual configuration.
 
     ```json
     {
@@ -140,7 +144,7 @@ PiecesOS exposes two endpoints. For `mcp-remote`, use the **SSE** endpoint—it 
     }
     ```
 
-    See [Claude Cowork integration](/products/mcp/claude-cowork) for full setup.
+    Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows). See [Claude Cowork](/products/mcp/claude-cowork) for full setup.
   </TabItem>
 
   <TabItem title="OpenClaw">
