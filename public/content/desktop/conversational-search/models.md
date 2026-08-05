@@ -43,7 +43,7 @@ Each family is available in three modes:
   </Step>
 </Steps>
 
-Your chat history stays intact when you switch models—new messages use the selected model while previous responses remain unchanged. Every family and mode is available on all plans.
+Your chat history stays intact when you switch models—new messages use the selected model while previous responses remain unchanged.
 
 ## Reflection Mode
 
