@@ -72,7 +72,7 @@ To scope a chat to **one** Timeline Event or summary, open that item in Timeline
 </FancyCard>
 
 <FancyCard title="Choose a Model" href="/products/desktop/conversational-search/models" colored={false}>
-  Switch between model families—Claude, Gemini, Grok, and ChatGPT—using Fast, Balanced, and Extra Thinking modes.
+  Switch between model families—Claude, Gemini, and ChatGPT—using Fast, Balanced, and Extra Thinking modes.
 </FancyCard>
 
 <FancyCard title="Write Better Prompts" href="/products/desktop/conversational-search/prompting-guide" colored={false}>

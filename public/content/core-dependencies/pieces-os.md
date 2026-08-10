@@ -31,7 +31,7 @@ The agent reasons across your memory in multiple turns, following threads, cross
 
 ### AI Models
 
-PiecesOS coordinates AI model requests for all Pieces products. Choose from four model families—Claude, Gemini, Grok, and ChatGPT—each available in Fast, Balanced, and Extra Thinking modes. See [Choose a Model](/products/desktop/conversational-search/models) to pick a family and mode.
+PiecesOS coordinates AI model requests for all Pieces products. Choose from three model families—Claude, Gemini, and ChatGPT—each available in Fast, Balanced, and Extra Thinking modes. See [Choose a Model](/products/desktop/conversational-search/models) to pick a family and mode.
 
 ### MCP Support
 

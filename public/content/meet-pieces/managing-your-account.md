@@ -78,7 +78,7 @@ Your Pieces account connects your tools and preferences across devices. **Pieces
 
 | Feature | With Pieces Pro |
 | --- | --- |
-| *AI models* (Claude, Gemini, ChatGPT) | Unlimited usage |
+| *Cloud-hosted AI models* (Claude, Gemini, ChatGPT) | Current families and modes |
 | *Long-Term Memory* | Capture and search memories |
 | *MCP Server* | ✓ |
 

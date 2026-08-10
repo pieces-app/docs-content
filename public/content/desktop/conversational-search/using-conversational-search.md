@@ -237,7 +237,7 @@ Browse and switch models directly from chat, without navigating to Settings. The
   </Step>
 
   <Step title="Choose a Family">
-    Hover over a model family—**Claude**, **Gemini**, **Grok**, or **ChatGPT**—to see its available modes.
+    Hover over a model family—**Claude**, **Gemini**, or **ChatGPT**—to see its available modes.
   </Step>
 
   <Step title="Choose a Mode">

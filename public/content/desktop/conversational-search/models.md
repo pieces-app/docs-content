@@ -12,11 +12,10 @@ metaDescription: Switch between model families in Pieces and choose Fast, Balanc
 
 Click the `model button` in the bottom toolbar to choose your model. Pieces keeps selection simple: pick a **model family**, then choose a **mode**.
 
-Pieces offers four model families:
+Pieces offers three model families:
 
 * **Claude**
 * **Gemini**
-* **Grok**
 * **ChatGPT**
 
 Each family is available in three modes:
@@ -36,7 +35,7 @@ Each family is available in three modes:
     Click the `model button` in the *bottom toolbar*.
   </Step>
   <Step title="Choose a Family">
-    Hover over **Claude**, **Gemini**, **Grok**, or **ChatGPT**.
+    Hover over **Claude**, **Gemini**, or **ChatGPT**.
   </Step>
   <Step title="Select a Mode">
     Click **Fast**, **Balanced**, or **Extra Thinking** for that family.

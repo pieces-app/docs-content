@@ -13,138 +13,31 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 
 ## About Pieces Pro
 
-Pieces Pro elevates your development workflow by providing access to premium AI models, early-release tools, and enhanced support.
-
-Designed for teams and individuals who demand cutting-edge capabilities, Pieces Pro builds on the free core features of snippet management and AI assistance.
+Pieces Pro provides access to Pieces' current cloud-hosted AI models, Long-Term Memory, and paid product features for individuals and teams.
 
 ## Pricing
 
-Choose the plan that works best for you:
+Pieces is currently offered through paid plans for individuals and organizations. Monthly and annual options may be available. Checkout is the source of truth for the plan, billing interval, price, taxes, discounts, and any trial shown for your account before you confirm a purchase.
 
-<CardGroup cols={3}>
-  <Card title="Free Plan" image="/assets/icons/pieces_logo.png">
-    <div className="mb-4">
-      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-slate-200 dark:bg-slate-600 text-slate-700 dark:text-slate-300">Free Forever</span>
-    </div>
-    
-    <div className="mb-6">
-      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">Free</div>
-      <div className="text-sm text-slate-500 dark:text-slate-400">Perfect for getting started</div>
-    </div>
-    
-    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
-      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
-      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-        <li className="mb-2">✓ Basic AI features</li>
-        <li className="mb-2">✓ Local storage only</li>
-        <li className="mb-2">✓ Community support</li>
-        <li>✓ Limited cloud backup</li>
-      </ul>
-    </div>
-  </Card>
-
-  <Card title="Pieces Pro Monthly" image="/assets/icons/pieces_logo.png">
-    <div className="mb-4">
-      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-blue-100 dark:bg-blue-900/40 text-blue-800 dark:text-blue-200">Monthly Billing</span>
-    </div>
-    
-    <div className="mb-6">
-      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">$18.99</div>
-      <div className="text-sm text-slate-500 dark:text-slate-400">per month</div>
-    </div>
-    
-    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
-      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
-      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-        <li className="mb-2">✓ Full access to Pieces Pro features</li>
-        <li className="mb-2">✓ AI-powered code generation</li>
-        <li className="mb-2">✓ Advanced code search</li>
-        <li>✓ Priority support</li>
-      </ul>
-    </div>
-  </Card>
-
-  <Card title="Pieces Pro Yearly" image="/assets/icons/pieces_logo.png">
-    <div className="mb-4">
-      <span className="inline-block px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-md shadow-blue-500/30">Most Popular</span>
-    </div>
-    
-    <div className="mb-6">
-      <div className="text-4xl font-bold leading-none text-slate-900 dark:text-white mb-1">$169.99</div>
-      <div className="text-sm text-slate-500 dark:text-slate-400">per year <span className="text-emerald-600 dark:text-emerald-400 font-semibold">($14.17/month)</span></div>
-      <div className="text-xs text-emerald-600 dark:text-emerald-400 font-semibold mt-1">Save 20% compared to monthly</div>
-    </div>
-    
-    <div className="border-t border-slate-200 dark:border-slate-600 pt-4">
-      <div className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Includes:</div>
-      <ul className="list-none p-0 m-0 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-        <li className="mb-2">✓ Full access to Pieces Pro features</li>
-        <li className="mb-2">✓ AI-powered code generation</li>
-        <li className="mb-2">✓ Advanced code search</li>
-        <li>✓ Priority support</li>
-      </ul>
-    </div>
-  </Card>
-</CardGroup>
-
-## Plan Comparison
-
-Compare Free and Pieces Pro to see which plan fits your workflow.
-
-### Free Plan — Model Access
-
-Every model family and mode is available on both Free and Pro. The free plan includes limited usage of AI models, while Pieces Pro unlocks unlimited usage—upgrade when you want to remove the caps.
-
-| **Feature** | **Free** | **Pieces Pro** |
-|-------------|----------|----------------|
-| AI models (all families) | Limited usage | Unlimited access |
-| Long-term memory | Rolling window (time-bound) | Unlimited (up to 9 months) |
-| AI-powered code generation | Basic | Advanced |
-| Support | Community | Priority |
-| Cloud backup | Limited | Full |
-
-For how to choose a model, see [Choose a Model](/products/desktop/conversational-search/models).
-
-## Frequently Asked Questions
-
-<AccordionGroup>
-  <Accordion title="Does the paid plan affect memory quality or just the built-in chat?">
-    Both. Pro gives you longer memory retention *and* access to more powerful models for searching and reasoning over your stored context. The Long-Term Memory engine that captures and organizes your workflow data is the same on both plans—the main differences are *duration* and *retrieval quality*.
-  </Accordion>
-
-  <Accordion title="How long does Long-Term Memory last on each plan?">
-    The free plan is time-bound: you have access to a rolling window of recent history. Pieces Pro offers unlimited long-term memory with up to 9 months of context.
-  </Accordion>
-
-  <Accordion title="What are the limits on premium model usage?">
-    The free plan includes limited usage of AI models to get started. Pro offers unlimited usage across all model families and modes. [See Choose a Model](/products/desktop/conversational-search/models) for how to pick a family and mode.
-  </Accordion>
-
-  <Accordion title="Does upgrading to Pro create better memories?">
-    No. The engine that captures and organizes your data is the same. Pro users get *longer* retention (up to 9 months vs a rolling window) and can use more powerful models to *search and query* those memories, yielding deeper insights—but the underlying memory formation is identical.
-  </Accordion>
-</AccordionGroup>
+<Callout type="info">
+  Prices, intervals, and any trial can vary by account. Review the order summary in the official Pieces checkout before paying.
+</Callout>
 
 ## Benefits
 
-Unlimited access to *premium LLMs, infinite long-term memory,* and *priority support* are a combination that empowers your team to code smarter, faster, and with greater confidence.
+Pieces Pro combines cloud-hosted AI models with Long-Term Memory and paid product features. Available models and product limits can change as Pieces evolves.
 
 <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/core_desktop_meet-pieces_orgs_paid-plans_12.3.6/paid-plans/update-to-pieces-pro.png" alt="Upgrade to Pieces Pro prompt in the Desktop App" align="center" fullwidth="true" />
 
 ### Premium AI Models
 
-Pieces offers four model families, each available in Fast, Balanced, and Extra Thinking modes:
+Pieces offers three model families, each available in Fast, Balanced, and Extra Thinking modes:
 
 * **Claude**
 * **Gemini**
-* **Grok**
 * **ChatGPT**
 
-Real-time web search is powered by Perplexity. Every family and mode is available on both Free and Pro—Pro removes the usage caps.
-
-<Callout type="tip">
-  To pick a family and mode, see [Choose a Model](/products/desktop/conversational-search/models).
-</Callout>
+Real-time web search is powered by Perplexity. For the current model list and available modes, see [Choose a Model](/products/desktop/conversational-search/models).
 
 ## Upgrading to Pieces Pro
 
@@ -296,7 +189,7 @@ Click `Cancel subscription` in the *Subscription* tab. You’ll be redirected to
   </Step>
 
   <Step title="Choose an Option">
-    Click `Cancel subscription` to end your plan immediately or click `Back` to return without canceling.
+    Click `Cancel subscription` to schedule cancellation at the end of the current billing period, or click `Back` to return without canceling. Your access continues until the effective cancellation date shown in the billing dashboard.
 
     <Image src="https://storage.googleapis.com/hashnode_product_documentation_assets/paid_plan/cancel_subscription_active.png" alt="Cancel subscription confirmation dialog" align="center" fullwidth="true" />
   </Step>
