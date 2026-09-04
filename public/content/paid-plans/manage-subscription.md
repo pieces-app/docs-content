@@ -40,5 +40,5 @@ Apply a discount code to your active Pieces Pro subscription. The discount takes
 From the Billing tab you can also:
 
 * **Change Plan** — Switch between monthly and yearly billing, or upgrade/downgrade your plan
-* **Manage Billing** — Update payment methods and view billing details via Stripe
-* **Cancel Subscription** — End your Pieces Pro subscription
+* **Manage Billing** — Update payment methods and view billing details in the Paddle customer portal
+* **Cancel Subscription** — Schedule your Pieces Pro subscription to end after the current billing period

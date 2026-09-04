@@ -16,67 +16,63 @@ Pieces provides its own Flatpak repository hosted at `builds.pieces.app`, which 
 
 ### Flatpak Requirements
 
-* **Flatpak Runtime:** Install Flatpak using your distro's package manager. Most distributions include it in their repositories. See [flathub.org/setup](https://flathub.org/setup) for distro-specific instructions.
-* **Flathub Repository:** The Flathub repository provides shared runtime dependencies that Pieces requires. It must be added before installing Pieces.
-* **User Permissions:** The Pieces repository is added with the `--user` flag, so no `sudo` is required for installation.
+* **Flatpak:** Install Flatpak using your distro's package manager. Most distributions include it in their repositories. See [flathub.org/setup](https://flathub.org/setup) for distro-specific instructions.
+* **Installation scope:** Use `--user` for both packages, or omit it for both. Flatpak does not share runtimes across user and system scopes, so mixing them will fail.
+* **User Permissions:** The commands below use `--user`, so no `sudo` is required. Drop `--user` from both install commands if you prefer a system-wide install.
+
+### Install via a software center
+
+Open the PiecesOS `.flatpakref` in GNOME Software, KDE Discover, or another Flatpak-aware software center. That file adds the Pieces repository and the Flathub repository that provides the shared GNOME runtime, then installs PiecesOS.
+
+[Install PiecesOS (`.flatpakref`)](https://builds.pieces.app/pieces-flatpak-repo/com.pieces.os.flatpakref)
+
+After PiecesOS is installed, open the Desktop App `.flatpakref` the same way:
+
+[Install Pieces Desktop App (`.flatpakref`)](https://builds.pieces.app/pieces-flatpak-repo/com.pieces.pfd.flatpakref)
+
+Do not use the older `pieces-flatpak.flatpakrepo` file on its own. A `.flatpakrepo` file only adds a remote and does not declare the runtime source, so the GNOME runtime may be missing.
 
 ### Install via Flatpak
 
-Follow these steps in order to install Pieces via Flatpak. All commands are run in your terminal.
+Prefer the command line? Run these commands in order.
 
 <Steps>
-  <Step title="Add Flathub Repository">
-    Flathub provides shared runtime dependencies that Pieces requires. If you haven't already added Flathub to your system, run:
-
-    ```bash
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-    ```
-
-    This command is safe to run even if Flathub is already configured. It will skip if the repository already exists.
-  </Step>
-
-  <Step title="Add the Pieces Flatpak Repository">
-    Add the official Pieces Flatpak repository to your system. This repository hosts both PiecesOS and the Pieces Desktop App:
-
-    ```bash
-    flatpak remote-add --user --if-not-exists --from pieces-flatpak https://builds.pieces.app/pieces-flatpak-repo/pieces-flatpak.flatpakrepo
-    ```
-
-    The `--user` flag installs the repository for your user account only, so no `sudo` is required.
-  </Step>
-
   <Step title="Install PiecesOS">
-    Install PiecesOS, the local engine that powers all Pieces functionality. PiecesOS runs on-device for speed, privacy, and offline use:
+    Install PiecesOS, the on-device engine that powers everything — Long-Term Memory, local AI, and MCP.
 
     ```bash
-    flatpak install -y pieces-flatpak com.pieces.os
+    flatpak install --user -y --from https://builds.pieces.app/pieces-flatpak-repo/com.pieces.os.flatpakref
     ```
 
-    This may take a few minutes as Flatpak downloads the required runtime dependencies.
+    This adds both the Pieces repository and the Flathub repository that provides the shared GNOME runtime, so no separate setup is needed. It can take a few minutes while Flatpak downloads the runtime. Drop `--user` to install system-wide.
   </Step>
 
   <Step title="Install Pieces Desktop App">
-    Install the Pieces Desktop App, your hub for saving, searching, and managing code snippets, screenshots, and developer resources:
+    Install the Pieces Desktop App, your hub for saving, searching, and managing snippets, screenshots, and developer resources.
 
     ```bash
-    flatpak install -y pieces-flatpak com.pieces.pfd
+    flatpak install --user -y --from https://builds.pieces.app/pieces-flatpak-repo/com.pieces.pfd.flatpakref
     ```
+
+    Use the same scope as the previous command — either `--user` for both, or neither.
   </Step>
 
-  <Step title="Launch Pieces">
-    **Important:** You must start PiecesOS first. It runs as a background service that the Desktop App connects to. The Desktop App will not launch PiecesOS automatically.
+  <Step title="Start PiecesOS">
+    Start PiecesOS first. It runs as a background service the Desktop App connects to, and the app won't launch it automatically.
 
     ```bash
     flatpak run com.pieces.os
     ```
+  </Step>
 
-    Once PiecesOS is running, launch the Pieces Desktop App:
+  <Step title="Launch the Pieces Desktop App">
+    Once PiecesOS is running, launch the Pieces Desktop App. After the first launch, both appear in your application menu.
 
     ```bash
     flatpak run com.pieces.pfd
     ```
 
-    After the first launch, both apps will appear in your application menu. Always launch PiecesOS before the Desktop App.
+    Always start PiecesOS before the Desktop App.
   </Step>
 </Steps>
 
@@ -177,6 +173,14 @@ flatpak permission-reset com.pieces.pfd
 ```
 
 Then restart both applications.
+
+**Missing GNOME runtime (`org.gnome.Platform` was not found):**
+
+This happens when Pieces was installed in a different Flatpak scope than Flathub (for example, Flathub as system and Pieces as `--user`). Uninstall both apps, then reinstall from the `.flatpakref` commands above so both remotes are added in the same scope.
+
+```
+error: The application com.pieces.os/x86_64/stable requires the runtime org.gnome.Platform/x86_64/48 which was not found
+```
 
 **Verify the Pieces repository is accessible:**
 
