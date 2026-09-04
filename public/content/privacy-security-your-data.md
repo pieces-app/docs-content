@@ -17,7 +17,7 @@ ogImage: "https://storage.googleapis.com/hashnode_product_documentation_assets/o
 ## Local-First by Design
 **Your data stays on your machine.** Pieces captures and stores your code, chats, and long-term memory context locally on your device—there is no continuous sync and no bulk upload to our cloud.
 
-AI features that need a large language model (like chat) run in the cloud by default, since Pieces no longer ships local models. When you use one, only a scoped, per-request slice of context is sent to the model—the rest of your data never leaves your machine. Telemetry is clearly marked, and you keep granular control over everything you share.
+AI features that need a large language model (like chat) run in the cloud by default. When you use one, only a scoped, per-request slice of context is sent to the model—the rest of your data never leaves your machine. Telemetry is clearly marked, and you keep granular control over everything you share.
 
 <Callout type="info">
   Pieces is **SOC 2 Type II certified** and enterprise-ready. We never use your data to train models, and you can delete everything at any time by removing the `com.pieces.os` folder.
@@ -75,7 +75,7 @@ Capture, indexing, and storage run on-device, your data is isolated per user, an
 * **Decentralized by default** — no centralized server holds your data, so there's no single point of failure.
 
 ### What Runs On-Device vs. Cloud
-Pieces captures and stores your data on-device. AI features that need a large language model run in the cloud, since Pieces no longer ships local models.
+Pieces captures and stores your data on-device. AI features that need a large language model run in the cloud.
 
 | **Capability** | **On-Device** | **Cloud** |
 | --- | :---: | :---: |

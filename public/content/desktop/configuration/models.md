@@ -2,7 +2,7 @@
 title: Models
 path: /desktop/configuration/models
 visibility: PRIVATE
-status: PUBLISHED
+status: DRAFT
 description: Manage AI models and model preferences.
 metaTitle: Models Settings in Pieces Desktop
 metaDescription: Manage AI models, configure processing modes, set up local model runtime, and enable or disable specific models.
